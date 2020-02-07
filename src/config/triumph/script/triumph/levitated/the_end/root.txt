@@ -1,0 +1,8 @@
+setIcon(<appliedenergistics2:material:9>)
+setTranslatedTitle("advancements.the_end.root.title")
+setTranslatedDescription("advancements.the_end.root.description")
+setBackground("minecraft:textures/gui/advancements/backgrounds/end.png")
+setShowToast(true)
+setPos(11,11)
+addCriteria("location", "minecraft:location")
+setRewardFunction("triumph:spawn")

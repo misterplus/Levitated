@@ -1,0 +1,2 @@
+spreadplayers 1000 1000 100 200 false @p
+spawnpoint @p
