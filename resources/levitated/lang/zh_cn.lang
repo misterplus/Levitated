@@ -16,7 +16,7 @@ advancements.levitated.end.endstone_shard.title=地之碎片
 advancements.levitated.end.endstone_shard.description=空手破坏末地石可以获得末地石碎片,它的锋利程度足够制作工具了.
 
 advancements.levitated.end.end_log.title=脆弱的生命
-advancements.levitated.end.end_log.description=龙树原木只能通过斧头采集.你尝试着使用锋利的末地石碎片破坏,妙啊!但你的暴力操作使得原木变成了木板.
+advancements.levitated.end.end_log.description=龙树原木只能通过斧头采集.你尝试着使用锋利的末地石碎片破坏,妙啊!但你的暴力操作使得原木变成了木板或...空气.
 
 advancements.levitated.end.tool_station.title=生存必需品
-advancements.levitated.end.tool_station.description=有了工具组装台后,你就能够做一些你需要的工具了,当然,只能用末地石.
+advancements.levitated.end.tool_station.description=有了工具组装台后,你就能够做一些你需要的工具了,当然,末地石是最好的.
