@@ -1,0 +1,13 @@
+[
+  {
+    "mob": ["minecraft:enderman"],
+    "result": "default",
+	"nbt": {
+		"carriedData": 0,
+		"carried": 1
+	}
+  },
+  {
+    "result": "default"
+  }
+]
