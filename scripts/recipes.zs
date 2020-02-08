@@ -4,5 +4,6 @@
 recipes.remove(<minecraft:crafting_table>);
 //Don't touch me!
 //#Add
-recipes.addShaped(<minecraft:crafting_table>, [[<ore:plankWood>, <ore:plankWood>, null],[<minecraft:end_bricks>, <minecraft:end_bricks>, null], [null, null, null]]);
+recipes.addShapeless(<minecraft:crafting_table>, [<ore:plankWood>,<ore:plankWood>,<minecraft:end_bricks>,<minecraft:end_bricks>]);
+recipes.addShapeless(<minecraft:end_stone>, [<tconstruct:shard>.withTag({Material: "endstone"}),<tconstruct:shard>.withTag({Material: "endstone"}),<tconstruct:shard>.withTag({Material: "endstone"}),<tconstruct:shard>.withTag({Material: "endstone"})]);
 //File End
