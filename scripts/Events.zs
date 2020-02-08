@@ -1,6 +1,7 @@
 import crafttweaker.events.IEventManager;
 import crafttweaker.item.IItemStack;
 import crafttweaker.block.IBlock;
+import crafttweaker.entity.IEntity;
 import crafttweaker.event.EnderTeleportEvent;
 import crafttweaker.event.BlockBreakEvent;
 
@@ -15,5 +16,6 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
 		event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
 	}
 });
+
 
 
