@@ -7,4 +7,7 @@ advancements.levitated.end.chorus_fruit.title=Unusual Fruit
 advancements.levitated.end.chorus_fruit.description=Consume a Chorus Fruit.
 
 advancements.levitated.end.ender_lilly.title=Eerie Plant
-advancements.levitated.end.ender_lilly.description=Break an Ender Lilly plant to get Ender Lilly (seeds). Ender Lilly grows on endstone and produce Ender Pearls.
+advancements.levitated.end.ender_lilly.description=Break an Ender Lilly plant to get Ender Lilly (seeds). Ender Lilly grows on Endstone and produce Ender Pearls.
+
+advancements.levitated.end.end_matter.title=Fragments of the World
+advancements.levitated.end.end_matter.description=Every Ender Teleport now creates a piece of Extraterrestrial Matter at the end location, this includes Enderman and Shulker teleportation, as well as player throwing an Ender Pearl.
