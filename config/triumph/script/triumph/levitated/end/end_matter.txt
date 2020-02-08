@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.end_matter.description")
 
 addParent("triumph:levitated/end/ender_lilly")
 setShowToast(true)
-setPos(59,-26)
+setPos(64,28)
 
 criteria = addCriteria("hasEndMatter", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:living_matter_extraterrestrial>)
