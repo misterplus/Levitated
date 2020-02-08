@@ -1,11 +1,11 @@
 /*
 !/config/
 /config/*
-!/config/dropt/*
-!/config/triumph/*
+!/config/dropt
+!/config/triumph
+!/resources
+!/scripts
 !/config/deepmoblearning.cfg
 !/config/voidislandcontrol.cfg
 !/perfectspawn.json
-!/resources/*
-!/scripts/*
 !/.gitignore
