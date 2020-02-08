@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.endstone_shard.description"
 
 addParent("triumph:levitated/end/root")
 setShowToast(true)
-setPos(21,61)
+setPos(21,28)
 
 criteria = addCriteria("hasEnderLilly", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:shard, nbt:{Material: "endstone"}>)
