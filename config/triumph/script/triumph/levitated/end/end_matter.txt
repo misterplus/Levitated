@@ -3,7 +3,7 @@ setIcon(<deepmoblearning:living_matter_extraterrestrial>)
 setTranslatedTitle("advancements.levitated.end.end_matter.title")
 setTranslatedDescription("advancements.levitated.end.end_matter.description")
 
-addParent("triumph:levitated/end/root")
+addParent("triumph:levitated/end/ender_lilly")
 setShowToast(true)
 setPos(59,-26)
 
