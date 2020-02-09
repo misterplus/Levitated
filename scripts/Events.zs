@@ -4,10 +4,16 @@ import crafttweaker.block.IBlock;
 import crafttweaker.entity.IEntity;
 import crafttweaker.event.EnderTeleportEvent;
 import crafttweaker.event.BlockBreakEvent;
+import mods.ctutils.utils.Math;
 
 //every ender teleport now creates a extraterrestrail matter on the ground
 events.onEnderTeleport(function(event as EnderTeleportEvent) {
-	event.entityLivingBase.world.spawnEntity(<deepmoblearning:living_matter_extraterrestrial>.createEntityItem(event.entityLivingBase.world, event.targetX, event.targetY, event.targetZ));
+	if isNull(event.entityLivingBase.definition){
+		event.entityLivingBase.world.spawnEntity(<deepmoblearning:living_matter_extraterrestrial>.createEntityItem(event.entityLivingBase.world, event.targetX, event.targetY, event.targetZ));
+	}
+	else if (Math.random() > 0.9 as double) {
+		event.entityLivingBase.world.spawnEntity(<deepmoblearning:living_matter_extraterrestrial>.createEntityItem(event.entityLivingBase.world, event.targetX, event.targetY, event.targetZ));
+	}
 });
 
 //breaking endstone with hands now drops endstone shards
