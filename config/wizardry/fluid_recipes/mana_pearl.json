@@ -6,7 +6,6 @@
 	"input": {
 		"item": "minecraft:ender_pearl"
 	},
-	"duration": 300,
-	"consume": true,
-	"harp": true
+	"duration": 60,
+	"consume": true
 }

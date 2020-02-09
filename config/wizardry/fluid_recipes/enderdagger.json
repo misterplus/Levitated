@@ -23,8 +23,7 @@
 		}
 	],
 	"required": 4,
-	"duration": 600,
+	"duration": 200,
 	"consume": true,
-	"explode": true,
-	"harp": true
+	"explode": true
 }
