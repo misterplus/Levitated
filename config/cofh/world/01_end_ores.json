@@ -1,30 +1,6 @@
 {
 	"dependencies": "netherendingores",
 	"populate": {
-        "end-coal": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-                    "name": "netherendingores:ore_end_vanilla",
-					"properties": {
-						"blocks": "coal_ore"
-                    }
-                },
-				"material": "minecraft:end_stone",
-				"cluster-size": 10
-			},
-			"cluster-count": 6,
-			"min-height": 40,
-			"max-height": 55,
-			"biome": "all",
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					1
-				]
-			}
-		},
-
 		"end-iron": {
 			"distribution": "uniform",
 			"generator": {

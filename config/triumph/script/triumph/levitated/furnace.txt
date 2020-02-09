@@ -1,9 +1,9 @@
 setIcon(<minecraft:furnace>)
 
-setTranslatedTitle("advancements.levitated.end.tool_station.title")
-setTranslatedDescription("advancements.levitated.end.tool_station.description")
+setTranslatedTitle("advancements.levitated.end.furnace.title")
+setTranslatedDescription("advancements.levitated.end.furnace.description")
 
-addParent("triumph:levitated/end/end_log")
+addParent("triumph:levitated/end/tool_station")
 setShowToast(true)
 setPos(104,28)
 
