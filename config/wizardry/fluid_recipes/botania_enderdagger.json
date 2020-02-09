@@ -1,0 +1,30 @@
+{
+	"output": {
+		"item": "botania:enderdagger"
+	},
+	"input": {
+		"item": "deepmoblearning:living_matter_extraterrestrial"
+	},
+	"extraInputs": [
+		{
+			"item": "botania:manaresource",
+			"data": 1
+		},
+		{
+			"item": "tconstruct:tool_rod",
+			"nbt": "{Material: \"wood\"}"
+		{
+			"item": "tconstruct:knife_blade",
+			"nbt": "{Material: \"endstone\"}"
+		},
+		{
+			"item": "tconstruct:binding",
+			"nbt": "{Material: \"endstone\"}"
+		}
+	],
+	"required": 4,
+	"duration": 600,
+	"consume": true,
+	"explode": true,
+	"harp": true
+}
