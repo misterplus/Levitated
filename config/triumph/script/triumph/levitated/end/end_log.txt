@@ -7,7 +7,7 @@ addParent("triumph:levitated/end/endstone_shard")
 setShowToast(true)
 setPos(62,28)
 
-criteria = addCriteria("hasEnderLilly", "minecraft:inventory_changed")
+criteria = addCriteria("hasEndLog", "minecraft:inventory_changed")
 criteria.addItem(<stygian:endplanks>)
 
 visibleIf("triumph:levitated/end/root")

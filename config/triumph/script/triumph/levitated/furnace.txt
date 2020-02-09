@@ -1,4 +1,4 @@
-setIcon(<tconstruct:tooltables:3>)
+setIcon(<minecraft:furnace>)
 
 setTranslatedTitle("advancements.levitated.end.tool_station.title")
 setTranslatedDescription("advancements.levitated.end.tool_station.description")
@@ -7,7 +7,7 @@ addParent("triumph:levitated/end/end_log")
 setShowToast(true)
 setPos(104,28)
 
-criteria = addCriteria("hasToolStation", "minecraft:inventory_changed")
-criteria.addItem(<tconstruct:tooltables:3>)
+criteria = addCriteria("hasFurnace", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:furnace>)
 
 visibleIf("triumph:levitated/end/root")

@@ -11,12 +11,11 @@
                     }
                 },
 				"material": "minecraft:end_stone",
-				"cluster-size": 17
+				"cluster-size": 10
 			},
-			"cluster-count": 20,
-			"min-height": 0,
-			"max-height": 128,
-			"retrogen": false,
+			"cluster-count": 6,
+			"min-height": 40,
+			"max-height": 55,
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
@@ -38,10 +37,9 @@
 				"material": "minecraft:end_stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 20,
-			"min-height": 0,
-			"max-height": 64,
-			"retrogen": false,
+			"cluster-count": 5,
+			"min-height": 30,
+			"max-height": 45,
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
@@ -63,10 +61,9 @@
 				"material": "minecraft:end_stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 2,
-			"min-height": 10,
-			"max-height": 42,
-			"retrogen": false,
+			"cluster-count": 4,
+			"min-height": 20,
+			"max-height": 35,
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
@@ -88,10 +85,9 @@
 				"material": "minecraft:end_stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 8,
+			"cluster-count": 5,
 			"min-height": 10,
-			"max-height": 26,
-			"retrogen": false,
+			"max-height": 25,
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
@@ -102,35 +98,57 @@
         },
 
         "end-diamond": {
-			"distribution": "uniform",
-			"generator": {
-				"type": "geode",
-				"block": "stygian:endobsidian",
-				"material": [
-					"minecraft:end_stone"
-				],
-				"hollow": true,
-				"filler": {
-					"name": "netherendingores:ore_end_vanilla",
-					"properties": {
-						"blocks": "diamond_ore"
+			"distribution": "cave",
+			"ceiling": true,
+			"generator": [
+				{
+					"type": "stalactite",
+					"block": [
+						{
+							"name": "netherendingores:ore_end_vanilla",
+							"properties": {
+								"blocks": "diamond_ore"
+							},
+							"weight": 25
+						},
+						{
+							"name": "stygian:endobsidian",
+							"weight": 75
+						}
+					],
+					"material": [
+						"minecraft:end_stone"
+					],
+					"gen-body": "minecraft:air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 7,
+					"height-variance": 3,
+					"height-mod": 3,
+					"gen-size": 0,
+					"size-variance": 2
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 6,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"stygian:acidic_plains"
+						]
 					}
-				},
-				"crust": "stygian:endobsidian"
+				]
 			},
-			"cluster-count": 4,
-			"chunk-chance": 4,
-			"min-height": 0,
-			"max-height": 20,
-			"biome": "all",
-			"in-village": false,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
 					1
 				]
 			}
-        },
+		},
 
         "end-lapis": {
 			"distribution": "gaussian",
@@ -145,10 +163,97 @@
 				"cluster-size": 7
 			},
 			"cluster-count": 1,
-			"center-height": 16,
-			"spread": 16,
-			"retrogen": false,
+			"center-height": 35,
+			"spread": 15,
 			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+        },
+        
+        "end-iron-nickel": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+                        "name": "netherendingores:ore_end_modded_1",
+                        "properties": {
+                            "blocks": "nickel_ore"
+                        },
+                        "weight": 25
+                    },
+					{
+                        "name": "netherendingores:ore_end_vanilla",
+                        "properties": {
+                            "blocks": "iron_ore"
+                        },
+						"weight": 75
+					}
+                ],
+				"material": "minecraft:end_stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 5,
+			"min-height": 20,
+			"max-height": 45,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"stygian:stygian_growth"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		
+		"end-silver-lead": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+                        "name": "netherendingores:ore_end_modded_1",
+                        "properties": {
+                            "blocks": "lead_ore",
+                            "weight": 40
+                        }
+                    },
+					{
+                        "name": "netherendingores:ore_end_modded_1",
+                        "properties": {
+                            "blocks": "silver_ore",
+                            "weight": 60
+                        }
+                    }
+                ],
+				"material": "minecraft:end_stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 4,
+			"min-height": 10,
+			"max-height": 35,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"stygian:stygian_growth"
+						]
+					}
+				]
+			},
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
