@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.furnace.description")
 
 addParent("triumph:levitated/end/tool_station")
 setShowToast(true)
-setPos(104,28)
+setPos(144,-15)
 
 criteria = addCriteria("hasFurnace", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:furnace>)
