@@ -12,14 +12,15 @@
 		},
 		{
 			"item": "tconstruct:tool_rod",
-			"nbt": "{Material: \"wood\"}"
+			"nbt": "{Material:\"wood\"}"
+		},
 		{
 			"item": "tconstruct:knife_blade",
-			"nbt": "{Material: \"endstone\"}"
+			"nbt": "{Material:\"endstone\"}"
 		},
 		{
 			"item": "tconstruct:binding",
-			"nbt": "{Material: \"endstone\"}"
+			"nbt": "{Material:\"endstone\"}"
 		}
 	],
 	"required": 4,
