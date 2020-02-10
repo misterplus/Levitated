@@ -9,7 +9,7 @@ Coding:
 Textures: 
 - Charged_coconut
 
-Translator: 
+Translatiors: 
 - Chinese:
   - Frost_yang
   - Hao_cen
