@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.tool_station.description")
 
 addParent("triumph:levitated/end/end_log")
 setShowToast(true)
-setPos(104,28)
+setPos(101,27)
 
 criteria = addCriteria("hasToolStation", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables:3>)
