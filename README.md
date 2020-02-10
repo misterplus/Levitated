@@ -12,6 +12,7 @@ Textures:
 <<<<<<< HEAD
 Translatiors: 
 =======
+Translators: 
 >>>>>>> pr/3
 - Chinese:
   - Frost_yang
