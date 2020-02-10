@@ -27,17 +27,17 @@ advancements.levitated.end.furnace.description=虽然这个冶炼炉还谈不上
 advancements.levitated.end.end_iron.title=矿物精华
 advancements.levitated.end.end_iron.description=随着主世界的崩溃坍塌,一些矿物分解为精华坠入虚空,并在末地石中慢慢复原,矿物包括铁,金,红石和青金石.
 
-advancements.levitated.end.end_coal.title=生命遗迹
-advancements.levitated.end.end_coal.description=煤炭在末地可是希有物品，生物质燃料兴许是个不错的选择，或许应该去Stygian Growth看看
+advancements.levitated.end.end_coal.title=生命的最后光芒
+advancements.levitated.end.end_coal.description=虽然你不能在传统末地群系找到煤,但在幽冥之林群系(Stygian Growth)可以找到一些,许多植物在那生长,凋零,腐败.
 
 advancements.levitated.end.end_diamond.title=虚空宝石
-advancements.levitated.end.end_diamond.description=与其他矿物不同的是，钻石似乎聚集在末地岛屿之下，在酸性平原 [ Acidic Plains ] 生物群系中形成斑岩尖峰 [ Porphyry spike ]。
+advancements.levitated.end.end_diamond.description=与其他矿物不同,钻石似乎都聚集在末地岛屿之下,在酸性平原群系(Acidic Plains)中以斑岩尖刺形式生成.
 
-advancements.levitated.end.mana_pool.title=原住民的遗产
-advancements.levitated.end.mana_pool.description=世界尽头的城市，似乎又有些不同，充满了魔法风格。
+advancements.levitated.end.mana_pool.title=先人的遗产
+advancements.levitated.end.mana_pool.description=除了无法探本穷源的末地船,先人们还在末地建造了另一种建筑,并在里面为后人留下了一些魔法相关的物品和一个魔力池.
 
-advancements.levitated.end.liquid_mana.title=神之馈赠
-advancements.levitated.end.liquid_mana.description=看我们发现了什么？一个野生的空魔力池，拿起桶，装上一桶魔力倒进去，就可以用了！方便程度是黑莲花的6倍!
+advancements.levitated.end.liquid_mana.title=上帝的恩赐
+advancements.levitated.end.liquid_mana.description=没有魔力的魔力池对你来说只是食之无味弃之可惜,幸运的是,幽冥之林群系(Stygian Growth)中有天然的魔法池,你可以用水桶收集这种液态的魔力倒入魔力池中.
 
-advancements.levitated.end.mana_usage.title=再生
-advancements.levitated.end.mana_usage.description=魔力有很多特殊的用途，比如把冥河草变成鲜活的草，或者把钙化的紫颂花变成骨块。这就是说你现在可以造花了，万岁！
+advancements.levitated.end.mana_usage.title=充满生机
+advancements.levitated.end.mana_usage.description=魔力有很多特殊的作用,比如把幽冥草地(Stygian Grass)变为鲜草草地,把紫颂花变为骨块.这意味着你现在可以养花了,耶!
