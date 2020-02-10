@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.liquid_mana.description")
 
 addParent("triumph:levitated/end/mana_pool")
 setShowToast(true)
-setPos(231,6)
+setPos(229,6)
 
 criteria = addCriteria("hasManaBucket", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, nbt:{FluidName: "mana_fluid", Amount: 1000}>)

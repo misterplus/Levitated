@@ -41,3 +41,18 @@ advancements.levitated.end.liquid_mana.description=A manaless pool ain't gonna h
 
 advancements.levitated.end.mana_usage.title=Regrowth
 advancements.levitated.end.mana_usage.description=Mana has many special properties, like turning Stygian Grass into Vivid Grass or calcify Chorus Flowers into Bone Blocks. That means you can create flowers now, hurray!
+
+advancements.levitated.end.living_blocks.title=Living Foundation
+advancements.levitated.end.living_blocks.description=The Pure Daisy is able to bring the End Stone back to life, thus enabling the possibility to craft Livingrocks as well as other materials such as the Livingwood.
+
+advancements.levitated.end.altar.title=Birthing Pond
+advancements.levitated.end.altar.description=This Petal Apothecary is gonna help you to create more magic flowers to aid you on your journey, but you might need some seeds to start with. Eventually the green ones, but for now some purple ones should do it.
+
+advancements.levitated.end.water.title=Water you waiting for?
+advancements.levitated.end.water.description=The Stygian Acid found in the Acidic Plains biome sure is harmful, but with proper tinkering, it can be purified into water. This is not the Overworld, so no infinite water for you, I'm afraid.
+
+advancements.levitated.end.clay_flower.title=Clayrify
+advancements.levitated.end.clay_flower.description=A flower named Clayconia can help you turn sand into clay, but you're probably wondering: Where do I get sand?!
+
+# Custom Tooltips
+tooltips.levitated.end_seeds=Seeds that had met its end.

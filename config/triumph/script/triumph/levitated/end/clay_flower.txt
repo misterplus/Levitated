@@ -1,0 +1,14 @@
+setIcon(<botania:specialflower, nbt:{type: "clayconia"}>)
+
+setTranslatedTitle("advancements.levitated.end.clay_flower.title")
+setTranslatedDescription("advancements.levitated.clay_flower.description")
+
+addParent("triumph:levitated/end/water")
+addParent("triumph:levitated/end/altar")
+setShowToast(true)
+setPos(364,-15)
+
+criteria = addCriteria("hasClayFlower", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{type: "clayconia"}>)
+
+visibleIf("triumph:levitated/end/root")

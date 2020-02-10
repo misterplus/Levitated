@@ -1,0 +1,14 @@
+setIcon(<botania:livingrock>)
+
+setTranslatedTitle("advancements.levitated.end.living_blocks.title")
+setTranslatedDescription("advancements.levitated.end.living_blocks.description")
+
+addParent("triumph:levitated/end/liquid_mana")
+setShowToast(true)
+setPos(271,6)
+
+criteria = addCriteria("hasBlockLiving", "minecraft:inventory_changed")
+criteria.addItem(<botania:livingwood>)
+criteria.addItem(<botania:livingrock>)
+
+visibleIf("triumph:levitated/end/root")
