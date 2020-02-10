@@ -91,6 +91,38 @@
         }
       },
       "drops": [{}]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "stygian:endtallgrass"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 90
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 10
+            }
+          },
+          "item": {
+            "items" : [
+              "contenttweaker:end_seeds"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

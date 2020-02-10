@@ -1,0 +1,13 @@
+setIcon(<botania:altar>)
+
+setTranslatedTitle("advancements.levitated.end.altar.title")
+setTranslatedDescription("advancements.levitated.end.altar.description")
+
+addParent("triumph:levitated/end/living_blocks")
+setShowToast(true)
+setPos(317,6)
+
+criteria = addCriteria("hasAltar", "minecraft:inventory_changed")
+criteria.addItem(<botania:altar>)
+
+visibleIf("triumph:levitated/end/root")

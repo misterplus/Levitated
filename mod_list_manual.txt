@@ -111,6 +111,7 @@ Triumph-1.12.2-3.19.2.jar
 valkyrielib-1.12.2-2.0.20.1.jar
 VanillaFix-1.0.10-99.jar
 voidislandcontrol-1.5.3.jar
+WaterControlExtreme-1.0.2.jar
 WirelessCraftingTerminal-1.12.2-3.12.97.jar
 wizardry-0.10.8.jar
 worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar
