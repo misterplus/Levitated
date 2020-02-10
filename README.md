@@ -2,9 +2,14 @@
 
 A Minecraft Modpack for 1.12.2
 ## Contributers
-Coding: MisterPlus
+Coding: 
+- MisterPlus
 
-Textures: Charged_coconut
+Textures: 
+- Charged_coconut
 
-Chinese translations: Frost_yang,Hao_cen
+Translatior: 
+- Chinese:
+  - Frost_yang
+  - Hao_cen
 
