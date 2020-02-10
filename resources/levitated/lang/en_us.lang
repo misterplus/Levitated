@@ -34,4 +34,7 @@ advancements.levitated.end.end_diamond.title=Gems of Void
 advancements.levitated.end.end_diamond.description=Unlike other minerals, diamonds seem to accumulate under the End islands, forming a Porphyry spike in the Acidic Plains biome.
 
 advancements.levitated.end.mana_pool.title=Legacy of the Aboriginals
-advancements.levitated.end.mana_pool.description=It's common knowledge that there's buildings in the end, but there's more to that, it's said that those who came before actually invented magic in this dimension, now it's up to you to find them. Maybe a Mana Pool to start with.
+advancements.levitated.end.mana_pool.description=Buildings other than End Ships spawn in the end, which contains several magic items such as an Mana Pool.
+
+advancements.levitated.end.liquid_mana.title=Gifts of God
+advancements.levitated.end.liquid_mana.description=A manaless pool ain't gonna help you much, but fortunately there's natural pools of mana in the Stygian Growth biome. You can use buckets to collect this form of mana and pour it into the Mana Pool.

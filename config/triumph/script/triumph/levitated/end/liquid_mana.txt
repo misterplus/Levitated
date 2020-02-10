@@ -1,0 +1,13 @@
+setIcon(<forge:bucketfilled>.withTag({FluidName: "mana_fluid", Amount: 1000}))
+
+setTranslatedTitle("advancements.levitated.end.liquid_mana.title")
+setTranslatedDescription("advancements.levitated.end.liquid_mana.description")
+
+addParent("triumph:levitated/end/mana_pool")
+setShowToast(true)
+setPos(188,7)
+
+criteria = addCriteria("hasManaBucket", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled>.withTag({FluidName: "mana_fluid", Amount: 1000}))
+
+visibleIf("triumph:levitated/end/root")
