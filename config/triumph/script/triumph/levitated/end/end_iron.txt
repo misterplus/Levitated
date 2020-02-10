@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.end_iron.description")
 
 addParent("triumph:levitated/end/tool_station")
 setShowToast(true)
-setPos(144,28)
+setPos(144,-58)
 
 criteria = addCriteria("hasEndIron", "minecraft:inventory_changed")
 criteria.addItem(<netherendingores:ore_end_vanilla:4>)
