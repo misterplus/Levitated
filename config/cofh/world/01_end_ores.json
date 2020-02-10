@@ -1,6 +1,40 @@
 {
 	"dependencies": "netherendingores",
 	"populate": {
+		"end-coal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "netherendingores:ore_end_vanilla",
+					"properties": {
+						"blocks": "coal_ore"
+                    }
+                },
+				"material": "minecraft:end_stone",
+				"cluster-size": 10
+			},
+			"cluster-count": 6,
+			"min-height": 40,
+			"max-height": 55,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"stygian:stygian_growth"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+
 		"end-iron": {
 			"distribution": "uniform",
 			"generator": {
