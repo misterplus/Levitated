@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.water.description")
 
 addParent("triumph:levitated/end/living_blocks")
 setShowToast(true)
-setPos(50,50)
+setPos(317,-34)
 
 criteria = addCriteria("hasAcid", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, nbt:{FluidName: "endacid", Amount: 1000}>)
