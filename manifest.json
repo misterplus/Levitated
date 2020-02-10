@@ -1,0 +1,23 @@
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2847",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Levitated",
+  "version": "0.0.0.1-alpha",
+  "author": ["misterplus","EnergyCoco","FrostYang","Hao_cen"],
+  "files": [
+    {
+      "projectID": 225194,
+      "fileID": 2491032,
+      "required": true
+    }],
+  "overrides": "overrides"
+}
