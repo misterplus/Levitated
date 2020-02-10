@@ -8,7 +8,7 @@ Coding:
 Textures: 
 - Charged_coconut
 
-Translatior: 
+Translatiors: 
 - Chinese:
   - Frost_yang
   - Hao_cen
