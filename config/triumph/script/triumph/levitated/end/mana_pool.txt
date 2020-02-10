@@ -1,0 +1,14 @@
+setIcon(<botania:pool>)
+
+setTranslatedTitle("advancements.levitated.end.mana_pool.title")
+setTranslatedDescription("advancements.levitated.end.mana_pool.description")
+
+addParent("triumph:levitated/end/furnace")
+addParent("triumph:levitated/end/end_iron")
+setShowToast(true)
+setPos(190,6)
+
+criteria = addCriteria("hasManaPool", "minecraft:inventory_changed")
+criteria.addItem(<botania:pool>)
+
+visibleIf("triumph:levitated/end/root")
