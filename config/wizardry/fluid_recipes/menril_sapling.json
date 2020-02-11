@@ -1,0 +1,12 @@
+{
+    "type": "item",
+    "output":{
+        "item": "integrateddynamics:menril_sapling"
+    },
+    "input":{
+        "item": "stygian:endcanopysapling"
+    },
+    "duration": 200,
+    "required": 9,
+    "consume": true
+}

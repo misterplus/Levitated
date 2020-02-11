@@ -1,0 +1,13 @@
+setIcon(<netherendingores:ore_end_modded_1:1>)
+
+setTranslatedTitle("advancements.levitated.end.end_copper.title")
+setTranslatedDescription("advancements.levitated.end.end_copper.description")
+
+addParent("triumph:levitated/end/coke_oven")
+setShowToast(true)
+setPos(447,-15)
+
+criteria = addCriteria("hasEndCopper", "minecraft:inventory_changed")
+criteria.addItem(<netherendingores:ore_end_modded_1:1>)
+
+visibleIf("triumph:levitated/end/root")

@@ -66,5 +66,11 @@ advancements.levitated.end.ender_iron.description=Enderman is capable of infusin
 advancements.levitated.end.blast_furnace.title=Blast Off
 advancements.levitated.end.blast_furnace.description=End Infused Iron's flammable property is great for a Blast Furnace, which is a multiblock for producing Steel, which is essential for machine building.
 
+advancements.levitated.end.end_copper.title=Mr. Cooper
+advancements.levitated.end.end_copper.description=Ores including Copper, Aluminum, Silver, Lead and Nickel are found in the Stygian Growth biome.
+
+advancements.levitated.end.end_uranium.title=Radioactive
+advancements.levitated.end.end_uranium.description=Uranium Ore spawns like Diamond Ores, but only in the Leachstone Spikes under the Stygian Growth islands.
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.

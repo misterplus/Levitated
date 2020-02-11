@@ -1,0 +1,13 @@
+setIcon(<netherendingores:ore_end_modded_1:12>)
+
+setTranslatedTitle("advancements.levitated.end.end_uranium.title")
+setTranslatedDescription("advancements.levitated.end.end_uranium.description")
+
+addParent("triumph:levitated/end/coke_oven")
+setShowToast(true)
+setPos(447,-58)
+
+criteria = addCriteria("hasEndUranium", "minecraft:inventory_changed")
+criteria.addItem(<netherendingores:ore_end_modded_1:12>)
+
+visibleIf("triumph:levitated/end/root")
