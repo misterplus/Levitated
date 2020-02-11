@@ -1,8 +1,6 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
-recipes.removeShaped(<immersiveengineering:stone_decoration:1> * 3, [[<minecraft:netherbrick>, <minecraft:brick>, <minecraft:netherbrick>],[<minecraft:brick>, <minecraft:blaze_powder>, <minecraft:brick>], [<minecraft:netherbrick>, <minecraft:brick>, <minecraft:netherbrick>]]);
-recipes.remove(<minecraft:crafting_table>);
 //Don't touch me!
 //#Add
 recipes.addShaped(<minecraft:furnace>, [[<minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>],[<minecraft:end_stone>, null, <minecraft:end_stone>], [<minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>]]);

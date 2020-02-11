@@ -34,3 +34,6 @@ mods.botania.ManaInfusion.addInfusion(<contenttweaker:end_iron_chunk>, <contentt
 
 //Crude Blast Furnace block recipe
 mods.botania.RuneAltar.addRecipe(<immersiveengineering:stone_decoration:1> * 3,[<minecraft:brick_block>, <wizardry:nacre_block_brick>, <contenttweaker:end_iron_chunk>], 5000);
+
+//Alternative Fire Rune recipe
+mods.botania.RuneAltar.addRecipe(<minecraft:planks>,[<minecraft:grass>, <minecraft:dirt>], 200);

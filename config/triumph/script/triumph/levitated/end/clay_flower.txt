@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.end.clay_flower.description")
 addParent("triumph:levitated/end/water")
 addParent("triumph:levitated/end/altar")
 setShowToast(true)
-setPos(359,-15)
+setPos(357,-34)
 
 criteria = addCriteria("hasClayFlower", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type: "clayconia"}>)
