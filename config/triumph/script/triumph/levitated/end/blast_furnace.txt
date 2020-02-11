@@ -7,7 +7,7 @@ setTranslatedDescription("advancements.levitated.end.blast_furnace.description")
 addParent("triumph:levitated/end/clay_flower")
 addParent("triumph:levitated/end/ender_iron")
 setShowToast(true)
-setPos(406,6)
+setPos(406,-74)
 
 criteria = addCriteria("formed_blast_furnace", "immersiveengineering:multiblock_formed")
 criteria.setMultiblock("IE:BlastFurnace")

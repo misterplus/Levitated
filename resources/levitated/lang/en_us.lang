@@ -74,3 +74,4 @@ advancements.levitated.end.end_uranium.description=Uranium Ore spawns like Diamo
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
+tooltips.levitated.origin_book=Right click to set your spawnpoint.
