@@ -22,17 +22,17 @@ advancements.levitated.end.end_log.description=嘗試空手破壞木頭時你將
 advancements.levitated.end.tool_station.title=進階の工具
 advancements.levitated.end.tool_station.description=記憶突然湧現，這使你的工匠の魂熊熊燃燒，但是哪個材料更好呢？
 
-advancements.levitated.end.furnace.title=熱門焦點-終界
+advancements.levitated.end.furnace.title=終界の熱門焦點
 advancements.levitated.end.furnace.description=依靠記憶，你合成出來了一個冶煉爐，雖然有些簡陋，但又不是不可以使用
 
 advancements.levitated.end.end_iron.title=新の發現
 advancements.levitated.end.end_iron.description=隨你一起進入終界的還有主世界的物質，不僅僅有礦物，還有些廢墟
 
-advancements.levitated.end.end_coal.title=廢墟探險
-advancements.levitated.end.end_coal.description=煤炭在終界可是稀有物品，生物質燃料興許是個不錯的選擇，或許應該去 Stygian Growth 看看
+advancements.levitated.end.end_coal.title=廢墟の探險
+advancements.levitated.end.end_coal.description=煤炭在終界可是稀有物品，木頭也不在可以燒成木炭，或許應該去 Stygian Growth 看看
 
 advancements.levitated.end.end_diamond.title=虛空の寶石
-advancements.levitated.end.end_diamond.description=鑽石比較喜歡特立獨行，選擇了吊在終界大陸下方，高收益往往伴隨著高風險
+advancements.levitated.end.end_diamond.description=鑽石比較喜歡特立獨行，選擇了掛在終界大陸下方，高收益往往伴隨著高風險
 
 advancements.levitated.end.mana_pool.title=原住民の遺物
 advancements.levitated.end.mana_pool.description=熟悉的廢墟，不熟悉的廢墟，空氣中瀰漫著魔力的氣息
@@ -40,38 +40,38 @@ advancements.levitated.end.mana_pool.description=熟悉的廢墟，不熟悉的�
 advancements.levitated.end.liquid_mana.title=神の餽贈
 advancements.levitated.end.liquid_mana.description=空的魔力池可不好用，但是到處都是魔力液體，用桶撈起來可能會有奇跡
 
-advancements.levitated.end.mana_usage.title=馬娜轉換
+advancements.levitated.end.mana_usage.title=馬娜の轉換
 advancements.levitated.end.mana_usage.description=記憶再次湧現，但是能轉化的不只是記憶中的物品
 
 advancements.levitated.end.living_blocks.title=淨化
-advancements.levitated.end.living_blocks.description=白雛菊，可是我沒有石頭怎麼辦
+advancements.levitated.end.living_blocks.description=白雛菊擁有強大的淨化力，可是我沒有石頭怎麼辦
 
 advancements.levitated.end.altar.title=注入
 advancements.levitated.end.altar.description=早知道就備一點種子了，現在只能希望這個奇怪的種子還有用
 
 advancements.levitated.end.water.title=生命の源
-advancements.levitated.end.water.description=白雛菊可以把水變成冰，那麼酸應該是含有水分的吧
+advancements.levitated.end.water.description=記憶中白雛菊可以把水變成冰，那麼酸應該是含有水分的吧
 
 advancements.levitated.end.clay_flower.title=兒童の友
-advancements.levitated.end.clay_flower.description=黏土，黏土花，黏土
+advancements.levitated.end.clay_flower.description=終界岩漿塊，魔力液體，沙子，黏土花，黏土，一氣呵成
 
 advancements.levitated.end.coke_oven.title=燒成灰燼吧
-advancements.levitated.end.coke_oven.description=百事可樂公司宣佈對此負責
+advancements.levitated.end.coke_oven.description=木頭在灰燼的路上越走越遠，百事可樂公司宣佈對此負責
 
-advancements.levitated.end.enderdagger.title=安德獵手
-advancements.levitated.end.enderdagger.description=別忘了訂閱
+advancements.levitated.end.enderdagger.title=安德の獵手
+advancements.levitated.end.enderdagger.description=別忘了訂閱我的YouTube頻道！
 
 advancements.levitated.end.ender_iron.title=虛空の礦物
-advancements.levitated.end.ender_iron.description=聚影鐵，安德們都喜歡
+advancements.levitated.end.ender_iron.description=聚影鐵，安德們都喜歡，也許刷怪塔是個不錯的選擇
 
 advancements.levitated.end.blast_furnace.title=統一勝過獨立
 advancements.levitated.end.blast_furnace.description=聚影鐵和高爐更配哦 §0就像台灣和大陸一樣
 
 advancements.levitated.end.end_copper.title=煉銅術士
-advancements.levitated.end.end_copper.description= Stygian Growth 不僅僅有銅和鑽石
+advancements.levitated.end.end_copper.description= Stygian Growth 不僅僅有銅和鑽石，你需要更多的資源
 
 advancements.levitated.end.end_uranium.title=放射性
-advancements.levitated.end.end_uranium.description=鑽石和鈾礦是一夥的 §0就像台灣和大陸一樣
+advancements.levitated.end.end_uranium.description=鑽石和鈾礦是一夥的，都喜歡掛在終界島嶼下方 §0就像台灣和大陸一樣
 
-# Custom Tooltips
+# 客製化工具提示
 tooltips.levitated.end_seeds=它本來可以種出什麼的
