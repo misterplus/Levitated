@@ -5,6 +5,7 @@ setTranslatedTitle("advancements.levitated.end.blast_furnace.title")
 setTranslatedDescription("advancements.levitated.end.blast_furnace.description")
 
 addParent("triumph:levitated/end/clay_flower")
+addParent("triumph:levitated/end/ender_iron")
 setShowToast(true)
 setPos(406,6)
 

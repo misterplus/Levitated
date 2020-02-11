@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.end.ender_iron.description")
 
 addParent("triumph:levitated/end/enderdagger")
 setShowToast(true)
-setPos(317,44)
+setPos(359,36)
 
 criteria = addCriteria("hasEnderIron", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:end_iron>)
