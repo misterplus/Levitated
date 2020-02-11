@@ -2,7 +2,7 @@ Parser.addRequiredMod("contenttweaker")
 setIcon(<contenttweaker:end_iron>)
 
 setTranslatedTitle("advancements.levitated.end.ender_iron.title")
-setTranslatedDescription("advancements.levitated.ender_iron.description")
+setTranslatedDescription("advancements.levitated.end.ender_iron.description")
 
 addParent("triumph:levitated/end/enderdagger")
 setShowToast(true)

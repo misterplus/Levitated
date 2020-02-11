@@ -1,7 +1,7 @@
 setIcon(<botania:enderdagger>)
 
 setTranslatedTitle("advancements.levitated.end.enderdagger.title")
-setTranslatedDescription("advancements.levitated.enderdagger.description")
+setTranslatedDescription("advancements.levitated.end.enderdagger.description")
 
 addParent("triumph:levitated/end/liquid_mana")
 setShowToast(true)

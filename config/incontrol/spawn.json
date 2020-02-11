@@ -1,12 +1,14 @@
 [
   {
-    "mob": ["minecraft:enderman"],
+    "mob": "minecraft:enderman",
     "result": "default",
-	"nbt": {
-		"carriedData": 0,
-		"carried": 1
-	}
+    "healthmultiply": 3,
+    "nbt": {
+      "carried": "contenttweaker:end_iron"
+    },
+    "random": 0.05
   },
+
   {
     "result": "default"
   }

@@ -1,7 +1,7 @@
 setIcon(<botania:specialflower, nbt:{type: "clayconia"}>)
 
 setTranslatedTitle("advancements.levitated.end.clay_flower.title")
-setTranslatedDescription("advancements.levitated.clay_flower.description")
+setTranslatedDescription("advancements.levitated.end.clay_flower.description")
 
 addParent("triumph:levitated/end/water")
 addParent("triumph:levitated/end/altar")
