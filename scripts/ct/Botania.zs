@@ -33,7 +33,10 @@ mods.botania.PureDaisy.addRecipe(<liquid:endacid>, <minecraft:ice>, 600);
 mods.botania.ManaInfusion.addInfusion(<contenttweaker:end_iron_chunk>, <contenttweaker:end_iron>, 2500);
 
 //Crude Blast Furnace block recipe
-mods.botania.RuneAltar.addRecipe(<immersiveengineering:stone_decoration:1> * 3,[<minecraft:brick_block>, <wizardry:nacre_block_brick>, <contenttweaker:end_iron_chunk>], 5000);
+mods.botania.RuneAltar.addRecipe(<immersiveengineering:stone_decoration:1> * 3,[<minecraft:brick_block>, <tconstruct:firewood:1>, <contenttweaker:end_iron_chunk>], 5200);
 
 //Alternative Fire Rune recipe
-mods.botania.RuneAltar.addRecipe(<minecraft:planks>,[<minecraft:grass>, <minecraft:dirt>], 200);
+mods.botania.RuneAltar.addRecipe(<botania:rune:1> * 2,[<botania:manaresource:23>, <botania:manaresource>, <tconstruct:firewood:1>, <minecraft:gunpowder>, <minecraft:dragon_breath>], 6000);
+
+//Alternative Air Rune recipe
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2,[<botania:manaresource:23>, <botania:manaresource>, <minecraft:string>, <minecraft:carpet:*>, <tconstruct:sharpening_kit>.withTag({Material: "paper"})], 6000);
