@@ -57,9 +57,14 @@ advancements.levitated.end.clay_flower.description=A flower named Clayconia can 
 advancements.levitated.end.coke_oven.title=Not for Coke
 advancements.levitated.end.coke_oven.description=A normal Furnace cannot smelt logs into Charcoal, but this Coke Oven definately can.
 
-advancements.levitated.end.blast_furnace.title=
-advancements.levitated.end.blast_furnace.description=
+advancements.levitated.end.enderdagger.title=Subs...Soulscribe!
+advancements.levitated.end.enderdagger.description=Tired of killing Enderman? Then this dagger is just for you!
 
+advancements.levitated.end.ender_iron.title=Extraterrestrial
+advancements.levitated.end.ender_iron.description=Enderman is capable of infusing Iron Ore with certain end elements, which means some Endermen might hold a special block in their hands. With proper techniques, you managed to extract a brand new metal called End Infused Iron.
+
+advancements.levitated.end.blast_furnace.title=Blast Off
+advancements.levitated.end.blast_furnace.description=End Infused Iron's flammable property is great for a Blast Furnace, which is a multiblock for producing Steel, which is essential for machine building.
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.

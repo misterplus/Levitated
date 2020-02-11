@@ -1,0 +1,14 @@
+Parser.addRequiredMod("contenttweaker")
+setIcon(<contenttweaker:end_iron>)
+
+setTranslatedTitle("advancements.levitated.end.ender_iron.title")
+setTranslatedDescription("advancements.levitated.ender_iron.description")
+
+addParent("triumph:levitated/end/enderdagger")
+setShowToast(true)
+setPos(317,44)
+
+criteria = addCriteria("hasEnderIron", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:end_iron>)
+
+visibleIf("triumph:levitated/end/root")

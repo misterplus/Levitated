@@ -1,0 +1,13 @@
+setIcon(<botania:enderdagger>)
+
+setTranslatedTitle("advancements.levitated.end.enderdagger.title")
+setTranslatedDescription("advancements.levitated.enderdagger.description")
+
+addParent("triumph:levitated/end/liquid_mana")
+setShowToast(true)
+setPos(271,44)
+
+criteria = addCriteria("hasEnderDagger", "minecraft:inventory_changed")
+criteria.addItem(<botania:enderdagger>)
+
+visibleIf("triumph:levitated/end/root")

@@ -1,3 +1,5 @@
+#priority 8
+
 //remove
 recipes.remove(<botania:enderdagger>);
 recipes.remove(<botania:altar>);
@@ -26,3 +28,9 @@ recipes.addShaped(<botania:altar>, [[<minecraft:purpur_slab>, <ore:petal>, <mine
 
 //Pure Daisy can turn end acid into water(ice cause it's block only)
 mods.botania.PureDaisy.addRecipe(<liquid:endacid>, <minecraft:ice>, 600);
+
+//Ender Iron Chunk recipe
+mods.botania.ManaInfusion.addInfusion(<contenttweaker:end_iron_chunk>, <contenttweaker:end_iron>, 2500);
+
+//Crude Blast Furnace block recipe
+mods.botania.RuneAltar.addRecipe(<immersiveengineering:stone_decoration:1> * 3,[<minecraft:brick_block>, <wizardry:nacre_block_brick>, <contenttweaker:end_iron_chunk>], 5000);

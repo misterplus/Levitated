@@ -90,6 +90,7 @@ plustic-7.1.6.1.jar
 randompatches-1.12.2-1.21.0.0.jar
 reauth-3.6.0.jar
 RedstoneFlux-1.12-2.1.0.6-universal.jar
+ResourceLoader-MC1.12.1-1.5.3.jar
 Ruins-1.12.2.jar
 scanner-1.6.3.jar
 seedprotect-1.12.2-1.2.0.jar
