@@ -1,0 +1,13 @@
+setIcon(<minecraft:wheat_seeds>)
+
+setTranslatedTitle("advancements.levitated.end.grass_seeds.title")
+setTranslatedDescription("advancements.levitated.end.grass_seeds.description")
+
+addParent("triumph:levitated/end/alfheim")
+setShowToast(true)
+setPos(406,6)
+
+criteria = addCriteria("hasGrassSeeds", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:wheat_seeds>)
+
+visibleIf("triumph:levitated/end/root")

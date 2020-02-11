@@ -1,0 +1,13 @@
+setIcon(<immersiveengineering:seed>)
+
+setTranslatedTitle("advancements.levitated.end.string.title")
+setTranslatedDescription("advancements.levitated.end.string.description")
+
+addParent("triumph:levitated/end/grass_seeds")
+setShowToast(true)
+setPos(446,6)
+
+criteria = addCriteria("hasString", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:string>)
+
+visibleIf("triumph:levitated/end/root")

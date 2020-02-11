@@ -1,0 +1,12 @@
+setIcon(<botania:alfheimportal>)
+
+setTranslatedTitle("advancements.levitated.end.alfheim.title")
+setTranslatedDescription("advancements.levitated.end.alfheim.description")
+
+addParent("triumph:levitated/end/altar")
+setShowToast(true)
+setPos(357,6)
+
+addCriteria("location", "minecraft:location")
+
+visibleIf("triumph:levitated/end/altar")

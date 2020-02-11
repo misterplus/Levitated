@@ -1,0 +1,13 @@
+setIcon(<botania:rune:1>)
+
+setTranslatedTitle("advancements.levitated.end.fire_rune.title")
+setTranslatedDescription("advancements.levitated.end.fire_rune.description")
+
+addParent("triumph:levitated/end/alfheim")
+setShowToast(true)
+setPos(406,44)
+
+criteria = addCriteria("hasFireRune", "minecraft:inventory_changed")
+criteria.addItem(<botania:rune:1>)
+
+visibleIf("triumph:levitated/end/alfheim")
