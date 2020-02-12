@@ -66,5 +66,28 @@ advancements.levitated.end.ender_iron.description=末影人能够将某种末地
 advancements.levitated.end.blast_furnace.title=温度过高,速度过慢
 advancements.levitated.end.blast_furnace.description=聚影铁的可燃性非常适合用来制作高炉砖,高炉是用来炼钢的多方块机器,钢是制造机器的必要材料.
 
+advancements.levitated.end.end_copper.title=炼铜术士
+advancements.levitated.end.end_copper.description=经过探索,在幽冥之林群系(Stygian Growth)中,你发现了铜,铝,银,铅和镍等矿石.
+
+advancements.levitated.end.end_uranium.title=需要防化服吗
+advancements.levitated.end.end_uranium.description=铀矿的生成方式与钻石矿相同,但只在幽冥之林群系(Stygian Growth)岛屿下方的多孔滤石尖刺中生成.
+
+advancements.levitated.end.grass_seeds.title=末地可没有光合作用
+advancements.levitated.end.grass_seeds.description=虽然末地种子能够制造花朵,但它们是不可再生的.在你了解了一些炼金魔法后,制作一些其他的种子已经不成问题了.先做一个小麦种子吧.
+
+advancements.levitated.end.string.title=亚洲捆绑
+advancements.levitated.end.string.description=由于周边并没有动物,工业大麻成为线的主要来源.
+
+advancements.levitated.end.alfheim.title=第四维度
+advancements.levitated.end.alfheim.description=待在末地并不能帮你重建主世界,但去地狱肯定可以!但是要怎么做呢?通过浏览植物魔法辞典,你发现了艾尔夫海姆(Alfheim),这个维度容纳了数以千计的精灵,它们可能对地狱有所了解.你决定着手建造一个传送门.
+
+advancements.levitated.end.alchemy.title=终极炼金
+advancements.levitated.end.alchemy.description=末地非常贫瘠,但似乎炼金催化器是可以制作出来的,探索一些末地船,看看你能发现什么.
+
+advancements.levitated.end.fire_rune.title=清新口气你我更亲近
+advancements.levitated.end.fire_rune.description=还记得末影龙吗?我们也许得去看望她一下,前往地狱之前,手头的地狱资源非常匮乏,制作火之符文比以前难得多.幸运的是,一瓶龙息可能会对你有所帮助,但杀死那条龙并不简单...
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
+tooltips.levitated.origin_book=右击来设置你的重生点
+description.levitated.end_iron_chunk=使用聚影铁碎片右击龙木木板能够制作出一块烈焰木.
