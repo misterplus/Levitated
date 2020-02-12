@@ -23,7 +23,17 @@ end_iron_chunk.register();
 var origin_book = VanillaFactory.createItem("origin_book");
 origin_book.itemRightClick = function(stack, world, player, hand) {
     Commands.call("spawnpoint @p", player, world, false, true);
+    Commands.call("tellraw @p {\"translate\":\"item.contenttweaker.origin_book.message\"}", player, world, false, true);
     stack.shrink(1);
     return "SUCCESS";
 };
 origin_book.register();
+
+var nether_book = VanillaFactory.createItem("nether_book");
+nether_book.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage silentadd @p End_Copper", player, world, false, true);
+    Commands.call("gamestage silentadd @p Nether", player, world, false, true);
+    stack.shrink(1);
+    return "SUCCESS";
+};
+nether_book.register();

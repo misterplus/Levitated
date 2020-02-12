@@ -1,0 +1,13 @@
+setIcon(<contenttweaker:nether_book>)
+
+setTranslatedTitle("advancements.levitated.end.nether_knowledge.title")
+setTranslatedDescription("advancements.levitated.end.nether_knowledge.description")
+
+addParent("triumph:levitated/end/natura_pylon")
+setShowToast(true)
+setPos(640,6)
+
+criteria = addCriteria("useNetherBook", "triumph:right_click_item")
+criteria.setItem(<contenttweaker:nether_book>)
+
+visibleIf("triumph:levitated/end/root")

@@ -96,6 +96,9 @@ advancements.levitated.end.terrasteel.description=The creation of Terrasteel req
 advancements.levitated.end.natura_pylon.title=Portal Stablizer
 advancements.levitated.end.natura_pylon.description=Crafting these Natura Pylons needs Eye of Enders, but you've found the perfect substitute.
 
+advancements.levitated.end.nether_knowledge.title=The Under Realm
+advancements.levitated.end.nether_knowledge.description=Originally, travelling to the Nether would require building a portal in the Overworld. But after exchanging some information with the elves, you found that since the barriers between realms have collapsed, now you are able to travel to the nether simply by going through the top of the End! But the Nether is still a dimension of nothingness, you need to figure out a way to regenerate the Nether.
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.
