@@ -3,7 +3,7 @@
 //remove
 recipes.remove(<botania:enderdagger>);
 recipes.remove(<botania:altar>);
-
+recipes.remove(<botania:rfgenerator>);
 //add
 
 //Consuming negative amount of mana results in adding mana to the pool
@@ -30,14 +30,11 @@ mods.botania.PureDaisy.addRecipe(<liquid:endacid>, <minecraft:ice>, 600);
 //Ender Iron Chunk recipe
 mods.botania.ManaInfusion.addInfusion(<contenttweaker:end_iron_chunk>, <contenttweaker:end_iron>, 2500);
 
-//Crude Blast Furnace block recipe
-mods.botania.RuneAltar.addRecipe(<immersiveengineering:stone_decoration:1> * 3,[<minecraft:brick_block>, <tconstruct:firewood:1>, <contenttweaker:end_iron_chunk>], 5200);
-
 //Alternative Fire Rune recipe
 mods.botania.RuneAltar.addRecipe(<botania:rune:1> * 2,[<botania:manaresource:23>, <botania:manaresource>, <tconstruct:firewood:1>, <minecraft:gunpowder>, <minecraft:dragon_breath>], 6000);
 
-//Alternative Air Rune recipe
-mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2,[<botania:manaresource:23>, <botania:manaresource>, <minecraft:carpet:*>, <tconstruct:sharpening_kit>.withTag({Material: "paper"}), <minecraft:string>], 6000);
+//Recipe for feather
+mods.botania.ManaInfusion.addAlchemy(<minecraft:feather>, <tconstruct:sharpening_kit>.withTag({Material: "paper"}), 1500);
 
 //Elven trade for unlocking the nether
 mods.botania.ElvenTrade.addRecipe([<contenttweaker:nether_book>], [<minecraft:book>]);
@@ -47,3 +44,19 @@ recipes.addShaped(<botania:pylon:1>, [[null, <botania:manaresource:18>, null],[<
 
 //Alternative glow living wood recipe
 recipes.addShapeless(<botania:livingwood:5>, [<botania:livingwood>,<stygian:endglow>]);
+
+//Remove glowstone from redstone
+mods.botania.ManaInfusion.removeRecipe(<minecraft:glowstone_dust>);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:glowstone_dust> * 4, <minecraft:glowstone>, 25);
+mods.botania.ManaInfusion.addConjuration(<minecraft:glowstone_dust> * 2, <minecraft:glowstone_dust>, 5000);
+
+//Orechid Endium
+<ore:oreEndCopper>.addItems([<netherendingores:ore_end_modded_1:1>]);
+<ore:oreEndCoal>.addItems([<netherendingores:ore_end_vanilla:0>]);
+<ore:oreEndDiamond>.addItems([<netherendingores:ore_end_vanilla:1>]);
+<ore:oreEndGold>.addItems([<netherendingores:ore_end_vanilla:3>]);
+<ore:oreEndIron>.addItems([<netherendingores:ore_end_vanilla:4>]);
+<ore:oreEndLapis>.addItems([<netherendingores:ore_end_vanilla:5>]);
+<ore:oreEndRedstone>.addItems([<netherendingores:ore_end_vanilla:6>]);
+
+
