@@ -87,6 +87,12 @@ advancements.levitated.end.alchemy.description=The End might lack tons of requir
 advancements.levitated.end.fire_rune.title=Bad Breath
 advancements.levitated.end.fire_rune.description=Remember that Ender Dragon? We might need to pay her a visit. Because of the lack of Nether materials, creating a Fire Rune is way harder than it was before. Fortunately, a bottle of Dragon's Breath could help. But slaying that dragon ain't a easy task...
 
+advancements.levitated.end.terra_plate.title=Agglomeration
+advancements.levitated.end.terra_plate.description=The Terrestrial Agglomeration Plate is a crucial step for Terrasteel, which is the key ingredient for a alfheim portal. Assuming you somehow collected all five runes, this shouldn't be too hard.
+
+advancements.levitated.end.terrasteel.title=Otherworldly
+advancements.levitated.end.terrasteel.description=The creation of Terrasteel requires tons of mana, which is quite a challenge for a new Botanist like you.
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.
