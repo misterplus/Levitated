@@ -81,6 +81,12 @@ advancements.levitated.end.string.description=Industrial Hemp is a great source 
 advancements.levitated.end.alfheim.title=The Fourth Dimension
 advancements.levitated.end.alfheim.description=Staying in the End ain't gonna help you rebuild the Overworld, but going to the Nether definitely can! But how? After a brief search in the Lexica Botania, you discovered Alfheim, the dimension which houses thousands of Elves. And they might possess some knowledge about the Nether. You decided to start working on the portal.
 
+advancements.levitated.end.alchemy.title=Ultimate Alchemist
+advancements.levitated.end.alchemy.description=The End might lack tons of required resources, but it seems like crafting a Alchemy Catalyst is still possible. Try to explore some End Ships and see what you can find.
+
+advancements.levitated.end.fire_rune.title=Bad Breath
+advancements.levitated.end.fire_rune.description=Remember that Ender Dragon? We might need to pay her a visit. Because of the lack of Nether materials, creating a Fire Rune is way harder than it was before. Fortunately, a bottle of Dragon's Breath could help. But slaying that dragon ain't a easy task...
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.

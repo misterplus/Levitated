@@ -9,3 +9,4 @@ setPos(-22,-15)
 
 addCriteria("location", "minecraft:location")
 setRewardFunction("triumph:set_spawn")
+setRewardItem(<contenttweaker:origin_book>)

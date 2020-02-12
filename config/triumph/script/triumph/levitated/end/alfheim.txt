@@ -5,8 +5,8 @@ setTranslatedDescription("advancements.levitated.end.alfheim.description")
 
 addParent("triumph:levitated/end/altar")
 setShowToast(true)
-setPos(357,6)
+setPos(403,6)
 
-addCriteria("location", "minecraft:location")
+setRequiresParents()
 
 visibleIf("triumph:levitated/end/altar")

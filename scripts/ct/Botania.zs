@@ -16,8 +16,6 @@ recipes.addShapedMirrored(<botania:enderdagger>, [[null, <tconstruct:knife_blade
 mods.botania.PureDaisy.addRecipe(<minecraft:end_stone>, <minecraft:cobblestone>, 300);
 //Create mushrooms with enbiotic
 mods.botania.PureDaisy.addRecipe(<stygian:endglow>, <minecraft:brown_mushroom>, 300);
-//Create sand with leachstone
-mods.botania.PureDaisy.addRecipe(<stygian:endmagma>, <minecraft:sand>, 300);
 
 //Petal Apothecary now requires end stone
 <ore:petal>.addItems([<botania:petal:*>, <botania:mushroom:*>]);

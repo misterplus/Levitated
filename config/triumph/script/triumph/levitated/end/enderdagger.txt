@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.enderdagger.description")
 
 addParent("triumph:levitated/end/liquid_mana")
 setShowToast(true)
-setPos(271,-74)
+setPos(271,44)
 
 criteria = addCriteria("hasEnderDagger", "minecraft:inventory_changed")
 criteria.addItem(<botania:enderdagger>)
