@@ -38,3 +38,12 @@ mods.botania.RuneAltar.addRecipe(<botania:rune:1> * 2,[<botania:manaresource:23>
 
 //Alternative Air Rune recipe
 mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2,[<botania:manaresource:23>, <botania:manaresource>, <minecraft:carpet:*>, <tconstruct:sharpening_kit>.withTag({Material: "paper"}), <minecraft:string>], 6000);
+
+//Elven trade for unlocking the nether
+mods.botania.ElvenTrade.addRecipe([<contenttweaker:nether_book>], [<minecraft:book>]);
+
+//Alternative natura pylon recipe
+recipes.addShaped(<botania:pylon:1>, [[null, <botania:manaresource:18>, null],[<botania:manaresource:18>, <botania:pylon>, <botania:manaresource:18>], [null, <extrautils2:ingredients:2>, null]]);
+
+//Alternative glow living wood recipe
+recipes.addShapeless(<botania:livingwood:5>, [<botania:livingwood>,<stygian:endglow>]);
