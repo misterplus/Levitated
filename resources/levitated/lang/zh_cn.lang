@@ -102,4 +102,5 @@ advancements.levitated.end.nether_knowledge.description=之前,要前往下界,�
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
 tooltips.levitated.origin_book=右击来设置你的重生点
+tooltips.levitated.nether_book=右击来阅读关于下界的信息
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板能够制作出一块烈焰木.
