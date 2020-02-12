@@ -16,4 +16,6 @@
 !/config/wizardry
 !/mod_list_manual.txt
 !/manifest.json
+!/config/enderio
+/config/enderio/*
 !/config/enderio/enderio.cfg
