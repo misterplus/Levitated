@@ -102,4 +102,5 @@ advancements.levitated.end.nether_knowledge.description=Originally, travelling t
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.
+tooltips.levitated.nether_book=Right click to read some information about the Nether.
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
