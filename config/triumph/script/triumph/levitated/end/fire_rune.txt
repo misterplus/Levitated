@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.end.fire_rune.description")
 addParent("triumph:levitated/end/alchemy")
 addParent("triumph:levitated/end/ender_iron")
 setShowToast(true)
-setPos(484,27)
+setPos(504,27)
 
 criteria = addCriteria("hasFireRune", "minecraft:inventory_changed")
 criteria.addItem(<botania:rune:1>)

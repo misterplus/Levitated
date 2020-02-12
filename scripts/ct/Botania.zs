@@ -37,4 +37,4 @@ mods.botania.RuneAltar.addRecipe(<immersiveengineering:stone_decoration:1> * 3,[
 mods.botania.RuneAltar.addRecipe(<botania:rune:1> * 2,[<botania:manaresource:23>, <botania:manaresource>, <tconstruct:firewood:1>, <minecraft:gunpowder>, <minecraft:dragon_breath>], 6000);
 
 //Alternative Air Rune recipe
-mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2,[<botania:manaresource:23>, <botania:manaresource>, <tconstruct:sharpening_kit>.withTag({Material: "paper"}), <minecraft:carpet:*>, <minecraft:string>], 6000);
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2,[<botania:manaresource:23>, <botania:manaresource>, <minecraft:carpet:*>, <tconstruct:sharpening_kit>.withTag({Material: "paper"}), <minecraft:string>], 6000);

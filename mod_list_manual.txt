@@ -34,6 +34,8 @@ deepmoblearning-1.12.2-2.5.2-universal.jar
 deuf-1.1-1.12.2.jar
 DimensionStages-1.12.2-2.0.23.jar
 dropt-1.12.2-1.16.1.jar
+EnderCore-1.12.2-0.5.73.jar
+EnderIO-1.12.2-5.1.55.jar
 EnderStorage-1.12.2-2.4.6.137-universal.jar
 environmentaltech-1.12.2-2.0.20.1.jar
 etlunar-1.12.2-2.0.20.1.jar

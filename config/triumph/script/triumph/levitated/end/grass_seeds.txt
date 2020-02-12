@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.grass_seeds.description")
 
 addParent("triumph:levitated/end/alchemy")
 setShowToast(true)
-setPos(484,-34)
+setPos(484,-22)
 
 criteria = addCriteria("hasGrassSeeds", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:wheat_seeds>)
