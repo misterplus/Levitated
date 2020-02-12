@@ -1,9 +1,4 @@
-/*
- * @Author: Hao_cen 
- * @Date: 2020-02-12 13:13:03 
- * @Last Modified by: Hao_cen
- * @Last Modified time: 2020-02-12 13:31:25
- */
+#Levitated 客製化進度
 
 advancements.levitated.end.root.title=終界の始 - Tips.為了您的遊玩體驗，請使用自定義物品重設出生點
 advancements.levitated.end.root.description=終界龍之後？不，比這更糟，折躍門的引力將你吸入，面對安德和虛空，你選擇了試圖逃離這裡
@@ -104,8 +99,8 @@ advancements.levitated.end.natura_pylon.description=自然水晶所需的終界�
 advancements.levitated.end.nether_knowledge.title=下地獄去吧
 advancements.levitated.end.nether_knowledge.description=另一片虛空，需要想方法恢復這片大陸的秩序
 
-# 客製化工具提示
+##Levitated 客製化工具提示
 tooltips.levitated.end_seeds=它本來可以種出什麼的
 tooltips.levitated.origin_book=使用這個物品來重設出生點
 tooltips.levitated.nether_book=使用以查看地獄的資訊
-description.levitated.end_iron_chunk=使用聚影鐵碎片右擊龍木木板能夠製作出一塊烈焰木
+description.levitated.end_iron_chunk=使用聚影鐵塊右擊龍木木板能夠製作出一塊烈焰木
