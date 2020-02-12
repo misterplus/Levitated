@@ -33,6 +33,7 @@ CyclopsCore-1.12.2-1.6.0.jar
 deepmoblearning-1.12.2-2.5.2-universal.jar
 deuf-1.1-1.12.2.jar
 DimensionStages-1.12.2-2.0.23.jar
+dropchevsky-b16.jar
 dropt-1.12.2-1.16.1.jar
 EnderCore-1.12.2-0.5.73.jar
 EnderIO-1.12.2-5.1.55.jar

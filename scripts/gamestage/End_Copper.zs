@@ -1,1 +1,1 @@
-mods.orestages.OreStages.addReplacement("End_Copper", <netherendingores:ore_end_modded_1:1>, <minecraft:end_stone>);
+mods.orestages.OreStages.addReplacement("end_copper", <netherendingores:ore_end_modded_1:1>, <minecraft:end_stone>);
