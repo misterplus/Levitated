@@ -1,7 +1,11 @@
-# Levitated客製化進度
-# author : Hao_cen
+/*
+ * @Author: Hao_cen 
+ * @Date: 2020-02-12 13:13:03 
+ * @Last Modified by: Hao_cen
+ * @Last Modified time: 2020-02-12 13:13:46
+ */
 
-advancements.levitated.end.root.title=終界の始
+advancements.levitated.end.root.title=終界の始 - Tips.為了您的遊玩體驗，請使用自定義物品重設出生點
 advancements.levitated.end.root.description=終界龍之後？不，比這更糟，折躍門的引力將你吸入，面對安德和虛空，你選擇了試圖逃離這裡
 
 advancements.levitated.end.chorus_fruit.title=異常の水果
@@ -73,5 +77,22 @@ advancements.levitated.end.end_copper.description= Stygian Growth 不僅僅有�
 advancements.levitated.end.end_uranium.title=放射性
 advancements.levitated.end.end_uranium.description=鑽石和鈾礦是一夥的，都喜歡掛在終界島嶼下方 §0就像台灣和大陸一樣
 
+advancements.levitated.end.grass_seeds.title=無光環境
+advancements.levitated.end.grass_seeds.description=雖然終界種子可以種出花，但是這是不可再生的，是時候發揮煉金術士的特長了
+
+advancements.levitated.end.string.title=String 未定義
+advancements.levitated.end.string.description=終界只有安德和龍，植物纖維是個不錯的選擇
+
+advancements.levitated.end.alfheim.title=四維空間
+advancements.levitated.end.alfheim.description=沒有主世界可無法逃出終界，奧爾夫海姆的精靈們似乎對此有所研究。
+
+advancements.levitated.end.alchemy.title=究極煉金術士
+advancements.levitated.end.alchemy.description=煉金催化器的原料可不好搞，探索天上的廢棄飛船可能會有所發現
+
+advancements.levitated.end.fire_rune.title=惡龍吐息
+advancements.levitated.end.fire_rune.description=在去地獄之前可沒辦法獲取一些材料，貌似龍息可以代替火之符文的材料，之前飛船裡的鞘翅可能有些幫助
+
 # 客製化工具提示
 tooltips.levitated.end_seeds=它本來可以種出什麼的
+tooltips.levitated.origin_book=使用這個物品來重設出生點
+description.levitated.end_iron_chunk=使用聚影鐵碎片右擊龍木木板能夠製作出一塊烈焰木
