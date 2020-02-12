@@ -96,8 +96,8 @@ advancements.levitated.end.terrasteel.description=大量的魔力！為了開啟
 advancements.levitated.end.natura_pylon.title=傳送穩定裝置
 advancements.levitated.end.natura_pylon.description=自然水晶所需的終界之眼有了新的替代品
 
-advancements.levitated.end.nether_knowledge.title=下地獄去吧
-advancements.levitated.end.nether_knowledge.description=另一片虛空，需要想方法恢復這片大陸的秩序
+advancements.levitated.end.nether_knowledge.title=上地獄去吧
+advancements.levitated.end.nether_knowledge.description=300米外的高空是另一片虛空，需要想方法恢復這片大陸的秩序
 
 ##Levitated 客製化工具提示
 tooltips.levitated.end_seeds=它本來可以種出什麼的
