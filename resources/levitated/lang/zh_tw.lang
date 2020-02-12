@@ -2,7 +2,7 @@
  * @Author: Hao_cen 
  * @Date: 2020-02-12 13:13:03 
  * @Last Modified by: Hao_cen
- * @Last Modified time: 2020-02-12 13:13:46
+ * @Last Modified time: 2020-02-12 13:31:25
  */
 
 advancements.levitated.end.root.title=終界の始 - Tips.為了您的遊玩體驗，請使用自定義物品重設出生點
@@ -91,6 +91,15 @@ advancements.levitated.end.alchemy.description=煉金催化器的原料可不好
 
 advancements.levitated.end.fire_rune.title=惡龍吐息
 advancements.levitated.end.fire_rune.description=在去地獄之前可沒辦法獲取一些材料，貌似龍息可以代替火之符文的材料，之前飛船裡的鞘翅可能有些幫助
+
+advancements.levitated.end.terra_plate.title=匯聚
+advancements.levitated.end.terra_plate.description=集齊5種符文即可合成泰拉凝聚板，泰拉鋼是搭建精靈傳送門的重要材料，你應該先備好一些魔力
+
+advancements.levitated.end.terrasteel.title=馬娜囤積
+advancements.levitated.end.terrasteel.description=大量的魔力！為了開啟精靈門，值得慶幸的是，精靈門十分穩定，魔力耗盡也不會主動關閉，只需要重新補充就行
+
+advancements.levitated.end.natura_pylon.title=傳送穩定裝置
+advancements.levitated.end.natura_pylon.description=自然水晶所需的終界之眼有了新的替代品
 
 # 客製化工具提示
 tooltips.levitated.end_seeds=它本來可以種出什麼的
