@@ -69,13 +69,13 @@ advancements.levitated.end.ender_iron.title=虛空の礦物
 advancements.levitated.end.ender_iron.description=聚影鐵，安德們都喜歡，也許刷怪塔是個不錯的選擇
 
 advancements.levitated.end.blast_furnace.title=統一勝過獨立
-advancements.levitated.end.blast_furnace.description=聚影鐵和高爐更配哦 §0就像台灣和大陸一樣
+advancements.levitated.end.blast_furnace.description=聚影鐵和高爐更配哦 §0就像港澳台和大陸一樣
 
 advancements.levitated.end.end_copper.title=煉銅術士
 advancements.levitated.end.end_copper.description= Stygian Growth 不僅僅有銅和鑽石，你需要更多的資源
 
 advancements.levitated.end.end_uranium.title=放射性
-advancements.levitated.end.end_uranium.description=鑽石和鈾礦是一夥的，都喜歡掛在終界島嶼下方 §0就像台灣和大陸一樣
+advancements.levitated.end.end_uranium.description=鑽石和鈾礦是一夥的，都喜歡掛在終界島嶼下方 §0就像港澳台和大陸一樣
 
 advancements.levitated.end.grass_seeds.title=無光環境
 advancements.levitated.end.grass_seeds.description=雖然終界種子可以種出花，但是這是不可再生的，是時候發揮煉金術士的特長了
@@ -101,7 +101,11 @@ advancements.levitated.end.terrasteel.description=大量的魔力！為了開啟
 advancements.levitated.end.natura_pylon.title=傳送穩定裝置
 advancements.levitated.end.natura_pylon.description=自然水晶所需的終界之眼有了新的替代品
 
+advancements.levitated.end.nether_knowledge.title=下地獄去吧
+advancements.levitated.end.nether_knowledge.description=另一片虛空，需要想方法恢復這片大陸的秩序
+
 # 客製化工具提示
 tooltips.levitated.end_seeds=它本來可以種出什麼的
 tooltips.levitated.origin_book=使用這個物品來重設出生點
+tooltips.levitated.nether_book=使用以查看地獄的資訊
 description.levitated.end_iron_chunk=使用聚影鐵碎片右擊龍木木板能夠製作出一塊烈焰木
