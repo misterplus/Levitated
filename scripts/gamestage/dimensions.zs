@@ -1,0 +1,1 @@
+mods.DimensionStages.addDimensionStage("nether", -1);
