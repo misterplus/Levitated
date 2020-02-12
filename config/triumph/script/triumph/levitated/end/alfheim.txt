@@ -9,4 +9,4 @@ setPos(403,6)
 
 setRequiresParents()
 
-visibleIf("triumph:levitated/end/altar")
+visibleIf("triumph:levitated/end/root")
