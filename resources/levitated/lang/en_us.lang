@@ -64,7 +64,7 @@ advancements.levitated.end.ender_iron.title=Extraterrestrial
 advancements.levitated.end.ender_iron.description=Enderman is capable of infusing Iron Ore with certain end elements, which means some Endermen might hold a special block in their hands, they also have a lot more health than regular Endermen. With proper techniques, you managed to extract a brand new metal called End Infused Iron.
 
 advancements.levitated.end.blast_furnace.title=Blast Off
-advancements.levitated.end.blast_furnace.description=End Infused Iron's flammable property is great for a Blast Furnace, which is a multiblock for producing Steel, which is essential for machine building.
+advancements.levitated.end.blast_furnace.description=End Infused Iron's flammable property is great for making Firewood, which is a great material for a Blast Furnace.
 
 advancements.levitated.end.end_copper.title=Mr. Cooper
 advancements.levitated.end.end_copper.description=Ores including Copper, Aluminum, Silver, Lead and Nickel are found in the Stygian Growth biome.
@@ -72,6 +72,22 @@ advancements.levitated.end.end_copper.description=Ores including Copper, Aluminu
 advancements.levitated.end.end_uranium.title=Radioactive
 advancements.levitated.end.end_uranium.description=Uranium Ore spawns like Diamond Ores, but only in the Leachstone Spikes under the Stygian Growth islands.
 
+advancements.levitated.end.grass_seeds.title=Not Photosynthesis
+advancements.levitated.end.grass_seeds.description=While End Seeds are okay for creating flowers, they are not renewable. With some knowledge on alchemy, creating some other seeds shouldn't be a problem. Let's start with a wheat one.
+
+advancements.levitated.end.string.title=I have no String on me
+advancements.levitated.end.string.description=Industrial Hemp is a great source for strings since there's no animal in sight.
+
+advancements.levitated.end.alfheim.title=The Fourth Dimension
+advancements.levitated.end.alfheim.description=Staying in the End ain't gonna help you rebuild the Overworld, but going to the Nether definitely can! But how? After a brief search in the Lexica Botania, you discovered Alfheim, the dimension which houses thousands of Elves. And they might possess some knowledge about the Nether. You decided to start working on the portal.
+
+advancements.levitated.end.alchemy.title=Ultimate Alchemist
+advancements.levitated.end.alchemy.description=The End might lack tons of required resources, but it seems like crafting a Alchemy Catalyst is still possible. Try to explore some End Ships and see what you can find.
+
+advancements.levitated.end.fire_rune.title=Bad Breath
+advancements.levitated.end.fire_rune.description=Remember that Ender Dragon? We might need to pay her a visit. Because of the lack of Nether materials, creating a Fire Rune is way harder than it was before. Fortunately, a bottle of Dragon's Breath could help. But slaying that dragon ain't a easy task...
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.
+description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.

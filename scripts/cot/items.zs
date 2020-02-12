@@ -4,16 +4,26 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Commands;
+import mods.contenttweaker.ActionResult;
 
 var end_seeds = VanillaFactory.createItem("end_seeds");
 end_seeds.register();
 
 var end_iron_chunk = VanillaFactory.createItem("end_iron_chunk");
+end_iron_chunk.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    if (world.getBlockState(pos) == <block:stygian:endplanks>) {
+        world.setBlockState(<block:tconstruct:firewood:1>, pos);
+        player.getHeldItem(hand).shrink(1);
+        return ActionResult.success();
+    }
+    return ActionResult.pass();
+};
 end_iron_chunk.register();
 
 var origin_book = VanillaFactory.createItem("origin_book");
 origin_book.itemRightClick = function(stack, world, player, hand) {
     Commands.call("spawnpoint @p", player, world, false, true);
-    return "Pass";
+    stack.shrink(1);
+    return "SUCCESS";
 };
 origin_book.register();

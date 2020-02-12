@@ -16,8 +16,6 @@ recipes.addShapedMirrored(<botania:enderdagger>, [[null, <tconstruct:knife_blade
 mods.botania.PureDaisy.addRecipe(<minecraft:end_stone>, <minecraft:cobblestone>, 300);
 //Create mushrooms with enbiotic
 mods.botania.PureDaisy.addRecipe(<stygian:endglow>, <minecraft:brown_mushroom>, 300);
-//Create sand with leachstone
-mods.botania.PureDaisy.addRecipe(<stygian:endmagma>, <minecraft:sand>, 300);
 
 //Petal Apothecary now requires end stone
 <ore:petal>.addItems([<botania:petal:*>, <botania:mushroom:*>]);
@@ -33,4 +31,10 @@ mods.botania.PureDaisy.addRecipe(<liquid:endacid>, <minecraft:ice>, 600);
 mods.botania.ManaInfusion.addInfusion(<contenttweaker:end_iron_chunk>, <contenttweaker:end_iron>, 2500);
 
 //Crude Blast Furnace block recipe
-mods.botania.RuneAltar.addRecipe(<immersiveengineering:stone_decoration:1> * 3,[<minecraft:brick_block>, <wizardry:nacre_block_brick>, <contenttweaker:end_iron_chunk>], 5000);
+mods.botania.RuneAltar.addRecipe(<immersiveengineering:stone_decoration:1> * 3,[<minecraft:brick_block>, <tconstruct:firewood:1>, <contenttweaker:end_iron_chunk>], 5200);
+
+//Alternative Fire Rune recipe
+mods.botania.RuneAltar.addRecipe(<botania:rune:1> * 2,[<botania:manaresource:23>, <botania:manaresource>, <tconstruct:firewood:1>, <minecraft:gunpowder>, <minecraft:dragon_breath>], 6000);
+
+//Alternative Air Rune recipe
+mods.botania.RuneAltar.addRecipe(<botania:rune:3> * 2,[<botania:manaresource:23>, <botania:manaresource>, <tconstruct:sharpening_kit>.withTag({Material: "paper"}), <minecraft:carpet:*>, <minecraft:string>], 6000);

@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.end_copper.description")
 
 addParent("triumph:levitated/end/coke_oven")
 setShowToast(true)
-setPos(447,-15)
+setPos(446,-34)
 
 criteria = addCriteria("hasEndCopper", "minecraft:inventory_changed")
 criteria.addItem(<netherendingores:ore_end_modded_1:1>)
