@@ -4,6 +4,7 @@
 recipes.remove(<botania:enderdagger>);
 recipes.remove(<botania:altar>);
 recipes.remove(<botania:rfgenerator>);
+
 //add
 
 //Consuming negative amount of mana results in adding mana to the pool

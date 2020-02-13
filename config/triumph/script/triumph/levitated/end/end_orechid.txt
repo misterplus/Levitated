@@ -1,0 +1,13 @@
+setIcon(<botania:specialflower, nbt:{type:"orechidEndium"}>)
+
+setTranslatedTitle("advancements.levitated.end.end_orechid.title")
+setTranslatedDescription("advancements.levitated.end.end_orechid.description")
+
+addParent("triumph:levitated/end/natura_pylon")
+setShowToast(true)
+setPos(678,-28)
+
+criteria = addCriteria("hasEndOrechid", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{type:"orechidEndium"}>)
+
+visibleIf("triumph:levitated/end/root")
