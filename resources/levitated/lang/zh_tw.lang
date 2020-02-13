@@ -97,7 +97,7 @@ advancements.levitated.end.natura_pylon.title=傳送穩定裝置
 advancements.levitated.end.natura_pylon.description=自然水晶所需的終界之眼有了新的替代品
 
 advancements.levitated.end.nether_knowledge.title=上地獄去吧
-advancements.levitated.end.nether_knowledge.description=300米外的高空是另一片虛空，需要想方法恢復這片大陸的秩序
+advancements.levitated.end.nether_knowledge.description=300米外的高空是另一片虛空，需要想方法重新構建這篇大陸
 
 advancements.levitated.end.infinity_dust.title=無限的資源
 advancements.levitated.end.infinity_dust.description=書籍讓你知道有種使用終界能源的方法，但是這需要基岩的幫助，如果之前沒有與終界龍戰鬥的話，是時候了
@@ -105,8 +105,15 @@ advancements.levitated.end.infinity_dust.description=書籍讓你知道有種使
 advancements.levitated.end.end_orechid.title=等價交換
 advancements.levitated.end.end_orechid.description=魔力換礦物，終界也對魔法界出手了麼，終界款凝礦蘭
 
-advancements.levitated.end.stirling_gen.title=
-advancements.levitated.end.stirling_gen.description=
+advancements.levitated.end.stirling_gen.title=斯大林發電機
+advancements.levitated.end.stirling_gen.description=俄羅斯的究極發電藝術，德國工業友情支援
+
+advancements.levitated.end.simulation_chamber.title=指令:異常
+advancements.levitated.end.simulation_chamber.description=建造通往地獄的傳送門之前，你先需要一次模擬戰鬥來獲取許可
+
+advancements.levitated.end.keystone.title=捉蟲
+advancements.levitated.end.keystone.description=試煉會發現隱藏的系統異常，你需要排除這些錯誤，才能拿到對應的材料 @deep mob learning
+
 
 #Levitated 客製化工具提示
 tooltips.levitated.end_seeds=它本來可以種出什麼的
