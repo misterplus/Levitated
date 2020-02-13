@@ -1,5 +1,7 @@
 #priority 8
 import mods.botaniatweaks.Agglomeration;
+import mods.botaniatweaks.AgglomerationMultiblock;
+import mods.botaniatweaks.AgglomerationRecipe;
 
 //remove
 recipes.remove(<botania:enderdagger>);
@@ -64,4 +66,7 @@ mods.botania.ManaInfusion.addConjuration(<minecraft:glowstone_dust> * 2, <minecr
 //Alternative Spark Recipe
 recipes.addShaped(<botania:spark>, [[null, <ore:petal>, null],[<tconstruct:firewood:1>, <minecraft:gold_nugget>, <tconstruct:firewood:1>], [null, <ore:petal>, null]]);
 
-Agglomeration.addRecipe(<contenttweaker:glitched_obsidian>, [<deepmoblearning:glitch_infused_ingot>, <minecraft:obsidian>], 100000, 0x0000FF, 0x00FF00, <minecraft:obsidian>, <minecraft:purpur_block>, <minecraft:obsidian>, null, <minecraft:air>, null);
+//Glitched Obsidian recipe
+var end_plate = AgglomerationMultiblock.create().checker(<minecraft:obsidian>, <minecraft:purpur_block>).consumeEdge();
+var glitched_oby = AgglomerationRecipe.create().output(<contenttweaker:glitched_obsidian>).inputs([<deepmoblearning:glitch_infused_ingot>, <minecraft:obsidian>]).manaCost(100000).multiblock(end_plate);
+Agglomeration.addRecipe(glitched_oby);
