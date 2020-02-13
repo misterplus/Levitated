@@ -39,7 +39,6 @@ nether_book.itemRightClick = function(stack, world, player, hand) {
 };
 nether_book.register();
 
-
 var ccb = VanillaFactory.createItem("ccb");
 ccb.register();
 
