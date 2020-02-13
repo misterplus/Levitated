@@ -1,4 +1,4 @@
 //add
 
 //remove
-recipes.remove(<integrateddynamics:coal_generator>);
+mods.jei.JEI.removeAndHide(<integrateddynamics:coal_generator>);

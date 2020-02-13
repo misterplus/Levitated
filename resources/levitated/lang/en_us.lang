@@ -67,7 +67,7 @@ advancements.levitated.end.blast_furnace.title=Blast Off
 advancements.levitated.end.blast_furnace.description=End Infused Iron's flammable property is great for making Firewood, which is a great material for a Blast Furnace.
 
 advancements.levitated.end.end_copper.title=Mr. Cooper
-advancements.levitated.end.end_copper.description=You can now find Copper Ores in the Stygian Growth biome.
+advancements.levitated.end.end_copper.description=Copper is a important material for powered machines, you can find Copper Ores in the Stygian Growth biome.
 
 advancements.levitated.end.end_uranium.title=Radioactive
 advancements.levitated.end.end_uranium.description=Uranium Ore spawns like Diamond Ores, but only in the Leachstone Spikes under the Stygian Growth islands.
@@ -97,7 +97,7 @@ advancements.levitated.end.natura_pylon.title=Portal Stablizer
 advancements.levitated.end.natura_pylon.description=Crafting these Natura Pylons needs Eye of Enders, but you've found the perfect substitute.
 
 advancements.levitated.end.nether_knowledge.title=The Under Realm
-advancements.levitated.end.nether_knowledge.description=Originally, travelling to the Nether would require building a portal in the Overworld. But after exchanging some information with the elves, you found that since the barriers between realms have collapsed, now you are able to travel to the nether simply by going through the top of the End! But the Nether is still a dimension of nothingness, you need to figure out a way to regenerate the Nether.
+advancements.levitated.end.nether_knowledge.description=Originally, travelling to the Nether would require building a portal in the Overworld. But after exchanging some information with the elves, you've found that building a glitched portal in the End might just lead you to the Nether! But the Nether is still a dimension of nothingness, you need to figure out a way to regenerate the Nether.
 
 advancements.levitated.end.infinity_dust.title=Source of Infinity
 advancements.levitated.end.infinity_dust.description=After you read that book, you knew exactly what to do: build a machine that can reconstruct the terrain! Some bedrock can sure help you create infinity out of finity, but where can you find them? Ah! On the center End island! If you haven't slayed that dragon yet, now is the time!
@@ -105,10 +105,12 @@ advancements.levitated.end.infinity_dust.description=After you read that book, y
 advancements.levitated.end.end_orechid.title=Stonks
 advancements.levitated.end.end_orechid.description=Tired of mining? Try this Orechid Endium if you have mana to spare!
 
+advancements.levitated.end.stirling_gen.title=
+advancements.levitated.end.stirling_gen.description=
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.
-tooltips.levitated.nether_book=Right click to read some information about the Nether.
-tooltips.levitated.nether_book_2=I get it that it's from the other world, but WHY IS IT ROUND
+tooltips.levitated.nether_book=Right click to gain some information about the Nether.
+tooltips.levitated.nether_book_2=ISN'T IT A BOOK? WHY IS IT ROUND!
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.

@@ -4,4 +4,4 @@ item.contenttweaker.end_iron_chunk.name=End Infused Iron Chunk
 item.contenttweaker.origin_book.name=Tome of Origin
 item.contenttweaker.nether_book.name=Tome of The Under Realm
 item.contenttweaker.origin_book.message=Spawn Point Set!
-item.contenttweaker.nether_book.message=You can now travel to the Nether by going over Y 300 in the End!
+item.contenttweaker.nether_book.message=You can now travel to the Nether!

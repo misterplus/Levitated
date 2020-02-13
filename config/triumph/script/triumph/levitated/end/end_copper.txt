@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.end_copper.description")
 
 addParent("triumph:levitated/end/nether_knowledge")
 setShowToast(true)
-setPos(718,-18)
+setPos(712,-18)
 
 criteria = addCriteria("hasEndCopper", "minecraft:inventory_changed")
 criteria.addItem(<netherendingores:ore_end_modded_1:1>)

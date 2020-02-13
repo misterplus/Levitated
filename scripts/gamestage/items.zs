@@ -1,0 +1,1 @@
+mods.ItemStages.addItemStage("blaze_rod", <minecraft:blaze_rod>);

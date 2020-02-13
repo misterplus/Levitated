@@ -1,0 +1,14 @@
+setIcon(<enderio:block_simple_stirling_generator>)
+
+setTranslatedTitle("advancements.levitated.end.stirling_gen.title")
+setTranslatedDescription("advancements.levitated.end.stirling_gen.description")
+
+addParent("triumph:levitated/end/infinity_dust")
+addParent("triumph:levitated/end/end_copper")
+setShowToast(true)
+setPos(753,6)
+
+criteria = addCriteria("hasStirlingGen", "minecraft:inventory_changed")
+criteria.addItem(<enderio:block_simple_stirling_generator>)
+
+visibleIf("triumph:levitated/end/root")
