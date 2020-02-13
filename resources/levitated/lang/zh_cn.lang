@@ -67,7 +67,7 @@ advancements.levitated.end.blast_furnace.title=温度过高,速度过慢
 advancements.levitated.end.blast_furnace.description=聚影铁的可燃性非常适合用来制作高炉砖,高炉是用来炼钢的多方块机器,钢是制造机器的必要材料.
 
 advancements.levitated.end.end_copper.title=炼铜术士
-advancements.levitated.end.end_copper.description=经过探索,在幽冥之林群系(Stygian Growth)中,你发现了铜,铝,银,铅和镍等矿石.
+advancements.levitated.end.end_copper.description=铜矿是制作电力机器的必要资源,经过探索,在幽冥之林群系(Stygian Growth)中,你发现了铜矿.
 
 advancements.levitated.end.end_uranium.title=需要防化服吗
 advancements.levitated.end.end_uranium.description=铀矿的生成方式与钻石矿相同,但只在幽冥之林群系(Stygian Growth)岛屿下方的多孔滤石尖刺中生成.
@@ -97,7 +97,7 @@ advancements.levitated.end.natura_pylon.title=传送门核心的核心
 advancements.levitated.end.natura_pylon.description=制作这些自然水晶需要末影之眼,但你已经找到了完美的替代物.
 
 advancements.levitated.end.nether_knowledge.title=地底世界
-advancements.levitated.end.nether_knowledge.description=之前,要前往下界,你需要在主世界搭建一个传送门.但与精灵们交换了一些信息后,你得知现在维度之间的屏障已经坍塌,只需穿过末地顶端就能够到达下界,但下界也成为一片虚无了,你需要找到一种方法来重建下界.
+advancements.levitated.end.nether_knowledge.description=之前,要前往下界,你需要在主世界搭建一个传送门.但与精灵们交换了一些信息后,你得知在末地搭建一个"故障"的下界传送门也许能指引你前往下界.但下界也成为一片虚无了,你需要找到一种方法来重建下界.
 
 advancements.levitated.end.infinity_dust.title=以地之根本,取无限之利
 advancements.levitated.end.infinity_dust.description=阅读了那本书后,你知道你该做什么了:制作一台能恢复生态的机器!基岩能帮助你在有限的资源中获得无限的资源,但从哪能找到基岩呢?哦对!主岛的黑曜石柱上!如果你还没有杀死那条龙,现在是时候解决她了!
@@ -108,6 +108,6 @@ advancements.levitated.end.end_orechid.description=厌倦了找矿?如果你有�
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
 tooltips.levitated.origin_book=右击来设置你的重生点
-tooltips.levitated.nether_book=右击来阅读关于下界的信息
+tooltips.levitated.nether_book=右击来获取关于下界的信息
 tooltips.levitated.nether_book_2=这不是一本书吗?为什么是圆的!!?
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能够制作出一块烈焰木.

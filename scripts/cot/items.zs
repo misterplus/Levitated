@@ -38,3 +38,21 @@ nether_book.itemRightClick = function(stack, world, player, hand) {
     return "SUCCESS";
 };
 nether_book.register();
+
+
+var ccb = VanillaFactory.createItem("ccb");
+ccb.register();
+
+var ccb_base = VanillaFactory.createItem("ccb_base");
+ccb_base.register();
+
+var clay_board = VanillaFactory.createItem("clay_board");
+clay_board.register();
+
+var pottery_clay = VanillaFactory.createItem("pottery_clay");
+pottery_clay.register();
+
+
+
+
+
