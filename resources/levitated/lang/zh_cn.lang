@@ -16,7 +16,7 @@ advancements.levitated.end.endstone_shard.title=地之碎片
 advancements.levitated.end.endstone_shard.description=空手破坏末地石可以获得末地石碎片,它的锋利程度足够制作工具了.
 
 advancements.levitated.end.end_log.title=脆弱的生命
-advancements.levitated.end.end_log.description=龙树原木只能通过斧头采集.你尝试着使用锋利的末地石碎片破坏,妙啊!但未经打磨的碎片容易使原木变为木板,祝你好运.
+advancements.levitated.end.end_log.description=龙树原木只能通过斧头采集.但末地石的硬度似乎也足够,只是碎片虽然锋利,但力道控制不好,还是会把原木劈成木板,祝你好运.
 
 advancements.levitated.end.tool_station.title=生存必需品
 advancements.levitated.end.tool_station.description=有了工具组装台后,你就能够做一些你需要的工具了,末地石?还是龙木?
@@ -28,7 +28,7 @@ advancements.levitated.end.end_iron.title=矿物精华
 advancements.levitated.end.end_iron.description=随着主世界的崩溃坍塌,一些矿物分解为精华坠入虚空,并在末地石中慢慢复原,矿物包括铁,金,红石和青金石.
 
 advancements.levitated.end.end_coal.title=生命的最后光芒
-advancements.levitated.end.end_coal.description=虽然你不能在传统末地群系找到煤,但在幽冥之林群系(Stygian Growth)可以找到一些,许多植物在那生长,凋零,腐败.
+advancements.levitated.end.end_coal.description=虽然你不能在传统末地群系找到煤,但在幽冥之林群系(Stygian Growth)有许多植物在那生长,凋零,腐败,或许能够找到一些.
 
 advancements.levitated.end.end_diamond.title=虚空宝石
 advancements.levitated.end.end_diamond.description=与其他矿物不同,钻石似乎都聚集在末地岛屿之下,在酸性平原群系(Acidic Plains)的斑岩尖刺中生成.
@@ -100,7 +100,7 @@ advancements.levitated.end.nether_knowledge.title=地底世界
 advancements.levitated.end.nether_knowledge.description=之前,要前往下界,你需要在主世界搭建一个传送门.但与精灵们交换了一些信息后,你得知现在维度之间的屏障已经坍塌,只需穿过末地顶端就能够到达下界,但下界也成为一片虚无了,你需要找到一种方法来重建下界.
 
 advancements.levitated.end.infinity_dust.title=以地之根本,取无限之利
-advancements.levitated.end.infinity_dust.description=阅读了那本书后,你知道你该做什么了:制作一台能恢复大地的机器!基岩能帮助你在有限的资源中获得无限的资源,但从哪能找到基岩呢?哦对!主岛的黑曜石柱上!如果你还没有杀死那条龙,现在是时候解决她了!
+advancements.levitated.end.infinity_dust.description=阅读了那本书后,你知道你该做什么了:制作一台能恢复生态的机器!基岩能帮助你在有限的资源中获得无限的资源,但从哪能找到基岩呢?哦对!主岛的黑曜石柱上!如果你还没有杀死那条龙,现在是时候解决她了!
 
 advancements.levitated.end.end_orechid.title=轰轰轰
 advancements.levitated.end.end_orechid.description=厌倦了找矿?如果你有多余的魔力,那就试试这朵影矿兰吧!
