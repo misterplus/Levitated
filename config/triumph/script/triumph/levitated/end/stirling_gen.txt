@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.end.stirling_gen.description")
 addParent("triumph:levitated/end/infinity_dust")
 addParent("triumph:levitated/end/end_copper")
 setShowToast(true)
-setPos(753,6)
+setPos(745,6)
 
 criteria = addCriteria("hasStirlingGen", "minecraft:inventory_changed")
 criteria.addItem(<enderio:block_simple_stirling_generator>)

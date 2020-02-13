@@ -4,7 +4,9 @@ import crafttweaker.block.IBlock;
 import crafttweaker.entity.IEntity;
 import crafttweaker.event.EnderTeleportEvent;
 import crafttweaker.event.BlockBreakEvent;
+import crafttweaker.event.PlayerInteractBlockEvent;
 import mods.ctutils.utils.Math;
+import mods.ctutils.commands.Commands;
 
 //every ender teleport now creates a extraterrestrail matter on the ground
 events.onEnderTeleport(function(event as EnderTeleportEvent) {
@@ -22,6 +24,4 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
 		event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
 	}
 });
-
-
 

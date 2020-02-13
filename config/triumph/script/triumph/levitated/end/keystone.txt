@@ -1,0 +1,13 @@
+setIcon(<deepmoblearning:trial_keystone>)
+
+setTranslatedTitle("advancements.levitated.end.keystone.title")
+setTranslatedDescription("advancements.levitated.end.keystone.description")
+
+addParent("triumph:levitated/end/simulation_chamber")
+setShowToast(true)
+setPos(816,27)
+
+criteria = addCriteria("hasKeystone", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:trial_keystone>)
+
+visibleIf("triumph:levitated/end/root")

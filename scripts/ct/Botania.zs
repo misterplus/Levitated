@@ -1,4 +1,5 @@
 #priority 8
+import mods.botaniatweaks.Agglomeration;
 
 //remove
 recipes.remove(<botania:enderdagger>);
@@ -60,4 +61,7 @@ mods.botania.ManaInfusion.addConjuration(<minecraft:glowstone_dust> * 2, <minecr
 <ore:oreEndLapis>.addItems([<netherendingores:ore_end_vanilla:5>]);
 <ore:oreEndRedstone>.addItems([<netherendingores:ore_end_vanilla:6>]);
 
+//Alternative Spark Recipe
+recipes.addShaped(<botania:spark>, [[null, <ore:petal>, null],[<tconstruct:firewood:1>, <minecraft:gold_nugget>, <tconstruct:firewood:1>], [null, <ore:petal>, null]]);
 
+Agglomeration.addRecipe(<contenttweaker:glitched_obsidian>, [<deepmoblearning:glitch_infused_ingot>, <minecraft:obsidian>], 100000, 0x0000FF, 0x00FF00, <minecraft:obsidian>, <minecraft:purpur_block>, <minecraft:obsidian>, null, <minecraft:air>, null);

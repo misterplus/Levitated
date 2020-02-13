@@ -10,3 +10,10 @@ end_iron.setBlockResistance(15.0);
 end_iron.setToolClass("pickaxe");
 end_iron.setToolLevel(3);
 end_iron.register();
+
+var glitched_obsidian = VanillaFactory.createBlock("end_iron", <blockmaterial:rock>);
+glitched_obsidian.setBlockHardness(50.0);
+glitched_obsidian.setBlockResistance(6000.0);
+glitched_obsidian.setToolClass("pickaxe");
+glitched_obsidian.setToolLevel(3);
+glitched_obsidian.register();
