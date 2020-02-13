@@ -114,13 +114,3 @@ tooltips.levitated.origin_book=使用這個物品來重設出生點
 tooltips.levitated.nether_book=使用以查看地獄的資訊
 tooltips.levitated.nether_book_2=這不麥塊，它太圓潤了
 description.levitated.end_iron_chunk=使用聚影鐵塊右擊龍木木板能夠製作出一塊烈焰木
-
-#Levitated 客製化物品
-
-tile.contenttweaker.end_iron.name=聚影鐵礦
-item.contenttweaker.end_seeds.name=終界種子
-item.contenttweaker.end_iron_chunk.name=聚影鐵塊
-item.contenttweaker.origin_book.name=原初之書
-item.contenttweaker.nether_book.name=境界之書
-item.contenttweaker.origin_book.message=出生點已重設！
-item.contenttweaker.nether_book.message=你現在可以前往地獄了!
