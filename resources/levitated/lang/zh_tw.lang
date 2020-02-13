@@ -79,7 +79,7 @@ advancements.levitated.end.string.title=String 未定義
 advancements.levitated.end.string.description=終界只有安德和龍，植物纖維是個不錯的選擇
 
 advancements.levitated.end.alfheim.title=四維空間
-advancements.levitated.end.alfheim.description=沒有主世界可無法逃出終界，奧爾夫海姆的精靈們似乎對此有所研究。
+advancements.levitated.end.alfheim.description=逃出終界後沒有主世界也只是徒勞，奧爾夫海姆的精靈們似乎對創建世界有所研究。
 
 advancements.levitated.end.alchemy.title=究極煉金術士
 advancements.levitated.end.alchemy.description=煉金催化器的原料可不好搞，探索天上的廢棄飛船可能會有所發現
@@ -120,4 +120,4 @@ tooltips.levitated.end_seeds=它本來可以種出什麼的
 tooltips.levitated.origin_book=使用這個物品來重設出生點
 tooltips.levitated.nether_book=使用以查看地獄的資訊
 tooltips.levitated.nether_book_2=這不麥塊，它太圓潤了
-description.levitated.end_iron_chunk=使用聚影鐵塊右擊龍木木板能夠製作出一塊烈焰木
+description.levitated.end_iron_chunk=使用聚影鐵塊右擊龍木木板能夠製作出一塊烈焰木   
