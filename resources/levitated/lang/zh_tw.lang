@@ -67,7 +67,7 @@ advancements.levitated.end.blast_furnace.title=統一勝過獨立
 advancements.levitated.end.blast_furnace.description=聚影鐵和高爐更配哦 §0就像港澳台和大陸一樣
 
 advancements.levitated.end.end_copper.title=煉銅術士
-advancements.levitated.end.end_copper.description= Stygian Growth 不僅僅有銅和鑽石，你需要更多的資源
+advancements.levitated.end.end_copper.description=銅礦是一種重要的工業礦物，在 Stygian Growth 應該可以找到許多 
 
 advancements.levitated.end.end_uranium.title=放射性
 advancements.levitated.end.end_uranium.description=鑽石和鈾礦是一夥的，都喜歡掛在終界島嶼下方 §0就像港澳台和大陸一樣
@@ -99,8 +99,18 @@ advancements.levitated.end.natura_pylon.description=自然水晶所需的終界�
 advancements.levitated.end.nether_knowledge.title=上地獄去吧
 advancements.levitated.end.nether_knowledge.description=300米外的高空是另一片虛空，需要想方法恢復這片大陸的秩序
 
-##Levitated 客製化工具提示
+advancements.levitated.end.infinity_dust.title=無限的資源
+advancements.levitated.end.infinity_dust.description=書籍讓你知道有種使用終界能源的方法，但是這需要基岩的幫助，如果之前沒有與終界龍戰鬥的話，是時候了
+
+advancements.levitated.end.end_orechid.title=等價交換
+advancements.levitated.end.end_orechid.description=魔力換礦物，終界也對魔法界出手了麼，終界款凝礦蘭
+
+advancements.levitated.end.stirling_gen.title=
+advancements.levitated.end.stirling_gen.description=
+
+#Levitated 客製化工具提示
 tooltips.levitated.end_seeds=它本來可以種出什麼的
 tooltips.levitated.origin_book=使用這個物品來重設出生點
 tooltips.levitated.nether_book=使用以查看地獄的資訊
+tooltips.levitated.nether_book_2=這不麥塊，它太圓潤了
 description.levitated.end_iron_chunk=使用聚影鐵塊右擊龍木木板能夠製作出一塊烈焰木
