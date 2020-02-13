@@ -1,8 +1,0 @@
-#Levitated客製化物品
-
-tile.contenttweaker.end_iron.name=聚影鐵礦
-item.contenttweaker.end_seeds.name=終界種子
-item.contenttweaker.end_iron_chunk.name=聚影鐵塊
-item.contenttweaker.origin_book.name=原初之書
-item.contenttweaker.nether_book.name=境界之書
-item.contenttweaker.origin_book.message=出生點已重設！
