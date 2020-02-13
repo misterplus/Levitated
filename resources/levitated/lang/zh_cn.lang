@@ -99,8 +99,15 @@ advancements.levitated.end.natura_pylon.description=制作这些自然水晶需�
 advancements.levitated.end.nether_knowledge.title=地底世界
 advancements.levitated.end.nether_knowledge.description=之前,要前往下界,你需要在主世界搭建一个传送门.但与精灵们交换了一些信息后,你得知现在维度之间的屏障已经坍塌,只需穿过末地顶端就能够到达下界,但下界也成为一片虚无了,你需要找到一种方法来重建下界.
 
+advancements.levitated.end.infinity_dust.title=以地之根本,取无限之利
+advancements.levitated.end.infinity_dust.description=阅读了那本书后,你知道你该做什么了:制作一台能恢复大地的机器!基岩能帮助你在有限的资源中获得无限的资源,但从哪能找到基岩呢?哦对!主岛的黑曜石柱上!如果你还没有杀死那条龙,现在是时候解决她了!
+
+advancements.levitated.end.end_orechid.title=轰轰轰
+advancements.levitated.end.end_orechid.description=厌倦了找矿?如果你有多余的魔力,那就试试这朵影矿兰吧!
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
 tooltips.levitated.origin_book=右击来设置你的重生点
 tooltips.levitated.nether_book=右击来阅读关于下界的信息
+tooltips.levitated.nether_book_2=我知道这是另一个世界的东西,但它为什么是圆的???
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能够制作出一块烈焰木.
