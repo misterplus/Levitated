@@ -108,8 +108,8 @@ advancements.levitated.end.end_orechid.description=Tired of mining? Try this Ore
 advancements.levitated.end.stirling_gen.title=Stirling Industry
 advancements.levitated.end.stirling_gen.description=This is the ultimate generator: simple, cheap and elegent. I mean, this is the only one you can make right now, so...
 
-advancements.levitated.end.simulation_chamber.title=Operation: Glitched
-advancements.levitated.end.simulation_chamber.description=To start working towards building a glitched portal to the Nether, you need to start simulating mob behaviors. There aren't that many mobs in the End, so go ahead and pick your favorite.
+advancements.levitated.end.simulation_chamber.title=Deep Learning
+advancements.levitated.end.simulation_chamber.description=If killing mobs manually is annoying for you, you might wanna make good use of this Simulation Chamber.
 
 advancements.levitated.end.keystone.title=Attunement
 advancements.levitated.end.keystone.description=System glitches only appear in trails. Starting a trail requires a Trail Keystone. For more info, check the Deep Mob Learning guide book.
@@ -120,6 +120,8 @@ advancements.levitated.end.glitched_oby.description=Simply by building a obsidia
 advancements.levitated.end.nether_portal.title=Door to Nothingness
 advancements.levitated.end.nether_portal.description=Build a portal out of Glitched Obsidian. However, a regular Flint and Steel ain't going to trigger the glitch, you'll need something more fiery, like a Fire Rune. Once the portal is done, you can hop in if you want, but the only thing greeting you will be the void.
 
+advancements.levitated.end.deep_learner.title=Operation: Glitched
+advancements.levitated.end.deep_learner.description=To start working towards building a glitched portal to the Nether, you need to start simulating mob behaviors. There aren't that many mobs in the End, so go ahead and pick your favorite.
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.

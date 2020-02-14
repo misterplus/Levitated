@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.keystone.description")
 
 addParent("triumph:levitated/end/simulation_chamber")
 setShowToast(true)
-setPos(816,27)
+setPos(861,27)
 
 criteria = addCriteria("hasKeystone", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:trial_keystone>)
