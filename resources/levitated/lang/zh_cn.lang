@@ -106,7 +106,7 @@ advancements.levitated.end.end_orechid.title=轰轰轰
 advancements.levitated.end.end_orechid.description=厌倦了找矿?如果你有多余的魔力,那就试试这朵影矿兰吧!
 
 advancements.levitated.end.stirling_gen.title=斯特林工业
-advancements.levitated.end.stirling_gen.description=全球限量,性能遥遥领先,简洁,实惠,精致...好吧,我的意思是现在你只能做这台发电机...
+advancements.levitated.end.stirling_gen.description=全球限量,性能遥遥领先,简洁,实惠又不失内涵！
 
 advancements.levitated.end.simulation_chamber.title=深度知识
 advancements.levitated.end.simulation_chamber.description=如果厌倦了手动刷怪,那么你一定很想试试这台模拟室.
@@ -122,6 +122,9 @@ advancements.levitated.end.nether_portal.description=使用故障黑曜石搭建
 
 advancements.levitated.end.deep_learner.title=源计划: 故障
 advancements.levitated.end.deep_learner.description=要想开始搭建一个通往下界的传送门,你需要开始模拟怪物的习性,在末地并没有那么多种的怪物.那么,挑选你喜欢的然后开始吧!
+
+advancements.levitated.end.machine_block.title=巫异时刻,零式分割
+advancements.levitated.end.machine_block.description=如果你想制作更多的发电机,你可以在EXU2中找找,但在获得下界石英之前,制作机器方块是件相当麻烦的事.
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
