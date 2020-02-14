@@ -105,6 +105,24 @@ advancements.levitated.end.infinity_dust.description=阅读了那本书后,你�
 advancements.levitated.end.end_orechid.title=轰轰轰
 advancements.levitated.end.end_orechid.description=厌倦了找矿?如果你有多余的魔力,那就试试这朵影矿兰吧!
 
+advancements.levitated.end.stirling_gen.title=斯特林工业
+advancements.levitated.end.stirling_gen.description=全球限量,性能遥遥领先,简洁,实惠,精致...好吧,我的意思是现在你只能做这台发电机...
+
+advancements.levitated.end.simulation_chamber.title=深度知识
+advancements.levitated.end.simulation_chamber.description=如果厌倦了手动刷怪,那么你一定很想试试这台模拟室.
+
+advancements.levitated.end.keystone.title=故障试炼
+advancements.levitated.end.keystone.description=系统故障只会出现在试炼中,开始一项试炼需要一把测试密钥.更多信息请在指南中查阅.
+
+advancements.levitated.end.glitched_oby.title=系统&#故%@&障
+advancements.levitated.end.glitched_oby.description=仅仅用黑曜石搭建一个传送门框架并不能让你进入下界,你需要给普通的黑曜石添加一些小"故障",在你思考该怎么做时,泰拉凝聚板似乎向你发出了微弱的光芒.
+
+advancements.levitated.end.nether_portal.title=通向...虚无的门?
+advancements.levitated.end.nether_portal.description=使用故障黑曜石搭建一个传送门框架,然而,打火石并不会激活它,你需要更加炎热,更充满魔力的东西,激活传送门后,你就可以前往下界了,但是迎接你的只有一片虚无..
+
+advancements.levitated.end.deep_learner.title=源计划: 故障
+advancements.levitated.end.deep_learner.description=要想开始搭建一个通往下界的传送门,你需要开始模拟怪物的习性,在末地并没有那么多种的怪物.那么,挑选你喜欢的然后开始吧!
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
 tooltips.levitated.origin_book=右击来设置你的重生点
