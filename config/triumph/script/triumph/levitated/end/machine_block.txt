@@ -1,0 +1,14 @@
+setIcon(<extrautils2:machine>)
+
+setTranslatedTitle("advancements.levitated.end.machine_block.title")
+setTranslatedDescription("advancements.levitated.end.machine_block.description")
+
+addParent("triumph:levitated/end/infinity_dust")
+addParent("triumph:levitated/end/end_copper")
+setShowToast(true)
+setPos(745,57)
+
+criteria = addCriteria("hasMachineBlock", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:machine>)
+
+visibleIf("triumph:levitated/end/root")
