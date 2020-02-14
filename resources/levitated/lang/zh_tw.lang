@@ -123,9 +123,12 @@ advancements.levitated.end.nether_portal.description=故障的黑曜石構築起
 advancements.levitated.end.deep_learner.title=指令:異常
 advancements.levitated.end.deep_learner.description=建造通往地獄的傳送門之前，你先需要一次模擬戰鬥來獲取許可
 
+advancements.levitated.end.machine_block.title=零式分割
+advancements.levitated.end.machine_block.description=機器方塊可是個問題，它們很不穩定
+
 #Levitated 客製化工具提示
 tooltips.levitated.end_seeds=它本來可以種出什麼的
 tooltips.levitated.origin_book=使用這個物品來重設出生點
 tooltips.levitated.nether_book=使用以查看地獄的資訊
 tooltips.levitated.nether_book_2=這不麥塊，它太圓潤了
-description.levitated.end_iron_chunk=使用聚影鐵塊右擊龍木木板能夠製作出一塊烈焰木   
+description.levitated.end_iron_chunk=使用聚影鐵塊右擊龍木木板能夠製作出一塊烈焰木
