@@ -1,6 +1,7 @@
 #Levitated 客製化物品
 
 tile.contenttweaker.end_iron.name=聚影鐵礦
+tile.contenttweaker.glitched_obsidian.name=故障黑曜石
 item.contenttweaker.end_seeds.name=終界種子
 item.contenttweaker.end_iron_chunk.name=聚影鐵塊
 item.contenttweaker.origin_book.name=原初之書
