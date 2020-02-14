@@ -126,6 +126,13 @@ advancements.levitated.end.deep_learner.description=To start working towards bui
 advancements.levitated.end.machine_block.title=Divided by Zero
 advancements.levitated.end.machine_block.description=If you want more generators, you can try some from Extra Utilities 2, but without Nether Quartz, crafting the Machine Block can be quite a hassle.
 
+advancements.levitated.end.sag_mill.title=Double Madness
+advancements.levitated.end.sag_mill.description=Running low on ores even with the Orechid? Get this SAG Mill now and worry no more!
+
+advancements.levitated.end.alloy_smelter.title=Reinforcement
+advancements.levitated.end.alloy_smelter.description=Melting different substances together reinforces them, fascinating. Experts call this "Alloying".
+
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.
