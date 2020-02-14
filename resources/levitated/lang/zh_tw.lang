@@ -10,7 +10,7 @@ advancements.levitated.end.ender_lilly.title=異變の植物
 advancements.levitated.end.ender_lilly.description=百合花，不過是終界款式的，會和末地石發送化學反應產出終界珍珠
 
 advancements.levitated.end.end_matter.title=世界の物質
-advancements.levitated.end.end_matter.description=終界珍珠在落地時碎裂成了一些物質，安德和界伏蚌似乎也是使用終界珍珠傳送§kxxxxxxxxxxxxxxxxxx§r裡面似乎記載了什麼。§kxxxxxxxxxxxxxxxxxx§r
+advancements.levitated.end.end_matter.description=終界珍珠在落地時碎裂成了一些物質，安德和界伏蚌似乎也是使用終界珍珠傳§kxxxxxxxxxxxxxxxxxx§r裡面似乎記載了什麼。§kxxxxxxxxxxxxxxxxxx§r
 
 advancements.levitated.end.endstone_shard.title=終界の碎片
 advancements.levitated.end.endstone_shard.description=史蒂夫擁有常人無法理解的怪力，是時候空手碎大石了
@@ -99,14 +99,14 @@ advancements.levitated.end.natura_pylon.description=自然水晶所需的終界�
 advancements.levitated.end.nether_knowledge.title=下地獄去吧
 advancements.levitated.end.nether_knowledge.description=傳送門框架會發生故障，精靈們貌似對此有些研究
 
-advancements.levitated.end.infinity_dust.title=無限的資源
+advancements.levitated.end.infinity_dust.title=無限の資源
 advancements.levitated.end.infinity_dust.description=書籍讓你知道有種使用終界能源的方法，但是這需要基岩的幫助，如果之前沒有與終界龍戰鬥的話，是時候了
 
 advancements.levitated.end.end_orechid.title=等價交換
 advancements.levitated.end.end_orechid.description=魔力換礦物，終於也對魔法界出手了麼，終界款凝礦蘭
 
 advancements.levitated.end.stirling_gen.title=斯大林發電機
-advancements.levitated.end.stirling_gen.description=俄羅斯的究極發電藝術，德國工業友情支援
+advancements.levitated.end.stirling_gen.description=俄羅斯的究極發電藝術，德國工業友情支援 §0是的你只能製作這個
 
 advancements.levitated.end.simulation_chamber.title=深度學習
 advancements.levitated.end.simulation_chamber.description=刷怪塔失業了，TPS友好型產出設備
@@ -117,7 +117,7 @@ advancements.levitated.end.keystone.description=試煉會發現隱藏的系統�
 advancements.levitated.end.glitched_oby.title=系統異§kxxxxxx§r
 advancements.levitated.end.glitched_oby.description=傳送門框架十分可靠，可是一般的打火石在終界似乎無法激活它，精靈們對此有些研究
 
-advancements.levitated.end.nether_portal.title=虛無之門
+advancements.levitated.end.nether_portal.title=虛無の門
 advancements.levitated.end.nether_portal.description=故障的黑曜石構築起了框架，你需要更加炎熱的東西來激活它，最終迎接你的依然是一片虛無
 
 advancements.levitated.end.deep_learner.title=指令:異常
