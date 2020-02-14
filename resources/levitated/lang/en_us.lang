@@ -114,6 +114,11 @@ advancements.levitated.end.simulation_chamber.description=To start working towar
 advancements.levitated.end.keystone.title=Attunement
 advancements.levitated.end.keystone.description=System glitches only appear in trails. Starting a trail requires a Trail Keystone. For more info, check the Deep Mob Learning guide book.
 
+advancements.levitated.end.glitched_oby.title=Glitch in the System
+advancements.levitated.end.glitched_oby.description=Simply by building a obsidian portal won't lead you to the Nether, so you'll need to infuse some glitches into regular obsidians. This can be done by Terrestrial Agglomeration.
+
+advancements.levitated.end.nether_portal.title=Door to Nothingness
+advancements.levitated.end.nether_portal.description=Build a portal out of Glitched Obsidian. However, a regular Flint and Steel ain't going to trigger the glitch, you'll need something more fiery, like a Fire Rune. Once the portal is done, you can hop in if you want, but the only thing greeting you will be the void.
 
 
 # Custom Tooltips

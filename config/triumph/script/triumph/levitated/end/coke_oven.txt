@@ -4,9 +4,9 @@ setIcon(<immersiveengineering:stone_device, meta:0>)
 setTranslatedTitle("advancements.levitated.end.coke_oven.title")
 setTranslatedDescription("advancements.levitated.end.coke_oven.description")
 
-addParent("triumph:levitated/end/grass_seeds")
+addParent("triumph:levitated/end/string")
 setShowToast(true)
-setPos(523,-55)
+setPos(560,-40)
 
 criteria = addCriteria("formed_coke_oven", "immersiveengineering:multiblock_formed")
 criteria.setMultiblock("IE:CokeOven")
