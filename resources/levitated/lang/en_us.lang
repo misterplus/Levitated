@@ -132,6 +132,9 @@ advancements.levitated.end.sag_mill.description=Running low on ores even with th
 advancements.levitated.end.alloy_smelter.title=Reinforcement
 advancements.levitated.end.alloy_smelter.description=Melting different substances together reinforces them, fascinating. Experts call this "Alloying".
 
+advancements.levitated.end.assembler.title=Avengers!
+advancements.levitated.end.assembler.description=Although simpler machines can be crafted by hand, you'll have to use an Assembler for more complex machines.
+
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.

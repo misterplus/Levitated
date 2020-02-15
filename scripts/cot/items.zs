@@ -51,7 +51,5 @@ clay_board.register();
 var pottery_clay = VanillaFactory.createItem("pottery_clay");
 pottery_clay.register();
 
-
-
-
-
+var solder_powder = VanillaFactory.createItem("solder_powder");
+solder_powder.register();

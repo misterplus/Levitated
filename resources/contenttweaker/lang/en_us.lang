@@ -11,4 +11,6 @@ item.contenttweaker.ccb.name=CCB (Ceramic Circuit Board)
 item.contenttweaker.origin_book.message=Spawn Point Set!
 item.contenttweaker.nether_book.message=You can now travel to the Nether!
 
+fluid.solder=Solder
+
 machine.crafttweaker:assembler=Assembler
