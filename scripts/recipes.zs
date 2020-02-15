@@ -1,6 +1,8 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<thermalexpansion:frame:64>);
+recipes.remove(<thermalexpansion:frame>);
 recipes.remove(<deepmoblearning:glitch_infused_sword>);
 recipes.remove(<deepmoblearning:glitch_infused_boots>);
 recipes.remove(<deepmoblearning:glitch_infused_leggings>);

@@ -1,6 +1,10 @@
 #loader contenttweaker
 #priority 11
 
+import extrautilities2.Tweaker.IMachine;
+import extrautilities2.Tweaker.IMachineSlot;
+import extrautilities2.Tweaker.IMachineRegistry;
+
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
@@ -17,3 +21,19 @@ glitched_obsidian.setBlockResistance(6000.0);
 glitched_obsidian.setToolClass("pickaxe");
 glitched_obsidian.setToolLevel(3);
 glitched_obsidian.register();
+
+//Assembler
+var assembler_slots = [] as IMachineSlot[];
+for i in 0 to 3 {
+    assembler_slots += extrautilities2.Tweaker.IMachineSlot.newItemStackSlot("assembler_slot_" + i, true);
+}
+assembler_slots += extrautilities2.Tweaker.IMachineSlot.newFluidSlot("assembler_slot_liquid", 4000, true, null);
+var assembler = extrautilities2.Tweaker.IMachineRegistry.createNewMachine(
+    "assembler",
+    10000, 
+    2000, 
+    assembler_slots, 
+    [extrautilities2.Tweaker.IMachineSlot.newItemStackSlot("assembler_slot_out")], 
+    "contenttweaker:blocks/assembler", 
+    "contenttweaker:blocks/assembler_active"
+);

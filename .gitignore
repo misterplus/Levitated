@@ -13,6 +13,8 @@
 !/config/incontrol
 !/config/Netherending Ores.cfg
 !/config/cofh
+/config/cofh/*
+!/config/cofh/world
 !/config/wizardry
 !/mod_list_manual.txt
 !/manifest.json

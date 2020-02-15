@@ -20,6 +20,7 @@ Chisel-MC1.12.2-1.0.1.44.jar
 chiselsandbits-14.33.jar
 Clumps-3.1.2.jar
 CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+CoFHCore-1.12.2-4.6.3.27-universal.jar
 CoFHWorld-1.12.2-1.3.1.7-universal.jar
 CommonCapabilities-1.12.2-2.4.5.jar
 ContentTweaker-1.12.2-4.9.1.jar
@@ -108,6 +109,8 @@ StorageDrawers-1.12.2-5.4.0.jar
 stygian-1.0.4.jar
 TConstruct-1.12.2-2.13.0.171.jar
 theoneprobe-1.12-1.4.28.jar
+ThermalExpansion-1.12.2-5.5.4.43-universal.jar
+ThermalFoundation-1.12.2-2.6.3.27-universal.jar
 TickDynamic-1.12.2-1.0.2.jar
 TinkerToolLeveling-1.12.2-1.1.0.jar
 Toast+Control-1.12.2-1.8.1.jar

@@ -196,11 +196,83 @@
                     }
                 ],
 				"material": "minecraft:end_stone",
-				"cluster-size": 9
+				"cluster-size": 8
 			},
 			"cluster-count": 5,
 			"min-height": 30,
 			"max-height": 55,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"stygian:stygian_growth"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+
+		"end-tin": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+                        "name": "netherendingores:ore_end_modded_1",
+                        "properties": {
+                            "blocks": "tin_ore"
+                        }
+                    }
+                ],
+				"material": "minecraft:end_stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 6,
+			"min-height": 35,
+			"max-height": 55,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"stygian:stygian_growth"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+
+		"end-lead": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+                        "name": "netherendingores:ore_end_modded_1",
+                        "properties": {
+                            "blocks": "lead_ore"
+                        }
+                    }
+                ],
+				"material": "minecraft:end_stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 5,
+			"min-height": 10,
+			"max-height": 35,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
