@@ -3,4 +3,7 @@ recipes.addShapeless(<contenttweaker:pottery_clay> * 2,[<ore:clay>, <minecraft:d
 recipes.addShaped(<contenttweaker:ccb_base>, [[<immersiveengineering:material:20>, <enderio:item_basic_capacitor>, <immersiveengineering:material:20>],[<minecraft:redstone>, <contenttweaker:clay_board>, <minecraft:redstone>], [<immersiveengineering:material:20>, <enderio:item_basic_capacitor>, <immersiveengineering:material:20>]]);
 furnace.addRecipe(<contenttweaker:ccb>, <contenttweaker:ccb_base>, 0);
 recipes.addShaped(<contenttweaker:clay_board>, [[<contenttweaker:pottery_clay>, <contenttweaker:pottery_clay>, null],[<contenttweaker:pottery_clay>, <contenttweaker:pottery_clay>, null], [null, null, null]]);
+
+//Solder related
 recipes.addShapeless(<contenttweaker:solder_powder> * 2, [<botania:pestleandmortar>.reuse(),<thermalfoundation:material:67>,<thermalfoundation:material:65>]);
+furnace.addRecipe(<forge:bucketfilled>.withTag({FluidName: "solder", Amount: 1000}), <contenttweaker:solder_powder>);

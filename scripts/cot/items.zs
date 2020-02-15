@@ -53,3 +53,7 @@ pottery_clay.register();
 
 var solder_powder = VanillaFactory.createItem("solder_powder");
 solder_powder.register();
+
+var solder_bucket = VanillaFactory.createItem("solder_bucket");
+solder_bucket.maxStackSize = 1;
+solder_bucket.register();
