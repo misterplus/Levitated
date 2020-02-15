@@ -126,6 +126,13 @@ advancements.levitated.end.deep_learner.description=要想开始搭建一个通�
 advancements.levitated.end.machine_block.title=巫异时刻,零式分割
 advancements.levitated.end.machine_block.description=如果你想制作更多的发电机,你可以在EXU2中找找,但在获得下界石英之前,制作机器方块是件相当麻烦的事.
 
+advancements.levitated.end.sag_mill.title=双倍"疯"量
+advancements.levitated.end.sag_mill.description=即使使用影矿兰都不能满足你对矿物的需求吗?别烦恼了!试试SAG磨粉机 吧!
+
+advancements.levitated.end.alloy_smelter.title=强化,加固
+advancements.levitated.end.alloy_smelter.description=把不同的金属融合在一起,会使它们更坚硬,更强大,冶金专家称之为"合金".
+
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
 tooltips.levitated.origin_book=右击来设置你的重生点
