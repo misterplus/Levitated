@@ -67,7 +67,7 @@ advancements.levitated.end.blast_furnace.title=統一勝過獨立
 advancements.levitated.end.blast_furnace.description=聚影鐵和高爐更配哦 §0就像港澳台和大陸一樣
 
 advancements.levitated.end.end_copper.title=煉銅術士
-advancements.levitated.end.end_copper.description=銅礦是一種重要的工業礦物，在 Stygian Growth 應該可以找到許多 
+advancements.levitated.end.end_copper.description=不僅僅是銅礦，錫礦也是一種重要的工業礦物，在 Stygian Growth 應該可以找到許多
 
 advancements.levitated.end.end_uranium.title=放射性
 advancements.levitated.end.end_uranium.description=§o鑽石§r和§o鈾礦§r是一夥的，都喜歡掛在終界島嶼下方 §0就像港澳台和大陸一樣
@@ -126,6 +126,23 @@ advancements.levitated.end.deep_learner.description=建造通往地獄的傳送�
 advancements.levitated.end.machine_block.title=零式分割
 advancements.levitated.end.machine_block.description=§o機器方塊§r可是個問題，它們很不穩定
 
+advancements.levitated.end.sag_mill.title=雙倍麻煩
+advancements.levitated.end.sag_mill.description=發電本來就是件麻煩事，現在還要多供一台§oSAG磨粉機§r，不過有投入就有回報
+
+advancements.levitated.end.alloy_smelter.title=你被強化了，快送！
+advancements.levitated.end.alloy_smelter.description=§o合金爐§r也可以當一個簡易熔爐使用
+
+advancements.levitated.end.assembler.title=複惆者
+advancements.levitated.end.assembler.description=高級的§o機器框架§r需要編寫§o電路板§r操控
+
+advancements.levitated.end.solder.title=焊接專精
+advancements.levitated.end.solder.description=§o焊料§r是製造機械的重要部分，用§o桶裝焊料粉末§r右擊§o火焰§r可以得到§o焊料§r
+
+advancements.levitated.end.scanner.title=指令：重生
+advancements.levitated.end.scanner.description=地獄空蕩蕩，創造在人間，重建地獄需要大量的§o能源§r。
+
+advancements.levitated.end.netherrack.title=感謝參與第一階段快照測試
+advancements.levitated.end.netherrack.description=获取一块§o地獄岩§r来完成这一進度。如果你走到了这一步，恭喜你，你已经到达了EA版《悬浮》的结尾。§6§l是時候去群裡吹水了！
 #Levitated 客製化工具提示
 tooltips.levitated.end_seeds=它本來可以種出什麼的
 tooltips.levitated.origin_book=使用這個物品來重設出生點

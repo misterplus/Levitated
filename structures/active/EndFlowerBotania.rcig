@@ -3,9 +3,9 @@
   "inventoryGeneratorID": "EndFlowerBotania",
   "items": [
     {
-      "weight": 50.30833435058594,
-      "min": 3,
-      "max": 4,
+      "weight": 81.3079833984375,
+      "min": 1,
+      "max": 2,
       "item": {
         "id": "botania:manaresource",
         "damage": 0,
@@ -13,9 +13,9 @@
       }
     },
     {
-      "weight": 29.578857421875,
-      "min": 2,
-      "max": 5,
+      "weight": 50.30833435058594,
+      "min": 1,
+      "max": 2,
       "item": {
         "id": "botania:manaresource",
         "damage": 1,
@@ -23,7 +23,7 @@
       }
     },
     {
-      "weight": 15.548633575439453,
+      "weight": 41.28571701049805,
       "min": 1,
       "max": 2,
       "item": {
@@ -33,9 +33,9 @@
       }
     },
     {
-      "weight": 39.6475944519043,
-      "min": 3,
-      "max": 8,
+      "weight": 81.3079833984375,
+      "min": 2,
+      "max": 5,
       "item": {
         "id": "botania:manaresource",
         "damage": 23,
@@ -43,7 +43,7 @@
       }
     },
     {
-      "weight": 25.946786880493164,
+      "weight": 60.84366989135742,
       "min": 1,
       "max": 1,
       "item": {
@@ -57,7 +57,7 @@
       }
     },
     {
-      "weight": 20.692365646362305,
+      "weight": 41.28571701049805,
       "min": 1,
       "max": 1,
       "item": {
@@ -67,7 +67,7 @@
       }
     },
     {
-      "weight": 20.692365646362305,
+      "weight": 41.28571701049805,
       "min": 1,
       "max": 1,
       "item": {
@@ -81,7 +81,7 @@
       }
     },
     {
-      "weight": 20.692365646362305,
+      "weight": 41.28571701049805,
       "min": 1,
       "max": 1,
       "item": {
@@ -91,7 +91,7 @@
       }
     },
     {
-      "weight": 20.692365646362305,
+      "weight": 41.28571701049805,
       "min": 1,
       "max": 1,
       "item": {
@@ -101,7 +101,7 @@
       }
     },
     {
-      "weight": 20.692365646362305,
+      "weight": 41.28571701049805,
       "min": 1,
       "max": 1,
       "item": {
@@ -115,7 +115,7 @@
       }
     },
     {
-      "weight": 20.692365646362305,
+      "weight": 41.28571701049805,
       "min": 1,
       "max": 1,
       "item": {
@@ -129,7 +129,7 @@
       }
     },
     {
-      "weight": 20.692365646362305,
+      "weight": 41.28571701049805,
       "min": 1,
       "max": 1,
       "item": {
@@ -143,7 +143,7 @@
       }
     },
     {
-      "weight": 20.692365646362305,
+      "weight": 41.28571701049805,
       "min": 1,
       "max": 1,
       "item": {
@@ -153,9 +153,9 @@
       }
     },
     {
-      "weight": 50.30833435058594,
-      "min": 2,
-      "max": 5,
+      "weight": 70.48338317871094,
+      "min": 1,
+      "max": 4,
       "item": {
         "id": "botania:manacookie",
         "damage": 0,
@@ -163,7 +163,7 @@
       }
     },
     {
-      "weight": 15.548633575439453,
+      "weight": 41.28571701049805,
       "min": 1,
       "max": 1,
       "item": {
@@ -173,7 +173,7 @@
       }
     },
     {
-      "weight": 15.548633575439453,
+      "weight": 41.28571701049805,
       "min": 1,
       "max": 1,
       "item": {
@@ -183,9 +183,9 @@
       }
     },
     {
-      "weight": 4.910394668579102,
+      "weight": 41.28571701049805,
       "min": 1,
-      "max": 64,
+      "max": 1,
       "item": {
         "id": "botania:overgrowthseed",
         "damage": 0,
@@ -193,7 +193,7 @@
       }
     },
     {
-      "weight": 10.335477828979492,
+      "weight": 15.548633575439453,
       "min": 1,
       "max": 2,
       "item": {
@@ -203,9 +203,9 @@
       }
     },
     {
-      "weight": 20.692365646362305,
+      "weight": 54.331016540527344,
       "min": 1,
-      "max": 3,
+      "max": 2,
       "item": {
         "id": "botania:blacklotus",
         "damage": 0,
@@ -213,12 +213,72 @@
       }
     },
     {
-      "weight": 4.910394668579102,
+      "weight": 20.692365646362305,
       "min": 1,
       "max": 1,
       "item": {
         "id": "botania:blacklotus",
         "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 60.84366989135742,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "botania:manaresource",
+        "damage": 16,
+        "count": 1
+      }
+    },
+    {
+      "weight": 39.6475944519043,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "botania:grassseeds",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 22.68061065673828,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "botania:monocle",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 39.6475944519043,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "botania:fertilizer",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "botania:flowerbag",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 50.30833435058594,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "botania:keepivy",
+        "damage": 0,
         "count": 1
       }
     }

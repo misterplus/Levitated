@@ -67,7 +67,7 @@ advancements.levitated.end.blast_furnace.title=温度过高,速度过慢
 advancements.levitated.end.blast_furnace.description=聚影铁的可燃性非常适合用来制作高炉砖,高炉是用来炼钢的多方块机器,钢是制造机器的必要材料.
 
 advancements.levitated.end.end_copper.title=炼铜术士
-advancements.levitated.end.end_copper.description=铜矿是制作电力机器的必要资源,经过探索,在幽冥之林群系(Stygian Growth)中,你发现了铜矿.
+advancements.levitated.end.end_copper.description=铜矿，锡矿和铅矿都是制作电力机器的必要资源,经过探索,在幽冥之林群系(Stygian Growth)中,你发现了它们.
 
 advancements.levitated.end.end_uranium.title=需要防化服吗
 advancements.levitated.end.end_uranium.description=铀矿的生成方式与钻石矿相同,但只在幽冥之林群系(Stygian Growth)岛屿下方的多孔滤石尖刺中生成.
@@ -139,7 +139,7 @@ advancements.levitated.end.solder.title=小心烫伤
 advancements.levitated.end.solder.description=焊料这种合金非常适合用来制作机器.要制作一桶焊料,你只需要用一个桶装焊料粉右击火焰便可制成.
 
 advancements.levitated.end.scanner.title=源计划: 复苏
-advancements.levitated.end.scanner.description=虽然下界现在是一片虚无,但你仍可以借助机器的力量复苏它.生物群系扫描仪和地形扫描仪框架能够在很短的时间内塑造世界.但它们需要的能量比其他机器要多得多.
+advancements.levitated.end.scanner.description=虽然下界现在是一片虚无,但你仍可以借助机器的力量复苏它.生物群系扫描仪和地形扫描仪能够在很短的时间内塑造世界.但它们需要的能量比其他机器要多得多.
 
 advancements.levitated.end.netherrack.title=早期测试完结 v0.1
 advancements.levitated.end.netherrack.description=获得一块地狱岩来完成此成就.如果你完成了此成就,那么恭喜你,你已经在Levitated早期测试版本中毕业了!你可以在plus的QQ群里尽情的装逼,并能够随意说"屑plus,你的包太简单辣!"
