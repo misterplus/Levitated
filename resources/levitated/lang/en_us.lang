@@ -138,6 +138,12 @@ advancements.levitated.end.assembler.description=Although simpler machines can b
 advancements.levitated.end.solder.title=Solder Soldier
 advancements.levitated.end.solder.description=Solder is a great alloy for creating machines. To create a Bucket of Solder, simply right click on fire with a Bucket of Solder Powder.
 
+advancements.levitated.end.scanner.title=Operation: Regenerate
+advancements.levitated.end.scanner.description=The Nether is empty right now, but you can change that. By combining the power of the Biome Scanner and the Terrain Scanner, one can easily shape the world in seconds. They do require a lot more power than normal machines tho.
+
+advancements.levitated.end.netherrack.title=The End of Early Access v0.1
+advancements.levitated.end.netherrack.description=Aquire a piece of Netherrack to complete this advancement. If you got this far, congratulations, you've reached the end of this EA version of Levitated. Now you can brag about how good you are at Minecraft in plus's qq group without him harassing you.
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.
