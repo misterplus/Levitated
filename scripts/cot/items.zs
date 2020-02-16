@@ -5,6 +5,7 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.ActionResult;
+import mods.contenttweaker.Hand;
 
 var end_seeds = VanillaFactory.createItem("end_seeds");
 end_seeds.register();
@@ -56,4 +57,23 @@ solder_powder.register();
 
 var solder_bucket = VanillaFactory.createItem("solder_bucket");
 solder_bucket.maxStackSize = 1;
+solder_bucket.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    if (world.getBlockState(pos.getOffset(facing, 1)) == <block:minecraft:fire>){
+        player.getHeldItem(hand).shrink(1);
+        if hand == Hand.main(){
+            Commands.call("replaceitem entity @p slot.weapon.mainhand forge:bucketfilled 1 0 {Amount:1000,FluidName:\"solder\"}", player, world, false, true);
+        }
+        else {
+            Commands.call("replaceitem entity @p slot.weapon.offhand forge:bucketfilled 1 0 {Amount:1000,FluidName:\"solder\"}", player, world, false, true);
+        }
+        return ActionResult.success();
+    }
+    return ActionResult.pass();
+};
 solder_bucket.register();
+
+var biome_scanner_basic = VanillaFactory.createItem("biome_scanner_basic");
+biome_scanner_basic.register();
+
+var terrain_scanner = VanillaFactory.createItem("terrain_scanner");
+terrain_scanner.register();

@@ -135,6 +135,8 @@ advancements.levitated.end.alloy_smelter.description=Melting different substance
 advancements.levitated.end.assembler.title=Avengers!
 advancements.levitated.end.assembler.description=Although simpler machines can be crafted by hand, you'll have to use an Assembler for more complex machines.
 
+advancements.levitated.end.solder.title=Solder Soldier
+advancements.levitated.end.solder.description=Solder is a great alloy for creating machines. To create a Bucket of Solder, simply right click on fire with a Bucket of Solder Powder.
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.

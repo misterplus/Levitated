@@ -25,7 +25,7 @@ glitched_obsidian.register();
 //Assembler
 var assembler_slots = [] as IMachineSlot[];
 for i in 0 to 3 {
-    assembler_slots += extrautilities2.Tweaker.IMachineSlot.newItemStackSlot("assembler_slot_" + i, true);
+    assembler_slots += extrautilities2.Tweaker.IMachineSlot.newItemStackSlot("assembler_slot_item_" + i, true);
 }
 assembler_slots += extrautilities2.Tweaker.IMachineSlot.newFluidSlot("assembler_slot_liquid", 4000, true, null);
 var assembler = extrautilities2.Tweaker.IMachineRegistry.createNewMachine(
