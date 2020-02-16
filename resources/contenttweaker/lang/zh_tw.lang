@@ -10,5 +10,13 @@ item.contenttweaker.clay_board.name=粘土板
 item.contenttweaker.ccb_base.name=陶瓷電路板基板
 item.contenttweaker.pottery_clay.name=陶土
 item.contenttweaker.ccb.name=陶瓷電路板
+item.contenttweaker.solder_powder.name=焊料粉末
+item.contenttweaker.solder_bucket.name=桶裝焊料粉末
+item.contenttweaker.biome_scanner_basic.name=基礎生物群戲掃描儀框架
+item.contenttweaker.terrain_scanner.name=地形掃描儀框架
 item.contenttweaker.origin_book.message=出生點已重設！
 item.contenttweaker.nether_book.message=你現在可以前往地獄了!
+
+fluid.solder=焊料
+
+machine.crafttweaker:assembler=電路組裝機
