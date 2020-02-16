@@ -29,7 +29,7 @@ recipes.addShaped(<botania:altar>, [[<minecraft:purpur_slab>, <ore:petal>, <mine
 <ore:seed>.addItems([<contenttweaker:end_seeds>]);
 
 //Pure Daisy can turn end acid into water(ice cause it's block only)
-mods.botania.PureDaisy.addRecipe(<liquid:endacid>, <minecraft:ice>, 600);
+mods.botania.PureDaisy.addRecipe(<liquid:endacid>, <minecraft:ice>, 300);
 
 //Ender Iron Chunk recipe
 mods.botania.ManaInfusion.addInfusion(<contenttweaker:end_iron_chunk>, <contenttweaker:end_iron>, 2500);
@@ -56,6 +56,8 @@ mods.botania.ManaInfusion.addConjuration(<minecraft:glowstone_dust> * 2, <minecr
 
 //Orechid Endium
 <ore:oreEndCopper>.addItems([<netherendingores:ore_end_modded_1:1>]);
+<ore:oreEndLead>.addItems([<netherendingores:ore_end_modded_1:3>]);
+<ore:oreEndTin>.addItems([<netherendingores:ore_end_modded_1:8>]);
 <ore:oreEndCoal>.addItems([<netherendingores:ore_end_vanilla:0>]);
 <ore:oreEndDiamond>.addItems([<netherendingores:ore_end_vanilla:1>]);
 <ore:oreEndGold>.addItems([<netherendingores:ore_end_vanilla:3>]);
