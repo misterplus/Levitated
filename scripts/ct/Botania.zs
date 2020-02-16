@@ -65,10 +65,13 @@ mods.botania.ManaInfusion.addConjuration(<minecraft:glowstone_dust> * 2, <minecr
 <ore:oreEndLapis>.addItems([<netherendingores:ore_end_vanilla:5>]);
 <ore:oreEndRedstone>.addItems([<netherendingores:ore_end_vanilla:6>]);
 
-//Alternative Spark Recipe
+//Alternative Spark recipe
 recipes.addShaped(<botania:spark>, [[null, <ore:petal>, null],[<tconstruct:firewood:1>, <minecraft:gold_nugget>, <tconstruct:firewood:1>], [null, <ore:petal>, null]]);
 
 //Glitched Obsidian recipe
 var end_plate = AgglomerationMultiblock.create().checker(<minecraft:obsidian>, <minecraft:purpur_block>);
 var glitched_oby = AgglomerationRecipe.create().output(<contenttweaker:glitched_obsidian>).inputs([<deepmoblearning:glitch_infused_ingot>, <minecraft:obsidian>]).manaCost(100000).multiblock(end_plate);
 Agglomeration.addRecipe(glitched_oby);
+
+//Menril Sapling recipe
+mods.botania.ManaInfusion.addAlchemy(<integrateddynamics:menril_sapling>, <stygian:endcanopysapling>, 9000);
