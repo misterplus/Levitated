@@ -132,6 +132,17 @@ advancements.levitated.end.sag_mill.description=即使使用影矿兰都不能�
 advancements.levitated.end.alloy_smelter.title=强化,加固
 advancements.levitated.end.alloy_smelter.description=把不同的金属融合在一起,会使它们更坚硬,更强大,冶金专家称之为"合金".
 
+advancements.levitated.end.assembler.title=不是我没技术,只是我懒^^
+advancements.levitated.end.assembler.description=尽管你可以手捏简易的机器,但要制作更复杂更高级的机器,你需要一台装配机来帮助你.
+
+advancements.levitated.end.solder.title=小心烫伤
+advancements.levitated.end.solder.description=焊料这种合金非常适合用来制作机器.要制作一桶焊料,你只需要用一个桶装焊料粉右击火焰便可制成.
+
+advancements.levitated.end.scanner.title=源计划: 复苏
+advancements.levitated.end.scanner.description=虽然下界现在是一片虚无,但你仍可以借助机器的力量复苏它.生物群系扫描仪和地形扫描仪框架能够在很短的时间内塑造世界.但它们需要的能量比其他机器要多得多.
+
+advancements.levitated.end.netherrack.title=早期测试完结 v0.1
+advancements.levitated.end.netherrack.description=获得一块地狱岩来完成此成就.如果你完成了此成就,那么恭喜你,你已经在Levitated早期测试版本中毕业了!你可以在plus的QQ群里尽情的装逼,并能够随意说"屑plus,你的包太简单辣!"
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
