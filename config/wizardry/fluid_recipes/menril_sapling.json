@@ -4,7 +4,7 @@
         "item": "integrateddynamics:menril_sapling"
     },
     "input":{
-        "item": "stygian:endcanopysapling"
+        "item": "minecraft:deadbush"
     },
     "duration": 200,
     "required": 9,
