@@ -144,6 +144,9 @@ advancements.levitated.end.scanner.description=虽然下界现在是一片虚无
 advancements.levitated.end.netherrack.title=早期测试完结 v0.1
 advancements.levitated.end.netherrack.description=获得一块地狱岩来完成此成就.如果你完成了此成就,那么恭喜你,你已经在Levitated早期测试版本中毕业了!你可以在plus的QQ群里尽情的装逼,并能够随意说"屑plus,你的包太简单辣!"
 
+advancements.levitated.end.drying_rack.title=一滴都没有了
+advancements.levitated.end.drying_rack.description=你想制作晾干架,但是你的力量并不足以手捏龙木台阶,所以寻找一种更加柔软的材料并用它制作晾干架吧!(一桶魔力或许能软化木头.
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
 tooltips.levitated.origin_book=右击来设置你的重生点
