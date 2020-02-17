@@ -144,6 +144,9 @@ advancements.levitated.end.scanner.description=The Nether is empty right now, bu
 advancements.levitated.end.netherrack.title=The End of Early Access v0.1
 advancements.levitated.end.netherrack.description=Aquire a piece of Netherrack to complete this advancement. If you got this far, congratulations, you've reached the end of this EA version of Levitated. Now you can brag about how good you are at Minecraft in plus's qq group without him harassing you.
 
+advancements.levitated.end.drying_rack.title=Drying Wisdom
+advancements.levitated.end.drying_rack.description=If you want to make Drying Racks, you'll find that Wyrmwood is a bit too hard for creating slabs, try using something softer. Maybe a bucket of Mana can help you out.
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.

@@ -4,22 +4,25 @@
 import extrautilities2.Tweaker.IMachine;
 import extrautilities2.Tweaker.IMachineSlot;
 import extrautilities2.Tweaker.IMachineRegistry;
+import mods.contenttweaker.AxisAlignedBB;
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
 var end_iron = VanillaFactory.createBlock("end_iron", <blockmaterial:rock>);
-end_iron.setBlockHardness(3.0);
-end_iron.setBlockResistance(15.0);
-end_iron.setToolClass("pickaxe");
-end_iron.setToolLevel(3);
+end_iron.blockSoundType = <soundtype:stone>;
+end_iron.blockHardness = 3.0;
+end_iron.blockResistance = 15.0;
+end_iron.toolClass = "pickaxe";
+end_iron.toolLevel = 3;
 end_iron.register();
 
 var glitched_obsidian = VanillaFactory.createBlock("glitched_obsidian", <blockmaterial:rock>);
-glitched_obsidian.setBlockHardness(50.0);
-glitched_obsidian.setBlockResistance(6000.0);
-glitched_obsidian.setToolClass("pickaxe");
-glitched_obsidian.setToolLevel(3);
+glitched_obsidian.blockSoundType = <soundtype:stone>;
+glitched_obsidian.blockHardness = 50.0;
+glitched_obsidian.blockResistance = 6000.0;
+glitched_obsidian.toolClass = "pickaxe";
+glitched_obsidian.toolLevel = 3;
 glitched_obsidian.register();
 
 //Assembler
@@ -37,3 +40,10 @@ var assembler = extrautilities2.Tweaker.IMachineRegistry.createNewMachine(
     "contenttweaker:blocks/assembler", 
     "contenttweaker:blocks/assembler_active"
 );
+
+var end_trim = VanillaFactory.createBlock("end_trim", <blockmaterial:wood>);
+end_trim.blockSoundType = <soundtype:wood>;
+end_trim.blockHardness = 5.0;
+end_trim.toolClass = "axe";
+end_trim.toolLevel = 0;
+end_trim.register();

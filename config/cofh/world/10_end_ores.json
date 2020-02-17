@@ -13,7 +13,7 @@
 				"material": "minecraft:end_stone",
 				"cluster-size": 10
 			},
-			"cluster-count": 6,
+			"cluster-count": 7,
 			"min-height": 40,
 			"max-height": 55,
 			"biome": {
@@ -47,8 +47,8 @@
 				"material": "minecraft:end_stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 5,
-			"min-height": 30,
+			"cluster-count": 6,
+			"min-height": 25,
 			"max-height": 45,
 			"biome": "all",
 			"dimension": {
@@ -71,7 +71,7 @@
 				"material": "minecraft:end_stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 4,
+			"cluster-count": 3,
 			"min-height": 20,
 			"max-height": 35,
 			"biome": "all",
@@ -196,10 +196,10 @@
                     }
                 ],
 				"material": "minecraft:end_stone",
-				"cluster-size": 8
+				"cluster-size": 9
 			},
-			"cluster-count": 5,
-			"min-height": 30,
+			"cluster-count": 7,
+			"min-height": 25,
 			"max-height": 55,
 			"biome": {
 				"restriction": "whitelist",
@@ -232,10 +232,10 @@
                     }
                 ],
 				"material": "minecraft:end_stone",
-				"cluster-size": 9
+				"cluster-size": 10
 			},
 			"cluster-count": 6,
-			"min-height": 35,
+			"min-height": 30,
 			"max-height": 55,
 			"biome": {
 				"restriction": "whitelist",

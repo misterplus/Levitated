@@ -1,0 +1,1 @@
+<ore:drawerTrim>.addItems([<contenttweaker:end_trim>]);

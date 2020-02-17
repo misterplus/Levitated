@@ -4,6 +4,7 @@ setTranslatedTitle("advancements.levitated.end.grass_seeds.title")
 setTranslatedDescription("advancements.levitated.end.grass_seeds.description")
 
 addParent("triumph:levitated/end/alchemy")
+addParent("triumph:levitated/end/drying_rack")
 setShowToast(true)
 setPos(484,-18)
 

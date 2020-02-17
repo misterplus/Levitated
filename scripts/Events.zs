@@ -20,7 +20,7 @@ events.onEnderTeleport(function(event as EnderTeleportEvent) {
 
 //breaking endstone with hands now drops endstone shards
 events.onBlockBreak(function(event as BlockBreakEvent) {
-	if (event.blockState == <blockstate:minecraft:end_stone>) & (event.isPlayer == true) & isNull(event.player.currentItem) & (event.player.creative == false) {
+	if (event.blockState == <blockstate:minecraft:end_stone>) & !(extrautilities2.Tweaker.XUTweaker.isPlayerFake(event.player)) & (event.isPlayer == true) & isNull(event.player.currentItem) & (event.player.creative == false) {
 		event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
 	}
 });
