@@ -77,3 +77,6 @@ biome_scanner_basic.register();
 
 var terrain_scanner = VanillaFactory.createItem("terrain_scanner");
 terrain_scanner.register();
+
+var blue_lotus = VanillaFactory.createItem("blue_lotus");
+blue_lotus.register();

@@ -1,0 +1,11 @@
+{
+	"output": {
+		"item": "contenttweaker:blue_lotus",
+		"data": 1
+	},
+	"input": {
+		"item": "stygian:endglow"
+	},
+	"duration": 30,
+	"consume": true
+}
