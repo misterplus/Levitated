@@ -13,9 +13,6 @@ events.onEnderTeleport(function(event as EnderTeleportEvent) {
 	if isNull(event.entityLivingBase.definition){
 		event.entityLivingBase.world.spawnEntity(<deepmoblearning:living_matter_extraterrestrial>.createEntityItem(event.entityLivingBase.world, event.targetX, event.targetY, event.targetZ));
 	}
-	else if (Math.random() > 0.9 as double) {
-		event.entityLivingBase.world.spawnEntity(<deepmoblearning:living_matter_extraterrestrial>.createEntityItem(event.entityLivingBase.world, event.targetX, event.targetY, event.targetZ));
-	}
 });
 
 //breaking endstone with hands now drops endstone shards
@@ -24,4 +21,3 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
 		event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
 	}
 });
-
