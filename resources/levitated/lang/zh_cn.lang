@@ -1,7 +1,7 @@
 # Levitated自定义进度
 
 advancements.levitated.end.root.title=终末亦是开始
-advancements.levitated.end.root.description=你不慎跌入终界,不幸中的万幸,你碰巧又坠入折跃门中,没有了末影龙的侵扰,你开始思考怎么逃出去...
+advancements.levitated.end.root.description=主世界轰然崩塌,你不慎跌入终界,不幸中的万幸,你碰巧又坠入折跃门中,没有了末影龙的侵扰,你开始思考怎么逃出去...
 
 advancements.levitated.end.chorus_fruit.title=不同寻常的水果
 advancements.levitated.end.chorus_fruit.description=吃一个紫颂果.
@@ -10,7 +10,7 @@ advancements.levitated.end.ender_lilly.title=诡异的..植物?
 advancements.levitated.end.ender_lilly.description=破坏一株末影百合以获取一些末影百合种子.将它种在末地石上,它就能生长出末影珍珠.(光合作用?)
 
 advancements.levitated.end.end_matter.title=世界物质
-advancements.levitated.end.end_matter.description=现在,每次末影传送都会在落脚点生成一个末地物质,包括末影人和潜影贝的传送,当然,玩家使用末影珍珠也是可以的.
+advancements.levitated.end.end_matter.description=现在,玩家使用末影珍珠传送时,会在落脚点生成一个世界物质.这是由于玩家自身携带着主世界崩塌后流窜的各种元素造成的,所以末地的本土生物传送并不会生成.
 
 advancements.levitated.end.endstone_shard.title=地之碎片
 advancements.levitated.end.endstone_shard.description=空手破坏末地石可以获得末地石碎片,它的锋利程度足够制作工具了.
