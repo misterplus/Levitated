@@ -60,7 +60,7 @@ solder_bucket.onItemUse = function(player, world, pos, hand, facing, blockHit) {
 solder_bucket.register();
 
 var paper_planes = [] as Item[];
-for i in 0 to 8 {
+for i in 0 to 7 {
     paper_planes += VanillaFactory.createItem("paper_plane_" + i);
 }
 
