@@ -14,8 +14,17 @@ item.contenttweaker.solder_bucket.name=桶装焊料粉
 item.contenttweaker.biome_scanner_basic.name=生物群系扫描仪框架 (基础)
 item.contenttweaker.terrain_scanner.name=地形扫描仪框架
 item.contenttweaker.blue_lotus.name=蓝莲花
+item.contenttweaker.paper_plane_0.name=纸飞机 (1/7)
+item.contenttweaker.paper_plane_1.name=纸飞机 (2/7)
+item.contenttweaker.paper_plane_2.name=纸飞机 (3/7)
+item.contenttweaker.paper_plane_3.name=纸飞机 (4/7)
+item.contenttweaker.paper_plane_4.name=纸飞机 (5/7)
+item.contenttweaker.paper_plane_5.name=纸飞机 (6/7)
+item.contenttweaker.paper_plane_6.name=纸飞机
+item.contenttweaker.mana_paper.name=纸
 item.contenttweaker.origin_book.message=重生点已设置!
 item.contenttweaker.nether_book.message=你可以前往地狱了!
+item.contenttweaker.paper_plane_6.message=嘿! 等另外一架飞机回来!
 
 fluid.solder=焊料
 
