@@ -6,6 +6,7 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.ActionResult;
 import mods.contenttweaker.Hand;
+import crafttweaker.data.IData;
 
 var easy_items = ["end_seeds", "ccb", "ccb_base", "clay_board", "pottery_clay", "solder_powder", "biome_scanner_basic", "terrain_scanner", "blue_lotus"] as string[];
 for item in easy_items {
@@ -65,5 +66,7 @@ for i in 0 to 7 {
 }
 
 for paper_plane in paper_planes {
+    paper_plane.unlocalizedName = "item.contenttweaker.paper_plane.name";
+    paper_plane.maxStackSize = 1;
     paper_plane.register();
 }

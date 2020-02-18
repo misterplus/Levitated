@@ -4,7 +4,6 @@ import crafttweaker.block.IBlock;
 import crafttweaker.entity.IEntity;
 import crafttweaker.event.EnderTeleportEvent;
 import crafttweaker.event.BlockBreakEvent;
-import crafttweaker.event.PlayerInteractBlockEvent;
 import mods.ctutils.utils.Math;
 import mods.ctutils.commands.Commands;
 
