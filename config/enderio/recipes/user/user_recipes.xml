@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+ <recipe name="Tank: Deep Mob Learning, Overworld Matter" required="false">    
+   <tanking type="EMPTY" logic="XP">      
+     <input name="deepmoblearning:living_matter_overworldian"/>      
+     <fluid name="xpjuice" amount="20"/><!-- for logic=XP amount is in XP, not mB -->    
+   </tanking>  
+ </recipe>
+ <recipe name="Tank: Deep Mob Learning, Hellish Matter" required="false">
+   <tanking type="EMPTY" logic="XP">      
+     <input name="deepmoblearning:living_matter_hellish"/>      
+     <fluid name="xpjuice" amount="14"/><!-- for logic=XP amount is in XP, not mB -->    
+   </tanking>  
+ </recipe>
+ <recipe name="Tank: Deep Mob Learning, Extraterrestrial Matter" required="false">
+   <tanking type="EMPTY" logic="XP">
+     <input name="deepmoblearning:living_matter_extraterrestrial"/>
+     <fluid name="xpjuice" amount="10"/><!-- for logic=XP amount is in XP, not mB -->    
+   </tanking>  
+ </recipe>
+</enderio:recipes>

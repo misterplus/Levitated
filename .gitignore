@@ -20,6 +20,9 @@
 !/manifest.json
 !/config/enderio
 /config/enderio/*
+!/config/enderio/recipes
+/config/enderio/recipes/*
+!/config/enderio/recipes/user
 !/config/enderio/enderio.cfg
 !/structures
 !/config/reccomplex.cfg
