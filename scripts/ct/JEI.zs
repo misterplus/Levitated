@@ -19,3 +19,4 @@ for i, paper_plane in paper_planes {
 
 addDescription(<contenttweaker:mana_paper>, game.localize("description.levitated.mana_paper"));
 addDescription(<contenttweaker:end_iron_chunk>, game.localize("description.levitated.end_iron_chunk"));
+addDescription(<minecraft:feather>, game.localize("description.levitated.feather"));
