@@ -114,7 +114,7 @@ advancements.levitated.end.simulation_chamber.description=如果厌倦了手动�
 advancements.levitated.end.keystone.title=故障试炼
 advancements.levitated.end.keystone.description=系统故障只会出现在试炼中,开始一项试炼需要一把测试密钥.更多信息请在指南中查阅.
 
-advancements.levitated.end.glitched_oby.title=系统&故%@&障
+advancements.levitated.end.glitched_oby.title=系统§k故kokok§r障
 advancements.levitated.end.glitched_oby.description=仅仅用黑曜石搭建一个传送门框架并不能让你进入下界,你需要给普通的黑曜石添加一些小"故障",在你思考该怎么做时,泰拉凝聚板似乎向你发出了微弱的光芒.
 
 advancements.levitated.end.nether_portal.title=通向...虚无的门?
@@ -148,7 +148,7 @@ advancements.levitated.end.drying_rack.title=一滴都没有了
 advancements.levitated.end.drying_rack.description=你想制作晾干架,但是你的力量并不足以手捏龙木台阶,所以寻找一种更加柔软的材料并用它制作晾干架吧!(一桶魔力或许能软化木头.
 
 advancements.levitated.end.blue_lotus.title=这真不是色素染的
-advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth)中,你能发现一种叫"冥灯草"的植物,它看起来十分诡异并闪着微小的光.经过尝试,你发现它能够稳定并吸收魔力,并转变为蓝莲花,把它扔进魔力池中就能够释放它储存的魔力.
+advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth)中,你能发现一种叫"冥灯草"的植物,它看起来十分诡异并闪着微小的光.经过尝试,你发现它能够稳定并吸收魔力,并转变为蓝莲花,把它扔进§3魔力池§r中就能够释放它储存的魔力.
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
