@@ -7,8 +7,10 @@ import mods.contenttweaker.Commands;
 import mods.contenttweaker.ActionResult;
 import mods.contenttweaker.Hand;
 
-var end_seeds = VanillaFactory.createItem("end_seeds");
-end_seeds.register();
+var easy_items = ["end_seeds", "ccb", "ccb_base", "clay_board", "pottery_clay", "solder_powder", "biome_scanner_basic", "terrain_scanner", "blue_lotus"] as string[];
+for item in easy_items {
+    VanillaFactory.createItem(item).register();
+}
 
 var end_iron_chunk = VanillaFactory.createItem("end_iron_chunk");
 end_iron_chunk.onItemUse = function(player, world, pos, hand, facing, blockHit) {
@@ -40,21 +42,6 @@ nether_book.itemRightClick = function(stack, world, player, hand) {
 };
 nether_book.register();
 
-var ccb = VanillaFactory.createItem("ccb");
-ccb.register();
-
-var ccb_base = VanillaFactory.createItem("ccb_base");
-ccb_base.register();
-
-var clay_board = VanillaFactory.createItem("clay_board");
-clay_board.register();
-
-var pottery_clay = VanillaFactory.createItem("pottery_clay");
-pottery_clay.register();
-
-var solder_powder = VanillaFactory.createItem("solder_powder");
-solder_powder.register();
-
 var solder_bucket = VanillaFactory.createItem("solder_bucket");
 solder_bucket.maxStackSize = 1;
 solder_bucket.onItemUse = function(player, world, pos, hand, facing, blockHit) {
@@ -71,15 +58,6 @@ solder_bucket.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     return ActionResult.pass();
 };
 solder_bucket.register();
-
-var biome_scanner_basic = VanillaFactory.createItem("biome_scanner_basic");
-biome_scanner_basic.register();
-
-var terrain_scanner = VanillaFactory.createItem("terrain_scanner");
-terrain_scanner.register();
-
-var blue_lotus = VanillaFactory.createItem("blue_lotus");
-blue_lotus.register();
 
 var paper_planes = [] as Item[];
 for i in 0 to 8 {
