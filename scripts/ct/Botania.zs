@@ -2,6 +2,7 @@
 import mods.botaniatweaks.Agglomeration;
 import mods.botaniatweaks.AgglomerationMultiblock;
 import mods.botaniatweaks.AgglomerationRecipe;
+import mods.inworldcrafting.FluidToItem;
 
 //remove
 recipes.remove(<botania:enderdagger>);
@@ -9,6 +10,9 @@ recipes.remove(<botania:altar>);
 recipes.remove(<botania:rfgenerator>);
 
 //add
+
+//Blue lotus recipe
+FluidToItem.transform(<contenttweaker:blue_lotus>, <fluid:mana_fluid>, [<stygian:endglow>]);
 
 //Blue lotus into mana recipe
 mods.botania.ManaInfusion.addInfusion(<stygian:endglow>, <contenttweaker:blue_lotus>, -1000);
@@ -21,20 +25,20 @@ mods.botania.PureDaisy.addRecipe(<minecraft:end_stone>, <minecraft:cobblestone>,
 //Create mushrooms with enbiotic
 mods.botania.PureDaisy.addRecipe(<stygian:endglow>, <minecraft:brown_mushroom>, 300);
 
-//Petal Apothecary now requires end stone
+//Petal apothecary now requires end stone
 <ore:petal>.addItems([<botania:petal:*>, <botania:mushroom:*>]);
 recipes.addShaped(<botania:altar>, [[<minecraft:purpur_slab>, <ore:petal>, <minecraft:purpur_slab>],[null, <minecraft:end_stone>, null], [<minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>]]);
 
 //Add end seeds to the ore dictionary so it works in the petal apothecary
 <ore:seed>.addItems([<contenttweaker:end_seeds>]);
 
-//Pure Daisy can turn end acid into water(ice cause it's block only)
+//Pure daisy can turn end acid into water(ice cause it's block only)
 mods.botania.PureDaisy.addRecipe(<liquid:endacid>, <minecraft:ice>, 300);
 
-//Ender Iron Chunk recipe
+//Ender iron chunk recipe
 mods.botania.ManaInfusion.addInfusion(<contenttweaker:end_iron_chunk>, <contenttweaker:end_iron>, 2500);
 
-//Alternative Fire Rune recipe
+//Alternative fire rune recipe
 mods.botania.RuneAltar.addRecipe(<botania:rune:1> * 2,[<botania:manaresource:23>, <botania:manaresource>, <tconstruct:firewood:1>, <minecraft:gunpowder>, <minecraft:dragon_breath>], 6000);
 
 //Recipe for feather
@@ -65,13 +69,16 @@ mods.botania.ManaInfusion.addConjuration(<minecraft:glowstone_dust> * 2, <minecr
 <ore:oreEndLapis>.addItems([<netherendingores:ore_end_vanilla:5>]);
 <ore:oreEndRedstone>.addItems([<netherendingores:ore_end_vanilla:6>]);
 
-//Alternative Spark recipe
+//Alternative spark recipe
 recipes.addShaped(<botania:spark>, [[null, <ore:petal>, null],[<tconstruct:firewood:1>, <minecraft:gold_nugget>, <tconstruct:firewood:1>], [null, <ore:petal>, null]]);
 
-//Glitched Obsidian recipe
+//Glitched obsidian recipe
 var end_plate = AgglomerationMultiblock.create().checker(<minecraft:obsidian>, <minecraft:purpur_block>);
 var glitched_oby = AgglomerationRecipe.create().output(<contenttweaker:glitched_obsidian>).inputs([<deepmoblearning:glitch_infused_ingot>, <minecraft:obsidian>]).manaCost(100000).multiblock(end_plate);
 Agglomeration.addRecipe(glitched_oby);
 
-//Menril Sapling recipe
-mods.botania.ManaInfusion.addAlchemy(<integrateddynamics:menril_sapling>, <stygian:endcanopysapling>, 9000);
+//Plants recipe
+mods.botania.ManaInfusion.addAlchemy(<integrateddynamics:menril_sapling>, <stygian:endcanopysapling>, 10000);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:cactus>, <stygian:endcactus>, 10000);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:reeds>, <stygian:endvine>, 10000);
+

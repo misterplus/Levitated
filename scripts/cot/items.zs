@@ -80,3 +80,12 @@ terrain_scanner.register();
 
 var blue_lotus = VanillaFactory.createItem("blue_lotus");
 blue_lotus.register();
+
+var paper_planes = [] as Item[];
+for i in 0 to 8 {
+    paper_planes += VanillaFactory.createItem("paper_plane_" + i);
+}
+
+for paper_plane in paper_planes {
+    paper_plane.register();
+}

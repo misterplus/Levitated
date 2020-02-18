@@ -37,7 +37,7 @@ advancements.levitated.end.mana_pool.title=Legacy of the Aboriginals
 advancements.levitated.end.mana_pool.description=Buildings other than End Ships spawn in the end, which contains several magic items such as an Mana Pool.
 
 advancements.levitated.end.liquid_mana.title=Gifts of God
-advancements.levitated.end.liquid_mana.description=A manaless pool ain't gonna help you much, but fortunately there's natural pools of mana in the Stygian Growth biome. You can use buckets to collect this form of mana and pour it into the Mana Pool.
+advancements.levitated.end.liquid_mana.description=A manaless pool ain't gonna help you much, but fortunately there's natural pools of mana in the Stygian Growth biome. But the liquid form of mana is highly unstable, which means only basic crafting can be done. You need to find a way to stablize them.
 
 advancements.levitated.end.mana_usage.title=Regrowth
 advancements.levitated.end.mana_usage.description=Mana has many special properties, like turning Stygian Grass into Vivid Grass or calcify Chorus Flowers into Bone Blocks. That means you can create flowers now, hurray!
@@ -146,6 +146,9 @@ advancements.levitated.end.netherrack.description=Aquire a piece of Netherrack t
 
 advancements.levitated.end.drying_rack.title=Drying Wisdom
 advancements.levitated.end.drying_rack.description=If you want to make Drying Racks, you'll find that Wyrmwood is a bit too hard for creating slabs, try using something softer. Maybe a bucket of Mana can help you out.
+
+advancements.levitated.end.blue_lotus.title=Stablization
+advancements.levitated.end.blue_lotus.description=The weird plants named "Enbiotic" can be found in the Stygian Growth biome. They are capable of stablizing liquid mana and absorb them, turning into a Blue Lotus in the process. Tossing a Blue Lotus into a Mana Pool releases stored Mana.
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
