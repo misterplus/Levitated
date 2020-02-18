@@ -10,4 +10,10 @@ recipes.remove(<deepmoblearning:glitch_infused_chestplate>);
 recipes.remove(<deepmoblearning:glitch_infused_helmet>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<contenttweaker:paper_plane_6>, [[null, null, null],[null, <contenttweaker:paper_plane_5>, null], [null, null, null]]);
+recipes.addShaped(<contenttweaker:paper_plane_5>, [[null, null, null],[null, null, null], [<contenttweaker:paper_plane_4>, null, null]]);
+recipes.addShaped(<contenttweaker:paper_plane_4>, [[null, null, null],[null, null, <contenttweaker:paper_plane_3>], [null, null, null]]);
+recipes.addShaped(<contenttweaker:paper_plane_3>, [[null, <contenttweaker:paper_plane_2>, null],[null, null, null], [null, null, null]]);
+recipes.addShaped(<contenttweaker:paper_plane_2>, [[null, null, null],[null, null, null], [null, <contenttweaker:paper_plane_1>, null]]);
+recipes.addShaped(<contenttweaker:paper_plane_1>, [[null, null, null],[null, <contenttweaker:paper_plane_0>, null], [null, null, null]]);
 //File End
