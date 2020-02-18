@@ -162,4 +162,8 @@ tooltips.levitated.paper_plane_3=
 tooltips.levitated.paper_plane_4=
 tooltips.levitated.paper_plane_5=
 tooltips.levitated.paper_plane_6=
+tooltips.levitated.mana_paper=What? This is still paper! Just soaked with mana!
+
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
+description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
+description.levitated.mana_paper=Shift right click on a crafting table/station to fold it in half. But one cannot do so without some expertises in paper-folding.

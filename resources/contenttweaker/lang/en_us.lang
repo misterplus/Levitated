@@ -14,8 +14,8 @@ item.contenttweaker.solder_bucket.name=Bucket of Solder Powder
 item.contenttweaker.biome_scanner_basic.name=Biome Scanner (Basic) Casing
 item.contenttweaker.terrain_scanner.name=Terrain Scanner Casing
 item.contenttweaker.blue_lotus.name=Blue Lotus
-item.contenttweaker.paper_plane.name=Paper Plane
-
+item.contenttweaker.paper_plane_0.name=Paper Plane
+item.contenttweaker.mana_paper.name=Paper
 item.contenttweaker.origin_book.message=Spawn Point Set!
 item.contenttweaker.nether_book.message=You can now travel to the Nether!
 

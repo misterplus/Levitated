@@ -6,7 +6,7 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.ActionResult;
 import mods.contenttweaker.Hand;
-import crafttweaker.data.IData;
+import crafttweaker.block.IBlockState;
 
 var easy_items = ["end_seeds", "ccb", "ccb_base", "clay_board", "pottery_clay", "solder_powder", "biome_scanner_basic", "terrain_scanner", "blue_lotus"] as string[];
 for item in easy_items {
@@ -66,7 +66,18 @@ for i in 0 to 7 {
 }
 
 for paper_plane in paper_planes {
-    paper_plane.unlocalizedName = "item.contenttweaker.paper_plane.name";
     paper_plane.maxStackSize = 1;
     paper_plane.register();
 }
+
+var mana_paper = VanillaFactory.createItem("mana_paper");
+mana_paper.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    if (player.isSneaking) & (player.xp >= 7) & ((world.getBlockState(pos) == <block:minecraft:crafting_table>) | (world.getBlockState(pos) == <block:tconstruct:tooltables:0>)) {
+        player.getHeldItem(hand).shrink(1);
+        Commands.call("give @p contenttweaker:paper_plane_0", player, world, false, true);
+        player.removeXP(7);
+        return ActionResult.success();
+    }
+    return ActionResult.pass();
+};
+mana_paper.register();
