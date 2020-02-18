@@ -37,7 +37,7 @@ advancements.levitated.end.mana_pool.title=先人的遗产
 advancements.levitated.end.mana_pool.description=除了无法探本穷源的末地船,先人们还在末地建造了另一种建筑,并在里面为后人留下一些残留了些许魔力的物品,例如魔力池.
 
 advancements.levitated.end.liquid_mana.title=上帝的恩赐
-advancements.levitated.end.liquid_mana.description=没有魔力的魔力池对你来说只是食之无味弃之可惜,幸运的是,幽冥之林群系(Stygian Growth)中有天然的魔法池,你可以用水桶收集这种液态的魔力倒入魔力池中.
+advancements.levitated.end.liquid_mana.description=没有魔力的魔力池对你来说只是食之无味弃之可惜,幸运的是,幽冥之林群系(Stygian Growth)中有天然的魔法池,但这种液态魔力是极为不稳定的,所以你只能用最原始最简单的方法处理它,你需要找到这种方法来稳定它们.
 
 advancements.levitated.end.mana_usage.title=朝气蓬勃
 advancements.levitated.end.mana_usage.description=魔力有很多特殊的作用,比如把幽冥草地变为鲜草草地,把紫颂花变为骨块.这意味着你现在可以养花了,耶!
@@ -146,6 +146,9 @@ advancements.levitated.end.netherrack.description=获得一块地狱岩来完成
 
 advancements.levitated.end.drying_rack.title=一滴都没有了
 advancements.levitated.end.drying_rack.description=你想制作晾干架,但是你的力量并不足以手捏龙木台阶,所以寻找一种更加柔软的材料并用它制作晾干架吧!(一桶魔力或许能软化木头.
+
+advancements.levitated.end.blue_lotus.title=这真不是色素染的
+advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth)中,你能发现一种叫"冥灯草"的植物,它看起来十分诡异并闪着微小的光.经过尝试,你发现它能够稳定并吸收魔力,并转变为蓝莲花,把它扔进魔力池中就能够释放它储存的魔力.
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
