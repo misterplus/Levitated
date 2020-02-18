@@ -12,7 +12,7 @@ recipes.remove(<botania:rfgenerator>);
 //add
 
 //Blue lotus recipe
-FluidToItem.transform(<contenttweaker:blue_lotus>, <fluid:mana_fluid>, [<stygian:endglow>]);
+FluidToItem.transform(<contenttweaker:blue_lotus>, <fluid:mana_fluid>, [<stygian:endglow>], true);
 
 //Blue lotus into mana recipe
 mods.botania.ManaInfusion.addInfusion(<stygian:endglow>, <contenttweaker:blue_lotus>, -1000);
