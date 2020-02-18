@@ -13,6 +13,7 @@ item.contenttweaker.solder_powder.name=焊料粉
 item.contenttweaker.solder_bucket.name=桶装焊料粉
 item.contenttweaker.biome_scanner_basic.name=生物群系扫描仪框架 (基础)
 item.contenttweaker.terrain_scanner.name=地形扫描仪框架
+item.contenttweaker.blue_lotus.name=蓝莲花
 item.contenttweaker.origin_book.message=重生点已设置!
 item.contenttweaker.nether_book.message=你可以前往地狱了!
 
