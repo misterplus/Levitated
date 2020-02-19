@@ -150,6 +150,14 @@ advancements.levitated.end.drying_rack.description=If you want to make Drying Ra
 advancements.levitated.end.blue_lotus.title=Stabilization
 advancements.levitated.end.blue_lotus.description=The weird plants named "Enbiotic" can be found in the Stygian Growth biome. They are capable of stabilizing liquid mana and absorb them, turning into a Blue Lotus in the process. Tossing a Blue Lotus into a Mana Pool releases stored Mana.
 
+
+# Easter Egg Advancements
+advancements.levitated.easteregg.root.title=Easter Eggs!
+advancements.levitated.easteregg.root.description=If you found a easter egg by chance, it'll appear here!
+
+advancements.levitated.easteregg.feather.title="Feather" Falling
+advancements.levitated.easteregg.feather.description=Alright, this is kind of a lame pun. But this enchantment negates all fall damage!
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.
