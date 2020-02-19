@@ -195,7 +195,10 @@
                         }
                     }
                 ],
-				"material": "minecraft:end_stone",
+				"material": [
+					"minecraft:end_stone",
+					"stygian:endgrass"
+				],
 				"cluster-size": 9
 			},
 			"cluster-count": 7,
@@ -231,7 +234,10 @@
                         }
                     }
                 ],
-				"material": "minecraft:end_stone",
+				"material": [
+					"minecraft:end_stone",
+					"stygian:endgrass"
+				],
 				"cluster-size": 10
 			},
 			"cluster-count": 6,
@@ -267,7 +273,10 @@
                         }
                     }
                 ],
-				"material": "minecraft:end_stone",
+				"material": [
+					"minecraft:end_stone",
+					"stygian:endgrass"
+				],
 				"cluster-size": 7
 			},
 			"cluster-count": 5,

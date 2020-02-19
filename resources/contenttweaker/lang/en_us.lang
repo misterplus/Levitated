@@ -29,3 +29,5 @@ item.contenttweaker.paper_plane_6.message=Hey! Wait for the other plane to comeb
 fluid.solder=Solder
 
 machine.crafttweaker:assembler=Assembler
+
+enchantment.feather_falling="Feather" Falling
