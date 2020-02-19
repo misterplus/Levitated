@@ -14,9 +14,23 @@ item.contenttweaker.solder_powder.name=焊料粉末
 item.contenttweaker.solder_bucket.name=桶裝焊料粉末
 item.contenttweaker.biome_scanner_basic.name=基礎生物群戲掃描儀框架
 item.contenttweaker.terrain_scanner.name=地形掃描儀框架
+item.contenttweaker.blue_lotus.name=藍蓮花
+item.contenttweaker.paper_plane_0.name=紙飛機（1/7）
+item.contenttweaker.paper_plane_1.name=紙飛機（2/7）
+item.contenttweaker.paper_plane_2.name=紙飛機（3/7）
+item.contenttweaker.paper_plane_3.name=紙飛機（4/7）
+item.contenttweaker.paper_plane_4.name=紙飛機（5/7）
+item.contenttweaker.paper_plane_5.name=紙飛機（6/7）
+item.contenttweaker.paper_plane_6.name=紙飛機
+item.contenttweaker.mana_paper.name=魔力紙片
+
+#Levitated 客製化物品使用資訊
 item.contenttweaker.origin_book.message=出生點已重設！
 item.contenttweaker.nether_book.message=你現在可以前往地獄了!
+item.contenttweaker.paper_plane_6.message=你需要等待紙飛機返回！
 
+#Levitated 客製化流體
 fluid.solder=焊料
 
+#Levitated 客製化機械
 machine.crafttweaker:assembler=電路組裝機
