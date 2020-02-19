@@ -41,6 +41,9 @@ mods.botania.ManaInfusion.addInfusion(<contenttweaker:end_iron_chunk>, <contentt
 //Alternative fire rune recipe
 mods.botania.RuneAltar.addRecipe(<botania:rune:1> * 2,[<botania:manaresource:23>, <botania:manaresource>, <tconstruct:firewood:1>, <minecraft:gunpowder>, <minecraft:dragon_breath>], 6000);
 
+//Manapaper recipe
+mods.botania.ManaInfusion.addInfusion(<contenttweaker:mana_paper>, <minecraft:paper>, 5000);
+
 //Elven trade for unlocking the nether
 mods.botania.ElvenTrade.addRecipe([<contenttweaker:nether_book>], [<minecraft:book>]);
 

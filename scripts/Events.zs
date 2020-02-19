@@ -36,7 +36,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 			}
 			else if time == 0 {
 				player.give(<minecraft:feather>);
-				player.update(data + {"PlaneCountdown": -1 as int});
+				player.update(data + {"PlaneCountdown": -1});
 			}
 		}
 	}

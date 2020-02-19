@@ -28,7 +28,7 @@ var origin_book = VanillaFactory.createItem("origin_book");
 origin_book.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote & !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player)) {
         Commands.call("spawnpoint @p", player, world, false, true);
-        Commands.call("tellraw @p {\"translate\":\"item.contenttweaker.origin_book.message\"}", player, world, false, true);
+        player.sendChat(game.localize("item.contenttweaker.origin_book.message"));
         stack.shrink(1);
         return "SUCCESS";
     }
@@ -41,7 +41,7 @@ nether_book.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote & !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player)) {
         Commands.call("gamestage silentadd @p end_ores", player, world, false, true);
         Commands.call("gamestage silentadd @p nether", player, world, false, true);
-        Commands.call("tellraw @p {\"translate\":\"item.contenttweaker.nether_book.message\"}", player, world, false, true);
+        player.sendChat(game.localize("item.contenttweaker.nether_book.message"));
         stack.shrink(1);
         return "SUCCESS";
     }
