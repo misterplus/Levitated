@@ -162,7 +162,7 @@ tooltips.levitated.paper_plane_3=
 tooltips.levitated.paper_plane_4=
 tooltips.levitated.paper_plane_5=
 tooltips.levitated.paper_plane_6=潜行右键将它放飞！
-tooltips.levitated.mana_paper=什么? 这还是张纸! 只是被魔力浸湿了而已!
+tooltips.levitated.mana_paper=咋了? 这还是张纸! 只是被魔力浸湿了而已!
 
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能够制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
