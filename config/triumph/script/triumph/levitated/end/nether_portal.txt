@@ -1,4 +1,4 @@
-setIcon(<minecraft:netherrack>)
+setIcon(<wizardry:wisdom_wood_door>)
 
 setTranslatedTitle("advancements.levitated.end.nether_portal.title")
 setTranslatedDescription("advancements.levitated.end.nether_portal.description")

@@ -1,4 +1,4 @@
-setIcon(<chisel:netherrack>)
+setIcon(<minecraft:netherrack>)
 
 setTranslatedTitle("advancements.levitated.end.netherrack.title")
 setTranslatedDescription("advancements.levitated.end.netherrack.description")

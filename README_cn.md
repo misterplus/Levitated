@@ -9,12 +9,12 @@
 ## 协作者
 代码: 
 - MisterPlus
-- Charged_coconut
+- Charged_Coconut
 
 材质: 
-- Charged_coconut
+- Charged_Coconut
 
-翻译:
+本地化:
 - 中文:
   - Frost_yang
   - Hao_cen

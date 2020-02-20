@@ -9,12 +9,12 @@ DO NOT DOWNLOAD THE SOURCE CODE DIRECTLY FROM GITHUB, THIS PACK IS STILL IN DEVE
 ## Contributers
 Coding: 
 - MisterPlus
-- Charged_coconut
+- Charged_Coconut
 
 Textures: 
-- Charged_coconut
+- Charged_Coconut
 
-Translators: 
+Locallization: 
 - Chinese:
   - Frost_yang
   - Hao_cen
