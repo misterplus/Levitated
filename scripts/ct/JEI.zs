@@ -7,7 +7,8 @@ import mods.jei.JEI.hide;
 <contenttweaker:origin_book>.addTooltip(format.gray(game.localize("tooltips.levitated.origin_book")));
 <contenttweaker:nether_book>.addTooltip(format.gray(game.localize("tooltips.levitated.nether_book")));
 <contenttweaker:nether_book>.addTooltip(format.darkGray(game.localize("tooltips.levitated.nether_book_2")));
-<contenttweaker:mana_paper>.addTooltip(format.darkGray(game.localize("tooltips.levitated.mana_paper")));
+<contenttweaker:mana_paper>.addTooltip(format.gray(game.localize("tooltips.levitated.mana_paper")));
+<contenttweaker:mana_paper>.addTooltip(format.darkGray(game.localize("tooltips.levitated.mana_paper_2")));
 
 addDescription(<contenttweaker:mana_paper>, game.localize("description.levitated.mana_paper"));
 addDescription(<contenttweaker:end_iron_chunk>, game.localize("description.levitated.end_iron_chunk"));

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "inventoryGeneratorID": "EndFlowerwizardry",
+  "inventoryGeneratorID": "EndFlowerWizardry",
   "items": [
     {
       "weight": 41.28571701049805,
@@ -105,7 +105,7 @@
     {
       "weight": 81.3079833984375,
       "min": 1,
-      "max": 16,
+      "max": 8,
       "item": {
         "id": "wizardry:orb",
         "damage": 1,
