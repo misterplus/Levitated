@@ -150,6 +150,14 @@ advancements.levitated.end.drying_rack.description=你想制作晾干架，但�
 advancements.levitated.end.blue_lotus.title=这真不是色素染的
 advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth)中，你能发现一种叫"冥灯草"的植物，它看起来十分诡异并闪着微小的光。经过尝试，你发现它能够稳定并吸收魔力，并转变为蓝莲花，把它扔进魔力池中就能够释放它储存的魔力。
 
+
+# Easter Egg Advancements
+advancements.levitated.easteregg.root.title=复活节彩蛋!
+advancements.levitated.easteregg.root.description=如果你发现了一个复活节彩蛋，那么这个成就就会出现！
+
+advancements.levitated.easteregg.feather.title=像羽毛一样落下
+advancements.levitated.easteregg.feather.description=这是个双关语，请语文课代表赏析一下...好吧，意思就是你能免疫所有的摔落伤害，听起来不错吧？
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
 tooltips.levitated.origin_book=右击来设置你的重生点（只能使用一次，少侠请慎重）
@@ -162,7 +170,7 @@ tooltips.levitated.paper_plane_3=
 tooltips.levitated.paper_plane_4=
 tooltips.levitated.paper_plane_5=
 tooltips.levitated.paper_plane_6=潜行右键将它放飞！
-tooltips.levitated.mana_paper=咋了? 这还是张纸! 只是被魔力浸湿了而已!
+tooltips.levitated.mana_paper=啥玩意儿啊? 这还是张纸! 只是被魔力浸湿了而已!
 
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能够制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
