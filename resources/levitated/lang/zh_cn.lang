@@ -1,5 +1,6 @@
 # Levitated自定义进度
 
+# The End
 advancements.levitated.end.root.title=终末亦是开始
 advancements.levitated.end.root.description=主世界轰然崩塌，你不慎跌入终界，不幸中的万幸，你碰巧又坠入折跃门中，没有了末影龙的侵扰，你开始思考怎么逃出去...
 
@@ -141,8 +142,8 @@ advancements.levitated.end.solder.description=焊料这种合金非常适合用�
 advancements.levitated.end.scanner.title=源计划: 复苏
 advancements.levitated.end.scanner.description=虽然下界现在是一片虚无，但你仍可以借助机器的力量复苏它。生物群系扫描仪和地形扫描仪能够在很短的时间内塑造世界。但它们需要的能量比其他机器要多得多。
 
-advancements.levitated.end.netherrack.title=早期测试完结 v0.1
-advancements.levitated.end.netherrack.description=获得一块地狱岩来完成此成就。如果你完成了此成就，那么恭喜你，你已经在Levitated早期测试版本中毕业了！你可以在plus的QQ群里尽情的装逼，并能够随意说"屑plus,你的包太简单辣!"
+advancements.levitated.end.netherrack.title=下界重建，爷的青春回来了！
+advancements.levitated.end.netherrack.description=将电容器带到下界然后开始你的重建大业吧！眼前的虚无与记忆中的深红渐渐重合...
 
 advancements.levitated.end.drying_rack.title=一滴都没有了
 advancements.levitated.end.drying_rack.description=你想制作晾干架，但是你的力量并不足以手捏龙木台阶，所以寻找一种更加柔软的材料并用它制作晾干架吧！(液态魔力或许能软化木头。
@@ -150,6 +151,9 @@ advancements.levitated.end.drying_rack.description=你想制作晾干架，但�
 advancements.levitated.end.blue_lotus.title=这真不是色素染的
 advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth)中，你能发现一种叫"冥灯草"的植物，它看起来十分诡异并闪着微小的光。经过尝试，你发现它能够稳定并吸收魔力，并转变为蓝莲花，把它扔进魔力池中就能够释放它储存的魔力。
 
+# The Nether
+advancements.levitated.nether.root.title=无魂之壤
+advancements.levitated.nether.root.description=在你到来之前，这个世界只有寂静。但随着你眼前的虚无重新被填满，怪物有了落脚之地，你得小心点...
 
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=复活节彩蛋!
@@ -170,9 +174,10 @@ tooltips.levitated.paper_plane_3=再次将纸竖直折叠。
 tooltips.levitated.paper_plane_4=折出翅膀，使左边缘与右边缘对齐。
 tooltips.levitated.paper_plane_5=同样的方法，折出另一边的翅膀。
 tooltips.levitated.paper_plane_6=潜行右键将它放飞！
-tooltips.levitated.mana_paper=咋了? 这还是张纸! 只是被魔力浸湿了而已!
+tooltips.levitated.mana_paper=将纸垂直对折。
+tooltips.levitated.mana_paper_2=咋了? 这还是张纸! 只是被魔力浸湿了而已!
 
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能够制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
-description.levitated.mana_paper=对着工作台或工作站潜行右键来将它对折。但没有了解过折纸方面知识的话，你是做不到的。
+description.levitated.mana_paper=对着工作台或工作站潜行右键来将它对折。但没有了解过折纸技术的话，你是做不到的。
 description.levitated.feather=梦想变成鸟，借力冲云霄。终于飞上天，竟会落羽毛。
