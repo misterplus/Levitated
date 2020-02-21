@@ -22,6 +22,8 @@ item.contenttweaker.paper_plane_4.name=Paper Plane (5/7)
 item.contenttweaker.paper_plane_5.name=Paper Plane (6/7)
 item.contenttweaker.paper_plane_6.name=Paper Plane
 item.contenttweaker.mana_paper.name=Paper
+item.contenttweaker.rotten_pork.name=Rotten Porkchop
+
 item.contenttweaker.origin_book.message=Spawn Point Set!
 item.contenttweaker.nether_book.message=You can now travel to the Nether!
 item.contenttweaker.paper_plane_6.message=Hey! Wait for the other plane to comeback!

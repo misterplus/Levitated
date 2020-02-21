@@ -111,3 +111,13 @@ mana_paper.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     return ActionResult.pass();
 };
 mana_paper.register();
+
+var rotten_pork = VanillaFactory.createItemFood("rotten_pork", 1);
+rotten_pork.saturation = 0;
+rotten_pork.onItemFoodEaten = function(stack, world, player) {
+    if !world.isRemote() {
+        player.addPotionEffect(<potion:minecraft:hunger>.makePotionEffect(20*30, 0));
+        player.addPotionEffect(<potion:minecraft:nausea>.makePotionEffect(20*10, 0));
+    }
+};
+rotten_pork.register();
