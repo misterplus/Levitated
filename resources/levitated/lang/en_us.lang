@@ -1,5 +1,6 @@
 # Custom Advancements for Levitated
 
+# The End
 advancements.levitated.end.root.title=Beginning of the End
 advancements.levitated.end.root.description=When you fell into the end, you entered the end gateway by accident. Good for you, cause you can avoid that dragon as long as you want.
 
@@ -141,8 +142,8 @@ advancements.levitated.end.solder.description=Solder is a great alloy for creati
 advancements.levitated.end.scanner.title=Operation: Regenerate
 advancements.levitated.end.scanner.description=The Nether is empty right now, but you can change that. By combining the power of the Biome Scanner and the Terrain Scanner, one can easily shape the world in seconds. They do require a lot more power than normal machines tho.
 
-advancements.levitated.end.netherrack.title=The End of Early Access v0.1
-advancements.levitated.end.netherrack.description=Aquire a piece of Netherrack to complete this advancement. If you got this far, congratulations, you've reached the end of this EA version of Levitated. Now you can brag about how good you are at Minecraft in plus's qq group without him harassing you.
+advancements.levitated.end.netherrack.title=Earth of Hell
+advancements.levitated.end.netherrack.description=Bring a capacitor to the Nether and start rebuilding! What was shall be once more...
 
 advancements.levitated.end.drying_rack.title=Drying Wisdom
 advancements.levitated.end.drying_rack.description=If you want to make Drying Racks, you'll find that Wyrmwood is a bit too hard for creating slabs, try using something softer. Maybe a bucket of Mana can help you out.
@@ -150,6 +151,9 @@ advancements.levitated.end.drying_rack.description=If you want to make Drying Ra
 advancements.levitated.end.blue_lotus.title=Stabilization
 advancements.levitated.end.blue_lotus.description=The weird plants named "Enbiotic" can be found in the Stygian Growth biome. They are capable of stabilizing liquid mana and absorb them, turning into a Blue Lotus in the process. Tossing a Blue Lotus into a Mana Pool releases stored Mana.
 
+# The Nether
+advancements.levitated.nether.root.title=Soulless Dimension
+advancements.levitated.nether.root.description=This world is a quite place, that is, before you got here. As the world forms in front of your eyes, monsters began to appear, be careful...
 
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=Easter Eggs!

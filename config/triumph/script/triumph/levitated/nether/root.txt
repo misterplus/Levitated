@@ -1,0 +1,13 @@
+setIcon(<minecraft:soul_sand>)
+
+setTranslatedTitle("advancements.levitated.nether.root.title")
+setTranslatedDescription("advancements.levitated.nether.root.description")
+
+setBackground("minecraft:textures/gui/advancements/backgrounds/nether.png")
+setShowToast(false)
+setAnnounceToChat(false)
+setPos(-22,-15)
+
+addCriteria("location", "minecraft:location")
+
+pageHiddenUnless("triumph:levitated/end/netherrack")
