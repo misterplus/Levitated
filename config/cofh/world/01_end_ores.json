@@ -279,7 +279,7 @@
 				],
 				"cluster-size": 8
 			},
-			"cluster-count": 10,
+			"cluster-count": 9,
 			"min-height": 10,
 			"max-height": 45,
 			"biome": {
