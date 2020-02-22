@@ -155,6 +155,9 @@ advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth
 advancements.levitated.nether.root.title=无魂之壤
 advancements.levitated.nether.root.description=在你到来之前，这个世界只有寂静。但随着你眼前的虚无重新被填满，怪物有了落脚之地，你得小心点...
 
+advancements.levitated.nether.rotten_pork.title=恶心的下界火熏猪肉
+advancements.levitated.nether.rotten_pork.description=僵尸猪人不会再掉落金粒或金锭，但它们会以很小的几率掉落腐烂的猪肉，你可以用它在召唤仪式中召唤猪猪。
+
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=复活节彩蛋!
 advancements.levitated.easteregg.root.description=如果你发现了一个复活节彩蛋，它就会出现在这个页面！
