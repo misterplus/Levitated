@@ -11,11 +11,11 @@
                     }
                 },
 				"material": "minecraft:end_stone",
-				"cluster-size": 10
+				"cluster-size": 15
 			},
-			"cluster-count": 7,
+			"cluster-count": 16,
 			"min-height": 40,
-			"max-height": 55,
+			"max-height": 70,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
@@ -47,9 +47,9 @@
 				"material": "minecraft:end_stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 6,
-			"min-height": 25,
-			"max-height": 45,
+			"cluster-count": 20,
+			"min-height": 10,
+			"max-height": 55,
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
@@ -71,9 +71,9 @@
 				"material": "minecraft:end_stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 3,
-			"min-height": 20,
-			"max-height": 35,
+			"cluster-count": 7,
+			"min-height": 10,
+			"max-height": 45,
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
@@ -95,9 +95,9 @@
 				"material": "minecraft:end_stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 5,
+			"cluster-count": 8,
 			"min-height": 10,
-			"max-height": 25,
+			"max-height": 40,
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
@@ -172,8 +172,8 @@
 				"material": "minecraft:end_stone",
 				"cluster-size": 7
 			},
-			"cluster-count": 1,
-			"center-height": 35,
+			"cluster-count": 2,
+			"center-height": 40,
 			"spread": 15,
 			"biome": "all",
 			"dimension": {
@@ -201,9 +201,9 @@
 				],
 				"cluster-size": 9
 			},
-			"cluster-count": 7,
-			"min-height": 25,
-			"max-height": 55,
+			"cluster-count": 20,
+			"min-height": 10,
+			"max-height": 65,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
@@ -238,10 +238,10 @@
 					"minecraft:end_stone",
 					"stygian:endgrass"
 				],
-				"cluster-size": 10
+				"cluster-size": 9
 			},
-			"cluster-count": 6,
-			"min-height": 30,
+			"cluster-count": 18,
+			"min-height": 10,
 			"max-height": 55,
 			"biome": {
 				"restriction": "whitelist",
@@ -277,11 +277,11 @@
 					"minecraft:end_stone",
 					"stygian:endgrass"
 				],
-				"cluster-size": 7
+				"cluster-size": 8
 			},
-			"cluster-count": 5,
+			"cluster-count": 10,
 			"min-height": 10,
-			"max-height": 35,
+			"max-height": 45,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [

@@ -155,6 +155,9 @@ advancements.levitated.end.blue_lotus.description=The weird plants named "Enbiot
 advancements.levitated.nether.root.title=Soulless Dimension
 advancements.levitated.nether.root.description=This world is a quite place, that is, before you got here. As the world forms in front of your eyes, monsters began to appear, be careful...
 
+advancements.levitated.nether.rotten_pork.title=Nasty Bacon
+advancements.levitated.nether.rotten_pork.description=Zombie Pigman will no longer drop gold nugggets or ingots, but they do drop a piece of Rotten Pork very rarely, which can be used in a summoning ritual to summon pigs.
+
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=Easter Eggs!
 advancements.levitated.easteregg.root.description=If you found a easter egg by chance, it'll appear here!

@@ -1,0 +1,13 @@
+setIcon(<contenttweaker:rotten_pork>)
+
+setTranslatedTitle("advancements.levitated.nether.rotten_pork.title")
+setTranslatedDescription("advancements.levitated.nether.rotten_pork.description")
+
+addParent("triumph:levitated/nether/root")
+setShowToast(true)
+setPos(16,-54)
+
+criteria = addCriteria("hasRottenPork", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:rotten_pork>)
+
+visibleIf("triumph:levitated/end/root")
