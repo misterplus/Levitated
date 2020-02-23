@@ -51,7 +51,6 @@
 			"cluster-count": 20,
 			"min-height": 10,
 			"max-height": 55,
-			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -75,7 +74,6 @@
 			"cluster-count": 7,
 			"min-height": 10,
 			"max-height": 45,
-			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -99,7 +97,6 @@
 			"cluster-count": 8,
 			"min-height": 10,
 			"max-height": 40,
-			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -176,7 +173,6 @@
 			"cluster-count": 2,
 			"center-height": 40,
 			"spread": 15,
-			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [

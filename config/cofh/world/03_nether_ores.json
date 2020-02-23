@@ -12,7 +12,6 @@
             "cluster-count": 16,
             "min-height": 10,
             "max-height": 118,
-            "biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -46,7 +45,6 @@
 			"cluster-count": 16,
 			"min-height": 10,
 			"max-height": 118,
-			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -91,7 +89,6 @@
 			],
 			"cluster-count": 1,
 			"chunk-chance": 6,
-			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -128,7 +125,33 @@
 			"chunk-chance": 3,
 			"min-height": 10,
 			"max-height": 120,
-			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					100
+				]
+			}
+		},
+
+		"nether-silver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+                        "name": "netherendingores:ore_nether_modded_1",
+                        "properties": {
+                            "blocks": "silver_ore"
+                        }
+                    }
+                ],
+				"material": [
+					"minecraft:magma"
+				],
+				"cluster-size": 8
+			},
+			"cluster-count": 9,
+			"min-height": 10,
+			"max-height": 120,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
