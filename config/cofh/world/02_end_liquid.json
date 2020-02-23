@@ -1,7 +1,8 @@
 {
 	"dependencies": "wizardry",
+	"priority": 99,
 	"populate": {
-		"mana_lakes": {
+		"mana-lakes": {
 			"distribution": "surface",
 			"follow-terrain": true,
 			"generator": {

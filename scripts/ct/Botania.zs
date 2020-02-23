@@ -11,10 +11,10 @@ recipes.remove(<botania:rfgenerator>);
 
 //add
 
-//Blue lotus recipe
+//Blue lotus
 FluidToItem.transform(<contenttweaker:blue_lotus>, <fluid:mana_fluid>, [<stygian:endglow>], true);
 
-//Blue lotus into mana recipe
+//Blue lotus into mana
 mods.botania.ManaInfusion.addInfusion(<stygian:endglow>, <contenttweaker:blue_lotus>, -1000);
 
 //Changed soulscribe recipe
@@ -35,13 +35,13 @@ recipes.addShaped(<botania:altar>, [[<minecraft:purpur_slab>, <ore:petal>, <mine
 //Pure daisy can turn end acid into water(ice cause it's block only)
 mods.botania.PureDaisy.addRecipe(<liquid:endacid>, <minecraft:ice>, 300);
 
-//Ender iron chunk recipe
+//Ender iron chunk
 mods.botania.ManaInfusion.addInfusion(<contenttweaker:end_iron_chunk>, <contenttweaker:end_iron>, 2500);
 
 //Alternative fire rune recipe
 mods.botania.RuneAltar.addRecipe(<botania:rune:1> * 2,[<botania:manaresource:23>, <botania:manaresource>, <tconstruct:firewood:1>, <minecraft:gunpowder>, <minecraft:dragon_breath>], 6000);
 
-//Manapaper recipe
+//Manapaper
 mods.botania.ManaInfusion.addInfusion(<contenttweaker:mana_paper>, <minecraft:paper>, 5000);
 
 //Elven trade for unlocking the nether
@@ -72,13 +72,15 @@ mods.botania.ManaInfusion.addConjuration(<minecraft:glowstone_dust> * 2, <minecr
 //Alternative spark recipe
 recipes.addShaped(<botania:spark>, [[null, <ore:petal>, null],[<tconstruct:firewood:1>, <minecraft:gold_nugget>, <tconstruct:firewood:1>], [null, <ore:petal>, null]]);
 
-//Glitched obsidian recipe
+//Glitched obsidian
 var end_plate = AgglomerationMultiblock.create().checker(<minecraft:obsidian>, <minecraft:purpur_block>);
 var glitched_oby = AgglomerationRecipe.create().output(<contenttweaker:glitched_obsidian>).inputs([<deepmoblearning:glitch_infused_ingot>, <minecraft:obsidian>]).manaCost(100000).multiblock(end_plate);
 Agglomeration.addRecipe(glitched_oby);
 
-//Plants recipe
+//Plants
 mods.botania.ManaInfusion.addAlchemy(<integrateddynamics:menril_sapling>, <stygian:endcanopysapling>, 10000);
 mods.botania.ManaInfusion.addAlchemy(<minecraft:cactus>, <stygian:endcactus>, 10000);
 mods.botania.ManaInfusion.addAlchemy(<minecraft:reeds>, <stygian:endvine>, 10000);
 
+//Porkchop
+mods.botania.ManaInfusion.addConjuration(<minecraft:stone>, <minecraft:stone>, 1000);

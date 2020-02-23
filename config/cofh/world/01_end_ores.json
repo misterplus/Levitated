@@ -1,5 +1,6 @@
 {
 	"dependencies": "netherendingores",
+	"priority": 100,
 	"populate": {
 		"end-coal": {
 			"distribution": "uniform",
@@ -119,11 +120,11 @@
 							"properties": {
 								"blocks": "diamond_ore"
 							},
-							"weight": 25
+							"weight": 10
 						},
 						{
 							"name": "stygian:endobsidian",
-							"weight": 75
+							"weight": 90
 						}
 					],
 					"material": [
@@ -133,14 +134,14 @@
 					"smooth": true,
 					"fat": false,
 					"min-height": 7,
-					"height-variance": 3,
+					"height-variance": 2,
 					"height-mod": 3,
 					"gen-size": 0,
-					"size-variance": 2
+					"size-variance": 1
 				}
 			],
 			"cluster-count": 1,
-			"chunk-chance": 6,
+			"chunk-chance": 5,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [

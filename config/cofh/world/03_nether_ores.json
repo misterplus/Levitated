@@ -1,5 +1,6 @@
 {
 	"dependencies": "netherendingores",
+	"priority": 98,
 	"populate": {
 		"nether-quartz": {
             "distribution": "uniform",
@@ -45,6 +46,88 @@
 			"cluster-count": 16,
 			"min-height": 10,
 			"max-height": 118,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					100
+				]
+			}
+		},
+
+		"nether-aluminum": {
+			"distribution": "cave",
+			"ceiling": true,
+			"ground-level": 127,
+			"generator": [
+				{
+					"type": "stalactite",
+					"block": [
+						{
+							"name": "netherendingores:ore_nether_modded_1",
+							"properties": {
+								"blocks": "aluminum_ore"
+							},
+							"weight": 30
+						},
+						{
+							"name": "chisel:basalt2",
+							"metadata": 7,
+							"weight": 70
+						}
+					],
+					"material": [
+						"minecraft:netherrack"
+					],
+					"gen-body": "minecraft:air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 6,
+					"height-variance": 1,
+					"height-mod": 3,
+					"gen-size": 0,
+					"size-variance": 1
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					100
+				]
+			}
+		},
+
+		"nether-nickel": {
+			"distribution": "uniform",
+			"follow-terrain": true,
+			"generator": {
+				"type": "lake",
+				"block": "thermalfoundation:fluid_pyrotheum",
+				"material": "minecraft:netherrack",
+                "use-material": true,
+                "outline-block": [
+					{
+						"name": "netherendingores:ore_nether_modded_1",
+						"properties": {
+							"blocks": "nickel_ore"
+						},
+						"weight": 30
+					},
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7,
+						"weight": 70
+					}
+				],
+                "solid-outline": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,
+			"min-height": 10,
+			"max-height": 120,
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
