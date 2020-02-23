@@ -151,6 +151,9 @@ advancements.levitated.end.drying_rack.description=你想制作晾干架，但�
 advancements.levitated.end.blue_lotus.title=这真不是色素染的
 advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth)中，你能发现一种叫"冥灯草"的植物，它看起来十分诡异并闪着微小的光。经过尝试，你发现它能够稳定并吸收魔力，并转变为蓝莲花，把它扔进魔力池中就能够释放它储存的魔力。
 
+advancements.levitated.end.feather.title=鸟不拉屎的地方
+advancements.levitated.end.feather.description=我猜你现在很想知道羽毛该怎么获得。你知道的吧，魔力是一种很强大的物质。只要你正确的使用，你就能创造任何东西！
+
 # The Nether
 advancements.levitated.nether.root.title=无魂之壤
 advancements.levitated.nether.root.description=在你到来之前，这个世界只有寂静。但随着你眼前的虚无重新被填满，怪物有了落脚之地，你得小心点...
