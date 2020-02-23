@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.terra_plate.description")
 
 addParent("triumph:levitated/end/string")
 addParent("triumph:levitated/end/fire_rune")
+addParent("triumph:levitated/end/feather")
 setShowToast(true)
 setPos(560,6)
 

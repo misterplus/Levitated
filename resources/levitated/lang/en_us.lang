@@ -151,6 +151,9 @@ advancements.levitated.end.drying_rack.description=If you want to make Drying Ra
 advancements.levitated.end.blue_lotus.title=Stabilization
 advancements.levitated.end.blue_lotus.description=The weird plants named "Enbiotic" can be found in the Stygian Growth biome. They are capable of stabilizing liquid mana and absorb them, turning into a Blue Lotus in the process. Tossing a Blue Lotus into a Mana Pool releases stored Mana.
 
+advancements.levitated.end.feather.title=Birdless
+advancements.levitated.end.feather.description=How do I get feathers, you ask? Well, you see, mana is a powerful substance. Combined with the right item, you can create anything.
+
 # The Nether
 advancements.levitated.nether.root.title=Soulless Dimension
 advancements.levitated.nether.root.description=This world is a quite place, that is, before you got here. As the world forms in front of your eyes, monsters began to appear, be careful...

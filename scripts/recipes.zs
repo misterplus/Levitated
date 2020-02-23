@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<chisel:lavastone>);
 recipes.remove(<thermalexpansion:frame:64>);
 recipes.remove(<thermalexpansion:frame>);
 recipes.remove(<deepmoblearning:glitch_infused_sword>);
