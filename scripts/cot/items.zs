@@ -39,7 +39,6 @@ origin_book.register();
 var nether_book = VanillaFactory.createItem("nether_book");
 nether_book.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote & !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player)) {
-        Commands.call("gamestage silentadd @p end_ores", player, world, false, true);
         Commands.call("gamestage silentadd @p nether", player, world, false, true);
         player.sendChat(game.localize("item.contenttweaker.nether_book.message"));
         stack.shrink(1);

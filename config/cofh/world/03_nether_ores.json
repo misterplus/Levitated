@@ -221,6 +221,49 @@
 			}
 		},
 
+		"nether-ardite": {
+            "distribution": "uniform",
+            "generator": [
+				{
+					"block": "obsidian",
+					"material": [
+						"netherrack",
+						"bedrock"
+					],
+					"cluster-size": 6
+				},
+				{
+					"block": [
+						{
+							"name": "obsidian",
+							"weight": 65
+						},
+						{
+							"name": "tconstruct:ore",
+							"properties": {
+								"type": "ardite"
+							},
+							"weight": 35
+						}
+					],
+					"material": [
+						"netherrack",
+						"bedrock"
+					],
+					"cluster-size": 6
+				}
+			],
+            "cluster-count": 4,
+            "min-height": 5,
+            "max-height": 10,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					100
+				]
+			}
+		},
+
 		"nether-cobalt": {
 			"distribution": "gaussian",
 			"generator": [
