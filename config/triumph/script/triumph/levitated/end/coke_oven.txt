@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.end.coke_oven.description")
 
 addParent("triumph:levitated/end/string")
 setShowToast(true)
-setPos(560,-40)
+setPos(560,-63)
 
 criteria = addCriteria("formed_coke_oven", "immersiveengineering:multiblock_formed")
 criteria.setMultiblock("IE:CokeOven")

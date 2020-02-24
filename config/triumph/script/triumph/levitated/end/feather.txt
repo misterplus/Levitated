@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.end.feather.description")
 addParent("triumph:levitated/end/alchemy")
 addParent("triumph:levitated/end/ender_iron")
 setShowToast(true)
-setPos(523,30)
+setPos(523,6)
 
 criteria = addCriteria("hasFeather", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:feather>)

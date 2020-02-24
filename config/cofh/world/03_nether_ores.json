@@ -6,7 +6,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": "quartz_ore",
-                "material": "minecraft:netherrack",
+                "material": "netherrack",
                 "cluster-size": 14
             },
             "cluster-count": 16,
@@ -39,7 +39,7 @@
 						"weight": 8
 					}
 				],
-				"material": "minecraft:netherrack",
+				"material": "netherrack",
 				"cluster-size": 8
 			},
 			"cluster-count": 16,
@@ -62,6 +62,25 @@
 					"type": "stalactite",
 					"block": [
 						{
+							"name": "chisel:basalt2",
+							"metadata": 7
+						}
+					],
+					"material": [
+						"netherrack"
+					],
+					"gen-body": "air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 6,
+					"height-variance": 1,
+					"height-mod": 3,
+					"size-variance": 1
+				},
+				{
+					"type": "stalactite",
+					"block": [
+						{
 							"name": "netherendingores:ore_nether_modded_1",
 							"properties": {
 								"blocks": "aluminum_ore"
@@ -75,20 +94,19 @@
 						}
 					],
 					"material": [
-						"minecraft:netherrack"
+						"netherrack"
 					],
-					"gen-body": "minecraft:air",
+					"gen-body": "air",
 					"smooth": true,
 					"fat": false,
 					"min-height": 6,
 					"height-variance": 1,
 					"height-mod": 3,
-					"gen-size": 0,
 					"size-variance": 1
 				}
 			],
 			"cluster-count": 1,
-			"chunk-chance": 6,
+			"chunk-chance": 4,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -103,7 +121,7 @@
 			"generator": {
 				"type": "lake",
 				"block": "thermalfoundation:fluid_pyrotheum",
-				"material": "minecraft:netherrack",
+				"material": "netherrack",
                 "use-material": true,
                 "outline-block": [
 					{
@@ -111,18 +129,18 @@
 						"properties": {
 							"blocks": "nickel_ore"
 						},
-						"weight": 30
+						"weight": 25
 					},
 					{
 						"name": "chisel:basalt2",
 						"metadata": 7,
-						"weight": 70
+						"weight": 75
 					}
 				],
                 "solid-outline": true
 			},
 			"cluster-count": 1,
-			"chunk-chance": 3,
+			"chunk-chance": 4,
 			"min-height": 10,
 			"max-height": 120,
 			"dimension": {
@@ -134,24 +152,116 @@
 		},
 
 		"nether-silver": {
+			"distribution": "cave",
+			"ground-level": 127,
+			"generator": [
+				{
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "glowstone",
+							"weight": 20
+						},
+						{
+							"name": "magma",
+							"weight": 80
+						}
+					],
+					"material": [
+						"netherrack",
+						"magma"
+					],
+					"gen-body": "air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 6,
+					"height-variance": 1,
+					"height-mod": 3,
+					"size-variance": 1
+				},
+				{
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "glowstone",
+							"weight": 10
+						},
+						{
+							"name": "netherendingores:ore_nether_modded_1",
+							"properties": {
+								"blocks": "silver_ore"
+							},
+							"weight": 20
+						},
+						{
+							"name": "magma",
+							"weight": 70
+						}
+					],
+					"material": [
+						"netherrack",
+						"magma"
+					],
+					"gen-body": "air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 6,
+					"height-variance": 1,
+					"height-mod": 3,
+					"size-variance": 1
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 4,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					100
+				]
+			}
+		},
+
+		"nether-cobalt": {
 			"distribution": "uniform",
-			"generator": {
-				"block": [
-					{
-                        "name": "netherendingores:ore_nether_modded_1",
-                        "properties": {
-                            "blocks": "silver_ore"
-                        }
-                    }
-                ],
-				"material": [
-					"minecraft:magma"
-				],
-				"cluster-size": 8
-			},
-			"cluster-count": 9,
-			"min-height": 10,
+			"generator": [
+				{
+					"type": "boulder",
+					"block": "obsidian",
+					"material": [
+						"netherrack"
+					],
+					"diameter": 1,
+					"size-variance": 0,
+					"count": 1
+				},
+				{
+					"type": "boulder",
+					"block": [
+						{
+							"name": "obsidian",
+							"weight": 85
+						},
+						{
+							"name": "tconstruct:ore",
+							"properties": {
+								"type": "cobalt"
+							},
+							"weight": 15
+						}
+					],
+					"material": [
+						"netherrack"
+					],
+					"diameter": 1,
+					"size-variance": 0,
+					"count": 1
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 4,
+			"min-height": 100,
 			"max-height": 120,
+			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [

@@ -11,7 +11,7 @@
 						"blocks": "coal_ore"
                     }
                 },
-				"material": "minecraft:end_stone",
+				"material": "end_stone",
 				"cluster-size": 14
 			},
 			"cluster-count": 16,
@@ -45,7 +45,7 @@
 						"blocks": "iron_ore"
                     }
                 },
-				"material": "minecraft:end_stone",
+				"material": "end_stone",
 				"cluster-size": 9
 			},
 			"cluster-count": 20,
@@ -68,7 +68,7 @@
 						"blocks": "gold_ore"
                     }
                 },
-				"material": "minecraft:end_stone",
+				"material": "end_stone",
 				"cluster-size": 9
 			},
 			"cluster-count": 7,
@@ -91,7 +91,7 @@
 						"blocks": "redstone_ore"
                     }
                 },
-				"material": "minecraft:end_stone",
+				"material": "end_stone",
 				"cluster-size": 8
 			},
 			"cluster-count": 8,
@@ -111,29 +111,42 @@
 			"generator": [
 				{
 					"type": "stalactite",
+					"block": "stygian:endobsidian",
+					"material": [
+						"end_stone"
+					],
+					"gen-body": "air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 7,
+					"height-variance": 2,
+					"height-mod": 3,
+					"size-variance": 1
+				},
+				{
+					"type": "stalactite",
 					"block": [
 						{
 							"name": "netherendingores:ore_end_vanilla",
 							"properties": {
 								"blocks": "diamond_ore"
 							},
-							"weight": 10
+							"weight": 20
 						},
 						{
 							"name": "stygian:endobsidian",
-							"weight": 90
+							"weight": 80
 						}
 					],
 					"material": [
-						"minecraft:end_stone"
+						"end_stone"
 					],
-					"gen-body": "minecraft:air",
+					"gen-body": "air",
 					"smooth": true,
 					"fat": false,
 					"min-height": 7,
 					"height-variance": 2,
 					"height-mod": 3,
-					"gen-size": 0,
 					"size-variance": 1
 				}
 			],
@@ -167,7 +180,7 @@
 						"blocks": "lapis_ore"
                     }
                 },
-				"material": "minecraft:end_stone",
+				"material": "end_stone",
 				"cluster-size": 7
 			},
 			"cluster-count": 2,
@@ -193,7 +206,7 @@
                     }
                 ],
 				"material": [
-					"minecraft:end_stone",
+					"end_stone",
 					"stygian:endgrass"
 				],
 				"cluster-size": 9
@@ -232,7 +245,7 @@
                     }
                 ],
 				"material": [
-					"minecraft:end_stone",
+					"end_stone",
 					"stygian:endgrass"
 				],
 				"cluster-size": 9
@@ -271,7 +284,7 @@
                     }
                 ],
 				"material": [
-					"minecraft:end_stone",
+					"end_stone",
 					"stygian:endgrass"
 				],
 				"cluster-size": 8
