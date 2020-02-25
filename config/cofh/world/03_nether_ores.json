@@ -106,7 +106,7 @@
 				}
 			],
 			"cluster-count": 1,
-			"chunk-chance": 4,
+			"chunk-chance": 3,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -212,7 +212,7 @@
 				}
 			],
 			"cluster-count": 1,
-			"chunk-chance": 4,
+			"chunk-chance": 3,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -253,7 +253,8 @@
 					"cluster-size": 6
 				}
 			],
-            "cluster-count": 4,
+			"cluster-count": 5,
+			"chunk-chance": 2,
             "min-height": 5,
             "max-height": 10,
 			"dimension": {
@@ -304,7 +305,58 @@
 			"chunk-chance": 3,
 			"center-height": 115,
 			"spread": 1,
-			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					100
+				]
+			}
+		},
+
+		"nether-uranium": {
+			"distribution": "uniform",
+            "generator": [
+				{
+					"type": "plate",
+					"radius": 3,
+					"block": [
+						{
+							"name": "chisel:lavastone"
+						}
+					],
+					"material": [
+						"netherrack",
+						"magma",
+						"soul_sand"
+					]
+				},
+				{
+					"type": "plate",
+					"radius": 3,
+					"block": [
+						{
+							"name": "chisel:lavastone",
+							"weight": 70
+						},
+						{
+							"name": "netherendingores:ore_nether_modded_1",
+							"properties": {
+								"blocks": "uranium_ore"
+							},
+							"weight": 30
+						}
+					],
+					"material": [
+						"netherrack",
+						"magma",
+						"soul_sand"
+					]
+				}
+			],
+			"cluster-count": 3,
+			"chunk-chance": 4,
+            "min-height": 18,
+            "max-height": 30,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [

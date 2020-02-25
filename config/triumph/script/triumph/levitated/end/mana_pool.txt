@@ -4,7 +4,6 @@ setTranslatedTitle("advancements.levitated.end.mana_pool.title")
 setTranslatedDescription("advancements.levitated.end.mana_pool.description")
 
 addParent("triumph:levitated/end/furnace")
-addParent("triumph:levitated/end/end_iron")
 setShowToast(true)
 setPos(190,6)
 

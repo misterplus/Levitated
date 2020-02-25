@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.infinity_dust.description")
 
 addParent("triumph:levitated/end/nether_knowledge")
 setShowToast(true)
-setPos(712,27)
+setPos(712,6)
 
 criteria = addCriteria("hasBedrockDust", "minecraft:inventory_changed")
 criteria.addItem(<enderio:item_material:20>)

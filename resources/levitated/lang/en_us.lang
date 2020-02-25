@@ -25,15 +25,6 @@ advancements.levitated.end.tool_station.description=With a Tool Station, you're 
 advancements.levitated.end.furnace.title=Micro Smeltry
 advancements.levitated.end.furnace.description=Craft a Furnace out of End Stone. While this furnace is far from a real smeltry, you can still smelt ores with it.
 
-advancements.levitated.end.end_iron.title=Essence of Mineral
-advancements.levitated.end.end_iron.description=With the collapse of Overworld, some minerals start to form inside of the End Stone, this include Iron, Gold, Redstone and Lapis.
-
-advancements.levitated.end.end_coal.title=Remains of Life
-advancements.levitated.end.end_coal.description=Although you woundn't be able to find coal in regular End biomes, there might be some left in the Stygian Growth biome since there's still some form of plant life.
-
-advancements.levitated.end.end_diamond.title=Gems of Void
-advancements.levitated.end.end_diamond.description=Unlike other minerals, diamonds seem to accumulate under the End islands, forming a Porphyry spike in the Acidic Plains biome.
-
 advancements.levitated.end.mana_pool.title=Legacy of the Aboriginals
 advancements.levitated.end.mana_pool.description=Buildings other than End Ships spawn in the end, which contains several magic items such as an Mana Pool.
 
@@ -63,15 +54,6 @@ advancements.levitated.end.enderdagger.description=Tired of killing Enderman? Th
 
 advancements.levitated.end.ender_iron.title=Extraterrestrial
 advancements.levitated.end.ender_iron.description=Enderman is capable of infusing Iron Ore with certain end elements, which means some Endermen might hold a special block in their hands, they also have a lot more health than regular Endermen. With proper techniques, you managed to extract a brand new metal called End Infused Iron.
-
-advancements.levitated.end.blast_furnace.title=Blast Off
-advancements.levitated.end.blast_furnace.description=End Infused Iron's flammable property is great for making Firewood, which is a great material for a Blast Furnace.
-
-advancements.levitated.end.end_copper.title=Mr. Cooper
-advancements.levitated.end.end_copper.description=Copper, Tin, as well as Lead are important materials for powered machines, you can find these ores in the Stygian Growth biome.
-
-advancements.levitated.end.end_uranium.title=Radioactive
-advancements.levitated.end.end_uranium.description=Uranium Ore spawns like Diamond Ores, but only in the Leachstone Spikes under the Stygian Growth islands.
 
 advancements.levitated.end.grass_seeds.title=Not Photosynthesis
 advancements.levitated.end.grass_seeds.description=While End Seeds are okay for creating flowers, they are not renewable. With some knowledge on alchemy, creating some other seeds shouldn't be a problem. Let's start with a wheat one.
@@ -113,7 +95,7 @@ advancements.levitated.end.simulation_chamber.title=Deep Learning
 advancements.levitated.end.simulation_chamber.description=If killing mobs manually is annoying for you, you might wanna make good use of this Simulation Chamber.
 
 advancements.levitated.end.keystone.title=Attunement
-advancements.levitated.end.keystone.description=System glitches only appear in trails. Starting a trail requires a Trail Keystone. For more info, check the Deep Mob Learning guide book.
+advancements.levitated.end.keystone.description=System glitches only appear in trails. Starting a trail requires a Trail Keystone. For more info, check the Deep Mob Learning guide book. However, you might encounter some flying creatures during the trails. They might drop an item that you cannot make use of right now.
 
 advancements.levitated.end.glitched_oby.title=Glitch in the System
 advancements.levitated.end.glitched_oby.description=Simply by building a obsidian portal won't lead you to the Nether, so you'll need to infuse some glitches into regular obsidians. This can be done through Terrestrial Agglomeration.
@@ -161,6 +143,46 @@ advancements.levitated.nether.root.description=This world is a quite place, that
 advancements.levitated.nether.rotten_pork.title=Nasty Bacon
 advancements.levitated.nether.rotten_pork.description=Zombie Pigman will no longer drop gold nugggets or ingots, but they do drop a piece of Rotten Pork very rarely, which can be used in a summoning ritual to summon pigs.
 
+# Resources
+advancements.levitated.resources.root.title=Ore Resources
+advancements.levitated.resources.root.description=You can find all information related to End ores on the right.
+
+advancements.levitated.resources.end_iron.title=Essence of Mineral
+advancements.levitated.resources.end_iron.description=With the collapse of Overworld, some minerals start to form inside of the End Stone, this include Iron, Gold, Redstone and Lapis.
+
+advancements.levitated.resources.end_coal.title=Remains of Life
+advancements.levitated.resources.end_coal.description=Although you woundn't be able to find coal in regular End biomes, there might be some left in the Stygian Growth biome since there's still some form of plant life.
+
+advancements.levitated.resources.end_diamond.title=Gems of Void
+advancements.levitated.resources.end_diamond.description=Unlike other minerals, diamonds seem to accumulate under the End islands, forming a Porphyry spike in the Acidic Plains biome.
+
+advancements.levitated.resources.end_copper.title=Mr. Cooper
+advancements.levitated.resources.end_copper.description=Copper, Tin, as well as Lead are important materials for powered machines, you can find these ores in the Stygian Growth biome.
+
+advancements.levitated.resources.nether_root.title=Nether Resources
+advancements.levitated.resources.nether_root.description=You can find all information related to Nether ores on the right.
+
+advancements.levitated.resources.nether_quartz.title=Shiny Crystals
+advancements.levitated.resources.nether_quartz.description=Both Nether Quartz and Certus Quartz generate inside of Netherracks all over the Nether. You should be able to find them easily.
+
+advancements.levitated.resources.nether_aluminum.title=Can Material
+advancements.levitated.resources.nether_aluminum.description=Aluminum ores generate in Basalt spikes hanging off the Nether roof, just like how Diamonds would generate in the End.
+
+advancements.levitated.resources.nether_nickel.title=Coins of Nickel
+advancements.levitated.resources.nether_nickel.description=You might find pools of Pyrotheum in the Nether, which is often surrounded by Basalt and Nickel ores.
+
+advancements.levitated.resources.nether_silver.title=Silvery Star
+advancements.levitated.resources.nether_silver.description=Spikes made of Glowstone and Magma Blocks generate in the Nether, sometimes you may find Silver ores on them.
+
+advancements.levitated.resources.nether_ardite.title=Tough Guy
+advancements.levitated.resources.nether_ardite.description=At the bottom of the Nether, occasionally you can find deposits of Obsidian and Ardite ores.
+
+advancements.levitated.resources.nether_cobalt.title=Speedy Boi
+advancements.levitated.resources.nether_cobalt.description=Obsidian boulders spawn near the bedrock roof of the Nether, which occasionally contains Cobalt ores.
+
+advancements.levitated.resources.nether_uranium.title=Radioactive
+advancements.levitated.resources.nether_uranium.description=Layers of Lavastone generate at lower attitudes in the Nether, which can contain deposits of Uranium ores. You might find these stones beneath the Lava lakes in the Nether.
+
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=Easter Eggs!
 advancements.levitated.easteregg.root.description=If you found a easter egg by chance, it'll appear here!
@@ -187,3 +209,6 @@ description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chun
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
 description.levitated.mana_paper=Shift right click on a crafting table/station to fold it in half. But one cannot do so without some expertises in paper-folding.
 description.levitated.feather=Velvet of Swan falls from Wingless Birds.
+
+# Unfamiliar Items
+unfamiliar.levitated.blaze_rod=Hot Stick

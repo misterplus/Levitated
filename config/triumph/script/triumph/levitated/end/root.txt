@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.root.description")
 
 setBackground("minecraft:textures/gui/advancements/backgrounds/end.png")
 setShowToast(true)
-setPos(-22,-15)
+setPos(-23,6)
 
 addCriteria("location", "minecraft:location")
 setRewardFunction("triumph:set_spawn")

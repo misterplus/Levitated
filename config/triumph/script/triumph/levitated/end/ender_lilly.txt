@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.end.ender_lilly.description")
 
 addParent("triumph:levitated/end/root")
 setShowToast(true)
-setPos(21,-15)
+setPos(21,44)
 
 criteria = addCriteria("hasEnderLilly", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:enderlilly>)

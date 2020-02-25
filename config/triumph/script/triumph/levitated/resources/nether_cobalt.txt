@@ -1,0 +1,14 @@
+setIcon(<tconstruct:ore>)
+
+setTranslatedTitle("advancements.levitated.resources.nether_cobalt.title")
+setTranslatedDescription("advancements.levitated.resources.nether_cobalt.description")
+
+addParent("triumph:levitated/resources/root")
+setShowToast(true)
+setPos(231,-136)
+hideLines()
+
+criteria = addCriteria("hasCobalt", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:ore>)
+
+hiddenUnless("triumph:levitated/end/netherrack")

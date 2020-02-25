@@ -1,0 +1,14 @@
+setIcon(<netherendingores:ore_nether_modded_1:12>)
+
+setTranslatedTitle("advancements.levitated.resources.nether_uranium.title")
+setTranslatedDescription("advancements.levitated.resources.nether_uranium.description")
+
+addParent("triumph:levitated/resources/root")
+setShowToast(true)
+setPos(157,-136)
+hideLines()
+
+criteria = addCriteria("hasUranium", "minecraft:inventory_changed")
+criteria.addItem(<netherendingores:ore_nether_modded_1:12>)
+
+hiddenUnless("triumph:levitated/end/netherrack")

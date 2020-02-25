@@ -10,4 +10,4 @@ setPos(16,-54)
 criteria = addCriteria("hasRottenPork", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:rotten_pork>)
 
-visibleIf("triumph:levitated/end/root")
+visibleIf("triumph:levitated/nether/root")

@@ -4,7 +4,7 @@ setTranslatedTitle("advancements.levitated.end.stirling_gen.title")
 setTranslatedDescription("advancements.levitated.end.stirling_gen.description")
 
 addParent("triumph:levitated/end/infinity_dust")
-addParent("triumph:levitated/end/end_copper")
+
 setShowToast(true)
 setPos(745,6)
 

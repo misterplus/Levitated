@@ -1,0 +1,14 @@
+setIcon(<netherendingores:ore_end_vanilla:1>)
+
+setTranslatedTitle("advancements.levitated.resources.end_diamond.title")
+setTranslatedDescription("advancements.levitated.resources.end_diamond.description")
+
+addParent("triumph:levitated/resources/root")
+setShowToast(true)
+setPos(83,-99)
+hideLines()
+
+criteria = addCriteria("hasEndDiamond", "minecraft:inventory_changed")
+criteria.addItem(<netherendingores:ore_end_vanilla:1>)
+
+visibleIf("triumph:levitated/resources/root")
