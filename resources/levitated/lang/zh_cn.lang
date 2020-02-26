@@ -25,15 +25,6 @@ advancements.levitated.end.tool_station.description=有了工具组装台后，�
 advancements.levitated.end.furnace.title=小身材大热量
 advancements.levitated.end.furnace.description=使用末地石制作一个熔炉。虽然这个熔炉还谈不上非常完备，但你仍然可以用它来冶炼矿石。
 
-advancements.levitated.end.end_iron.title=矿物精华
-advancements.levitated.end.end_iron.description=随着主世界的崩溃坍塌，一些矿物分解为精华坠入虚空，并在末地石中慢慢复原，矿物包括铁、金、红石和青金石。
-
-advancements.levitated.end.end_coal.title=生命的最后光芒
-advancements.levitated.end.end_coal.description=虽然你不能在传统末地群系找到煤,但在幽冥之林群系(Stygian Growth)有许多植物在那生长,凋零,腐败,或许能够找到一些.
-
-advancements.levitated.end.end_diamond.title=虚空宝石
-advancements.levitated.end.end_diamond.description=与其他矿物不同，钻石似乎都聚集在末地岛屿之下，在酸性平原群系(Acidic Plains)的斑岩尖刺中生成。
-
 advancements.levitated.end.mana_pool.title=先人的遗产
 advancements.levitated.end.mana_pool.description=除了无法探本穷源的末地船，先人们还在末地建造了另一种建筑，并在里面为后人留下一些残留了些许魔力的物品，例如魔力池。
 
@@ -63,15 +54,6 @@ advancements.levitated.end.enderdagger.description=厌倦了猎杀末影人？�
 
 advancements.levitated.end.ender_iron.title=天外末影技术
 advancements.levitated.end.ender_iron.description=末影人能够将某种末地元素注入到铁矿石中，意思就是有一些末影人的手里或许会拿着一个特殊的方块。通过适当的处理，你成功地得到了一种叫做聚影铁(End Infused Iron)的新金属。
-
-advancements.levitated.end.blast_furnace.title=温度过高,速度过慢
-advancements.levitated.end.blast_furnace.description=聚影铁的可燃性非常适合用来制作高炉砖，高炉是用来炼钢的多方块机器，钢是制造机器的必要材料。
-
-advancements.levitated.end.end_copper.title=炼铜术士
-advancements.levitated.end.end_copper.description=铜矿、锡矿和铅矿都是制作电力机器的必要资源，经过探索，在幽冥之林群系(Stygian Growth)中，你发现了它们。
-
-advancements.levitated.end.end_uranium.title=需要防化服吗
-advancements.levitated.end.end_uranium.description=铀矿的生成方式与钻石矿相同，但只在幽冥之林群系(Stygian Growth)岛屿下方的多孔滤石尖刺中生成。
 
 advancements.levitated.end.grass_seeds.title=末地可没有光合作用
 advancements.levitated.end.grass_seeds.description=虽然终末种子能够制造花朵，但它们是不可再生的。在你了解了一些炼金魔法后，制作一些其他的种子已经不成问题了。先做一个小麦种子吧。
@@ -113,7 +95,7 @@ advancements.levitated.end.simulation_chamber.title=深度知识
 advancements.levitated.end.simulation_chamber.description=如果厌倦了手动刷怪，那么你一定很想用用这台叫模拟室的机器。
 
 advancements.levitated.end.keystone.title=故障试炼
-advancements.levitated.end.keystone.description=系统故障只会出现在试炼中，开始一项试炼需要一把测试密钥。更多信息请在指南中查阅。
+advancements.levitated.end.keystone.description=系统故障只会出现在试炼中，开始一项试炼需要一把测试密钥。更多信息请在指南中查阅。不过，在试炼中你可能会遇到一些飞行的生物。它们有几率掉落一个你暂时还无法使用的物品。
 
 advancements.levitated.end.glitched_oby.title=系统§k故kokok§r障
 advancements.levitated.end.glitched_oby.description=仅仅用黑曜石搭建一个传送门框架并不能让你进入下界，你需要给普通的黑曜石添加一些小"故障"，在你思考该怎么做时，泰拉凝聚板似乎向你发出了微弱的光芒。
@@ -161,6 +143,46 @@ advancements.levitated.nether.root.description=在你到来之前，这个世界
 advancements.levitated.nether.rotten_pork.title=恶心的下界火熏猪肉
 advancements.levitated.nether.rotten_pork.description=僵尸猪人不会再掉落金粒或金锭，但它们会以很小的几率掉落腐烂的猪肉，你可以用它在召唤仪式中召唤猪猪。
 
+# Resources
+advancements.levitated.resources.root.title=末地矿物
+advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
+
+advancements.levitated.end.end_iron.title=矿物精华
+advancements.levitated.end.end_iron.description=随着主世界的崩溃坍塌，一些矿物分解为精华坠入虚空，并在末地石中慢慢复原，矿物包括§7铁§r、§e金§r、§4红石§r和§1青金石§r。
+
+advancements.levitated.end.end_coal.title=生命的最后光芒
+advancements.levitated.end.end_coal.description=虽然你不能在传统末地群系找到§0煤§r,但在幽冥之林群系(Stygian Growth)中，有许多植物在那生长,凋零,腐败,或许能够找到一些.
+
+advancements.levitated.end.end_diamond.title=虚空宝石
+advancements.levitated.end.end_diamond.description=与其他矿物不同，§b钻石§r似乎都聚集在末地岛屿之下，在酸性平原群系(Acidic Plains)的斑岩尖刺中生成。
+
+advancements.levitated.end.end_copper.title=炼铜术士
+advancements.levitated.end.end_copper.description=§6铜矿§r、§f锡矿§r和§9铅矿§r都是制作电力机器的必要资源，经过探索，你发现它们会生成在幽冥之林群系(Stygian Growth)中。
+
+advancements.levitated.resources.nether_root.title=下界矿物
+advancements.levitated.resources.nether_root.description=右侧是关于下界矿物的资料。
+
+advancements.levitated.resources.nether_quartz.title=blingbling的水晶
+advancements.levitated.resources.nether_quartz.description=§f下界石英§r和§b赛特斯石英§r都埋藏于地狱岩中，并且遍布下界，你可以很轻松地挖到它们。
+
+advancements.levitated.resources.nether_aluminum.title=把锅融掉就能得到！peace~
+advancements.levitated.resources.nether_aluminum.description=和钻石的生成方式一样，§d铝矿§r生成在下界顶部悬挂的§8玄武岩§r倒刺中。
+
+advancements.levitated.resources.nether_nickel.title=镍镍内内呐！
+advancements.levitated.resources.nether_nickel.description=运气好的话，你能在下界找到§4烈焰之炽焱池§r，玄武岩和§e镍矿§r常常在周围生成。
+
+advancements.levitated.resources.nether_silver.title=银星星没了:(
+advancements.levitated.resources.nether_silver.description=在下界，会生成以§e荧石§r和§6岩浆块§r组成的尖刺，§f银矿§r有时会在里面生成。
+
+advancements.levitated.resources.nether_ardite.title=糊一脸矿
+advancements.levitated.resources.nether_ardite.description=§6阿迪特§r和§5黑曜石§r少量散布于下界底部。
+
+advancements.levitated.resources.nether_cobalt.title=秒男就不要用了吧
+advancements.levitated.resources.nether_cobalt.description=在下界顶部的基岩层，会生成§5巨型黑曜石块§r，里面偶尔会伴生§1钴矿§r。
+
+advancements.levitated.resources.nether_uranium.title=小心辐射
+advancements.levitated.resources.nether_uranium.description=在下界较低的位置，岩层转变为熔岩石层，§2铀矿§r沉积于此。下界的熔岩湖下面就能看到这些石头。
+
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=复活节彩蛋!
 advancements.levitated.easteregg.root.description=如果你发现了一个复活节彩蛋，它就会出现在这个页面！
@@ -187,3 +209,6 @@ description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就�
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
 description.levitated.mana_paper=对着工作台或工作站潜行右键来将它对折。但没有了解过折纸技术的话，你是做不到的。
 description.levitated.feather=梦想变成鸟，借力冲云霄。终于飞上天，竟会落羽毛。
+
+# Unfamiliar Items
+unfamiliar.levitated.blaze_rod=火之高兴
