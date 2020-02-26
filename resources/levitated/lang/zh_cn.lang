@@ -147,17 +147,17 @@ advancements.levitated.nether.rotten_pork.description=僵尸猪人不会再掉�
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
 
-advancements.levitated.end.end_iron.title=矿物精华
-advancements.levitated.end.end_iron.description=随着主世界的崩溃坍塌，一些矿物分解为精华坠入虚空，并在末地石中慢慢复原，矿物包括§7铁§r、§e金§r、§4红石§r和§1青金石§r。
+advancements.levitated.resources.end_iron.title=矿物精华
+advancements.levitated.resources.end_iron.description=随着主世界的崩溃坍塌，一些矿物分解为精华坠入虚空，并在末地石中慢慢复原，矿物包括§7铁§r、§e金§r、§4红石§r和§1青金石§r。
 
-advancements.levitated.end.end_coal.title=生命的最后光芒
-advancements.levitated.end.end_coal.description=虽然你不能在传统末地群系找到§0煤§r,但在幽冥之林群系(Stygian Growth)中，有许多植物在那生长,凋零,腐败,或许能够找到一些.
+advancements.levitated.resources.end_coal.title=生命的最后光芒
+advancements.levitated.resources.end_coal.description=虽然你不能在传统末地群系找到§0煤§r,但在幽冥之林群系(Stygian Growth)中，有许多植物在那生长,凋零,腐败,或许能够找到一些.
 
-advancements.levitated.end.end_diamond.title=虚空宝石
-advancements.levitated.end.end_diamond.description=与其他矿物不同，§b钻石§r似乎都聚集在末地岛屿之下，在酸性平原群系(Acidic Plains)的斑岩尖刺中生成。
+advancements.levitated.resources.end_diamond.title=虚空宝石
+advancements.levitated.resources.end_diamond.description=与其他矿物不同，§b钻石§r似乎都聚集在末地岛屿之下，在酸性平原群系(Acidic Plains)的斑岩尖刺中生成。
 
-advancements.levitated.end.end_copper.title=炼铜术士
-advancements.levitated.end.end_copper.description=§6铜矿§r、§f锡矿§r和§9铅矿§r都是制作电力机器的必要资源，经过探索，你发现它们会生成在幽冥之林群系(Stygian Growth)中。
+advancements.levitated.resources.end_copper.title=炼铜术士
+advancements.levitated.resources.end_copper.description=§6铜矿§r、§f锡矿§r和§9铅矿§r都是制作电力机器的必要资源，经过探索，你发现它们会生成在幽冥之林群系(Stygian Growth)中。
 
 advancements.levitated.resources.nether_root.title=下界矿物
 advancements.levitated.resources.nether_root.description=右侧是关于下界矿物的资料。
