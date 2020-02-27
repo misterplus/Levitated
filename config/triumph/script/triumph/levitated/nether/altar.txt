@@ -1,0 +1,13 @@
+setIcon(<zensummoning:altar>)
+
+setTranslatedTitle("advancements.levitated.nether.altar.title")
+setTranslatedDescription("advancements.levitated.nether.altar.description")
+
+addParent("triumph:levitated/nether/root")
+setShowToast(true)
+setPos(12,-57)
+
+criteria = addCriteria("hasSummonAltar", "minecraft:inventory_changed")
+criteria.addItem(<zensummoning:altar>)
+
+visibleIf("triumph:levitated/nether/root")
