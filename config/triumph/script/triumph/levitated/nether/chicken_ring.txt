@@ -1,0 +1,13 @@
+setIcon(<extrautils2:chickenring>)
+
+setTranslatedTitle("advancements.levitated.nether.chicken_ring.title")
+setTranslatedDescription("advancements.levitated.nether.chicken_ring.description")
+
+addParent("triumph:levitated/nether/altar")
+setShowToast(true)
+setPos(48,-37)
+
+criteria = addCriteria("hasChickenring", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:chickenring>)
+
+visibleIf("triumph:levitated/nether/root")

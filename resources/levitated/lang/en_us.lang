@@ -146,6 +146,9 @@ advancements.levitated.nether.altar.description=By combining some new materials 
 advancements.levitated.nether.rotten_pork.title=Nasty Bacon
 advancements.levitated.nether.rotten_pork.description=Zombie Pigman will no longer drop gold nugggets or ingots, but they do drop a piece of Rotten Pork very rarely, which can be used in a summoning ritual to summon pigs.
 
+advancements.levitated.nether.chicken_ring.title=Rings in the Sky
+advancements.levitated.nether.chicken_ring.description=With the soul of a Chicken, you forged a ring that slows down your falling. With some proper upgrades, you might gain the ability to fly.
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.

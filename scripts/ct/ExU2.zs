@@ -9,19 +9,8 @@ recipes.remove(<extrautils2:chickenring:1>);
 recipes.addShaped(<extrautils2:machine>, [[<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>],[<minecraft:redstone>, <enderio:item_material:1>, <minecraft:redstone>], [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<extrautils2:machine>, [[<extrautils2:unstableingots>, <deepmoblearning:soot_covered_redstone>, <extrautils2:unstableingots>],[<deepmoblearning:soot_covered_redstone>, <enderio:item_material>, <deepmoblearning:soot_covered_redstone>], [<extrautils2:unstableingots>, <deepmoblearning:soot_covered_redstone>, <extrautils2:unstableingots>]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "crafttweaker:assembler"}), [[<enderio:item_alloy_ingot:6>, <contenttweaker:ccb>, <enderio:item_alloy_ingot:6>],[<immersiveengineering:material:20>, <extrautils2:machine>, <immersiveengineering:material:20>], [<enderio:item_alloy_ingot:6>, <enderio:item_basic_capacitor>, <enderio:item_alloy_ingot:6>]]);
-recipes.addShaped("ring_shulker", <extrautils2:chickenring:1>, [[<ore:dyePurple>, <ore:gemDiamond>, <ore:dyePurple>],[<extrautils2:goldenlasso:1>.withTag({Animal: {id: "minecraft:shulker"}}).marked("mark").transformReplace(<extrautils2:goldenlasso:1>), <extrautils2:chickenring>, <ore:enderpearl>], [<ore:dyePurple>, <ore:gemDiamond>, <ore:dyePurple>]],
-function(out,ins,cInfo){
-    if !ins.mark.hasTag {
-        return null;
-    }
-    var id = ins.mark.tag.memberGet("Animal").memberGet("id") as string;
-    if id == "minecraft:shulker"{
-        return out;
-    }
-    else {
-        return null;
-    }
-}, null);
+recipes.addShaped(<extrautils2:chickenring:1>, [[<ore:dyePurple>, <ore:gemDiamond>, <ore:dyePurple>],[<extrautils2:goldenlasso:1>.withTag({Animal: {id: "minecraft:shulker"}}).transformReplace(<extrautils2:goldenlasso:1>), <extrautils2:chickenring>, <ore:enderpearl>], [<ore:dyePurple>, <ore:gemDiamond>, <ore:dyePurple>]]);
+recipes.replaceAllOccurences(<extrautils2:goldenlasso>.withTag({Animal: {id: "minecraft:bat"}, No_Place: 1 as byte}), <botania:flighttiara:*>);
 
 //scanner mod
 var assembler = extrautilities2.Tweaker.IMachineRegistry.getMachine("assembler");

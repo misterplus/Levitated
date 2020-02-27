@@ -2,8 +2,6 @@
 //Don't touch me!
 //#Remove
 recipes.remove(<chisel:lavastone>);
-recipes.remove(<thermalexpansion:frame:64>);
-recipes.remove(<thermalexpansion:frame>);
 recipes.remove(<deepmoblearning:glitch_infused_sword>);
 recipes.remove(<deepmoblearning:glitch_infused_boots>);
 recipes.remove(<deepmoblearning:glitch_infused_leggings>);
