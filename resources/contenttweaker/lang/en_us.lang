@@ -23,6 +23,7 @@ item.contenttweaker.paper_plane_5.name=Paper Plane (6/7)
 item.contenttweaker.paper_plane_6.name=Paper Plane
 item.contenttweaker.mana_paper.name=Paper
 item.contenttweaker.rotten_pork.name=Rotten Pork
+item.contenttweaker.dynamo_frame.name=Dynamo Frame
 
 item.contenttweaker.origin_book.message=Spawn Point Set!
 item.contenttweaker.nether_book.message=You can now travel to the Nether!
