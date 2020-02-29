@@ -18,4 +18,13 @@
      <fluid name="xpjuice" amount="10"/><!-- for logic=XP amount is in XP, not mB -->    
    </tanking>  
  </recipe>
+ <recipe name="Chassis">    
+   <alloying energy="3600" exp="1">      
+     <input name="SIMPLE_CHASSIS"/>      
+     <input name="dyeMachine"/>
+     <input name="extrautils2:decorativesolid:3"/>
+     <output name="CHASSIS"/>    
+   </alloying>  
+ </recipe>
+ 
 </enderio:recipes>

@@ -1,1 +1,14 @@
-[]
+[
+    {
+      "dimension": -1,
+      "block": "minecraft:nether_brick",
+      "mobs": [
+        {
+          "mob": "minecraft:blaze",
+          "weight": 5,
+          "groupcountmin": 1,
+          "groupcountmax": 2
+        }
+      ]
+    }
+]

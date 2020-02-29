@@ -8,7 +8,17 @@
     },
     "random": 0.05
   },
-
+  {
+    "dimension": -1,
+    "mob": "minecraft:blaze",
+    "block": "minecraft:nether_brick",
+    "result": "allow"
+  },
+  {
+    "dimension": -1,
+    "mob": "minecraft:blaze",
+    "result": "deny"
+  },
   {
     "result": "default"
   }

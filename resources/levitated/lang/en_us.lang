@@ -152,6 +152,12 @@ advancements.levitated.nether.chicken_ring.description=With the soul of a Chicke
 advancements.levitated.nether.chassis.title=Industry Standard
 advancements.levitated.nether.chassis.description=Nether Quartz's high conductivity is great for making Machine Chassis, which is a necessity for more complex machines.
 
+advancements.levitated.nether.resonator.title=Resonance
+advancements.levitated.nether.resonator.description=Resonating regular materials converts them into their high quality counterparts, which are excellent for machine building.
+
+advancements.levitated.end.blaze_rod.title=Hot Stick
+advancements.levitated.end.blaze_rod.description=Blazes occasionally spawn on Nether Bricks in the Nether, with enough luck, you might also find a Blaze spawner in a Nether fortress.
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.
