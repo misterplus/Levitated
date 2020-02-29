@@ -16,7 +16,18 @@
   },
   {
     "dimension": -1,
+    "mob": "minecraft:wither_skeleton",
+    "block": "minecraft:nether_brick",
+    "result": "allow"
+  },
+  {
+    "dimension": -1,
     "mob": "minecraft:blaze",
+    "result": "deny"
+  },
+  {
+    "dimension": -1,
+    "mob": "minecraft:wither_skeleton",
     "result": "deny"
   },
   {

@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.chassis.description")
 
 addParent("triumph:levitated/nether/resonator")
 setShowToast(true)
-setPos(49,33)
+setPos(49,-15)
 
 criteria = addCriteria("hasChassis", "minecraft:inventory_changed")
 criteria.addItem(<enderio:item_material:1>)

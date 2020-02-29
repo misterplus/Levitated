@@ -8,6 +8,5 @@ setShowToast(false)
 setAnnounceToChat(false)
 setPos(-22,-15)
 
-addCriteria("location", "minecraft:location")
-
-pageHiddenUnless("triumph:levitated/end/netherrack")
+criteria = addCriteria("hasNetherrack2", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:netherrack>)

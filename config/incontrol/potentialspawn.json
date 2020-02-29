@@ -1,14 +1,26 @@
 [
-    {
-      "dimension": -1,
-      "block": "minecraft:nether_brick",
-      "mobs": [
-        {
-          "mob": "minecraft:blaze",
-          "weight": 1,
-          "groupcountmin": 1,
-          "groupcountmax": 1
-        }
-      ]
-    }
+  {
+    "dimension": -1,
+    "block": "minecraft:nether_brick",
+    "mobs": [
+      {
+        "mob": "minecraft:blaze",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": -1,
+    "block": "chisel:lavastone",
+    "mobs": [
+      {
+        "mob": "minecraft:wither_skeleton",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  }
 ]

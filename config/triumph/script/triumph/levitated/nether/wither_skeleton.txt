@@ -1,0 +1,13 @@
+setIcon(<minecraft:skull:1>)
+
+setTranslatedTitle("advancements.levitated.nether.wither_skeleton.title")
+setTranslatedDescription("advancements.levitated.nether.wither_skeleton.description")
+
+addParent("triumph:levitated/nether/root")
+setShowToast(true)
+setPos(12,58)
+
+criteria = addCriteria("killWitherSkl", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:wither_skeleton")
+
+visibleIf("triumph:levitated/nether/wither_skeleton")

@@ -158,6 +158,12 @@ advancements.levitated.nether.resonator.description=Resonating regular materials
 advancements.levitated.nether.blaze_rod.title=Hot Stick
 advancements.levitated.nether.blaze_rod.description=Blazes occasionally spawn on Nether Bricks in the Nether, with enough luck, you might also find a Blaze spawner in a Nether fortress.
 
+advancements.levitated.nether.wither_skeleton.title=Burnt Bones
+advancements.levitated.nether.wither_skeleton.description=Wither Skeletons occasionally spawn on Lavastones in the Nether, but Lavastone is not easy to find...
+
+advancements.levitated.nether.star.title=The Stars Aligned
+advancements.levitated.nether.star.description=Wither, the most dangerous creature in the Nether, possesses a star, which contains unimaginable power.
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.

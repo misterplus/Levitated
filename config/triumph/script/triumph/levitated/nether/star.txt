@@ -1,0 +1,13 @@
+setIcon(<minecraft:nether_star>)
+
+setTranslatedTitle("advancements.levitated.nether.star.title")
+setTranslatedDescription("advancements.levitated.nether.star.description")
+
+addParent("triumph:levitated/nether/root")
+setShowToast(true)
+setPos(49,58)
+
+criteria = addCriteria("hasNetherStar", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:nether_star>)
+
+visibleIf("triumph:levitated/nether/root")
