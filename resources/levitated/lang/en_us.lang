@@ -155,8 +155,8 @@ advancements.levitated.nether.chassis.description=Nether Quartz's high conductiv
 advancements.levitated.nether.resonator.title=Resonance
 advancements.levitated.nether.resonator.description=Resonating regular materials converts them into their high quality counterparts, which are excellent for machine building.
 
-advancements.levitated.end.blaze_rod.title=Hot Stick
-advancements.levitated.end.blaze_rod.description=Blazes occasionally spawn on Nether Bricks in the Nether, with enough luck, you might also find a Blaze spawner in a Nether fortress.
+advancements.levitated.nether.blaze_rod.title=Hot Stick
+advancements.levitated.nether.blaze_rod.description=Blazes occasionally spawn on Nether Bricks in the Nether, with enough luck, you might also find a Blaze spawner in a Nether fortress.
 
 # Resources
 advancements.levitated.resources.root.title=Ore Resources

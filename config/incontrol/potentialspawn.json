@@ -5,9 +5,9 @@
       "mobs": [
         {
           "mob": "minecraft:blaze",
-          "weight": 5,
+          "weight": 1,
           "groupcountmin": 1,
-          "groupcountmax": 2
+          "groupcountmax": 1
         }
       ]
     }
