@@ -143,11 +143,14 @@ advancements.levitated.nether.root.description=在你到来之前，这个世界
 advancements.levitated.nether.altar.title=祭坛中的小生命
 advancements.levitated.nether.altar.description=通过把在下界发现的新资源组合起来，你成功制作了一个祭坛。你可以用它来复活一些动物！不过，一不留神，可能就会失败...
 
-advancements.levitated.nether.rotten_pork.title=好吃(的下界火熏猪肉
+advancements.levitated.nether.rotten_pork.title=好吃(?的下界火熏猪肉
 advancements.levitated.nether.rotten_pork.description=僵尸猪人不会再掉落金粒或金锭，但它们会以很小的几率掉落腐烂的猪肉，你可以用它在召唤仪式中召唤猪猪。
 
-advancements.levitated.nether.chicken_ring.title=左脚踩右脚指环
+advancements.levitated.nether.chicken_ring.title=别想了这是家鸡
 advancements.levitated.nether.chicken_ring.description=通过将鸡的灵魂镶嵌在指环中，你成功地让指环具备减缓你坠落速度的能力。但你渴求的是飞行，经过不断地尝试，你终于发现了正确的升级方法。
+
+advancements.levitated.nether.chassis.title=科技第一步，框架来帮助
+advancements.levitated.nether.chassis.description=机器框架是制作进阶机器的必需品，而具有超强导电性的下界石英恰好能用来制作它。
 
 # Resources
 advancements.levitated.resources.root.title=末地矿物
