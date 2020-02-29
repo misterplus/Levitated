@@ -152,6 +152,12 @@ advancements.levitated.nether.chicken_ring.description=通过将鸡的灵魂镶�
 advancements.levitated.nether.chassis.title=科技第一步，框架来帮助
 advancements.levitated.nether.chassis.description=机器框架是制作进阶机器的必需品，而具有超强导电性的下界石英恰好能用来制作它。
 
+advancements.levitated.nether.resonator.title=共振 §m啪啪啪§r
+advancements.levitated.nether.resonator.description=在共振仪中，你可以将普通的材料共振转变为与之对应的高质量材料，这些材料非常适合用来制作机器。
+
+advancements.levitated.nether.blaze_rod.title=火之高兴
+advancements.levitated.nether.blaze_rod.description=烈焰人偶尔会生成在下界的地狱砖上，§m但你出门前要是抹了防晒霜§r，说不定就能在地狱堡垒里发现烈焰人刷怪笼。
+
 # Resources
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
