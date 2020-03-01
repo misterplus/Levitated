@@ -182,6 +182,12 @@ advancements.levitated.nether.compiron.description=Blowing up Steel ingots with 
 advancements.levitated.nether.chamber.title=Pressurized Assembly
 advancements.levitated.nether.chamber.description=You need machines to print circuit boards after all. Assembling them in a dust-free environment would be ideal.
 
+advancements.levitated.nether.interface.title=Smart Window
+advancements.levitated.nether.interface.description=Tired of breaking the chamber just to get your items? Then this Chamber Interface is just the right block for you!
+
+advancements.levitated.nether.pcb.title=
+advancements.levitated.nether.pcb.description=
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.

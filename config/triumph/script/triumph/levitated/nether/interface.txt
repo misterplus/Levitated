@@ -1,0 +1,13 @@
+setIcon(<pneumaticcraft:pressure_chamber_interface>)
+
+setTranslatedTitle("advancements.levitated.nether.interface.title")
+setTranslatedDescription("advancements.levitated.nether.interface.description")
+
+addParent("triumph:levitated/nether/chamber")
+setShowToast(true)
+setPos(161,3)
+
+criteria = addCriteria("hasChamberInterface", "minecraft:inventory_changed")
+criteria.addItem(<pneumaticcraft:pressure_chamber_interface>)
+
+visibleIf("triumph:levitated/nether/root")
