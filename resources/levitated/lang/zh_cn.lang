@@ -230,7 +230,7 @@ advancements.levitated.easteregg.root.title=复活节彩蛋!
 advancements.levitated.easteregg.root.description=如果你发现了一个复活节彩蛋，它就会出现在这个页面！
 
 advancements.levitated.easteregg.feather.title=像羽毛一样落下
-advancements.levitated.easteregg.feather.description=这是个双关语，请语文课代表赏析一下...好吧，意思就是你能免疫所有的摔落伤害，听起来不错吧？
+advancements.levitated.easteregg.feather.description=这是个双关语，§m请语文课代表赏析一下§r好吧，意思就是你能免疫所有的摔落伤害，听起来不错吧？
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
@@ -247,7 +247,7 @@ tooltips.levitated.paper_plane_6=潜行右键将它放飞！
 tooltips.levitated.mana_paper=将纸垂直对折。
 tooltips.levitated.mana_paper_2=咋了? 这还是张纸! 只是被魔力浸湿了而已!
 
-description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能够制作出一块烈焰木.
+description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
 description.levitated.mana_paper=对着工作台或工作站潜行右键来将它对折。但没有了解过折纸技术的话，你是做不到的。
 description.levitated.feather=梦想变成鸟，借力冲云霄。终于飞上天，竟会落羽毛。
