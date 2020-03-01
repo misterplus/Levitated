@@ -8,7 +8,7 @@ import mods.contenttweaker.ActionResult;
 import mods.contenttweaker.Hand;
 import crafttweaker.block.IBlockState;
 
-var easy_items = ["end_seeds", "ccb", "ccb_base", "clay_board", "pottery_clay", "solder_powder", "biome_scanner_basic", "terrain_scanner", "blue_lotus", "dynamo_frame"] as string[];
+var easy_items = ["end_seeds", "ccb", "ccb_base", "clay_board", "pottery_clay", "solder_powder", "biome_scanner_basic", "terrain_scanner", "blue_lotus", "dynamo_frame", "overworld_star"] as string[];
 for item in easy_items {
     VanillaFactory.createItem(item).register();
 }
@@ -120,3 +120,15 @@ rotten_pork.onItemFoodEaten = function(stack, world, player) {
     }
 };
 rotten_pork.register();
+
+var overworld_book = VanillaFactory.createItem("overworld_book");
+overworld_book.itemRightClick = function(stack, world, player, hand) {
+    if (!world.remote & !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player)) {
+        Commands.call("gamestage silentadd @p overworld", player, world, false, true);
+        player.sendChat(game.localize("item.contenttweaker.overworld_book.message"));
+        stack.shrink(1);
+        return "SUCCESS";
+    }
+    return "PASS";
+};
+overworld_book.register();

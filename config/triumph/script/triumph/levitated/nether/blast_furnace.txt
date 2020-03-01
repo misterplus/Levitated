@@ -1,0 +1,14 @@
+Parser.addRequiredMod("immersiveengineering")
+setIcon(<immersiveengineering:stone_device, meta:1>)
+
+setTranslatedTitle("advancements.levitated.nether.blast_furnace.title")
+setTranslatedDescription("advancements.levitated.nether.blast_furnace.description")
+
+addParent("triumph:levitated/nether/blaze_rod")
+setShowToast(true)
+setPos(49,-15)
+
+criteria = addCriteria("formed_blast_furnace", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:BlastFurnace")
+
+visibleIf("triumph:levitated/nether/root")

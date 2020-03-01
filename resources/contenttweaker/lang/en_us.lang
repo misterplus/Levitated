@@ -27,6 +27,7 @@ item.contenttweaker.dynamo_frame.name=Dynamo Frame
 
 item.contenttweaker.origin_book.message=Spawn Point Set!
 item.contenttweaker.nether_book.message=You can now travel to the Nether!
+item.contenttweaker.overworld_book.message=You can now travel to the Overworld!
 item.contenttweaker.paper_plane_6.message=Hey! Wait for the other plane to comeback!
 
 fluid.solder=Solder

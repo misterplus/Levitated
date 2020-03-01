@@ -170,6 +170,18 @@ advancements.levitated.nether.stargen.description=Rebuilding the Nether terrain 
 advancements.levitated.nether.withermodel.title=Quantum Simulation
 advancements.levitated.nether.withermodel.description=Getting large quantities of Nether Stars is not a easy task, but you can always turn to a deep learning model...
 
+advancements.levitated.nether.alloy.title=Advanced Alloying
+advancements.levitated.nether.alloy.description=Future machines require a lot more alloys, so you better construct a faster Alloy Smeter.
+
+advancements.levitated.nether.blast_furnace.title=Blast Off
+advancements.levitated.nether.blast_furnace.description=With Blaze Rod's blazing hot temperature, a Blast Furnace was born! A crude one, but functional.
+
+advancements.levitated.nether.compiron.title=The Pressure is on
+advancements.levitated.nether.compiron.description=Blowing up Steel ingots with TNT will compress them into a denser material, which is just suitable for making PCBs.
+
+advancements.levitated.nether.chamber.title=Pressurized Assembly
+advancements.levitated.nether.chamber.description=You need machines to print circuit boards after all. Assembling them in a dust-free environment would be ideal.
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.

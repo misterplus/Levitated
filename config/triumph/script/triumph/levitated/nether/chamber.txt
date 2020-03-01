@@ -1,0 +1,14 @@
+setIcon(<pneumaticcraft:pressure_chamber_wall>)
+
+setTranslatedTitle("advancements.levitated.nether.chamber.title")
+setTranslatedDescription("advancements.levitated.nether.chamber.description")
+
+addParent("triumph:levitated/nether/compiron")
+addParent("triumph:levitated/nether/resonator")
+setShowToast(true)
+setPos(119,3)
+
+criteria = addCriteria("hasChamber", "minecraft:inventory_changed")
+criteria.addItem(<pneumaticcraft:pressure_chamber_wall>)
+
+visibleIf("triumph:levitated/nether/root")

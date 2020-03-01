@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.blaze_rod.description")
 
 addParent("triumph:levitated/nether/root")
 setShowToast(true)
-setPos(12,59)
+setPos(12,-15)
 
 criteria = addCriteria("hasBlazeRod", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:blaze_rod>)

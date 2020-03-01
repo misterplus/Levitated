@@ -3,6 +3,7 @@ import mods.botaniatweaks.Agglomeration;
 import mods.botaniatweaks.AgglomerationMultiblock;
 import mods.botaniatweaks.AgglomerationRecipe;
 import mods.inworldcrafting.FluidToItem;
+import crafttweaker.oredict.IOreDictEntry;
 
 //remove
 recipes.remove(<botania:enderdagger>);
@@ -84,3 +85,26 @@ mods.botania.ManaInfusion.addAlchemy(<minecraft:reeds>, <stygian:endvine>, 10000
 
 //Porkchop
 mods.botania.ManaInfusion.addConjuration(<minecraft:stone>, <minecraft:stone>, 1000);
+
+//Orechid Ignem
+var nether_ores = [<ore:oreQuartz>, <ore:oreArdite>, <ore:oreCobalt>] as IOreDictEntry[];
+for ore in nether_ores {
+    mods.botania.OrechidIgnem.removeOre(ore);
+}
+
+<ore:oreNetherQuartz>.addItems([<minecraft:quartz_ore>]);
+<ore:oreNetherAluminum>.addItems([<netherendingores:ore_nether_modded_1:0>]);
+<ore:oreNetherNickel>.addItems([<netherendingores:ore_nether_modded_1:5>]);
+<ore:oreNetherSilver>.addItems([<netherendingores:ore_nether_modded_1:7>]);
+<ore:oreNetherCertusQuartz>.addItems([<netherendingores:ore_nether_modded_1:9>]);
+<ore:oreNetherUranium>.addItems([<netherendingores:ore_nether_modded_1:12>]);
+<ore:oreNetherCobalt>.addItems([<tconstruct:ore>]);
+<ore:oreNetherArdite>.addItems([<tconstruct:ore:1>]);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherQuartz>, 7275);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherAluminum>, 3940);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherNickel>, 2275);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherSilver>, 5300);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherCertusQuartz>, 6975);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherUranium>, 1337);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherCobalt>, 2275);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherArdite>, 2275);
