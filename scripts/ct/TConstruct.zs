@@ -1,5 +1,7 @@
 //remove
 recipes.remove(<oeintegration:excavatemodifier>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:lumium>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:signalum>);
 
 //preventing players from getting iron and gold from rails
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);

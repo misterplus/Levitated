@@ -15,3 +15,5 @@ recipes.addHiddenShaped("paper_plane_4", <contenttweaker:paper_plane_4>, [[null,
 recipes.addHiddenShaped("paper_plane_3", <contenttweaker:paper_plane_3>, [[null, <contenttweaker:paper_plane_2>, null],[null, null, null], [null, null, null]]);
 recipes.addHiddenShaped("paper_plane_2", <contenttweaker:paper_plane_2>, [[null, null, null],[null, null, null], [null, <contenttweaker:paper_plane_1>, null]]);
 recipes.addHiddenShaped("paper_plane_1", <contenttweaker:paper_plane_1>, [[null, null, null],[null, <contenttweaker:paper_plane_0>, null], [null, null, null]]);
+
+recipes.addShaped(<contenttweaker:overworld_star>, [[<ore:ingotSignalum>, <ore:ingotDemonicMetal>, <ore:ingotLumium>],[<ore:ingotEvilMetal>, <ore:netherStar>, <ore:ingotHOPGraphite>], [<ore:ingotManyullyn>, <ore:ingotUranium>, <ore:ingotMirion>]]);

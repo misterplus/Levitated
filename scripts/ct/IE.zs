@@ -7,6 +7,9 @@ for mineral in minerals {
     mods.immersiveengineering.Excavator.removeMineral(mineral);
 }
 
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:165>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:166>);
+
 //add
 //The End
 addMineral("Coal", 328, 0.0, ["oreEndCoal"], [1], [1]);

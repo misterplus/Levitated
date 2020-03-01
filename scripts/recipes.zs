@@ -9,5 +9,4 @@ recipes.remove(<deepmoblearning:glitch_infused_chestplate>);
 recipes.remove(<deepmoblearning:glitch_infused_helmet>);
 //Don't touch me!
 //#Add
-recipes.addShaped(<minecraft:nether_star>, [[<ore:ingotSignalum>, <ore:ingotDemonicMetal>, <ore:ingotLumium>],[<ore:ingotEvilMetal>, <ore:netherStar>, <ore:ingotHOPGraphite>], [<ore:ingotManyullyn>, <ore:ingotUranium>, <ore:ingotMirion>]]);
 //File End
