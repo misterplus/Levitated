@@ -50,7 +50,7 @@ advancements.levitated.end.coke_oven.title=可口可乐末地分公司
 advancements.levitated.end.coke_oven.description=普通的熔炉不能将原木烧制成木炭，但焦炉可以！
 
 advancements.levitated.end.enderdagger.title=末地猎x人
-advancements.levitated.end.enderdagger.description=厌倦了猎杀末影人？那用用看这把匕首吧！
+advancements.levitated.end.enderdagger.description=觉得击杀末影人很累？那用用看这把匕首吧！
 
 advancements.levitated.end.ender_iron.title=天外末影技术
 advancements.levitated.end.ender_iron.description=末影人能够将某种末地元素注入到铁矿石中，意思就是有一些较强的末影人，手里会拿着一个特殊的方块。通过适当的处理，你成功地得到了一种叫做聚影铁的新金属。
@@ -164,6 +164,27 @@ advancements.levitated.nether.wither_skeleton.description=凋零骷髅偶尔会�
 advancements.levitated.nether.star.title=星星点灯，照亮我家门~
 advancements.levitated.nether.star.description=凋零，下界最具有危险性的生物，它的能力好像来自于体内那颗星星，这颗星星具有难以想象的强大力量，有时候，人需要一些贪婪...
 
+advancements.levitated.nether.stargen.title=核电？爪巴！
+advancements.levitated.nether.stargen.description=重建下界生态会消耗大量的电，这台发电机或许能帮上大忙。
+
+advancements.levitated.nether.withermodel.title=量子§m速读§r模拟
+advancements.levitated.nether.withermodel.description=想要获得大量的下界之星可不简单，但方法总比困难多，深度知识模型就是方法之一。
+
+advancements.levitated.nether.alloy.title=高级合金
+advancements.levitated.nether.alloy.description=之后的机器会需要更多的合金，你最好着手于一台更快的合金炉。
+
+advancements.levitated.nether.blast_furnace.title=热量更高，速度更慢
+advancements.levitated.nether.blast_furnace.description=烈焰棒凭借自身永恒的燃烧，源源不断地向外界散发超高热量。凭借这种特性，你成功制作出高炉砖！虽然这种高炉砖质量不算太好，但搭出的高炉还是挺实用的。
+
+advancements.levitated.nether.compiron.title=压力山大
+advancements.levitated.nether.compiron.description=借着TNT的超强爆炸，钢锭能够被压缩成密度更大的材料。这种材料非常适合用来制作电路板。
+
+advancements.levitated.nether.chamber.title=加压，组装
+advancements.levitated.nether.chamber.description=总之，你需要用机器来印刷电路板。最理想的方法就是无尘环境中组装它们。
+
+advancements.levitated.nether.interface.title=比用手“掏”好
+advancements.levitated.nether.interface.description=厌倦了每次都要先破坏压力室才能拿到你的东西？试试压力室接口吧！
+
 # Resources
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
@@ -209,7 +230,7 @@ advancements.levitated.easteregg.root.title=复活节彩蛋!
 advancements.levitated.easteregg.root.description=如果你发现了一个复活节彩蛋，它就会出现在这个页面！
 
 advancements.levitated.easteregg.feather.title=像羽毛一样落下
-advancements.levitated.easteregg.feather.description=这是个双关语，请语文课代表赏析一下...好吧，意思就是你能免疫所有的摔落伤害，听起来不错吧？
+advancements.levitated.easteregg.feather.description=这是个双关语，§m请语文课代表赏析一下§r好吧，意思就是你能免疫所有的摔落伤害，听起来不错吧？
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
@@ -226,7 +247,7 @@ tooltips.levitated.paper_plane_6=潜行右键将它放飞！
 tooltips.levitated.mana_paper=将纸垂直对折。
 tooltips.levitated.mana_paper_2=咋了? 这还是张纸! 只是被魔力浸湿了而已!
 
-description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能够制作出一块烈焰木.
+description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
 description.levitated.mana_paper=对着工作台或工作站潜行右键来将它对折。但没有了解过折纸技术的话，你是做不到的。
 description.levitated.feather=梦想变成鸟，借力冲云霄。终于飞上天，竟会落羽毛。
