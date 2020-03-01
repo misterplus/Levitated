@@ -97,6 +97,7 @@ for ore in nether_ores {
 <ore:oreNetherNickel>.addItems([<netherendingores:ore_nether_modded_1:5>]);
 <ore:oreNetherSilver>.addItems([<netherendingores:ore_nether_modded_1:7>]);
 <ore:oreNetherCertusQuartz>.addItems([<netherendingores:ore_nether_modded_1:9>]);
+<ore:oreNetherChargedCertusQuartz>.addItems([<netherendingores:ore_nether_modded_1:10>]);
 <ore:oreNetherUranium>.addItems([<netherendingores:ore_nether_modded_1:12>]);
 <ore:oreNetherCobalt>.addItems([<tconstruct:ore>]);
 <ore:oreNetherArdite>.addItems([<tconstruct:ore:1>]);
@@ -105,6 +106,7 @@ mods.botania.OrechidIgnem.addOre(<ore:oreNetherAluminum>, 3940);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherNickel>, 2275);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherSilver>, 5300);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherCertusQuartz>, 6975);
+mods.botania.OrechidIgnem.addOre(<ore:oreNetherChargedCertusQuartz>, 4500);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherUranium>, 1337);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherCobalt>, 2275);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherArdite>, 2275);
