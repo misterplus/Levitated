@@ -158,6 +158,12 @@ advancements.levitated.nether.resonator.description=在共振仪中，你可以�
 advancements.levitated.nether.blaze_rod.title=火之高兴
 advancements.levitated.nether.blaze_rod.description=烈焰人偶尔会生成在下界的地狱砖上，§m但你出门前要是抹了防晒霜§r，说不定就能在地狱堡垒里发现烈焰人刷怪笼。
 
+advancements.levitated.nether.wither_skeleton.title=烧焦的骨头
+advancements.levitated.nether.wither_skeleton.description=凋零骷髅偶尔会聚集在下界的熔岩石上，但熔岩石并不是随处可见...
+
+advancements.levitated.nether.star.title=星星点灯，照亮我家门~
+advancements.levitated.nether.star.description=凋零，下界最具有危险性的生物，它的能力好像来自于体内那颗星星，这颗星星具有难以想象的强大力量，有时候，人需要一些贪婪...
+
 # Resources
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
