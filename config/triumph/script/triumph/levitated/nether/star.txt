@@ -3,9 +3,9 @@ setIcon(<minecraft:nether_star>)
 setTranslatedTitle("advancements.levitated.nether.star.title")
 setTranslatedDescription("advancements.levitated.nether.star.description")
 
-addParent("triumph:levitated/nether/root")
+addParent("triumph:levitated/nether/wither_skeleton")
 setShowToast(true)
-setPos(49,58)
+setPos(49,22)
 
 criteria = addCriteria("hasNetherStar", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:nether_star>)

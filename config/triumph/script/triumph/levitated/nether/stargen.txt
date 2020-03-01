@@ -1,0 +1,13 @@
+setIcon(<extrautils2:machine, nbt:{Type:"extrautils2:generator_netherstar"}>)
+
+setTranslatedTitle("advancements.levitated.nether.stargen.title")
+setTranslatedDescription("advancements.levitated.nether.stargen.description")
+
+addParent("triumph:levitated/nether/star")
+setShowToast(true)
+setPos(86,22)
+
+criteria = addCriteria("hasStargen", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:machine, nbt:{Type:"extrautils2:generator_netherstar"}>)
+
+visibleIf("triumph:levitated/nether/root")

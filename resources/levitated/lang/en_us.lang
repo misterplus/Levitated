@@ -164,6 +164,12 @@ advancements.levitated.nether.wither_skeleton.description=Wither Skeletons occas
 advancements.levitated.nether.star.title=The Stars Aligned
 advancements.levitated.nether.star.description=Wither, the most dangerous creature in the Nether, possesses a star, which contains unimaginable power.
 
+advancements.levitated.nether.stargen.title=Beyond Nuclear
+advancements.levitated.nether.stargen.description=Rebuilding the Nether terrain costs tons of power, this generator might help you out.
+
+advancements.levitated.nether.withermodel.title=Quantum Simulation
+advancements.levitated.nether.withermodel.description=Getting large quantities of Nether Stars is not a easy task, but you can always turn to a deep learning model...
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.
