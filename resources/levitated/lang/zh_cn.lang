@@ -164,6 +164,27 @@ advancements.levitated.nether.wither_skeleton.description=凋零骷髅偶尔会�
 advancements.levitated.nether.star.title=星星点灯，照亮我家门~
 advancements.levitated.nether.star.description=凋零，下界最具有危险性的生物，它的能力好像来自于体内那颗星星，这颗星星具有难以想象的强大力量，有时候，人需要一些贪婪...
 
+advancements.levitated.nether.stargen.title=核电？爪巴！
+advancements.levitated.nether.stargen.description=重建下界生态会消耗大量的电，这台发电机或许能帮上大忙。
+
+advancements.levitated.nether.withermodel.title=量子§m速读§r模拟
+advancements.levitated.nether.withermodel.description=想要获得大量的下界之星可不简单，但方法总比困难多，深度知识模型就是方法之一。
+
+advancements.levitated.nether.alloy.title=高级合金
+advancements.levitated.nether.alloy.description=之后的机器会需要更多的合金，你最好着手于一台更快的合金炉。
+
+advancements.levitated.nether.blast_furnace.title=热量更高，速度更慢
+advancements.levitated.nether.blast_furnace.description=烈焰棒凭借自身永恒的燃烧，源源不断地向外界散发超高热量。凭借这种特性，你成功制作出高炉砖！虽然这种高炉砖质量不算太好，但搭出的高炉还是挺实用的。
+
+advancements.levitated.nether.compiron.title=压力山大
+advancements.levitated.nether.compiron.description=借着TNT的超强爆炸，钢锭能够被压缩成密度更大的材料。这种材料非常适合用来制作电路板。
+
+advancements.levitated.nether.chamber.title=加压，组装
+advancements.levitated.nether.chamber.description=总之，你需要用机器来印刷电路板。最理想的方法就是无尘环境中组装它们。
+
+advancements.levitated.nether.interface.title=比用手“掏”好
+advancements.levitated.nether.interface.description=厌倦了每次都要先破坏压力室才能拿到你的东西？试试压力室接口吧！
+
 # Resources
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
