@@ -5,7 +5,9 @@ setTranslatedDescription("advancements.levitated.nether.pcb_blueprint.descriptio
 
 addParent("triumph:levitated/nether/tablet")
 setShowToast(true)
-setPos(287,-42)
+setPos(248,-84)
+
+drawDirectLines()
 
 criteria = addCriteria("hasPCBBluprint", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:pcb_blueprint>)

@@ -5,7 +5,9 @@ setTranslatedDescription("advancements.levitated.nether.tablet.description")
 
 addParent("triumph:levitated/nether/plastic")
 setShowToast(true)
-setPos(244,-42)
+setPos(203,-84)
+
+drawDirectLines()
 
 criteria = addCriteria("hasTablet", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:amadron_tablet>)

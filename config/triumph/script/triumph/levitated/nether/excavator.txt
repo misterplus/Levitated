@@ -1,0 +1,14 @@
+Parser.addRequiredMod("immersiveengineering")
+setIcon(<immersiveengineering:coresample, nbt:{mineral:"Diamond"}>)
+
+setTranslatedTitle("advancements.levitated.nether.excavator.title")
+setTranslatedDescription("advancements.levitated.nether.excavator.description")
+
+addParent("triumph:levitated/nether/blast_furnace")
+setShowToast(true)
+setPos(87,-69)
+
+criteria = addCriteria("formed_excavator", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:ExcavatorDemo")
+
+visibleIf("triumph:levitated/nether/root")

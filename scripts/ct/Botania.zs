@@ -45,8 +45,9 @@ mods.botania.RuneAltar.addRecipe(<botania:rune:1> * 2,[<botania:manaresource:23>
 //Manapaper
 mods.botania.ManaInfusion.addInfusion(<contenttweaker:mana_paper>, <minecraft:paper>, 5000);
 
-//Elven trade for unlocking the nether
+//Elven trade for unlocking worlds
 mods.botania.ElvenTrade.addRecipe([<contenttweaker:nether_book>], [<minecraft:book>]);
+mods.botania.ElvenTrade.addRecipe([<contenttweaker:overworld_book>], [<contenttweaker:overworld_star>]);
 
 //Alternative natura pylon recipe
 recipes.addShaped(<botania:pylon:1>, [[null, <botania:manaresource:18>, null],[<botania:manaresource:18>, <botania:pylon>, <botania:manaresource:18>], [null, <extrautils2:ingredients:2>, null]]);

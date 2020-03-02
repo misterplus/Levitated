@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.nether.pcb.description")
 addParent("triumph:levitated/nether/pcb_blueprint")
 addParent("triumph:levitated/nether/empty_pcb")
 setShowToast(true)
-setPos(287,3)
+setPos(248,3)
 
 drawDirectLines()
 

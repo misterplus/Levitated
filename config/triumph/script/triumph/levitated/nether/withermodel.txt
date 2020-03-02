@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.withermodel.description"
 
 addParent("triumph:levitated/nether/stargen")
 setShowToast(true)
-setPos(124,51)
+setPos(414,77)
 
 criteria = addCriteria("hasWitherModel", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:data_model_wither>)

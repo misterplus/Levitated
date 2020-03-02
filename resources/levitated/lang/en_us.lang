@@ -209,6 +209,18 @@ advancements.levitated.nether.tablet.description=Some technology is just simply 
 advancements.levitated.nether.pcb.title=Micro Circuit
 advancements.levitated.nether.pcb.description=At this point, I'm pretty sure you can build a PCB on your own now, if not, you still have a manual to refer to.
 
+advancements.levitated.nether.excavator.title=Mass Excavate
+advancements.levitated.nether.excavator.description=The mineral deposits in the world right now are certainly not enough. You either have to make magic happen, or start digging deeper. Building a excavator would prove helpful.
+
+advancements.levitated.nether.induction.title=Heat Overload
+advancements.levitated.nether.induction.description=An Alloy Smelter is able to, well, create alloys. But certain alloys like Signalum and Lumium requires higher temperature to melt down. You'll need a Induction Smelter for that.
+
+advancements.levitated.nether.overworld_star.title=Reversing Reality
+advancements.levitated.nether.overworld_star.description=Remember those elves? They said they are willing to give you more information about the Overworld... If you have some kind of artifact that they are interested in. Clearly you have none, but this fake artifact that you forged with a Nether Star might just do the trick...
+
+advancements.levitated.nether.overworld_knowledge.title=Too Naive
+advancements.levitated.nether.overworld_knowledge.description=Ha! They fell for it! You indeed got a lot more info about the Overworld now. Good news is, building a portal to the Overworld is possible, even though the old Obsidian portal no longer works. Bad news is, you need to channel the power of rainbow to do it... But rainbow... in the End?
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.
