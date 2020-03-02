@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.interface.description")
 
 addParent("triumph:levitated/nether/chamber")
 setShowToast(true)
-setPos(161,3)
+setPos(161,-15)
 
 criteria = addCriteria("hasChamberInterface", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:pressure_chamber_interface>)

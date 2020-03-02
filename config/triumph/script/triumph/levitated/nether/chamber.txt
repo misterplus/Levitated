@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.nether.chamber.description")
 addParent("triumph:levitated/nether/compiron")
 addParent("triumph:levitated/nether/resonator")
 setShowToast(true)
-setPos(124,3)
+setPos(124,-15)
 
 criteria = addCriteria("hasChamber", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:pressure_chamber_wall>)
