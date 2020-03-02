@@ -1,2 +1,1 @@
 gamestage silentadd @p blaze_rod
-gamestage silentadd @p compiron
