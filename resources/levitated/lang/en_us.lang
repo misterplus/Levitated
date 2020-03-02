@@ -206,6 +206,9 @@ advancements.levitated.nether.plastic.description=Finally! A piece of plastic! D
 advancements.levitated.nether.tablet.title=Aminezon
 advancements.levitated.nether.tablet.description=Some technology is just simply unobtainable on this wasteland, so don't be afraid of spending your money! That is, if you have any.
 
+advancements.levitated.nether.pcb.title=Micro Circuit
+advancements.levitated.nether.pcb.description=
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.

@@ -3,9 +3,12 @@ setIcon(<pneumaticcraft:printed_circuit_board>)
 setTranslatedTitle("advancements.levitated.nether.pcb.title")
 setTranslatedDescription("advancements.levitated.nether.pcb.description")
 
-addParent("triumph:levitated/nether/chassis")
+addParent("triumph:levitated/nether/pcb_blueprint")
+addParent("triumph:levitated/nether/empty_pcb")
 setShowToast(true)
-setPos(381,-26)
+setPos(287,3)
+
+drawDirectLines()
 
 criteria = addCriteria("hasPCB", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:printed_circuit_board>)
