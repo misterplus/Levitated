@@ -1,13 +1,13 @@
-setIcon(<pneumaticcraft:printed_circuit_board>)
+setIcon(<enderio:block_alloy_smelter>)
 
-setTranslatedTitle("advancements.levitated.nether.pcb.title")
-setTranslatedDescription("advancements.levitated.nether.pcb.description")
+setTranslatedTitle("advancements.levitated.nether.alloy.title")
+setTranslatedDescription("advancements.levitated.nether.alloy.description")
 
 addParent("triumph:levitated/nether/chassis")
 setShowToast(true)
-setPos(381,-26)
+setPos(378,3)
 
-criteria = addCriteria("hasPCB", "minecraft:inventory_changed")
-criteria.addItem(<pneumaticcraft:printed_circuit_board>)
+criteria = addCriteria("hasSmelter", "minecraft:inventory_changed")
+criteria.addItem(<enderio:block_alloy_smelter>)
 
 visibleIf("triumph:levitated/nether/root")
