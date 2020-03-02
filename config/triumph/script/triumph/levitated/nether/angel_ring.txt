@@ -1,0 +1,13 @@
+setIcon(<extrautils2:angelring>)
+
+setTranslatedTitle("advancements.levitated.nether.angel_ring.title")
+setTranslatedDescription("advancements.levitated.nether.angel_ring.description")
+
+addParent("triumph:levitated/nether/shulker_ring")
+setShowToast(true)
+setPos(124,-96)
+
+criteria = addCriteria("hasAngelRing", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:angelring>)
+
+visibleIf("triumph:levitated/nether/root")

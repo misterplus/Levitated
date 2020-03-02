@@ -20,12 +20,12 @@ recipes.addShaped(<extrautils2:chickenring:1>, [[<ore:dyePurple>, <ore:gemDiamon
 recipes.replaceAllOccurences(<extrautils2:goldenlasso>.withTag({Animal: {id: "minecraft:bat"}, No_Place: 1 as byte}), <botania:flighttiara:*>);
 recipes.addShaped(<extrautils2:resonator>, [[<ore:ingotRedstoneAlloy>, <ore:blockCoal>, <ore:ingotRedstoneAlloy>],[<ore:ingotElectrum>, <ore:gemRedstone>, <ore:ingotElectrum>], [<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>]]);
 
-//scanner mod
+//Scanner mod
 var assembler = extrautilities2.Tweaker.IMachineRegistry.getMachine("assembler");
 assembler.addRecipe({"assembler_slot_item_0":<contenttweaker:biome_scanner_basic>, "assembler_slot_item_1": <minecraft:map>, "assembler_slot_item_2": <extrautils2:biomemarker>.withTag({Biome: "minecraft:hell"}), "assembler_slot_liquid": <liquid:solder> * 1000},{"assembler_slot_out": <scanner:biome_scanner_basic>}, 100000, 1200);
 assembler.addRecipe({"assembler_slot_item_0":<contenttweaker:terrain_scanner>, "assembler_slot_item_1": <minecraft:map>, "assembler_slot_item_2": <buildinggadgets:buildingtool>, "assembler_slot_liquid": <liquid:solder> * 1000},{"assembler_slot_out": <scanner:terrain_scanner>}, 100000, 1200);
 recipes.addShaped(<contenttweaker:terrain_scanner>, [[<ore:ingotDarkSteel>, <contenttweaker:ccb>, <ore:ingotDarkSteel>],[<enderio:item_basic_capacitor>, <extrautils2:machine>, <enderio:item_basic_capacitor>], [<ore:ingotDarkSteel>, <ore:wireCopper>, <ore:ingotDarkSteel>]]);
 recipes.addShaped(<contenttweaker:biome_scanner_basic>, [[<ore:ingotEndSteel>, <contenttweaker:ccb>, <ore:ingotEndSteel>],[<ore:wireCopper>, <extrautils2:machine>, <ore:wireCopper>], [<ore:ingotEndSteel>, <enderio:item_basic_capacitor>, <ore:ingotEndSteel>]]);
 
-//pcb
+//PCB
 assembler.addRecipe({"assembler_slot_item_0":<pneumaticcraft:unassembled_pcb>, "assembler_slot_item_1": <pneumaticcraft:transistor> * 3, "assembler_slot_item_2": <pneumaticcraft:capacitor> * 3, "assembler_slot_liquid": <liquid:solder> * 1000},{"assembler_slot_out": <pneumaticcraft:printed_circuit_board>}, 10000, 200);

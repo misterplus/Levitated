@@ -1,0 +1,13 @@
+setIcon(<oeintegration:excavatemodifier>)
+
+setTranslatedTitle("advancements.levitated.nether.veinmine.title")
+setTranslatedDescription("advancements.levitated.nether.veinmine.description")
+
+addParent("triumph:levitated/nether/induction")
+setShowToast(true)
+setPos(372,-15)
+
+criteria = addCriteria("hasModifier", "minecraft:inventory_changed")
+criteria.addItem(<oeintegration:excavatemodifier>)
+
+visibleIf("triumph:levitated/nether/root")

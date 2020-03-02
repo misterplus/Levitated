@@ -92,7 +92,6 @@ var nether_ores = [<ore:oreQuartz>, <ore:oreArdite>, <ore:oreCobalt>] as IOreDic
 for ore in nether_ores {
     mods.botania.OrechidIgnem.removeOre(ore);
 }
-
 <ore:oreNetherQuartz>.addItems([<minecraft:quartz_ore>]);
 <ore:oreNetherAluminum>.addItems([<netherendingores:ore_nether_modded_1:0>]);
 <ore:oreNetherNickel>.addItems([<netherendingores:ore_nether_modded_1:5>]);
@@ -111,3 +110,8 @@ mods.botania.OrechidIgnem.addOre(<ore:oreNetherChargedCertusQuartz>, 4500);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherUranium>, 1337);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherCobalt>, 2275);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherArdite>, 2275);
+
+//Skulls
+mods.botania.RuneAltar.addRecipe(<minecraft:skull:2>, [<minecraft:skull:1>, <ore:elvenPixieDust>, <ore:gemPrismarine>, <minecraft:rotten_flesh>, <minecraft:golden_apple>], 22500);
+mods.botania.RuneAltar.addRecipe(<minecraft:skull:0>, [<minecraft:skull:1>, <ore:elvenPixieDust>, <ore:gemPrismarine>, <ore:bone>, <minecraft:golden_apple>], 22500);
+mods.botania.RuneAltar.addRecipe(<minecraft:skull:4>, [<minecraft:skull:1>, <ore:elvenPixieDust>, <ore:gemPrismarine>, <ore:gunpowder>, <minecraft:golden_apple>], 22500);

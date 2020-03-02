@@ -227,6 +227,15 @@ advancements.levitated.nether.rainbowgen.description=Well, after days of searchi
 advancements.levitated.nether.rainbow_ingot.title=Rainbow in a Box
 advancements.levitated.nether.rainbow_ingot.description=By covering Uranium ingots with Rainbow Stones, a new material was born! Build a portal out of it and light it up with a Rod of the Bifrost! And it's time to go home!
 
+advancements.levitated.nether.veinmine.title=Manual Excavation
+advancements.levitated.nether.veinmine.description=If you are still mining by hand, then consider crafting this upgrade for your pickaxe! It's gonna make finding ores in the Nether much easier!
+
+advancements.levitated.nether.shulker_ring.title=Free Floating
+advancements.levitated.nether.shulker_ring.description=Infusing the Chicken Wing Ring with a soul of shulker will grant it the ability to let you fly! Well... sort of.
+
+advancements.levitated.nether.angel_ring.title=Holy Wings
+advancements.levitated.nether.angel_ring.description=It is technically possible to improve the Shulker Ring a bit more, but to do so requires slaying an ancient being, the Gaia Guardian. You might not wanna do that...
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.
