@@ -185,6 +185,42 @@ advancements.levitated.nether.chamber.description=总之，你需要用机器来
 advancements.levitated.nether.interface.title=比用手“掏”好
 advancements.levitated.nether.interface.description=厌倦了每次都要先破坏压力室才能拿到你的东西？试试压力室接口吧！
 
+advancements.levitated.nether.empty_pcb.title=Pretty Clean Board（PCB）
+advancements.levitated.nether.empty_pcb.description=要制作电路板，你需要先制作一个空印刷电路板。
+
+advancements.levitated.nether.pcb_blueprint.title=光能印刷
+advancements.levitated.nether.pcb_blueprint.description=你需要印刷电路板蓝图才能制作一个能工作的电路板。还好，你会网购，是吧？
+
+advancements.levitated.nether.oil.title=黑色的金子
+advancements.levitated.nether.oil.description=为了制作电路板，你需要生产一些塑料。首先，你需要采到一些石油，当然，你不能用手捞，先搭一个采油机——吧。
+
+advancements.levitated.nether.refinery.title=肝帝都是着重效率的
+advancements.levitated.nether.refinery.description=直接燃烧石油非常浪费！你需要先从石油中分馏出其他有用的物质。
+
+advancements.levitated.nether.lpg.title=高品质，放心用
+advancements.levitated.nether.lpg.description=液化石油气是一种非常高效的燃料。并且也是制作液态塑料的必需品。
+
+advancements.levitated.nether.plastic.title=环境不太友好
+advancements.levitated.nether.plastic.description=你终于获得了一片塑料！不要忘记在它干燥之前染上色。
+
+advancements.levitated.nether.tablet.title=只要998，把爱带回家！
+advancements.levitated.nether.tablet.description=在这片废土上，一些技术你无法达到，所以不要吝啬自己的钱！啊~如果你有的话^^
+
+advancements.levitated.nether.pcb.title=微型电路
+advancements.levitated.nether.pcb.description=现在，我很确信你能够自己做一个电路板了。如果还有什么不懂的，不用担心，你还有一本书可以参考。
+
+advancements.levitated.nether.excavator.title=巨量矿藏
+advancements.levitated.nether.excavator.description=现在，世界中的矿物肯定不够你使用的了。物理方法没用了，你需要寻找一种“魔法”的方法，或者往更深处挖掘。也许斗轮式挖掘机能够帮上大忙。
+
+advancements.levitated.nether.induction.title=警告警告，过热！
+advancements.levitated.nether.induction.description=合金炉能..emm制作合金。但是某些合金，比如信素和流明需要更高的温度。你需要用感应炉来制作它们。
+
+advancements.levitated.nether.overworld_star.title=偷天换日
+advancements.levitated.nether.overworld_star.description=还记得那些精灵吗？它们说，它们愿意给你提供一些关于主世界的信息，但是需要一些它们感兴趣的古物。很显然，你没有。但这个用下界之星锻造成的假古物或许能蒙混过关...
+
+advancements.levitated.nether.overworld_knowledge.title=这只是善意的谎言
+advancements.levitated.nether.overworld_knowledge.description=哈哈！它们竟然非常喜欢！你获得了大量关于主世界的信息，好消息是，你可以通过搭建传送门前往主世界，但显然不是之前的黑曜石传送门。坏消息是，你需要借助彩虹的力量才能搭建传送门...但在末地或下界...找到彩虹？
+
 # Resources
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
