@@ -12,3 +12,4 @@ mods.tconstruct.Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
 
 //add
 recipes.addShaped(<oeintegration:excavatemodifier>, [[<ore:ingotLumium>, <ore:slimeball>, <ore:ingotSignalum>],[<ore:ingotRedstoneAlloy>, <ore:ingotManyullyn>, <ore:ingotRedstoneAlloy>], [<ore:ingotSignalum>, <ore:slimeball>, <ore:ingotLumium>]]);
+mods.tconstruct.Alloy.addRecipe(<liquid:solder> * 125, [<liquid:tin> * 36, <liquid:lead> * 36]);
