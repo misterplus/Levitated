@@ -13,8 +13,6 @@
 !/config/incontrol
 !/config/Netherending Ores.cfg
 !/config/cofh
-/config/cofh/*
-!/config/cofh/world
 !/config/wizardry
 !/mod_list_manual.txt
 !/manifest.json
@@ -28,8 +26,6 @@
 !/config/reccomplex.cfg
 !/config/dimensionalcontrol
 !/config/toastcontrol.cfg
-!/config/cofh/thermalfoundation
 !/config/tombstone.cfg
-!/config/cofh/thermalexpansion
 !/config/immersiveengineering.cfg
 !/config/immersivepetroleum.cfg

@@ -47,3 +47,11 @@ end_trim.blockHardness = 5.0;
 end_trim.toolClass = "axe";
 end_trim.toolLevel = 0;
 end_trim.register();
+
+var rainbow_block = VanillaFactory.createBlock("rainbow_block", <blockmaterial:rock>);
+rainbow_block.blockSoundType = <soundtype:stone>;
+rainbow_block.blockHardness = 100.0;
+rainbow_block.blockResistance = 12000.0;
+rainbow_block.toolClass = "pickaxe";
+rainbow_block.toolLevel = 4;
+rainbow_block.register();
