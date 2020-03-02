@@ -8,5 +8,4 @@ setShowToast(true)
 setPos(-23,6)
 
 addCriteria("location", "minecraft:location")
-setRewardFunction("triumph:set_spawn")
-setRewardItem(<contenttweaker:origin_book>)
+setRewardFunction("triumph:end")

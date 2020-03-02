@@ -221,6 +221,9 @@ advancements.levitated.nether.overworld_star.description=Remember those elves? T
 advancements.levitated.nether.overworld_knowledge.title=Too Naive
 advancements.levitated.nether.overworld_knowledge.description=Ha! They fell for it! You indeed got a lot more info about the Overworld now. Good news is, building a portal to the Overworld is possible, even though the old Obsidian portal no longer works. Bad news is, you need to channel the power of rainbow to do it... But rainbow... in the End?
 
+advancements.levitated.nether.rainbowgen.title=Rainbow Seven Siege
+advancements.levitated.nether.rainbowgen.description=Well, after days of searching, you finally found it. But getting this thing working is not easy at all... Sure you can do it manually, but setting up automations will save you a lot of trouble.
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.
@@ -273,6 +276,7 @@ tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.
 tooltips.levitated.nether_book=Right click to gain some information about the Nether.
 tooltips.levitated.nether_book_2=ISN'T IT A BOOK? WHY IS IT ROUND!
+tooltips.levitated.overworld_book=Right click to gain some information about the Overworld.
 tooltips.levitated.paper_plane_0=Unfold the paper and fold each of the top corners into the center line.
 tooltips.levitated.paper_plane_1=Fold the top part down.
 tooltips.levitated.paper_plane_2=Fold each of the top corners into the center line.

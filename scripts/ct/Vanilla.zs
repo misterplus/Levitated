@@ -1,6 +1,10 @@
-//add
-
 //remove
+recipes.remove(<minecraft:crafting_table>);
+
+//add
+recipes.replaceAllOccurences(<ore:cobblestone>, <ore:endstone>, <minecraft:dispenser>);
+recipes.replaceAllOccurences(<ore:cobblestone>, <ore:endstone>, <minecraft:dropper>);
+recipes.replaceAllOccurences(<ore:cobblestone>, <ore:endstone>, <minecraft:furnace>);
 recipes.addShaped(<minecraft:end_crystal>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],[<ore:blockGlassColorless>, <botania:manaresource:1>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <deepmoblearning:living_matter_extraterrestrial>, <ore:blockGlassColorless>]]);
 recipes.addShaped(<minecraft:furnace>, [[<minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>],[<minecraft:end_stone>, null, <minecraft:end_stone>], [<minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>]]);
 recipes.addShapeless(<minecraft:crafting_table>, [<ore:plankWood>,<ore:plankWood>,<minecraft:end_bricks>,<minecraft:end_bricks>]);

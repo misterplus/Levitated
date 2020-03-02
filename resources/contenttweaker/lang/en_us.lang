@@ -5,7 +5,7 @@ item.contenttweaker.end_seeds.name=End Seeds
 item.contenttweaker.end_iron_chunk.name=End Infused Iron Chunk
 item.contenttweaker.origin_book.name=Tome of Origin
 item.contenttweaker.nether_book.name=Tome of The Under Realm
-item.contenttweaker.overworld_book.name=Tome of Life
+item.contenttweaker.overworld_book.name=Orb of Life
 item.contenttweaker.clay_board.name=Clay Board
 item.contenttweaker.ccb_base.name=CCB (Ceramic Circuit Board) Base
 item.contenttweaker.pottery_clay.name=Pottery Clay
@@ -26,6 +26,7 @@ item.contenttweaker.mana_paper.name=Paper
 item.contenttweaker.rotten_pork.name=Rotten Pork
 item.contenttweaker.dynamo_frame.name=Dynamo Frame
 item.contenttweaker.overworld_star.name=Overworld Star
+item.contenttweaker.rainbow_ingot.name=Rainbow Ingot
 
 item.contenttweaker.origin_book.message=Spawn Point Set!
 item.contenttweaker.nether_book.message=You can now travel to the Nether!

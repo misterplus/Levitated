@@ -9,6 +9,7 @@ for mineral in minerals {
 
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:165>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:166>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
 
 //add
 //The End

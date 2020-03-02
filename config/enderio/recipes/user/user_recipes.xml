@@ -78,4 +78,18 @@
       <output name="ingotSteel" />
     </alloying>
   </recipe>
+  <recipe name="Enhanced Chassis" disabled="true">
+    <alloying energy="3600" exp="1">
+      <input name="END_STEEL_CHASSIS" />
+      <input name="dyeEnhancedMachine" />
+      <output name="ENHANCED_CHASSIS" />
+    </alloying>
+  </recipe>
+  <recipe name="Soul Chassis" disabled="true">
+    <alloying energy="3600" exp="1">
+      <input name="SIMPLE_CHASSIS" />
+      <input name="dyeSoulMachine" />
+      <output name="SOUL_CHASSIS" />
+    </alloying>
+  </recipe>
 </enderio:recipes>

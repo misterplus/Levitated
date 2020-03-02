@@ -136,3 +136,7 @@ overworld_book.register();
 var overworld_star = VanillaFactory.createItem("overworld_star");
 overworld_star.glowing = true;
 overworld_star.register();
+
+var rainbow_ingot = VanillaFactory.createItem("rainbow_ingot");
+rainbow_ingot.glowing = true;
+rainbow_ingot.register();
