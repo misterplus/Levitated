@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.star.description")
 
 addParent("triumph:levitated/nether/wither_skeleton")
 setShowToast(true)
-setPos(49,56)
+setPos(49,51)
 
 criteria = addCriteria("hasNetherStar", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:nether_star>)

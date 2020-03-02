@@ -185,8 +185,26 @@ advancements.levitated.nether.chamber.description=You need machines to print cir
 advancements.levitated.nether.interface.title=Smart Window
 advancements.levitated.nether.interface.description=Tired of breaking the chamber just to get your items? Then this Chamber Interface is just the right block for you!
 
-advancements.levitated.nether.pcb.title=
-advancements.levitated.nether.pcb.description=
+advancements.levitated.nether.empty_pcb.title=Pretty Clean Board
+advancements.levitated.nether.empty_pcb.description=To make a PCB, you gotta start with an empty one.
+
+advancements.levitated.nether.pcb_blueprint.title=Printing with Light
+advancements.levitated.nether.pcb_blueprint.description=To make a functional PCB, you'll need a PCB Blueprint. Luckily, you can buy one online.
+
+advancements.levitated.nether.oil.title=Black Gold
+advancements.levitated.nether.oil.description=In order to produce plastic for PCBs, you have to get some oil first. Building a Pumpjack shoule help you out.
+
+advancements.levitated.nether.refinery.title=Efficiency at its Finest
+advancements.levitated.nether.refinery.description=Simply burning your oil is a huge waste! Besides, you need to seperate other substances away from oil in order to make use of them.
+
+advancements.levitated.nether.lpg.title=Quaity Fuel
+advancements.levitated.nether.lpg.description=LPG is a efficient fuel, and also a necessity for producing liquid plastic.
+
+advancements.levitated.nether.plastic.title=Environmental Unfriendly
+advancements.levitated.nether.plastic.description=Finally! A piece of plastic! Don't forget to dye it before drying.
+
+advancements.levitated.nether.tablet.title=Aminezon
+advancements.levitated.nether.tablet.description=Some technology is just simply unobtainable on this wasteland, so don't be afraid of spending your money! That is, if you have any.
 
 # Resources
 advancements.levitated.resources.root.title=Ore Resources

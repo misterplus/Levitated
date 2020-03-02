@@ -1,0 +1,13 @@
+setIcon(<pneumaticcraft:empty_pcb>)
+
+setTranslatedTitle("advancements.levitated.nether.empty_pcb.title")
+setTranslatedDescription("advancements.levitated.nether.empty_pcb.description")
+
+addParent("triumph:levitated/nether/interface")
+setShowToast(true)
+setPos(203,3)
+
+criteria = addCriteria("hasEmptyPCB", "minecraft:inventory_changed")
+criteria.addItem(<pneumaticcraft:empty_pcb>)
+
+visibleIf("triumph:levitated/nether/root")

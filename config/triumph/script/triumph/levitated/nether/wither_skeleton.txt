@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.wither_skeleton.descript
 
 addParent("triumph:levitated/nether/root")
 setShowToast(true)
-setPos(12,56)
+setPos(12,51)
 
 criteria = addCriteria("killWitherSkl", "minecraft:player_killed_entity")
 criteria.setEntityType("minecraft:wither_skeleton")

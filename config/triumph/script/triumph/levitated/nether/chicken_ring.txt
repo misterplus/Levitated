@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.chicken_ring.description
 
 addParent("triumph:levitated/nether/altar")
 setShowToast(true)
-setPos(49,-42)
+setPos(49,-88)
 
 criteria = addCriteria("hasChickenring", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:chickenring>)

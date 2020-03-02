@@ -1,0 +1,13 @@
+setIcon(<pneumaticcraft:refinery>)
+
+setTranslatedTitle("advancements.levitated.nether.refinery.title")
+setTranslatedDescription("advancements.levitated.nether.refinery.description")
+
+addParent("triumph:levitated/nether/oil")
+setShowToast(true)
+setPos(124,-42)
+
+criteria = addCriteria("hasRefinery", "minecraft:inventory_changed")
+criteria.addItem(<pneumaticcraft:refinery>)
+
+visibleIf("triumph:levitated/nether/root")
