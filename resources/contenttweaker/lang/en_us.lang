@@ -1,7 +1,7 @@
 tile.contenttweaker.end_iron.name=End Infused Iron Ore
 tile.contenttweaker.glitched_obsidian.name=Glitched Obsidian
 tile.contenttweaker.end_trim.name=Wyrmwood Trim
-tile.contenttweaker.rainbow_block=Rainbow Block
+tile.contenttweaker.rainbow_block.name=Rainbow Block
 
 item.contenttweaker.end_seeds.name=End Seeds
 item.contenttweaker.end_iron_chunk.name=End Infused Iron Chunk

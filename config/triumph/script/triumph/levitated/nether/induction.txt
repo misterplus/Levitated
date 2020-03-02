@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.induction.description")
 
 addParent("triumph:levitated/nether/chassis")
 setShowToast(true)
-setPos(330,12)
+setPos(330,-15)
 
 criteria = addCriteria("hasInductionSmelter", "minecraft:inventory_changed")
 criteria.addItem(<thermalexpansion:machine:3>)

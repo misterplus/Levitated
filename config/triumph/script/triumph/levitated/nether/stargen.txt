@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.stargen.description")
 
 addParent("triumph:levitated/nether/star")
 setShowToast(true)
-setPos(372,60)
+setPos(372,39)
 
 criteria = addCriteria("hasStargen", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:machine, nbt:{Type:"extrautils2:generator_netherstar"}>)
