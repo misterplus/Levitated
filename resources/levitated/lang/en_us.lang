@@ -224,6 +224,9 @@ advancements.levitated.nether.overworld_knowledge.description=Ha! They fell for 
 advancements.levitated.nether.rainbowgen.title=Rainbow Seven Siege
 advancements.levitated.nether.rainbowgen.description=Well, after days of searching, you finally found it. But getting this thing working is not easy at all... Sure you can do it manually, but setting up automations will save you a lot of trouble.
 
+advancements.levitated.nether.rainbow_ingot.title=Rainbow in a Box
+advancements.levitated.nether.rainbow_ingot.description=By covering Uranium ingots with Rainbow Stones, a new material was born! Build a portal out of it and light it up with a Rod of the Bifrost! And it's time to go home!
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.
