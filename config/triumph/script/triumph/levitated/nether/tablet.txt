@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.tablet.description")
 
 addParent("triumph:levitated/nether/plastic")
 setShowToast(true)
-setPos(203,-84)
+setPos(202,-84)
 
 drawDirectLines()
 

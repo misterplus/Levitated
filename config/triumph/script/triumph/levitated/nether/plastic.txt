@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.plastic.description")
 
 addParent("triumph:levitated/nether/lpg")
 setShowToast(true)
-setPos(203,-42)
+setPos(202,-42)
 
 criteria = addCriteria("hasPlasticMixer", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:plastic_mixer>)
