@@ -11,6 +11,6 @@ setPos(982,-7)
 criteria = addCriteria("hasNetherrack", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:netherrack>)
 
-setRewardFunction("triumph:nether")
+setRewardFunction("triumph:blaze_rod")
 
 visibleIf("triumph:levitated/end/root")

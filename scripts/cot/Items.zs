@@ -39,7 +39,6 @@ origin_book.register();
 var nether_book = VanillaFactory.createItem("nether_book");
 nether_book.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote & !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player)) {
-        Commands.call("gamestage silentadd @p nether", player, world, false, true);
         Commands.call("tellraw @p {\"translate\":\"item.contenttweaker.nether_book.message\"}", player, world, false, true);
         stack.shrink(1);
         return "SUCCESS";
@@ -124,7 +123,6 @@ rotten_pork.register();
 var overworld_book = VanillaFactory.createItem("overworld_book");
 overworld_book.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote & !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player)) {
-        Commands.call("gamestage silentadd @p overworld", player, world, false, true);
         Commands.call("tellraw @p {\"translate\":\"item.contenttweaker.overworld_book.message\"}", player, world, false, true);
         stack.shrink(1);
         return "SUCCESS";
