@@ -236,6 +236,9 @@ advancements.levitated.nether.shulker_ring.description=将潜影贝的灵魂注�
 advancements.levitated.nether.angel_ring.title=挥着翅膀的史蒂夫
 advancements.levitated.nether.angel_ring.description=从技术层面上讲，改进潜影贝漂浮指环是有可能的。但想要实现，你需要击杀一个远古生物，盖亚守护者。你也许并不想这样做...
 
+advancements.levitated.nether.press.title=外星科技？
+advancements.levitated.nether.press.description=现在有一些特殊的压印模板在售，你需要购买一些来为之后的数字化存储做准备。
+
 # Resources
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
