@@ -28,7 +28,7 @@ var origin_book = VanillaFactory.createItem("origin_book");
 origin_book.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote & !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player)) {
         Commands.call("spawnpoint @p", player, world, false, true);
-        player.sendChat(game.localize("item.contenttweaker.origin_book.message"));
+        Commands.call("tellraw @p {\"translate\":\"item.contenttweaker.origin_book.message\"}", player, world, false, true);
         stack.shrink(1);
         return "SUCCESS";
     }
@@ -40,7 +40,7 @@ var nether_book = VanillaFactory.createItem("nether_book");
 nether_book.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote & !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player)) {
         Commands.call("gamestage silentadd @p nether", player, world, false, true);
-        player.sendChat(game.localize("item.contenttweaker.nether_book.message"));
+        Commands.call("tellraw @p {\"translate\":\"item.contenttweaker.nether_book.message\"}", player, world, false, true);
         stack.shrink(1);
         return "SUCCESS";
     }
@@ -125,7 +125,7 @@ var overworld_book = VanillaFactory.createItem("overworld_book");
 overworld_book.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote & !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player)) {
         Commands.call("gamestage silentadd @p overworld", player, world, false, true);
-        player.sendChat(game.localize("item.contenttweaker.overworld_book.message"));
+        Commands.call("tellraw @p {\"translate\":\"item.contenttweaker.overworld_book.message\"}", player, world, false, true);
         stack.shrink(1);
         return "SUCCESS";
     }
