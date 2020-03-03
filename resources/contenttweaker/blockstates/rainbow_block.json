@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/rainbow_block",
-      "particle": "contenttweaker:blocks/rainbow_block"
+      "top": "contenttweaker:blocks/rainbow_block",
+      "bot": "contenttweaker:blocks/rainbow_block"
     },
-    "model": "base:storage",
+    "model": "chisel:lavastone/cube_lava",
     "uvlock": true,
     "transform": "forge:default-block"
   },

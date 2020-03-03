@@ -236,6 +236,9 @@ advancements.levitated.nether.shulker_ring.description=Infusing the Chicken Wing
 advancements.levitated.nether.angel_ring.title=Holy Wings
 advancements.levitated.nether.angel_ring.description=It is technically possible to improve the Shulker Ring a bit more, but to do so requires slaying an ancient being, the Gaia Guardian. You might not wanna do that...
 
+advancements.levitated.nether.press.title=Press Your Luck
+advancements.levitated.nether.press.description=There are some special presses on sale right now, you might need these for setting up digital storage.
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.
