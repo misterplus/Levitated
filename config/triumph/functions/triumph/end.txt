@@ -1,3 +1,4 @@
 spreadplayers 0 0 1500 3000 false @p
+spawnpoint @p
 give @p contenttweaker:origin_book 1
 give @p minecraft:ender_pearl 16
