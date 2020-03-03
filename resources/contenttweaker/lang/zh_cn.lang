@@ -1,6 +1,8 @@
 tile.contenttweaker.end_iron.name=聚影铁矿
 tile.contenttweaker.glitched_obsidian.name=故障黑曜石
 tile.contenttweaker.end_trim.name=龙木桥接方块
+tile.contenttweaker.rainbow_block.name=彩虹块
+
 item.contenttweaker.end_seeds.name=终末种子
 item.contenttweaker.end_iron_chunk.name=聚影铁碎块
 item.contenttweaker.origin_book.name=元始秘典
@@ -26,6 +28,7 @@ item.contenttweaker.mana_paper.name=纸
 item.contenttweaker.rotten_pork.name=腐烂的猪肉
 item.contenttweaker.dynamo_frame.name=能源炉框架
 item.contenttweaker.overworld_star.name=主世界之星
+item.contenttweaker.rainbow_ingot.name=彩虹锭
 
 item.contenttweaker.origin_book.message=重生点已设置!
 item.contenttweaker.nether_book.message=你现在可以前往地狱了!
