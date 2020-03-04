@@ -18,7 +18,7 @@ recipes.addShaped(<extrautils2:machine>, [[<extrautils2:unstableingots>, <deepmo
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "crafttweaker:assembler"}), [[<enderio:item_alloy_ingot:6>, <contenttweaker:ccb>, <enderio:item_alloy_ingot:6>],[<immersiveengineering:material:20>, <extrautils2:machine>, <immersiveengineering:material:20>], [<enderio:item_alloy_ingot:6>, <enderio:item_basic_capacitor>, <enderio:item_alloy_ingot:6>]]);
 recipes.addShaped(<extrautils2:chickenring:1>, [[<ore:dyePurple>, <ore:gemDiamond>, <ore:dyePurple>],[<extrautils2:goldenlasso:1>.withTag({Animal: {id: "minecraft:shulker"}}).transformReplace(<extrautils2:goldenlasso:1>), <extrautils2:chickenring>, <ore:enderpearl>], [<ore:dyePurple>, <ore:gemDiamond>, <ore:dyePurple>]]);
 recipes.replaceAllOccurences(<extrautils2:goldenlasso>.withTag({Animal: {id: "minecraft:bat"}, No_Place: 1 as byte}), <botania:flighttiara:*>);
-recipes.addShaped(<extrautils2:resonator>, [[<ore:ingotRedstoneAlloy>, <ore:blockCoal>, <ore:ingotRedstoneAlloy>],[<ore:ingotElectrum>, <ore:gemRedstone>, <ore:ingotElectrum>], [<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>]]);
+recipes.addShaped(<extrautils2:resonator>, [[<ore:ingotRedstoneAlloy>, <ore:blockMagma>, <ore:ingotRedstoneAlloy>],[<ore:ingotElectrum>, <ore:gemRedstone>, <ore:ingotElectrum>], [<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>]]);
 
 //Scanner mod
 var assembler = extrautilities2.Tweaker.IMachineRegistry.getMachine("assembler");

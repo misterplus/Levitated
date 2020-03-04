@@ -1,4 +1,4 @@
-#priority 7
+#priority 6
 import mods.immersiveengineering.Excavator.addMineral;
 
 //remove
@@ -6,7 +6,6 @@ var minerals = ["Silt", "Lapis", "Galena", "Silver", "Bauxite", "Copper", "Urani
 for mineral in minerals {
     mods.immersiveengineering.Excavator.removeMineral(mineral);
 }
-
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:165>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:166>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
