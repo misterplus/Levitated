@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.nether_knowledge.descriptio
 
 addParent("triumph:levitated/end/natura_pylon")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(678,6)
 
 criteria = addCriteria("useNetherBook", "triumph:right_click_item")

@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.nether_portal.description")
 
 addParent("triumph:levitated/end/glitched_oby")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(938,27)
 
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")

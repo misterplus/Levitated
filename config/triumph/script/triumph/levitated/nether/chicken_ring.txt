@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.chicken_ring.description
 
 addParent("triumph:levitated/nether/altar")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(49,-96)
 
 criteria = addCriteria("hasChickenring", "minecraft:inventory_changed")

@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.sag_mill.description")
 
 addParent("triumph:levitated/end/stirling_gen")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(783,-18)
 
 criteria = addCriteria("hasSagMill", "minecraft:inventory_changed")

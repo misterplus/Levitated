@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.alloy_smelter.description")
 
 addParent("triumph:levitated/end/sag_mill")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(822,-18)
 
 criteria = addCriteria("hasAlloySmelter", "minecraft:inventory_changed")

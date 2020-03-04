@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.natura_pylon.description")
 
 addParent("triumph:levitated/end/terrasteel")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(640,6)
 
 criteria = addCriteria("hasNaturaPylon", "minecraft:inventory_changed")

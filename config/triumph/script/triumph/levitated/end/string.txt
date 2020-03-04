@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.string.description")
 
 addParent("triumph:levitated/end/grass_seeds")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(523,-34)
 
 criteria = addCriteria("hasString", "minecraft:inventory_changed")

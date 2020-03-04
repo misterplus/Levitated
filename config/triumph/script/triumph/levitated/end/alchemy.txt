@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.alchemy.description")
 
 addParent("triumph:levitated/end/alfheim")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(444,6)
 
 criteria = addCriteria("hasAlchemy", "minecraft:inventory_changed")

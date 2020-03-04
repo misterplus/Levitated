@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.resources.nether_ardite.descrip
 
 addParent("triumph:levitated/resources/root")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(194,-136)
 hideLines()
 

@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.scanner.description")
 
 addParent("triumph:levitated/end/solder")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(938,-40)
 
 criteria = addCriteria("hasScanners", "minecraft:inventory_changed")

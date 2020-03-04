@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.chorus_fruit.description")
 
 addParent("triumph:levitated/end/root")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(21,-34)
 
 criteria = addCriteria("chorus_consumed", "minecraft:consume_item")

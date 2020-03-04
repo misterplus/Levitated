@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.rainbow_ingot.descriptio
 
 addParent("triumph:levitated/nether/rainbowgen")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(454,-15)
 
 criteria = addCriteria("hasRainbowIngot", "minecraft:inventory_changed")

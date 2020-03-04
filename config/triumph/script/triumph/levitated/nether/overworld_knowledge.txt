@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.overworld_knowledge.desc
 
 addParent("triumph:levitated/nether/overworld_star")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(414,12)
 
 criteria = addCriteria("useOverworldBook", "triumph:right_click_item")

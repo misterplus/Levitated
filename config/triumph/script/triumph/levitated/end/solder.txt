@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.solder.description")
 
 addParent("triumph:levitated/end/assembler")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(900,-40)
 
 criteria = addCriteria("hasSolderBucket", "minecraft:inventory_changed")

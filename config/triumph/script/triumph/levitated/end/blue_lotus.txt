@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.blue_lotus.description")
 
 addParent("triumph:levitated/end/liquid_mana")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(229,-34)
 drawDirectLines()
 

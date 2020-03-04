@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.pcb_blueprint.descriptio
 
 addParent("triumph:levitated/nether/tablet")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(245,-69)
 
 drawDirectLines()

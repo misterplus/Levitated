@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.deep_learner.description")
 
 addParent("triumph:levitated/end/stirling_gen")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(783,27)
 
 criteria = addCriteria("hasLearner", "minecraft:inventory_changed")

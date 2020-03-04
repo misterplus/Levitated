@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.withermodel.description"
 
 addParent("triumph:levitated/nether/stargen")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(414,39)
 
 criteria = addCriteria("hasWitherModel", "minecraft:inventory_changed")

@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.empty_pcb.description")
 
 addParent("triumph:levitated/nether/interface")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(202,-15)
 
 criteria = addCriteria("hasEmptyPCB", "minecraft:inventory_changed")

@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.chassis.description")
 
 addParent("triumph:levitated/nether/pcb")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(287,-15)
 
 criteria = addCriteria("hasChassis", "minecraft:inventory_changed")

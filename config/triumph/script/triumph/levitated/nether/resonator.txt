@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.resonator.description")
 
 addParent("triumph:levitated/nether/root")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(87,12)
 
 criteria = addCriteria("hasResonator", "minecraft:inventory_changed")

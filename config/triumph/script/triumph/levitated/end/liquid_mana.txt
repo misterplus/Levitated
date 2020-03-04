@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.liquid_mana.description")
 
 addParent("triumph:levitated/end/mana_pool")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(229,6)
 
 criteria = addCriteria("hasManaBucket", "minecraft:inventory_changed")

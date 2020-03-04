@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.induction.description")
 
 addParent("triumph:levitated/nether/chassis")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(330,-15)
 
 criteria = addCriteria("hasInductionSmelter", "minecraft:inventory_changed")

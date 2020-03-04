@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.shulker_ring.description
 
 addParent("triumph:levitated/nether/chicken_ring")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(87,-96)
 
 criteria = addCriteria("hasShulkerring", "minecraft:inventory_changed")

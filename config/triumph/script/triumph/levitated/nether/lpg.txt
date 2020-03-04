@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.lpg.description")
 
 addParent("triumph:levitated/nether/refinery")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(161,-42)
 
 criteria = addCriteria("hasLPG", "minecraft:inventory_changed")

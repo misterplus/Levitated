@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.plastic.description")
 
 addParent("triumph:levitated/nether/lpg")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(202,-42)
 
 criteria = addCriteria("hasPlasticMixer", "minecraft:inventory_changed")

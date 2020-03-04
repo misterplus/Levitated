@@ -6,6 +6,7 @@ setTranslatedDescription("advancements.levitated.nether.excavator.description")
 
 addParent("triumph:levitated/nether/blast_furnace")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(87,-69)
 
 criteria = addCriteria("formed_excavator", "immersiveengineering:multiblock_formed")

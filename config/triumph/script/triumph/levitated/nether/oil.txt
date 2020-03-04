@@ -6,6 +6,7 @@ setTranslatedDescription("advancements.levitated.nether.oil.description")
 
 addParent("triumph:levitated/nether/blast_furnace")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(87,-42)
 
 criteria = addCriteria("formed_pumpjack", "immersiveengineering:multiblock_formed")
