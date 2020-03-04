@@ -57,6 +57,7 @@ IntegratedDynamics-1.12.2-1.1.1.jar
 IntegratedTunnels-1.12.2-1.6.10.jar
 InventoryTweaks-1.63.jar
 inworldcrafting-1.12.2-1.2.0-universal.jar
+ironchest-1.12.2-7.0.72.847.jar
 ItemBlacklist-1.4.3.jar
 ItemFilters-1.0.3.12.jar
 ItemStages-1.12.2-2.0.49.jar
@@ -99,9 +100,8 @@ reauth-3.6.0.jar
 RecurrentComplex-1.4.8.2.jar
 RedstoneFlux-1.12-2.1.0.6-universal.jar
 ResourceLoader-MC1.12.1-1.5.3.jar
-scanner-1.6.3.jar
+scanner-1.6.5.jar
 seedprotect-1.12.2-1.2.0.jar
-serversync-2.6.17.jar
 ServerTabInfo-1.12.2-1.2.6.jar
 SmoothFont-mc1.12.2-2.1.1.jar
 StorageDrawers-1.12.2-5.4.0.jar
@@ -110,9 +110,9 @@ TConstruct-1.12.2-2.13.0.171.jar
 theoneprobe-1.12-1.4.28.jar
 ThermalExpansion-1.12.2-5.5.4.43-universal.jar
 ThermalFoundation-1.12.2-2.6.3.27-universal.jar
-TickDynamic-1.12.2-1.0.2.jar
 TinkerToolLeveling-1.12.2-1.1.0.jar
 Toast+Control-1.12.2-1.8.1.jar
+togetherforever-1.12.2-1.0.12-22.jar
 tombstone-3.6.5-1.12.2.jar
 topaddons-1.12.2-1.12.0.jar
 Triumph-1.12.2-3.19.2.jar
