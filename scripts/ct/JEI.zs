@@ -14,6 +14,10 @@ addDescription(<contenttweaker:mana_paper>, game.localize("description.levitated
 addDescription(<contenttweaker:end_iron_chunk>, game.localize("description.levitated.end_iron_chunk"));
 addDescription(<minecraft:feather>, game.localize("description.levitated.feather"));
 
+<extrautils2:chickenring:1>.displayName = game.localize("rename.levitated.shulker_ring");
+<pneumaticcraft:ingot_iron_compressed>.displayName = game.localize("rename.levitated.compiron");
+<pneumaticcraft:compressed_iron_block>.displayName = game.localize("rename.levitated.compiron_block");
+
 //General Items
 var banned_items = [<integrateddynamics:coal_generator>, <botania:rfgenerator>, <immersiveengineering:stone_decoration:10>, <immersiveengineering:stone_decoration_slab:10>] as IItemStack[];
 for item in banned_items {

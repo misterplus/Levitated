@@ -75,7 +75,7 @@ paper_planes[6].itemRightClick = function(stack, world, player, hand) {
         if data has "PlaneCountdown" {
             var time = data.memberGet("PlaneCountdown") as int;
             if time >= 0 {
-                player.sendChat(game.localize("item.contenttweaker.paper_plane_6.message"));
+                Commands.call("tellraw @p {\"translate\":\"item.contenttweaker.paper_plane_6.message\"}", player, world, false, true);
                 return "PASS";
             }
             else {
