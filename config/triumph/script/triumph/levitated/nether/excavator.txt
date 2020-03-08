@@ -10,6 +10,6 @@ setAnnounceToChat(false)
 setPos(87,-69)
 
 criteria = addCriteria("formed_excavator", "immersiveengineering:multiblock_formed")
-criteria.setMultiblock("IE:ExcavatorDemo")
+criteria.setMultiblock("IE:Excavator")
 
 visibleIf("triumph:levitated/nether/root")

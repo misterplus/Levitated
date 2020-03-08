@@ -19,6 +19,11 @@ var chicken = SummoningInfo.create()
         .setConsumeCatalyst(true)
         .setReagents([<botania:worldseed> * 2, <forge:bucketfilled>.withTag({FluidName: "blood", Amount: 1000}), <botania:dye>, <minecraft:leather> * 2])
         .setWeight(0.5);
+var cow = SummoningInfo.create()
+        .setCatalyst(<tconstruct:edible:10>)
+        .setConsumeCatalyst(true)
+        .setReagents([<minecraft:wheat> * 2, <forge:bucketfilled>.withTag({FluidName: "blood", Amount: 1000}), <enderio:item_material:49>, <minecraft:leather> * 2])
+        .setWeight(0.5);
 
 infos += pig.addMob(MobInfo.create()
             .setMob("minecraft:pig")
@@ -40,7 +45,16 @@ infos += chicken.addMob(MobInfo.create()
         .setCount(1)
         .setData({"Health": 0})
         );
-
+infos += cow.addMob(MobInfo.create()
+        .setMob("minecraft:cow")
+        .setCount(1)
+        .setData({"Health": 1})
+        );
+infos += cow.addMob(MobInfo.create()
+        .setMob("minecraft:cow")
+        .setCount(1)
+        .setData({"Health": 0})
+        );
 for info in infos {
         SummoningDirector.addSummonInfo(info);
 }  
