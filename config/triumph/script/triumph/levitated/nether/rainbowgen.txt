@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.rainbowgen.description")
 
 addParent("triumph:levitated/nether/overworld_knowledge")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(414,-15)
 
 drawDirectLines()

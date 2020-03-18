@@ -52,6 +52,7 @@ var rainbow_block = VanillaFactory.createBlock("rainbow_block", <blockmaterial:r
 rainbow_block.blockSoundType = <soundtype:stone>;
 rainbow_block.blockHardness = 100.0;
 rainbow_block.blockResistance = 12000.0;
+rainbow_block.lightValue = 15;
 rainbow_block.toolClass = "pickaxe";
 rainbow_block.toolLevel = 4;
 rainbow_block.register();

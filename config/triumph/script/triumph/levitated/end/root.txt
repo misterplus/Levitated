@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.root.description")
 
 setBackground("minecraft:textures/gui/advancements/backgrounds/end.png")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(-23,6)
 
 addCriteria("location", "minecraft:location")

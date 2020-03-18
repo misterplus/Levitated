@@ -14,21 +14,25 @@ import crafttweaker.entity.IEntityEquipmentSlot;
 
 //every ender teleport now creates a extraterrestrail matter on the ground
 events.onEnderTeleport(function(event as EnderTeleportEvent) {
-	if (!event.entityLivingBase.world.remote & isNull(event.entityLivingBase.definition)) {
+	if (!event.entityLivingBase.world.remote && isNull(event.entityLivingBase.definition)) {
 		event.entityLivingBase.world.spawnEntity(<deepmoblearning:living_matter_extraterrestrial>.createEntityItem(event.entityLivingBase.world, event.targetX, event.targetY, event.targetZ));
 	}
 });
 
+
+
 //breaking endstone with hands now drops endstone shards
 events.onBlockBreak(function(event as BlockBreakEvent) {
-	if (!event.world.remote & event.blockState == <blockstate:minecraft:end_stone> & event.isPlayer & !extrautilities2.Tweaker.XUTweaker.isPlayerFake(event.player) & isNull(event.player.currentItem) & event.player.creative == false) {
-		event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
+	if (!event.world.remote && event.blockState == <blockstate:minecraft:end_stone> && event.isPlayer && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(event.player) && event.player.creative == false) {
+		if (isNull(event.player.currentItem) || !event.player.currentItem.canHarvestBlock(<blockstate:minecraft:end_stone>)) {
+			event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
+		}
 	}
 });
 
 //feather falling enchant
 events.onEntityLivingFall(function(event as EntityLivingFallEvent) {
-	if (!event.entityLivingBase.world.remote & event.entityLivingBase instanceof IPlayer) {
+	if (!event.entityLivingBase.world.remote && event.entityLivingBase instanceof IPlayer) {
 		var player as IPlayer;
 		player = event.entityLivingBase;
 		if !isNull(player.getItemInSlot(IEntityEquipmentSlot.feet())) {
@@ -36,7 +40,7 @@ events.onEntityLivingFall(function(event as EntityLivingFallEvent) {
 			var boots = player.getItemInSlot(IEntityEquipmentSlot.feet());
 			var tag = boots.tag as IData;
 			var distance = Math.ceil(event.distance);
-			if (tag has enchant & distance <= boots.maxDamage - boots.damage) {
+			if (tag has enchant && distance <= boots.maxDamage - boots.damage) {
 				var data = player.data;
 				player.setItemToSlot(IEntityEquipmentSlot.feet(), boots.withDamage(boots.damage + distance));
 				if data has "FallingDistance" {

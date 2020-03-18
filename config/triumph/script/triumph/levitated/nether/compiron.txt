@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.compiron.description")
 
 addParent("triumph:levitated/nether/blast_furnace")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(87,-15)
 
 criteria = addCriteria("hasCompiron", "minecraft:inventory_changed")

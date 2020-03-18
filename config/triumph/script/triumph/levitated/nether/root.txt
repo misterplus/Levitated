@@ -10,3 +10,5 @@ setPos(-22,-15)
 
 criteria = addCriteria("hasNetherrack2", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:netherrack>)
+
+pageHiddenUnless("triumph:levitated/end/netherrack")

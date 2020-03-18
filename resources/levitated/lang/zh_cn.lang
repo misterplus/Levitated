@@ -221,6 +221,24 @@ advancements.levitated.nether.overworld_star.description=还记得那些精灵�
 advancements.levitated.nether.overworld_knowledge.title=这只是善意的谎言
 advancements.levitated.nether.overworld_knowledge.description=哈哈！它们竟然非常喜欢！你获得了大量关于主世界的信息，好消息是，你可以通过搭建传送门前往主世界，但显然不是之前的黑曜石传送门。坏消息是，你需要借助彩虹的力量才能搭建传送门...但在末地或下界...找到彩虹？
 
+advancements.levitated.nether.rainbowgen.title=彩虹七号：突围
+advancements.levitated.nether.rainbowgen.description=经过数天的寻找，你终于找到和彩虹有关的东西了。但要获得它，你得费些功夫了。尽管你能人工做一些，但设计一套自动化线路会减少很多麻烦。
+
+advancements.levitated.nether.rainbow_ingot.title=离家最近又最远的路
+advancements.levitated.nether.rainbow_ingot.description=将一些彩虹石覆盖于铀锭之上，你成功制成了一种新的材料！使用它搭建传送门并用彩虹桥法杖激活吧！是时候回家了！
+
+advancements.levitated.nether.veinmine.title=人工采掘
+advancements.levitated.nether.veinmine.description=如果你仍然在手动一个个挖东西的话，那就试试挖掘强化吧！你可以使用它强化你的匠魂工具。在下界，它能帮助你更轻松地找到矿物！
+
+advancements.levitated.nether.shulker_ring.title=自由§m飞§r翔
+advancements.levitated.nether.shulker_ring.description=将潜影贝的灵魂注入到鸡翅膀指环中后，指环将会被赋予让玩家飞行的能力！emmm... 某种程度上算是。
+
+advancements.levitated.nether.angel_ring.title=挥着翅膀的史蒂夫
+advancements.levitated.nether.angel_ring.description=从技术层面上讲，改进潜影贝漂浮指环是有可能的。但想要实现，你需要击杀一个远古生物，盖亚守护者。你也许并不想这样做...
+
+advancements.levitated.nether.press.title=外星科技？
+advancements.levitated.nether.press.description=现在有一些特殊的压印模板在售，你需要购买一些来为之后的数字化存储做准备。
+
 # Resources
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
@@ -271,8 +289,9 @@ advancements.levitated.easteregg.feather.description=这是个双关语，§m请
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
 tooltips.levitated.origin_book=右击来设置你的重生点（只能使用一次，少侠请慎重）
-tooltips.levitated.nether_book=右击来获取关于下界的信息
+tooltips.levitated.nether_book=右键以获取有关下界的信息
 tooltips.levitated.nether_book_2=这不是一本书吗？为什么是圆的!!?
+tooltips.levitated.overworld_book=右键以获取有关主世界的信息
 tooltips.levitated.paper_plane_0=把纸展开，将四个角向中线折叠。
 tooltips.levitated.paper_plane_1=以宽为中线对折。
 tooltips.levitated.paper_plane_2=将每个角向中线折叠。
@@ -285,8 +304,13 @@ tooltips.levitated.mana_paper_2=咋了? 这还是张纸! 只是被魔力浸湿�
 
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
-description.levitated.mana_paper=对着工作台或工作站潜行右键来将它对折。但没有了解过折纸技术的话，你是做不到的。
+description.levitated.mana_paper=对着工作台或工作站潜行右键来将它对折。但这是个技术活(不是，没有经验的话，你是做不到的。
 description.levitated.feather=梦想变成鸟，借力冲云霄。终于飞上天，竟会落羽毛。
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=火之高兴
+
+# Item Rename
+rename.levitated.shulker_ring=潜影贝悬浮指环
+rename.levitated.compiron=压缩钢锭
+rename.levitated.compiron_block=压缩钢块

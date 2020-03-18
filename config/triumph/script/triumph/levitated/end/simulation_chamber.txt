@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.simulation_chamber.descript
 
 addParent("triumph:levitated/end/deep_learner")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(822,27)
 
 criteria = addCriteria("hasSimChamber", "minecraft:inventory_changed")

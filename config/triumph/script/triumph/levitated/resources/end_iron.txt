@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.resources.end_iron.description"
 
 addParent("triumph:levitated/resources/root")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(9,-99)
 hideLines()
 

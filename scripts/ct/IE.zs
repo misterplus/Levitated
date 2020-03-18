@@ -1,4 +1,4 @@
-#priority 7
+#priority 6
 import mods.immersiveengineering.Excavator.addMineral;
 
 //remove
@@ -6,7 +6,6 @@ var minerals = ["Silt", "Lapis", "Galena", "Silver", "Bauxite", "Copper", "Urani
 for mineral in minerals {
     mods.immersiveengineering.Excavator.removeMineral(mineral);
 }
-
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:165>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:166>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
@@ -31,3 +30,6 @@ addMineral("Silver", 130, 0.15, ["oreNetherSilver"], [1], [-1]);
 addMineral("Uranium", 100, 0.20, ["oreNetherUranium"], [1], [-1]);
 addMineral("Ardite", 20, 0.25, ["oreNetherArdite"], [1], [-1]);
 addMineral("Cobalt", 20, 0.25, ["oreNetherCobalt"], [1], [-1]);
+
+//Rainbow Ingot
+mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:rainbow_ingot>, <ore:ingotUranium>, <immersiveengineering:material:7>, 600, 4096, [<extrautils2:decorativesolid:8>, <ore:itemEnderCrystal>, <ore:itemPrecientCrystal>], "Alloying");

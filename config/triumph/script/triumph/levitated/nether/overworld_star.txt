@@ -6,7 +6,8 @@ setTranslatedDescription("advancements.levitated.nether.overworld_star.descripti
 addParent("triumph:levitated/nether/induction")
 addParent("triumph:levitated/nether/star")
 setShowToast(true)
-setPos(372,25)
+setAnnounceToChat(false)
+setPos(372,12)
 
 criteria = addCriteria("hasOverworldStar", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:overworld_star>)

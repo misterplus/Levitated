@@ -5,7 +5,7 @@
     "mobs": [
       {
         "mob": "minecraft:blaze",
-        "weight": 0.25,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -17,7 +17,7 @@
     "mobs": [
       {
         "mob": "minecraft:wither_skeleton",
-        "weight": 0.125,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       }

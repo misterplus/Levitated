@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.resources.nether_quartz.descrip
 
 addParent("triumph:levitated/resources/root")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(9,-136)
 hideLines()
 

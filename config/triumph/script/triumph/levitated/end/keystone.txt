@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.keystone.description")
 
 addParent("triumph:levitated/end/simulation_chamber")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(861,27)
 
 criteria = addCriteria("hasKeystone", "minecraft:inventory_changed")

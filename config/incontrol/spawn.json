@@ -1,24 +1,26 @@
 [
   {
     "mob": "minecraft:enderman",
-    "result": "default",
     "healthmultiply": 3,
     "nbt": {
       "carried": "contenttweaker:end_iron"
     },
+    "result": "default",
     "random": 0.05
   },
   {
     "dimension": -1,
     "mob": "minecraft:blaze",
     "block": "minecraft:nether_brick",
-    "result": "allow"
+    "result": "allow",
+    "random": 0.10
   },
   {
     "dimension": -1,
     "mob": "minecraft:wither_skeleton",
     "block": "minecraft:nether_brick",
-    "result": "allow"
+    "result": "allow",
+    "random": 0.05
   },
   {
     "dimension": -1,

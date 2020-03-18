@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.nether.refinery.description")
 
 addParent("triumph:levitated/nether/oil")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(124,-42)
 
 criteria = addCriteria("hasRefinery", "minecraft:inventory_changed")

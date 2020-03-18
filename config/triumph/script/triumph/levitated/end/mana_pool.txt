@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.mana_pool.description")
 
 addParent("triumph:levitated/end/furnace")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(190,6)
 
 criteria = addCriteria("hasManaPool", "minecraft:inventory_changed")

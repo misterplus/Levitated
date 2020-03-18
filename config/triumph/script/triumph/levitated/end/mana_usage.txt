@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.mana_usage.description")
 
 addParent("triumph:levitated/end/liquid_mana")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(271,-34)
 
 criteria = addCriteria("hasFertilizer", "minecraft:inventory_changed")

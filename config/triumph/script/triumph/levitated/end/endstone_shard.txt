@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.endstone_shard.description"
 
 addParent("triumph:levitated/end/root")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(21,6)
 
 criteria = addCriteria("hasEndShard", "minecraft:inventory_changed")

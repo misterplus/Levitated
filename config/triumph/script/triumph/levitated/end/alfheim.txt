@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.alfheim.description")
 
 addParent("triumph:levitated/end/altar")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(403,6)
 
 setRequiresParents()

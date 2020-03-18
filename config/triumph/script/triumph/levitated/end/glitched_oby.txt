@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.glitched_oby.description")
 
 addParent("triumph:levitated/end/keystone")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(900,27)
 
 criteria = addCriteria("hasGlitchedOby", "minecraft:inventory_changed")

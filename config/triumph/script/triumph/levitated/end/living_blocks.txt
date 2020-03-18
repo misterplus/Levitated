@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.living_blocks.description")
 
 addParent("triumph:levitated/end/liquid_mana")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(271,6)
 
 criteria = addCriteria("hasBlockLiving", "minecraft:inventory_changed")

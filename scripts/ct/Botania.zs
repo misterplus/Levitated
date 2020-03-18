@@ -1,4 +1,4 @@
-#priority 8
+#priority 7
 import mods.botaniatweaks.Agglomeration;
 import mods.botaniatweaks.AgglomerationMultiblock;
 import mods.botaniatweaks.AgglomerationRecipe;
@@ -8,7 +8,6 @@ import crafttweaker.oredict.IOreDictEntry;
 //remove
 recipes.remove(<botania:enderdagger>);
 recipes.remove(<botania:altar>);
-recipes.remove(<botania:rfgenerator>);
 
 //add
 
@@ -27,11 +26,7 @@ mods.botania.PureDaisy.addRecipe(<minecraft:end_stone>, <minecraft:cobblestone>,
 mods.botania.PureDaisy.addRecipe(<stygian:endglow>, <minecraft:brown_mushroom>, 300);
 
 //Petal apothecary now requires end stone
-<ore:petal>.addItems([<botania:petal:*>, <botania:mushroom:*>]);
 recipes.addShaped(<botania:altar>, [[<minecraft:purpur_slab>, <ore:petal>, <minecraft:purpur_slab>],[null, <minecraft:end_stone>, null], [<minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>]]);
-
-//Add end seeds to the ore dictionary so it works in the petal apothecary
-<ore:seed>.addItems([<contenttweaker:end_seeds>]);
 
 //Pure daisy can turn end acid into water(ice cause it's block only)
 mods.botania.PureDaisy.addRecipe(<liquid:endacid>, <minecraft:ice>, 300);
@@ -60,17 +55,6 @@ mods.botania.ManaInfusion.removeRecipe(<minecraft:glowstone_dust>);
 mods.botania.ManaInfusion.addAlchemy(<minecraft:glowstone_dust> * 4, <minecraft:glowstone>, 25);
 mods.botania.ManaInfusion.addConjuration(<minecraft:glowstone_dust> * 2, <minecraft:glowstone_dust>, 5000);
 
-//Orechid Endium
-<ore:oreEndCopper>.addItems([<netherendingores:ore_end_modded_1:1>]);
-<ore:oreEndLead>.addItems([<netherendingores:ore_end_modded_1:3>]);
-<ore:oreEndTin>.addItems([<netherendingores:ore_end_modded_1:8>]);
-<ore:oreEndCoal>.addItems([<netherendingores:ore_end_vanilla:0>]);
-<ore:oreEndDiamond>.addItems([<netherendingores:ore_end_vanilla:1>]);
-<ore:oreEndGold>.addItems([<netherendingores:ore_end_vanilla:3>]);
-<ore:oreEndIron>.addItems([<netherendingores:ore_end_vanilla:4>]);
-<ore:oreEndLapis>.addItems([<netherendingores:ore_end_vanilla:5>]);
-<ore:oreEndRedstone>.addItems([<netherendingores:ore_end_vanilla:6>]);
-
 //Alternative spark recipe
 recipes.addShaped(<botania:spark>, [[null, <ore:petal>, null],[<tconstruct:firewood:1>, <minecraft:gold_nugget>, <tconstruct:firewood:1>], [null, <ore:petal>, null]]);
 
@@ -92,16 +76,6 @@ var nether_ores = [<ore:oreQuartz>, <ore:oreArdite>, <ore:oreCobalt>] as IOreDic
 for ore in nether_ores {
     mods.botania.OrechidIgnem.removeOre(ore);
 }
-
-<ore:oreNetherQuartz>.addItems([<minecraft:quartz_ore>]);
-<ore:oreNetherAluminum>.addItems([<netherendingores:ore_nether_modded_1:0>]);
-<ore:oreNetherNickel>.addItems([<netherendingores:ore_nether_modded_1:5>]);
-<ore:oreNetherSilver>.addItems([<netherendingores:ore_nether_modded_1:7>]);
-<ore:oreNetherCertusQuartz>.addItems([<netherendingores:ore_nether_modded_1:9>]);
-<ore:oreNetherChargedCertusQuartz>.addItems([<netherendingores:ore_nether_modded_1:10>]);
-<ore:oreNetherUranium>.addItems([<netherendingores:ore_nether_modded_1:12>]);
-<ore:oreNetherCobalt>.addItems([<tconstruct:ore>]);
-<ore:oreNetherArdite>.addItems([<tconstruct:ore:1>]);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherQuartz>, 7275);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherAluminum>, 3940);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherNickel>, 2275);
@@ -111,3 +85,8 @@ mods.botania.OrechidIgnem.addOre(<ore:oreNetherChargedCertusQuartz>, 4500);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherUranium>, 1337);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherCobalt>, 2275);
 mods.botania.OrechidIgnem.addOre(<ore:oreNetherArdite>, 2275);
+
+//Skulls
+mods.botania.RuneAltar.addRecipe(<minecraft:skull:2>, [<minecraft:skull:1>, <ore:elvenPixieDust>, <ore:gemPrismarine>, <minecraft:rotten_flesh>, <minecraft:golden_apple>], 22500);
+mods.botania.RuneAltar.addRecipe(<minecraft:skull:0>, [<minecraft:skull:1>, <ore:elvenPixieDust>, <ore:gemPrismarine>, <ore:bone>, <minecraft:golden_apple>], 22500);
+mods.botania.RuneAltar.addRecipe(<minecraft:skull:4>, [<minecraft:skull:1>, <ore:elvenPixieDust>, <ore:gemPrismarine>, <ore:gunpowder>, <minecraft:golden_apple>], 22500);

@@ -5,6 +5,7 @@ setTranslatedDescription("advancements.levitated.end.water.description")
 
 addParent("triumph:levitated/end/living_blocks")
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(317,6)
 
 criteria = addCriteria("hasAcid", "minecraft:inventory_changed")

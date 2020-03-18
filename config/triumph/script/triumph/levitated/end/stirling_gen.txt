@@ -4,8 +4,8 @@ setTranslatedTitle("advancements.levitated.end.stirling_gen.title")
 setTranslatedDescription("advancements.levitated.end.stirling_gen.description")
 
 addParent("triumph:levitated/end/infinity_dust")
-
 setShowToast(true)
+setAnnounceToChat(false)
 setPos(745,6)
 
 criteria = addCriteria("hasStirlingGen", "minecraft:inventory_changed")
