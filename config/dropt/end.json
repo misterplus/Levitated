@@ -123,6 +123,25 @@
           }
         }
       ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "stygian:endleaves"
+          ]
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items" : [
+              "minecraft:apple"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

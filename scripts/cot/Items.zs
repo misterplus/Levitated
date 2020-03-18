@@ -8,7 +8,7 @@ import mods.contenttweaker.ActionResult;
 import mods.contenttweaker.Hand;
 import crafttweaker.block.IBlockState;
 
-var easy_items = ["end_seeds", "ccb", "ccb_base", "clay_board", "pottery_clay", "solder_powder", "biome_scanner_basic", "terrain_scanner", "blue_lotus", "dynamo_frame"] as string[];
+var easy_items = ["end_seeds", "ccb", "ccb_base", "clay_board", "pottery_clay", "solder_powder", "biome_scanner_basic", "terrain_scanner", "blue_lotus", "dynamo_frame", "overworld_star"] as string[];
 for item in easy_items {
     VanillaFactory.createItem(item).register();
 }
@@ -130,10 +130,6 @@ overworld_book.itemRightClick = function(stack, world, player, hand) {
     return "PASS";
 };
 overworld_book.register();
-
-var overworld_star = VanillaFactory.createItem("overworld_star");
-overworld_star.glowing = true;
-overworld_star.register();
 
 var rainbow_ingot = VanillaFactory.createItem("rainbow_ingot");
 rainbow_ingot.glowing = true;
