@@ -336,14 +336,14 @@
 					"block": [
 						{
 							"name": "chisel:lavastone",
-							"weight": 75
+							"weight": 70
 						},
 						{
 							"name": "netherendingores:ore_nether_modded_1",
 							"properties": {
 								"blocks": "uranium_ore"
 							},
-							"weight": 25
+							"weight": 30
 						}
 					],
 					"material": [
