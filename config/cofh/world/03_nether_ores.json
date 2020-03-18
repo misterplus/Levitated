@@ -230,31 +230,31 @@
 						"netherrack",
 						"bedrock"
 					],
-					"cluster-size": 6
+					"cluster-size": 8
 				},
 				{
 					"block": [
 						{
 							"name": "obsidian",
-							"weight": 65
+							"weight": 60
 						},
 						{
 							"name": "tconstruct:ore",
 							"properties": {
 								"type": "ardite"
 							},
-							"weight": 35
+							"weight": 40
 						}
 					],
 					"material": [
 						"netherrack",
 						"bedrock"
 					],
-					"cluster-size": 6
+					"cluster-size": 8
 				}
 			],
-			"cluster-count": 5,
-			"chunk-chance": 2,
+			"cluster-count": 8,
+			"chunk-chance": 1,
             "min-height": 5,
             "max-height": 10,
 			"dimension": {
@@ -283,14 +283,14 @@
 					"block": [
 						{
 							"name": "obsidian",
-							"weight": 85
+							"weight": 80
 						},
 						{
 							"name": "tconstruct:ore",
 							"properties": {
 								"type": "cobalt"
 							},
-							"weight": 15
+							"weight": 20
 						}
 					],
 					"material": [
@@ -301,10 +301,10 @@
 					"count": 1
 				}
 			],
-			"cluster-count": 1,
-			"chunk-chance": 3,
+			"cluster-count": 4,
+			"chunk-chance": 1,
 			"center-height": 115,
-			"spread": 1,
+			"spread": 3,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -336,14 +336,14 @@
 					"block": [
 						{
 							"name": "chisel:lavastone",
-							"weight": 70
+							"weight": 75
 						},
 						{
 							"name": "netherendingores:ore_nether_modded_1",
 							"properties": {
 								"blocks": "uranium_ore"
 							},
-							"weight": 30
+							"weight": 25
 						}
 					],
 					"material": [
