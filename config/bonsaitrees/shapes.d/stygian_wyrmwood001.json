@@ -1,0 +1,113 @@
+{
+  "type": "stygian:wyrmwood",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "stygian:endvine",
+      "meta": 1
+    },
+    "b": {
+      "name": "stygian:endleaves",
+      "meta": 0
+    },
+    "c": {
+      "name": "stygian:endlog",
+      "meta": 0
+    },
+    "d": {
+      "name": "stygian:endvine",
+      "meta": 4
+    },
+    "e": {
+      "name": "stygian:endvine",
+      "meta": 8
+    },
+    "f": {
+      "name": "stygian:endvine",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      "         ",
+      "    bd   ",
+      "     d   ",
+      "     d   ",
+      "     d   ",
+      "         ",
+      "         "
+    ],
+    [
+      "    b    ",
+      "    bb   ",
+      "    b    ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "    b    ",
+      " f bbbbbd",
+      " f bbb  d",
+      " f      d",
+      "         ",
+      "         ",
+      "    c    "
+    ],
+    [
+      "      bb ",
+      " bbbbbcbb",
+      "  bbbcb  ",
+      "    b    ",
+      "         ",
+      "    c    ",
+      "   ccc   "
+    ],
+    [
+      " bb      ",
+      "bcb b bb ",
+      " bcbbb   ",
+      "   cc    ",
+      "    c    ",
+      "   ccc   ",
+      "  ccccc  "
+    ],
+    [
+      "         ",
+      " bbbbbe  ",
+      "  bbcbe  ",
+      "      e  ",
+      "      e  ",
+      "    c e  ",
+      "   ccc   "
+    ],
+    [
+      "    b    ",
+      "  abcb   ",
+      "  a b    ",
+      "  a      ",
+      "  a      ",
+      "  a      ",
+      "    c    "
+    ],
+    [
+      "    b    ",
+      "   bbbd  ",
+      "      d  ",
+      "      d  ",
+      "      d  ",
+      "      d  ",
+      "         "
+    ],
+    [
+      "         ",
+      "    b    ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ]
+  ]
+}

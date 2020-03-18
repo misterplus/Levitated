@@ -1,0 +1,16 @@
+{
+  "name": "stygian:endgrass",
+  "mod": "stygian",
+  "soil": {
+    "name": "stygian:endgrass",
+    "data": 0,
+    "ignoreMeta": false
+  },
+
+  "modifiers": {
+    "growTime": 1.1,
+    "dropChance": 0.9
+  },
+
+  "providedTags": ["end_stone"]
+}
