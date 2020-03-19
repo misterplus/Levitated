@@ -4,6 +4,7 @@ import crafttweaker.item.IItemStack;
 mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:101>);
 mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:102>);
 mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:103>);
+mods.thermalexpansion.Compactor.removePressRecipe(<techreborn:plates:38>);
 
 //add
 var coils = [<thermalfoundation:material:513>, <thermalfoundation:material:514>, <thermalfoundation:material:515>] as IItemStack[];

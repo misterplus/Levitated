@@ -9,6 +9,7 @@ for mineral in minerals {
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:165>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:166>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:38>);
 
 //add
 //The End
@@ -33,3 +34,4 @@ addMineral("Cobalt", 20, 0.25, ["oreNetherCobalt"], [1], [-1]);
 
 //Rainbow Ingot
 mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:rainbow_ingot>, <ore:ingotUranium>, <immersiveengineering:material:7>, 600, 4096, [<extrautils2:decorativesolid:8>, <ore:itemEnderCrystal>, <ore:itemPrecientCrystal>], "Alloying");
+
