@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.overworld.root.description")
 setBackground("minecraft:textures/gui/advancements/backgrounds/stone.png")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(-22,-15)
+setPos(44,1)
 
 criteria = addCriteria("entered_overworld", "minecraft:changed_dimension")
 criteria.setDimensionDestination("overworld")

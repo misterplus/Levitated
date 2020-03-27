@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.overworld.refined_iron.descript
 addParent("triumph:levitated/overworld/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(372,39)
+setPos(112,0)
 
 criteria = addCriteria("hasRefinedIron", "minecraft:inventory_changed")
 criteria.addItem(<techreborn:ingot:19>)
