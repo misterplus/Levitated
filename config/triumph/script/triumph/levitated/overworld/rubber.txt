@@ -1,0 +1,14 @@
+setIcon(<techreborn:part:32>)
+
+setTranslatedTitle("advancements.levitated.overworld.rubber.title")
+setTranslatedDescription("advancements.levitated.overworld.rubber.description")
+
+addParent("triumph:levitated/overworld/root")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(89,18)
+
+criteria = addCriteria("hasSap", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:part:32>)
+
+visibleIf("triumph:levitated/overworld/root")

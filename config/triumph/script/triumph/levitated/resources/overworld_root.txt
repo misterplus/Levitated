@@ -1,0 +1,15 @@
+setIcon(<minecraft:writable_book>)
+
+setTranslatedTitle("advancements.levitated.resources.overworld_root.title")
+setTranslatedDescription("advancements.levitated.resources.overworld_root.description")
+
+addParent("triumph:levitated/resources/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+setPos(-28,-173)
+hideLines()
+
+addCriteria("location", "minecraft:location")
+
+hiddenUnless("triumph:levitated/overworld/root")

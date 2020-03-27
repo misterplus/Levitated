@@ -244,7 +244,10 @@ advancements.levitated.overworld.root.title=Sun, Moon, Stars
 advancements.levitated.overworld.root.description=You've made it back home! But this world isn't really your ideal settlement, since there's still nothing but the void. Maybe we can... go for the stars?
 
 advancements.levitated.overworld.refined_iron.title=Double Refinement
-advancements.levitated.overworld.refined_iron.description=Apparently refining iron once isn't enough, you are gonna need better base materials for more advanced machines.
+advancements.levitated.overworld.refined_iron.description=Apparently refining iron once isn't enough, you are gonna need better base materials for more advanced machines. Refining steel once more should be good, but how?
+
+advancements.levitated.overworld.rubber.title=European Eraser
+advancements.levitated.overworld.rubber.description=Alright, I admit these are not for schooling, but they are great for making cables! Please stay safe when you are working with electricity, sir/madam.
 
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
@@ -288,6 +291,9 @@ advancements.levitated.resources.nether_uranium.description=Layers of Lavastone 
 
 advancements.levitated.resources.overworld_calcite.title=Stones of Calcium
 advancements.levitated.resources.overworld_calcite.description=Basalt and Marble are great sources for calcium! You'll be able to process them into calciumcarbonate later, but for now grinding and centrifugating them would be fine.
+
+advancements.levitated.resources.overworld_root.title=Overworld Resources
+advancements.levitated.resources.overworld_root.description=You can find all information related to Overworld ores/stones on the right.
 
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=Easter Eggs!
