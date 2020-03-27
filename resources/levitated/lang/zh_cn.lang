@@ -239,6 +239,13 @@ advancements.levitated.nether.angel_ring.description=从技术层面上讲，改
 advancements.levitated.nether.press.title=外星科技？
 advancements.levitated.nether.press.description=现在有一些特殊的压印模板在售，你需要购买一些来为之后的数字化存储做准备。
 
+# Overworld
+advancements.levitated.overworld.root.title=日月轮转，星辰闪耀
+advancements.levitated.overworld.root.description=你成功回来了！但现在看来，这里已经完全不适合人类居住了。整个世界仅剩一片虚无，太阳依旧刺眼，但恒星的引力与不稳定的热量将你拒之门外，也许，那些闪耀的星星能够带来希望。
+
+advancements.levitated.overworld.refined_iron.title=姐很高贵且优雅
+advancements.levitated.overworld.refined_iron.description=显然，将铁精炼一次是远远不够的，你需要更好的材料来制作更先进的机器。
+
 # Resources
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
@@ -279,6 +286,9 @@ advancements.levitated.resources.nether_cobalt.description=在下界顶部的基
 advancements.levitated.resources.nether_uranium.title=小心辐射
 advancements.levitated.resources.nether_uranium.description=在下界较低的位置，岩层转变为熔岩石层，§2铀矿§r沉积于此。下界的熔岩湖下面就能看到这些石头。
 
+advancements.levitated.resources.overworld_calcite.title=Stones of Calcium
+advancements.levitated.resources.overworld_calcite.description=玄武岩和大理石很适合制钙。现在你只能通过研磨和离心的方式制取，之后你可以将它们加工成碳酸钙。
+
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=复活节彩蛋!
 advancements.levitated.easteregg.root.description=如果你发现了一个复活节彩蛋，它就会出现在这个页面！
@@ -314,3 +324,7 @@ unfamiliar.levitated.blaze_rod=火之高兴
 rename.levitated.shulker_ring=潜影贝悬浮指环
 rename.levitated.compiron=压缩钢锭
 rename.levitated.compiron_block=压缩钢块
+rename.levitated.refined_iron_ingot=精炼钢锭
+rename.levitated.refined_iron_block=精炼钢块
+rename.levitated.refined_iron_nugget=精炼钢粒
+rename.levitated.refined_iron_plate=精炼钢板
