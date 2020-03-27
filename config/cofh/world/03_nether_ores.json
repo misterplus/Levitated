@@ -85,12 +85,12 @@
 							"properties": {
 								"blocks": "aluminum_ore"
 							},
-							"weight": 30
+							"weight": 35
 						},
 						{
 							"name": "chisel:basalt2",
 							"metadata": 7,
-							"weight": 70
+							"weight": 65
 						}
 					],
 					"material": [
@@ -106,7 +106,7 @@
 				}
 			],
 			"cluster-count": 1,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -191,11 +191,11 @@
 							"properties": {
 								"blocks": "silver_ore"
 							},
-							"weight": 20
+							"weight": 25
 						},
 						{
 							"name": "magma",
-							"weight": 70
+							"weight": 65
 						}
 					],
 					"material": [
@@ -208,11 +208,11 @@
 					"min-height": 6,
 					"height-variance": 1,
 					"height-mod": 3,
-					"size-variance": 1
+					"size-variance": 2
 				}
 			],
 			"cluster-count": 1,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [

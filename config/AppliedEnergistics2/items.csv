@@ -1790,7 +1790,7 @@ techreborn:storage2:6, Block of Yellow Garnet
 techreborn:storage2:7, Block of Red Garnet
 techreborn:storage2:8, Block of Copper
 techreborn:storage2:9, Block of Tin
-techreborn:storage2:10, Block of Refined Iron
+techreborn:storage2:10, Block of Refined Steel
 techreborn:dragon_egg_syphon, Dragon Egg Energy Siphon
 techreborn:magic_energy_converter, Magic Energy Converter
 techreborn:assembling_machine, Assembling Machine
@@ -4978,7 +4978,7 @@ appliedenergistics2:facade:0, Cable Facade - Block of Yellow Garnet
 appliedenergistics2:facade:0, Cable Facade - Block of Red Garnet
 appliedenergistics2:facade:0, Cable Facade - Block of Copper
 appliedenergistics2:facade:0, Cable Facade - Block of Tin
-appliedenergistics2:facade:0, Cable Facade - Block of Refined Iron
+appliedenergistics2:facade:0, Cable Facade - Block of Refined Steel
 appliedenergistics2:facade:0, Cable Facade - Fusion Coil
 appliedenergistics2:facade:0, Cable Facade - Basic Machine Frame
 appliedenergistics2:facade:0, Cable Facade - Advanced Machine Frame
@@ -8914,37 +8914,37 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Large Plate Pattern
 tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Large Plate Pattern
 tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Pan Pattern
 tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Battery Cell Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Pipe Piece Pattern
 tconstruct:pattern:0, Hammer Head Pattern
 tconstruct:pattern:0, Laser Medium Pattern
-tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Tool Rod Pattern
 tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Wide Guard Pattern
 tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Battery Cell Pattern
-tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Binding Pattern
 tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Pipe Piece Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Cross Guard Pattern
 tconstruct:shard:0, Electrical Shard
 tconstruct:shard:0, Energetic Shard
 tconstruct:shard:0, Vibrant Shard
@@ -10885,72 +10885,72 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Arrow Shaft Cast
-tconstruct:cast:0, Large Plate Cast
 tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Bowstring Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Fletching Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Battery Cell Cast
 tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Arrow Shaft Cast
+tconstruct:cast:0, Battery Cell Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Broad Axe Head Cast
 tconstruct:cast:0, Pipe Piece Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Bowstring Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Fletching Cast
+tconstruct:cast:0, Cross Guard Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Arrow Shaft Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
 tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Fletching Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Battery Cell Clay Cast
 tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Arrow Shaft Clay Cast
+tconstruct:clay_cast:0, Battery Cell Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
 tconstruct:clay_cast:0, Pipe Piece Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Bowstring Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Fletching Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -11033,6 +11033,341 @@ ae2wtlib:wut, Wireless Ultimate Terminal
 ae2wtlib:wut_creative, Creative Wireless Ultimate Terminal
 bonsaitrees:bonsaipot:0, Bonsai Pot
 bonsaitrees:bonsaipot:1, Hopping Bonsai Pot
+botania:lexicon, item.lexicon.name
+botania:petal:0, Mystical White Petal
+botania:petal:1, Mystical Orange Petal
+botania:petal:2, Mystical Magenta Petal
+botania:petal:3, Mystical Light Blue Petal
+botania:petal:4, Mystical Yellow Petal
+botania:petal:5, Mystical Lime Petal
+botania:petal:6, Mystical Pink Petal
+botania:petal:7, Mystical Gray Petal
+botania:petal:8, Mystical Light Gray Petal
+botania:petal:9, Mystical Cyan Petal
+botania:petal:10, Mystical Purple Petal
+botania:petal:11, Mystical Blue Petal
+botania:petal:12, Mystical Brown Petal
+botania:petal:13, Mystical Green Petal
+botania:petal:14, Mystical Red Petal
+botania:petal:15, Mystical Black Petal
+botania:dye:0, Floral White Powder
+botania:dye:1, Floral Orange Powder
+botania:dye:2, Floral Magenta Powder
+botania:dye:3, Floral Light Blue Powder
+botania:dye:4, Floral Yellow Powder
+botania:dye:5, Floral Lime Powder
+botania:dye:6, Floral Pink Powder
+botania:dye:7, Floral Gray Powder
+botania:dye:8, Floral Light Gray Powder
+botania:dye:9, Floral Cyan Powder
+botania:dye:10, Floral Purple Powder
+botania:dye:11, Floral Blue Powder
+botania:dye:12, Floral Brown Powder
+botania:dye:13, Floral Green Powder
+botania:dye:14, Floral Red Powder
+botania:dye:15, Floral Black Powder
+botania:pestleandmortar, item.pestleAndMortar.name
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:twigwand:0, Wand of the Forest
+botania:manaresource:0, Manasteel Ingot
+botania:manaresource:1, Mana Pearl
+botania:manaresource:2, Mana Diamond
+botania:manaresource:3, Livingwood Twig
+botania:manaresource:4, Terrasteel Ingot
+botania:manaresource:5, Gaia Spirit
+botania:manaresource:6, Redstone Root
+botania:manaresource:7, Elementium Ingot
+botania:manaresource:8, Pixie Dust
+botania:manaresource:9, Dragonstone
+botania:manaresource:11, Crafting Placeholder
+botania:manaresource:12, Red String
+botania:manaresource:13, Dreamwood Twig
+botania:manaresource:14, Gaia Spirit Ingot
+botania:manaresource:15, Ender Air Bottle
+botania:manaresource:16, Mana Infused String
+botania:manaresource:17, Manasteel Nugget
+botania:manaresource:18, Terrasteel Nugget
+botania:manaresource:19, Elementium Nugget
+botania:manaresource:22, Manaweave Cloth
+botania:manaresource:23, Mana Powder
+botania:lens:0, Mana Lens
+botania:lens:1, Mana Lens: Velocity
+botania:lens:2, Mana Lens: Potency
+botania:lens:3, Mana Lens: Resistance
+botania:lens:4, Mana Lens: Efficiency
+botania:lens:5, Mana Lens: Bounce
+botania:lens:6, Mana Lens: Gravity
+botania:lens:7, Mana Lens: Bore
+botania:lens:8, Mana Lens: Damaging
+botania:lens:9, Mana Lens: Phantom
+botania:lens:10, Mana Lens: Magnetizing
+botania:lens:11, Mana Lens: Entropic
+botania:lens:12, Mana Lens: Influence
+botania:lens:13, Mana Lens: Weight
+botania:lens:14, Mana Lens: Paintslinger
+botania:lens:15, Mana Lens: Kindle
+botania:lens:16, Mana Lens: Force
+botania:lens:17, Mana Lens: Flash
+botania:lens:18, Mana Lens: Warp
+botania:lens:19, Mana Lens: Redirective
+botania:lens:20, Mana Lens: Celebratory
+botania:lens:21, Mana Lens: Flare
+botania:lens:22, Mana Lens: Messenger
+botania:lens:23, Mana Lens: Tripwire
+botania:rune:0, Rune of Water
+botania:rune:1, Rune of Fire
+botania:rune:2, Rune of Earth
+botania:rune:3, Rune of Air
+botania:rune:4, Rune of Spring
+botania:rune:5, Rune of Summer
+botania:rune:6, Rune of Autumn
+botania:rune:7, Rune of Winter
+botania:rune:8, Rune of Mana
+botania:rune:9, Rune of Lust
+botania:rune:10, Rune of Gluttony
+botania:rune:11, Rune of Greed
+botania:rune:12, Rune of Sloth
+botania:rune:13, Rune of Wrath
+botania:rune:14, Rune of Envy
+botania:rune:15, Rune of Pride
+botania:manatablet, item.manaTablet.name
+botania:managun, item.manaGun.name
+botania:manacookie, item.manaCookie.name
+botania:fertilizer, item.fertilizer.name
+botania:grassseeds:0, Pasture Seeds
+botania:grassseeds:1, Boreal Seeds
+botania:grassseeds:2, Infestation Spores
+botania:grassseeds:3, Dry Pasture Seeds
+botania:grassseeds:4, Golden Pasture Seeds
+botania:grassseeds:5, Vivid Pasture Seeds
+botania:grassseeds:6, Scorched Pasture Seeds
+botania:grassseeds:7, Infused Pasture Seeds
+botania:grassseeds:8, Mutated Pasture Seeds
+botania:dirtrod, item.dirtRod.name
+botania:terraformrod, item.terraformRod.name
+botania:grasshorn:0, Horn of the Wild
+botania:grasshorn:1, Horn of the Canopy
+botania:grasshorn:2, Horn of the Covering
+botania:manamirror, item.manaMirror.name
+botania:manasteelhelm, item.manasteelHelm.name
+botania:manasteelhelmreveal, item.manasteelHelmReveal.name
+botania:manasteelchest, item.manasteelChest.name
+botania:manasteellegs, item.manasteelLegs.name
+botania:manasteelboots, item.manasteelBoots.name
+botania:manasteelpick, item.manasteelPick.name
+botania:manasteelshovel, item.manasteelShovel.name
+botania:manasteelaxe, item.manasteelAxe.name
+botania:manasteelsword, item.manasteelSword.name
+botania:manasteelshears, item.manasteelShears.name
+botania:terrasteelhelm, item.terrasteelHelm.name
+botania:terrasteelhelmreveal, item.terrasteelHelmReveal.name
+botania:terrasteelchest, item.terrasteelChest.name
+botania:terrasteellegs, item.terrasteelLegs.name
+botania:terrasteelboots, item.terrasteelBoots.name
+botania:terrasword, item.terraSword.name
+botania:tinyplanet, item.tinyPlanet.name
+botania:manaring, item.manaRing.name
+botania:auraring, item.auraRing.name
+botania:manaringgreater, item.manaRingGreater.name
+botania:auraringgreater, item.auraRingGreater.name
+botania:travelbelt, item.travelBelt.name
+botania:knockbackbelt, item.knockbackBelt.name
+botania:icependant, item.icePendant.name
+botania:lavapendant, item.lavaPendant.name
+botania:magnetring, item.magnetRing.name
+botania:waterring, item.waterRing.name
+botania:miningring, item.miningRing.name
+botania:terrapick, item.terraPick.name
+botania:divacharm, item.divaCharm.name
+botania:flighttiara:0, Flügel Tiara
+botania:flighttiara:1, Flügel Tiara
+botania:flighttiara:2, Flügel Tiara
+botania:flighttiara:3, Flügel Tiara
+botania:flighttiara:4, Flügel Tiara
+botania:flighttiara:5, Flügel Tiara
+botania:flighttiara:6, Flügel Tiara
+botania:flighttiara:7, Flügel Tiara
+botania:flighttiara:8, Flügel Tiara
+botania:enderdagger, item.enderDagger.name
+botania:quartz:0, Smokey Quartz
+botania:quartz:1, Mana Quartz
+botania:quartz:2, Blaze Quartz
+botania:quartz:3, Lavender Quartz
+botania:quartz:4, Redquartz
+botania:quartz:5, Elven Quartz
+botania:quartz:6, Sunny Quartz
+botania:waterrod, item.waterRod.name
+botania:elementiumhelm, item.elementiumHelm.name
+botania:elementiumhelmreveal, item.elementiumHelmReveal.name
+botania:elementiumchest, item.elementiumChest.name
+botania:elementiumlegs, item.elementiumLegs.name
+botania:elementiumboots, item.elementiumBoots.name
+botania:elementiumpick, item.elementiumPick.name
+botania:elementiumshovel, item.elementiumShovel.name
+botania:elementiumaxe, item.elementiumAxe.name
+botania:elementiumsword, item.elementiumSword.name
+botania:elementiumshears, item.elementiumShears.name
+botania:openbucket, item.openBucket.name
+botania:spawnermover, item.spawnerMover.name
+botania:pixiering, item.pixieRing.name
+botania:supertravelbelt, item.superTravelBelt.name
+botania:rainbowrod, item.rainbowRod.name
+botania:tornadorod, item.tornadoRod.name
+botania:firerod, item.fireRod.name
+botania:vineball, item.vineBall.name
+botania:slingshot, item.slingshot.name
+botania:manabottle, item.manaBottle.name
+botania:laputashard:0, Shard of Laputa
+botania:laputashard:4, Shard of Laputa
+botania:laputashard:9, Shard of Laputa
+botania:laputashard:14, Shard of Laputa
+botania:laputashard:19, Shard of Laputa
+botania:virus:0, Necrodermal Virus
+botania:virus:1, Nullodermal Virus
+botania:reachring, item.reachRing.name
+botania:skydirtrod, item.skyDirtRod.name
+botania:itemfinder, item.itemFinder.name
+botania:superlavapendant, item.superLavaPendant.name
+botania:enderhand, item.enderHand.name
+botania:glasspick, item.glassPick.name
+botania:spark, item.spark.name
+botania:sparkupgrade:0, Spark Augment: Dispersive
+botania:sparkupgrade:1, Spark Augment: Dominant
+botania:sparkupgrade:2, Spark Augment: Recessive
+botania:sparkupgrade:3, Spark Augment: Isolated
+botania:diviningrod, item.diviningRod.name
+botania:gravityrod, item.gravityRod.name
+botania:manainkwell, item.manaInkwell.name
+botania:vial:0, Managlass Vial
+botania:vial:1, Alfglass Flask
+botania:brewvial, item.brewVial.name
+botania:brewflask, item.brewFlask.name
+botania:bloodpendant, item.bloodPendant.name
+botania:missilerod, item.missileRod.name
+botania:holycloak, item.holyCloak.name
+botania:unholycloak, item.unholyCloak.name
+botania:balancecloak, item.balanceCloak.name
+botania:craftinghalo, item.craftingHalo.name
+botania:blacklotus:0, Black Lotus
+botania:blacklotus:1, Blacker Lotus
+botania:monocle, item.monocle.name
+botania:clip, item.clip.name
+botania:cobblerod, item.cobbleRod.name
+botania:smeltrod, item.smeltRod.name
+botania:worldseed, item.worldSeed.name
+botania:spellcloth, item.spellCloth.name
+botania:thornchakram:0, Thorn Chakram
+botania:thornchakram:1, Flare Chakram
+botania:overgrowthseed, item.overgrowthSeed.name
+botania:craftpattern:0, Crafting Pattern #1: 1x1
+botania:craftpattern:1, Crafting Pattern #2: 2x2
+botania:craftpattern:2, Crafting Pattern #3: 1x2
+botania:craftpattern:3, Crafting Pattern #4: 2x1
+botania:craftpattern:4, Crafting Pattern #5: 1x3
+botania:craftpattern:5, Crafting Pattern #6: 3x1
+botania:craftpattern:6, Crafting Pattern #7: 2x3
+botania:craftpattern:7, Crafting Pattern #8: 3x2
+botania:craftpattern:8, Crafting Pattern #9: Donut
+botania:ancientwill:0, Will of Ahrim
+botania:ancientwill:1, Will of Dharok
+botania:ancientwill:2, Will of Guthan
+botania:ancientwill:3, Will of Torag
+botania:ancientwill:4, Will of Verac
+botania:ancientwill:5, Will of Karil
+botania:corporeaspark:0, Corporea Spark
+botania:corporeaspark:1, Master Corporea Spark
+botania:livingwoodbow, item.livingwoodBow.name
+botania:crystalbow, item.crystalBow.name
+botania:cosmetic:0, Black Bowtie
+botania:cosmetic:1, Black Tie
+botania:cosmetic:2, Red Glasses
+botania:cosmetic:3, Puffy Scarf
+botania:cosmetic:4, Engineer Goggles
+botania:cosmetic:5, Eyepatch
+botania:cosmetic:6, Wicked Eyepatch
+botania:cosmetic:7, Red Ribbons
+botania:cosmetic:8, Pink Flower Bud
+botania:cosmetic:9, Polka-Dotted Bows
+botania:cosmetic:10, Blue Butterfly
+botania:cosmetic:11, Cat Ears
+botania:cosmetic:12, Witch Pin
+botania:cosmetic:13, Devil Tail
+botania:cosmetic:14, Kamui Eye
+botania:cosmetic:15, Googly Eyes
+botania:cosmetic:16, Four-Leafed Clover
+botania:cosmetic:17, Clock Eye
+botania:cosmetic:18, Unicorn Horn
+botania:cosmetic:19, Devil Horns
+botania:cosmetic:20, Hyper Plus
+botania:cosmetic:21, Botanist Emblem
+botania:cosmetic:22, Ancient Mask
+botania:cosmetic:23, Eerie Mask
+botania:cosmetic:24, Alien Antenna
+botania:cosmetic:25, Anaglyph Glasses
+botania:cosmetic:26, Orange Shades
+botania:cosmetic:27, Groucho Glasses
+botania:cosmetic:28, Thick Eyebrows
+botania:cosmetic:29, Lusitanic Shield
+botania:cosmetic:30, Tiny Potato Mask
+botania:cosmetic:31, Questgiver Mark
+botania:cosmetic:32, Thinking Hand
+botania:swapring, item.swapRing.name
+botania:flowerbag, item.flowerBag.name
+botania:phantomink, item.phantomInk.name
+botania:poolminecart, item.poolMinecart.name
+botania:pinkinator, item.pinkinator.name
+botania:infinitefruit, item.infiniteFruit.name
+botania:kingkey, item.kingKey.name
+botania:flugeleye, item.flugelEye.name
+botania:thorring, item.thorRing.name
+botania:odinring, item.odinRing.name
+botania:lokiring, item.lokiRing.name
+botania:dice, item.dice.name
+botania:keepivy, item.keepIvy.name
+botania:blackholetalisman:0, Black Hole Talisman
+botania:recordgaia1, item.recordGaia1.name
+botania:recordgaia2, item.recordGaia2.name
+botania:temperancestone:0, Stone of Temperance
+botania:incensestick, item.incenseStick.name
+botania:terraaxe, item.terraAxe.name
+botania:waterbowl, item.waterBowl.name
+botania:obediencestick, item.obedienceStick.name
+botania:cacophonium, item.cacophonium.name
+botania:slimebottle:0, Slime in a Bottle
+botania:starsword, item.starSword.name
+botania:exchangerod, item.exchangeRod.name
+botania:magnetringgreater, item.magnetRingGreater.name
+botania:thundersword, item.thunderSword.name
+botania:manaweavehelm, item.manaweaveHelm.name
+botania:manaweavechest, item.manaweaveChest.name
+botania:manaweavelegs, item.manaweaveLegs.name
+botania:manaweaveboots, item.manaweaveBoots.name
+botania:autocraftinghalo, item.autocraftingHalo.name
+botania:gaiahead, item.gaiaHead.name
+botania:sextant, item.sextant.name
+botania:speedupbelt, item.speedUpBelt.name
+botania:baublebox, item.baubleBox.name
+botania:dodgering, item.dodgeRing.name
+botania:invisibilitycloak, item.invisibilityCloak.name
+botania:cloudpendant, item.cloudPendant.name
+botania:supercloudpendant, item.superCloudPendant.name
+botania:thirdeye, item.thirdEye.name
+botania:astrolabe, item.astrolabe.name
+botania:goddesscharm, item.goddessCharm.name
 botania:flower:0, Mystical White Flower
 botania:flower:1, Mystical Orange Flower
 botania:flower:2, Mystical Magenta Flower
@@ -11521,341 +11856,6 @@ botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
 botania:managlasspane, tile.manaGlassPane.name
 botania:elfglasspane, tile.elfGlassPane.name
 botania:bifrostpermpane, tile.bifrostPermPane.name
-botania:lexicon, item.lexicon.name
-botania:petal:0, Mystical White Petal
-botania:petal:1, Mystical Orange Petal
-botania:petal:2, Mystical Magenta Petal
-botania:petal:3, Mystical Light Blue Petal
-botania:petal:4, Mystical Yellow Petal
-botania:petal:5, Mystical Lime Petal
-botania:petal:6, Mystical Pink Petal
-botania:petal:7, Mystical Gray Petal
-botania:petal:8, Mystical Light Gray Petal
-botania:petal:9, Mystical Cyan Petal
-botania:petal:10, Mystical Purple Petal
-botania:petal:11, Mystical Blue Petal
-botania:petal:12, Mystical Brown Petal
-botania:petal:13, Mystical Green Petal
-botania:petal:14, Mystical Red Petal
-botania:petal:15, Mystical Black Petal
-botania:dye:0, Floral White Powder
-botania:dye:1, Floral Orange Powder
-botania:dye:2, Floral Magenta Powder
-botania:dye:3, Floral Light Blue Powder
-botania:dye:4, Floral Yellow Powder
-botania:dye:5, Floral Lime Powder
-botania:dye:6, Floral Pink Powder
-botania:dye:7, Floral Gray Powder
-botania:dye:8, Floral Light Gray Powder
-botania:dye:9, Floral Cyan Powder
-botania:dye:10, Floral Purple Powder
-botania:dye:11, Floral Blue Powder
-botania:dye:12, Floral Brown Powder
-botania:dye:13, Floral Green Powder
-botania:dye:14, Floral Red Powder
-botania:dye:15, Floral Black Powder
-botania:pestleandmortar, item.pestleAndMortar.name
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:twigwand:0, Wand of the Forest
-botania:manaresource:0, Manasteel Ingot
-botania:manaresource:1, Mana Pearl
-botania:manaresource:2, Mana Diamond
-botania:manaresource:3, Livingwood Twig
-botania:manaresource:4, Terrasteel Ingot
-botania:manaresource:5, Gaia Spirit
-botania:manaresource:6, Redstone Root
-botania:manaresource:7, Elementium Ingot
-botania:manaresource:8, Pixie Dust
-botania:manaresource:9, Dragonstone
-botania:manaresource:11, Crafting Placeholder
-botania:manaresource:12, Red String
-botania:manaresource:13, Dreamwood Twig
-botania:manaresource:14, Gaia Spirit Ingot
-botania:manaresource:15, Ender Air Bottle
-botania:manaresource:16, Mana Infused String
-botania:manaresource:17, Manasteel Nugget
-botania:manaresource:18, Terrasteel Nugget
-botania:manaresource:19, Elementium Nugget
-botania:manaresource:22, Manaweave Cloth
-botania:manaresource:23, Mana Powder
-botania:lens:0, Mana Lens
-botania:lens:1, Mana Lens: Velocity
-botania:lens:2, Mana Lens: Potency
-botania:lens:3, Mana Lens: Resistance
-botania:lens:4, Mana Lens: Efficiency
-botania:lens:5, Mana Lens: Bounce
-botania:lens:6, Mana Lens: Gravity
-botania:lens:7, Mana Lens: Bore
-botania:lens:8, Mana Lens: Damaging
-botania:lens:9, Mana Lens: Phantom
-botania:lens:10, Mana Lens: Magnetizing
-botania:lens:11, Mana Lens: Entropic
-botania:lens:12, Mana Lens: Influence
-botania:lens:13, Mana Lens: Weight
-botania:lens:14, Mana Lens: Paintslinger
-botania:lens:15, Mana Lens: Kindle
-botania:lens:16, Mana Lens: Force
-botania:lens:17, Mana Lens: Flash
-botania:lens:18, Mana Lens: Warp
-botania:lens:19, Mana Lens: Redirective
-botania:lens:20, Mana Lens: Celebratory
-botania:lens:21, Mana Lens: Flare
-botania:lens:22, Mana Lens: Messenger
-botania:lens:23, Mana Lens: Tripwire
-botania:rune:0, Rune of Water
-botania:rune:1, Rune of Fire
-botania:rune:2, Rune of Earth
-botania:rune:3, Rune of Air
-botania:rune:4, Rune of Spring
-botania:rune:5, Rune of Summer
-botania:rune:6, Rune of Autumn
-botania:rune:7, Rune of Winter
-botania:rune:8, Rune of Mana
-botania:rune:9, Rune of Lust
-botania:rune:10, Rune of Gluttony
-botania:rune:11, Rune of Greed
-botania:rune:12, Rune of Sloth
-botania:rune:13, Rune of Wrath
-botania:rune:14, Rune of Envy
-botania:rune:15, Rune of Pride
-botania:manatablet, item.manaTablet.name
-botania:managun, item.manaGun.name
-botania:manacookie, item.manaCookie.name
-botania:fertilizer, item.fertilizer.name
-botania:grassseeds:0, Pasture Seeds
-botania:grassseeds:1, Boreal Seeds
-botania:grassseeds:2, Infestation Spores
-botania:grassseeds:3, Dry Pasture Seeds
-botania:grassseeds:4, Golden Pasture Seeds
-botania:grassseeds:5, Vivid Pasture Seeds
-botania:grassseeds:6, Scorched Pasture Seeds
-botania:grassseeds:7, Infused Pasture Seeds
-botania:grassseeds:8, Mutated Pasture Seeds
-botania:dirtrod, item.dirtRod.name
-botania:terraformrod, item.terraformRod.name
-botania:grasshorn:0, Horn of the Wild
-botania:grasshorn:1, Horn of the Canopy
-botania:grasshorn:2, Horn of the Covering
-botania:manamirror, item.manaMirror.name
-botania:manasteelhelm, item.manasteelHelm.name
-botania:manasteelhelmreveal, item.manasteelHelmReveal.name
-botania:manasteelchest, item.manasteelChest.name
-botania:manasteellegs, item.manasteelLegs.name
-botania:manasteelboots, item.manasteelBoots.name
-botania:manasteelpick, item.manasteelPick.name
-botania:manasteelshovel, item.manasteelShovel.name
-botania:manasteelaxe, item.manasteelAxe.name
-botania:manasteelsword, item.manasteelSword.name
-botania:manasteelshears, item.manasteelShears.name
-botania:terrasteelhelm, item.terrasteelHelm.name
-botania:terrasteelhelmreveal, item.terrasteelHelmReveal.name
-botania:terrasteelchest, item.terrasteelChest.name
-botania:terrasteellegs, item.terrasteelLegs.name
-botania:terrasteelboots, item.terrasteelBoots.name
-botania:terrasword, item.terraSword.name
-botania:tinyplanet, item.tinyPlanet.name
-botania:manaring, item.manaRing.name
-botania:auraring, item.auraRing.name
-botania:manaringgreater, item.manaRingGreater.name
-botania:auraringgreater, item.auraRingGreater.name
-botania:travelbelt, item.travelBelt.name
-botania:knockbackbelt, item.knockbackBelt.name
-botania:icependant, item.icePendant.name
-botania:lavapendant, item.lavaPendant.name
-botania:magnetring, item.magnetRing.name
-botania:waterring, item.waterRing.name
-botania:miningring, item.miningRing.name
-botania:terrapick, item.terraPick.name
-botania:divacharm, item.divaCharm.name
-botania:flighttiara:0, Flügel Tiara
-botania:flighttiara:1, Flügel Tiara
-botania:flighttiara:2, Flügel Tiara
-botania:flighttiara:3, Flügel Tiara
-botania:flighttiara:4, Flügel Tiara
-botania:flighttiara:5, Flügel Tiara
-botania:flighttiara:6, Flügel Tiara
-botania:flighttiara:7, Flügel Tiara
-botania:flighttiara:8, Flügel Tiara
-botania:enderdagger, item.enderDagger.name
-botania:quartz:0, Smokey Quartz
-botania:quartz:1, Mana Quartz
-botania:quartz:2, Blaze Quartz
-botania:quartz:3, Lavender Quartz
-botania:quartz:4, Redquartz
-botania:quartz:5, Elven Quartz
-botania:quartz:6, Sunny Quartz
-botania:waterrod, item.waterRod.name
-botania:elementiumhelm, item.elementiumHelm.name
-botania:elementiumhelmreveal, item.elementiumHelmReveal.name
-botania:elementiumchest, item.elementiumChest.name
-botania:elementiumlegs, item.elementiumLegs.name
-botania:elementiumboots, item.elementiumBoots.name
-botania:elementiumpick, item.elementiumPick.name
-botania:elementiumshovel, item.elementiumShovel.name
-botania:elementiumaxe, item.elementiumAxe.name
-botania:elementiumsword, item.elementiumSword.name
-botania:elementiumshears, item.elementiumShears.name
-botania:openbucket, item.openBucket.name
-botania:spawnermover, item.spawnerMover.name
-botania:pixiering, item.pixieRing.name
-botania:supertravelbelt, item.superTravelBelt.name
-botania:rainbowrod, item.rainbowRod.name
-botania:tornadorod, item.tornadoRod.name
-botania:firerod, item.fireRod.name
-botania:vineball, item.vineBall.name
-botania:slingshot, item.slingshot.name
-botania:manabottle, item.manaBottle.name
-botania:laputashard:0, Shard of Laputa
-botania:laputashard:4, Shard of Laputa
-botania:laputashard:9, Shard of Laputa
-botania:laputashard:14, Shard of Laputa
-botania:laputashard:19, Shard of Laputa
-botania:virus:0, Necrodermal Virus
-botania:virus:1, Nullodermal Virus
-botania:reachring, item.reachRing.name
-botania:skydirtrod, item.skyDirtRod.name
-botania:itemfinder, item.itemFinder.name
-botania:superlavapendant, item.superLavaPendant.name
-botania:enderhand, item.enderHand.name
-botania:glasspick, item.glassPick.name
-botania:spark, item.spark.name
-botania:sparkupgrade:0, Spark Augment: Dispersive
-botania:sparkupgrade:1, Spark Augment: Dominant
-botania:sparkupgrade:2, Spark Augment: Recessive
-botania:sparkupgrade:3, Spark Augment: Isolated
-botania:diviningrod, item.diviningRod.name
-botania:gravityrod, item.gravityRod.name
-botania:manainkwell, item.manaInkwell.name
-botania:vial:0, Managlass Vial
-botania:vial:1, Alfglass Flask
-botania:brewvial, item.brewVial.name
-botania:brewflask, item.brewFlask.name
-botania:bloodpendant, item.bloodPendant.name
-botania:missilerod, item.missileRod.name
-botania:holycloak, item.holyCloak.name
-botania:unholycloak, item.unholyCloak.name
-botania:balancecloak, item.balanceCloak.name
-botania:craftinghalo, item.craftingHalo.name
-botania:blacklotus:0, Black Lotus
-botania:blacklotus:1, Blacker Lotus
-botania:monocle, item.monocle.name
-botania:clip, item.clip.name
-botania:cobblerod, item.cobbleRod.name
-botania:smeltrod, item.smeltRod.name
-botania:worldseed, item.worldSeed.name
-botania:spellcloth, item.spellCloth.name
-botania:thornchakram:0, Thorn Chakram
-botania:thornchakram:1, Flare Chakram
-botania:overgrowthseed, item.overgrowthSeed.name
-botania:craftpattern:0, Crafting Pattern #1: 1x1
-botania:craftpattern:1, Crafting Pattern #2: 2x2
-botania:craftpattern:2, Crafting Pattern #3: 1x2
-botania:craftpattern:3, Crafting Pattern #4: 2x1
-botania:craftpattern:4, Crafting Pattern #5: 1x3
-botania:craftpattern:5, Crafting Pattern #6: 3x1
-botania:craftpattern:6, Crafting Pattern #7: 2x3
-botania:craftpattern:7, Crafting Pattern #8: 3x2
-botania:craftpattern:8, Crafting Pattern #9: Donut
-botania:ancientwill:0, Will of Ahrim
-botania:ancientwill:1, Will of Dharok
-botania:ancientwill:2, Will of Guthan
-botania:ancientwill:3, Will of Torag
-botania:ancientwill:4, Will of Verac
-botania:ancientwill:5, Will of Karil
-botania:corporeaspark:0, Corporea Spark
-botania:corporeaspark:1, Master Corporea Spark
-botania:livingwoodbow, item.livingwoodBow.name
-botania:crystalbow, item.crystalBow.name
-botania:cosmetic:0, Black Bowtie
-botania:cosmetic:1, Black Tie
-botania:cosmetic:2, Red Glasses
-botania:cosmetic:3, Puffy Scarf
-botania:cosmetic:4, Engineer Goggles
-botania:cosmetic:5, Eyepatch
-botania:cosmetic:6, Wicked Eyepatch
-botania:cosmetic:7, Red Ribbons
-botania:cosmetic:8, Pink Flower Bud
-botania:cosmetic:9, Polka-Dotted Bows
-botania:cosmetic:10, Blue Butterfly
-botania:cosmetic:11, Cat Ears
-botania:cosmetic:12, Witch Pin
-botania:cosmetic:13, Devil Tail
-botania:cosmetic:14, Kamui Eye
-botania:cosmetic:15, Googly Eyes
-botania:cosmetic:16, Four-Leafed Clover
-botania:cosmetic:17, Clock Eye
-botania:cosmetic:18, Unicorn Horn
-botania:cosmetic:19, Devil Horns
-botania:cosmetic:20, Hyper Plus
-botania:cosmetic:21, Botanist Emblem
-botania:cosmetic:22, Ancient Mask
-botania:cosmetic:23, Eerie Mask
-botania:cosmetic:24, Alien Antenna
-botania:cosmetic:25, Anaglyph Glasses
-botania:cosmetic:26, Orange Shades
-botania:cosmetic:27, Groucho Glasses
-botania:cosmetic:28, Thick Eyebrows
-botania:cosmetic:29, Lusitanic Shield
-botania:cosmetic:30, Tiny Potato Mask
-botania:cosmetic:31, Questgiver Mark
-botania:cosmetic:32, Thinking Hand
-botania:swapring, item.swapRing.name
-botania:flowerbag, item.flowerBag.name
-botania:phantomink, item.phantomInk.name
-botania:poolminecart, item.poolMinecart.name
-botania:pinkinator, item.pinkinator.name
-botania:infinitefruit, item.infiniteFruit.name
-botania:kingkey, item.kingKey.name
-botania:flugeleye, item.flugelEye.name
-botania:thorring, item.thorRing.name
-botania:odinring, item.odinRing.name
-botania:lokiring, item.lokiRing.name
-botania:dice, item.dice.name
-botania:keepivy, item.keepIvy.name
-botania:blackholetalisman:0, Black Hole Talisman
-botania:recordgaia1, item.recordGaia1.name
-botania:recordgaia2, item.recordGaia2.name
-botania:temperancestone:0, Stone of Temperance
-botania:incensestick, item.incenseStick.name
-botania:terraaxe, item.terraAxe.name
-botania:waterbowl, item.waterBowl.name
-botania:obediencestick, item.obedienceStick.name
-botania:cacophonium, item.cacophonium.name
-botania:slimebottle:0, Slime in a Bottle
-botania:starsword, item.starSword.name
-botania:exchangerod, item.exchangeRod.name
-botania:magnetringgreater, item.magnetRingGreater.name
-botania:thundersword, item.thunderSword.name
-botania:manaweavehelm, item.manaweaveHelm.name
-botania:manaweavechest, item.manaweaveChest.name
-botania:manaweavelegs, item.manaweaveLegs.name
-botania:manaweaveboots, item.manaweaveBoots.name
-botania:autocraftinghalo, item.autocraftingHalo.name
-botania:gaiahead, item.gaiaHead.name
-botania:sextant, item.sextant.name
-botania:speedupbelt, item.speedUpBelt.name
-botania:baublebox, item.baubleBox.name
-botania:dodgering, item.dodgeRing.name
-botania:invisibilitycloak, item.invisibilityCloak.name
-botania:cloudpendant, item.cloudPendant.name
-botania:supercloudpendant, item.superCloudPendant.name
-botania:thirdeye, item.thirdEye.name
-botania:astrolabe, item.astrolabe.name
-botania:goddesscharm, item.goddessCharm.name
 buildinggadgets:buildingtool, Building Gadget
 buildinggadgets:exchangertool, Exchanging Gadget
 buildinggadgets:copypastetool, Copy-Paste Gadget
@@ -12369,24 +12369,6 @@ integratedtunnels:part_exporter_world_fluid_item, parttype.parttypes.integratedt
 integratedtunnels:part_importer_world_block_item, parttype.parttypes.integratedtunnels.importer_world_block.name.name
 integratedtunnels:part_exporter_world_block_item, parttype.parttypes.integratedtunnels.exporter_world_block.name.name
 integratedtunnels:part_player_simulator_item, parttype.parttypes.integratedtunnels.player_simulator.name.name
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -12507,6 +12489,24 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 itemfilters:filter, Item Filter
 itemfilters:missing, Missing Item
 wizardry:crafting_plate, tile.crafting_plate.name
@@ -12573,6 +12573,9 @@ wizardry:cape, item.cape.name
 wizardry:halo_fake, item.halo_fake.name
 wizardry:halo_real, item.halo_real.name
 wizardry:halo_creative, item.halo_creative.name
+plustic:mirionnugget, Mirion Nugget
+plustic:mirioningot, Mirion Ingot
+plustic:mirionblock, Mirion Block
 plustic:pipe_piece:0, Electrical Pipe Piece
 plustic:pipe_piece:0, Energetic Pipe Piece
 plustic:pipe_piece:0, Vibrant Pipe Piece
@@ -12656,9 +12659,6 @@ plustic:battery_cell:0, Nickel Battery Cell
 plustic:battery_cell:0, Fluix Crystal Battery Cell
 plustic:laser_gun, Laser Gun
 plustic:katana, Katana
-plustic:mirionnugget, Mirion Nugget
-plustic:mirioningot, Mirion Ingot
-plustic:mirionblock, Mirion Block
 netherendingores:creative_tab, Creative Tab Block
 netherendingores:ore_end_modded_1:0, End Aluminum Ore
 netherendingores:ore_end_modded_1:1, End Copper Ore
@@ -12715,6 +12715,20 @@ netherendingores:ore_other_1:3, End Ardite Ore
 netherendingores:ore_other_1:4, Overworld Cobalt Ore
 netherendingores:ore_other_1:5, End Cobalt Ore
 oeintegration:excavatemodifier, Excavate Modifier
+pneumaticcraft:fluid.lpg, LPG
+pneumaticcraft:fluid.etchacid, Etching Acid
+pneumaticcraft:fluid.kerosene, Kerosene
+pneumaticcraft:fluid.plastic, Plastic
+pneumaticcraft:fluid.fuel, Gasoline
+pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
+pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
+pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
+pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
+pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
+pneumaticcraft:heat_frame, Heat Frame
+pneumaticcraft:spawner_agitator, Spawner Agitator
+pneumaticcraft:crop_support, Crop Support
+pneumaticcraft:transfer_gadget, Transfer Gadget
 pneumaticcraft:gps_tool, GPS Tool
 pneumaticcraft:gps_area_tool, GPS Area Tool
 pneumaticcraft:ingot_iron_compressed, Compressed Steel Ingot
@@ -12864,20 +12878,6 @@ pneumaticcraft:pneumatic_dynamo, Pneumatic Dynamo
 pneumaticcraft:fake_ice, tile.fake_ice.name
 pneumaticcraft:thermal_compressor, Thermal Compressor
 pneumaticcraft:drone_interface, Drone Interface
-pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
-pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
-pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
-pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
-pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
-pneumaticcraft:heat_frame, Heat Frame
-pneumaticcraft:spawner_agitator, Spawner Agitator
-pneumaticcraft:crop_support, Crop Support
-pneumaticcraft:transfer_gadget, Transfer Gadget
-pneumaticcraft:fluid.etchacid, Etching Acid
-pneumaticcraft:fluid.fuel, Gasoline
-pneumaticcraft:fluid.plastic, Plastic
-pneumaticcraft:fluid.lpg, LPG
-pneumaticcraft:fluid.kerosene, Kerosene
 pneumaticcraft:safety_tube_module, Safety Tube Module
 pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
 pneumaticcraft:flow_detector_module, Flow Detector Tube Module
@@ -13593,6 +13593,7 @@ xtones:zyth:13, Zyth
 xtones:zyth:14, Zyth
 xtones:zyth:15, Zyth
 zensummoning:altar, Summoning Altar
+solcarrot:food_book, Food Book
 base:wrench, Wrench
 botania_tweaks:compressed_tiny_potato_1, Little Potato
 botania_tweaks:compressed_tiny_potato_2, Small Potato
@@ -13967,7 +13968,7 @@ chiselsandbits:block_bit:0, Chiseled Bit - Block of Yellow Garnet
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Red Garnet
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Copper
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Tin
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Refined Iron
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Refined Steel
 chiselsandbits:block_bit:0, Chiseled Bit - Fusion Coil
 chiselsandbits:block_bit:0, Chiseled Bit - Basic Machine Frame
 chiselsandbits:block_bit:0, Chiseled Bit - Advanced Machine Frame
@@ -17560,7 +17561,7 @@ techreborn:ingot:15, Tungsten Ingot
 techreborn:ingot:16, Hot Tungstensteel Ingot
 techreborn:ingot:17, Tungstensteel Ingot
 techreborn:ingot:18, Zinc Ingot
-techreborn:ingot:19, Refined Iron Ingot
+techreborn:ingot:19, Refined Steel Ingot
 techreborn:ingot:20, Advanced Alloy Ingot
 techreborn:ingot:21, Mixed Metal Ingot
 techreborn:ingot:22, Iridium Alloy Ingot
@@ -17586,7 +17587,7 @@ techreborn:nuggets:15, Tungsten Nugget
 techreborn:nuggets:16, Hot Tungstensteel Nugget
 techreborn:nuggets:17, Tungstensteel Nugget
 techreborn:nuggets:18, Zinc Nugget
-techreborn:nuggets:19, Refined Iron Nugget
+techreborn:nuggets:19, Refined Steel Nugget
 techreborn:nuggets:23, Iron Nugget
 techreborn:nuggets:24, Diamond Nugget
 techreborn:part:0, Energy Flow Circuit
@@ -17665,7 +17666,7 @@ techreborn:plates:31, Titanium Plate
 techreborn:plates:32, Tungsten Plate
 techreborn:plates:33, Tungstensteel Plate
 techreborn:plates:34, Zinc Plate
-techreborn:plates:35, Refined Iron Plate
+techreborn:plates:35, Refined Steel Plate
 techreborn:plates:36, Advanced Alloy Plate
 techreborn:plates:37, Magnalium Plate
 techreborn:plates:38, Iridium Alloy Plate

@@ -5,6 +5,13 @@
   "rules": [
     {
       "appliesTo": [
+        "0"
+      ],
+      "canRespawnHere": true,
+      "canSleepHere": true
+    },
+    {
+      "appliesTo": [
         "*"
       ],
       "canRespawnHere": false,

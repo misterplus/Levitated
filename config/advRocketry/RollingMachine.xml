@@ -187,6 +187,15 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
+			<oreDict>ingotIridiumAlloy</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>techreborn:plates;1;38</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
 			<oreDict>ingotCopper</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>

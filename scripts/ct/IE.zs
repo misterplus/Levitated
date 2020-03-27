@@ -35,3 +35,9 @@ addMineral("Cobalt", 20, 0.25, ["oreNetherCobalt"], [1], [-1]);
 //Rainbow Ingot
 mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:rainbow_ingot>, <ore:ingotUranium>, <immersiveengineering:material:7>, 600, 4096, [<extrautils2:decorativesolid:8>, <ore:itemEnderCrystal>, <ore:itemPrecientCrystal>], "Alloying");
 
+//Early calcium sources
+mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:32>, <ore:stoneMarble>, 4096);
+mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:4>, <ore:stoneBasalt>, 4096);
+
+//Refined steel
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19> * 2, <immersiveengineering:metal:8> * 3, <immersiveengineering:material:7>, 200, 1024, [<techreborn:dust:8> * 2, <immersiveengineering:material:17> * 2], "Alloying");

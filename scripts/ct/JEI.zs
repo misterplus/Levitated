@@ -18,6 +18,10 @@ addDescription(<minecraft:feather>, game.localize("description.levitated.feather
 <extrautils2:chickenring:1>.displayName = game.localize("rename.levitated.shulker_ring");
 <pneumaticcraft:ingot_iron_compressed>.displayName = game.localize("rename.levitated.compiron");
 <pneumaticcraft:compressed_iron_block>.displayName = game.localize("rename.levitated.compiron_block");
+<techreborn:ingot:19>.displayName = game.localize("rename.levitated.refined_iron_ingot");
+<techreborn:storage2:10>.displayName = game.localize("rename.levitated.refined_iron_block");
+<techreborn:nuggets:19>.displayName = game.localize("rename.levitated.refined_iron_nugget");
+<techreborn:plates:35>.displayName = game.localize("rename.levitated.refined_iron_plate");
 
 //General Items
 var banned_items = [<integrateddynamics:coal_generator>, <botania:rfgenerator>, <immersiveengineering:stone_decoration:10>, <immersiveengineering:stone_decoration_slab:10>] as IItemStack[];
