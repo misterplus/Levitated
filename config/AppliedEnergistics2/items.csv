@@ -1663,18 +1663,6 @@ extrautils2:ironwood_sapling:0, Ferrous-Juniper Sapling
 extrautils2:ironwood_sapling:1, Dead Ferrous-Juniper Sapling
 extrautils2:ironwood_planks:0, Ferrous-Juniper Planks
 extrautils2:ironwood_planks:1, Raw Ferrous-Juniper Planks
-plustic:alumitenugget, Alumite Nugget
-plustic:alumiteingot, Alumite Ingot
-plustic:alumiteblock, Alumite Block
-plustic:plustic.molten_alumite, Molten Alumite
-plustic:invarnugget, Invar Nugget
-plustic:invaringot, Invar Ingot
-plustic:invarblock, Invar Block
-plustic:plustic.molten_titanium, Molten Titanium
-plustic:plustic.molten_terrasteel, Molten Terrasteel
-plustic:plustic.molten_elementium, Molten Elementium
-plustic:plustic.molten_manasteel, Molten Manasteel
-plustic:plustic.molten_mirion, Molten Mirion
 reccomplex:block_selector, Block Selector
 reccomplex:block_selector_floating, Floating Block Selector
 reccomplex:inventory_generation_tag, Loot Generation Tag
@@ -4903,8 +4891,6 @@ appliedenergistics2:facade:0, Cable Facade - Ferrous-Juniper Log
 appliedenergistics2:facade:0, Cable Facade - Ferrous-Juniper Log
 appliedenergistics2:facade:0, Cable Facade - Ferrous-Juniper Planks
 appliedenergistics2:facade:0, Cable Facade - Raw Ferrous-Juniper Planks
-appliedenergistics2:facade:0, Cable Facade - Alumite Block
-appliedenergistics2:facade:0, Cable Facade - Invar Block
 appliedenergistics2:facade:0, Cable Facade - Space (0 ~ Negative Space)
 appliedenergistics2:facade:0, Cable Facade - Space (1 ~ Natural Air)
 appliedenergistics2:facade:0, Cable Facade - Space (2)
@@ -7140,6 +7126,65 @@ appliedenergistics2:facade:0, Cable Facade - Brownstone Creeperface
 appliedenergistics2:facade:0, Cable Facade - Triangle Brownstone Bricks
 appliedenergistics2:facade:0, Cable Facade - Small Brownstone Bricks
 appliedenergistics2:facade:0, Cable Facade - Brownstone Tiles
+appliedenergistics2:facade:0, Cable Facade - Block of Smokey Quartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Smokey Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Smokey Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Block of Mana Quartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Mana Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Mana Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Block of Blaze Quartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Blaze Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Blaze Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Block of Lavender Quartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Lavender Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Lavender Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Block of Redquartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Redquartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Redquartz Block
+appliedenergistics2:facade:0, Cable Facade - Block of Elven Quartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Elven Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Elven Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Block of Sunny Quartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Sunny Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Sunny Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Forest Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Plains Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Mountain Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Fungal Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Swamp Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Desert Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Taiga Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Mesa Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Forest Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Plains Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Mountain Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Fungal Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Swamp Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Desert Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Taiga Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Mesa Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Forest Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Plains Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Mountain Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Fungal Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Swamp Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Desert Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Taiga Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Mesa Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Forest Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Plains Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Mountain Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Fungal Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Swamp Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Desert Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Taiga Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Mesa Stone Brick
+appliedenergistics2:facade:0, Cable Facade - White Portuguese Pavement
+appliedenergistics2:facade:0, Cable Facade - Black Portuguese Pavement
+appliedenergistics2:facade:0, Cable Facade - Blue Portuguese Pavement
+appliedenergistics2:facade:0, Cable Facade - Red Portuguese Pavement
+appliedenergistics2:facade:0, Cable Facade - Yellow Portuguese Pavement
+appliedenergistics2:facade:0, Cable Facade - Green Portuguese Pavement
 appliedenergistics2:facade:0, Cable Facade - Livingrock
 appliedenergistics2:facade:0, Cable Facade - Livingrock Brick
 appliedenergistics2:facade:0, Cable Facade - Mossy Livingrock Brick
@@ -7210,65 +7255,6 @@ appliedenergistics2:facade:0, Cable Facade - Vivid Grass
 appliedenergistics2:facade:0, Cable Facade - Scorched Grass
 appliedenergistics2:facade:0, Cable Facade - Infused Grass
 appliedenergistics2:facade:0, Cable Facade - Mutated Grass
-appliedenergistics2:facade:0, Cable Facade - Block of Smokey Quartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Smokey Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Block of Mana Quartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Mana Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Mana Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Block of Blaze Quartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Blaze Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Blaze Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Block of Lavender Quartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Lavender Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Lavender Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Block of Redquartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Redquartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Redquartz Block
-appliedenergistics2:facade:0, Cable Facade - Block of Elven Quartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Elven Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Elven Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Block of Sunny Quartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Sunny Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Sunny Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Forest Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Plains Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Mountain Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Fungal Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Swamp Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Desert Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Taiga Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Mesa Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Forest Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Plains Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Mountain Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Fungal Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Swamp Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Desert Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Taiga Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Mesa Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Forest Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Plains Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Mountain Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Fungal Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Swamp Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Desert Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Taiga Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Mesa Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Forest Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Plains Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Mountain Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Fungal Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Swamp Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Desert Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Taiga Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Mesa Stone Brick
-appliedenergistics2:facade:0, Cable Facade - White Portuguese Pavement
-appliedenergistics2:facade:0, Cable Facade - Black Portuguese Pavement
-appliedenergistics2:facade:0, Cable Facade - Blue Portuguese Pavement
-appliedenergistics2:facade:0, Cable Facade - Red Portuguese Pavement
-appliedenergistics2:facade:0, Cable Facade - Yellow Portuguese Pavement
-appliedenergistics2:facade:0, Cable Facade - Green Portuguese Pavement
 appliedenergistics2:facade:0, Cable Facade - Dense Construction Block
 appliedenergistics2:facade:0, Cable Facade - Soot-covered Machine Casing
 appliedenergistics2:facade:0, Cable Facade - Glitch Infused Block
@@ -7977,7 +7963,6 @@ appliedenergistics2:facade:0, Cable Facade - Lonsdaleite Bricks
 appliedenergistics2:facade:0, Cable Facade - Lonsdaleite Tiles
 appliedenergistics2:facade:0, Cable Facade - Mica
 appliedenergistics2:facade:0, Cable Facade - Interconnect
-appliedenergistics2:facade:0, Cable Facade - Mirion Block
 appliedenergistics2:crystal_seed:0, Certus Quartz Seed
 appliedenergistics2:crystal_seed:600, Nether Quartz Seed
 appliedenergistics2:crystal_seed:1200, Fluix Seed
@@ -8914,37 +8899,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Hand Guard Pattern
 tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Shovel Head Pattern
 tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Battery Cell Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Pipe Piece Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Laser Medium Pattern
-tconstruct:pattern:0, Kama Head Pattern
 tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
 tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Arrow Head Pattern
 tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
 tconstruct:shard:0, Electrical Shard
 tconstruct:shard:0, Energetic Shard
 tconstruct:shard:0, Vibrant Shard
@@ -8988,30 +8970,6 @@ tconstruct:shard:0, Enchanted Shard
 tconstruct:shard:0, Demonic Shard
 tconstruct:shard:0, Treated Wood Shard
 tconstruct:shard:0, Constantan Shard
-tconstruct:shard:0, Alumite Shard
-tconstruct:shard:0, Nickel Shard
-tconstruct:shard:0, Invar Shard
-tconstruct:shard:0, Iridium Shard
-tconstruct:shard:0, Titanium Shard
-tconstruct:shard:0, Lumium Shard
-tconstruct:shard:0, Signalum Shard
-tconstruct:shard:0, Platinum Shard
-tconstruct:shard:0, Enderium Shard
-tconstruct:shard:0, Certus Quartz Shard
-tconstruct:shard:0, Fluix Crystal Shard
-tconstruct:shard:0, Mica Shard
-tconstruct:shard:0, Litherite Shard
-tconstruct:shard:0, Erodium Shard
-tconstruct:shard:0, Kyronite Shard
-tconstruct:shard:0, Pladium Shard
-tconstruct:shard:0, Ionite Shard
-tconstruct:shard:0, Aethium Shard
-tconstruct:shard:0, Mirion Shard
-tconstruct:shard:0, Livingwood Shard
-tconstruct:shard:0, Manasteel Shard
-tconstruct:shard:0, Elementium Shard
-tconstruct:shard:0, Terrasteel Shard
-tconstruct:shard:0, Emerald Shard
 tconstruct:sharpening_kit:0, Electrical Sharpening Kit
 tconstruct:sharpening_kit:0, Energetic Sharpening Kit
 tconstruct:sharpening_kit:0, Vibrant Sharpening Kit
@@ -9055,30 +9013,6 @@ tconstruct:sharpening_kit:0, Enchanted Sharpening Kit
 tconstruct:sharpening_kit:0, Demonic Sharpening Kit
 tconstruct:sharpening_kit:0, Treated Wood Sharpening Kit
 tconstruct:sharpening_kit:0, Constantan Sharpening Kit
-tconstruct:sharpening_kit:0, Alumite Sharpening Kit
-tconstruct:sharpening_kit:0, Nickel Sharpening Kit
-tconstruct:sharpening_kit:0, Invar Sharpening Kit
-tconstruct:sharpening_kit:0, Iridium Sharpening Kit
-tconstruct:sharpening_kit:0, Titanium Sharpening Kit
-tconstruct:sharpening_kit:0, Lumium Sharpening Kit
-tconstruct:sharpening_kit:0, Signalum Sharpening Kit
-tconstruct:sharpening_kit:0, Platinum Sharpening Kit
-tconstruct:sharpening_kit:0, Enderium Sharpening Kit
-tconstruct:sharpening_kit:0, Certus Quartz Sharpening Kit
-tconstruct:sharpening_kit:0, Fluix Crystal Sharpening Kit
-tconstruct:sharpening_kit:0, Mica Sharpening Kit
-tconstruct:sharpening_kit:0, Litherite Sharpening Kit
-tconstruct:sharpening_kit:0, Erodium Sharpening Kit
-tconstruct:sharpening_kit:0, Kyronite Sharpening Kit
-tconstruct:sharpening_kit:0, Pladium Sharpening Kit
-tconstruct:sharpening_kit:0, Ionite Sharpening Kit
-tconstruct:sharpening_kit:0, Aethium Sharpening Kit
-tconstruct:sharpening_kit:0, Mirion Sharpening Kit
-tconstruct:sharpening_kit:0, Livingwood Sharpening Kit
-tconstruct:sharpening_kit:0, Manasteel Sharpening Kit
-tconstruct:sharpening_kit:0, Elementium Sharpening Kit
-tconstruct:sharpening_kit:0, Terrasteel Sharpening Kit
-tconstruct:sharpening_kit:0, Emerald Sharpening Kit
 tconstruct:pick_head:0, Electrical Pickaxe Head
 tconstruct:pick_head:0, Energetic Pickaxe Head
 tconstruct:pick_head:0, Vibrant Pickaxe Head
@@ -9122,30 +9056,6 @@ tconstruct:pick_head:0, Enchanted Pickaxe Head
 tconstruct:pick_head:0, Demonic Pickaxe Head
 tconstruct:pick_head:0, Treated Wood Pickaxe Head
 tconstruct:pick_head:0, Constantan Pickaxe Head
-tconstruct:pick_head:0, Alumite Pickaxe Head
-tconstruct:pick_head:0, Nickel Pickaxe Head
-tconstruct:pick_head:0, Invar Pickaxe Head
-tconstruct:pick_head:0, Iridium Pickaxe Head
-tconstruct:pick_head:0, Titanium Pickaxe Head
-tconstruct:pick_head:0, Lumium Pickaxe Head
-tconstruct:pick_head:0, Signalum Pickaxe Head
-tconstruct:pick_head:0, Platinum Pickaxe Head
-tconstruct:pick_head:0, Enderium Pickaxe Head
-tconstruct:pick_head:0, Certus Quartz Pickaxe Head
-tconstruct:pick_head:0, Fluix Crystal Pickaxe Head
-tconstruct:pick_head:0, Mica Pickaxe Head
-tconstruct:pick_head:0, Litherite Pickaxe Head
-tconstruct:pick_head:0, Erodium Pickaxe Head
-tconstruct:pick_head:0, Kyronite Pickaxe Head
-tconstruct:pick_head:0, Pladium Pickaxe Head
-tconstruct:pick_head:0, Ionite Pickaxe Head
-tconstruct:pick_head:0, Aethium Pickaxe Head
-tconstruct:pick_head:0, Mirion Pickaxe Head
-tconstruct:pick_head:0, Livingwood Pickaxe Head
-tconstruct:pick_head:0, Manasteel Pickaxe Head
-tconstruct:pick_head:0, Elementium Pickaxe Head
-tconstruct:pick_head:0, Terrasteel Pickaxe Head
-tconstruct:pick_head:0, Emerald Pickaxe Head
 tconstruct:shovel_head:0, Electrical Shovel Head
 tconstruct:shovel_head:0, Energetic Shovel Head
 tconstruct:shovel_head:0, Vibrant Shovel Head
@@ -9189,30 +9099,6 @@ tconstruct:shovel_head:0, Enchanted Shovel Head
 tconstruct:shovel_head:0, Demonic Shovel Head
 tconstruct:shovel_head:0, Treated Wood Shovel Head
 tconstruct:shovel_head:0, Constantan Shovel Head
-tconstruct:shovel_head:0, Alumite Shovel Head
-tconstruct:shovel_head:0, Nickel Shovel Head
-tconstruct:shovel_head:0, Invar Shovel Head
-tconstruct:shovel_head:0, Iridium Shovel Head
-tconstruct:shovel_head:0, Titanium Shovel Head
-tconstruct:shovel_head:0, Lumium Shovel Head
-tconstruct:shovel_head:0, Signalum Shovel Head
-tconstruct:shovel_head:0, Platinum Shovel Head
-tconstruct:shovel_head:0, Enderium Shovel Head
-tconstruct:shovel_head:0, Certus Quartz Shovel Head
-tconstruct:shovel_head:0, Fluix Crystal Shovel Head
-tconstruct:shovel_head:0, Mica Shovel Head
-tconstruct:shovel_head:0, Litherite Shovel Head
-tconstruct:shovel_head:0, Erodium Shovel Head
-tconstruct:shovel_head:0, Kyronite Shovel Head
-tconstruct:shovel_head:0, Pladium Shovel Head
-tconstruct:shovel_head:0, Ionite Shovel Head
-tconstruct:shovel_head:0, Aethium Shovel Head
-tconstruct:shovel_head:0, Mirion Shovel Head
-tconstruct:shovel_head:0, Livingwood Shovel Head
-tconstruct:shovel_head:0, Manasteel Shovel Head
-tconstruct:shovel_head:0, Elementium Shovel Head
-tconstruct:shovel_head:0, Terrasteel Shovel Head
-tconstruct:shovel_head:0, Emerald Shovel Head
 tconstruct:axe_head:0, Electrical Axe Head
 tconstruct:axe_head:0, Energetic Axe Head
 tconstruct:axe_head:0, Vibrant Axe Head
@@ -9256,30 +9142,6 @@ tconstruct:axe_head:0, Enchanted Axe Head
 tconstruct:axe_head:0, Demonic Axe Head
 tconstruct:axe_head:0, Treated Wood Axe Head
 tconstruct:axe_head:0, Constantan Axe Head
-tconstruct:axe_head:0, Alumite Axe Head
-tconstruct:axe_head:0, Nickel Axe Head
-tconstruct:axe_head:0, Invar Axe Head
-tconstruct:axe_head:0, Iridium Axe Head
-tconstruct:axe_head:0, Titanium Axe Head
-tconstruct:axe_head:0, Lumium Axe Head
-tconstruct:axe_head:0, Signalum Axe Head
-tconstruct:axe_head:0, Platinum Axe Head
-tconstruct:axe_head:0, Enderium Axe Head
-tconstruct:axe_head:0, Certus Quartz Axe Head
-tconstruct:axe_head:0, Fluix Crystal Axe Head
-tconstruct:axe_head:0, Mica Axe Head
-tconstruct:axe_head:0, Litherite Axe Head
-tconstruct:axe_head:0, Erodium Axe Head
-tconstruct:axe_head:0, Kyronite Axe Head
-tconstruct:axe_head:0, Pladium Axe Head
-tconstruct:axe_head:0, Ionite Axe Head
-tconstruct:axe_head:0, Aethium Axe Head
-tconstruct:axe_head:0, Mirion Axe Head
-tconstruct:axe_head:0, Livingwood Axe Head
-tconstruct:axe_head:0, Manasteel Axe Head
-tconstruct:axe_head:0, Elementium Axe Head
-tconstruct:axe_head:0, Terrasteel Axe Head
-tconstruct:axe_head:0, Emerald Axe Head
 tconstruct:broad_axe_head:0, Electrical Broad Axe Head
 tconstruct:broad_axe_head:0, Energetic Broad Axe Head
 tconstruct:broad_axe_head:0, Vibrant Broad Axe Head
@@ -9323,30 +9185,6 @@ tconstruct:broad_axe_head:0, Enchanted Broad Axe Head
 tconstruct:broad_axe_head:0, Demonic Broad Axe Head
 tconstruct:broad_axe_head:0, Treated Wood Broad Axe Head
 tconstruct:broad_axe_head:0, Constantan Broad Axe Head
-tconstruct:broad_axe_head:0, Alumite Broad Axe Head
-tconstruct:broad_axe_head:0, Nickel Broad Axe Head
-tconstruct:broad_axe_head:0, Invar Broad Axe Head
-tconstruct:broad_axe_head:0, Iridium Broad Axe Head
-tconstruct:broad_axe_head:0, Titanium Broad Axe Head
-tconstruct:broad_axe_head:0, Lumium Broad Axe Head
-tconstruct:broad_axe_head:0, Signalum Broad Axe Head
-tconstruct:broad_axe_head:0, Platinum Broad Axe Head
-tconstruct:broad_axe_head:0, Enderium Broad Axe Head
-tconstruct:broad_axe_head:0, Certus Quartz Broad Axe Head
-tconstruct:broad_axe_head:0, Fluix Crystal Broad Axe Head
-tconstruct:broad_axe_head:0, Mica Broad Axe Head
-tconstruct:broad_axe_head:0, Litherite Broad Axe Head
-tconstruct:broad_axe_head:0, Erodium Broad Axe Head
-tconstruct:broad_axe_head:0, Kyronite Broad Axe Head
-tconstruct:broad_axe_head:0, Pladium Broad Axe Head
-tconstruct:broad_axe_head:0, Ionite Broad Axe Head
-tconstruct:broad_axe_head:0, Aethium Broad Axe Head
-tconstruct:broad_axe_head:0, Mirion Broad Axe Head
-tconstruct:broad_axe_head:0, Livingwood Broad Axe Head
-tconstruct:broad_axe_head:0, Manasteel Broad Axe Head
-tconstruct:broad_axe_head:0, Elementium Broad Axe Head
-tconstruct:broad_axe_head:0, Terrasteel Broad Axe Head
-tconstruct:broad_axe_head:0, Emerald Broad Axe Head
 tconstruct:sword_blade:0, Electrical Sword Blade
 tconstruct:sword_blade:0, Energetic Sword Blade
 tconstruct:sword_blade:0, Vibrant Sword Blade
@@ -9390,30 +9228,6 @@ tconstruct:sword_blade:0, Enchanted Sword Blade
 tconstruct:sword_blade:0, Demonic Sword Blade
 tconstruct:sword_blade:0, Treated Wood Sword Blade
 tconstruct:sword_blade:0, Constantan Sword Blade
-tconstruct:sword_blade:0, Alumite Sword Blade
-tconstruct:sword_blade:0, Nickel Sword Blade
-tconstruct:sword_blade:0, Invar Sword Blade
-tconstruct:sword_blade:0, Iridium Sword Blade
-tconstruct:sword_blade:0, Titanium Sword Blade
-tconstruct:sword_blade:0, Lumium Sword Blade
-tconstruct:sword_blade:0, Signalum Sword Blade
-tconstruct:sword_blade:0, Platinum Sword Blade
-tconstruct:sword_blade:0, Enderium Sword Blade
-tconstruct:sword_blade:0, Certus Quartz Sword Blade
-tconstruct:sword_blade:0, Fluix Crystal Sword Blade
-tconstruct:sword_blade:0, Mica Sword Blade
-tconstruct:sword_blade:0, Litherite Sword Blade
-tconstruct:sword_blade:0, Erodium Sword Blade
-tconstruct:sword_blade:0, Kyronite Sword Blade
-tconstruct:sword_blade:0, Pladium Sword Blade
-tconstruct:sword_blade:0, Ionite Sword Blade
-tconstruct:sword_blade:0, Aethium Sword Blade
-tconstruct:sword_blade:0, Mirion Sword Blade
-tconstruct:sword_blade:0, Livingwood Sword Blade
-tconstruct:sword_blade:0, Manasteel Sword Blade
-tconstruct:sword_blade:0, Elementium Sword Blade
-tconstruct:sword_blade:0, Terrasteel Sword Blade
-tconstruct:sword_blade:0, Emerald Sword Blade
 tconstruct:large_sword_blade:0, Electrical Large Sword Blade
 tconstruct:large_sword_blade:0, Energetic Large Sword Blade
 tconstruct:large_sword_blade:0, Vibrant Large Sword Blade
@@ -9457,30 +9271,6 @@ tconstruct:large_sword_blade:0, Enchanted Large Sword Blade
 tconstruct:large_sword_blade:0, Demonic Large Sword Blade
 tconstruct:large_sword_blade:0, Treated Wood Large Sword Blade
 tconstruct:large_sword_blade:0, Constantan Large Sword Blade
-tconstruct:large_sword_blade:0, Alumite Large Sword Blade
-tconstruct:large_sword_blade:0, Nickel Large Sword Blade
-tconstruct:large_sword_blade:0, Invar Large Sword Blade
-tconstruct:large_sword_blade:0, Iridium Large Sword Blade
-tconstruct:large_sword_blade:0, Titanium Large Sword Blade
-tconstruct:large_sword_blade:0, Lumium Large Sword Blade
-tconstruct:large_sword_blade:0, Signalum Large Sword Blade
-tconstruct:large_sword_blade:0, Platinum Large Sword Blade
-tconstruct:large_sword_blade:0, Enderium Large Sword Blade
-tconstruct:large_sword_blade:0, Certus Quartz Large Sword Blade
-tconstruct:large_sword_blade:0, Fluix Crystal Large Sword Blade
-tconstruct:large_sword_blade:0, Mica Large Sword Blade
-tconstruct:large_sword_blade:0, Litherite Large Sword Blade
-tconstruct:large_sword_blade:0, Erodium Large Sword Blade
-tconstruct:large_sword_blade:0, Kyronite Large Sword Blade
-tconstruct:large_sword_blade:0, Pladium Large Sword Blade
-tconstruct:large_sword_blade:0, Ionite Large Sword Blade
-tconstruct:large_sword_blade:0, Aethium Large Sword Blade
-tconstruct:large_sword_blade:0, Mirion Large Sword Blade
-tconstruct:large_sword_blade:0, Livingwood Large Sword Blade
-tconstruct:large_sword_blade:0, Manasteel Large Sword Blade
-tconstruct:large_sword_blade:0, Elementium Large Sword Blade
-tconstruct:large_sword_blade:0, Terrasteel Large Sword Blade
-tconstruct:large_sword_blade:0, Emerald Large Sword Blade
 tconstruct:hammer_head:0, Electrical Hammer Head
 tconstruct:hammer_head:0, Energetic Hammer Head
 tconstruct:hammer_head:0, Vibrant Hammer Head
@@ -9524,30 +9314,6 @@ tconstruct:hammer_head:0, Enchanted Hammer Head
 tconstruct:hammer_head:0, Demonic Hammer Head
 tconstruct:hammer_head:0, Treated Wood Hammer Head
 tconstruct:hammer_head:0, Constantan Hammer Head
-tconstruct:hammer_head:0, Alumite Hammer Head
-tconstruct:hammer_head:0, Nickel Hammer Head
-tconstruct:hammer_head:0, Invar Hammer Head
-tconstruct:hammer_head:0, Iridium Hammer Head
-tconstruct:hammer_head:0, Titanium Hammer Head
-tconstruct:hammer_head:0, Lumium Hammer Head
-tconstruct:hammer_head:0, Signalum Hammer Head
-tconstruct:hammer_head:0, Platinum Hammer Head
-tconstruct:hammer_head:0, Enderium Hammer Head
-tconstruct:hammer_head:0, Certus Quartz Hammer Head
-tconstruct:hammer_head:0, Fluix Crystal Hammer Head
-tconstruct:hammer_head:0, Mica Hammer Head
-tconstruct:hammer_head:0, Litherite Hammer Head
-tconstruct:hammer_head:0, Erodium Hammer Head
-tconstruct:hammer_head:0, Kyronite Hammer Head
-tconstruct:hammer_head:0, Pladium Hammer Head
-tconstruct:hammer_head:0, Ionite Hammer Head
-tconstruct:hammer_head:0, Aethium Hammer Head
-tconstruct:hammer_head:0, Mirion Hammer Head
-tconstruct:hammer_head:0, Livingwood Hammer Head
-tconstruct:hammer_head:0, Manasteel Hammer Head
-tconstruct:hammer_head:0, Elementium Hammer Head
-tconstruct:hammer_head:0, Terrasteel Hammer Head
-tconstruct:hammer_head:0, Emerald Hammer Head
 tconstruct:excavator_head:0, Electrical Excavator Head
 tconstruct:excavator_head:0, Energetic Excavator Head
 tconstruct:excavator_head:0, Vibrant Excavator Head
@@ -9591,30 +9357,6 @@ tconstruct:excavator_head:0, Enchanted Excavator Head
 tconstruct:excavator_head:0, Demonic Excavator Head
 tconstruct:excavator_head:0, Treated Wood Excavator Head
 tconstruct:excavator_head:0, Constantan Excavator Head
-tconstruct:excavator_head:0, Alumite Excavator Head
-tconstruct:excavator_head:0, Nickel Excavator Head
-tconstruct:excavator_head:0, Invar Excavator Head
-tconstruct:excavator_head:0, Iridium Excavator Head
-tconstruct:excavator_head:0, Titanium Excavator Head
-tconstruct:excavator_head:0, Lumium Excavator Head
-tconstruct:excavator_head:0, Signalum Excavator Head
-tconstruct:excavator_head:0, Platinum Excavator Head
-tconstruct:excavator_head:0, Enderium Excavator Head
-tconstruct:excavator_head:0, Certus Quartz Excavator Head
-tconstruct:excavator_head:0, Fluix Crystal Excavator Head
-tconstruct:excavator_head:0, Mica Excavator Head
-tconstruct:excavator_head:0, Litherite Excavator Head
-tconstruct:excavator_head:0, Erodium Excavator Head
-tconstruct:excavator_head:0, Kyronite Excavator Head
-tconstruct:excavator_head:0, Pladium Excavator Head
-tconstruct:excavator_head:0, Ionite Excavator Head
-tconstruct:excavator_head:0, Aethium Excavator Head
-tconstruct:excavator_head:0, Mirion Excavator Head
-tconstruct:excavator_head:0, Livingwood Excavator Head
-tconstruct:excavator_head:0, Manasteel Excavator Head
-tconstruct:excavator_head:0, Elementium Excavator Head
-tconstruct:excavator_head:0, Terrasteel Excavator Head
-tconstruct:excavator_head:0, Emerald Excavator Head
 tconstruct:kama_head:0, Electrical Kama Head
 tconstruct:kama_head:0, Energetic Kama Head
 tconstruct:kama_head:0, Vibrant Kama Head
@@ -9658,30 +9400,6 @@ tconstruct:kama_head:0, Enchanted Kama Head
 tconstruct:kama_head:0, Demonic Kama Head
 tconstruct:kama_head:0, Treated Wood Kama Head
 tconstruct:kama_head:0, Constantan Kama Head
-tconstruct:kama_head:0, Alumite Kama Head
-tconstruct:kama_head:0, Nickel Kama Head
-tconstruct:kama_head:0, Invar Kama Head
-tconstruct:kama_head:0, Iridium Kama Head
-tconstruct:kama_head:0, Titanium Kama Head
-tconstruct:kama_head:0, Lumium Kama Head
-tconstruct:kama_head:0, Signalum Kama Head
-tconstruct:kama_head:0, Platinum Kama Head
-tconstruct:kama_head:0, Enderium Kama Head
-tconstruct:kama_head:0, Certus Quartz Kama Head
-tconstruct:kama_head:0, Fluix Crystal Kama Head
-tconstruct:kama_head:0, Mica Kama Head
-tconstruct:kama_head:0, Litherite Kama Head
-tconstruct:kama_head:0, Erodium Kama Head
-tconstruct:kama_head:0, Kyronite Kama Head
-tconstruct:kama_head:0, Pladium Kama Head
-tconstruct:kama_head:0, Ionite Kama Head
-tconstruct:kama_head:0, Aethium Kama Head
-tconstruct:kama_head:0, Mirion Kama Head
-tconstruct:kama_head:0, Livingwood Kama Head
-tconstruct:kama_head:0, Manasteel Kama Head
-tconstruct:kama_head:0, Elementium Kama Head
-tconstruct:kama_head:0, Terrasteel Kama Head
-tconstruct:kama_head:0, Emerald Kama Head
 tconstruct:scythe_head:0, Electrical Scythe Head
 tconstruct:scythe_head:0, Energetic Scythe Head
 tconstruct:scythe_head:0, Vibrant Scythe Head
@@ -9725,30 +9443,6 @@ tconstruct:scythe_head:0, Enchanted Scythe Head
 tconstruct:scythe_head:0, Demonic Scythe Head
 tconstruct:scythe_head:0, Treated Wood Scythe Head
 tconstruct:scythe_head:0, Constantan Scythe Head
-tconstruct:scythe_head:0, Alumite Scythe Head
-tconstruct:scythe_head:0, Nickel Scythe Head
-tconstruct:scythe_head:0, Invar Scythe Head
-tconstruct:scythe_head:0, Iridium Scythe Head
-tconstruct:scythe_head:0, Titanium Scythe Head
-tconstruct:scythe_head:0, Lumium Scythe Head
-tconstruct:scythe_head:0, Signalum Scythe Head
-tconstruct:scythe_head:0, Platinum Scythe Head
-tconstruct:scythe_head:0, Enderium Scythe Head
-tconstruct:scythe_head:0, Certus Quartz Scythe Head
-tconstruct:scythe_head:0, Fluix Crystal Scythe Head
-tconstruct:scythe_head:0, Mica Scythe Head
-tconstruct:scythe_head:0, Litherite Scythe Head
-tconstruct:scythe_head:0, Erodium Scythe Head
-tconstruct:scythe_head:0, Kyronite Scythe Head
-tconstruct:scythe_head:0, Pladium Scythe Head
-tconstruct:scythe_head:0, Ionite Scythe Head
-tconstruct:scythe_head:0, Aethium Scythe Head
-tconstruct:scythe_head:0, Mirion Scythe Head
-tconstruct:scythe_head:0, Livingwood Scythe Head
-tconstruct:scythe_head:0, Manasteel Scythe Head
-tconstruct:scythe_head:0, Elementium Scythe Head
-tconstruct:scythe_head:0, Terrasteel Scythe Head
-tconstruct:scythe_head:0, Emerald Scythe Head
 tconstruct:pan_head:0, Electrical Pan
 tconstruct:pan_head:0, Energetic Pan
 tconstruct:pan_head:0, Vibrant Pan
@@ -9792,30 +9486,6 @@ tconstruct:pan_head:0, Enchanted Pan
 tconstruct:pan_head:0, Demonic Pan
 tconstruct:pan_head:0, Treated Wood Pan
 tconstruct:pan_head:0, Constantan Pan
-tconstruct:pan_head:0, Alumite Pan
-tconstruct:pan_head:0, Nickel Pan
-tconstruct:pan_head:0, Invar Pan
-tconstruct:pan_head:0, Iridium Pan
-tconstruct:pan_head:0, Titanium Pan
-tconstruct:pan_head:0, Lumium Pan
-tconstruct:pan_head:0, Signalum Pan
-tconstruct:pan_head:0, Platinum Pan
-tconstruct:pan_head:0, Enderium Pan
-tconstruct:pan_head:0, Certus Quartz Pan
-tconstruct:pan_head:0, Fluix Crystal Pan
-tconstruct:pan_head:0, Mica Pan
-tconstruct:pan_head:0, Litherite Pan
-tconstruct:pan_head:0, Erodium Pan
-tconstruct:pan_head:0, Kyronite Pan
-tconstruct:pan_head:0, Pladium Pan
-tconstruct:pan_head:0, Ionite Pan
-tconstruct:pan_head:0, Aethium Pan
-tconstruct:pan_head:0, Mirion Pan
-tconstruct:pan_head:0, Livingwood Pan
-tconstruct:pan_head:0, Manasteel Pan
-tconstruct:pan_head:0, Elementium Pan
-tconstruct:pan_head:0, Terrasteel Pan
-tconstruct:pan_head:0, Emerald Pan
 tconstruct:sign_head:0, Electrical Sign Plate
 tconstruct:sign_head:0, Energetic Sign Plate
 tconstruct:sign_head:0, Vibrant Sign Plate
@@ -9859,30 +9529,6 @@ tconstruct:sign_head:0, Enchanted Sign Plate
 tconstruct:sign_head:0, Demonic Sign Plate
 tconstruct:sign_head:0, Treated Wood Sign Plate
 tconstruct:sign_head:0, Constantan Sign Plate
-tconstruct:sign_head:0, Alumite Sign Plate
-tconstruct:sign_head:0, Nickel Sign Plate
-tconstruct:sign_head:0, Invar Sign Plate
-tconstruct:sign_head:0, Iridium Sign Plate
-tconstruct:sign_head:0, Titanium Sign Plate
-tconstruct:sign_head:0, Lumium Sign Plate
-tconstruct:sign_head:0, Signalum Sign Plate
-tconstruct:sign_head:0, Platinum Sign Plate
-tconstruct:sign_head:0, Enderium Sign Plate
-tconstruct:sign_head:0, Certus Quartz Sign Plate
-tconstruct:sign_head:0, Fluix Crystal Sign Plate
-tconstruct:sign_head:0, Mica Sign Plate
-tconstruct:sign_head:0, Litherite Sign Plate
-tconstruct:sign_head:0, Erodium Sign Plate
-tconstruct:sign_head:0, Kyronite Sign Plate
-tconstruct:sign_head:0, Pladium Sign Plate
-tconstruct:sign_head:0, Ionite Sign Plate
-tconstruct:sign_head:0, Aethium Sign Plate
-tconstruct:sign_head:0, Mirion Sign Plate
-tconstruct:sign_head:0, Livingwood Sign Plate
-tconstruct:sign_head:0, Manasteel Sign Plate
-tconstruct:sign_head:0, Elementium Sign Plate
-tconstruct:sign_head:0, Terrasteel Sign Plate
-tconstruct:sign_head:0, Emerald Sign Plate
 tconstruct:tool_rod:0, Electrical Tool Rod
 tconstruct:tool_rod:0, Energetic Tool Rod
 tconstruct:tool_rod:0, Vibrant Tool Rod
@@ -9926,30 +9572,6 @@ tconstruct:tool_rod:0, Enchanted Tool Rod
 tconstruct:tool_rod:0, Demonic Tool Rod
 tconstruct:tool_rod:0, Treated Wood Tool Rod
 tconstruct:tool_rod:0, Constantan Tool Rod
-tconstruct:tool_rod:0, Alumite Tool Rod
-tconstruct:tool_rod:0, Nickel Tool Rod
-tconstruct:tool_rod:0, Invar Tool Rod
-tconstruct:tool_rod:0, Iridium Tool Rod
-tconstruct:tool_rod:0, Titanium Tool Rod
-tconstruct:tool_rod:0, Lumium Tool Rod
-tconstruct:tool_rod:0, Signalum Tool Rod
-tconstruct:tool_rod:0, Platinum Tool Rod
-tconstruct:tool_rod:0, Enderium Tool Rod
-tconstruct:tool_rod:0, Certus Quartz Tool Rod
-tconstruct:tool_rod:0, Fluix Crystal Tool Rod
-tconstruct:tool_rod:0, Mica Tool Rod
-tconstruct:tool_rod:0, Litherite Tool Rod
-tconstruct:tool_rod:0, Erodium Tool Rod
-tconstruct:tool_rod:0, Kyronite Tool Rod
-tconstruct:tool_rod:0, Pladium Tool Rod
-tconstruct:tool_rod:0, Ionite Tool Rod
-tconstruct:tool_rod:0, Aethium Tool Rod
-tconstruct:tool_rod:0, Mirion Tool Rod
-tconstruct:tool_rod:0, Livingwood Tool Rod
-tconstruct:tool_rod:0, Manasteel Tool Rod
-tconstruct:tool_rod:0, Elementium Tool Rod
-tconstruct:tool_rod:0, Terrasteel Tool Rod
-tconstruct:tool_rod:0, Emerald Tool Rod
 tconstruct:tough_tool_rod:0, Electrical Tough Tool Rod
 tconstruct:tough_tool_rod:0, Energetic Tough Tool Rod
 tconstruct:tough_tool_rod:0, Vibrant Tough Tool Rod
@@ -9993,30 +9615,6 @@ tconstruct:tough_tool_rod:0, Enchanted Tough Tool Rod
 tconstruct:tough_tool_rod:0, Demonic Tough Tool Rod
 tconstruct:tough_tool_rod:0, Treated Wood Tough Tool Rod
 tconstruct:tough_tool_rod:0, Constantan Tough Tool Rod
-tconstruct:tough_tool_rod:0, Alumite Tough Tool Rod
-tconstruct:tough_tool_rod:0, Nickel Tough Tool Rod
-tconstruct:tough_tool_rod:0, Invar Tough Tool Rod
-tconstruct:tough_tool_rod:0, Iridium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Titanium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Lumium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Signalum Tough Tool Rod
-tconstruct:tough_tool_rod:0, Platinum Tough Tool Rod
-tconstruct:tough_tool_rod:0, Enderium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Certus Quartz Tough Tool Rod
-tconstruct:tough_tool_rod:0, Fluix Crystal Tough Tool Rod
-tconstruct:tough_tool_rod:0, Mica Tough Tool Rod
-tconstruct:tough_tool_rod:0, Litherite Tough Tool Rod
-tconstruct:tough_tool_rod:0, Erodium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Kyronite Tough Tool Rod
-tconstruct:tough_tool_rod:0, Pladium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Ionite Tough Tool Rod
-tconstruct:tough_tool_rod:0, Aethium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Mirion Tough Tool Rod
-tconstruct:tough_tool_rod:0, Livingwood Tough Tool Rod
-tconstruct:tough_tool_rod:0, Manasteel Tough Tool Rod
-tconstruct:tough_tool_rod:0, Elementium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Terrasteel Tough Tool Rod
-tconstruct:tough_tool_rod:0, Emerald Tough Tool Rod
 tconstruct:binding:0, Electrical Binding
 tconstruct:binding:0, Energetic Binding
 tconstruct:binding:0, Vibrant Binding
@@ -10060,30 +9658,6 @@ tconstruct:binding:0, Enchanted Binding
 tconstruct:binding:0, Demonic Binding
 tconstruct:binding:0, Treated Wood Binding
 tconstruct:binding:0, Constantan Binding
-tconstruct:binding:0, Alumite Binding
-tconstruct:binding:0, Nickel Binding
-tconstruct:binding:0, Invar Binding
-tconstruct:binding:0, Iridium Binding
-tconstruct:binding:0, Titanium Binding
-tconstruct:binding:0, Lumium Binding
-tconstruct:binding:0, Signalum Binding
-tconstruct:binding:0, Platinum Binding
-tconstruct:binding:0, Enderium Binding
-tconstruct:binding:0, Certus Quartz Binding
-tconstruct:binding:0, Fluix Crystal Binding
-tconstruct:binding:0, Mica Binding
-tconstruct:binding:0, Litherite Binding
-tconstruct:binding:0, Erodium Binding
-tconstruct:binding:0, Kyronite Binding
-tconstruct:binding:0, Pladium Binding
-tconstruct:binding:0, Ionite Binding
-tconstruct:binding:0, Aethium Binding
-tconstruct:binding:0, Mirion Binding
-tconstruct:binding:0, Livingwood Binding
-tconstruct:binding:0, Manasteel Binding
-tconstruct:binding:0, Elementium Binding
-tconstruct:binding:0, Terrasteel Binding
-tconstruct:binding:0, Emerald Binding
 tconstruct:tough_binding:0, Electrical Tough Binding
 tconstruct:tough_binding:0, Energetic Tough Binding
 tconstruct:tough_binding:0, Vibrant Tough Binding
@@ -10127,30 +9701,6 @@ tconstruct:tough_binding:0, Enchanted Tough Binding
 tconstruct:tough_binding:0, Demonic Tough Binding
 tconstruct:tough_binding:0, Treated Wood Tough Binding
 tconstruct:tough_binding:0, Constantan Tough Binding
-tconstruct:tough_binding:0, Alumite Tough Binding
-tconstruct:tough_binding:0, Nickel Tough Binding
-tconstruct:tough_binding:0, Invar Tough Binding
-tconstruct:tough_binding:0, Iridium Tough Binding
-tconstruct:tough_binding:0, Titanium Tough Binding
-tconstruct:tough_binding:0, Lumium Tough Binding
-tconstruct:tough_binding:0, Signalum Tough Binding
-tconstruct:tough_binding:0, Platinum Tough Binding
-tconstruct:tough_binding:0, Enderium Tough Binding
-tconstruct:tough_binding:0, Certus Quartz Tough Binding
-tconstruct:tough_binding:0, Fluix Crystal Tough Binding
-tconstruct:tough_binding:0, Mica Tough Binding
-tconstruct:tough_binding:0, Litherite Tough Binding
-tconstruct:tough_binding:0, Erodium Tough Binding
-tconstruct:tough_binding:0, Kyronite Tough Binding
-tconstruct:tough_binding:0, Pladium Tough Binding
-tconstruct:tough_binding:0, Ionite Tough Binding
-tconstruct:tough_binding:0, Aethium Tough Binding
-tconstruct:tough_binding:0, Mirion Tough Binding
-tconstruct:tough_binding:0, Livingwood Tough Binding
-tconstruct:tough_binding:0, Manasteel Tough Binding
-tconstruct:tough_binding:0, Elementium Tough Binding
-tconstruct:tough_binding:0, Terrasteel Tough Binding
-tconstruct:tough_binding:0, Emerald Tough Binding
 tconstruct:wide_guard:0, Electrical Wide Guard
 tconstruct:wide_guard:0, Energetic Wide Guard
 tconstruct:wide_guard:0, Vibrant Wide Guard
@@ -10194,30 +9744,6 @@ tconstruct:wide_guard:0, Enchanted Wide Guard
 tconstruct:wide_guard:0, Demonic Wide Guard
 tconstruct:wide_guard:0, Treated Wood Wide Guard
 tconstruct:wide_guard:0, Constantan Wide Guard
-tconstruct:wide_guard:0, Alumite Wide Guard
-tconstruct:wide_guard:0, Nickel Wide Guard
-tconstruct:wide_guard:0, Invar Wide Guard
-tconstruct:wide_guard:0, Iridium Wide Guard
-tconstruct:wide_guard:0, Titanium Wide Guard
-tconstruct:wide_guard:0, Lumium Wide Guard
-tconstruct:wide_guard:0, Signalum Wide Guard
-tconstruct:wide_guard:0, Platinum Wide Guard
-tconstruct:wide_guard:0, Enderium Wide Guard
-tconstruct:wide_guard:0, Certus Quartz Wide Guard
-tconstruct:wide_guard:0, Fluix Crystal Wide Guard
-tconstruct:wide_guard:0, Mica Wide Guard
-tconstruct:wide_guard:0, Litherite Wide Guard
-tconstruct:wide_guard:0, Erodium Wide Guard
-tconstruct:wide_guard:0, Kyronite Wide Guard
-tconstruct:wide_guard:0, Pladium Wide Guard
-tconstruct:wide_guard:0, Ionite Wide Guard
-tconstruct:wide_guard:0, Aethium Wide Guard
-tconstruct:wide_guard:0, Mirion Wide Guard
-tconstruct:wide_guard:0, Livingwood Wide Guard
-tconstruct:wide_guard:0, Manasteel Wide Guard
-tconstruct:wide_guard:0, Elementium Wide Guard
-tconstruct:wide_guard:0, Terrasteel Wide Guard
-tconstruct:wide_guard:0, Emerald Wide Guard
 tconstruct:hand_guard:0, Electrical Hand Guard
 tconstruct:hand_guard:0, Energetic Hand Guard
 tconstruct:hand_guard:0, Vibrant Hand Guard
@@ -10261,30 +9787,6 @@ tconstruct:hand_guard:0, Enchanted Hand Guard
 tconstruct:hand_guard:0, Demonic Hand Guard
 tconstruct:hand_guard:0, Treated Wood Hand Guard
 tconstruct:hand_guard:0, Constantan Hand Guard
-tconstruct:hand_guard:0, Alumite Hand Guard
-tconstruct:hand_guard:0, Nickel Hand Guard
-tconstruct:hand_guard:0, Invar Hand Guard
-tconstruct:hand_guard:0, Iridium Hand Guard
-tconstruct:hand_guard:0, Titanium Hand Guard
-tconstruct:hand_guard:0, Lumium Hand Guard
-tconstruct:hand_guard:0, Signalum Hand Guard
-tconstruct:hand_guard:0, Platinum Hand Guard
-tconstruct:hand_guard:0, Enderium Hand Guard
-tconstruct:hand_guard:0, Certus Quartz Hand Guard
-tconstruct:hand_guard:0, Fluix Crystal Hand Guard
-tconstruct:hand_guard:0, Mica Hand Guard
-tconstruct:hand_guard:0, Litherite Hand Guard
-tconstruct:hand_guard:0, Erodium Hand Guard
-tconstruct:hand_guard:0, Kyronite Hand Guard
-tconstruct:hand_guard:0, Pladium Hand Guard
-tconstruct:hand_guard:0, Ionite Hand Guard
-tconstruct:hand_guard:0, Aethium Hand Guard
-tconstruct:hand_guard:0, Mirion Hand Guard
-tconstruct:hand_guard:0, Livingwood Hand Guard
-tconstruct:hand_guard:0, Manasteel Hand Guard
-tconstruct:hand_guard:0, Elementium Hand Guard
-tconstruct:hand_guard:0, Terrasteel Hand Guard
-tconstruct:hand_guard:0, Emerald Hand Guard
 tconstruct:cross_guard:0, Electrical Cross Guard
 tconstruct:cross_guard:0, Energetic Cross Guard
 tconstruct:cross_guard:0, Vibrant Cross Guard
@@ -10328,30 +9830,6 @@ tconstruct:cross_guard:0, Enchanted Cross Guard
 tconstruct:cross_guard:0, Demonic Cross Guard
 tconstruct:cross_guard:0, Treated Wood Cross Guard
 tconstruct:cross_guard:0, Constantan Cross Guard
-tconstruct:cross_guard:0, Alumite Cross Guard
-tconstruct:cross_guard:0, Nickel Cross Guard
-tconstruct:cross_guard:0, Invar Cross Guard
-tconstruct:cross_guard:0, Iridium Cross Guard
-tconstruct:cross_guard:0, Titanium Cross Guard
-tconstruct:cross_guard:0, Lumium Cross Guard
-tconstruct:cross_guard:0, Signalum Cross Guard
-tconstruct:cross_guard:0, Platinum Cross Guard
-tconstruct:cross_guard:0, Enderium Cross Guard
-tconstruct:cross_guard:0, Certus Quartz Cross Guard
-tconstruct:cross_guard:0, Fluix Crystal Cross Guard
-tconstruct:cross_guard:0, Mica Cross Guard
-tconstruct:cross_guard:0, Litherite Cross Guard
-tconstruct:cross_guard:0, Erodium Cross Guard
-tconstruct:cross_guard:0, Kyronite Cross Guard
-tconstruct:cross_guard:0, Pladium Cross Guard
-tconstruct:cross_guard:0, Ionite Cross Guard
-tconstruct:cross_guard:0, Aethium Cross Guard
-tconstruct:cross_guard:0, Mirion Cross Guard
-tconstruct:cross_guard:0, Livingwood Cross Guard
-tconstruct:cross_guard:0, Manasteel Cross Guard
-tconstruct:cross_guard:0, Elementium Cross Guard
-tconstruct:cross_guard:0, Terrasteel Cross Guard
-tconstruct:cross_guard:0, Emerald Cross Guard
 tconstruct:large_plate:0, Electrical Large Plate
 tconstruct:large_plate:0, Energetic Large Plate
 tconstruct:large_plate:0, Vibrant Large Plate
@@ -10395,30 +9873,6 @@ tconstruct:large_plate:0, Enchanted Large Plate
 tconstruct:large_plate:0, Demonic Large Plate
 tconstruct:large_plate:0, Treated Wood Large Plate
 tconstruct:large_plate:0, Constantan Large Plate
-tconstruct:large_plate:0, Alumite Large Plate
-tconstruct:large_plate:0, Nickel Large Plate
-tconstruct:large_plate:0, Invar Large Plate
-tconstruct:large_plate:0, Iridium Large Plate
-tconstruct:large_plate:0, Titanium Large Plate
-tconstruct:large_plate:0, Lumium Large Plate
-tconstruct:large_plate:0, Signalum Large Plate
-tconstruct:large_plate:0, Platinum Large Plate
-tconstruct:large_plate:0, Enderium Large Plate
-tconstruct:large_plate:0, Certus Quartz Large Plate
-tconstruct:large_plate:0, Fluix Crystal Large Plate
-tconstruct:large_plate:0, Mica Large Plate
-tconstruct:large_plate:0, Litherite Large Plate
-tconstruct:large_plate:0, Erodium Large Plate
-tconstruct:large_plate:0, Kyronite Large Plate
-tconstruct:large_plate:0, Pladium Large Plate
-tconstruct:large_plate:0, Ionite Large Plate
-tconstruct:large_plate:0, Aethium Large Plate
-tconstruct:large_plate:0, Mirion Large Plate
-tconstruct:large_plate:0, Livingwood Large Plate
-tconstruct:large_plate:0, Manasteel Large Plate
-tconstruct:large_plate:0, Elementium Large Plate
-tconstruct:large_plate:0, Terrasteel Large Plate
-tconstruct:large_plate:0, Emerald Large Plate
 tconstruct:knife_blade:0, Electrical Knife Blade
 tconstruct:knife_blade:0, Energetic Knife Blade
 tconstruct:knife_blade:0, Vibrant Knife Blade
@@ -10462,30 +9916,6 @@ tconstruct:knife_blade:0, Enchanted Knife Blade
 tconstruct:knife_blade:0, Demonic Knife Blade
 tconstruct:knife_blade:0, Treated Wood Knife Blade
 tconstruct:knife_blade:0, Constantan Knife Blade
-tconstruct:knife_blade:0, Alumite Knife Blade
-tconstruct:knife_blade:0, Nickel Knife Blade
-tconstruct:knife_blade:0, Invar Knife Blade
-tconstruct:knife_blade:0, Iridium Knife Blade
-tconstruct:knife_blade:0, Titanium Knife Blade
-tconstruct:knife_blade:0, Lumium Knife Blade
-tconstruct:knife_blade:0, Signalum Knife Blade
-tconstruct:knife_blade:0, Platinum Knife Blade
-tconstruct:knife_blade:0, Enderium Knife Blade
-tconstruct:knife_blade:0, Certus Quartz Knife Blade
-tconstruct:knife_blade:0, Fluix Crystal Knife Blade
-tconstruct:knife_blade:0, Mica Knife Blade
-tconstruct:knife_blade:0, Litherite Knife Blade
-tconstruct:knife_blade:0, Erodium Knife Blade
-tconstruct:knife_blade:0, Kyronite Knife Blade
-tconstruct:knife_blade:0, Pladium Knife Blade
-tconstruct:knife_blade:0, Ionite Knife Blade
-tconstruct:knife_blade:0, Aethium Knife Blade
-tconstruct:knife_blade:0, Mirion Knife Blade
-tconstruct:knife_blade:0, Livingwood Knife Blade
-tconstruct:knife_blade:0, Manasteel Knife Blade
-tconstruct:knife_blade:0, Elementium Knife Blade
-tconstruct:knife_blade:0, Terrasteel Knife Blade
-tconstruct:knife_blade:0, Emerald Knife Blade
 tconstruct:bow_limb:0, Electrical Bowlimb
 tconstruct:bow_limb:0, Energetic Bowlimb
 tconstruct:bow_limb:0, Vibrant Bowlimb
@@ -10527,30 +9957,6 @@ tconstruct:bow_limb:0, Magical Wooden Bowlimb
 tconstruct:bow_limb:0, Demonic Bowlimb
 tconstruct:bow_limb:0, Treated Wood Bowlimb
 tconstruct:bow_limb:0, Constantan Bowlimb
-tconstruct:bow_limb:0, Alumite Bowlimb
-tconstruct:bow_limb:0, Nickel Bowlimb
-tconstruct:bow_limb:0, Invar Bowlimb
-tconstruct:bow_limb:0, Iridium Bowlimb
-tconstruct:bow_limb:0, Titanium Bowlimb
-tconstruct:bow_limb:0, Lumium Bowlimb
-tconstruct:bow_limb:0, Signalum Bowlimb
-tconstruct:bow_limb:0, Platinum Bowlimb
-tconstruct:bow_limb:0, Enderium Bowlimb
-tconstruct:bow_limb:0, Certus Quartz Bowlimb
-tconstruct:bow_limb:0, Fluix Crystal Bowlimb
-tconstruct:bow_limb:0, Mica Bowlimb
-tconstruct:bow_limb:0, Litherite Bowlimb
-tconstruct:bow_limb:0, Erodium Bowlimb
-tconstruct:bow_limb:0, Kyronite Bowlimb
-tconstruct:bow_limb:0, Pladium Bowlimb
-tconstruct:bow_limb:0, Ionite Bowlimb
-tconstruct:bow_limb:0, Aethium Bowlimb
-tconstruct:bow_limb:0, Mirion Bowlimb
-tconstruct:bow_limb:0, Livingwood Bowlimb
-tconstruct:bow_limb:0, Manasteel Bowlimb
-tconstruct:bow_limb:0, Elementium Bowlimb
-tconstruct:bow_limb:0, Terrasteel Bowlimb
-tconstruct:bow_limb:0, Emerald Bowlimb
 tconstruct:bow_string:0, Souled Bowstring
 tconstruct:bow_string:0, String Bowstring
 tconstruct:bow_string:0, Slimevine Bowstring
@@ -10600,30 +10006,6 @@ tconstruct:arrow_head:0, Enchanted Arrow Head
 tconstruct:arrow_head:0, Demonic Arrow Head
 tconstruct:arrow_head:0, Treated Wood Arrow Head
 tconstruct:arrow_head:0, Constantan Arrow Head
-tconstruct:arrow_head:0, Alumite Arrow Head
-tconstruct:arrow_head:0, Nickel Arrow Head
-tconstruct:arrow_head:0, Invar Arrow Head
-tconstruct:arrow_head:0, Iridium Arrow Head
-tconstruct:arrow_head:0, Titanium Arrow Head
-tconstruct:arrow_head:0, Lumium Arrow Head
-tconstruct:arrow_head:0, Signalum Arrow Head
-tconstruct:arrow_head:0, Platinum Arrow Head
-tconstruct:arrow_head:0, Enderium Arrow Head
-tconstruct:arrow_head:0, Certus Quartz Arrow Head
-tconstruct:arrow_head:0, Fluix Crystal Arrow Head
-tconstruct:arrow_head:0, Mica Arrow Head
-tconstruct:arrow_head:0, Litherite Arrow Head
-tconstruct:arrow_head:0, Erodium Arrow Head
-tconstruct:arrow_head:0, Kyronite Arrow Head
-tconstruct:arrow_head:0, Pladium Arrow Head
-tconstruct:arrow_head:0, Ionite Arrow Head
-tconstruct:arrow_head:0, Aethium Arrow Head
-tconstruct:arrow_head:0, Mirion Arrow Head
-tconstruct:arrow_head:0, Livingwood Arrow Head
-tconstruct:arrow_head:0, Manasteel Arrow Head
-tconstruct:arrow_head:0, Elementium Arrow Head
-tconstruct:arrow_head:0, Terrasteel Arrow Head
-tconstruct:arrow_head:0, Emerald Arrow Head
 tconstruct:arrow_shaft:0, Wooden Arrow Shaft
 tconstruct:arrow_shaft:0, Bone Arrow Shaft
 tconstruct:arrow_shaft:0, Blazerod Arrow Shaft
@@ -10631,17 +10013,11 @@ tconstruct:arrow_shaft:0, Reeds Arrow Shaft
 tconstruct:arrow_shaft:0, Ice Arrow Shaft
 tconstruct:arrow_shaft:0, Endrod Arrow Shaft
 tconstruct:arrow_shaft:0, Treated Wood Arrow Shaft
-tconstruct:arrow_shaft:0, TNT Arrow Shaft
-tconstruct:arrow_shaft:0, Enderium Arrow Shaft
-tconstruct:arrow_shaft:0, Livingwood Arrow Shaft
 tconstruct:fletching:0, Feather Fletching
 tconstruct:fletching:0, Slimeleaf Fletching
 tconstruct:fletching:0, Slimeleaf Fletching
 tconstruct:fletching:0, Slimeleaf Fletching
 tconstruct:fletching:0, Leaf Fletching
-tconstruct:fletching:0, Nickel Fletching
-tconstruct:fletching:0, Invar Fletching
-tconstruct:fletching:0, Titanium Fletching
 tconstruct:bolt_core:0, Wood-Iron Bolt Core
 tconstruct:bolt_core:0, Bone-Iron Bolt Core
 tconstruct:bolt_core:0, Blazerod-Iron Bolt Core
@@ -10649,9 +10025,6 @@ tconstruct:bolt_core:0, Reeds-Iron Bolt Core
 tconstruct:bolt_core:0, Ice-Iron Bolt Core
 tconstruct:bolt_core:0, Endrod-Iron Bolt Core
 tconstruct:bolt_core:0, Treated Wood-Iron Bolt Core
-tconstruct:bolt_core:0, TNT-Iron Bolt Core
-tconstruct:bolt_core:0, Enderium-Iron Bolt Core
-tconstruct:bolt_core:0, Livingwood-Iron Bolt Core
 tconstruct:tooltables:0, Crafting Station
 tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
@@ -10812,9 +10185,6 @@ tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
-tconstruct:toolforge:0, Tool Forge
-tconstruct:toolforge:0, Tool Forge
-tconstruct:toolforge:0, Tool Forge
 tconstruct:pickaxe, Pickaxe
 tconstruct:shovel, Shovel
 tconstruct:hatchet, Hatchet
@@ -10885,72 +10255,64 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Hand Guard Cast
 tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Shovel Head Cast
 tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Arrow Shaft Cast
-tconstruct:cast:0, Battery Cell Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Pipe Piece Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Kama Head Cast
 tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Bowstring Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Broad Axe Head Cast
 tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Fletching Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Arrow Head Cast
 tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Bowstring Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Tough Tool Rod Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
 tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
 tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Arrow Shaft Clay Cast
-tconstruct:clay_cast:0, Battery Cell Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Pipe Piece Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
 tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
 tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Fletching Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
 tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Bowstring Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -11368,6 +10730,169 @@ botania:supercloudpendant, item.superCloudPendant.name
 botania:thirdeye, item.thirdEye.name
 botania:astrolabe, item.astrolabe.name
 botania:goddesscharm, item.goddessCharm.name
+botania:livingwood0stairs, tile.livingwood0Stairs.name
+botania:livingwood0slab:0, Livingwood Slab
+botania:livingwood0wall, tile.livingwood0Wall.name
+botania:livingwood1stairs, tile.livingwood1Stairs.name
+botania:livingwood1slab:0, Livingwood Plank Slab
+botania:livingrock0stairs, tile.livingrock0Stairs.name
+botania:livingrock0slab:0, Livingrock Slab
+botania:livingrock0wall, tile.livingrock0Wall.name
+botania:livingrock1stairs, tile.livingrock1Stairs.name
+botania:livingrock1slab:0, Livingrock Brick Slab
+botania:dreamwood0stairs, tile.dreamwood0Stairs.name
+botania:dreamwood0slab:0, Dreamwood Slab
+botania:dreamwood0wall, tile.dreamwood0Wall.name
+botania:dreamwood1stairs, tile.dreamwood1Stairs.name
+botania:dreamwood1slab:0, Dreamwood Plank Slab
+botania:quartztypedark:0, Block of Smokey Quartz
+botania:quartztypedark:1, Chiseled Smokey Quartz Block
+botania:quartztypedark:2, Pillar Smokey Quartz Block
+botania:quartzslabdarkhalf:0, Smokey Quartz Slab
+botania:quartzstairsdark, tile.quartzStairsDark.name
+botania:quartztypemana:0, Block of Mana Quartz
+botania:quartztypemana:1, Chiseled Mana Quartz Block
+botania:quartztypemana:2, Pillar Mana Quartz Block
+botania:quartzslabmanahalf:0, Mana Quartz Slab
+botania:quartzstairsmana, tile.quartzStairsMana.name
+botania:quartztypeblaze:0, Block of Blaze Quartz
+botania:quartztypeblaze:1, Chiseled Blaze Quartz Block
+botania:quartztypeblaze:2, Pillar Blaze Quartz Block
+botania:quartzslabblazehalf:0, Blaze Quartz Slab
+botania:quartzstairsblaze, tile.quartzStairsBlaze.name
+botania:quartztypelavender:0, Block of Lavender Quartz
+botania:quartztypelavender:1, Chiseled Lavender Quartz Block
+botania:quartztypelavender:2, Pillar Lavender Quartz Block
+botania:quartzslablavenderhalf:0, Lavender Quartz Slab
+botania:quartzstairslavender, tile.quartzStairsLavender.name
+botania:quartztypered:0, Block of Redquartz
+botania:quartztypered:1, Chiseled Redquartz Block
+botania:quartztypered:2, Pillar Redquartz Block
+botania:quartzslabredhalf:0, Redquartz Slab
+botania:quartzstairsred, tile.quartzStairsRed.name
+botania:quartztypeelf:0, Block of Elven Quartz
+botania:quartztypeelf:1, Chiseled Elven Quartz Block
+botania:quartztypeelf:2, Pillar Elven Quartz Block
+botania:quartzslabelfhalf:0, Elven Quartz Slab
+botania:quartzstairself, tile.quartzStairsElf.name
+botania:quartztypesunny:0, Block of Sunny Quartz
+botania:quartztypesunny:1, Chiseled Sunny Quartz Block
+botania:quartztypesunny:2, Pillar Sunny Quartz Block
+botania:quartzslabsunnyhalf:0, Sunny Quartz Slab
+botania:quartzstairssunny, tile.quartzStairsSunny.name
+botania:biomestonea:0, Metamorphic Forest Stone
+botania:biomestonea:1, Metamorphic Plains Stone
+botania:biomestonea:2, Metamorphic Mountain Stone
+botania:biomestonea:3, Metamorphic Fungal Stone
+botania:biomestonea:4, Metamorphic Swamp Stone
+botania:biomestonea:5, Metamorphic Desert Stone
+botania:biomestonea:6, Metamorphic Taiga Stone
+botania:biomestonea:7, Metamorphic Mesa Stone
+botania:biomestonea:8, Metamorphic Forest Cobblestone
+botania:biomestonea:9, Metamorphic Plains Cobblestone
+botania:biomestonea:10, Metamorphic Mountain Cobblestone
+botania:biomestonea:11, Metamorphic Fungal Cobblestone
+botania:biomestonea:12, Metamorphic Swamp Cobblestone
+botania:biomestonea:13, Metamorphic Desert Cobblestone
+botania:biomestonea:14, Metamorphic Taiga Cobblestone
+botania:biomestonea:15, Metamorphic Mesa Cobblestone
+botania:biomestoneb:0, Metamorphic Forest Stone Bricks
+botania:biomestoneb:1, Metamorphic Plains Stone Bricks
+botania:biomestoneb:2, Metamorphic Mountain Stone Bricks
+botania:biomestoneb:3, Metamorphic Fungal Stone Bricks
+botania:biomestoneb:4, Metamorphic Swamp Stone Bricks
+botania:biomestoneb:5, Metamorphic Desert Stone Bricks
+botania:biomestoneb:6, Metamorphic Taiga Stone Bricks
+botania:biomestoneb:7, Metamorphic Mesa Stone Bricks
+botania:biomestoneb:8, Chiseled Metamorphic Forest Stone Brick
+botania:biomestoneb:9, Chiseled Metamorphic Plains Stone Brick
+botania:biomestoneb:10, Chiseled Metamorphic Mountain Stone Brick
+botania:biomestoneb:11, Chiseled Metamorphic Fungal Stone Brick
+botania:biomestoneb:12, Chiseled Metamorphic Swamp Stone Brick
+botania:biomestoneb:13, Chiseled Metamorphic Desert Stone Brick
+botania:biomestoneb:14, Chiseled Metamorphic Taiga Stone Brick
+botania:biomestoneb:15, Chiseled Metamorphic Mesa Stone Brick
+botania:pavement:0, White Portuguese Pavement
+botania:pavement:1, Black Portuguese Pavement
+botania:pavement:2, Blue Portuguese Pavement
+botania:pavement:3, Red Portuguese Pavement
+botania:pavement:4, Yellow Portuguese Pavement
+botania:pavement:5, Green Portuguese Pavement
+botania:biomestonea0stairs, tile.biomeStoneA0Stairs.name
+botania:biomestonea0slab:0, Metamorphic Forest Stone Slab
+botania:biomestonea1stairs, tile.biomeStoneA1Stairs.name
+botania:biomestonea1slab:0, Metamorphic Plains Stone Slab
+botania:biomestonea2stairs, tile.biomeStoneA2Stairs.name
+botania:biomestonea2slab:0, Metamorphic Mountain Stone Slab
+botania:biomestonea3stairs, tile.biomeStoneA3Stairs.name
+botania:biomestonea3slab:0, Metamorphic Fungal Stone Slab
+botania:biomestonea4stairs, tile.biomeStoneA4Stairs.name
+botania:biomestonea4slab:0, Metamorphic Swamp Stone Slab
+botania:biomestonea5stairs, tile.biomeStoneA5Stairs.name
+botania:biomestonea5slab:0, Metamorphic Desert Stone Slab
+botania:biomestonea6stairs, tile.biomeStoneA6Stairs.name
+botania:biomestonea6slab:0, Metamorphic Taiga Stone Slab
+botania:biomestonea7stairs, tile.biomeStoneA7Stairs.name
+botania:biomestonea7slab:0, Metamorphic Mesa Stone Slab
+botania:biomestonea8stairs, tile.biomeStoneA8Stairs.name
+botania:biomestonea8slab:0, Metamorphic Forest Cobblestone Slab
+botania:biomestonea9stairs, tile.biomeStoneA9Stairs.name
+botania:biomestonea9slab:0, Metamorphic Plains Cobblestone Slab
+botania:biomestonea10stairs, tile.biomeStoneA10Stairs.name
+botania:biomestonea10slab:0, Metamorphic Mountain Cobblestone Slab
+botania:biomestonea11stairs, tile.biomeStoneA11Stairs.name
+botania:biomestonea11slab:0, Metamorphic Fungal Cobblestone Slab
+botania:biomestonea12stairs, tile.biomeStoneA12Stairs.name
+botania:biomestonea12slab:0, Metamorphic Swamp Cobblestone Slab
+botania:biomestonea13stairs, tile.biomeStoneA13Stairs.name
+botania:biomestonea13slab:0, Metamorphic Desert Cobblestone Slab
+botania:biomestonea14stairs, tile.biomeStoneA14Stairs.name
+botania:biomestonea14slab:0, Metamorphic Taiga Cobblestone Slab
+botania:biomestonea15stairs, tile.biomeStoneA15Stairs.name
+botania:biomestonea15slab:0, Metamorphic Mesa Cobblestone Slab
+botania:biomestoneb0stairs, tile.biomeStoneB0Stairs.name
+botania:biomestoneb0slab:0, Metamorphic Forest Stone Brick Slab
+botania:biomestoneb1stairs, tile.biomeStoneB1Stairs.name
+botania:biomestoneb1slab:0, Metamorphic Plains Stone Brick Slab
+botania:biomestoneb2stairs, tile.biomeStoneB2Stairs.name
+botania:biomestoneb2slab:0, Metamorphic Mountain Stone Brick Slab
+botania:biomestoneb3stairs, tile.biomeStoneB3Stairs.name
+botania:biomestoneb3slab:0, Metamorphic Fungal Stone Brick Slab
+botania:biomestoneb4stairs, tile.biomeStoneB4Stairs.name
+botania:biomestoneb4slab:0, Metamorphic Swamp Stone Brick Slab
+botania:biomestoneb5stairs, tile.biomeStoneB5Stairs.name
+botania:biomestoneb5slab:0, Metamorphic Desert Stone Brick Slab
+botania:biomestoneb6stairs, tile.biomeStoneB6Stairs.name
+botania:biomestoneb6slab:0, Metamorphic Taiga Stone Brick Slab
+botania:biomestoneb7stairs, tile.biomeStoneB7Stairs.name
+botania:biomestoneb7slab:0, Metamorphic Mesa Stone Bricks Slab
+botania:biomestonea0wall:0, Metamorphic Forest Cobblestone Wall
+botania:biomestonea0wall:1, Metamorphic Plains Cobblestone Wall
+botania:biomestonea0wall:2, Metamorphic Mountain Cobblestone Wall
+botania:biomestonea0wall:3, Metamorphic Fungal Cobblestone Wall
+botania:biomestonea0wall:4, Metamorphic Swamp Cobblestone Wall
+botania:biomestonea0wall:5, Metamorphic Desert Cobblestone Wall
+botania:biomestonea0wall:6, Metamorphic Taiga Cobblestone Wall
+botania:biomestonea0wall:7, Metamorphic Mesa Cobblestone Wall
+botania:pavement0stairs, tile.pavement0Stairs.name
+botania:pavement0slab:0, White Portuguese Pavement Slab
+botania:pavement1stairs, tile.pavement1Stairs.name
+botania:pavement1slab:0, Black Portuguese Pavement Slab
+botania:pavement2stairs, tile.pavement2Stairs.name
+botania:pavement2slab:0, Blue Portuguese Pavement Slab
+botania:pavement3stairs, tile.pavement3Stairs.name
+botania:pavement3slab:0, Red Portuguese Pavement Slab
+botania:pavement4stairs, tile.pavement4Stairs.name
+botania:pavement4slab:0, Yellow Portuguese Pavement Slab
+botania:pavement5stairs, tile.pavement5Stairs.name
+botania:pavement5slab:0, Green Portuguese Pavement Slab
+botania:shimmerrock0slab:0, Shimmerrock Slab
+botania:shimmerrock0stairs, tile.shimmerrock0Stairs.name
+botania:shimmerwoodplanks0slab:0, Shimmerwood Plank Slab
+botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
+botania:managlasspane, tile.manaGlassPane.name
+botania:elfglasspane, tile.elfGlassPane.name
+botania:bifrostpermpane, tile.bifrostPermPane.name
 botania:flower:0, Mystical White Flower
 botania:flower:1, Mystical Orange Flower
 botania:flower:2, Mystical Magenta Flower
@@ -11693,169 +11218,6 @@ botania:altgrass:3, Scorched Grass
 botania:altgrass:4, Infused Grass
 botania:altgrass:5, Mutated Grass
 botania:animatedtorch, tile.animatedTorch.name
-botania:livingwood0stairs, tile.livingwood0Stairs.name
-botania:livingwood0slab:0, Livingwood Slab
-botania:livingwood0wall, tile.livingwood0Wall.name
-botania:livingwood1stairs, tile.livingwood1Stairs.name
-botania:livingwood1slab:0, Livingwood Plank Slab
-botania:livingrock0stairs, tile.livingrock0Stairs.name
-botania:livingrock0slab:0, Livingrock Slab
-botania:livingrock0wall, tile.livingrock0Wall.name
-botania:livingrock1stairs, tile.livingrock1Stairs.name
-botania:livingrock1slab:0, Livingrock Brick Slab
-botania:dreamwood0stairs, tile.dreamwood0Stairs.name
-botania:dreamwood0slab:0, Dreamwood Slab
-botania:dreamwood0wall, tile.dreamwood0Wall.name
-botania:dreamwood1stairs, tile.dreamwood1Stairs.name
-botania:dreamwood1slab:0, Dreamwood Plank Slab
-botania:quartztypedark:0, Block of Smokey Quartz
-botania:quartztypedark:1, Chiseled Smokey Quartz Block
-botania:quartztypedark:2, Pillar Smokey Quartz Block
-botania:quartzslabdarkhalf:0, Smokey Quartz Slab
-botania:quartzstairsdark, tile.quartzStairsDark.name
-botania:quartztypemana:0, Block of Mana Quartz
-botania:quartztypemana:1, Chiseled Mana Quartz Block
-botania:quartztypemana:2, Pillar Mana Quartz Block
-botania:quartzslabmanahalf:0, Mana Quartz Slab
-botania:quartzstairsmana, tile.quartzStairsMana.name
-botania:quartztypeblaze:0, Block of Blaze Quartz
-botania:quartztypeblaze:1, Chiseled Blaze Quartz Block
-botania:quartztypeblaze:2, Pillar Blaze Quartz Block
-botania:quartzslabblazehalf:0, Blaze Quartz Slab
-botania:quartzstairsblaze, tile.quartzStairsBlaze.name
-botania:quartztypelavender:0, Block of Lavender Quartz
-botania:quartztypelavender:1, Chiseled Lavender Quartz Block
-botania:quartztypelavender:2, Pillar Lavender Quartz Block
-botania:quartzslablavenderhalf:0, Lavender Quartz Slab
-botania:quartzstairslavender, tile.quartzStairsLavender.name
-botania:quartztypered:0, Block of Redquartz
-botania:quartztypered:1, Chiseled Redquartz Block
-botania:quartztypered:2, Pillar Redquartz Block
-botania:quartzslabredhalf:0, Redquartz Slab
-botania:quartzstairsred, tile.quartzStairsRed.name
-botania:quartztypeelf:0, Block of Elven Quartz
-botania:quartztypeelf:1, Chiseled Elven Quartz Block
-botania:quartztypeelf:2, Pillar Elven Quartz Block
-botania:quartzslabelfhalf:0, Elven Quartz Slab
-botania:quartzstairself, tile.quartzStairsElf.name
-botania:quartztypesunny:0, Block of Sunny Quartz
-botania:quartztypesunny:1, Chiseled Sunny Quartz Block
-botania:quartztypesunny:2, Pillar Sunny Quartz Block
-botania:quartzslabsunnyhalf:0, Sunny Quartz Slab
-botania:quartzstairssunny, tile.quartzStairsSunny.name
-botania:biomestonea:0, Metamorphic Forest Stone
-botania:biomestonea:1, Metamorphic Plains Stone
-botania:biomestonea:2, Metamorphic Mountain Stone
-botania:biomestonea:3, Metamorphic Fungal Stone
-botania:biomestonea:4, Metamorphic Swamp Stone
-botania:biomestonea:5, Metamorphic Desert Stone
-botania:biomestonea:6, Metamorphic Taiga Stone
-botania:biomestonea:7, Metamorphic Mesa Stone
-botania:biomestonea:8, Metamorphic Forest Cobblestone
-botania:biomestonea:9, Metamorphic Plains Cobblestone
-botania:biomestonea:10, Metamorphic Mountain Cobblestone
-botania:biomestonea:11, Metamorphic Fungal Cobblestone
-botania:biomestonea:12, Metamorphic Swamp Cobblestone
-botania:biomestonea:13, Metamorphic Desert Cobblestone
-botania:biomestonea:14, Metamorphic Taiga Cobblestone
-botania:biomestonea:15, Metamorphic Mesa Cobblestone
-botania:biomestoneb:0, Metamorphic Forest Stone Bricks
-botania:biomestoneb:1, Metamorphic Plains Stone Bricks
-botania:biomestoneb:2, Metamorphic Mountain Stone Bricks
-botania:biomestoneb:3, Metamorphic Fungal Stone Bricks
-botania:biomestoneb:4, Metamorphic Swamp Stone Bricks
-botania:biomestoneb:5, Metamorphic Desert Stone Bricks
-botania:biomestoneb:6, Metamorphic Taiga Stone Bricks
-botania:biomestoneb:7, Metamorphic Mesa Stone Bricks
-botania:biomestoneb:8, Chiseled Metamorphic Forest Stone Brick
-botania:biomestoneb:9, Chiseled Metamorphic Plains Stone Brick
-botania:biomestoneb:10, Chiseled Metamorphic Mountain Stone Brick
-botania:biomestoneb:11, Chiseled Metamorphic Fungal Stone Brick
-botania:biomestoneb:12, Chiseled Metamorphic Swamp Stone Brick
-botania:biomestoneb:13, Chiseled Metamorphic Desert Stone Brick
-botania:biomestoneb:14, Chiseled Metamorphic Taiga Stone Brick
-botania:biomestoneb:15, Chiseled Metamorphic Mesa Stone Brick
-botania:pavement:0, White Portuguese Pavement
-botania:pavement:1, Black Portuguese Pavement
-botania:pavement:2, Blue Portuguese Pavement
-botania:pavement:3, Red Portuguese Pavement
-botania:pavement:4, Yellow Portuguese Pavement
-botania:pavement:5, Green Portuguese Pavement
-botania:biomestonea0stairs, tile.biomeStoneA0Stairs.name
-botania:biomestonea0slab:0, Metamorphic Forest Stone Slab
-botania:biomestonea1stairs, tile.biomeStoneA1Stairs.name
-botania:biomestonea1slab:0, Metamorphic Plains Stone Slab
-botania:biomestonea2stairs, tile.biomeStoneA2Stairs.name
-botania:biomestonea2slab:0, Metamorphic Mountain Stone Slab
-botania:biomestonea3stairs, tile.biomeStoneA3Stairs.name
-botania:biomestonea3slab:0, Metamorphic Fungal Stone Slab
-botania:biomestonea4stairs, tile.biomeStoneA4Stairs.name
-botania:biomestonea4slab:0, Metamorphic Swamp Stone Slab
-botania:biomestonea5stairs, tile.biomeStoneA5Stairs.name
-botania:biomestonea5slab:0, Metamorphic Desert Stone Slab
-botania:biomestonea6stairs, tile.biomeStoneA6Stairs.name
-botania:biomestonea6slab:0, Metamorphic Taiga Stone Slab
-botania:biomestonea7stairs, tile.biomeStoneA7Stairs.name
-botania:biomestonea7slab:0, Metamorphic Mesa Stone Slab
-botania:biomestonea8stairs, tile.biomeStoneA8Stairs.name
-botania:biomestonea8slab:0, Metamorphic Forest Cobblestone Slab
-botania:biomestonea9stairs, tile.biomeStoneA9Stairs.name
-botania:biomestonea9slab:0, Metamorphic Plains Cobblestone Slab
-botania:biomestonea10stairs, tile.biomeStoneA10Stairs.name
-botania:biomestonea10slab:0, Metamorphic Mountain Cobblestone Slab
-botania:biomestonea11stairs, tile.biomeStoneA11Stairs.name
-botania:biomestonea11slab:0, Metamorphic Fungal Cobblestone Slab
-botania:biomestonea12stairs, tile.biomeStoneA12Stairs.name
-botania:biomestonea12slab:0, Metamorphic Swamp Cobblestone Slab
-botania:biomestonea13stairs, tile.biomeStoneA13Stairs.name
-botania:biomestonea13slab:0, Metamorphic Desert Cobblestone Slab
-botania:biomestonea14stairs, tile.biomeStoneA14Stairs.name
-botania:biomestonea14slab:0, Metamorphic Taiga Cobblestone Slab
-botania:biomestonea15stairs, tile.biomeStoneA15Stairs.name
-botania:biomestonea15slab:0, Metamorphic Mesa Cobblestone Slab
-botania:biomestoneb0stairs, tile.biomeStoneB0Stairs.name
-botania:biomestoneb0slab:0, Metamorphic Forest Stone Brick Slab
-botania:biomestoneb1stairs, tile.biomeStoneB1Stairs.name
-botania:biomestoneb1slab:0, Metamorphic Plains Stone Brick Slab
-botania:biomestoneb2stairs, tile.biomeStoneB2Stairs.name
-botania:biomestoneb2slab:0, Metamorphic Mountain Stone Brick Slab
-botania:biomestoneb3stairs, tile.biomeStoneB3Stairs.name
-botania:biomestoneb3slab:0, Metamorphic Fungal Stone Brick Slab
-botania:biomestoneb4stairs, tile.biomeStoneB4Stairs.name
-botania:biomestoneb4slab:0, Metamorphic Swamp Stone Brick Slab
-botania:biomestoneb5stairs, tile.biomeStoneB5Stairs.name
-botania:biomestoneb5slab:0, Metamorphic Desert Stone Brick Slab
-botania:biomestoneb6stairs, tile.biomeStoneB6Stairs.name
-botania:biomestoneb6slab:0, Metamorphic Taiga Stone Brick Slab
-botania:biomestoneb7stairs, tile.biomeStoneB7Stairs.name
-botania:biomestoneb7slab:0, Metamorphic Mesa Stone Bricks Slab
-botania:biomestonea0wall:0, Metamorphic Forest Cobblestone Wall
-botania:biomestonea0wall:1, Metamorphic Plains Cobblestone Wall
-botania:biomestonea0wall:2, Metamorphic Mountain Cobblestone Wall
-botania:biomestonea0wall:3, Metamorphic Fungal Cobblestone Wall
-botania:biomestonea0wall:4, Metamorphic Swamp Cobblestone Wall
-botania:biomestonea0wall:5, Metamorphic Desert Cobblestone Wall
-botania:biomestonea0wall:6, Metamorphic Taiga Cobblestone Wall
-botania:biomestonea0wall:7, Metamorphic Mesa Cobblestone Wall
-botania:pavement0stairs, tile.pavement0Stairs.name
-botania:pavement0slab:0, White Portuguese Pavement Slab
-botania:pavement1stairs, tile.pavement1Stairs.name
-botania:pavement1slab:0, Black Portuguese Pavement Slab
-botania:pavement2stairs, tile.pavement2Stairs.name
-botania:pavement2slab:0, Blue Portuguese Pavement Slab
-botania:pavement3stairs, tile.pavement3Stairs.name
-botania:pavement3slab:0, Red Portuguese Pavement Slab
-botania:pavement4stairs, tile.pavement4Stairs.name
-botania:pavement4slab:0, Yellow Portuguese Pavement Slab
-botania:pavement5stairs, tile.pavement5Stairs.name
-botania:pavement5slab:0, Green Portuguese Pavement Slab
-botania:shimmerrock0slab:0, Shimmerrock Slab
-botania:shimmerrock0stairs, tile.shimmerrock0Stairs.name
-botania:shimmerwoodplanks0slab:0, Shimmerwood Plank Slab
-botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
-botania:managlasspane, tile.manaGlassPane.name
-botania:elfglasspane, tile.elfGlassPane.name
-botania:bifrostpermpane, tile.bifrostPermPane.name
 buildinggadgets:buildingtool, Building Gadget
 buildinggadgets:exchangertool, Exchanging Gadget
 buildinggadgets:copypastetool, Copy-Paste Gadget
@@ -12573,92 +11935,6 @@ wizardry:cape, item.cape.name
 wizardry:halo_fake, item.halo_fake.name
 wizardry:halo_real, item.halo_real.name
 wizardry:halo_creative, item.halo_creative.name
-plustic:mirionnugget, Mirion Nugget
-plustic:mirioningot, Mirion Ingot
-plustic:mirionblock, Mirion Block
-plustic:pipe_piece:0, Electrical Pipe Piece
-plustic:pipe_piece:0, Energetic Pipe Piece
-plustic:pipe_piece:0, Vibrant Pipe Piece
-plustic:pipe_piece:0, Red Pipe Piece
-plustic:pipe_piece:0, Conductive Pipe Piece
-plustic:pipe_piece:0, Pulsating Pipe Piece
-plustic:pipe_piece:0, Dark Pipe Piece
-plustic:pipe_piece:0, Souled Pipe Piece
-plustic:pipe_piece:0, Pipe Piece of the End
-plustic:pipe_piece:0, Fake-Iron Pipe Piece
-plustic:pipe_piece:0, Wooden Pipe Piece
-plustic:pipe_piece:0, Stone Pipe Piece
-plustic:pipe_piece:0, Flint Pipe Piece
-plustic:pipe_piece:0, Cactus Pipe Piece
-plustic:pipe_piece:0, Bone Pipe Piece
-plustic:pipe_piece:0, Obsidian Pipe Piece
-plustic:pipe_piece:0, Prismarine Pipe Piece
-plustic:pipe_piece:0, End Pipe Piece
-plustic:pipe_piece:0, Paper Pipe Piece
-plustic:pipe_piece:0, Sponge Pipe Piece
-plustic:pipe_piece:0, Firewood Pipe Piece
-plustic:pipe_piece:0, Iron Pipe Piece
-plustic:pipe_piece:0, Pig Iron Pipe Piece
-plustic:pipe_piece:0, Knightslime Pipe Piece
-plustic:pipe_piece:0, Slime Pipe Piece
-plustic:pipe_piece:0, Slime Pipe Piece
-plustic:pipe_piece:0, Magma Slime Pipe Piece
-plustic:pipe_piece:0, Netherrack Pipe Piece
-plustic:pipe_piece:0, Cobalt Pipe Piece
-plustic:pipe_piece:0, Ardite Pipe Piece
-plustic:pipe_piece:0, Manyullyn Pipe Piece
-plustic:pipe_piece:0, Copper Pipe Piece
-plustic:pipe_piece:0, Bronze Pipe Piece
-plustic:pipe_piece:0, Lead Pipe Piece
-plustic:pipe_piece:0, Silver Pipe Piece
-plustic:pipe_piece:0, Electrum Pipe Piece
-plustic:pipe_piece:0, Steel Pipe Piece
-plustic:pipe_piece:0, Magical Wooden Pipe Piece
-plustic:pipe_piece:0, Evil Infused Pipe Piece
-plustic:pipe_piece:0, Enchanted Pipe Piece
-plustic:pipe_piece:0, Demonic Pipe Piece
-plustic:pipe_piece:0, Treated Wood Pipe Piece
-plustic:pipe_piece:0, Constantan Pipe Piece
-plustic:pipe_piece:0, Alumite Pipe Piece
-plustic:pipe_piece:0, Nickel Pipe Piece
-plustic:pipe_piece:0, Invar Pipe Piece
-plustic:pipe_piece:0, Iridium Pipe Piece
-plustic:pipe_piece:0, Titanium Pipe Piece
-plustic:pipe_piece:0, Lumium Pipe Piece
-plustic:pipe_piece:0, Signalum Pipe Piece
-plustic:pipe_piece:0, Platinum Pipe Piece
-plustic:pipe_piece:0, Enderium Pipe Piece
-plustic:pipe_piece:0, Certus Quartz Pipe Piece
-plustic:pipe_piece:0, Fluix Crystal Pipe Piece
-plustic:pipe_piece:0, Mica Pipe Piece
-plustic:pipe_piece:0, Litherite Pipe Piece
-plustic:pipe_piece:0, Erodium Pipe Piece
-plustic:pipe_piece:0, Kyronite Pipe Piece
-plustic:pipe_piece:0, Pladium Pipe Piece
-plustic:pipe_piece:0, Ionite Pipe Piece
-plustic:pipe_piece:0, Aethium Pipe Piece
-plustic:pipe_piece:0, Mirion Pipe Piece
-plustic:pipe_piece:0, Livingwood Pipe Piece
-plustic:pipe_piece:0, Manasteel Pipe Piece
-plustic:pipe_piece:0, Elementium Pipe Piece
-plustic:pipe_piece:0, Terrasteel Pipe Piece
-plustic:pipe_piece:0, Emerald Pipe Piece
-plustic:laser_medium:0, Stone Laser Medium
-plustic:laser_medium:0, Prismarine Laser Medium
-plustic:laser_medium:0, Blazerod Laser Medium
-plustic:laser_medium:0, Endrod Laser Medium
-plustic:laser_medium:0, Certus Quartz Laser Medium
-plustic:laser_medium:0, Fluix Crystal Laser Medium
-plustic:battery_cell:0, Stone Battery Cell
-plustic:battery_cell:0, Manyullyn Battery Cell
-plustic:battery_cell:0, Copper Battery Cell
-plustic:battery_cell:0, Silver Battery Cell
-plustic:battery_cell:0, Blazerod Battery Cell
-plustic:battery_cell:0, Endrod Battery Cell
-plustic:battery_cell:0, Nickel Battery Cell
-plustic:battery_cell:0, Fluix Crystal Battery Cell
-plustic:laser_gun, Laser Gun
-plustic:katana, Katana
 netherendingores:creative_tab, Creative Tab Block
 netherendingores:ore_end_modded_1:0, End Aluminum Ore
 netherendingores:ore_end_modded_1:1, End Copper Ore
@@ -12715,20 +11991,14 @@ netherendingores:ore_other_1:3, End Ardite Ore
 netherendingores:ore_other_1:4, Overworld Cobalt Ore
 netherendingores:ore_other_1:5, End Cobalt Ore
 oeintegration:excavatemodifier, Excavate Modifier
-pneumaticcraft:fluid.lpg, LPG
-pneumaticcraft:fluid.etchacid, Etching Acid
-pneumaticcraft:fluid.kerosene, Kerosene
-pneumaticcraft:fluid.plastic, Plastic
-pneumaticcraft:fluid.fuel, Gasoline
-pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
-pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
-pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
-pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
-pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
-pneumaticcraft:heat_frame, Heat Frame
-pneumaticcraft:spawner_agitator, Spawner Agitator
-pneumaticcraft:crop_support, Crop Support
-pneumaticcraft:transfer_gadget, Transfer Gadget
+pneumaticcraft:safety_tube_module, Safety Tube Module
+pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
+pneumaticcraft:flow_detector_module, Flow Detector Tube Module
+pneumaticcraft:air_grate_module, Air Grate Tube Module
+pneumaticcraft:regulator_tube_module, Regulator Tube Module
+pneumaticcraft:charging_module, Charging Module
+pneumaticcraft:logistics_module, Logistics Module
+pneumaticcraft:redstone_module, Redstone Module
 pneumaticcraft:gps_tool, GPS Tool
 pneumaticcraft:gps_area_tool, GPS Area Tool
 pneumaticcraft:ingot_iron_compressed, Compressed Steel Ingot
@@ -12878,14 +12148,20 @@ pneumaticcraft:pneumatic_dynamo, Pneumatic Dynamo
 pneumaticcraft:fake_ice, tile.fake_ice.name
 pneumaticcraft:thermal_compressor, Thermal Compressor
 pneumaticcraft:drone_interface, Drone Interface
-pneumaticcraft:safety_tube_module, Safety Tube Module
-pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
-pneumaticcraft:flow_detector_module, Flow Detector Tube Module
-pneumaticcraft:air_grate_module, Air Grate Tube Module
-pneumaticcraft:regulator_tube_module, Regulator Tube Module
-pneumaticcraft:charging_module, Charging Module
-pneumaticcraft:logistics_module, Logistics Module
-pneumaticcraft:redstone_module, Redstone Module
+pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
+pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
+pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
+pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
+pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
+pneumaticcraft:heat_frame, Heat Frame
+pneumaticcraft:spawner_agitator, Spawner Agitator
+pneumaticcraft:crop_support, Crop Support
+pneumaticcraft:transfer_gadget, Transfer Gadget
+pneumaticcraft:fluid.plastic, Plastic
+pneumaticcraft:fluid.etchacid, Etching Acid
+pneumaticcraft:fluid.lpg, LPG
+pneumaticcraft:fluid.kerosene, Kerosene
+pneumaticcraft:fluid.fuel, Gasoline
 scanner:biome_scanner_basic, Biome Scanner (Basic)
 scanner:biome_scanner_adv, Biome Scanner (Advanced)
 scanner:biome_scanner_elite, Biome Scanner (Elite)
@@ -12895,6 +12171,27 @@ scanner:scanner_queue, Scanner Queue
 scanner:terrain_scanner, Terrain Scanner
 snad:snad:0, Snad
 snad:snad:1, Red Snad
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -12945,27 +12242,6 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 stygian:endlog, Wyrmwood Log
 stygian:endplanks, Wyrmwood Planks
 stygian:endleaves, Wyrmwood Leaves
@@ -13909,8 +13185,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Block of Demon Metal
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Evil Infused Iron
 chiselsandbits:block_bit:0, Chiseled Bit - Ferrous-Juniper Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Raw Ferrous-Juniper Planks
-chiselsandbits:block_bit:0, Chiseled Bit - Alumite Block
-chiselsandbits:block_bit:0, Chiseled Bit - Invar Block
 chiselsandbits:block_bit:0, Chiseled Bit - Solid (0 ~ Natural Floor)
 chiselsandbits:block_bit:0, Chiseled Bit - Solid (1 ~ Barrier)
 chiselsandbits:block_bit:0, Chiseled Bit - Solid (2)
@@ -16272,6 +15546,65 @@ chiselsandbits:block_bit:0, Chiseled Bit - Brownstone Creeperface
 chiselsandbits:block_bit:0, Chiseled Bit - Triangle Brownstone Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Small Brownstone Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Brownstone Tiles
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Smokey Quartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Smokey Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Smokey Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Mana Quartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Mana Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Mana Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Blaze Quartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Blaze Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Blaze Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Lavender Quartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Lavender Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Lavender Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Redquartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Redquartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Redquartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Elven Quartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Elven Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Elven Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Sunny Quartz
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Sunny Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Sunny Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Forest Stone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Plains Stone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mountain Stone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Fungal Stone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Swamp Stone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Desert Stone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Taiga Stone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mesa Stone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Forest Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Plains Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mountain Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Fungal Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Swamp Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Desert Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Taiga Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mesa Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Forest Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Plains Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mountain Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Fungal Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Swamp Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Desert Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Taiga Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mesa Stone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Forest Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Plains Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Mountain Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Fungal Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Swamp Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Desert Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Taiga Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Mesa Stone Brick
+chiselsandbits:block_bit:0, Chiseled Bit - White Portuguese Pavement
+chiselsandbits:block_bit:0, Chiseled Bit - Black Portuguese Pavement
+chiselsandbits:block_bit:0, Chiseled Bit - Blue Portuguese Pavement
+chiselsandbits:block_bit:0, Chiseled Bit - Red Portuguese Pavement
+chiselsandbits:block_bit:0, Chiseled Bit - Yellow Portuguese Pavement
+chiselsandbits:block_bit:0, Chiseled Bit - Green Portuguese Pavement
 chiselsandbits:block_bit:0, Chiseled Bit - Livingrock
 chiselsandbits:block_bit:0, Chiseled Bit - Livingrock Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Mossy Livingrock Brick
@@ -16334,65 +15667,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Fel Pumpkin South
 chiselsandbits:block_bit:0, Chiseled Bit - Manastorm Charge
 chiselsandbits:block_bit:0, Chiseled Bit - Shimmerrock
 chiselsandbits:block_bit:0, Chiseled Bit - Shimmerwood Planks
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Smokey Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Smokey Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Smokey Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Mana Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Mana Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Mana Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Blaze Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Blaze Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Blaze Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Lavender Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Lavender Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Lavender Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Redquartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Redquartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Redquartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Elven Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Elven Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Elven Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Sunny Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Sunny Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Sunny Quartz Block
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Forest Stone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Plains Stone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mountain Stone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Fungal Stone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Swamp Stone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Desert Stone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Taiga Stone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mesa Stone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Forest Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Plains Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mountain Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Fungal Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Swamp Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Desert Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Taiga Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mesa Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Forest Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Plains Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mountain Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Fungal Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Swamp Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Desert Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Taiga Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Metamorphic Mesa Stone Bricks
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Forest Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Plains Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Mountain Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Fungal Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Swamp Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Desert Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Taiga Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Metamorphic Mesa Stone Brick
-chiselsandbits:block_bit:0, Chiseled Bit - White Portuguese Pavement
-chiselsandbits:block_bit:0, Chiseled Bit - Black Portuguese Pavement
-chiselsandbits:block_bit:0, Chiseled Bit - Blue Portuguese Pavement
-chiselsandbits:block_bit:0, Chiseled Bit - Red Portuguese Pavement
-chiselsandbits:block_bit:0, Chiseled Bit - Yellow Portuguese Pavement
-chiselsandbits:block_bit:0, Chiseled Bit - Green Portuguese Pavement
 chiselsandbits:block_bit:0, Chiseled Bit - Dense Construction Block
 chiselsandbits:block_bit:0, Chiseled Bit - Soot-covered Machine Casing
 chiselsandbits:block_bit:0, Chiseled Bit - Glitch Infused Block
@@ -16458,7 +15732,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Nacre Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Wisdom Wood Log Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Wisdom Wood Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Wisdom Wood Pigmented Planks
-chiselsandbits:block_bit:0, Chiseled Bit - Mirion Block
 chiselsandbits:block_bit:0, Chiseled Bit - End Aluminum Ore
 chiselsandbits:block_bit:0, Chiseled Bit - End Copper Ore
 chiselsandbits:block_bit:0, Chiseled Bit - End Iridium Ore
@@ -17143,20 +16416,8 @@ chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit - Menril Resin
 chiselsandbits:block_bit:0, Chiseled Bit - Liquid Chorus
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Alumite
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Titanium
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Terrasteel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Elementium
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Manasteel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Mirion
 chiselsandbits:block_bit:0, Chiseled Bit - Etching Acid
 chiselsandbits:block_bit:0, Chiseled Bit - Plastic
 chiselsandbits:block_bit:0, Chiseled Bit - LPG
@@ -17470,8 +16731,6 @@ environmentaltech:nano_cont_personal_4, Personal Nano Bot Beacon Tier 4
 environmentaltech:nano_cont_personal_5, Personal Nano Bot Beacon Tier 5
 environmentaltech:nano_cont_personal_6, Personal Nano Bot Beacon Tier 6
 mcjtylib_ng:multipart, tile.mcjtylib_ng.multipart.name
-plustic:centrifuge:0, Centrifuge Tank
-plustic:centrifuge:1, Centrifuge Core
 techreborn:dust:0, Almandine Dust
 techreborn:dust:1, Aluminium Dust
 techreborn:dust:2, Andradite Dust

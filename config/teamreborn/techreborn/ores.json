@@ -32,7 +32,7 @@
       "veinsPerChunk": 3,
       "minYHeight": 10,
       "maxYHeight": 60,
-      "shouldSpawn": true
+      "shouldSpawn": false
     },
     {
       "blockName": "tile.techreborn.ore",
@@ -42,7 +42,7 @@
       "veinsPerChunk": 3,
       "minYHeight": 10,
       "maxYHeight": 60,
-      "shouldSpawn": true
+      "shouldSpawn": false
     },
     {
       "blockName": "tile.techreborn.ore",
@@ -93,16 +93,6 @@
       "minYHeight": 20,
       "maxYHeight": 60,
       "shouldSpawn": false
-    },
-    {
-      "blockName": "tile.techreborn.ore",
-      "blockNiceName": "Tungsten",
-      "meta": 8,
-      "veinSize": 6,
-      "veinsPerChunk": 3,
-      "minYHeight": 10,
-      "maxYHeight": 250,
-      "shouldSpawn": true
     }
   ],
   "neatherOres": [

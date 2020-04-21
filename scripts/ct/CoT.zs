@@ -17,6 +17,6 @@ recipes.addHiddenShaped("paper_plane_2", <contenttweaker:paper_plane_2>, [[null,
 recipes.addHiddenShaped("paper_plane_1", <contenttweaker:paper_plane_1>, [[null, null, null],[null, <contenttweaker:paper_plane_0>, null], [null, null, null]]);
 
 //Overworld related
-recipes.addShaped(<contenttweaker:overworld_star>, [[<ore:ingotSignalum>, <ore:ingotDemonicMetal>, <ore:ingotLumium>],[<ore:ingotEvilMetal>, <ore:netherStar>, <ore:ingotHOPGraphite>], [<ore:ingotManyullyn>, <ore:ingotUranium>, <ore:ingotMirion>]]);
+recipes.addShaped(<contenttweaker:overworld_star>, [[<ore:ingotSignalum>, <ore:ingotElvenElementium>, <ore:ingotLumium>],[<ore:ingotEvilMetal>, <ore:netherStar>, <ore:ingotDemonicMetal>], [<ore:ingotManyullyn>, <ore:ingotTerrasteel>, <ore:ingotHOPGraphite>]]);
 recipes.addShaped(<contenttweaker:rainbow_block>, [[<contenttweaker:rainbow_ingot>, <contenttweaker:rainbow_ingot>, <contenttweaker:rainbow_ingot>],[<contenttweaker:rainbow_ingot>, <contenttweaker:rainbow_ingot>, <contenttweaker:rainbow_ingot>], [<contenttweaker:rainbow_ingot>, <contenttweaker:rainbow_ingot>, <contenttweaker:rainbow_ingot>]]);
 recipes.addShapeless(<contenttweaker:rainbow_ingot> * 9, [<contenttweaker:rainbow_block>]);
