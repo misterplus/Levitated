@@ -249,6 +249,9 @@ advancements.levitated.overworld.refined_iron.description=显然，将铁精炼�
 advancements.levitated.overworld.rubber.title=你爱吃大香蕉吗
 advancements.levitated.overworld.rubber.description=好吧，这东西和香蕉没什么关系。但它们非常适合用来制作线缆！安全用电，宝贝们~
 
+advancements.levitated.overworld.blast_furnace.title=这里越来越热了！
+advancements.levitated.overworld.blast_furnace.description=搭建工业高炉能够让你制作碳酸钙单元，这能直接将铁锭转化为精炼钢锭，大大提升效率。
+
 # Resources
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
@@ -291,6 +294,15 @@ advancements.levitated.resources.nether_uranium.description=在下界较低的�
 
 advancements.levitated.resources.overworld_calcite.title=钙片塞进石头里，§m鞭炮塞进牛粪里§r
 advancements.levitated.resources.overworld_calcite.description=玄武岩和大理石很适合制钙。现在你只能通过研磨和离心的方式制取，之后你可以将它们加工成碳酸钙。
+
+advancements.levitated.resources.overworld_ruby.title="红石"
+advancements.levitated.resources.overworld_ruby.description=耶！主世界！这意味着你终于可以去找那些闪亮的§2绿§r宝石了...吗？嘛，我知道这很残忍，但我还是要告诉你这是不可能滴，但好消息是，你可以在基岩上方的虚空石簇中找到一些闪亮的§4红宝石§r，相信我，你会需要它们的。
+
+advancements.levitated.resources.overworld_sapphire.title=天苍苍，野茫茫
+advancements.levitated.resources.overworld_sapphire.description=§1蓝宝石§r要比§4红宝石§r贵一些，但导电性比§4红宝石§r高了不止一点，凭借这一点，它们能作为很好的储电材料。它们通常在地下河的水面出现。
+
+advancements.levitated.resources.overworld_bauxite.title=沙盒游戏？其实是铝盒哒
+advancements.levitated.resources.overworld_bauxite.description=很缺§d铝§r吗？别担心了！主世界中有成吨的§c铝土矿§r等着你开采！
 
 advancements.levitated.resources.overworld_root.title=主世界矿物
 advancements.levitated.resources.overworld_root.description=右侧是关于主世界矿物的资料。
