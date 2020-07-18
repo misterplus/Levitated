@@ -249,6 +249,9 @@ advancements.levitated.overworld.refined_iron.description=Apparently refining ir
 advancements.levitated.overworld.rubber.title=European Eraser
 advancements.levitated.overworld.rubber.description=Alright, I admit these are not for schooling, but they are great for making cables! Please stay safe when you are working with electricity, sir/madam.
 
+advancements.levitated.overworld.blast_furnace.title=It's getting hot in here!
+advancements.levitated.overworld.blast_furnace.description=Constructing a industrial blast furnace would enable you to create calciumcarbonate cells, which can convert iron ingots directly into refined steel ingots, greatly improving the efficiency.
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.
