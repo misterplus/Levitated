@@ -292,6 +292,15 @@ advancements.levitated.resources.nether_uranium.description=Layers of Lavastone 
 advancements.levitated.resources.overworld_calcite.title=Stones of Calcium
 advancements.levitated.resources.overworld_calcite.description=Basalt and Marble are great sources for calcium! You'll be able to process them into calciumcarbonate later, but for now grinding and then centrifugating them would be fine.
 
+advancements.levitated.resources.overworld_ruby.title="Redstone"
+advancements.levitated.resources.overworld_ruby.description=Hey! You can finally get some emeralds here in the Overworld...or can you? Sadly it's another no for you, but you can still find these shiny red gems in some of the voidstone clusters just above the bedrocks. They'll be useful for ya', trust me.
+
+advancements.levitated.resources.overworld_sapphire.title=Sapphire Fist
+advancements.levitated.resources.overworld_sapphire.description=Sapphires are a bit rarer than rubies, but they are a lot more conductive than rubies, making them a way better material for storing energy. You can find these on the surfaces of some underground lakes.
+
+advancements.levitated.resources.overworld_bauxite.title=Boxes of Aluminum
+advancements.levitated.resources.overworld_bauxite.description=Short of aluminum supplies? Worry no more! There are tons of bauxite ores lying around for you to mine in the Overworld!
+
 advancements.levitated.resources.overworld_root.title=Overworld Resources
 advancements.levitated.resources.overworld_root.description=You can find all information related to Overworld ores/stones on the right.
 

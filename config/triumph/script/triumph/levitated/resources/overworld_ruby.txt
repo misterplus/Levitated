@@ -1,0 +1,15 @@
+setIcon(<techreborn:ore:2>)
+
+setTranslatedTitle("advancements.levitated.resources.overworld_ruby.title")
+setTranslatedDescription("advancements.levitated.resources.overworld_ruby.description")
+
+addParent("triumph:levitated/resources/root")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(83,-173)
+hideLines()
+
+criteria = addCriteria("hasRubyOre", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:ore:2>)
+
+hiddenUnless("triumph:levitated/overworld/root")

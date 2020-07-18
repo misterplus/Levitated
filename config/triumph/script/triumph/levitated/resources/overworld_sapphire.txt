@@ -1,0 +1,15 @@
+setIcon(<techreborn:ore:3>)
+
+setTranslatedTitle("advancements.levitated.resources.overworld_sapphire.title")
+setTranslatedDescription("advancements.levitated.resources.overworld_sapphire.description")
+
+addParent("triumph:levitated/resources/root")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(120,-173)
+hideLines()
+
+criteria = addCriteria("hasSapphireOre", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:ore:3>)
+
+hiddenUnless("triumph:levitated/overworld/root")
