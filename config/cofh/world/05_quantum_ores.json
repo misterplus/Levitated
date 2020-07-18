@@ -1,0 +1,73 @@
+{
+	"priority": 96,
+	"populate": {
+        "quantum-mithril": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "mithril"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 16,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-9999
+				]
+			}
+        },
+
+        "quantum-platinum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "platinum"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 16,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-9999
+				]
+			}
+        },
+
+        "quantum-dilithium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "libvulpes:ore0",
+					"properties": {
+						"varient": 0
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 16,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-9999
+				]
+			}
+        }
+    }
+}
