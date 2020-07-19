@@ -7,5 +7,5 @@ printDocumentation(false)
 setAsDefaultWorldType()
 
 levitated = registerPreset("Levitated", "", "Levitated WorldType")
-levitated.registerDimension(0, "levitated/overworld")
-levitated.registerDimension(-1, "levitated/nether")
+levitated.registerDimension(0, "levitated/overworld", "overworld")
+levitated.registerDimension(-1, "levitated/nether", "the_nether")
