@@ -31,6 +31,11 @@ addMineral("Silver", 130, 0.15, ["oreNetherSilver"], [1], [-1]);
 addMineral("Uranium", 100, 0.20, ["oreNetherUranium"], [1], [-1]);
 addMineral("Ardite", 20, 0.25, ["oreNetherArdite"], [1], [-1]);
 addMineral("Cobalt", 20, 0.25, ["oreNetherCobalt"], [1], [-1]);
+//Overworld
+addMineral("Bauxite", 140, 0.15, ["oreBauxite"], [1], [0]);
+addMineral("Ruby", 70, 0.25, ["oreRuby"], [1], [0]);
+addMineral("Sapphire", 70, 0.25, ["oreSapphire"], [1], [0]);
+addMineral("Tungsten", 25, 0.30, ["oreTungsten"], [1], [0]);
 
 //Rainbow Ingot
 mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:rainbow_ingot>, <ore:ingotUranium>, <immersiveengineering:material:7>, 600, 4096, [<extrautils2:decorativesolid:8>, <ore:itemEnderCrystal>, <ore:itemPrecientCrystal>], "Alloying");

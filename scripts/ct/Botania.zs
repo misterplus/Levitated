@@ -90,3 +90,13 @@ mods.botania.OrechidIgnem.addOre(<ore:oreNetherArdite>, 2275);
 mods.botania.RuneAltar.addRecipe(<minecraft:skull:2>, [<minecraft:skull:1>, <ore:elvenPixieDust>, <ore:gemPrismarine>, <minecraft:rotten_flesh>, <minecraft:golden_apple>], 22500);
 mods.botania.RuneAltar.addRecipe(<minecraft:skull:0>, [<minecraft:skull:1>, <ore:elvenPixieDust>, <ore:gemPrismarine>, <ore:bone>, <minecraft:golden_apple>], 22500);
 mods.botania.RuneAltar.addRecipe(<minecraft:skull:4>, [<minecraft:skull:1>, <ore:elvenPixieDust>, <ore:gemPrismarine>, <ore:gunpowder>, <minecraft:golden_apple>], 22500);
+
+//Orechid
+var overworld_ores = [<ore:oreAluminum>, <ore:oreIron>, <ore:oreOsmium>, <ore:oreMythril>, <ore:oreInfusedFire>, <ore:oreTin>, <ore:oreCertusQuartz>, <ore:oreMCropsEssence>, <ore:oreChimerite>, <ore:oreRuby>, <ore:oreCinnabar>, <ore:oreLead>, <ore:oreSapphire>, <ore:oreCoal>, <ore:oreVinteum>, <ore:oreDiamond>, <ore:oreTungsten>, <ore:oreEmerald>, <ore:orePlatinum>, <ore:oreDarkIron>, <ore:oreUranium>, <ore:oreNickel>, <ore:oreLapis>, <ore:oreInfusedEntropy>, <ore:oreAdamantium>, <ore:oreInfusedAir>, <ore:oreInfusedEarth>, <ore:oreFzDarkIron>, <ore:oreAmber>, <ore:oreOlivine>, <ore:oreMithril>, <ore:oreSilver>, <ore:oreInfusedOrder>, <ore:oreGold>, <ore:oreGalena>, <ore:oreBlueTopaz>, <ore:oreDark>, <ore:oreInfusedWater>, <ore:oreZinc>, <ore:oreQuartzBlack>, <ore:oreRedstone>, <ore:oreSulfur>, <ore:oreCopper>, <ore:oreYellorite>, <ore:oreApatite>] as IOreDictEntry[];
+for ore in overworld_ores {
+    mods.botania.Orechid.removeOre(ore);
+}
+mods.botania.Orechid.addOre(<ore:oreRuby>, 1100);
+mods.botania.Orechid.addOre(<ore:Bauxite>, 2200);
+mods.botania.Orechid.addOre(<ore:oreSapphire>, 1100);
+mods.botania.Orechid.addOre(<ore:oreTungsten>, 3520);

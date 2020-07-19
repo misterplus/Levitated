@@ -4,9 +4,11 @@ setTranslatedTitle("advancements.levitated.overworld.blast_furnace.title")
 setTranslatedDescription("advancements.levitated.overworld.blast_furnace.description")
 
 addParent("triumph:levitated/overworld/distiller")
+addParent("triumph:levitated/overworld/rubber")
+addParent("triumph:levitated/overworld/refined_iron")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(193,-58)
+setPos(133,-35)
 
 criteria = addCriteria("hasBlastFurnace", "minecraft:inventory_changed")
 criteria.addItem(<techreborn:industrial_blast_furnace>)

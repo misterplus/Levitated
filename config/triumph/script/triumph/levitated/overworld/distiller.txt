@@ -3,10 +3,10 @@ setIcon(<immersivetech:metal_multiblock>)
 setTranslatedTitle("advancements.levitated.overworld.distiller.title")
 setTranslatedDescription("advancements.levitated.overworld.distiller.description")
 
-addParent("triumph:levitated/overworld/refined_iron")
+addParent("triumph:levitated/overworld/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(144,-58)
+setPos(89,-79)
 
 criteria = addCriteria("formed_distiller", "immersiveengineering:multiblock_formed")
 criteria.setMultiblock("IE:Distiller")

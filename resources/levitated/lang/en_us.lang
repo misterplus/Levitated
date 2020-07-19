@@ -255,6 +255,9 @@ advancements.levitated.overworld.blast_furnace.description=Constructing a indust
 advancements.levitated.overworld.distiller.title=Hold Still
 advancements.levitated.overworld.distiller.description=Producing refined steel ingots can get quite grindy, looking through the recipe book, you found that calciumcarbonate should be all you need to simplify this process. Distilling regular water is one of the steps you need to take.
 
+advancements.levitated.overworld.voidminer.title=Essence of the Void
+advancements.levitated.overworld.voidminer.description=Spending countless hours mining for ores just isn't ideal, why not put all that excess power to use? This machine can materialize void energy and turn it into various ores. With a bit of modification, this machine can also generate plants and other resources.
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.

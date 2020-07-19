@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.overworld.rubber.description")
 addParent("triumph:levitated/overworld/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(89,18)
+setPos(89,7)
 
 criteria = addCriteria("hasSap", "minecraft:inventory_changed")
 criteria.addItem(<techreborn:part:32>)
