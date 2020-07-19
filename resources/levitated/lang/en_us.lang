@@ -252,6 +252,9 @@ advancements.levitated.overworld.rubber.description=Alright, I admit these are n
 advancements.levitated.overworld.blast_furnace.title=It's getting hot in here!
 advancements.levitated.overworld.blast_furnace.description=Constructing a industrial blast furnace would enable you to create calciumcarbonate cells, which can convert iron ingots directly into refined steel ingots, greatly improving the efficiency.
 
+advancements.levitated.overworld.distiller.title=Hold Still
+advancements.levitated.overworld.distiller.description=Producing refined steel ingots can get quite grindy, looking through the recipe book, you found that calciumcarbonate should be all you need to simplify this process. Distilling regular water is one of the steps you need to take.
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.

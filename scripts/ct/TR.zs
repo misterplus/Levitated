@@ -8,4 +8,4 @@ recipes.replaceAllOccurences(<techreborn:part:29>, <techreborn:part:30>, <techre
 recipes.addShaped(<techreborn:energycrystal>, [[<minecraft:redstone>, <techreborn:part:29>, <minecraft:redstone>],[<minecraft:redstone>, <techreborn:gem>, <minecraft:redstone>], [<minecraft:redstone>, <techreborn:part:29>, <minecraft:redstone>]]);
 
 //Refined Steel
-mods.techreborn.blastFurnace.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcalciumcarbonate", Amount: 1000}}), null, <ore:itemSlag>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "dist_water", Amount: 1000}}), 300, 128000, 1020);
+mods.techreborn.blastFurnace.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcalciumcarbonate", Amount: 1000}}), null, <ore:itemSlag>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "dist_water", Amount: 1000}}), 300, 107, 1020);
