@@ -7,7 +7,7 @@ addParent("triumph:levitated/overworld/refined_iron")
 addParent("triumph:levitated/overworld/rubber")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(133,7)
+setPos(131,8)
 
 criteria = addCriteria("hasVoidminer", "minecraft:inventory_changed")
 criteria.addItem(<environmentaltech:void_ore_miner_cont_1>)

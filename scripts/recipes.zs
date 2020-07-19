@@ -9,4 +9,5 @@ recipes.remove(<deepmoblearning:glitch_infused_chestplate>);
 recipes.remove(<deepmoblearning:glitch_infused_helmet>);
 //Don't touch me!
 //#Add
+
 //File End
