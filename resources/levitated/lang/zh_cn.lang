@@ -252,6 +252,12 @@ advancements.levitated.overworld.rubber.description=好吧，这东西和香蕉�
 advancements.levitated.overworld.blast_furnace.title=这里越来越热了！
 advancements.levitated.overworld.blast_furnace.description=搭建工业高炉能够让你制作碳酸钙单元，这能直接将铁锭转化为精炼钢锭，大大提升效率。
 
+advancements.levitated.overworld.distiller.title=Hold Still
+advancements.levitated.overworld.distiller.description=Producing refined steel ingots can get quite grindy, looking through the recipe book, you found that calciumcarbonate should be all you need to simplify this process. Distilling regular water is one of the steps you need to take.
+
+advancements.levitated.overworld.voidminer.title=Essence of the Void
+advancements.levitated.overworld.voidminer.description=Spending countless hours mining for ores just isn't ideal, why not put all that excess power to use? This machine can materialize void energy and turn it into various ores. With a bit of modification, this machine can also generate plants and other resources.
+
 # Resources
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
@@ -299,13 +305,16 @@ advancements.levitated.resources.overworld_ruby.title="红石"
 advancements.levitated.resources.overworld_ruby.description=耶！主世界！这意味着你终于可以去找那些闪亮的§2绿§r宝石了...吗？嘛，我知道这很残忍，但我还是要告诉你这是不可能滴，但好消息是，你可以在基岩上方的虚空石簇中找到一些闪亮的§4红宝石§r，相信我，你会需要它们的。
 
 advancements.levitated.resources.overworld_sapphire.title=天苍苍，野茫茫
-advancements.levitated.resources.overworld_sapphire.description=§1蓝宝石§r要比§4红宝石§r贵一些，但导电性比§4红宝石§r高了不止一点，凭借这一点，它们能作为很好的储电材料。它们通常在地下河的水面出现。
+advancements.levitated.resources.overworld_sapphire.description=§1蓝宝石§r要比§4红宝石§r贵一些，但导电性比§4红宝石§r高了不止一点，凭借这一点，它们能作为很好的储电材料。它们通常在地下湖周围的岩石表面出现。
 
 advancements.levitated.resources.overworld_bauxite.title=沙盒游戏？其实是铝盒哒
 advancements.levitated.resources.overworld_bauxite.description=很缺§d铝§r吗？别担心了！主世界中有成吨的§c铝土矿§r等着你开采！
 
-advancements.levitated.resources.overworld_root.title=主世界矿物
-advancements.levitated.resources.overworld_root.description=右侧是关于主世界矿物的资料。
+advancements.levitated.resources.overworld_tungsten.title=虚空金属
+advancements.levitated.resources.overworld_tungsten.description=重建了的主世界有些根基不稳，在基岩层偶尔会出现一坨一坨的§8钨矿§r，经过一系列精炼处理，它们的硬度逐渐拔萃，非常适合当作发展高端科技的材料。
+
+advancements.levitated.resources.overworld_root.title=主世界资源
+advancements.levitated.resources.overworld_root.description=右侧是关于主世界矿石的资料。
 
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=复活节彩蛋!
