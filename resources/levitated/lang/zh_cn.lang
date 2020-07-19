@@ -247,16 +247,16 @@ advancements.levitated.overworld.refined_iron.title=铁是铁，钢是钢，精�
 advancements.levitated.overworld.refined_iron.description=显然，将铁精炼一次是远远不够制作更高级的机器的，再精炼一次钢说不定可行，但怎么做呢？
 
 advancements.levitated.overworld.rubber.title=你爱吃大香蕉吗
-advancements.levitated.overworld.rubber.description=好吧，这东西和香蕉没什么关系。但它们非常适合用来制作线缆！安全用电，宝贝们~
+advancements.levitated.overworld.rubber.description=好吧，这东西和香蕉没什么关系。它们非常适合用来制作线缆！安全用电，宝贝们~
 
 advancements.levitated.overworld.blast_furnace.title=这里越来越热了！
 advancements.levitated.overworld.blast_furnace.description=搭建工业高炉能够让你制作碳酸钙单元，这能直接将铁锭转化为精炼钢锭，大大提升效率。
 
-advancements.levitated.overworld.distiller.title=Hold Still
-advancements.levitated.overworld.distiller.description=Producing refined steel ingots can get quite grindy, looking through the recipe book, you found that calciumcarbonate should be all you need to simplify this process. Distilling regular water is one of the steps you need to take.
+advancements.levitated.overworld.distiller.title=抓住那一道灵光
+advancements.levitated.overworld.distiller.description=制作精炼钢锭的过程十分枯燥，你选择粗读配方来打发时间，突然，你发现碳酸钙也许能帮你简化产线。理清了思路后，你准备先用蒸馏器蒸馏一些水。
 
-advancements.levitated.overworld.voidminer.title=Essence of the Void
-advancements.levitated.overworld.voidminer.description=Spending countless hours mining for ores just isn't ideal, why not put all that excess power to use? This machine can materialize void energy and turn it into various ores. With a bit of modification, this machine can also generate plants and other resources.
+advancements.levitated.overworld.voidminer.title=虚空能量
+advancements.levitated.overworld.voidminer.description=将大好时光花在挖矿上属实浪费，为什么不把多余的电量利用起来呢？这台机器能够将虚空能量物质化，并以矿物的形式聚合。在某些部分做点改变后，它就能将虚空能量物化为植物或各种资源。
 
 # Resources
 advancements.levitated.resources.root.title=末地矿物
@@ -280,7 +280,7 @@ advancements.levitated.resources.nether_root.description=右侧是关于下界�
 advancements.levitated.resources.nether_quartz.title=blingbling的水晶
 advancements.levitated.resources.nether_quartz.description=§f下界石英§r和§b赛特斯石英§r都埋藏于地狱岩中，并且遍布下界，你可以很轻松地挖到它们。
 
-advancements.levitated.resources.nether_aluminum.title=把锅融掉就能得到！peace~
+advancements.levitated.resources.nether_aluminum.title=一般都拿来做锅呢
 advancements.levitated.resources.nether_aluminum.description=和钻石的生成方式一样，§d铝矿§r生成在下界顶部悬挂的§8玄武岩§r倒刺中。
 
 advancements.levitated.resources.nether_nickel.title=镍镍内内呐！
@@ -292,13 +292,13 @@ advancements.levitated.resources.nether_silver.description=在下界，会生成
 advancements.levitated.resources.nether_ardite.title=糊一脸矿
 advancements.levitated.resources.nether_ardite.description=§6阿迪特§r和§5黑曜石§r少量散布于下界底部。
 
-advancements.levitated.resources.nether_cobalt.title=秒男就不要用了吧
+advancements.levitated.resources.nether_cobalt.title=很快，很硬
 advancements.levitated.resources.nether_cobalt.description=在下界顶部的基岩层，会生成§5巨型黑曜石块§r，里面偶尔会伴生§1钴矿§r。
 
 advancements.levitated.resources.nether_uranium.title=小心辐射
 advancements.levitated.resources.nether_uranium.description=在下界较低的位置，岩层转变为熔岩石层，§2铀矿§r沉积于此。下界的熔岩湖下面就能看到这些石头。
 
-advancements.levitated.resources.overworld_calcite.title=钙片塞进石头里，§m鞭炮塞进牛粪里§r
+advancements.levitated.resources.overworld_calcite.title=钙片塞进石头里(？
 advancements.levitated.resources.overworld_calcite.description=玄武岩和大理石很适合制钙。现在你只能通过研磨和离心的方式制取，之后你可以将它们加工成碳酸钙。
 
 advancements.levitated.resources.overworld_ruby.title="红石"
