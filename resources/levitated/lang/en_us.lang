@@ -307,6 +307,9 @@ advancements.levitated.resources.overworld_sapphire.description=Sapphires are a 
 advancements.levitated.resources.overworld_bauxite.title=Boxes of Aluminum
 advancements.levitated.resources.overworld_bauxite.description=Short of aluminum supplies? Worry no more! There are tons of bauxite ores lying around for you to mine in the Overworld!
 
+advancements.levitated.resources.overworld_tungsten.title=Void Metal
+advancements.levitated.resources.overworld_tungsten.description=Small chunks of tungsten ores lies in the bedrock layer of the Overworld, after some refining work, they become an exceptionally hard metal, a great material for building high-end techs.
+
 advancements.levitated.resources.overworld_root.title=Overworld Resources
 advancements.levitated.resources.overworld_root.description=You can find all information related to Overworld ores/stones on the right.
 
