@@ -258,6 +258,9 @@ advancements.levitated.overworld.distiller.description=制作精炼钢锭的过�
 advancements.levitated.overworld.voidminer.title=虚空能量
 advancements.levitated.overworld.voidminer.description=将大好时光花在挖矿上属实浪费，为什么不把多余的电量利用起来呢？这台机器能够将虚空能量物质化，并以矿物的形式聚合。在某些部分做点改变后，它就能将虚空能量物化为植物或各种资源。
 
+advancements.levitated.overworld.machine_frame.title=机器框架
+advancements.levitated.overworld.machine_frame.description=朴实无华的机器框架。
+
 # Resources
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
