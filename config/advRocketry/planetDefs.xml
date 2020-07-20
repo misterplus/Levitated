@@ -1,0 +1,7 @@
+<galaxy>
+    <star name="Levitator" temp="100" x="0" y="0" numPlanets="1">
+        <planet name="Kepler-22p" DIMID="6666" customIcon="earthlike">
+            
+        </planet>
+    </star>
+</galaxy>
