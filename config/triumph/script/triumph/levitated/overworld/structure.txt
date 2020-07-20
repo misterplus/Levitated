@@ -1,0 +1,14 @@
+setIcon(<libvulpes:structuremachine>)
+
+setTranslatedTitle("advancements.levitated.overworld.structure.title")
+setTranslatedDescription("advancements.levitated.overworld.structure.description")
+
+addParent("triumph:levitated/overworld/uumachine")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(274,-78)
+
+criteria = addCriteria("hasStructureMachine", "minecraft:inventory_changed")
+criteria.addItem(<libvulpes:structuremachine>)
+
+visibleIf("triumph:levitated/overworld/root")

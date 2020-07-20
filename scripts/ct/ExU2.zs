@@ -22,7 +22,7 @@ recipes.addShaped(<extrautils2:chickenring:1>, [[<ore:dyePurple>, <ore:gemDiamon
 recipes.replaceAllOccurences(<extrautils2:goldenlasso>.withTag({Animal: {id: "minecraft:bat"}, No_Place: 1 as byte}), <botania:flighttiara:*>);
 recipes.replaceAllOccurences(<extrautils2:goldenlasso:1>.withTag({Animal: {id: "minecraft:ghast"}, No_Place: 1 as byte}), <extrautils2:goldenlasso:1>.withTag({Animal: {id: "minecraft:ghast"}}).transformReplace(<extrautils2:goldenlasso:1>));
 recipes.addShaped(<extrautils2:resonator>, [[<ore:ingotRedstoneAlloy>, <ore:blockMagma>, <ore:ingotRedstoneAlloy>],[<ore:ingotElectrum>, <ore:gemRedstone>, <ore:ingotElectrum>], [<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>]]);
-recipes.addShaped(<extrautils2:quarry>, [[<ore:plateIridiumAlloy>, <techreborn:dynamiccell>, <ore:plateIridiumAlloy>],[<extrautils2:decorativesolid:3>, <extrautils2:snowglobe:1>, <extrautils2:decorativesolid:3>], [<ore:plateIridiumAlloy>, <ore:endstone>, <ore:plateIridiumAlloy>]]);
+recipes.addShaped(<extrautils2:quarry>, [[<ore:plateIridiumAlloy>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidheliumplasma", Amount: 1000}}), <ore:plateIridiumAlloy>],[<extrautils2:decorativesolid:3>, <extrautils2:snowglobe:1>, <extrautils2:decorativesolid:3>], [<ore:plateIridiumAlloy>, <ore:endstone>, <ore:plateIridiumAlloy>]]);
 recipes.addShaped(<extrautils2:quarryproxy>, [[<ore:plateAdvancedAlloy>, <minecraft:end_rod>, <ore:plateAdvancedAlloy>],[<ore:plateAdvancedAlloy>, <thermalfoundation:tool.pickaxe_platinum>, <ore:plateAdvancedAlloy>], [<extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>, <extrautils2:decorativesolid:3>]]);
 
 //Scanner mod

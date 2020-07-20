@@ -261,6 +261,24 @@ advancements.levitated.overworld.voidminer.description=Spending countless hours 
 advancements.levitated.overworld.machine_frame.title=Working within Frames
 advancements.levitated.overworld.machine_frame.description=Nothing to see here! Just a simple machine frame.
 
+advancements.levitated.overworld.recycler.title=Environmental Friendly
+advancements.levitated.overworld.recycler.description=You must've have produced a lot of waste by now. Instead of throwing them in the bin, why not recycle them and keep your surroundings nice and clean?
+
+advancements.levitated.overworld.voidminer2.title=Miner Double
+advancements.levitated.overworld.voidminer2.description=With a bit of tinkering, you managed to further refine the void energy extracted into rarer ores, like Iridium and Titanium.
+
+advancements.levitated.overworld.uumachine.title=Something out of Nothing
+advancements.levitated.overworld.uumachine.description=It turns out you can create a way richer substance with those scraps you've recycled earlier, you named it UU-Matter. With it you can get your hands on large quantities of rare ores a lot quicker now.
+
+advancements.levitated.overworld.fusion.title=Nuclear Fusion
+advancements.levitated.overworld.fusion.description=You sure have a lot of machines at your disposal, but you can't exactly build the rocket that'll take you to another habitable planet without the right materials. Sure Iridium and Titanium are pretty strong, but you might need something that doesn't exist on this planet... Platinum for example.
+
+advancements.levitated.overworld.quantum_quarry.title=Quantum Tunneling
+advancements.levitated.overworld.quantum_quarry.description=Platinum might be the first man-made substance on this planet, but it certainly won't be the last. In fact, you can even borrow substances from another world. We call this quantum mining.
+
+advancements.levitated.overworld.structure.title=Steady Structure
+advancements.levitated.overworld.structure.description=With storms howling through the lands of the Overworld, you surely don't wanna live there, but the end is not exactly a great choice either, that leaves you with the only option - other planets. Better get those rockets building!
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.
@@ -318,6 +336,18 @@ advancements.levitated.resources.overworld_tungsten.description=Small chunks of 
 
 advancements.levitated.resources.overworld_root.title=Overworld Resources
 advancements.levitated.resources.overworld_root.description=You can find all information related to Overworld ores/stones on the right.
+
+advancements.levitated.resources.quantum_root.title=Quantum Drilling
+advancements.levitated.resources.quantum_root.description=You can find all information related to Quantum ores on the right.
+
+advancements.levitated.resources.quantum_platinum.title=
+advancements.levitated.resources.quantum_platinum.description=
+
+advancements.levitated.resources.quantum_dilithium.title=
+advancements.levitated.resources.quantum_dilithium.description=
+
+advancements.levitated.resources.quantum_mithril.title=
+advancements.levitated.resources.quantum_mithril.description=
 
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=Easter Eggs!

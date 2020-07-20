@@ -3,11 +3,10 @@ setIcon(<environmentaltech:void_ore_miner_cont_1>)
 setTranslatedTitle("advancements.levitated.overworld.voidminer.title")
 setTranslatedDescription("advancements.levitated.overworld.voidminer.description")
 
-addParent("triumph:levitated/overworld/refined_iron")
-addParent("triumph:levitated/overworld/rubber")
+addParent("triumph:levitated/overworld/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(131,8)
+setPos(88,8)
 
 criteria = addCriteria("hasVoidminer", "minecraft:inventory_changed")
 criteria.addItem(<environmentaltech:void_ore_miner_cont_1>)
