@@ -5,31 +5,31 @@ advancements.levitated.end.root.title=终末亦是开始
 advancements.levitated.end.root.description=主世界轰然崩塌，你不慎跌入终界，不幸中的万幸，你碰巧又坠入折跃门中，没有了末影龙的侵扰，你开始思考怎么逃出去...
 
 advancements.levitated.end.chorus_fruit.title=不同寻常的水果
-advancements.levitated.end.chorus_fruit.description=吃一个紫颂果。
+advancements.levitated.end.chorus_fruit.description=吃一颗紫颂果。
 
 advancements.levitated.end.ender_lilly.title=诡异的..植物？
-advancements.levitated.end.ender_lilly.description=破坏一株末影百合以获取一些末影百合种子。将它种在末地石上，它就能生长出末影珍珠。(光合作用？)
+advancements.levitated.end.ender_lilly.description=破坏一株末影百合以获取一些末影百合种子。将它种在末地石上，就会源源不断地吸收末影能量，最终结出一颗末影珍珠。
 
 advancements.levitated.end.end_matter.title=世界物质
-advancements.levitated.end.end_matter.description=现在，玩家使用末影珍珠传送时，会在落脚点生成一个末地物质。这是由于玩家自身携带着主世界崩塌后流窜的各种元素造成的，所以末地的本土生物传送并不会生成。
+advancements.levitated.end.end_matter.description=使用末影珍珠快速赶路时，你发现落脚点会出现一个末地物质。这是由于你自身携带着主世界崩塌后流窜的各种元素造成的，所以末地的本土生物传送时并不会出现。
 
 advancements.levitated.end.endstone_shard.title=地之碎片
 advancements.levitated.end.endstone_shard.description=空手破坏末地石可以获得末地石碎片，它的锋利程度足够制作工具了。
 
 advancements.levitated.end.end_log.title=脆弱的生命
-advancements.levitated.end.end_log.description=龙树原木只能通过斧头采集，但末地石的硬度似乎也足够，只是碎片虽然锋利，但力道控制不好，还是会把原木劈成木板，祝你好运。
+advancements.levitated.end.end_log.description=龙树原木只能通过斧头采集，但末地石的硬度似乎也足够，但碎片的不规则锯齿有时会把原木直接割成木板，祝你好运。
 
 advancements.levitated.end.tool_station.title=生存必需品
-advancements.levitated.end.tool_station.description=有了工具组装台后，你就能够做一些你需要的工具了，末地石？还是龙木？
+advancements.levitated.end.tool_station.description=有了工具组装台后，你就能够做一些你需要的工具了。不过看起来现在只有末地石和龙木这两种材料。
 
 advancements.levitated.end.furnace.title=小身材大热量
-advancements.levitated.end.furnace.description=使用末地石制作一个熔炉。虽然这个熔炉还谈不上非常完备，但你仍然可以用它来冶炼矿石。
+advancements.levitated.end.furnace.description=使用末地石制作一个熔炉。虽然这个熔炉还谈不上非常完美，但你仍然可以用它来冶炼矿石。
 
 advancements.levitated.end.mana_pool.title=先人的遗产
-advancements.levitated.end.mana_pool.description=除了无法探本穷源的末地船，先人们还在末地建造了另一种建筑，并在里面为后人留下一些残留了些许魔力的物品，例如魔力池。
+advancements.levitated.end.mana_pool.description=除了无法探本穷源的末地船，你还发现了另一种人造的建筑，先人们在里面为后人留下一些残留了些许魔力的物品，例如魔力池。
 
 advancements.levitated.end.liquid_mana.title=上帝的恩赐
-advancements.levitated.end.liquid_mana.description=没有魔力的魔力池对你来说只是食之无味弃之可惜，幸运的是，幽冥之林群系(Stygian Growth)中有天然的魔法池，但这种液态魔力是极为不稳定的，所以你只能用最原始最简单的方法处理它，你需要找到这种方法来稳定它们。
+advancements.levitated.end.liquid_mana.description=没有魔力的魔力池对你来说是食之无味弃之可惜，幸运的是，幽冥之林群系(Stygian Growth)中有天然的魔法池，但这种液态魔力极不稳定，所以只能用最基础的处理方式，还是尽快找到能稳定它的方法吧。
 
 advancements.levitated.end.mana_usage.title=朝气蓬勃
 advancements.levitated.end.mana_usage.description=魔力有很多特殊的作用，比如把幽冥草地变为鲜草草地，把紫颂花变为骨块。这意味着你现在可以养花了，耶！
@@ -38,40 +38,40 @@ advancements.levitated.end.living_blocks.title=充满活力
 advancements.levitated.end.living_blocks.description=白雏菊能让末地石焕发生机，这意味着你可以用它制作活石以及其他材料，例如活木。
 
 advancements.levitated.end.altar.title=池中的小生命
-advancements.levitated.end.altar.description=发展路上，花药台能帮你制作很多神奇的花朵，在此之前，你还需要准备一些种子，首先想到的种子是绿色的吧？但现在，紫色的种子或许也能帮上一些忙。
+advancements.levitated.end.altar.description=发展路上，花药台能帮你制作很多神奇的花朵，在此之前，你还需要准备一些种子。不过，这里似乎并没有充满生命力的绿色种子？希望这死气沉沉的紫色种子能帮上一些忙吧。
 
 advancements.levitated.end.water.title=源泉!哦不!这是圆寂泉
-advancements.levitated.end.water.description=通过观察身边的怪物,你发现在酸性平原群系(Acidic Plains)中发现的幽冥酸液会对你造成伤害,但通过适当的处理,它能够净化成水,但这过程是漫长且枯燥的,可不要睡着了.注意,这不是主世界,并没有所谓的无限水.
+advancements.levitated.end.water.description=通过观察身边的怪物,你发现在酸性平原群系(Acidic Plains)中的幽冥酸液会对你造成伤害,但通过适当的处理,它能够净化成水,但这过程是漫长且枯燥的,可不要睡着了。还有一点,这不是主世界,并没有所谓的无限水.
 
 advancements.levitated.end.clay_flower.title=小朋友都喜欢它
 advancements.levitated.end.clay_flower.description=一朵叫粘土花的小花可以帮助你把沙子变为粘土，那么问题来了，沙子怎么获得？
 
 advancements.levitated.end.coke_oven.title=可口可乐末地分公司
-advancements.levitated.end.coke_oven.description=普通的熔炉不能将原木烧制成木炭，但焦炉可以！
+advancements.levitated.end.coke_oven.description=普通的熔炉无法让你精确地控制火候来烧制木炭，但焦炉可以！
 
-advancements.levitated.end.enderdagger.title=末地猎x人
-advancements.levitated.end.enderdagger.description=觉得击杀末影人很累？那用用看这把匕首吧！
+advancements.levitated.end.enderdagger.title=末地猎人
+advancements.levitated.end.enderdagger.description=末影人似乎对这把匕首散发出的特殊能量非常抗拒，那如果直接用匕首砍它们呢？
 
 advancements.levitated.end.ender_iron.title=天外末影技术
-advancements.levitated.end.ender_iron.description=末影人能够将某种末地元素注入到铁矿石中，意思就是有一些较强的末影人，手里会拿着一个特殊的方块。通过适当的处理，你成功地得到了一种叫做聚影铁的新金属。
+advancements.levitated.end.ender_iron.description=稍强一些的末影人拥有将某种末地元素注入铁矿石的能力，适当的处理这种矿物后，你成功得到了一种叫做聚影铁的新金属。
 
 advancements.levitated.end.grass_seeds.title=末地可没有光合作用
-advancements.levitated.end.grass_seeds.description=虽然终末种子能够制造花朵，但它们是不可再生的。在你了解了一些炼金魔法后，制作一些其他的种子已经不成问题了。先做一个小麦种子吧。
+advancements.levitated.end.grass_seeds.description=虽然终末种子能够制造花朵，但它们是不可再生的。在你了解了一些炼金魔法后，制作一些其他的种子已经不成问题。先做一个小麦种子吧。
 
 advancements.levitated.end.string.title=亚洲捆绑
 advancements.levitated.end.string.description=由于周边并没有动物，工业大麻成为线的主要来源。
 
 advancements.levitated.end.alfheim.title=第四维度
-advancements.levitated.end.alfheim.description=待在末地并不能帮你重建主世界，但去下界肯定可以！但是要怎么做呢？通过浏览植物魔法辞典，你发现了艾尔夫海姆(Alfheim)，这个维度容纳了数以千计的精灵，它们可能对下界有所了解。你决定着手建造一个精灵传送门。
+advancements.levitated.end.alfheim.description=待在末地并不能帮你重建主世界，但去下界肯定可以！但是要怎么做呢？通过浏览植物魔法辞典，你发现了艾尔夫海姆(Alfheim)，这个维度容纳了数以千计的精灵，它们可能对下界有所了解。
 
 advancements.levitated.end.alchemy.title=终极炼金
-advancements.levitated.end.alchemy.description=末地非常贫瘠，但似乎炼金催化器是可以制作出来的，探索一些末地船，看看你能发现什么。
+advancements.levitated.end.alchemy.description=末地非常贫瘠，但炼金催化器还是可以憋出来的。探索一些末地船，看看你能发现什么。
 
 advancements.levitated.end.fire_rune.title=清新口气你我更亲近
-advancements.levitated.end.fire_rune.description=还记得末影龙吗？我们也许得去看望她一下，前往下界之前，手头的下界资源非常匮乏，制作火之符文比以前难得多。幸运的是，龙息可能会对你有所帮助，但杀死那条龙并不简单...
+advancements.levitated.end.fire_rune.description=还记得末影龙吗？我们也许得去看望她一下。前往下界之前，很难获得蕴含火能量的物品，所以制作火之符文比以前难得多。还好，龙息的灼热感说明里面有一些火元素，但杀死那条龙并不简单...
 
 advancements.levitated.end.terra_plate.title=天地三清道法无常
-advancements.levitated.end.terra_plate.description=精灵门需要泰拉钢，但制作泰拉钢之前，你还需要先制作并搭建泰拉凝聚板结构，如果你已经有了五种符文，我想这并不会太难。
+advancements.levitated.end.terra_plate.description=精灵门需要泰拉钢，但制作泰拉钢之前，你还需要先制作并搭建泰拉凝聚板，如果你已经有了五种元素符文，我想这并不会太难。
 
 advancements.levitated.end.terrasteel.title=九阳神功聚泰拉钢
 advancements.levitated.end.terrasteel.description=制作泰拉钢需要大量的魔力，对于像你这样刚刚入门的植物学家，这会是个很大的挑战。
@@ -86,49 +86,49 @@ advancements.levitated.end.infinity_dust.title=以地之根本,取无限之利
 advancements.levitated.end.infinity_dust.description=阅读了那本书后，你知道你该做什么了：制作一台能恢复生态的机器！基岩能帮助你在有限的资源中获得无限的资源，但从哪能找到基岩呢？哦对！主岛的黑曜石柱上！如果你还没有杀死那条龙，现在是时候解决她了！
 
 advancements.levitated.end.end_orechid.title=轰轰轰
-advancements.levitated.end.end_orechid.description=厌倦了找矿?如果你有多余的魔力，那就试试这朵影矿兰吧！
+advancements.levitated.end.end_orechid.description=厌倦了找矿?如果你有多余的魔力，那就试试影矿兰吧！
 
 advancements.levitated.end.stirling_gen.title=斯特林工业
 advancements.levitated.end.stirling_gen.description=全球限量，性能遥遥领先，简洁、实惠又不失内涵！
 
 advancements.levitated.end.simulation_chamber.title=深度知识
-advancements.levitated.end.simulation_chamber.description=如果厌倦了手动刷怪，那么你一定很想用用这台叫模拟室的机器。
+advancements.levitated.end.simulation_chamber.description=长期的屠杀怪物，让你变得有些洁癖，希望模拟室能帮你缓一下。
 
 advancements.levitated.end.keystone.title=故障试炼
-advancements.levitated.end.keystone.description=系统故障只会出现在试炼中，开始一项试炼需要一把测试密钥。更多信息请在指南中查阅。不过，在试炼中你可能会遇到一些飞行的生物。它们有几率掉落一个你暂时还无法使用的物品。
+advancements.levitated.end.keystone.description=系统故障只会出现在试炼中，试炼需要一把测试秘钥来开启。更多信息请在指南中查阅。不过，在试炼中你可能会遇到一些飞行的生物。它们有几率掉落一个你暂时还无法使用的物品。
 
 advancements.levitated.end.glitched_oby.title=系统§k故kokok§r障
-advancements.levitated.end.glitched_oby.description=仅仅用黑曜石搭建一个传送门框架并不能让你进入下界，你需要给普通的黑曜石添加一些小"故障"，在你思考该怎么做时，泰拉凝聚板似乎向你发出了微弱的光芒。
+advancements.levitated.end.glitched_oby.description=仅仅用黑曜石搭建一个传送门框架并不能让你进入下界，你需要给普通的黑曜石添加一些小"故障"，在你思考该怎么做时，泰拉凝聚板向你发出了微弱的光芒。
 
 advancements.levitated.end.nether_portal.title=通向...虚无的门?
-advancements.levitated.end.nether_portal.description=使用故障黑曜石搭建一个传送门框架，然而，打火石并不会激活它，你需要更加炎热，更充满魔力的东西，激活传送门后，你就可以前往下界了，但是迎接你的只有一片虚无..
+advancements.levitated.end.nether_portal.description=使用故障黑曜石搭建一个传送门框架后，你发现打火石并不会激活它，精灵们说，你需要更加炽热，更充满魔力的东西。激活传送门后，你就可以前往下界了，但是迎接你的只有一片虚无..
 
 advancements.levitated.end.deep_learner.title=源计划: 故障
-advancements.levitated.end.deep_learner.description=要想开始搭建一个通往下界的传送门，你需要模拟怪物的习性，并且在末地没有那么多种怪物。所以，不要选择困难，挑选你喜欢的然后开始吧!
+advancements.levitated.end.deep_learner.description=要想搭建一个通往下界的传送门，你首先需要模拟怪物的习性。末地的怪物种类屈指可数，所以，不要选择困难，挑选你喜欢的然后开始吧!
 
 advancements.levitated.end.machine_block.title=巫异时刻,零式分割
-advancements.levitated.end.machine_block.description=如果你想制作更多的发电机，你可以在EXU2中找找。但在获得下界石英之前，制作机器方块是件相当麻烦的事。
+advancements.levitated.end.machine_block.description=如果你想制作更多的发电机，你可以看看更多实用设备2（EXU2）。但在获得下界石英之前，制作机器方块是件相当麻烦的事。
 
 advancements.levitated.end.sag_mill.title=双倍"疯"量
-advancements.levitated.end.sag_mill.description=即使使用影矿兰都不能满足你对矿物的需求吗？别烦恼了！试试SAG磨粉机 吧！
+advancements.levitated.end.sag_mill.description=影矿兰都不能满足你对矿物的需求？那好吧，或许你能用SAG磨粉机在处理过程中增加一些矿石产量。
 
 advancements.levitated.end.alloy_smelter.title=强化,加固
 advancements.levitated.end.alloy_smelter.description=把不同的金属融合在一起，会使它们更坚硬、更强大，冶金专家称之为"合金"。
 
-advancements.levitated.end.assembler.title=不是我没技术,只是我懒^^
-advancements.levitated.end.assembler.description=尽管你可以手捏简易的机器，但要制作更复杂更高级的机器，你需要一台装配机来帮助你。
+advancements.levitated.end.assembler.title=不是没技术,只是懒^^
+advancements.levitated.end.assembler.description=尽管你可以手捏简易的机器，但要制作更复杂更高级的机器，你得需要一台装配机。
 
 advancements.levitated.end.solder.title=小心烫伤
-advancements.levitated.end.solder.description=焊料这种合金非常适合用来制作机器。要制作一桶焊料，你只需要用一个桶装焊料粉右击火焰便可制成。
+advancements.levitated.end.solder.description=焊料非常适合制作机器。用桶装焊料粉右击火焰就能制成一桶焊料。
 
 advancements.levitated.end.scanner.title=源计划: 复苏
-advancements.levitated.end.scanner.description=虽然下界现在是一片虚无，但你仍可以借助机器的力量复苏它。生物群系扫描仪和地形扫描仪能够在很短的时间内塑造世界。但它们需要的能量比其他机器要多得多。
+advancements.levitated.end.scanner.description=虽然下界现在是一片虚无，但你仍可以借助机器的力量重建它。生物群系扫描仪和地形扫描仪能够在很短的时间内塑造世界。但它们需要的能量比其他机器要多得多。
 
-advancements.levitated.end.netherrack.title=下界重建，爷的青春回来了！
-advancements.levitated.end.netherrack.description=将电容器带到下界然后开始你的重建大业吧！眼前的虚无与记忆中的深红渐渐重合...
+advancements.levitated.end.netherrack.title=下界重建，爷青回！
+advancements.levitated.end.netherrack.description=将电容器带到下界，然后开始你的重建大业吧！随着电量的减少，眼前的虚无与记忆中的深红渐渐重合...
 
 advancements.levitated.end.drying_rack.title=一滴都没有了
-advancements.levitated.end.drying_rack.description=你想制作晾干架，但是你的力量并不足以手捏龙木台阶，所以寻找一种更加柔软的材料并用它制作晾干架吧！(液态魔力或许能软化木头。
+advancements.levitated.end.drying_rack.description=有些东西需要晾干架，但你的力量并不足以手捏龙木台阶，所以寻找一种更加柔软的材料来制作晾干架吧！(液态魔力或许能软化木头。
 
 advancements.levitated.end.blue_lotus.title=这真不是色素染的
 advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth)中，你能发现一种叫"冥灯草"的植物，它看起来十分诡异并闪着微小的光。经过尝试，你发现它能够稳定并吸收魔力，并转变为蓝莲花，把它扔进魔力池中就能够释放它储存的魔力。
@@ -141,13 +141,13 @@ advancements.levitated.nether.root.title=无魂之壤
 advancements.levitated.nether.root.description=在你到来之前，这个世界只有寂静。但随着你眼前的虚无重新被填满，怪物有了落脚之地，你得小心点...
 
 advancements.levitated.nether.altar.title=祭坛中的小生命
-advancements.levitated.nether.altar.description=通过把在下界发现的新资源组合起来，你成功制作了一个祭坛。你可以用它来复活一些动物！不过，一不留神，可能就会失败...
+advancements.levitated.nether.altar.description=通过把在下界发现的新资源组合起来，你成功制作了一个祭坛。你可以用它复活一些动物！§e但创造小生命可不是百分之百能成功的。§r
 
 advancements.levitated.nether.rotten_pork.title=好吃(?的下界火熏猪肉
 advancements.levitated.nether.rotten_pork.description=僵尸猪人不会再掉落金粒或金锭，但它们会以很小的几率掉落腐烂的猪肉，你可以用它在召唤仪式中召唤猪猪。
 
-advancements.levitated.nether.chicken_ring.title=别想了这是家鸡
-advancements.levitated.nether.chicken_ring.description=通过将鸡的灵魂镶嵌在指环中，你成功地让指环具备减缓你坠落速度的能力。但你渴求的是飞行，经过不断地尝试，你终于发现了正确的升级方法。
+advancements.levitated.nether.chicken_ring.title=别想了这是家鸡，不会飞的
+advancements.levitated.nether.chicken_ring.description=将鸡的灵魂封印在指环后，指环就拥有了减缓你坠落速度的能力。但你渴求的是飞行，经过不断地尝试，你终于发现了正确的升级方法。
 
 advancements.levitated.nether.chassis.title=科技第一步，框架来帮助
 advancements.levitated.nether.chassis.description=机器框架是制作进阶机器的必需品，而具有超强导电性的下界石英恰好能用来制作它。
@@ -156,31 +156,31 @@ advancements.levitated.nether.resonator.title=共振 §m啪啪啪§r
 advancements.levitated.nether.resonator.description=在共振仪中，你可以将普通的材料共振转变为与之对应的高质量材料，这些材料非常适合用来制作机器。
 
 advancements.levitated.nether.blaze_rod.title=火之高兴
-advancements.levitated.nether.blaze_rod.description=烈焰人偶尔会生成在下界的地狱砖上，§m但你出门前要是抹了防晒霜§r，说不定就能在地狱堡垒里发现烈焰人刷怪笼。
+advancements.levitated.nether.blaze_rod.description=烈焰人偶尔会生成在下界的地狱砖上，§m但如果你去下界前擦了粉底§r，说不定就能在地狱堡垒发现烈焰人刷怪笼。
 
 advancements.levitated.nether.wither_skeleton.title=烧焦的骨头
 advancements.levitated.nether.wither_skeleton.description=凋零骷髅偶尔会聚集在下界的熔岩石上，但熔岩石并不是随处可见...
 
 advancements.levitated.nether.star.title=星星点灯，照亮我家门~
-advancements.levitated.nether.star.description=凋零，下界最具有危险性的生物，它的能力好像来自于体内那颗星星，这颗星星具有难以想象的强大力量，有时候，人需要一些贪婪...
+advancements.levitated.nether.star.description=凋灵，下界最具有危险性的生物，它的能力好像来自于体内那颗星星，这颗星星具有难以想象的强大力量，有时候，人需要一些贪婪...
 
 advancements.levitated.nether.stargen.title=核电？爪巴！
 advancements.levitated.nether.stargen.description=重建下界生态会消耗大量的电，这台发电机或许能帮上大忙。
 
 advancements.levitated.nether.withermodel.title=量子§m速读§r模拟
-advancements.levitated.nether.withermodel.description=想要获得大量的下界之星可不简单，但方法总比困难多，深度知识模型就是方法之一。
+advancements.levitated.nether.withermodel.description=获得大量的下界之星可不简单，但只要思想不滑坡，方法总比困难多，深度知识模型就是方法之一。
 
 advancements.levitated.nether.alloy.title=高级合金
-advancements.levitated.nether.alloy.description=之后的机器会需要更多的合金，你最好着手于一台更快的合金炉。
+advancements.levitated.nether.alloy.description=之后的机器会需要更多的合金，你最好着手制作一台更快的合金炉。
 
 advancements.levitated.nether.blast_furnace.title=热量更高，速度更慢
 advancements.levitated.nether.blast_furnace.description=烈焰棒凭借自身永恒的燃烧，源源不断地向外界散发超高热量。凭借这种特性，你成功制作出高炉砖！虽然这种高炉砖质量不算太好，但搭出的高炉还是挺实用的。
 
 advancements.levitated.nether.compiron.title=压力山大
-advancements.levitated.nether.compiron.description=借着TNT的超强爆炸，钢锭能够被压缩成密度更大的材料。这种材料非常适合用来制作电路板。
+advancements.levitated.nether.compiron.description=借着TNT的超强爆炸力，钢锭能够被压缩成密度更大的材料。这种材料非常适合用来制作电路板。
 
 advancements.levitated.nether.chamber.title=加压，组装
-advancements.levitated.nether.chamber.description=总之，你需要用机器来印刷电路板。最理想的方法就是无尘环境中组装它们。
+advancements.levitated.nether.chamber.description=不管怎样，你得用机器来印刷电路板。最理想的方法就是无尘环境中组装它们。
 
 advancements.levitated.nether.interface.title=比用手“掏”好
 advancements.levitated.nether.interface.description=厌倦了每次都要先破坏压力室才能拿到你的东西？试试压力室接口吧！
@@ -192,7 +192,7 @@ advancements.levitated.nether.pcb_blueprint.title=光能印刷
 advancements.levitated.nether.pcb_blueprint.description=你需要印刷电路板蓝图才能制作一个能工作的电路板。还好，你会网购，是吧？
 
 advancements.levitated.nether.oil.title=黑色的金子
-advancements.levitated.nether.oil.description=为了制作电路板，你需要生产一些塑料。首先，你需要采到一些石油，当然，你不能用手捞，先搭一个采油机——吧。
+advancements.levitated.nether.oil.description=为了制作电路板，你需要生产一些塑料。首先，你需要采到一些石油，当然，你不能用手捞，先搭一个采油机iiiii吧。
 
 advancements.levitated.nether.refinery.title=肝帝都是着重效率的
 advancements.levitated.nether.refinery.description=直接燃烧石油非常浪费！你需要先从石油中分馏出其他有用的物质。
@@ -204,7 +204,7 @@ advancements.levitated.nether.plastic.title=环境不太友好
 advancements.levitated.nether.plastic.description=你终于获得了一片塑料！不要忘记在它干燥之前染上色。
 
 advancements.levitated.nether.tablet.title=只要998，把爱带回家！
-advancements.levitated.nether.tablet.description=在这片废土上，一些技术你无法达到，所以不要吝啬自己的钱！啊~如果你有的话^^
+advancements.levitated.nether.tablet.description=你的技术被荒芜的环境所限制，所以不要吝啬自己的钱，从其他地方网购些东西吧！啊~如果你有的话^^
 
 advancements.levitated.nether.pcb.title=微型电路
 advancements.levitated.nether.pcb.description=现在，我很确信你能够自己做一个电路板了。如果还有什么不懂的，不用担心，你还有一本书可以参考。
@@ -213,7 +213,7 @@ advancements.levitated.nether.excavator.title=巨量矿藏
 advancements.levitated.nether.excavator.description=现在，世界中的矿物肯定不够你使用的了。物理方法没用了，你需要寻找一种“魔法”的方法，或者往更深处挖掘。也许斗轮式挖掘机能够帮上大忙。
 
 advancements.levitated.nether.induction.title=警告警告，过热！
-advancements.levitated.nether.induction.description=合金炉能..emm制作合金。但是某些合金，比如信素和流明需要更高的温度。你需要用感应炉来制作它们。
+advancements.levitated.nether.induction.description=合金炉能制作合金。但是某些合金需要更高的温度，比如信素和流明。你需要用感应炉来制作它们。
 
 advancements.levitated.nether.overworld_star.title=偷天换日
 advancements.levitated.nether.overworld_star.description=还记得那些精灵吗？它们说，它们愿意给你提供一些关于主世界的信息，但是需要一些它们感兴趣的古物。很显然，你没有。但这个用下界之星锻造成的假古物或许能蒙混过关...
@@ -222,7 +222,7 @@ advancements.levitated.nether.overworld_knowledge.title=这只是善意的谎言
 advancements.levitated.nether.overworld_knowledge.description=哈哈！它们竟然非常喜欢！你获得了大量关于主世界的信息，好消息是，你可以通过搭建传送门前往主世界，但显然不是之前的黑曜石传送门。坏消息是，你需要借助彩虹的力量才能搭建传送门...但在末地或下界...找到彩虹？
 
 advancements.levitated.nether.rainbowgen.title=彩虹七号：突围
-advancements.levitated.nether.rainbowgen.description=经过数天的寻找，你终于找到和彩虹有关的东西了。但要获得它，你得费些功夫了。尽管你能人工做一些，但设计一套自动化线路会减少很多麻烦。
+advancements.levitated.nether.rainbowgen.description=经过数天的寻找，你终于找到和彩虹有关的东西了。但要获得它，你得费些功夫了。尽管你能手搓，但设计一套自动化线路会减少很多麻烦。
 
 advancements.levitated.nether.rainbow_ingot.title=离家最近又最远的路
 advancements.levitated.nether.rainbow_ingot.description=将一些彩虹石覆盖于铀锭之上，你成功制成了一种新的材料！使用它搭建传送门并用彩虹桥法杖激活吧！是时候回家了！
@@ -231,10 +231,10 @@ advancements.levitated.nether.veinmine.title=人工采掘
 advancements.levitated.nether.veinmine.description=如果你仍然在手动一个个挖东西的话，那就试试挖掘强化吧！你可以使用它强化你的匠魂工具。在下界，它能帮助你更轻松地找到矿物！
 
 advancements.levitated.nether.shulker_ring.title=自由§m飞§r翔
-advancements.levitated.nether.shulker_ring.description=将潜影贝的灵魂注入到鸡翅膀指环中后，指环将会被赋予让玩家飞行的能力！emmm... 某种程度上算是。
+advancements.levitated.nether.shulker_ring.description=将潜影贝的灵魂封印到鸡翅膀指环中后，指环会被赋予让玩家飞行的能力！emmm... 某种程度上算是。
 
 advancements.levitated.nether.angel_ring.title=挥着翅膀的史蒂夫
-advancements.levitated.nether.angel_ring.description=从技术层面上讲，改进潜影贝漂浮指环是有可能的。但想要实现，你需要击杀一个远古生物，盖亚守护者。你也许并不想这样做...
+advancements.levitated.nether.angel_ring.description=从技术层面上讲，改进潜影贝漂浮指环是有可能的。但想要实现，你需要击杀一个远古生物——盖亚守护者。你似乎还没这么大能耐...
 
 advancements.levitated.nether.press.title=外星科技？
 advancements.levitated.nether.press.description=现在有一些特殊的压印模板在售，你需要购买一些来为之后的数字化存储做准备。
@@ -260,6 +260,24 @@ advancements.levitated.overworld.voidminer.description=将大好时光花在挖�
 
 advancements.levitated.overworld.machine_frame.title=机器框架
 advancements.levitated.overworld.machine_frame.description=朴实无华的机器框架。
+
+advancements.levitated.overworld.recycler.title=环境友好，绿色健康
+advancements.levitated.overworld.recycler.description=科技的发展总是伴随着废料的产生。之前扔掉这些废料的时候，你就在思考有什么方法能循环利用，毕竟没有垃圾车来帮你运走垃圾，现在看来似乎找到比较好的方法了。
+
+advancements.levitated.overworld.voidminer2.title=大胆尝试
+advancements.levitated.overworld.voidminer2.description=经常手搓机器的你，练就了一双啥都想去修修改改的魔爪，这台虚空挖掘机也§m难逃一死§r变得更加强大。它能够将虚空能量更加纯粹地物化为稀有矿石，比如铱和钛。
+
+advancements.levitated.overworld.uumachine.title=无中生有
+advancements.levitated.overworld.uumachine.description=事实证明，那些废料再加工之后，能够用来制作一种富有创造性的物质。你将它命名为UU物质。掌握了这项技术之后，你可以随手捏出大量稀有矿物。
+
+advancements.levitated.overworld.fusion.title=核聚变
+advancements.levitated.overworld.fusion.description=虽然现在你有很多机器可以使用，但造火箭可不是儿戏，何况还得载你前往宜居的星球，所以所用的材料必须经过多次推敲、实验。铱和钛虽然看起来还不错，但总是差那么一点儿，也许你得把目光往并不存在于这颗星球的物质上放放了... 也许铂能担此大任。
+
+advancements.levitated.overworld.quantum_quarry.title=量子隧道
+advancements.levitated.overworld.quantum_quarry.description=铂也许是这颗星球上第一种人造物质，但肯定不是最后一种。事实上，你甚至能够从另一个世界"借"一些物质，它有着一个高大上的名字—量子采掘
+
+advancements.levitated.overworld.structure.title=流浪
+advancements.levitated.overworld.structure.description=没有了原本各个生态的相互制衡，主世界的环境变得非常恶劣。你长留此地的念头顿时被风暴吹散了，但末地同样令人呕吐，进退两难的你，只有一种选择——移民到其他星球。开始建造火箭吧！
 
 # Resources
 advancements.levitated.resources.root.title=末地矿物
@@ -318,6 +336,18 @@ advancements.levitated.resources.overworld_tungsten.description=重建了的主�
 
 advancements.levitated.resources.overworld_root.title=主世界资源
 advancements.levitated.resources.overworld_root.description=右侧是关于主世界矿石的资料。
+
+advancements.levitated.resources.quantum_root.title=量子提炼
+advancements.levitated.resources.quantum_root.description=右侧是关于量子矿物的资料。
+
+advancements.levitated.resources.quantum_platinum.title=白金天使（万智牌）
+advancements.levitated.resources.quantum_platinum.description=§f铂矿§r仿佛自带美颜，它那白的刺眼的外表总是让人心生寒意，不过它的这些特质使他颇受火箭工程师的喜爱。
+
+advancements.levitated.resources.quantum_dilithium.title=双锂晶体
+advancements.levitated.resources.quantum_dilithium.description=双锂是火箭燃料的首选，隐居量子世界的它们一出现就吸引了你。有了它们的帮助，到达数光年以外的星球已不再是挑战。
+
+advancements.levitated.resources.quantum_mithril.title=充满魔力的金属
+advancements.levitated.resources.quantum_mithril.description=秘银或许是魔法与科技对撞数个世纪的产物，它比钢更硬，但又比纸更轻，真是鬼斧神工。
 
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=复活节彩蛋!
