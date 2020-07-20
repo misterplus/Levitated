@@ -6,7 +6,6 @@ import mods.jei.JEI.hide;
 <contenttweaker:end_seeds>.addTooltip(format.gray(game.localize("tooltips.levitated.end_seeds")));
 <contenttweaker:origin_book>.addTooltip(format.gray(game.localize("tooltips.levitated.origin_book")));
 <contenttweaker:nether_book>.addTooltip(format.gray(game.localize("tooltips.levitated.nether_book")));
-<contenttweaker:nether_book>.addTooltip(format.darkGray(game.localize("tooltips.levitated.nether_book_2")));
 <contenttweaker:overworld_book>.addTooltip(format.gray(game.localize("tooltips.levitated.overworld_book")));
 <contenttweaker:mana_paper>.addTooltip(format.gray(game.localize("tooltips.levitated.mana_paper")));
 <contenttweaker:mana_paper>.addTooltip(format.darkGray(game.localize("tooltips.levitated.mana_paper_2")));
@@ -40,6 +39,7 @@ for i, paper_plane in paper_planes {
 //End ores
 hide(<netherendingores:ore_end_vanilla:2>);
 hide(<netherendingores:ore_end_modded_2>);
+hide(<netherendingores:ore_other_1>);
 var end_ore_def = <netherendingores:ore_end_modded_1>.definition;
 var end_ore_keep = [1, 3, 8] as int[];
 for i in 0 to 16 {

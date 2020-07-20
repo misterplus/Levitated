@@ -1,0 +1,16 @@
+setIcon(<techreborn:fusion_control_computer>)
+
+setTranslatedTitle("advancements.levitated.overworld.fusion.title")
+setTranslatedDescription("advancements.levitated.overworld.fusion.description")
+
+addParent("triumph:levitated/overworld/blast_furnace")
+addParent("triumph:levitated/overworld/voidminer2")
+addParent("triumph:levitated/overworld/recycler")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(226,-35)
+
+criteria = addCriteria("hasFusion", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:fusion_control_computer>)
+
+visibleIf("triumph:levitated/overworld/root")
