@@ -340,14 +340,14 @@ advancements.levitated.resources.overworld_root.description=You can find all inf
 advancements.levitated.resources.quantum_root.title=Quantum Drilling
 advancements.levitated.resources.quantum_root.description=You can find all information related to Quantum ores on the right.
 
-advancements.levitated.resources.quantum_platinum.title=
-advancements.levitated.resources.quantum_platinum.description=
+advancements.levitated.resources.quantum_platinum.title=Platinum Angel
+advancements.levitated.resources.quantum_platinum.description=Platinum is strangely white and bright, such interesting properties makes it a perfect material for rockets.
 
-advancements.levitated.resources.quantum_dilithium.title=
-advancements.levitated.resources.quantum_dilithium.description=
+advancements.levitated.resources.quantum_dilithium.title=Dilithium Crystals
+advancements.levitated.resources.quantum_dilithium.description=Dilithium is the best fuel for rockets, you are really glad that you found these in the quantum world. Now you have a much better chance reaching those planets light years away from you.
 
-advancements.levitated.resources.quantum_mithril.title=
-advancements.levitated.resources.quantum_mithril.description=
+advancements.levitated.resources.quantum_mithril.title=Magic Metal
+advancements.levitated.resources.quantum_mithril.description=Mithril is a metal like no other, it's way harder than steel yet lighter than paper, magnificent.
 
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=Easter Eggs!
