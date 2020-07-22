@@ -1,0 +1,14 @@
+setIcon(<advancedrocketry:rocketbuilder>)
+
+setTranslatedTitle("advancements.levitated.overworld.rocket.title")
+setTranslatedDescription("advancements.levitated.overworld.rocket.description")
+
+addParent("triumph:levitated/overworld/structure")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(322,-78)
+
+criteria = addCriteria("hasRocket", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:rocketbuilder>)
+
+visibleIf("triumph:levitated/overworld/root")

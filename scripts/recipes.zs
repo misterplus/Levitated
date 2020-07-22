@@ -1,7 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
-recipes.remove(<libvulpes:structuremachine>);
+
 recipes.remove(<chisel:lavastone>);
 recipes.remove(<deepmoblearning:glitch_infused_sword>);
 recipes.remove(<deepmoblearning:glitch_infused_boots>);
