@@ -349,6 +349,15 @@ advancements.levitated.resources.quantum_dilithium.description=双锂是火箭�
 advancements.levitated.resources.quantum_mithril.title=充满魔力的金属
 advancements.levitated.resources.quantum_mithril.description=秘银或许是魔法与科技对撞数个世纪的产物，它比钢更硬，但又比纸更轻，真是鬼斧神工。
 
+advancements.levitated.overworld.rocket.title=太空旅行！...火箭延误了
+advancements.levitated.overworld.rocket.description=物竞天择，适者生存，这同样适用于其他星球。辛苦的探查后，你发现有些星球充满了生命，但那的环境并不适合人类居住，如此反复，或许到最后也找不到能够移居的星球，所以你得借助火箭的力量了。
+
+advancements.levitated.overworld.space_station.title=史上最low空间站
+advancements.levitated.overworld.space_station.description=在地球上，你的双手能举千斤，但你的肉眼并不能看透浩瀚的宇宙，去探查外星球的奥秘，你最好把你的脚抬得高一些。简单来说，就是搭建一座空间站。
+
+advancements.levitated.overworld.warp.title=银河穿梭
+advancements.levitated.overworld.warp.description=太阳系内的星球已经被先人探索得差不多了，你在此基础上也没有发现什么惊喜。你知道的，这已经不能依靠火箭了，希望你能勇敢迈入跃迁之"门"，带上行囊，向着太阳系外继续寻求希望吧。
+
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=复活节彩蛋!
 advancements.levitated.easteregg.root.description=如果你发现了一个复活节彩蛋，它就会出现在这个页面！
