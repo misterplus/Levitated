@@ -4,9 +4,10 @@ setTranslatedTitle("advancements.levitated.overworld.space_station.title")
 setTranslatedDescription("advancements.levitated.overworld.space_station.description")
 
 addParent("triumph:levitated/overworld/rocket")
+
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(322,-78)
+setPos(374,-62)
 
 criteria = addCriteria("hasStation", "minecraft:inventory_changed")
 criteria.addItem(<advancedrocketry:stationbuilder>)

@@ -6,7 +6,8 @@ setTranslatedDescription("advancements.levitated.overworld.quantum_quarry.descri
 addParent("triumph:levitated/overworld/fusion")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(274,-35)
+setPos(289,-31)
+drawDirectLines()
 
 criteria = addCriteria("hasQuarry", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:quarry>)

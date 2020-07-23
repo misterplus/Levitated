@@ -2055,7 +2055,7 @@ advancedrocketry:spaceelevatorcontroller, Space Elevator
 advancedrocketry:beacon, Beacon
 advancedrocketry:planks, Lightwood planks
 advancedrocketry:thermitetorch, Thermite Torch
-advancedrocketry:wirelesstransciever, Wireless Transciever
+advancedrocketry:wirelesstransciever, Wireless Transceiver
 advancedrocketry:blockpump, Fluid Pump
 advancedrocketry:centrifuge, Centrifuge
 advancedrocketry:basalt, Basalt
@@ -8310,6 +8310,9 @@ enderio:item_material:74, Soul Powder
 enderio:item_material:75, Infinity Reagent
 enderio:item_material:76, Clay-Coated Glowstone Dust
 enderio:item_material:77, Black Paper
+enderio:item_material:78, Animal Token
+enderio:item_material:79, Monster Token
+enderio:item_material:80, Player Token
 enderio:item_broken_spawner:0, Broken Spawner
 enderio:block_infinity_fog:0, Infinity Dust
 enderio:block_infinity:0, Infinity Dust Block
@@ -8530,6 +8533,582 @@ enderio:block_dark_fused_glass:12, Dark Clear Glass
 enderio:block_dark_fused_glass:13, Dark Clear Glass
 enderio:block_dark_fused_glass:14, Dark Clear Glass
 enderio:block_dark_fused_glass:15, Dark Clear Glass
+enderio:block_holy_fused_quartz:0, Fused Quartz
+enderio:block_holy_fused_quartz:1, Fused Quartz
+enderio:block_holy_fused_quartz:2, Fused Quartz
+enderio:block_holy_fused_quartz:3, Fused Quartz
+enderio:block_holy_fused_quartz:4, Fused Quartz
+enderio:block_holy_fused_quartz:5, Fused Quartz
+enderio:block_holy_fused_quartz:6, Fused Quartz
+enderio:block_holy_fused_quartz:7, Fused Quartz
+enderio:block_holy_fused_quartz:8, Fused Quartz
+enderio:block_holy_fused_quartz:9, Fused Quartz
+enderio:block_holy_fused_quartz:10, Fused Quartz
+enderio:block_holy_fused_quartz:11, Fused Quartz
+enderio:block_holy_fused_quartz:12, Fused Quartz
+enderio:block_holy_fused_quartz:13, Fused Quartz
+enderio:block_holy_fused_quartz:14, Fused Quartz
+enderio:block_holy_fused_quartz:15, Fused Quartz
+enderio:block_holy_fused_glass:0, Quite Clear Glass
+enderio:block_holy_fused_glass:1, Quite Clear Glass
+enderio:block_holy_fused_glass:2, Quite Clear Glass
+enderio:block_holy_fused_glass:3, Quite Clear Glass
+enderio:block_holy_fused_glass:4, Quite Clear Glass
+enderio:block_holy_fused_glass:5, Quite Clear Glass
+enderio:block_holy_fused_glass:6, Quite Clear Glass
+enderio:block_holy_fused_glass:7, Quite Clear Glass
+enderio:block_holy_fused_glass:8, Quite Clear Glass
+enderio:block_holy_fused_glass:9, Quite Clear Glass
+enderio:block_holy_fused_glass:10, Quite Clear Glass
+enderio:block_holy_fused_glass:11, Quite Clear Glass
+enderio:block_holy_fused_glass:12, Quite Clear Glass
+enderio:block_holy_fused_glass:13, Quite Clear Glass
+enderio:block_holy_fused_glass:14, Quite Clear Glass
+enderio:block_holy_fused_glass:15, Quite Clear Glass
+enderio:block_holy_enlightened_fused_quartz:0, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:1, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:2, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:3, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:4, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:5, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:6, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:7, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:8, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:9, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:10, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:11, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:12, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:13, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:14, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_quartz:15, Enlightened Fused Quartz
+enderio:block_holy_enlightened_fused_glass:0, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:1, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:2, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:3, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:4, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:5, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:6, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:7, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:8, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:9, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:10, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:11, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:12, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:13, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:14, Enlightened Clear Glass
+enderio:block_holy_enlightened_fused_glass:15, Enlightened Clear Glass
+enderio:block_holy_dark_fused_quartz:0, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:1, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:2, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:3, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:4, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:5, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:6, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:7, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:8, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:9, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:10, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:11, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:12, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:13, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:14, Dark Fused Quartz
+enderio:block_holy_dark_fused_quartz:15, Dark Fused Quartz
+enderio:block_holy_dark_fused_glass:0, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:1, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:2, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:3, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:4, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:5, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:6, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:7, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:8, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:9, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:10, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:11, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:12, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:13, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:14, Dark Clear Glass
+enderio:block_holy_dark_fused_glass:15, Dark Clear Glass
+enderio:block_unholy_fused_quartz:0, Fused Quartz
+enderio:block_unholy_fused_quartz:1, Fused Quartz
+enderio:block_unholy_fused_quartz:2, Fused Quartz
+enderio:block_unholy_fused_quartz:3, Fused Quartz
+enderio:block_unholy_fused_quartz:4, Fused Quartz
+enderio:block_unholy_fused_quartz:5, Fused Quartz
+enderio:block_unholy_fused_quartz:6, Fused Quartz
+enderio:block_unholy_fused_quartz:7, Fused Quartz
+enderio:block_unholy_fused_quartz:8, Fused Quartz
+enderio:block_unholy_fused_quartz:9, Fused Quartz
+enderio:block_unholy_fused_quartz:10, Fused Quartz
+enderio:block_unholy_fused_quartz:11, Fused Quartz
+enderio:block_unholy_fused_quartz:12, Fused Quartz
+enderio:block_unholy_fused_quartz:13, Fused Quartz
+enderio:block_unholy_fused_quartz:14, Fused Quartz
+enderio:block_unholy_fused_quartz:15, Fused Quartz
+enderio:block_unholy_fused_glass:0, Quite Clear Glass
+enderio:block_unholy_fused_glass:1, Quite Clear Glass
+enderio:block_unholy_fused_glass:2, Quite Clear Glass
+enderio:block_unholy_fused_glass:3, Quite Clear Glass
+enderio:block_unholy_fused_glass:4, Quite Clear Glass
+enderio:block_unholy_fused_glass:5, Quite Clear Glass
+enderio:block_unholy_fused_glass:6, Quite Clear Glass
+enderio:block_unholy_fused_glass:7, Quite Clear Glass
+enderio:block_unholy_fused_glass:8, Quite Clear Glass
+enderio:block_unholy_fused_glass:9, Quite Clear Glass
+enderio:block_unholy_fused_glass:10, Quite Clear Glass
+enderio:block_unholy_fused_glass:11, Quite Clear Glass
+enderio:block_unholy_fused_glass:12, Quite Clear Glass
+enderio:block_unholy_fused_glass:13, Quite Clear Glass
+enderio:block_unholy_fused_glass:14, Quite Clear Glass
+enderio:block_unholy_fused_glass:15, Quite Clear Glass
+enderio:block_unholy_enlightened_fused_quartz:0, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:1, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:2, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:3, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:4, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:5, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:6, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:7, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:8, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:9, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:10, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:11, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:12, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:13, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:14, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_quartz:15, Enlightened Fused Quartz
+enderio:block_unholy_enlightened_fused_glass:0, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:1, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:2, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:3, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:4, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:5, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:6, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:7, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:8, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:9, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:10, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:11, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:12, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:13, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:14, Enlightened Clear Glass
+enderio:block_unholy_enlightened_fused_glass:15, Enlightened Clear Glass
+enderio:block_unholy_dark_fused_quartz:0, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:1, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:2, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:3, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:4, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:5, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:6, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:7, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:8, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:9, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:10, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:11, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:12, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:13, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:14, Dark Fused Quartz
+enderio:block_unholy_dark_fused_quartz:15, Dark Fused Quartz
+enderio:block_unholy_dark_fused_glass:0, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:1, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:2, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:3, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:4, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:5, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:6, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:7, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:8, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:9, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:10, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:11, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:12, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:13, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:14, Dark Clear Glass
+enderio:block_unholy_dark_fused_glass:15, Dark Clear Glass
+enderio:block_pasture_fused_quartz:0, Fused Quartz
+enderio:block_pasture_fused_quartz:1, Fused Quartz
+enderio:block_pasture_fused_quartz:2, Fused Quartz
+enderio:block_pasture_fused_quartz:3, Fused Quartz
+enderio:block_pasture_fused_quartz:4, Fused Quartz
+enderio:block_pasture_fused_quartz:5, Fused Quartz
+enderio:block_pasture_fused_quartz:6, Fused Quartz
+enderio:block_pasture_fused_quartz:7, Fused Quartz
+enderio:block_pasture_fused_quartz:8, Fused Quartz
+enderio:block_pasture_fused_quartz:9, Fused Quartz
+enderio:block_pasture_fused_quartz:10, Fused Quartz
+enderio:block_pasture_fused_quartz:11, Fused Quartz
+enderio:block_pasture_fused_quartz:12, Fused Quartz
+enderio:block_pasture_fused_quartz:13, Fused Quartz
+enderio:block_pasture_fused_quartz:14, Fused Quartz
+enderio:block_pasture_fused_quartz:15, Fused Quartz
+enderio:block_pasture_fused_glass:0, Quite Clear Glass
+enderio:block_pasture_fused_glass:1, Quite Clear Glass
+enderio:block_pasture_fused_glass:2, Quite Clear Glass
+enderio:block_pasture_fused_glass:3, Quite Clear Glass
+enderio:block_pasture_fused_glass:4, Quite Clear Glass
+enderio:block_pasture_fused_glass:5, Quite Clear Glass
+enderio:block_pasture_fused_glass:6, Quite Clear Glass
+enderio:block_pasture_fused_glass:7, Quite Clear Glass
+enderio:block_pasture_fused_glass:8, Quite Clear Glass
+enderio:block_pasture_fused_glass:9, Quite Clear Glass
+enderio:block_pasture_fused_glass:10, Quite Clear Glass
+enderio:block_pasture_fused_glass:11, Quite Clear Glass
+enderio:block_pasture_fused_glass:12, Quite Clear Glass
+enderio:block_pasture_fused_glass:13, Quite Clear Glass
+enderio:block_pasture_fused_glass:14, Quite Clear Glass
+enderio:block_pasture_fused_glass:15, Quite Clear Glass
+enderio:block_pasture_enlightened_fused_quartz:0, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:1, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:2, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:3, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:4, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:5, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:6, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:7, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:8, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:9, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:10, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:11, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:12, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:13, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:14, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_quartz:15, Enlightened Fused Quartz
+enderio:block_pasture_enlightened_fused_glass:0, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:1, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:2, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:3, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:4, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:5, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:6, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:7, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:8, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:9, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:10, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:11, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:12, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:13, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:14, Enlightened Clear Glass
+enderio:block_pasture_enlightened_fused_glass:15, Enlightened Clear Glass
+enderio:block_pasture_dark_fused_quartz:0, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:1, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:2, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:3, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:4, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:5, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:6, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:7, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:8, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:9, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:10, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:11, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:12, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:13, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:14, Dark Fused Quartz
+enderio:block_pasture_dark_fused_quartz:15, Dark Fused Quartz
+enderio:block_pasture_dark_fused_glass:0, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:1, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:2, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:3, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:4, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:5, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:6, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:7, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:8, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:9, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:10, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:11, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:12, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:13, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:14, Dark Clear Glass
+enderio:block_pasture_dark_fused_glass:15, Dark Clear Glass
+enderio:block_not_holy_fused_quartz:0, Fused Quartz
+enderio:block_not_holy_fused_quartz:1, Fused Quartz
+enderio:block_not_holy_fused_quartz:2, Fused Quartz
+enderio:block_not_holy_fused_quartz:3, Fused Quartz
+enderio:block_not_holy_fused_quartz:4, Fused Quartz
+enderio:block_not_holy_fused_quartz:5, Fused Quartz
+enderio:block_not_holy_fused_quartz:6, Fused Quartz
+enderio:block_not_holy_fused_quartz:7, Fused Quartz
+enderio:block_not_holy_fused_quartz:8, Fused Quartz
+enderio:block_not_holy_fused_quartz:9, Fused Quartz
+enderio:block_not_holy_fused_quartz:10, Fused Quartz
+enderio:block_not_holy_fused_quartz:11, Fused Quartz
+enderio:block_not_holy_fused_quartz:12, Fused Quartz
+enderio:block_not_holy_fused_quartz:13, Fused Quartz
+enderio:block_not_holy_fused_quartz:14, Fused Quartz
+enderio:block_not_holy_fused_quartz:15, Fused Quartz
+enderio:block_not_holy_fused_glass:0, Quite Clear Glass
+enderio:block_not_holy_fused_glass:1, Quite Clear Glass
+enderio:block_not_holy_fused_glass:2, Quite Clear Glass
+enderio:block_not_holy_fused_glass:3, Quite Clear Glass
+enderio:block_not_holy_fused_glass:4, Quite Clear Glass
+enderio:block_not_holy_fused_glass:5, Quite Clear Glass
+enderio:block_not_holy_fused_glass:6, Quite Clear Glass
+enderio:block_not_holy_fused_glass:7, Quite Clear Glass
+enderio:block_not_holy_fused_glass:8, Quite Clear Glass
+enderio:block_not_holy_fused_glass:9, Quite Clear Glass
+enderio:block_not_holy_fused_glass:10, Quite Clear Glass
+enderio:block_not_holy_fused_glass:11, Quite Clear Glass
+enderio:block_not_holy_fused_glass:12, Quite Clear Glass
+enderio:block_not_holy_fused_glass:13, Quite Clear Glass
+enderio:block_not_holy_fused_glass:14, Quite Clear Glass
+enderio:block_not_holy_fused_glass:15, Quite Clear Glass
+enderio:block_not_holy_enlightened_fused_quartz:0, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:1, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:2, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:3, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:4, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:5, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:6, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:7, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:8, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:9, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:10, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:11, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:12, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:13, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:14, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_quartz:15, Enlightened Fused Quartz
+enderio:block_not_holy_enlightened_fused_glass:0, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:1, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:2, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:3, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:4, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:5, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:6, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:7, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:8, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:9, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:10, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:11, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:12, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:13, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:14, Enlightened Clear Glass
+enderio:block_not_holy_enlightened_fused_glass:15, Enlightened Clear Glass
+enderio:block_not_holy_dark_fused_quartz:0, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:1, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:2, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:3, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:4, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:5, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:6, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:7, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:8, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:9, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:10, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:11, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:12, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:13, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:14, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_quartz:15, Dark Fused Quartz
+enderio:block_not_holy_dark_fused_glass:0, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:1, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:2, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:3, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:4, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:5, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:6, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:7, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:8, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:9, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:10, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:11, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:12, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:13, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:14, Dark Clear Glass
+enderio:block_not_holy_dark_fused_glass:15, Dark Clear Glass
+enderio:block_not_unholy_fused_quartz:0, Fused Quartz
+enderio:block_not_unholy_fused_quartz:1, Fused Quartz
+enderio:block_not_unholy_fused_quartz:2, Fused Quartz
+enderio:block_not_unholy_fused_quartz:3, Fused Quartz
+enderio:block_not_unholy_fused_quartz:4, Fused Quartz
+enderio:block_not_unholy_fused_quartz:5, Fused Quartz
+enderio:block_not_unholy_fused_quartz:6, Fused Quartz
+enderio:block_not_unholy_fused_quartz:7, Fused Quartz
+enderio:block_not_unholy_fused_quartz:8, Fused Quartz
+enderio:block_not_unholy_fused_quartz:9, Fused Quartz
+enderio:block_not_unholy_fused_quartz:10, Fused Quartz
+enderio:block_not_unholy_fused_quartz:11, Fused Quartz
+enderio:block_not_unholy_fused_quartz:12, Fused Quartz
+enderio:block_not_unholy_fused_quartz:13, Fused Quartz
+enderio:block_not_unholy_fused_quartz:14, Fused Quartz
+enderio:block_not_unholy_fused_quartz:15, Fused Quartz
+enderio:block_not_unholy_fused_glass:0, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:1, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:2, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:3, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:4, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:5, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:6, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:7, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:8, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:9, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:10, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:11, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:12, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:13, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:14, Quite Clear Glass
+enderio:block_not_unholy_fused_glass:15, Quite Clear Glass
+enderio:block_not_unholy_enlightened_fused_quartz:0, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:1, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:2, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:3, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:4, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:5, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:6, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:7, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:8, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:9, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:10, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:11, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:12, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:13, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:14, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_quartz:15, Enlightened Fused Quartz
+enderio:block_not_unholy_enlightened_fused_glass:0, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:1, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:2, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:3, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:4, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:5, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:6, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:7, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:8, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:9, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:10, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:11, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:12, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:13, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:14, Enlightened Clear Glass
+enderio:block_not_unholy_enlightened_fused_glass:15, Enlightened Clear Glass
+enderio:block_not_unholy_dark_fused_quartz:0, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:1, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:2, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:3, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:4, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:5, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:6, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:7, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:8, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:9, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:10, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:11, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:12, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:13, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:14, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_quartz:15, Dark Fused Quartz
+enderio:block_not_unholy_dark_fused_glass:0, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:1, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:2, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:3, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:4, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:5, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:6, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:7, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:8, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:9, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:10, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:11, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:12, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:13, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:14, Dark Clear Glass
+enderio:block_not_unholy_dark_fused_glass:15, Dark Clear Glass
+enderio:block_not_pasture_fused_quartz:0, Fused Quartz
+enderio:block_not_pasture_fused_quartz:1, Fused Quartz
+enderio:block_not_pasture_fused_quartz:2, Fused Quartz
+enderio:block_not_pasture_fused_quartz:3, Fused Quartz
+enderio:block_not_pasture_fused_quartz:4, Fused Quartz
+enderio:block_not_pasture_fused_quartz:5, Fused Quartz
+enderio:block_not_pasture_fused_quartz:6, Fused Quartz
+enderio:block_not_pasture_fused_quartz:7, Fused Quartz
+enderio:block_not_pasture_fused_quartz:8, Fused Quartz
+enderio:block_not_pasture_fused_quartz:9, Fused Quartz
+enderio:block_not_pasture_fused_quartz:10, Fused Quartz
+enderio:block_not_pasture_fused_quartz:11, Fused Quartz
+enderio:block_not_pasture_fused_quartz:12, Fused Quartz
+enderio:block_not_pasture_fused_quartz:13, Fused Quartz
+enderio:block_not_pasture_fused_quartz:14, Fused Quartz
+enderio:block_not_pasture_fused_quartz:15, Fused Quartz
+enderio:block_not_pasture_fused_glass:0, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:1, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:2, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:3, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:4, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:5, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:6, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:7, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:8, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:9, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:10, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:11, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:12, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:13, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:14, Quite Clear Glass
+enderio:block_not_pasture_fused_glass:15, Quite Clear Glass
+enderio:block_not_pasture_enlightened_fused_quartz:0, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:1, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:2, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:3, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:4, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:5, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:6, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:7, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:8, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:9, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:10, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:11, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:12, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:13, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:14, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_quartz:15, Enlightened Fused Quartz
+enderio:block_not_pasture_enlightened_fused_glass:0, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:1, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:2, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:3, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:4, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:5, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:6, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:7, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:8, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:9, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:10, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:11, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:12, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:13, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:14, Enlightened Clear Glass
+enderio:block_not_pasture_enlightened_fused_glass:15, Enlightened Clear Glass
+enderio:block_not_pasture_dark_fused_quartz:0, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:1, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:2, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:3, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:4, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:5, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:6, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:7, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:8, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:9, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:10, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:11, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:12, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:13, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:14, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_quartz:15, Dark Fused Quartz
+enderio:block_not_pasture_dark_fused_glass:0, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:1, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:2, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:3, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:4, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:5, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:6, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:7, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:8, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:9, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:10, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:11, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:12, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:13, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:14, Dark Clear Glass
+enderio:block_not_pasture_dark_fused_glass:15, Dark Clear Glass
 enderio:item_soul_vial, Soul Vial
 enderio:block_detector_block:0, Block Detector
 enderio:block_detector_block_silent:0, Block Detector (Silent)
@@ -8899,34 +9478,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Knife Blade Pattern
 tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Tough Binding Pattern
 tconstruct:pattern:0, Large Plate Pattern
 tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Tool Rod Pattern
 tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Tool Rod Pattern
 tconstruct:shard:0, Electrical Shard
 tconstruct:shard:0, Energetic Shard
 tconstruct:shard:0, Vibrant Shard
@@ -10255,64 +10834,64 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Knife Blade Cast
 tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Bowstring Cast
 tconstruct:cast:0, Hand Guard Cast
 tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Hammer Head Cast
 tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Bowstring Cast
-tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Broad Axe Head Cast
 tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Tool Rod Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
 tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Bowstring Clay Cast
 tconstruct:clay_cast:0, Hand Guard Clay Cast
 tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
 tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
 tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -11731,6 +12310,24 @@ integratedtunnels:part_exporter_world_fluid_item, parttype.parttypes.integratedt
 integratedtunnels:part_importer_world_block_item, parttype.parttypes.integratedtunnels.importer_world_block.name.name
 integratedtunnels:part_exporter_world_block_item, parttype.parttypes.integratedtunnels.exporter_world_block.name.name
 integratedtunnels:part_player_simulator_item, parttype.parttypes.integratedtunnels.player_simulator.name.name
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -11851,24 +12448,6 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 itemfilters:filter, Item Filter
 itemfilters:missing, Missing Item
 wizardry:crafting_plate, tile.crafting_plate.name
@@ -11991,11 +12570,23 @@ netherendingores:ore_other_1:3, End Ardite Ore
 netherendingores:ore_other_1:4, Overworld Cobalt Ore
 netherendingores:ore_other_1:5, End Cobalt Ore
 oeintegration:excavatemodifier, Excavate Modifier
-pneumaticcraft:fluid.fuel, Gasoline
-pneumaticcraft:fluid.kerosene, Kerosene
-pneumaticcraft:fluid.plastic, Plastic
-pneumaticcraft:fluid.etchacid, Etching Acid
-pneumaticcraft:fluid.lpg, LPG
+pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
+pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
+pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
+pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
+pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
+pneumaticcraft:heat_frame, Heat Frame
+pneumaticcraft:spawner_agitator, Spawner Agitator
+pneumaticcraft:crop_support, Crop Support
+pneumaticcraft:transfer_gadget, Transfer Gadget
+pneumaticcraft:safety_tube_module, Safety Tube Module
+pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
+pneumaticcraft:flow_detector_module, Flow Detector Tube Module
+pneumaticcraft:air_grate_module, Air Grate Tube Module
+pneumaticcraft:regulator_tube_module, Regulator Tube Module
+pneumaticcraft:charging_module, Charging Module
+pneumaticcraft:logistics_module, Logistics Module
+pneumaticcraft:redstone_module, Redstone Module
 pneumaticcraft:gps_tool, GPS Tool
 pneumaticcraft:gps_area_tool, GPS Area Tool
 pneumaticcraft:ingot_iron_compressed, Compressed Steel Ingot
@@ -12145,23 +12736,11 @@ pneumaticcraft:pneumatic_dynamo, Pneumatic Dynamo
 pneumaticcraft:fake_ice, tile.fake_ice.name
 pneumaticcraft:thermal_compressor, Thermal Compressor
 pneumaticcraft:drone_interface, Drone Interface
-pneumaticcraft:safety_tube_module, Safety Tube Module
-pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
-pneumaticcraft:flow_detector_module, Flow Detector Tube Module
-pneumaticcraft:air_grate_module, Air Grate Tube Module
-pneumaticcraft:regulator_tube_module, Regulator Tube Module
-pneumaticcraft:charging_module, Charging Module
-pneumaticcraft:logistics_module, Logistics Module
-pneumaticcraft:redstone_module, Redstone Module
-pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
-pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
-pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
-pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
-pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
-pneumaticcraft:heat_frame, Heat Frame
-pneumaticcraft:spawner_agitator, Spawner Agitator
-pneumaticcraft:crop_support, Crop Support
-pneumaticcraft:transfer_gadget, Transfer Gadget
+pneumaticcraft:fluid.etchacid, Etching Acid
+pneumaticcraft:fluid.plastic, Plastic
+pneumaticcraft:fluid.lpg, LPG
+pneumaticcraft:fluid.kerosene, Kerosene
+pneumaticcraft:fluid.fuel, Gasoline
 scanner:biome_scanner_basic, Biome Scanner (Basic)
 scanner:biome_scanner_adv, Biome Scanner (Advanced)
 scanner:biome_scanner_elite, Biome Scanner (Elite)

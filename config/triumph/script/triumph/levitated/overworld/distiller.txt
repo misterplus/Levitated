@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.overworld.distiller.description
 addParent("triumph:levitated/overworld/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(88,-118)
+setPos(120,-31)
 
 criteria = addCriteria("formed_distiller", "immersiveengineering:multiblock_formed")
 criteria.setMultiblock("IE:Distiller")

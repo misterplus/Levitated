@@ -6,7 +6,8 @@ setTranslatedDescription("advancements.levitated.overworld.structure.description
 addParent("triumph:levitated/overworld/uumachine")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(274,-78)
+setPos(289,-90)
+
 
 criteria = addCriteria("hasStructureMachine", "minecraft:inventory_changed")
 criteria.addItem(<libvulpes:structuremachine>)

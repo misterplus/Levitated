@@ -1,6 +1,6 @@
 <galaxy>
     <star name="Sol" temp="100" x="0" y="0">
-        <planet DIMID="0" dimMapping="" name="Earth">
+        <planet DIMID="1" dimMapping="" name="Earth">
             <isKnown>true</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>

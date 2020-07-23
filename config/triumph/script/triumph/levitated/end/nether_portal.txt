@@ -9,6 +9,6 @@ setAnnounceToChat(false)
 setPos(938,27)
 
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
-criteria.setDimensionDestination("the_nether")
+criteria.setDimensionDestination("DIM_-1")
 
 visibleIf("triumph:levitated/end/root")

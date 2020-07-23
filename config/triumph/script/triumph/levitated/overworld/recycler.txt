@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.overworld.recycler.description"
 addParent("triumph:levitated/overworld/machine_frame")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(176,-78)
+setPos(154,-90)
 
 criteria = addCriteria("hasRecycler", "minecraft:inventory_changed")
 criteria.addItem(<techreborn:recycler>)

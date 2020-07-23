@@ -1,0 +1,15 @@
+setIcon(<minecraft:grass>)
+
+setTranslatedTitle("advancements.levitated.overworld.kepler.title")
+setTranslatedDescription("advancements.levitated.overworld.kepler.description")
+
+addParent("triumph:levitated/overworld/warp")
+addParent("triumph:levitated/overworld/satellite_station")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(517,-62)
+
+criteria = addCriteria("entered_overworld", "minecraft:changed_dimension")
+criteria.setDimensionDestination("DIM_0")
+
+visibleIf("triumph:levitated/overworld/root")

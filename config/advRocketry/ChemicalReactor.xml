@@ -41,10 +41,10 @@
 			<itemStack>minecraft:coal;1;1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="100" power ="10">
+	<Recipe timeRequired="100" power ="100">
 		<input>
-			<fluidStack>oxygen;10</fluidStack>
-			<fluidStack>hydrogen;10</fluidStack>
+			<fluidStack>fluidheliumplasma;10</fluidStack>
+			<fluidStack>rocket_fuel;10</fluidStack>
 		</input>
 		<output>
 			<fluidStack>rocketfuel;20</fluidStack>

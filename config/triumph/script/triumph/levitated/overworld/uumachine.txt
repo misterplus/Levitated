@@ -3,12 +3,12 @@ setIcon(<techreborn:matter_fabricator>)
 setTranslatedTitle("advancements.levitated.overworld.uumachine.title")
 setTranslatedDescription("advancements.levitated.overworld.uumachine.description")
 
-addParent("triumph:levitated/overworld/blast_furnace")
 addParent("triumph:levitated/overworld/voidminer2")
 addParent("triumph:levitated/overworld/recycler")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(226,-78)
+setPos(289,-133)
+
 
 criteria = addCriteria("hasUUMachine", "minecraft:inventory_changed")
 criteria.addItem(<techreborn:matter_fabricator>)
