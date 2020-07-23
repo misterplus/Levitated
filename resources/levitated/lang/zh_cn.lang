@@ -358,9 +358,18 @@ advancements.levitated.overworld.space_station.description=在地球上，你的
 advancements.levitated.overworld.warp.title=银河穿梭
 advancements.levitated.overworld.warp.description=太阳系内的星球已经被先人探索得差不多了，你在此基础上也没有发现什么惊喜。你知道的，这已经不能依靠火箭了，希望你能勇敢迈入跃迁之"门"，带上行囊，向着太阳系外继续寻求希望吧。
 
+advancements.levitated.overworld.satellite.title=得力助手
+advancements.levitated.overworld.satellite.description=你需要收集一些数据，并在跃迁控制器里搜索新的星球，而卫星刚好能胜任。千万别忘了安装太阳能板组件，你总不能用爱发电吧？
+
+advancements.levitated.overworld.fueling_station.title=加油！奥利给！
+advancements.levitated.overworld.fueling_station.description=你或许能用右手做任何事，包括给火箭加油，但没人不喜欢一劳永逸，建议做一台燃油站来代替你的双手。
+
+advancements.levitated.overworld.satellite_station.title=这里的5G不'传染'
+advancements.levitated.overworld.satellite_station.description=卫星收集的数据不会自己下载，你需要一台卫星终端来下载这些数据。
+
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=复活节彩蛋!
-advancements.levitated.easteregg.root.description=如果你发现了一个复活节彩蛋，它就会出现在这个页面！
+advancements.levitated.easteregg.root.description=如果你发现了一个复活节彩蛋，相关成就就会出现！
 
 advancements.levitated.easteregg.feather.title=像羽毛一样落下
 advancements.levitated.easteregg.feather.description=这是个双关语，§m请语文课代表赏析一下§r好吧，意思就是你能免疫所有的摔落伤害，听起来不错吧？
