@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.overworld.fueling_station.descr
 addParent("triumph:levitated/overworld/rocket")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(336,-90)
+setPos(291,-109)
 drawDirectLines()
 
 criteria = addCriteria("hasFuelStation", "minecraft:inventory_changed")

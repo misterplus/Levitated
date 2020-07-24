@@ -1,0 +1,14 @@
+setIcon(<techreborn:cable:5>)
+
+setTranslatedTitle("advancements.levitated.overworld.insulated_wire.title")
+setTranslatedDescription("advancements.levitated.overworld.insulated_wire.description")
+
+addParent("triumph:levitated/overworld/rubber")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(120,-102)
+
+criteria = addCriteria("hasCable", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:cable:5>)
+
+visibleIf("triumph:levitated/overworld/root")

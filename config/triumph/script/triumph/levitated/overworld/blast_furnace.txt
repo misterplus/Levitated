@@ -7,7 +7,7 @@ addParent("triumph:levitated/overworld/machine_frame")
 addParent("triumph:levitated/overworld/distiller")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(188,-31)
+setPos(154,-39)
 
 
 criteria = addCriteria("hasBlastFurnace", "minecraft:inventory_changed")

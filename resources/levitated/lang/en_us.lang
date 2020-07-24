@@ -367,6 +367,15 @@ advancements.levitated.overworld.fueling_station.description=Although pouring ro
 advancements.levitated.overworld.satellite_station.title=5G needed
 advancements.levitated.overworld.satellite_station.description=Data collected by satellites aren't gonna download themselves, you'll need a satellite terminal for downloading that data yourself.
 
+advancements.levitated.overworld.insulated_wire.title=Insulated
+advancements.levitated.overworld.insulated_wire.description=Professional technicians always use rubber to protect themselves.
+
+advancements.levitated.overworld.kepler.title=
+advancements.levitated.overworld.kepler.description=
+
+advancements.levitated.overworld.spacesuit.title=Suit up
+advancements.levitated.overworld.spacesuit.description=You are no superman, and certainly cannot breathe in space, so a set of space suit is a must. And a pair of oxygen tanks, of course.
+
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=Easter Eggs!
 advancements.levitated.easteregg.root.description=If you found a easter egg by chance, it'll appear here!

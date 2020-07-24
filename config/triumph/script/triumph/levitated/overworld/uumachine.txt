@@ -7,7 +7,7 @@ addParent("triumph:levitated/overworld/voidminer2")
 addParent("triumph:levitated/overworld/recycler")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(289,-133)
+setPos(201,-109)
 
 
 criteria = addCriteria("hasUUMachine", "minecraft:inventory_changed")

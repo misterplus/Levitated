@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.overworld.satellite.description
 addParent("triumph:levitated/overworld/space_station")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(414,-31)
+setPos(370,-39)
 
 criteria = addCriteria("hasSatellite", "minecraft:inventory_changed")
 criteria.addItem(<advancedrocketry:satellite>)

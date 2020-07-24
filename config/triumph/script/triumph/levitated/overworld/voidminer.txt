@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.overworld.voidminer.description
 addParent("triumph:levitated/overworld/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(84,-135)
+setPos(84,-133)
 
 criteria = addCriteria("hasVoidminer", "minecraft:inventory_changed")
 criteria.addItem(<environmentaltech:void_ore_miner_cont_1>)
