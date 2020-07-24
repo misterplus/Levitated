@@ -362,10 +362,29 @@ advancements.levitated.overworld.satellite.title=得力助手
 advancements.levitated.overworld.satellite.description=你需要收集一些数据，并在跃迁控制器里搜索新的星球，而卫星刚好能胜任。千万别忘了安装太阳能板组件，你总不能用爱发电吧？
 
 advancements.levitated.overworld.fueling_station.title=加油！奥利给！
-advancements.levitated.overworld.fueling_station.description=你或许能用右手做任何事，包括给火箭加油，但没人不喜欢一劳永逸，建议做一台燃油站来代替你的双手。
+advancements.levitated.overworld.fueling_station.description=你或许能用右手做任何事，包括给火箭加油，但没人不喜欢一劳永逸，建议做一台燃油站来代替你的双手。 (使用EIO的火箭燃料)
 
 advancements.levitated.overworld.satellite_station.title=这里的5G不'传染'
 advancements.levitated.overworld.satellite_station.description=卫星收集的数据不会自己下载，你需要一台卫星终端来下载这些数据。
+
+advancements.levitated.overworld.insulated_wire.title=绝缘
+advancements.levitated.overworld.insulated_wire.description=专业的科研人员总会使用橡胶来保护自己。
+
+advancements.levitated.overworld.kepler.title=长路漫漫，唯念作伴
+advancements.levitated.overworld.kepler.description=经过了漫长的跃迁，你终于找到了一个类地星球。
+
+advancements.levitated.overworld.spacesuit.title=穿戴整齐
+advancements.levitated.overworld.spacesuit.description=你不是奥特曼，你在宇宙中需要太空服的保护。别忘了装上氧气罐。
+
+advancements.levitated.overworld.adv_scanner.title=高级扫描
+advancements.levitated.overworld.adv_scanner.description=基础扫描仪虽然能满足需求，但科技发展后，你有能力将其升级成两倍的效率，你不会拒绝吧？
+
+# Kepler Advancements
+advancements.levitated.kepler.root.title=旅途的终点
+advancements.levitated.kepler.root.description=好了，你已经找到你的新家了。环顾四周，许多记忆从内心深处浮现。一草一花一木，一山一水一...人。愿你不忘初心，愿你踏遍山河，愿你铸造天地...
+
+advancements.levitated.kepler.beacon.title=破晓以后，守护所有
+advancements.levitated.kepler.beacon.description=如果你不是孤身一人，那么不要忘了你的肝胆之友，在开普勒建造一个信标，这能将你的坐标发送到整个星系，他们能轻易找到这片土地。
 
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=复活节彩蛋!
