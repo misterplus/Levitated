@@ -7,6 +7,7 @@ import crafttweaker.event.EnderTeleportEvent;
 import crafttweaker.event.BlockBreakEvent;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.EntityLivingFallEvent;
+import crafttweaker.event.PlayerChangedDimensionEvent;
 import mods.ctutils.utils.Math;
 import mods.ctutils.commands.Commands;
 import crafttweaker.data.IData;
@@ -87,6 +88,18 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 				event.player.world.spawnEntity(<minecraft:feather>.withTag({EasterEgg: 1}).createEntityItem(event.player.world, player.x, 255, player.z));
 				player.update(data + {"FallingDistance": distance - 100});
 			}
+		}
+	}
+});
+
+//the end
+events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
+	var player = event.player as IPlayer;
+	if (!player.world.remote && event.to == 6666) {
+		var data = player.data;
+		if !(data has "HasFinished") {
+			player.give(<contenttweaker:trophy>);
+			player.update(data + {"HasFinished": 1});
 		}
 	}
 });

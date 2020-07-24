@@ -9,7 +9,7 @@ setShowToast(true)
 setAnnounceToChat(false)
 setPos(451,-66)
 
-criteria = addCriteria("entered_overworld", "minecraft:changed_dimension")
-criteria.setDimensionDestination("DIM_0")
+criteria = addCriteria("hasTrophy", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:trophy>)
 
 visibleIf("triumph:levitated/overworld/root")

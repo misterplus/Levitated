@@ -1,5 +1,6 @@
 //remove
 mods.advancedrocketry.RollingMachine.removeRecipe(<techreborn:plates:38>);
+mods.advancedrocketry.ChemicalReactor.removeRecipe(<liquid:rocketfuel>);
 recipes.remove(<libvulpes:structuremachine>);
 recipes.remove(<advancedrocketry:satellitepowersource:1>);
 recipes.remove(<advancedrocketry:fueltank>);

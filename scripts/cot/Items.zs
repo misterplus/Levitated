@@ -8,7 +8,7 @@ import mods.contenttweaker.ActionResult;
 import mods.contenttweaker.Hand;
 import crafttweaker.block.IBlockState;
 
-var easy_items = ["end_seeds", "ccb", "ccb_base", "clay_board", "pottery_clay", "solder_powder", "biome_scanner_basic", "terrain_scanner", "blue_lotus", "dynamo_frame", "overworld_star"] as string[];
+var easy_items = ["end_seeds", "ccb", "ccb_base", "clay_board", "pottery_clay", "solder_powder", "biome_scanner_basic", "terrain_scanner", "blue_lotus", "dynamo_frame", "overworld_star", "trophy"] as string[];
 for item in easy_items {
     VanillaFactory.createItem(item).register();
 }

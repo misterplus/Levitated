@@ -43,8 +43,8 @@
 	</Recipe>
 	<Recipe timeRequired="100" power ="100">
 		<input>
-			<fluidStack>fluidheliumplasma;10</fluidStack>
-			<fluidStack>rocket_fuel;10</fluidStack>
+			<fluidStack>oxygen;10</fluidStack>
+			<fluidStack>hydrogen;10</fluidStack>
 		</input>
 		<output>
 			<fluidStack>rocketfuel;20</fluidStack>
