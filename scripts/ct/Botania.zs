@@ -97,6 +97,6 @@ for ore in overworld_ores {
     mods.botania.Orechid.removeOre(ore);
 }
 mods.botania.Orechid.addOre(<ore:oreRuby>, 1100);
-mods.botania.Orechid.addOre(<ore:Bauxite>, 2200);
+mods.botania.Orechid.addOre(<ore:oreBauxite>, 3520);
 mods.botania.Orechid.addOre(<ore:oreSapphire>, 1100);
-mods.botania.Orechid.addOre(<ore:oreTungsten>, 3520);
+mods.botania.Orechid.addOre(<ore:oreTungsten>, 2200);

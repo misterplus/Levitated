@@ -1,0 +1,12 @@
+setIcon(<advancedrocketry:beacon>)
+
+setTranslatedTitle("advancements.levitated.kepler.beacon.title")
+setTranslatedDescription("advancements.levitated.kepler.beacon.description")
+
+addParent("triumph:levitated/kepler/root")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(42,0)
+
+criteria = addCriteria("hasBeacon", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:beacon>)

@@ -1,4 +1,4 @@
-setIcon(<minecraft:grass>)
+setIcon(<minecraft:sapling>)
 
 setTranslatedTitle("advancements.levitated.overworld.kepler.title")
 setTranslatedDescription("advancements.levitated.overworld.kepler.description")

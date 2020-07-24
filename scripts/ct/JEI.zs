@@ -39,7 +39,8 @@ for i, paper_plane in paper_planes {
 //End ores
 hide(<netherendingores:ore_end_vanilla:2>);
 hide(<netherendingores:ore_end_modded_2>);
-hide(<netherendingores:ore_other_1>);
+hide(<netherendingores:ore_other_1:2>);
+hide(<netherendingores:ore_other_1:4>);
 var end_ore_def = <netherendingores:ore_end_modded_1>.definition;
 var end_ore_keep = [1, 3, 8] as int[];
 for i in 0 to 16 {

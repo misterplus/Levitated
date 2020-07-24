@@ -379,6 +379,13 @@ advancements.levitated.overworld.spacesuit.description=You are no superman, and 
 advancements.levitated.overworld.adv_scanner.title=Advanced Scanning
 advancements.levitated.overworld.adv_scanner.description=A basic scanner is great, but why scan two chunks when you can scan four? Upgrade today!
 
+# Kepler Advancements
+advancements.levitated.kepler.root.title=Journey's End
+advancements.levitated.kepler.root.description=Here it is, the new home you've been searching for. Not exactly like the home you remembered, but a lively place to settle down and start a new life.
+
+advancements.levitated.kepler.beacon.title=Dawn of Hope
+advancements.levitated.kepler.beacon.description=If you still have friends living in the end, consider building a beacon on kepler! This will broadcast your coordinates to the entire galaxy, so they can easily find this place!
+
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=Easter Eggs!
 advancements.levitated.easteregg.root.description=If you found a easter egg by chance, it'll appear here!
