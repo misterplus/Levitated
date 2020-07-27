@@ -2,32 +2,32 @@
   "outputs": [
     {
       "target": "crystal",
-      "weight": 200,
+      "weight": 30,
       "id": "environmentaltech:litherite_crystal"
     },
     {
       "target": "crystal",
-      "weight": 150,
+      "weight": 60,
       "id": "environmentaltech:erodium_crystal"
     },
     {
       "target": "crystal",
-      "weight": 120,
+      "weight": 90,
       "id": "environmentaltech:kyronite_crystal"
     },
     {
       "target": "crystal",
-      "weight": 90,
+      "weight": 120,
       "id": "environmentaltech:pladium_crystal"
     },
     {
       "target": "crystal",
-      "weight": 60,
+      "weight": 150,
       "id": "environmentaltech:ionite_crystal"
     },
     {
       "target": "crystal",
-      "weight": 30,
+      "weight": 200,
       "id": "environmentaltech:aethium_crystal"
     },
     {
@@ -169,6 +169,11 @@
       "target": "white",
       "weight": 223,
       "id": "OD:oreTitanium"
+    },
+    {
+      "target": "lime",
+      "weight": 156,
+      "id": "OD:oreEmerald"
     }
   ]
 }
