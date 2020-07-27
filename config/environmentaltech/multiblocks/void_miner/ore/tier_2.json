@@ -2,7 +2,7 @@
   "outputs": [
     {
       "target": "crystal",
-      "weight": 200,
+      "weight": 120,
       "id": "environmentaltech:litherite_crystal"
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "target": "crystal",
-      "weight": 120,
+      "weight": 200,
       "id": "environmentaltech:kyronite_crystal"
     },
     {

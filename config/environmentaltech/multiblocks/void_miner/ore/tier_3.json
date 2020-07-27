@@ -2,22 +2,22 @@
   "outputs": [
     {
       "target": "crystal",
-      "weight": 200,
+      "weight": 90,
       "id": "environmentaltech:litherite_crystal"
     },
     {
       "target": "crystal",
-      "weight": 150,
+      "weight": 120,
       "id": "environmentaltech:erodium_crystal"
     },
     {
       "target": "crystal",
-      "weight": 120,
+      "weight": 150,
       "id": "environmentaltech:kyronite_crystal"
     },
     {
       "target": "crystal",
-      "weight": 90,
+      "weight": 200,
       "id": "environmentaltech:pladium_crystal"
     },
     {
