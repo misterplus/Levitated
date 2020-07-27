@@ -9,6 +9,6 @@ setAnnounceToChat(false)
 setPos(120,-39)
 
 criteria = addCriteria("formed_distiller", "immersiveengineering:multiblock_formed")
-criteria.setMultiblock("IE:Distiller")
+criteria.setMultiblock("IT:Distiller")
 
 visibleIf("triumph:levitated/overworld/root")

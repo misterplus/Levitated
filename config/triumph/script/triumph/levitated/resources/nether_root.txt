@@ -10,7 +10,7 @@ setAnnounceToChat(false)
 setPos(-28,-136)
 hideLines()
 
-criteria = addCriteria("hasNetherrack2", "minecraft:inventory_changed")
+criteria = addCriteria("hasNetherracks", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:netherrack>)
 
 hiddenUnless("triumph:levitated/end/netherrack")
