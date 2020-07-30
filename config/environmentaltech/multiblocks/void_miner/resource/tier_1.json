@@ -402,7 +402,7 @@
     },
     {
       "target": "white",
-      "weight": 2,
+      "weight": 8,
       "id": "environmentaltech:mica"
     }
   ]

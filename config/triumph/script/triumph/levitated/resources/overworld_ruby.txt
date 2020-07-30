@@ -9,7 +9,7 @@ setAnnounceToChat(false)
 setPos(83,-173)
 hideLines()
 
-criteria = addCriteria("hasRubyOre", "minecraft:inventory_changed")
-criteria.addItem(<techreborn:ore:2>)
+criteria = addCriteria("hasRuby", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:gem>)
 
 hiddenUnless("triumph:levitated/overworld/root")
