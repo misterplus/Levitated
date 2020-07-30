@@ -22,7 +22,7 @@ src/config/*.json
 src/config/*.ini
 src/config/*.txt
 src/config/*.properties
-!/src/config/i18n_update_mod.cfg
+# Only include these
 !/src/config/Netherending Ores.cfg
 !/src/config/PlusTweaks.cfg
 !/src/config/cyclopscore.cfg

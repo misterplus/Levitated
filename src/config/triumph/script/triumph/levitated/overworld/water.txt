@@ -1,0 +1,15 @@
+setIcon(<minecraft:water_bucket>)
+
+setTranslatedTitle("advancements.levitated.overworld.water.title")
+setTranslatedDescription("advancements.levitated.overworld.water.description")
+
+addParent("triumph:levitated/overworld/root")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(44,-133)
+drawDirectLines()
+
+criteria = addCriteria("entered_ocean", "minecraft:location")
+criteria.setBiome("minecraft:ocean")
+
+visibleIf("triumph:levitated/overworld/root")

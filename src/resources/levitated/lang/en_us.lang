@@ -239,9 +239,15 @@ advancements.levitated.nether.angel_ring.description=It is technically possible 
 advancements.levitated.nether.press.title=Press Your Luck
 advancements.levitated.nether.press.description=There are some special presses on sale right now, you might need these for setting up digital storage.
 
+advancements.levitated.nether.skystone.title=Sky's the Limit
+advancements.levitated.nether.skystone.description=Finding any meteor in the nether/end seems pretty unlikely, why not try some magic?
+
 # Overworld
 advancements.levitated.overworld.root.title=Sun, Moon and Stars
 advancements.levitated.overworld.root.description=You've made it back home! But this world isn't really your ideal settlement, since there's still nothing but the void. Maybe we can... go for the stars?
+
+advancements.levitated.overworld.water.title=Water you waiting for?
+advancements.levitated.overworld.water.description=Short on water supply? Pump infinite water from biomes like ocean or river!
 
 advancements.levitated.overworld.refined_iron.title=Double Refinement
 advancements.levitated.overworld.refined_iron.description=Apparently refining iron once isn't enough, you are gonna need better base materials for more advanced machines. Refining steel once more should be good, but how?
@@ -426,4 +432,4 @@ rename.levitated.refined_iron_nugget=Refined Steel Nugget
 rename.levitated.refined_iron_plate=Refined Steel Plate
 
 # Tips
-mods.tips.tips.1=In the final advancement "The Long Journey Home", you'll have to find and land on a planet similar to the former Earth.
+tips.levitated.1=In the final advancement "The Long Journey Home", you'll have to find and land on a planet similar to the former Earth.
