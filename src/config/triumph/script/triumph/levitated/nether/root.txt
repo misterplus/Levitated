@@ -1,0 +1,14 @@
+setIcon(<minecraft:soul_sand>)
+
+setTranslatedTitle("advancements.levitated.nether.root.title")
+setTranslatedDescription("advancements.levitated.nether.root.description")
+
+setBackground("minecraft:textures/gui/advancements/backgrounds/nether.png")
+setShowToast(false)
+setAnnounceToChat(false)
+setPos(-22,-15)
+
+criteria = addCriteria("hasNetherrack2", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:netherrack>)
+
+pageHiddenUnless("triumph:levitated/end/netherrack")

@@ -1,0 +1,11 @@
+{
+	"output": {
+		"item": "wizardry:wisdom_wood_fence_gate"
+	},
+	"input": {
+		"type": "forge:ore_dict",
+		"ore": "fenceGateWood"
+	},
+	"duration": 0,
+	"harp": false
+}

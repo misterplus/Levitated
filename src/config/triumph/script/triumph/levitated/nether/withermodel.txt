@@ -1,0 +1,14 @@
+setIcon(<deepmoblearning:data_model_wither>)
+
+setTranslatedTitle("advancements.levitated.nether.withermodel.title")
+setTranslatedDescription("advancements.levitated.nether.withermodel.description")
+
+addParent("triumph:levitated/nether/stargen")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(414,39)
+
+criteria = addCriteria("hasWitherModel", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:data_model_wither>)
+
+visibleIf("triumph:levitated/nether/root")

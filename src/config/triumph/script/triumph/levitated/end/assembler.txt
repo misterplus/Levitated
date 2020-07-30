@@ -1,0 +1,15 @@
+setIcon(<extrautils2:machine, nbt:{Type:"crafttweaker:assembler"}>)
+
+setTranslatedTitle("advancements.levitated.end.assembler.title")
+setTranslatedDescription("advancements.levitated.end.assembler.description")
+
+addParent("triumph:levitated/end/machine_block")
+addParent("triumph:levitated/end/alloy_smelter")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(861,-40)
+
+criteria = addCriteria("hasAssembler", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:machine, nbt:{Type:"crafttweaker:assembler"}>)
+
+visibleIf("triumph:levitated/end/root")

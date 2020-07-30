@@ -1,0 +1,14 @@
+setIcon(<forge:bucketfilled, nbt:{FluidName: "endacid", Amount: 1000}>)
+
+setTranslatedTitle("advancements.levitated.end.water.title")
+setTranslatedDescription("advancements.levitated.end.water.description")
+
+addParent("triumph:levitated/end/living_blocks")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(317,6)
+
+criteria = addCriteria("hasAcid", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, nbt:{FluidName: "endacid", Amount: 1000}>)
+
+visibleIf("triumph:levitated/end/root")

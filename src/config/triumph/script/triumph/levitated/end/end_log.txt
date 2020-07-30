@@ -1,0 +1,14 @@
+setIcon(<stygian:endlog>)
+
+setTranslatedTitle("advancements.levitated.end.end_log.title")
+setTranslatedDescription("advancements.levitated.end.end_log.description")
+
+addParent("triumph:levitated/end/endstone_shard")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(62,6)
+
+criteria = addCriteria("hasEndLog", "minecraft:inventory_changed")
+criteria.addItem(<stygian:endplanks>)
+
+visibleIf("triumph:levitated/end/root")

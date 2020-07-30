@@ -1,0 +1,14 @@
+setIcon(<tconstruct:rack, meta:1, nbt:{textureBlock:{id:"wizardry:wisdom_wood_slab",Count:1b,Damage:0s}}>)
+
+setTranslatedTitle("advancements.levitated.end.drying_rack.title")
+setTranslatedDescription("advancements.levitated.end.drying_rack.description")
+
+addParent("triumph:levitated/end/liquid_mana")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(444,-63)
+
+criteria = addCriteria("hasNetherrack", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:rack, meta:1, nbt:{textureBlock:{id:"wizardry:wisdom_wood_slab",Count:1b,Damage:0s}}>)
+
+visibleIf("triumph:levitated/end/root")

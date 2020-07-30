@@ -1,0 +1,14 @@
+setIcon(<advancedrocketry:satellite>)
+
+setTranslatedTitle("advancements.levitated.overworld.satellite.title")
+setTranslatedDescription("advancements.levitated.overworld.satellite.description")
+
+addParent("triumph:levitated/overworld/space_station")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(370,-39)
+
+criteria = addCriteria("hasSatellite", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:satellite>)
+
+visibleIf("triumph:levitated/overworld/root")

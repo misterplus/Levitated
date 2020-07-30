@@ -1,0 +1,16 @@
+setIcon(<minecraft:written_book>)
+
+setTranslatedTitle("advancements.levitated.resources.nether_root.title")
+setTranslatedDescription("advancements.levitated.resources.nether_root.description")
+
+addParent("triumph:levitated/resources/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+setPos(-28,-136)
+hideLines()
+
+criteria = addCriteria("hasNetherracks", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:netherrack>)
+
+hiddenUnless("triumph:levitated/end/netherrack")

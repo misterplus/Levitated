@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+  <recipe name="Tank: Deep Mob Learning, Overworld Matter" required="false">
+    <tanking type="EMPTY" logic="XP">
+      <input name="deepmoblearning:living_matter_overworldian" />
+      <fluid name="xpjuice" amount="20" /> <!-- for logic=XP amount is in XP, not mB -->
+    </tanking>
+  </recipe>
+  <recipe name="Tank: Deep Mob Learning, Hellish Matter" required="false">
+    <tanking type="EMPTY" logic="XP">
+      <input name="deepmoblearning:living_matter_hellish" />
+      <fluid name="xpjuice" amount="14" /> <!-- for logic=XP amount is in XP, not mB -->
+    </tanking>
+  </recipe>
+  <recipe name="Tank: Deep Mob Learning, Extraterrestrial Matter" required="false">
+    <tanking type="EMPTY" logic="XP">
+      <input name="deepmoblearning:living_matter_extraterrestrial" />
+      <fluid name="xpjuice" amount="10" /> <!-- for logic=XP amount is in XP, not mB -->
+    </tanking>
+  </recipe>
+  <recipe name="Chassis" disabled="true">
+    <alloying energy="3600" exp="1">
+      <input name="SIMPLE_CHASSIS" />
+      <input name="dyeMachine" />
+      <output name="CHASSIS" />
+    </alloying>
+  </recipe>
+  <recipe name="Alloy: Steel" required="false" disabled="true">
+    <alloying energy="10000" exp="0">
+      <input name="ingotIron" />
+      <input name="dustCoal" amount="4" />
+      <output name="ingotSteel" />
+    </alloying>
+  </recipe>
+  <recipe name="Alloy: Signalum (Thermal Expansion)" required="false" disabled="true">
+    <alloying energy="32000" exp="0">
+      <input name="ingotCopper" amount="3" />
+      <input name="ingotSilver" />
+      <input name="dustRedstone" amount="10" />
+      <output name="ingotSignalum" amount="4" />
+    </alloying>
+  </recipe>
+  <recipe name="Alloy: Lumium from dust (Thermal Expansion)" required="false" disabled="true">
+    <alloying energy="32000" exp="0">
+      <input name="ingotTin" amount="3" />
+      <input name="ingotSilver" />
+      <input name="dustGlowstone" amount="4" />
+      <output name="ingotLumium" amount="4" />
+    </alloying>
+  </recipe>
+  <recipe name="Alloy: Lumium (Thermal Expansion)" required="false" disabled="true">
+    <alloying energy="32000" exp="0">
+      <input name="ingotTin" amount="3" />
+      <input name="ingotSilver" />
+      <input name="oredict:glowstone" />
+      <output name="ingotLumium" amount="4" />
+    </alloying>
+  </recipe>
+  <recipe name="Alloy: Enderium Base (Thermal Expansion)" required="false" disabled="true">
+    <alloying energy="4000" exp="0">
+      <input name="ingotLead" amount="3" />
+      <input name="ingotPlatinum" />
+      <input name="oredict:enderpearl" amount="4" />
+      <output name="ingotEnderiumBase" amount="4" />
+    </alloying>
+  </recipe>
+  <recipe name="Alloy: Enderium (Thermal Expansion)" required="false" disabled="true">
+    <alloying energy="25000" exp="0">
+      <input name="ingotEnderiumBase" amount="2" />
+      <input name="oredict:sand" />
+      <output name="ingotEnderium" amount="2" />
+    </alloying>
+  </recipe>
+  <recipe name="Alloy: Steel (Oredict)" required="false" disabled="true">
+    <alloying energy="4000" exp="0">
+      <input name="ingotIron" />
+      <input name="fuelCoke" />
+      <output name="ingotSteel" />
+    </alloying>
+  </recipe>
+  <recipe name="Enhanced Chassis" disabled="true">
+    <alloying energy="3600" exp="1">
+      <input name="END_STEEL_CHASSIS" />
+      <input name="dyeEnhancedMachine" />
+      <output name="ENHANCED_CHASSIS" />
+    </alloying>
+  </recipe>
+  <recipe name="Soul Chassis" disabled="true">
+    <alloying energy="3600" exp="1">
+      <input name="SIMPLE_CHASSIS" />
+      <input name="dyeSoulMachine" />
+      <output name="SOUL_CHASSIS" />
+    </alloying>
+  </recipe>
+</enderio:recipes>

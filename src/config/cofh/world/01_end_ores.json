@@ -1,0 +1,314 @@
+{
+	"dependencies": "netherendingores",
+	"priority": 100,
+	"populate": {
+		"end-coal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "netherendingores:ore_end_vanilla",
+					"properties": {
+						"blocks": "coal_ore"
+                    }
+                },
+				"material": "end_stone",
+				"cluster-size": 14
+			},
+			"cluster-count": 16,
+			"min-height": 40,
+			"max-height": 70,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"stygian:stygian_growth"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+
+		"end-iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "netherendingores:ore_end_vanilla",
+					"properties": {
+						"blocks": "iron_ore"
+                    }
+                },
+				"material": "end_stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 10,
+			"max-height": 55,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+
+		"end-gold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "netherendingores:ore_end_vanilla",
+					"properties": {
+						"blocks": "gold_ore"
+                    }
+                },
+				"material": "end_stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 7,
+			"min-height": 10,
+			"max-height": 45,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+        },
+         
+        "end-redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "netherendingores:ore_end_vanilla",
+					"properties": {
+						"blocks": "redstone_ore"
+                    }
+                },
+				"material": "end_stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 10,
+			"max-height": 40,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+        },
+
+        "end-diamond": {
+			"distribution": "cave",
+			"ceiling": true,
+			"generator": [
+				{
+					"type": "stalactite",
+					"block": "stygian:endobsidian",
+					"material": [
+						"end_stone"
+					],
+					"gen-body": "air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 7,
+					"height-variance": 2,
+					"height-mod": 3,
+					"size-variance": 1
+				},
+				{
+					"type": "stalactite",
+					"block": [
+						{
+							"name": "netherendingores:ore_end_vanilla",
+							"properties": {
+								"blocks": "diamond_ore"
+							},
+							"weight": 20
+						},
+						{
+							"name": "stygian:endobsidian",
+							"weight": 80
+						}
+					],
+					"material": [
+						"end_stone"
+					],
+					"gen-body": "air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 7,
+					"height-variance": 2,
+					"height-mod": 3,
+					"size-variance": 1
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 5,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"stygian:acidic_plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+
+        "end-lapis": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": {
+                    "name": "netherendingores:ore_end_vanilla",
+					"properties": {
+						"blocks": "lapis_ore"
+                    }
+                },
+				"material": "end_stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 2,
+			"center-height": 40,
+			"spread": 15,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+        },
+        
+		"end-copper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+                        "name": "netherendingores:ore_end_modded_1",
+                        "properties": {
+                            "blocks": "copper_ore"
+                        }
+                    }
+                ],
+				"material": [
+					"end_stone",
+					"stygian:endgrass"
+				],
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 10,
+			"max-height": 65,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"stygian:stygian_growth"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+
+		"end-tin": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+                        "name": "netherendingores:ore_end_modded_1",
+                        "properties": {
+                            "blocks": "tin_ore"
+                        }
+                    }
+                ],
+				"material": [
+					"end_stone",
+					"stygian:endgrass"
+				],
+				"cluster-size": 9
+			},
+			"cluster-count": 18,
+			"min-height": 10,
+			"max-height": 55,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"stygian:stygian_growth"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+
+		"end-lead": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+                        "name": "netherendingores:ore_end_modded_1",
+                        "properties": {
+                            "blocks": "lead_ore"
+                        }
+                    }
+                ],
+				"material": [
+					"end_stone",
+					"stygian:endgrass"
+				],
+				"cluster-size": 8
+			},
+			"cluster-count": 9,
+			"min-height": 10,
+			"max-height": 45,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"stygian:stygian_growth"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
+	}
+}

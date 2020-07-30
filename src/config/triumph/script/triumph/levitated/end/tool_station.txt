@@ -1,0 +1,14 @@
+setIcon(<tconstruct:tooltables:3>)
+
+setTranslatedTitle("advancements.levitated.end.tool_station.title")
+setTranslatedDescription("advancements.levitated.end.tool_station.description")
+
+addParent("triumph:levitated/end/end_log")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(101,6)
+
+criteria = addCriteria("hasToolStation", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:tooltables:3>)
+
+visibleIf("triumph:levitated/end/root")

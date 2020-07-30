@@ -1,0 +1,27 @@
+setIcon(<appliedenergistics2:material:19>)
+
+setTranslatedTitle("advancements.levitated.nether.press.title")
+setTranslatedDescription("advancements.levitated.nether.press.description")
+
+addParent("triumph:levitated/nether/tablet")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(202,-96)
+
+drawDirectLines()
+
+criteria = addCriteria("hasPress1", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:material:13>)
+
+criteria = addCriteria("hasPress2", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:material:14>)
+
+criteria = addCriteria("hasPress3", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:material:15>)
+
+criteria = addCriteria("hasPress4", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:material:19>)
+
+setRequirements("any")
+
+visibleIf("triumph:levitated/nether/root")

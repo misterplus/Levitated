@@ -1,0 +1,15 @@
+setIcon(<techreborn:recycler>)
+
+setTranslatedTitle("advancements.levitated.overworld.recycler.title")
+setTranslatedDescription("advancements.levitated.overworld.recycler.description")
+
+addParent("triumph:levitated/overworld/machine_frame")
+addParent("triumph:levitated/overworld/insulated_wire")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(154,-87)
+
+criteria = addCriteria("hasRecycler", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:recycler>)
+
+visibleIf("triumph:levitated/overworld/root")

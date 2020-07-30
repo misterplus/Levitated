@@ -1,0 +1,64 @@
+{
+  "outputs": [
+    {
+      "target": "crystal",
+      "weight": 225,
+      "id": "environmentaltech:litherite_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 300,
+      "id": "environmentaltech:erodium_crystal"
+    },
+    {
+      "target": "black",
+      "weight": 4,
+      "id": "environmentaltech:lonsdaleite_crystal"
+    },
+    {
+      "target": "black",
+      "weight": 1000,
+      "id": "OD:oreCoal"
+    },
+    {
+      "target": "white",
+      "weight": 750,
+      "id": "OD:oreIron"
+    },
+    {
+      "target": "red",
+      "weight": 515,
+      "id": "OD:oreRedstone"
+    },
+    {
+      "target": "blue",
+      "weight": 343,
+      "id": "OD:oreLapis"
+    },
+    {
+      "target": "yellow",
+      "weight": 311,
+      "id": "OD:oreGold"
+    },
+    {
+      "target": "cyan",
+      "weight": 218,
+      "id": "OD:oreDiamond"
+    },
+    {
+      "target": "orange",
+      "weight": 584,
+      "id": "OD:oreCopper"
+    },
+    {
+      "target": "gray",
+      "weight": 602,
+      "id": "OD:oreTin"
+    },
+    {
+      "target": "purple",
+      "weight": 500,
+      "id": "OD:oreLead"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+setIcon(<deepmoblearning:simulation_chamber>)
+
+setTranslatedTitle("advancements.levitated.end.simulation_chamber.title")
+setTranslatedDescription("advancements.levitated.end.simulation_chamber.description")
+
+addParent("triumph:levitated/end/deep_learner")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(822,27)
+
+criteria = addCriteria("hasSimChamber", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:simulation_chamber>)
+
+visibleIf("triumph:levitated/end/root")

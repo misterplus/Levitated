@@ -1,0 +1,15 @@
+{
+  "sub_module_id": "effect_frost",
+  "reference_module_id": "effect_frost",
+  "item": "minecraft:snowball",
+  "primary_color": "FFFFFF",
+  "secondary_color": "FFFFFF",
+  "mana": {
+    "min": 100
+  },
+  "burnout": {
+    "min": 50
+  },
+  "area": { "min": 1, "max": 16 },
+  "duration": { "min": 5, "max": 40 }
+}

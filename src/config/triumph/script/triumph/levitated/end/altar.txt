@@ -1,0 +1,14 @@
+setIcon(<botania:altar>)
+
+setTranslatedTitle("advancements.levitated.end.altar.title")
+setTranslatedDescription("advancements.levitated.end.altar.description")
+
+addParent("triumph:levitated/end/water")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(361,6)
+
+criteria = addCriteria("hasAltar", "minecraft:inventory_changed")
+criteria.addItem(<botania:altar>)
+
+visibleIf("triumph:levitated/end/root")

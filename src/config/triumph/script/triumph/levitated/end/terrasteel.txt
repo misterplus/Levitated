@@ -1,0 +1,14 @@
+setIcon(<botania:manaresource:4>)
+
+setTranslatedTitle("advancements.levitated.end.terrasteel.title")
+setTranslatedDescription("advancements.levitated.end.terrasteel.description")
+
+addParent("triumph:levitated/end/terra_plate")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(600,6)
+
+criteria = addCriteria("hasTerraSteel", "minecraft:inventory_changed")
+criteria.addItem(<botania:manaresource:4>)
+
+visibleIf("triumph:levitated/end/root")

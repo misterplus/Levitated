@@ -1,0 +1,15 @@
+setIcon(<techreborn:ore:8>)
+
+setTranslatedTitle("advancements.levitated.resources.overworld_tungsten.title")
+setTranslatedDescription("advancements.levitated.resources.overworld_tungsten.description")
+
+addParent("triumph:levitated/resources/root")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(157,-173)
+hideLines()
+
+criteria = addCriteria("hasTungstenOre", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:ore:8>)
+
+hiddenUnless("triumph:levitated/overworld/root")

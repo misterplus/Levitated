@@ -1,0 +1,14 @@
+setIcon(<pneumaticcraft:ingot_iron_compressed>)
+
+setTranslatedTitle("advancements.levitated.nether.compiron.title")
+setTranslatedDescription("advancements.levitated.nether.compiron.description")
+
+addParent("triumph:levitated/nether/blast_furnace")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(87,-15)
+
+criteria = addCriteria("hasCompiron", "minecraft:inventory_changed")
+criteria.addItem(<pneumaticcraft:ingot_iron_compressed>)
+
+visibleIf("triumph:levitated/nether/root")

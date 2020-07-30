@@ -1,0 +1,14 @@
+setIcon(<enderio:block_simple_alloy_smelter>)
+
+setTranslatedTitle("advancements.levitated.end.alloy_smelter.title")
+setTranslatedDescription("advancements.levitated.end.alloy_smelter.description")
+
+addParent("triumph:levitated/end/sag_mill")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(822,-18)
+
+criteria = addCriteria("hasAlloySmelter", "minecraft:inventory_changed")
+criteria.addItem(<enderio:block_simple_alloy_smelter>)
+
+visibleIf("triumph:levitated/end/root")

@@ -1,0 +1,197 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "EndFlowerWizardry",
+  "items": [
+    {
+      "weight": 41.28571701049805,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "wizardry:sky_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 75.74107360839844,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "wizardry:devil_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 75.74107360839844,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "wizardry:fairy_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 20.692365646362305,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "wizardry:fairy_wings",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 21.668249130249023,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "wizardry:fairy_imbued_apple",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 21.668249130249023,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "wizardry:bomb",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 21.668249130249023,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "wizardry:bomb",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 21.668249130249023,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "wizardry:cape",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 41.28571701049805,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "wizardry:wisdom_sapling",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 65.52181243896484,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "wizardry:book",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 81.3079833984375,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "wizardry:orb",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 73.07442474365234,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "wizardry:wisdom_wood_trapdoor",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 30.87596893310547,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "wizardry:unicorn_dagger",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 15.548633575439453,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "wizardry:nacre_pearl",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "purity_override": {
+              "nbtType": "float",
+              "nbt": 2.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 12.72980785369873,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "wizardry:halo_fake",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 30.87596893310547,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "wizardry:ring",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "rand": {
+              "nbtType": "float",
+              "nbt": 29.957031
+            },
+            "purity": {
+              "nbtType": "int",
+              "nbt": 600
+            },
+            "complete": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "purity_override": {
+              "nbtType": "float",
+              "nbt": 1.0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

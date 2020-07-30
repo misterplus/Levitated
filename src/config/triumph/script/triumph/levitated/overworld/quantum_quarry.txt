@@ -1,0 +1,14 @@
+setIcon(<extrautils2:quarry>)
+
+setTranslatedTitle("advancements.levitated.overworld.quantum_quarry.title")
+setTranslatedDescription("advancements.levitated.overworld.quantum_quarry.description")
+
+addParent("triumph:levitated/overworld/fusion")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(244,-39)
+
+criteria = addCriteria("hasQuarry", "minecraft:inventory_changed")
+criteria.addItem(<extrautils2:quarry>)
+
+visibleIf("triumph:levitated/overworld/root")

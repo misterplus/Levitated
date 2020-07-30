@@ -1,0 +1,17 @@
+setIcon(<minecraft:netherrack>)
+
+setTranslatedTitle("advancements.levitated.end.netherrack.title")
+setTranslatedDescription("advancements.levitated.end.netherrack.description")
+
+addParent("triumph:levitated/end/scanner")
+addParent("triumph:levitated/end/nether_portal")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(982,-7)
+
+criteria = addCriteria("hasNetherrack", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:netherrack>)
+
+setRewardFunction("triumph:blaze_rod")
+
+visibleIf("triumph:levitated/end/root")

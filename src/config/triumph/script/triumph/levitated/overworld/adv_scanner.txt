@@ -1,0 +1,15 @@
+setIcon(<scanner:biome_scanner_adv>)
+
+setTranslatedTitle("advancements.levitated.overworld.adv_scanner.title")
+setTranslatedDescription("advancements.levitated.overworld.adv_scanner.description")
+
+addParent("triumph:levitated/overworld/root")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(44,-39)
+drawDirectLines()
+
+criteria = addCriteria("hasAdvScanner", "minecraft:inventory_changed")
+criteria.addItem(<scanner:biome_scanner_adv>)
+
+visibleIf("triumph:levitated/overworld/root")

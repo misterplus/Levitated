@@ -1,0 +1,14 @@
+setIcon(<pneumaticcraft:plastic_mixer>)
+
+setTranslatedTitle("advancements.levitated.nether.plastic.title")
+setTranslatedDescription("advancements.levitated.nether.plastic.description")
+
+addParent("triumph:levitated/nether/lpg")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(202,-42)
+
+criteria = addCriteria("hasPlasticMixer", "minecraft:inventory_changed")
+criteria.addItem(<pneumaticcraft:plastic_mixer>)
+
+visibleIf("triumph:levitated/nether/root")

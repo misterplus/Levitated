@@ -1,0 +1,14 @@
+setIcon(<environmentaltech:void_ore_miner_cont_4>)
+
+setTranslatedTitle("advancements.levitated.overworld.voidminer2.title")
+setTranslatedDescription("advancements.levitated.overworld.voidminer2.description")
+
+addParent("triumph:levitated/overworld/voidminer")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(154,-133)
+
+criteria = addCriteria("hasVoidminer2", "minecraft:inventory_changed")
+criteria.addItem(<environmentaltech:void_ore_miner_cont_4>)
+
+visibleIf("triumph:levitated/overworld/root")

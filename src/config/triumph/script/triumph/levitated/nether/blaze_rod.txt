@@ -1,0 +1,14 @@
+setIcon(<minecraft:blaze_rod>)
+
+setTranslatedTitle("advancements.levitated.nether.blaze_rod.title")
+setTranslatedDescription("advancements.levitated.nether.blaze_rod.description")
+
+addParent("triumph:levitated/nether/root")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(12,-15)
+
+criteria = addCriteria("hasBlazeRod", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:blaze_rod>)
+
+visibleIf("triumph:levitated/nether/root")

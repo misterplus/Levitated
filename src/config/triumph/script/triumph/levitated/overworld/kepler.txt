@@ -1,0 +1,15 @@
+setIcon(<minecraft:sapling>)
+
+setTranslatedTitle("advancements.levitated.overworld.kepler.title")
+setTranslatedDescription("advancements.levitated.overworld.kepler.description")
+
+addParent("triumph:levitated/overworld/warp")
+addParent("triumph:levitated/overworld/satellite_station")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(451,-66)
+
+criteria = addCriteria("hasTrophy", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:trophy>)
+
+visibleIf("triumph:levitated/overworld/root")

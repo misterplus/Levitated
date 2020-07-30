@@ -1,0 +1,710 @@
+{
+  "rules": [
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+            "stygian:endlog"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+            "items": [
+				"tconstruct:shard:0#{Material:\"endstone\"}"
+			]
+          }
+        }
+      },
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 80
+            }
+          },
+          "item": {
+            "items": [
+              "stygian:endplanks"
+            ],
+			"quantity": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 20
+            }
+          },
+          "item": {
+            "items": [
+              "stygian:endlog"
+            ]
+          }
+        }
+      ]
+    },
+	
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "stygian:endlog"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "WHITELIST",
+            "harvestLevel": "axe;0;-1"
+          }
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "stygian:endlog"
+            ]
+          }
+        }
+      ]
+    },
+
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+            "stygian:endlog"
+          ]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
+            "type": "BLACKLIST",
+            "harvestLevel": "axe;0;-1"
+          }
+        }
+      },
+      "drops": [{}]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "stygian:endtallgrass"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 90
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 10
+            }
+          },
+          "item": {
+            "items" : [
+              "contenttweaker:end_seeds"
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "stygian:endleaves"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "item": {
+            "items" : [
+              "minecraft:apple"
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "netherendingores:ore_end_vanilla:0"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:coal"
+            ]
+          },
+          "xp": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": [
+              "minecraft:coal"
+            ],
+            "quantity": {
+              "fixed": 2
+            }
+          },
+          "xp": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": [
+              "minecraft:coal"
+            ],
+            "quantity": {
+              "fixed": 3
+            }
+          },
+          "xp": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "minecraft:coal"
+            ],
+            "quantity": {
+              "fixed": 4
+            }
+          },
+          "xp": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "netherendingores:ore_end_vanilla:1"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:diamond"
+            ]
+          },
+          "xp": {
+            "min": 3,
+            "max": 7
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": [
+              "minecraft:diamond"
+            ],
+            "quantity": {
+              "fixed": 2
+            }
+          },
+          "xp": {
+            "min": 3,
+            "max": 7
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": [
+              "minecraft:diamond"
+            ],
+            "quantity": {
+              "fixed": 3
+            }
+          },
+          "xp": {
+            "min": 3,
+            "max": 7
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "minecraft:diamond"
+            ],
+            "quantity": {
+              "fixed": 4
+            }
+          },
+          "xp": {
+            "min": 3,
+            "max": 7
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "netherendingores:ore_end_vanilla:6"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 6
+            }
+          },
+          "xp": {
+            "min": 1,
+            "max": 6
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 7
+            }
+          },
+          "xp": {
+            "min": 1,
+            "max": 6
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 8
+            }
+          },
+          "xp": {
+            "min": 1,
+            "max": 6
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 9
+            }
+          },
+          "xp": {
+            "min": 1,
+            "max": 6
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "netherendingores:ore_end_vanilla:5"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:dye:4"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 9
+            }
+          },
+          "xp": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": [
+              "minecraft:dye:4"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 18
+            }
+          },
+          "xp": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": [
+              "minecraft:dye:4"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 27
+            }
+          },
+          "xp": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "minecraft:dye:4"
+            ],
+            "quantity": {
+              "min": 4,
+              "max": 36
+            }
+          },
+          "xp": {
+            "min": 2,
+            "max": 5
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "netherendingores:ore_nether_modded_1:9"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            }
+          },
+          "item": {
+            "items": [
+              "appliedenergistics2:material"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 2
+            }
+          },
+          "xp": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": [
+              "appliedenergistics2:material"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 4
+            }
+          },
+          "xp": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": [
+              "appliedenergistics2:material"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 6
+            }
+          },
+          "xp": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "appliedenergistics2:material"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 8
+            }
+          },
+          "xp": {
+            "min": 2,
+            "max": 5
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "netherendingores:ore_nether_modded_1:10"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            }
+          },
+          "item": {
+            "items": [
+              "appliedenergistics2:material:1"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 2
+            }
+          },
+          "xp": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": [
+              "appliedenergistics2:material:1"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 4
+            }
+          },
+          "xp": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": [
+              "appliedenergistics2:material:1"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 6
+            }
+          },
+          "xp": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "appliedenergistics2:material:1"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 8
+            }
+          },
+          "xp": {
+            "min": 2,
+            "max": 5
+          }
+        }
+      ]
+    }
+  ]
+}
