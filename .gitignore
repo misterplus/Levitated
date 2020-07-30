@@ -23,6 +23,7 @@ src/config/*.json
 src/config/*.ini
 src/config/*.txt
 src/config/*.properties
+!/src/config/i18n_update_mod.cfg
 !/src/config/Netherending Ores.cfg
 !/src/config/PlusTweaks.cfg
 !/src/config/cyclopscore.cfg
@@ -37,3 +38,6 @@ src/config/*.properties
 !/src/config/tips.cfg
 !/src/config/toastcontrol.cfg
 !/src/config/tombstone.cfg
+
+# Dev tools
+/devtools
