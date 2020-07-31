@@ -285,6 +285,36 @@ advancements.levitated.overworld.quantum_quarry.description=Platinum might be th
 advancements.levitated.overworld.structure.title=Steady Structure
 advancements.levitated.overworld.structure.description=With storms howling through the lands of the Overworld, you surely don't wanna live there, but the end is not exactly a great choice either, that leaves you with the only option - other planets. Better get those rockets building!
 
+advancements.levitated.overworld.rocket.title=Space Travel! ... not yet
+advancements.levitated.overworld.rocket.description=Not all planets are habitable, and not all habitable planets are for humans. To search for such a planet would take centuries without the right tools. And rockets are surely one of them.
+
+advancements.levitated.overworld.space_station.title=Non-Stationary
+advancements.levitated.overworld.space_station.description=Stay on the earth with a naked eye isn't gonna help you find extraterrestrial planets, you better levitate yourself to a...higher altitude. In plain English, that is to say - build a space station.
+
+advancements.levitated.overworld.warp.title=Intergalactic Travel
+advancements.levitated.overworld.warp.description=It doesn't seem like there's any planet in the solar system for you to live on, but you might have a chance at other galaxies, but that's a long shot, and a hard one. You cannot simply launch a rocket to another galaxy, but warping is an option.
+
+advancements.levitated.overworld.satellite.title=Loyal Follower
+advancements.levitated.overworld.satellite.description=You'll need to collect some data for searching for new planets in the warp controller, and a couple of satellites will definitely help you out. Just make sure not to immediately crash them because you forgot to put solar panels on them, ok?
+
+advancements.levitated.overworld.fueling_station.title=All Fueled Up!
+advancements.levitated.overworld.fueling_station.description=Although pouring rocket fuel with a iron bucket would work just fine, you are still better off building a fueling station to save yourself some trouble. (Use Ender IO Rocket Fuel)
+
+advancements.levitated.overworld.satellite_station.title=5G needed
+advancements.levitated.overworld.satellite_station.description=Data collected by satellites aren't gonna download themselves, you'll need a satellite terminal for downloading that data yourself.
+
+advancements.levitated.overworld.insulated_wire.title=Insulated
+advancements.levitated.overworld.insulated_wire.description=Professional technicians always use rubber to protect themselves.
+
+advancements.levitated.overworld.kepler.title=The Long Journey "Home"
+advancements.levitated.overworld.kepler.description=Warp after warp, you finally found a familiar place...
+
+advancements.levitated.overworld.spacesuit.title=Suit up
+advancements.levitated.overworld.spacesuit.description=You are no superman, and certainly cannot breathe in space, so a set of space suit is a must. And a pair of oxygen tanks, of course.
+
+advancements.levitated.overworld.adv_scanner.title=Advanced Scanning
+advancements.levitated.overworld.adv_scanner.description=A basic scanner is great, but why scan two chunks when you can scan four? Upgrade today!
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right.
@@ -354,36 +384,6 @@ advancements.levitated.resources.quantum_dilithium.description=Dilithium is the 
 
 advancements.levitated.resources.quantum_mithril.title=Magic Metal
 advancements.levitated.resources.quantum_mithril.description=Mithril is a metal like no other, it's way harder than steel yet lighter than paper, magnificent.
-
-advancements.levitated.overworld.rocket.title=Space Travel! ... not yet
-advancements.levitated.overworld.rocket.description=Not all planets are habitable, and not all habitable planets are for humans. To search for such a planet would take centuries without the right tools. And rockets are surely one of them.
-
-advancements.levitated.overworld.space_station.title=Non-Stationary
-advancements.levitated.overworld.space_station.description=Stay on the earth with a naked eye isn't gonna help you find extraterrestrial planets, you better levitate yourself to a...higher altitude. In plain English, that is to say - build a space station.
-
-advancements.levitated.overworld.warp.title=Intergalactic Travel
-advancements.levitated.overworld.warp.description=It doesn't seem like there's any planet in the solar system for you to live on, but you might have a chance at other galaxies, but that's a long shot, and a hard one. You cannot simply launch a rocket to another galaxy, but warping is an option.
-
-advancements.levitated.overworld.satellite.title=Loyal Follower
-advancements.levitated.overworld.satellite.description=You'll need to collect some data for searching for new planets in the warp controller, and a couple of satellites will definitely help you out. Just make sure not to immediately crash them because you forgot to put solar panels on them, ok?
-
-advancements.levitated.overworld.fueling_station.title=All Fueled Up!
-advancements.levitated.overworld.fueling_station.description=Although pouring rocket fuel with a iron bucket would work just fine, you are still better off building a fueling station to save yourself some trouble. (Use Ender IO Rocket Fuel)
-
-advancements.levitated.overworld.satellite_station.title=5G needed
-advancements.levitated.overworld.satellite_station.description=Data collected by satellites aren't gonna download themselves, you'll need a satellite terminal for downloading that data yourself.
-
-advancements.levitated.overworld.insulated_wire.title=Insulated
-advancements.levitated.overworld.insulated_wire.description=Professional technicians always use rubber to protect themselves.
-
-advancements.levitated.overworld.kepler.title=The Long Journey "Home"
-advancements.levitated.overworld.kepler.description=Warp after warp, you finally found a familiar place...
-
-advancements.levitated.overworld.spacesuit.title=Suit up
-advancements.levitated.overworld.spacesuit.description=You are no superman, and certainly cannot breathe in space, so a set of space suit is a must. And a pair of oxygen tanks, of course.
-
-advancements.levitated.overworld.adv_scanner.title=Advanced Scanning
-advancements.levitated.overworld.adv_scanner.description=A basic scanner is great, but why scan two chunks when you can scan four? Upgrade today!
 
 # Kepler Advancements
 advancements.levitated.kepler.root.title=Journey's End

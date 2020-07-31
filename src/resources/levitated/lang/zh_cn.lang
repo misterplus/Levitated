@@ -279,6 +279,36 @@ advancements.levitated.overworld.quantum_quarry.description=铂也许是这颗�
 advancements.levitated.overworld.structure.title=流浪
 advancements.levitated.overworld.structure.description=没有了原本各个生态的相互制衡，主世界的环境变得非常恶劣。你长留此地的念头顿时被风暴吹散了，但末地同样令人呕吐，进退两难的你，只有一种选择——移民到其他星球。开始建造火箭吧！
 
+advancements.levitated.overworld.rocket.title=太空旅行！...火箭延误了
+advancements.levitated.overworld.rocket.description=物竞天择，适者生存，这同样适用于其他星球。辛苦的探查后，你发现有些星球充满了生命，但那的环境并不适合人类居住，如此反复，或许到最后也找不到能够移居的星球，所以你得借助火箭的力量了。
+
+advancements.levitated.overworld.space_station.title=史上最low空间站
+advancements.levitated.overworld.space_station.description=在地球上，你的双手能举千斤，但你的肉眼并不能看透浩瀚的宇宙，去探查外星球的奥秘，你最好把你的脚抬得高一些。简单来说，就是搭建一座空间站。
+
+advancements.levitated.overworld.warp.title=银河穿梭
+advancements.levitated.overworld.warp.description=太阳系内的星球已经被先人探索得差不多了，你在此基础上也没有发现什么惊喜。你知道的，这已经不能依靠火箭了，希望你能勇敢迈入跃迁之"门"，带上行囊，向着太阳系外继续寻求希望吧。
+
+advancements.levitated.overworld.satellite.title=得力助手
+advancements.levitated.overworld.satellite.description=你需要收集一些数据，并在跃迁控制器里搜索新的星球，而卫星刚好能胜任。千万别忘了安装太阳能板组件，你总不能用爱发电吧？
+
+advancements.levitated.overworld.fueling_station.title=加油！奥利给！
+advancements.levitated.overworld.fueling_station.description=你或许能用右手做任何事，包括给火箭加油，但没人不喜欢一劳永逸，建议做一台燃油站来代替你的双手。 (使用EIO的火箭燃料)
+
+advancements.levitated.overworld.satellite_station.title=这里的5G不'传染'
+advancements.levitated.overworld.satellite_station.description=卫星收集的数据不会自己下载，你需要一台卫星终端来下载这些数据。
+
+advancements.levitated.overworld.insulated_wire.title=绝缘
+advancements.levitated.overworld.insulated_wire.description=专业的科研人员总会使用橡胶来保护自己。
+
+advancements.levitated.overworld.kepler.title=长路漫漫，唯念作伴
+advancements.levitated.overworld.kepler.description=经过了漫长的跃迁，你终于找到了一个类地星球。
+
+advancements.levitated.overworld.spacesuit.title=穿戴整齐
+advancements.levitated.overworld.spacesuit.description=你不是奥特曼，你在宇宙中需要太空服的保护。别忘了装上氧气罐。
+
+advancements.levitated.overworld.adv_scanner.title=高级扫描
+advancements.levitated.overworld.adv_scanner.description=基础扫描仪虽然能满足需求，但科技发展后，你有能力将其升级成两倍的效率，你不会拒绝吧？
+
 # Resources
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。
@@ -348,36 +378,6 @@ advancements.levitated.resources.quantum_dilithium.description=双锂是火箭�
 
 advancements.levitated.resources.quantum_mithril.title=充满魔力的金属
 advancements.levitated.resources.quantum_mithril.description=秘银或许是魔法与科技对撞数个世纪的产物，它比钢更硬，但又比纸更轻，真是鬼斧神工。
-
-advancements.levitated.overworld.rocket.title=太空旅行！...火箭延误了
-advancements.levitated.overworld.rocket.description=物竞天择，适者生存，这同样适用于其他星球。辛苦的探查后，你发现有些星球充满了生命，但那的环境并不适合人类居住，如此反复，或许到最后也找不到能够移居的星球，所以你得借助火箭的力量了。
-
-advancements.levitated.overworld.space_station.title=史上最low空间站
-advancements.levitated.overworld.space_station.description=在地球上，你的双手能举千斤，但你的肉眼并不能看透浩瀚的宇宙，去探查外星球的奥秘，你最好把你的脚抬得高一些。简单来说，就是搭建一座空间站。
-
-advancements.levitated.overworld.warp.title=银河穿梭
-advancements.levitated.overworld.warp.description=太阳系内的星球已经被先人探索得差不多了，你在此基础上也没有发现什么惊喜。你知道的，这已经不能依靠火箭了，希望你能勇敢迈入跃迁之"门"，带上行囊，向着太阳系外继续寻求希望吧。
-
-advancements.levitated.overworld.satellite.title=得力助手
-advancements.levitated.overworld.satellite.description=你需要收集一些数据，并在跃迁控制器里搜索新的星球，而卫星刚好能胜任。千万别忘了安装太阳能板组件，你总不能用爱发电吧？
-
-advancements.levitated.overworld.fueling_station.title=加油！奥利给！
-advancements.levitated.overworld.fueling_station.description=你或许能用右手做任何事，包括给火箭加油，但没人不喜欢一劳永逸，建议做一台燃油站来代替你的双手。 (使用EIO的火箭燃料)
-
-advancements.levitated.overworld.satellite_station.title=这里的5G不'传染'
-advancements.levitated.overworld.satellite_station.description=卫星收集的数据不会自己下载，你需要一台卫星终端来下载这些数据。
-
-advancements.levitated.overworld.insulated_wire.title=绝缘
-advancements.levitated.overworld.insulated_wire.description=专业的科研人员总会使用橡胶来保护自己。
-
-advancements.levitated.overworld.kepler.title=长路漫漫，唯念作伴
-advancements.levitated.overworld.kepler.description=经过了漫长的跃迁，你终于找到了一个类地星球。
-
-advancements.levitated.overworld.spacesuit.title=穿戴整齐
-advancements.levitated.overworld.spacesuit.description=你不是奥特曼，你在宇宙中需要太空服的保护。别忘了装上氧气罐。
-
-advancements.levitated.overworld.adv_scanner.title=高级扫描
-advancements.levitated.overworld.adv_scanner.description=基础扫描仪虽然能满足需求，但科技发展后，你有能力将其升级成两倍的效率，你不会拒绝吧？
 
 # Kepler Advancements
 advancements.levitated.kepler.root.title=旅途的终点
