@@ -1,123 +1,88 @@
 {
-    "images":
-    {
-        "title":
-        {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
-        },
-        
-        "edition":
-        {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
-            "alignment" : "top_center"
-        }
-    },
+    "images": {},
     
     "buttons":
     {
-        "singleplayer":
+		"singleplayer":
         {
-            "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
-            "height" : 20,
+			"text": "",
+            "hoverText" : "menu.singleplayer",
+			"texture" : "levitated:textures/gui/button_0.png",
+			"pressSound": "entity.shulker.hurt_closed",
+			"hoverSound": "entity.shulker.open",
+            "alignment": "b0",
+			"posX" : 0,
+            "posY" : 0,
+            "width" : 192,
+            "height" : 32,
+			"imageWidth": 768,
+			"imageHeight": 128,
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
             }
         },
-        
-        "multiplayer":
+		
+		"multiplayer":
         {
-            "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
-            "height" : 20,
+            "text" : "",
+			"hoverText": "menu.multiplayer",
+			"texture" : "levitated:textures/gui/button_1.png",
+			"pressSound": "entity.shulker.hurt_closed",
+			"hoverSound": "entity.shulker.open",
+            "alignment": "b1",
+			"posX" : 0,
+            "posY" : 0,
+            "width" : 192,
+            "height" : 32,
+			"imageWidth": 768,
+			"imageHeight": 128,
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
             }
         },
-        
-        "mods":
+		
+		"options":
         {
-            "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
-            
-        "options":
-        {
-            "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
+			"text": "",
+			"hoverText": "menu.options",
+			"texture" : "levitated:textures/gui/button_2.png",
+			"pressSound": "entity.shulker.hurt_closed",
+			"hoverSound": "entity.shulker.open",
+			"alignment": "b2",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 192,
+            "height" : 32,
+			"imageWidth": 768,
+			"imageHeight": 128,
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "options"
             }
         },
-        
-        "quit":
+		
+		"quit":
         {
-            "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
+            "text": "",
+			"hoverText": "menu.quit",
+			"texture" : "levitated:textures/gui/button_3.png",
+			"pressSound": "entity.shulker.hurt_closed",
+			"hoverSound": "entity.shulker.open",
+			"alignment": "b3",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 192,
+            "height" : 32,
+			"imageWidth": 768,
+			"imageHeight": 128,
             "action" : 
             {
                 "type" : "quit"
-            }
-        },
-        
-        "language":
-        {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
             }
         }
     },
@@ -127,7 +92,7 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "hoverText" : "ï¿½nCopyright Mojang AB. Do not distribute!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -148,25 +113,38 @@
             "alignment" : "bottom_left"
         }
     },
-    
-    "other":
+	
+	"alignments":
     {
-        "splash-text":
+        "b0":
         {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
+            "factorWidth" : 0.410,
+            "factorHeight" : 0.261
         },
-        
-        "panorama":
+		
+		"b1":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "factorWidth" : 0.410,
+            "factorHeight" : 0.460
+        },
+		
+		"b2":
+        {
+            "factorWidth" : 0.352,
+            "factorHeight" : 0.683
+        },
+		
+		"b3":
+        {
+            "factorWidth" : 0.352,
+            "factorHeight" : 0.882
         }
-    }
+    },
+	
+	"other": {
+		"background": {
+			"image": "levitated:textures/gui/main.png",
+			"mode": "stretch"
+		}
+	}
 }
