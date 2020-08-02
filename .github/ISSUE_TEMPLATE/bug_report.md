@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create an issue related to a bug
+about: Report a possible bug
 title: ''
 labels: 'Bug: To be fixed'
 assignees: misterplus
