@@ -8,28 +8,28 @@ advancements.levitated.end.chorus_fruit.title=異常的水果
 advancements.levitated.end.chorus_fruit.description=歌萊果，但好像有點不同
 
 advancements.levitated.end.ender_lilly.title=異變的植物
-advancements.levitated.end.ender_lilly.description=百合花，不過是終界款式的，會和末地石發送化學反應產出終界珍珠
+advancements.levitated.end.ender_lilly.description=百合花，不過是終界款式的，會和末地石發生化學反應產出終界珍珠
 
 advancements.levitated.end.end_matter.title=世界的物質
 advancements.levitated.end.end_matter.description=終界珍珠在落地時碎裂成了一些物質，安德和界伏蚌似乎也是使用終界珍珠傳§kxxxxxxxxxxxxxxxxxx§r裡面似乎記載了什麼。§kxxxxxxxxxxxxxxxxxx
 
-advancements.levitated.end.endstone_shard.title=終界的碎片
+advancements.levitated.end.endstone_shard.title=終界碎片
 advancements.levitated.end.endstone_shard.description=史蒂夫擁有常人無法理解的怪力，是時候空手碎大石了
 
 advancements.levitated.end.end_log.title=力氣的副作用
 advancements.levitated.end.end_log.description=嘗試空手破壞木頭時你將它化為粉末，鋒利的終界石碎片吸引了你，Ohhhhhhh，簡易工具誕生了！，不過樹皮去哪裡了？
 
 advancements.levitated.end.tool_station.title=進階的工具
-advancements.levitated.end.tool_station.description=記憶突然湧現，這使你的工匠的魂熊熊燃燒，但是哪個材料更好呢？
+advancements.levitated.end.tool_station.description=記憶突然湧現，這使你的工匠之魂熊熊燃燒，但是哪個材料更好呢？
 
-advancements.levitated.end.furnace.title=終界的熱門焦點
-advancements.levitated.end.furnace.description=依靠記憶，你合成出來了一個冶煉爐，雖然有些簡陋，但又不是不可以使用
+advancements.levitated.end.furnace.title=終界款熱門焦點
+advancements.levitated.end.furnace.description=依靠記憶，你合成出來了一個冶煉爐，雖然有些簡陋，但勉強是夠現在使用了
 
 advancements.levitated.end.mana_pool.title=原住民的遺物
 advancements.levitated.end.mana_pool.description=熟悉的廢墟，不熟悉的廢墟，空氣中瀰漫著魔力的氣息
 
 advancements.levitated.end.liquid_mana.title=神の餽贈
-advancements.levitated.end.liquid_mana.description=空的魔力池可不好用，但是到處都是魔力液體，用桶撈起來在丟進魔力池可能會有奇跡
+advancements.levitated.end.liquid_mana.description=空的魔力池可不能幫你做事，你環顧四周，發現到處都是液態魔力，也許可以將它們倒進池子裡
 
 advancements.levitated.end.mana_usage.title=馬娜轉換
 advancements.levitated.end.mana_usage.description=記憶再次湧現，但是能轉化的不只是記憶中的物品
@@ -50,13 +50,13 @@ advancements.levitated.end.coke_oven.title=燒成灰燼吧
 advancements.levitated.end.coke_oven.description=木頭在灰燼的路上越走越遠，百事可樂公司宣佈對此負責
 
 advancements.levitated.end.enderdagger.title=安德獵手
-advancements.levitated.end.enderdagger.description=別忘了訂閱我的YouTube頻道！
+advancements.levitated.end.enderdagger.description=別忘了訂閱製作者們的YouTube頻道！
 
 advancements.levitated.end.ender_iron.title=虛空礦物
-advancements.levitated.end.ender_iron.description=聚影鐵，安德們都喜歡，也許刷怪塔是個不錯的選擇
+advancements.levitated.end.ender_iron.description=聚影鐵，安德們都喜歡，也許生怪塔是個不錯的選擇
 
 advancements.levitated.end.grass_seeds.title=無光環境
-advancements.levitated.end.grass_seeds.description=雖然終界種子可以種出花，但是這是不可再生的，是時候發揮煉金術士的特長了
+advancements.levitated.end.grass_seeds.description=雖然終界種子可以種出花，但它是不可再生的，是時候發揮煉金術士的特長了
 
 advancements.levitated.end.string.title=String 未定義
 advancements.levitated.end.string.description=終界只有安德和龍，植物纖維是個不錯的選擇
@@ -73,7 +73,7 @@ advancements.levitated.end.fire_rune.description=在去地獄之前可沒辦法�
 advancements.levitated.end.terra_plate.title=匯聚
 advancements.levitated.end.terra_plate.description=集齊5種符文即可合成泰拉凝聚板，泰拉鋼是搭建精靈傳送門的重要材料，你應該先備好一些魔力
 
-advancements.levitated.end.terrasteel.title=馬娜囤積
+advancements.levitated.end.terrasteel.title=囤積魔力
 advancements.levitated.end.terrasteel.description=大量的魔力！為了開啟精靈門，值得慶幸的是，精靈門十分穩定，魔力耗盡也不會主動關閉，只需要重新補充就行
 
 advancements.levitated.end.natura_pylon.title=傳送穩定裝置
@@ -92,19 +92,19 @@ advancements.levitated.end.stirling_gen.title=斯大林發電機
 advancements.levitated.end.stirling_gen.description=俄羅斯的究極發電藝術，德國工業友情支援 §0是的你只能製作這個
 
 advancements.levitated.end.simulation_chamber.title=深度學習
-advancements.levitated.end.simulation_chamber.description=刷怪塔失業了，TPS友好型產出設備
+advancements.levitated.end.simulation_chamber.description=刷怪塔失業了，TPS友好型怪物產物產出設備
 
 advancements.levitated.end.keystone.title=捉蟲
 advancements.levitated.end.keystone.description=試煉會發現隱藏的系統異常，你需要排除這些錯誤，才能拿到對應的材料
 
 advancements.levitated.end.glitched_oby.title=系§kxxxxxx§r異§kxxxxxx§r
-advancements.levitated.end.glitched_oby.description=傳送門框架十分可靠，可是一般的打火石在終界似乎無法激活它，精靈們似乎對此有些研究
+advancements.levitated.end.glitched_oby.description=傳送門框架十分可靠，可是一般的打火石在終界似乎無法激活它，精靈們對此有些研究
 
 advancements.levitated.end.nether_portal.title=虛無の門
 advancements.levitated.end.nether_portal.description=故障黑曜石構築起了框架，你需要更加炎熱的東西來激活它，最終迎接你的依然是一片虛無
 
-advancements.levitated.end.deep_learner.title=指令:異常
-advancements.levitated.end.deep_learner.description=建造通往地獄的傳送門之前，你先需要一次模擬戰鬥來獲取許可
+advancements.levitated.end.deep_learner.title=指令：異常
+advancements.levitated.end.deep_learner.description=建造通往地獄的傳送門之前，你先需要一次模擬戰鬥來獲取它的認可
 
 advancements.levitated.end.machine_block.title=零式分割
 advancements.levitated.end.machine_block.description=機器方塊可是個問題，它們很不穩定
@@ -116,7 +116,7 @@ advancements.levitated.end.alloy_smelter.title=你被強化了，快送！
 advancements.levitated.end.alloy_smelter.description=合金爐也可以當一個簡易熔爐使用
 
 advancements.levitated.end.assembler.title=複惆者
-advancements.levitated.end.assembler.description=高級的機器框架需要編寫電路板操控
+advancements.levitated.end.assembler.description=更高級的機器框架需要編寫電路板來操控
 
 advancements.levitated.end.solder.title=焊接專精
 advancements.levitated.end.solder.description=焊料是製造機械的重要部分，用桶裝焊料粉末右擊火焰可以得到焊料
@@ -128,7 +128,7 @@ advancements.levitated.end.netherrack.title=我們必須更深入一點
 advancements.levitated.end.netherrack.description=但總得先有個落腳的地方
 
 advancements.levitated.end.drying_rack.title=史蒂夫的弱點
-advancements.levitated.end.drying_rack.description=儘管你可以空手碎大石，但是龍木可不給你面子，它比末地石還要硬！晾乾架只能考慮別的方法了
+advancements.levitated.end.drying_rack.description=儘管你可以空手碎大石，但是龍木木板可不給你面子，它比末地石還要硬！晾乾架只能考慮別的方法了
 
 advancements.levitated.end.blue_lotus.title=非人工
 advancements.levitated.end.blue_lotus.description=Stygian Growth 的 Enbiotic 可以吸收並存儲魔力，隨之將變成藍蓮花，將它扔入魔力池類似乎可以釋放儲存的魔力
@@ -146,7 +146,7 @@ advancements.levitated.nether.altar.description=地獄的材料幫助你完成�
 advancements.levitated.nether.rotten_pork.title=地獄的美味
 advancements.levitated.nether.rotten_pork.description=僵尸豬人只會掉落一些腐爛的玩意，祭壇對此似乎有些反應
 
-advancements.levitated.nether.chicken_ring.title=馴化
+advancements.levitated.nether.chicken_ring.title=已馴化
 advancements.levitated.nether.chicken_ring.description=家養雞可不會飛
 
 advancements.levitated.nether.chassis.title=你不能把它放下
@@ -162,10 +162,10 @@ advancements.levitated.nether.wither_skeleton.title=焦骨
 advancements.levitated.nether.wither_skeleton.description=熔岩石的高溫可以讓骨頭燒黑
 
 advancements.levitated.nether.star.title=地獄之星
-advancements.levitated.nether.star.description=是時候戰鬥了
+advancements.levitated.nether.star.description=是時候挑戰凋零了
 
 advancements.levitated.nether.stargen.title=高危作業
-advancements.levitated.nether.stargen.description=你感覺你充滿了力量
+advancements.levitated.nether.stargen.description=這台發電機能使你充滿力量，直到過載
 
 advancements.levitated.nether.withermodel.title=量子複製
 advancements.levitated.nether.withermodel.description=深度怪物學習對TPS非常友好！再一次！
