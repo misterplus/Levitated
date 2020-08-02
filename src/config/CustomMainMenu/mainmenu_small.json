@@ -13,10 +13,8 @@
             "alignment": "b0",
 			"posX" : 0,
             "posY" : 0,
-            "width" : 192,
-            "height" : 32,
-			"imageWidth": 768,
-			"imageHeight": 128,
+            "width" : 768,
+            "height" : 128,
             "action" : 
             {
                 "type" : "openGui",
@@ -34,10 +32,8 @@
             "alignment": "b1",
 			"posX" : 0,
             "posY" : 0,
-            "width" : 192,
-            "height" : 32,
-			"imageWidth": 768,
-			"imageHeight": 128,
+            "width" : 768,
+            "height" : 128,
             "action" : 
             {
                 "type" : "openGui",
@@ -55,10 +51,8 @@
 			"alignment": "b2",
             "posX" : 0,
             "posY" : 0,
-            "width" : 192,
-            "height" : 32,
-			"imageWidth": 768,
-			"imageHeight": 128,
+            "width" : 768,
+            "height" : 128,
             "action" : 
             {
                 "type" : "openGui",
@@ -76,10 +70,8 @@
 			"alignment": "b3",
             "posX" : 0,
             "posY" : 0,
-            "width" : 192,
-            "height" : 32,
-			"imageWidth": 768,
-			"imageHeight": 128,
+            "width" : 768,
+            "height" : 128,
             "action" : 
             {
                 "type" : "quit"
@@ -118,25 +110,25 @@
     {
         "b0":
         {
-            "factorWidth" : 0.410,
+            "factorWidth" : 0.408,
             "factorHeight" : 0.261
         },
 		
 		"b1":
         {
-            "factorWidth" : 0.410,
+            "factorWidth" : 0.408,
             "factorHeight" : 0.460
         },
 		
 		"b2":
         {
-            "factorWidth" : 0.352,
+            "factorWidth" : 0.350,
             "factorHeight" : 0.683
         },
 		
 		"b3":
         {
-            "factorWidth" : 0.352,
+            "factorWidth" : 0.350,
             "factorHeight" : 0.882
         }
     },

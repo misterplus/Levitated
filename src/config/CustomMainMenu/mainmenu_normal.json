@@ -13,8 +13,8 @@
             "alignment": "b0",
 			"posX" : 0,
             "posY" : 0,
-            "width" : 192,
-            "height" : 32,
+            "width" : 384,
+            "height" : 64,
 			"imageWidth": 768,
 			"imageHeight": 128,
             "action" : 
@@ -34,8 +34,8 @@
             "alignment": "b1",
 			"posX" : 0,
             "posY" : 0,
-            "width" : 192,
-            "height" : 32,
+            "width" : 384,
+            "height" : 64,
 			"imageWidth": 768,
 			"imageHeight": 128,
             "action" : 
@@ -55,8 +55,8 @@
 			"alignment": "b2",
             "posX" : 0,
             "posY" : 0,
-            "width" : 192,
-            "height" : 32,
+            "width" : 384,
+            "height" : 64,
 			"imageWidth": 768,
 			"imageHeight": 128,
             "action" : 
@@ -76,8 +76,8 @@
 			"alignment": "b3",
             "posX" : 0,
             "posY" : 0,
-            "width" : 192,
-            "height" : 32,
+            "width" : 384,
+            "height" : 64,
 			"imageWidth": 768,
 			"imageHeight": 128,
             "action" : 
@@ -118,13 +118,13 @@
     {
         "b0":
         {
-            "factorWidth" : 0.410,
+            "factorWidth" : 0.408,
             "factorHeight" : 0.261
         },
 		
 		"b1":
         {
-            "factorWidth" : 0.410,
+            "factorWidth" : 0.408,
             "factorHeight" : 0.460
         },
 		

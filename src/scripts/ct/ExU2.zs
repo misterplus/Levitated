@@ -35,5 +35,9 @@ assembler.addRecipe({"assembler_slot_item_0":<scanner:biome_scanner_elite>, "ass
 recipes.addShaped(<contenttweaker:terrain_scanner>, [[<ore:ingotDarkSteel>, <contenttweaker:ccb>, <ore:ingotDarkSteel>],[<enderio:item_basic_capacitor>, <extrautils2:machine>, <enderio:item_basic_capacitor>], [<ore:ingotDarkSteel>, <ore:wireCopper>, <ore:ingotDarkSteel>]]);
 recipes.addShaped(<contenttweaker:biome_scanner_basic>, [[<ore:ingotEndSteel>, <contenttweaker:ccb>, <ore:ingotEndSteel>],[<ore:wireCopper>, <extrautils2:machine>, <ore:wireCopper>], [<ore:ingotEndSteel>, <enderio:item_basic_capacitor>, <ore:ingotEndSteel>]]);
 
+//Circuits
+assembler.addRecipe({"assembler_slot_item_0":<techreborn:ingot:19>, "assembler_slot_item_1": <minecraft:redstone> * 2, "assembler_slot_item_2": <techreborn:cable:5> * 6, "assembler_slot_liquid": <liquid:solder> * 1000},{"assembler_slot_out": <techreborn:part:29>}, 10000, 200);
+assembler.addRecipe({"assembler_slot_item_0":<techreborn:part:29>, "assembler_slot_item_1": <minecraft:glowstone_dust> * 2, "assembler_slot_item_2": <minecraft:dye:4> * 2, "assembler_slot_liquid": <liquid:redstone> * 500},{"assembler_slot_out": <techreborn:part:30>}, 20000, 400);
+
 //PCB
 assembler.addRecipe({"assembler_slot_item_0":<pneumaticcraft:unassembled_pcb>, "assembler_slot_item_1": <pneumaticcraft:transistor> * 3, "assembler_slot_item_2": <pneumaticcraft:capacitor> * 3, "assembler_slot_liquid": <liquid:solder> * 1000},{"assembler_slot_out": <pneumaticcraft:printed_circuit_board>}, 10000, 200);

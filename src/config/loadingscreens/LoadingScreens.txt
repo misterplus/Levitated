@@ -1,0 +1,2 @@
+background = addStretchedTexture("top_left", "levitated:textures/gui/loading.png")
+background.setRelRender(1, 1)

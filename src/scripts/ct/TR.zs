@@ -1,4 +1,6 @@
 //remove
+recipes.removeShaped(<techreborn:part:29>);
+recipes.removeShaped(<techreborn:part:30>);
 recipes.removeShaped(<techreborn:energycrystal>);
 recipes.removeShaped(<techreborn:lapotroncrystal>, [[<minecraft:dye:4>, <techreborn:part:29>, <minecraft:dye:4>],[<minecraft:dye:4>, <techreborn:energycrystal>, <minecraft:dye:4>], [<minecraft:dye:4>, <techreborn:part:29>, <minecraft:dye:4>]]);
 mods.techreborn.industrialGrinder.removeInputRecipe(<thermalfoundation:ore:5>);

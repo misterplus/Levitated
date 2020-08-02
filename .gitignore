@@ -40,3 +40,6 @@ src/config/*.properties
 
 # Dev tools
 /devtools
+
+# Server files
+/server
