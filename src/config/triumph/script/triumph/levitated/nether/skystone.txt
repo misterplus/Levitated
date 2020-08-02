@@ -1,0 +1,14 @@
+setIcon(<appliedenergistics2:sky_stone_block>)
+
+setTranslatedTitle("advancements.levitated.nether.skystone.title")
+setTranslatedDescription("advancements.levitated.nether.skystone.description")
+
+addParent("triumph:levitated/nether/press")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(245,-96)
+
+criteria = addCriteria("hasSkyStone", "minecraft:inventory_changed")
+criteria.addItem(<appliedenergistics2:sky_stone_block>)
+
+visibleIf("triumph:levitated/nether/root")

@@ -1,0 +1,42 @@
+tile.contenttweaker.end_iron.name=聚影铁矿
+tile.contenttweaker.glitched_obsidian.name=故障黑曜石
+tile.contenttweaker.end_trim.name=龙木桥接方块
+tile.contenttweaker.rainbow_block.name=彩虹块
+
+item.contenttweaker.end_seeds.name=终末种子
+item.contenttweaker.end_iron_chunk.name=聚影铁碎块
+item.contenttweaker.origin_book.name=元始秘典
+item.contenttweaker.nether_book.name=下界竹帛
+item.contenttweaker.overworld_book.name=生命法球
+item.contenttweaker.clay_board.name=陶土板
+item.contenttweaker.ccb_base.name=陶土电路板基板
+item.contenttweaker.pottery_clay.name=陶土
+item.contenttweaker.ccb.name=陶瓷电路板
+item.contenttweaker.solder_powder.name=焊料粉
+item.contenttweaker.solder_bucket.name=桶装焊料粉
+item.contenttweaker.biome_scanner_basic.name=生物群系扫描仪框架 (基础)
+item.contenttweaker.terrain_scanner.name=地形扫描仪框架
+item.contenttweaker.blue_lotus.name=蓝莲花
+item.contenttweaker.paper_plane_0.name=纸飞机 (1/7)
+item.contenttweaker.paper_plane_1.name=纸飞机 (2/7)
+item.contenttweaker.paper_plane_2.name=纸飞机 (3/7)
+item.contenttweaker.paper_plane_3.name=纸飞机 (4/7)
+item.contenttweaker.paper_plane_4.name=纸飞机 (5/7)
+item.contenttweaker.paper_plane_5.name=纸飞机 (6/7)
+item.contenttweaker.paper_plane_6.name=纸飞机
+item.contenttweaker.mana_paper.name=纸
+item.contenttweaker.rotten_pork.name=腐烂的猪肉
+item.contenttweaker.dynamo_frame.name=能源炉框架
+item.contenttweaker.overworld_star.name=主世界之星
+item.contenttweaker.rainbow_ingot.name=彩虹锭
+
+item.contenttweaker.origin_book.message=重生点已设置!
+item.contenttweaker.nether_book.message=你现在可以前往地狱了!
+item.contenttweaker.overworld_book.message=你现在可以前往主世界了!
+item.contenttweaker.paper_plane_6.message=嘿! 等另外一架"飞机"回来!
+
+fluid.solder=焊料
+
+machine.crafttweaker:assembler=装配机
+
+enchantment.feather_falling="羽"落

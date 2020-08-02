@@ -1,0 +1,150 @@
+{
+    "images": {},
+    
+    "buttons":
+    {
+		"singleplayer":
+        {
+			"text": "",
+            "hoverText" : "menu.singleplayer",
+			"texture" : "levitated:textures/gui/button_0.png",
+			"pressSound": "entity.shulker.hurt_closed",
+			"hoverSound": "entity.shulker.open",
+            "alignment": "b0",
+			"posX" : 0,
+            "posY" : 0,
+            "width" : 192,
+            "height" : 32,
+			"imageWidth": 768,
+			"imageHeight": 128,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+		
+		"multiplayer":
+        {
+            "text" : "",
+			"hoverText": "menu.multiplayer",
+			"texture" : "levitated:textures/gui/button_1.png",
+			"pressSound": "entity.shulker.hurt_closed",
+			"hoverSound": "entity.shulker.open",
+            "alignment": "b1",
+			"posX" : 0,
+            "posY" : 0,
+            "width" : 192,
+            "height" : 32,
+			"imageWidth": 768,
+			"imageHeight": 128,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+		
+		"options":
+        {
+			"text": "",
+			"hoverText": "menu.options",
+			"texture" : "levitated:textures/gui/button_2.png",
+			"pressSound": "entity.shulker.hurt_closed",
+			"hoverSound": "entity.shulker.open",
+			"alignment": "b2",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 192,
+            "height" : 32,
+			"imageWidth": 768,
+			"imageHeight": 128,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+		"quit":
+        {
+            "text": "",
+			"hoverText": "menu.quit",
+			"texture" : "levitated:textures/gui/button_3.png",
+			"pressSound": "entity.shulker.hurt_closed",
+			"hoverSound": "entity.shulker.open",
+			"alignment": "b3",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 192,
+            "height" : 32,
+			"imageWidth": 768,
+			"imageHeight": 128,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "�nCopyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "info":
+        {
+            "text" : "Minecraft #mcversion#\nLevitated Beta 1.0\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+	
+	"alignments":
+    {
+        "b0":
+        {
+            "factorWidth" : 0.410,
+            "factorHeight" : 0.261
+        },
+		
+		"b1":
+        {
+            "factorWidth" : 0.410,
+            "factorHeight" : 0.460
+        },
+		
+		"b2":
+        {
+            "factorWidth" : 0.352,
+            "factorHeight" : 0.683
+        },
+		
+		"b3":
+        {
+            "factorWidth" : 0.352,
+            "factorHeight" : 0.882
+        }
+    },
+	
+	"other": {
+		"background": {
+			"image": "levitated:textures/gui/main.png",
+			"mode": "stretch"
+		}
+	}
+}
