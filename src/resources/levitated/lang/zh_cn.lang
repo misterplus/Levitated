@@ -239,12 +239,18 @@ advancements.levitated.nether.angel_ring.description=从技术层面上讲，改
 advancements.levitated.nether.press.title=外星科技？
 advancements.levitated.nether.press.description=现在有一些特殊的压印模板在售，你需要购买一些来为之后的数字化存储做准备。
 
+advancements.levitated.nether.skystone.title=天空即为极限
+advancements.levitated.nether.skystone.description=在下界或末地找到流星好像不太现实，为什么不试试神奇的魔法呢？
+
 # Overworld
 advancements.levitated.overworld.root.title=日月轮转，星辰闪耀
 advancements.levitated.overworld.root.description=你成功回来了！但现在看来，这里已经完全不适合人类居住了。整个世界仅剩一片虚无，太阳依旧刺眼，但恒星的引力与不稳定的热量将你拒之门外，也许，那些闪耀的星星能够带来希望。
 
 advancements.levitated.overworld.refined_iron.title=铁是铁，钢是钢，精炼一次菜的慌
 advancements.levitated.overworld.refined_iron.description=显然，将铁精炼一次是远远不够制作更高级的机器的，再精炼一次钢说不定可行，但怎么做呢？
+
+advancements.levitated.overworld.water.title=谁不喜欢水多
+advancements.levitated.overworld.water.description=水资源短缺？ 河流和海洋群系拥有无穷无尽的水！
 
 advancements.levitated.overworld.rubber.title=你爱吃大香蕉吗
 advancements.levitated.overworld.rubber.description=好吧，这东西和香蕉没什么关系。它们非常适合用来制作线缆！安全用电，宝贝们~
