@@ -44,6 +44,7 @@ Released files:
 9. Wait for further reviews to validate the localization
 10. Your contribution will be included in the next release of the modpack
 11. Have your username listed on the "Special Thanks" section above
+12. If you wish, we can add a custom planet in your name to the in-game galaxy system, if you are not familiar with Advanced Rocketry, you can always contact the main developer for that.
 
 If you are not familiar with github, you can always submit your localization via discord.
 - Via discord (For players who are not familiar with github)
@@ -56,3 +57,4 @@ If you are not familiar with github, you can always submit your localization via
 7. Wait for further reviews to validate the localization
 8. Your contribution will be included in the next release of the modpack
 9. Have your username listed on the "Special Thanks" section above
+10. If you wish, we can add a custom planet in your name to the in-game galaxy system, if you are not familiar with Advanced Rocketry, you can always contact the main developer for that.
