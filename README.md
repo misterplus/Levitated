@@ -2,11 +2,9 @@
 
 English | [简体中文](./README_cn.md)
 
-A Minecraft Modpack for 1.12.2
+An exploration themed minecraft modpack which lets you rebuild the world.
 
-DO NOT DOWNLOAD THE SOURCE CODE DIRECTLY FROM GITHUB, THIS PACK IS STILL IN DEVELOPMENT!
-
-## Contributers
+## Members
 Coding: 
 - MisterPlus
 - Charged_Coconut
