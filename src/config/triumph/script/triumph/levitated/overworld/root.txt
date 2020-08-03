@@ -9,4 +9,4 @@ setAnnounceToChat(false)
 setPos(44,-87)
 
 criteria = addCriteria("entered_overworld", "minecraft:changed_dimension")
-criteria.setDimensionDestination("DIM_0")
+criteria.setDimensionDestination("overworld")

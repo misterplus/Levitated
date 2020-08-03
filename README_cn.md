@@ -1,22 +1,60 @@
-# Levitated
+# Levitated 失重
 
 [English](./README.md) | 简体中文
 
-1.12.2 Minecraft 模组包
+## 公告
+本模组包仍处于BETA内测阶段，仍有可能出现不平衡的配方，使存档崩溃的bug等等。
 
-不要直接下载Github源码！本模组包依旧在开发中！
+如果你遇到任何问题，或想要提出建议，请务必使用提供的issue模板来提交一个issue.
 
-## 协作者
-代码: 
-- MisterPlus
-- Charged_Coconut
+## 介绍
+Levitated(失重)是一个以探险为主题，以重建世界为主要内容的模组包。玩家将会在末地出生，而不是主世界。同时，下界和主世界都为虚空世界。玩家需要在末地获取资源并建立一个相对完善的基地，然后前往下界并使用[scanner 模组](https://www.curseforge.com/minecraft/mc-mods/scanner)，消耗能量来重建世界。玩家的最终目标是逃离这个几乎完全虚空的地球并在太阳系外的宜居行星上重建家园。本模组包含有适量的魔改配方，有着独特的世界生成机制，以为玩家带来一个休闲轻松的游戏体验。
 
-材质: 
-- Charged_Coconut
+## 开发成员
+- MisterPlus(普拉斯)
+  - 代码 & 设计
 
-本地化:
-- 中文:
-  - Frost_yang
-  - Hao_cen
+- Charged_Coconut(椰子)
+  - 材质 & 代码
 
-本分支为开发分支
+- Hao_cen(昊岑)
+  - 测试 & 建议
+
+## 下载
+开放下载的文件:
+  - [Curse/Twitch](https://www.curseforge.com/minecraft/modpacks/levitated)
+
+## 特别感谢
+- 本地化
+  - 简中: Frost_yang
+  - 繁中: Hao_cen
+- Forge团队
+- 所有在开发阶段贡献过一份力的人
+
+## 本地化指南
+- 通过pull request (推荐)
+
+~~不会吧不会真的有中国人提供别的语言汉化吧 真就日文带佬什么的吗~~
+1. Fork这个仓库
+2. 将fork后的仓库克隆到本地
+3. 找到这个目录"/src/resources/levitated/lang"
+4. 为你需要本地化的语言创建一个新的lang文件
+5. 将en_us.lang的内容复制入新创建的文件中
+6. 翻译所有语言键等号右边的内容
+7. 将改动提交到你的fork仓库
+8. 提交一个pull request(你的fork仓库 -> master分支)
+9. 等待开发团队的验证
+10. 你的心血将会在模组包的下个发布版本中被收录
+11. 你的用户名会被永久加入上方的"特别感谢"部分
+
+如果你对github不熟悉，你仍然可以通过QQ来进行本地化。
+- 通过QQ (对于不熟悉github的玩家)
+1. 找到这个目录"/src/resources/levitated/lang"
+2. 为你需要本地化的语言创建一个新的lang文件
+3. 将en_us.lang的内容复制入新创建的文件中
+4. 翻译所有语言键等号右边的内容
+5. 在QQ上联系我 (909702498)
+6. 将新的lang文件传给我
+7. 等待开发团队的验证
+8. 你的心血将会在模组包的下个发布版本中被收录
+9. 你的用户名会被永久加入上方的"特别感谢"部分
