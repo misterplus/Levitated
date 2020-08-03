@@ -246,7 +246,7 @@ advancements.levitated.nether.skystone.description=Finding any meteor in the net
 advancements.levitated.overworld.root.title=Sun, Moon and Stars
 advancements.levitated.overworld.root.description=You've made it back home! But this world isn't really your ideal settlement, since there's still nothing but the void. Maybe we can... go for the stars?
 
-advancements.levitated.overworld.water.title=Water you waiting for?
+advancements.levitated.overworld.water.title=Now we are waterin'
 advancements.levitated.overworld.water.description=Short on water supply? Pump infinite water from biomes like ocean or river!
 
 advancements.levitated.overworld.refined_iron.title=Double Refinement
@@ -413,6 +413,7 @@ tooltips.levitated.paper_plane_5=And the other side...
 tooltips.levitated.paper_plane_6=Shift right click to send this plane to the sky!
 tooltips.levitated.mana_paper=Fold the paper in half vertically.
 tooltips.levitated.mana_paper_2=What? This is still paper! Just soaked with mana!
+tooltips.levitated.endglow=Only survives on Stygian Grass
 
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
@@ -433,3 +434,7 @@ rename.levitated.refined_iron_plate=Refined Steel Plate
 
 # Tips
 tips.levitated.1=In the final advancement "The Long Journey Home", you'll have to find and land on a planet similar to the former Earth.
+tips.levitated.2=If you are playing with friends, you can use the command "/togetherforever invite" to sync your advancement progress.
+tips.levitated.3=Having trouble bottling up water? Try again with a fluid tank!
+tips.levitated.4=Pure Daisy can only be found in non-vanilla end cities, which can be pretty rare if you're unlucky. Considering trading with other players if you are on a server.
+tips.levitated.5=Slime Islands occasionally spawn in the end, but you can also find them when you are rebuilding the overworld.

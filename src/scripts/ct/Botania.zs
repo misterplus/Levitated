@@ -11,6 +11,9 @@ recipes.remove(<botania:altar>);
 
 //add
 
+//Empty end air bottle
+recipes.addShapeless(<minecraft:glass_bottle>, [<botania:manaresource:15>]);
+
 //Blue lotus
 FluidToItem.transform(<contenttweaker:blue_lotus>, <fluid:mana_fluid>, [<stygian:endglow>], true);
 

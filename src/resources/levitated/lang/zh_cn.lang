@@ -101,7 +101,7 @@ advancements.levitated.end.glitched_oby.title=系统§k故kokok§r障
 advancements.levitated.end.glitched_oby.description=仅仅用黑曜石搭建一个传送门框架并不能让你进入下界，你需要给普通的黑曜石添加一些小"故障"，在你思考该怎么做时，泰拉凝聚板向你发出了微弱的光芒。
 
 advancements.levitated.end.nether_portal.title=通向...虚无的门?
-advancements.levitated.end.nether_portal.description=使用故障黑曜石搭建一个传送门框架后，你发现打火石并不会激活它，精灵们说，你需要更加炽热，更充满魔力的东西。激活传送门后，你就可以前往下界了，但是迎接你的只有一片虚无..
+advancements.levitated.end.nether_portal.description=寻常火焰并不能激活故障的传送门，炽热而又蕴含魔力的符文冥冥中与之有些呼应。激活传送门后，你就可以前往下界了，但是迎接你的只有一片虚无..
 
 advancements.levitated.end.deep_learner.title=源计划: 故障
 advancements.levitated.end.deep_learner.description=要想搭建一个通往下界的传送门，你首先需要模拟怪物的习性。末地的怪物种类屈指可数，所以，不要选择困难，挑选你喜欢的然后开始吧!
@@ -239,12 +239,18 @@ advancements.levitated.nether.angel_ring.description=从技术层面上讲，改
 advancements.levitated.nether.press.title=外星科技？
 advancements.levitated.nether.press.description=现在有一些特殊的压印模板在售，你需要购买一些来为之后的数字化存储做准备。
 
+advancements.levitated.nether.skystone.title=天空即为极限
+advancements.levitated.nether.skystone.description=在下界或末地找到流星好像不太现实，为什么不试试神奇的魔法呢？
+
 # Overworld
 advancements.levitated.overworld.root.title=日月轮转，星辰闪耀
 advancements.levitated.overworld.root.description=你成功回来了！但现在看来，这里已经完全不适合人类居住了。整个世界仅剩一片虚无，太阳依旧刺眼，但恒星的引力与不稳定的热量将你拒之门外，也许，那些闪耀的星星能够带来希望。
 
 advancements.levitated.overworld.refined_iron.title=铁是铁，钢是钢，精炼一次菜的慌
 advancements.levitated.overworld.refined_iron.description=显然，将铁精炼一次是远远不够制作更高级的机器的，再精炼一次钢说不定可行，但怎么做呢？
+
+advancements.levitated.overworld.water.title=谁不喜欢水多
+advancements.levitated.overworld.water.description=水资源短缺？ 河流和海洋群系拥有无穷无尽的水！
 
 advancements.levitated.overworld.rubber.title=你爱吃大香蕉吗
 advancements.levitated.overworld.rubber.description=好吧，这东西和香蕉没什么关系。它们非常适合用来制作线缆！安全用电，宝贝们~
@@ -426,4 +432,7 @@ rename.levitated.refined_iron_nugget=精炼钢粒
 rename.levitated.refined_iron_plate=精炼钢板
 
 # Tips
-mods.tips.tips.1=在最后的成就"旅途的终点"中，你需要找到并着陆到一颗类地星球。
+tips.levitated.1=在最后的成就"旅途的终点"中，你需要找到并着陆到一颗类地星球。
+tips.levitated.2=与朋友一起游玩本包时，记得输入"/togetherforever invite"命令来同步你们的进度。
+tips.levitated.3=用瓶子捞水时，末地空气老是抢镜头？试试流体储罐！
+tips.levitated.4=白雏菊只能在本包自定义的末地遗迹中找到，并且需要一点运气。如果是在服务器中，与别人交易或许是个不错的选择。

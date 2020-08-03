@@ -9,6 +9,7 @@ import mods.jei.JEI.hide;
 <contenttweaker:overworld_book>.addTooltip(format.gray(game.localize("tooltips.levitated.overworld_book")));
 <contenttweaker:mana_paper>.addTooltip(format.gray(game.localize("tooltips.levitated.mana_paper")));
 <contenttweaker:mana_paper>.addTooltip(format.darkGray(game.localize("tooltips.levitated.mana_paper_2")));
+<stygian:endglow>.addTooltip(format.gray(game.localize("tooltips.levitated.endglow")));
 addDescription(<contenttweaker:mana_paper>, game.localize("description.levitated.mana_paper"));
 addDescription(<contenttweaker:end_iron_chunk>, game.localize("description.levitated.end_iron_chunk"));
 addDescription(<tconstruct:firewood:1>, game.localize("description.levitated.end_iron_chunk"));

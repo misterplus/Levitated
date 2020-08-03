@@ -10,3 +10,5 @@ setPos(44,-87)
 
 criteria = addCriteria("entered_overworld", "minecraft:changed_dimension")
 criteria.setDimensionDestination("overworld")
+
+pageHiddenUnless("triumph:levitated/overworld/root")
