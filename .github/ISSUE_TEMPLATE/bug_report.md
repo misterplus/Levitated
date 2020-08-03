@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Report possible bug(s)
-title: ''
+title: '[A brief description of the bug(s) reported]'
 labels: 'Bug: To be fixed'
 assignees: misterplus
 
