@@ -413,6 +413,7 @@ tooltips.levitated.paper_plane_5=And the other side...
 tooltips.levitated.paper_plane_6=Shift right click to send this plane to the sky!
 tooltips.levitated.mana_paper=Fold the paper in half vertically.
 tooltips.levitated.mana_paper_2=What? This is still paper! Just soaked with mana!
+tooltips.levitated.endglow=Only survives on Stygian Grass
 
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
