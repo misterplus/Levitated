@@ -32,7 +32,6 @@ Released files:
 - Everyone who provided help during the development stage
 
 ## Localization Guide
-### Modpack
 - Via pull request (Recommended)
 1. Fork this repository
 2. Clone the forked repository to your local machine
