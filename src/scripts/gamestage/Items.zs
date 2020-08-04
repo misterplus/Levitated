@@ -6,3 +6,4 @@ function stageItem (stage as string, name as string, item as IItemStack) {
 }
 
 stageItem("blaze_rod", game.localize("unfamiliar.levitated.blaze_rod"), <minecraft:blaze_rod>);
+stageItem("blaze_rod", game.localize("unfamiliar.levitated.blaze_powder"), <minecraft:blaze_powder>);
