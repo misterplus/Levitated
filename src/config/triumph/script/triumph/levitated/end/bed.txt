@@ -1,0 +1,14 @@
+setIcon(<minecraft:bed>)
+
+setTranslatedTitle("advancements.levitated.end.bed.title")
+setTranslatedDescription("advancements.levitated.end.bed.description")
+
+addParent("triumph:levitated/end/string")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(560,-34)
+
+criteria = addCriteria("hasBed", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:bed>)
+
+visibleIf("triumph:levitated/end/root")
