@@ -195,7 +195,7 @@ advancements.levitated.nether.pcb_blueprint.title=光能印刷
 advancements.levitated.nether.pcb_blueprint.description=你需要印刷电路板蓝图才能制作一个能工作的电路板。还好，你会网购，是吧？
 
 advancements.levitated.nether.oil.title=黑色的金子
-advancements.levitated.nether.oil.description=为了制作电路板，你需要生产一些塑料。首先，你需要采到一些石油，当然，你不能用手捞，先搭一个采油机iiiii吧。
+advancements.levitated.nether.oil.description=你需要一些塑料来制作电路板。在此之前，你还要采一些石油，当然，你不能用手捞，先搭一个采油机-吧。
 
 advancements.levitated.nether.refinery.title=肝帝都是着重效率的
 advancements.levitated.nether.refinery.description=直接燃烧石油非常浪费！你需要先从石油中分馏出其他有用的物质。
@@ -423,8 +423,10 @@ description.levitated.mana_paper=对着工作台或工作站潜行右键来将�
 description.levitated.feather=梦想变成鸟，借力冲云霄。终于飞上天，竟会落羽毛。(提示：ContentTweaker)
 
 # Unfamiliar Items
-unfamiliar.levitated.blaze_rod=火之高兴
-
+unfamiliar.levitated.blaze_rod=炽热的棍子
+unfamiliar.levitated.blaze_powder=炽热的粉尘
+unfamiliar.levitated.ore_flower_nether=绚火花
+unfamiliar.levitated.ore_flower=磐石花
 # Item Rename
 rename.levitated.shulker_ring=潜影贝悬浮指环
 rename.levitated.compiron=压缩钢锭
