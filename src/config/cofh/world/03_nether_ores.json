@@ -57,55 +57,34 @@
 			"distribution": "cave",
 			"ceiling": true,
 			"ground-level": 127,
-			"generator": [
-				{
-					"type": "stalactite",
-					"block": [
-						{
-							"name": "chisel:basalt2",
-							"metadata": 7
-						}
-					],
-					"material": [
-						"netherrack"
-					],
-					"gen-body": "air",
-					"smooth": true,
-					"fat": false,
-					"min-height": 6,
-					"height-variance": 1,
-					"height-mod": 3,
-					"size-variance": 1
-				},
-				{
-					"type": "stalactite",
-					"block": [
-						{
-							"name": "netherendingores:ore_nether_modded_1",
-							"properties": {
-								"blocks": "aluminum_ore"
-							},
-							"weight": 35
+			"generator": {
+				"type": "stalactite",
+				"block": [
+					{
+						"name": "netherendingores:ore_nether_modded_1",
+						"properties": {
+							"blocks": "aluminum_ore"
 						},
-						{
-							"name": "chisel:basalt2",
-							"metadata": 7,
-							"weight": 65
-						}
-					],
-					"material": [
-						"netherrack"
-					],
-					"gen-body": "air",
-					"smooth": true,
-					"fat": false,
-					"min-height": 6,
-					"height-variance": 1,
-					"height-mod": 3,
-					"size-variance": 1
-				}
-			],
-			"cluster-count": 1,
+						"weight": 70
+					},
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7,
+						"weight": 30
+					}
+				],
+				"material": [
+					"netherrack"
+				],
+				"gen-body": "air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 6,
+				"height-variance": 1,
+				"height-mod": 3,
+				"size-variance": 1
+			},
+			"cluster-count": 2,
 			"chunk-chance": 2,
 			"dimension": {
 				"restriction": "whitelist",
