@@ -38,10 +38,10 @@ advancements.levitated.end.living_blocks.title=充满活力
 advancements.levitated.end.living_blocks.description=白雏菊能让末地石焕发生机，这意味着你可以用它制作活石以及其他材料，例如活木。
 
 advancements.levitated.end.altar.title=池中的小生命
-advancements.levitated.end.altar.description=发展路上，花药台能帮你制作很多神奇的花朵，在此之前，你还需要准备一些种子。不过，这里似乎并没有充满生命力的绿色种子？希望这死气沉沉的紫色种子能帮上一些忙吧。
+advancements.levitated.end.altar.description=在研究植物的过程中，花药台能帮你制作很多神奇的花朵，在此之前，你还需要准备一些种子。不过，这里似乎并没有充满生命力的绿色种子？希望这死气沉沉的紫色种子能帮上一些忙吧。
 
 advancements.levitated.end.water.title=源泉!哦不!这是圆寂泉
-advancements.levitated.end.water.description=通过观察身边的怪物,你发现在酸性平原群系(Acidic Plains)中的幽冥酸液会对你造成伤害,但通过适当的处理,它能够净化成水,但这过程是漫长且枯燥的,可不要睡着了。还有一点,这不是主世界,并没有所谓的无限水.
+advancements.levitated.end.water.description=通过观察身边的怪物,你发现在酸性平原群系(Acidic Plains)中的幽冥酸液会对生物造成伤害,但通过适当的处理,它能够净化成水,这过程是漫长且枯燥的,可不要睡着了。还有一点,这不是主世界,并没有所谓的无限水.
 
 advancements.levitated.end.clay_flower.title=小朋友都喜欢它
 advancements.levitated.end.clay_flower.description=一朵叫粘土花的小花可以帮助你把沙子变为粘土，那么问题来了，沙子怎么获得？
@@ -70,10 +70,10 @@ advancements.levitated.end.alchemy.description=末地非常贫瘠，但炼金催
 advancements.levitated.end.fire_rune.title=清新口气你我更亲近
 advancements.levitated.end.fire_rune.description=还记得末影龙吗？我们也许得去看望她一下。前往下界之前，很难获得蕴含火能量的物品，所以制作火之符文比以前难得多。还好，龙息的灼热感说明里面有一些火元素，但杀死那条龙并不简单...
 
-advancements.levitated.end.terra_plate.title=天地三清道法无常
+advancements.levitated.end.terra_plate.title=蓝色的菜板
 advancements.levitated.end.terra_plate.description=精灵门需要泰拉钢，但制作泰拉钢之前，你还需要先制作并搭建泰拉凝聚板，如果你已经有了五种元素符文，我想这并不会太难。
 
-advancements.levitated.end.terrasteel.title=九阳神功聚泰拉钢
+advancements.levitated.end.terrasteel.title=泰拉X亚：试试植物魔法！
 advancements.levitated.end.terrasteel.description=制作泰拉钢需要大量的魔力，对于像你这样刚刚入门的植物学家，这会是个很大的挑战。
 
 advancements.levitated.end.natura_pylon.title=传送门核心的核心
@@ -252,7 +252,7 @@ advancements.levitated.overworld.root.description=你成功回来了！但现在
 advancements.levitated.overworld.refined_iron.title=铁是铁，钢是钢，精炼一次菜的慌
 advancements.levitated.overworld.refined_iron.description=显然，将铁精炼一次是远远不够制作更高级的机器的，再精炼一次钢说不定可行，但怎么做呢？
 
-advancements.levitated.overworld.water.title=谁不喜欢水多
+advancements.levitated.overworld.water.title=谁不喜欢水多？
 advancements.levitated.overworld.water.description=水资源短缺？ 河流和海洋群系拥有无穷无尽的水！
 
 advancements.levitated.overworld.rubber.title=你爱吃大香蕉吗
@@ -288,7 +288,7 @@ advancements.levitated.overworld.quantum_quarry.description=铂也许是这颗�
 advancements.levitated.overworld.structure.title=流浪
 advancements.levitated.overworld.structure.description=没有了原本各个生态的相互制衡，主世界的环境变得非常恶劣。你长留此地的念头顿时被风暴吹散了，但末地同样令人呕吐，进退两难的你，只有一种选择——移民到其他星球。开始建造火箭吧！
 
-advancements.levitated.overworld.rocket.title=太空旅行！...火箭延误了
+advancements.levitated.overworld.rocket.title=太空旅行！...航天班延误了
 advancements.levitated.overworld.rocket.description=物竞天择，适者生存，这同样适用于其他星球。辛苦的探查后，你发现有些星球充满了生命，但那的环境并不适合人类居住，如此反复，或许到最后也找不到能够移居的星球，所以你得借助火箭的力量了。
 
 advancements.levitated.overworld.space_station.title=史上最low空间站
