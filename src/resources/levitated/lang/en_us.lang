@@ -136,6 +136,9 @@ advancements.levitated.end.blue_lotus.description=The weird plants named "Enbiot
 advancements.levitated.end.feather.title=Birdless
 advancements.levitated.end.feather.description=How do I get feathers, you ask? Well, you see, mana is a powerful substance. Combined with the right item, you can create anything.
 
+advancements.levitated.end.bed.title=Sweet Dreams
+advancements.levitated.end.bed.description=If you don't mess with Endermans, the end is quite a peaceful place. I feel sleepy now, see you tomorrow, if there is one.
+
 # The Nether
 advancements.levitated.nether.root.title=Soulless Dimension
 advancements.levitated.nether.root.description=This world is a quite place, that is, before you got here. As the world forms in front of your eyes, monsters began to appear, be careful...
@@ -441,3 +444,4 @@ tips.levitated.4=Pure Daisy can only be found in non-vanilla end cities, which c
 tips.levitated.5=Slime Islands occasionally spawn in the end, but you can also find them when you are rebuilding the overworld.
 tips.levitated.6=Crafting your grave key with an enderpearl enables you to teleport to your grave, even cross dimensions.
 tips.levitated.7=Scanner can only rebuild every block once, so you cannot mine a vein infinitely.
+tips.levitated.8=You can actually sleep in the end now, I'm not trolling.

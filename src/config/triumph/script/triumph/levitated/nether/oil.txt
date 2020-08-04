@@ -10,6 +10,6 @@ setAnnounceToChat(false)
 setPos(87,-42)
 
 criteria = addCriteria("formed_pumpjack", "immersiveengineering:multiblock_formed")
-criteria.setMultiblock("IE:Pumpjack")
+criteria.setMultiblock("IP:Pumpjack")
 
 visibleIf("triumph:levitated/nether/root")
