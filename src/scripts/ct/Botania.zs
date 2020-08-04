@@ -24,15 +24,15 @@ mods.botania.ManaInfusion.addInfusion(<stygian:endglow>, <contenttweaker:blue_lo
 recipes.addShapedMirrored(<botania:enderdagger>, [[null, <tconstruct:knife_blade>.withTag({Material: "endstone"}), null],[<botania:manaresource:1>, <tconstruct:binding>.withTag({Material: "endstone"}), <deepmoblearning:living_matter_extraterrestrial>], [null, <botania:manaresource:3>, null]]);
 
 //Create cobblestone with end stone
-mods.botania.PureDaisy.addRecipe(<minecraft:end_stone>, <minecraft:cobblestone>, 300);
+mods.botania.PureDaisy.addRecipe(<minecraft:end_stone>, <minecraft:cobblestone>, 150);
 //Create mushrooms with enbiotic
-mods.botania.PureDaisy.addRecipe(<stygian:endglow>, <minecraft:brown_mushroom>, 300);
+mods.botania.PureDaisy.addRecipe(<stygian:endglow>, <minecraft:brown_mushroom>, 150);
 
 //Petal apothecary now requires end stone
 recipes.addShaped(<botania:altar>, [[<minecraft:purpur_slab>, <ore:petal>, <minecraft:purpur_slab>],[null, <minecraft:end_stone>, null], [<minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>]]);
 
 //Pure daisy can turn end acid into water(ice cause it's block only)
-mods.botania.PureDaisy.addRecipe(<liquid:endacid>, <minecraft:ice>, 300);
+mods.botania.PureDaisy.addRecipe(<liquid:endacid>, <minecraft:ice>, 150);
 
 //Ender iron chunk
 mods.botania.ManaInfusion.addInfusion(<contenttweaker:end_iron_chunk>, <contenttweaker:end_iron>, 2500);

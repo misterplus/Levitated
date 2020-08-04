@@ -37,7 +37,7 @@ Levitated(失重)是一个以探险为主题，以重建世界为主要内容的
 ~~不会吧不会真的有中国人提供别的语言汉化吧 真就日文带佬什么的吗~~
 1. Fork这个仓库
 2. 将fork后的仓库克隆到本地
-3. 找到这个目录"/src/resources/levitated/lang"
+3. 找到这两个目录"/src/resources/levitated/lang", "/src/resources/contenttweaker/lang"
 4. 为你需要本地化的语言创建一个新的lang文件
 5. 将en_us.lang的内容复制入新创建的文件中
 6. 翻译所有语言键等号右边的内容
@@ -50,7 +50,7 @@ Levitated(失重)是一个以探险为主题，以重建世界为主要内容的
 
 如果你对github不熟悉，你仍然可以通过QQ来进行本地化。
 - 通过QQ (对于不熟悉github的玩家)
-1. 找到这个目录"/src/resources/levitated/lang"
+1. 找到这两个目录"/src/resources/levitated/lang", "/src/resources/contenttweaker/lang"
 2. 为你需要本地化的语言创建一个新的lang文件
 3. 将en_us.lang的内容复制入新创建的文件中
 4. 翻译所有语言键等号右边的内容

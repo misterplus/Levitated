@@ -35,7 +35,7 @@ Released files:
 - Via pull request (Recommended)
 1. Fork this repository
 2. Clone the forked repository to your local machine
-3. Locate this directory "/src/resources/levitated/lang"
+3. Locate these two directories "/src/resources/levitated/lang", "/src/resources/contenttweaker/lang"
 4. Create a new lang file with the corresponding name of the language you are making a localization for
 5. Copy the contents of en_us.lang into your newly created file
 6. Translate all the language keys (Only translate what's on the right side of the equals sign)
@@ -48,12 +48,12 @@ Released files:
 
 If you are not familiar with github, you can always submit your localization via discord.
 - Via discord (For players who are not familiar with github)
-1. Locate this directory "/src/resources/levitated/lang"
+1. Locate these two directories "/src/resources/levitated/lang", "/src/resources/contenttweaker/lang"
 2. Create a new lang file with the corresponding name of the language you are making a localization for
 3. Copy the contents of en_us.lang into your newly created file
 4. Translate all the language keys (Only translate what's on the right side of the equals sign)
 5. Contact me on discord (Misterplus#0251)
-6. Transfer the new lang file to me
+6. Transfer the new lang files to me
 7. Wait for further reviews to validate the localization
 8. Your contribution will be included in the next release of the modpack
 9. Have your username listed on the "Special Thanks" section above
