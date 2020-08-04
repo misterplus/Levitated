@@ -415,7 +415,8 @@ tooltips.levitated.paper_plane_4=折出翅膀，使左边缘与右边缘对齐�
 tooltips.levitated.paper_plane_5=同样的方法，折出另一边的翅膀。
 tooltips.levitated.paper_plane_6=潜行右键将它放飞！
 tooltips.levitated.mana_paper=将纸垂直对折。
-tooltips.levitated.mana_paper_2=咋了? 这还是张纸! 只是被魔力浸湿了而已!
+tooltips.levitated.mana_paper_2=啊?! 这还是张纸! 只是被魔力浸湿了而已!
+tooltips.levitated.endglow=在除了幽冥草地以外的方块上会逐渐枯萎
 
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
@@ -427,6 +428,7 @@ unfamiliar.levitated.blaze_rod=炽热的棍子
 unfamiliar.levitated.blaze_powder=炽热的粉尘
 unfamiliar.levitated.ore_flower_nether=绚火花
 unfamiliar.levitated.ore_flower=磐石花
+
 # Item Rename
 rename.levitated.shulker_ring=潜影贝悬浮指环
 rename.levitated.compiron=压缩钢锭
