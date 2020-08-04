@@ -50,7 +50,7 @@ advancements.levitated.end.coke_oven.title=可口可乐末地分公司
 advancements.levitated.end.coke_oven.description=普通的熔炉无法让你精确地控制火候来烧制木炭，但焦炉可以！
 
 advancements.levitated.end.enderdagger.title=末地猎人
-advancements.levitated.end.enderdagger.description=末影人似乎对这把匕首散发出的特殊能量非常抗拒，那如果直接用匕首砍它们呢？
+advancements.levitated.end.enderdagger.description=植物学家需要用来防身的武器，末影人似乎对这把匕首散发出的特殊能量非常抗拒，那如果直接用匕首砍它们呢？
 
 advancements.levitated.end.ender_iron.title=天外末影技术
 advancements.levitated.end.ender_iron.description=稍强一些的末影人拥有将某种末地元素注入铁矿石的能力，适当的处理这种矿物后，你成功得到了一种叫做聚影铁的新金属。
@@ -135,6 +135,9 @@ advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth
 
 advancements.levitated.end.feather.title=鸟不拉屎的地方
 advancements.levitated.end.feather.description=我猜你现在很想知道羽毛该怎么获得。你知道的吧，魔力是一种很强大的物质。只要你正确的使用，你就能创造任何东西！
+
+advancements.levitated.end.bed.title=甜蜜的梦
+advancements.levitated.end.bed.description=小摇床，轻轻晃，末影人，在身旁，紫紫眼睛盯着你，点床不能入梦乡，复活可以在床旁。
 
 # The Nether
 advancements.levitated.nether.root.title=无魂之壤
@@ -387,9 +390,9 @@ advancements.levitated.resources.quantum_mithril.description=秘银或许是魔�
 
 # Kepler Advancements
 advancements.levitated.kepler.root.title=旅途的终点
-advancements.levitated.kepler.root.description=好了，你已经找到你的新家了。环顾四周，许多记忆从内心深处浮现。一草一花一木，一山一水一...人。愿你不忘初心，愿你踏遍山河，愿你铸造天地...
+advancements.levitated.kepler.root.description=好了，你已经找到你的新家了。环顾四周，许多记忆从内心深处浮现。一草一花一木，一山一水一人...愿你不忘初心，愿你踏遍山河，愿你铸造天地...
 
-advancements.levitated.kepler.beacon.title=破晓以后，守护所有
+advancements.levitated.kepler.beacon.title=破晓以后，守护挚友
 advancements.levitated.kepler.beacon.description=如果你不是孤身一人，那么不要忘了你的肝胆之友，在开普勒建造一个信标，这能将你的坐标发送到整个星系，他们能轻易找到这片土地。
 
 # Easter Egg Advancements
@@ -417,7 +420,7 @@ tooltips.levitated.mana_paper_2=咋了? 这还是张纸! 只是被魔力浸湿�
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
 description.levitated.mana_paper=对着工作台或工作站潜行右键来将它对折。但这是个技术活(不是，没有经验的话，你是做不到的。
-description.levitated.feather=梦想变成鸟，借力冲云霄。终于飞上天，竟会落羽毛。
+description.levitated.feather=梦想变成鸟，借力冲云霄。终于飞上天，竟会落羽毛。(提示：ContentTweaker)
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=火之高兴
@@ -434,6 +437,9 @@ rename.levitated.refined_iron_plate=精炼钢板
 # Tips
 tips.levitated.1=在最后的成就"旅途的终点"中，你需要找到并着陆到一颗类地星球。
 tips.levitated.2=与朋友一起游玩本包时，记得输入"/togetherforever invite"命令来同步你们的进度。
-tips.levitated.3=用瓶子捞水时，末地空气老是抢镜头？试试流体储罐！
+tips.levitated.3=用瓶子捞水时，末地空气老是抢镜？试试流体储罐！
 tips.levitated.4=白雏菊只能在本包自定义的末地遗迹中找到，并且需要一点运气。如果是在服务器中，与别人交易或许是个不错的选择。
 tips.levitated.5=末地群岛中偶尔会夹杂一些黏黏的史莱姆岛，但史莱姆们也没有放弃主世界的家。
+tips.levitated.6=将末影珍珠和墓碑钥匙合成一下，就能够用钥匙直接传送到墓碑处，这甚至能跨维度。
+tips.levitated.7=每个方块只能重建一次，所以你无法刷矿脉。
+tips.levitated.8=现在你可以在末地使用床了，我没有钓鱼。
