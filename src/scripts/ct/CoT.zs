@@ -20,3 +20,6 @@ recipes.addHiddenShaped("paper_plane_1", <contenttweaker:paper_plane_1>, [[null,
 recipes.addShaped(<contenttweaker:overworld_star>, [[<ore:ingotSignalum>, <ore:ingotElvenElementium>, <ore:ingotLumium>],[<ore:ingotEvilMetal>, <ore:netherStar>, <ore:ingotDemonicMetal>], [<ore:ingotManyullyn>, <ore:ingotTerrasteel>, <ore:ingotHOPGraphite>]]);
 recipes.addShaped(<contenttweaker:rainbow_block>, [[<contenttweaker:rainbow_ingot>, <contenttweaker:rainbow_ingot>, <contenttweaker:rainbow_ingot>],[<contenttweaker:rainbow_ingot>, <contenttweaker:rainbow_ingot>, <contenttweaker:rainbow_ingot>], [<contenttweaker:rainbow_ingot>, <contenttweaker:rainbow_ingot>, <contenttweaker:rainbow_ingot>]]);
 recipes.addShapeless(<contenttweaker:rainbow_ingot> * 9, [<contenttweaker:rainbow_block>]);
+
+//Tome of origin
+recipes.addShaped(<contenttweaker:origin_book>, [[<minecraft:piston>, <minecraft:ender_pearl>, <minecraft:piston>],[<minecraft:piston>, <minecraft:book>, <minecraft:piston>], [<minecraft:piston>, <minecraft:bed:*>, <minecraft:piston>]]);
