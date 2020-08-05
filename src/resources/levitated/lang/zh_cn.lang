@@ -133,8 +133,8 @@ advancements.levitated.end.drying_rack.description=有些东西需要晾干架�
 advancements.levitated.end.blue_lotus.title=这真不是色素染的
 advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth)中，你能发现一种叫"冥灯草"的植物，它看起来十分诡异并闪着微小的光。经过尝试，你发现它能够稳定并吸收魔力，并转变为蓝莲花，把它扔进魔力池中就能够释放它储存的魔力。
 
-advancements.levitated.end.feather.title=鸟不拉屎的地方
-advancements.levitated.end.feather.description=我猜你现在很想知道羽毛该怎么获得。你知道的吧，魔力是一种很强大的物质。只要你正确的使用，你就能创造任何东西！
+advancements.levitated.end.feather.title=附魔创生
+advancements.levitated.end.feather.description=打个响指就能召唤一只鸟那是电影里的剧情，但我听说魔法能赋予任何事物生命，甚至一张纸！恰巧，你有这些魔力...
 
 advancements.levitated.end.bed.title=甜蜜的梦
 advancements.levitated.end.bed.description=小摇床，轻轻晃，末影人，在身旁，紫紫眼睛盯着你，点床不能入梦乡，复活可以在床旁。
@@ -414,14 +414,22 @@ tooltips.levitated.paper_plane_3=再次将纸竖直折叠。
 tooltips.levitated.paper_plane_4=折出机翼，使左边缘与右边缘对齐。
 tooltips.levitated.paper_plane_5=同样的方法，折出另一边的机翼。
 tooltips.levitated.paper_plane_6=潜行右键将它放飞！
+tooltips.levitated.paper_plane_hidden_0=放在第5个合成格。
+tooltips.levitated.paper_plane_hidden_1=放在第8个合成格。
+tooltips.levitated.paper_plane_hidden_2=放在第2个合成格。
+tooltips.levitated.paper_plane_hidden_3=放在第6个合成格。
+tooltips.levitated.paper_plane_hidden_4=放在第7个合成格。
+tooltips.levitated.paper_plane_hidden_5=放在第5个合成格。
+tooltips.levitated.paper_plane_hidden_6=你看了提示吗？ :D
+tooltips.levitated.papep_plane_hint=按住shift查看提示。
 tooltips.levitated.mana_paper=将纸垂直对折。
 tooltips.levitated.mana_paper_2=啊?! 这还是张纸! 只是被魔力浸湿了而已!
-tooltips.levitated.endglow=在除了幽冥草地以外的方块上会逐渐枯萎
+tooltips.levitated.endglow=在除了幽冥草地以外的方块上会逐渐枯萎。
 
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
-description.levitated.mana_paper=对着工作台/站潜行右键来将它对折。别看简单，其实它需要一些经验的。之后就能在工作台/站内进行进一步折叠。
-description.levitated.feather=梦想变成鸟，借力冲云霄。终于飞上天，竟会落羽毛。(提示：ContentTweaker)
+description.levitated.mana_paper=对着工作台潜行右键来将它对折。别看简单，其实它需要一些经验的。之后就能在工作台内进行进一步折叠。
+description.levitated.feather=几乎每只鸟都会掉羽毛，而任何有翅膀的东西都能算作鸟，包括纸做的。
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=炽热的棍子
@@ -447,3 +455,4 @@ tips.levitated.5=末地群岛中偶尔会夹杂一些黏黏的史莱姆岛，但
 tips.levitated.6=将末影珍珠和墓碑钥匙合成一下，就能够用钥匙直接传送到墓碑处，这甚至能跨维度。
 tips.levitated.7=每个方块只能重建一次，所以你无法刷矿脉。
 tips.levitated.8=现在你可以在末地使用床了，我没有钓鱼。
+tips.levitated.9=不要畏惧虚空！某种力量会将你传送回天上。
