@@ -44,4 +44,4 @@ mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:32>, <ore:stoneMarb
 mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:4>, <ore:stoneBasalt>, 4096);
 
 //Refined steel
-mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19> * 2, <immersiveengineering:metal:8> * 3, <immersiveengineering:material:7>, 200, 1024, [<techreborn:dust:8> * 2, <immersiveengineering:material:17> * 2], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19> * 2, <ore:ingotSteel> * 3, <immersiveengineering:material:7>, 200, 1024, [<techreborn:dust:8> * 2, <immersiveengineering:material:17> * 2], "Alloying");

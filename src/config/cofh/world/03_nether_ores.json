@@ -294,28 +294,44 @@
 
 		"nether-uranium": {
 			"distribution": "uniform",
-            "generator": {
-				"type": "plate",
-				"radius": 3,
-				"block": [
-					{
-						"name": "chisel:lavastone",
-						"weight": 35
-					},
-					{
-						"name": "netherendingores:ore_nether_modded_1",
-						"properties": {
-							"blocks": "uranium_ore"
+            "generator": [
+				{
+					"type": "plate",
+					"radius": 3,
+					"block": [
+						{
+							"name": "chisel:lavastone"
+						}
+					],
+					"material": [
+						"netherrack",
+						"magma",
+						"soul_sand"
+					]
+				},
+				{
+					"type": "plate",
+					"radius": 3,
+					"block": [
+						{
+							"name": "chisel:lavastone",
+							"weight": 65
 						},
-						"weight": 65
-					}
-				],
-				"material": [
-					"netherrack",
-					"magma",
-					"soul_sand"
-				]
-			},
+						{
+							"name": "netherendingores:ore_nether_modded_1",
+							"properties": {
+								"blocks": "uranium_ore"
+							},
+							"weight": 35
+						}
+					],
+					"material": [
+						"netherrack",
+						"magma",
+						"soul_sand"
+					]
+				}
+			],
 			"cluster-count": 3,
 			"chunk-chance": 3,
             "min-height": 18,
