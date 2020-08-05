@@ -18,9 +18,9 @@
   {
     "dimension": -1,
     "mob": "minecraft:wither_skeleton",
-    "block": "minecraft:nether_brick",
+    "block": "chisel:lavastone",
     "result": "allow",
-    "random": 0.05
+    "random": 0.07
   },
   {
     "dimension": -1,
