@@ -134,7 +134,7 @@ advancements.levitated.end.blue_lotus.title=Stabilization
 advancements.levitated.end.blue_lotus.description=The weird plants named "Enbiotic" can be found in the Stygian Growth biome. They are capable of stabilizing liquid mana and absorb them, turning into a Blue Lotus in the process. Tossing a Blue Lotus into a Mana Pool releases stored Mana.
 
 advancements.levitated.end.feather.title=Birdless
-advancements.levitated.end.feather.description=How do I get feathers, you ask? Well, you see, mana is a powerful substance. Combined with the right item, you can create anything.
+advancements.levitated.end.feather.description=You can't just snap your fingers and summon a bird out of thin air, but I heard magic can bring anything to life, even a piece of paper. You happened to have some mana lying around...
 
 advancements.levitated.end.bed.title=Sweet Dreams
 advancements.levitated.end.bed.description=If you don't mess with Endermans, the end is quite a peaceful place. I feel sleepy now, see you tomorrow, if there is one.
@@ -414,14 +414,22 @@ tooltips.levitated.paper_plane_3=Fold the paper in half vertically again.
 tooltips.levitated.paper_plane_4=Fold the wings down, matching the left edges with the right edge of the body.
 tooltips.levitated.paper_plane_5=And the other side...
 tooltips.levitated.paper_plane_6=Shift right click to send this plane to the sky!
+tooltips.levitated.paper_plane_hidden_0=Put into slot 5.
+tooltips.levitated.paper_plane_hidden_1=Put into slot 8.
+tooltips.levitated.paper_plane_hidden_2=Put into slot 2.
+tooltips.levitated.paper_plane_hidden_3=Put into slot 6.
+tooltips.levitated.paper_plane_hidden_4=Put into slot 7.
+tooltips.levitated.paper_plane_hidden_5=Put into slot 5.
+tooltips.levitated.paper_plane_hidden_6=Did you read the hints? :D
+tooltips.levitated.papep_plane_hint=Hold shift for hints.
 tooltips.levitated.mana_paper=Fold the paper in half vertically.
 tooltips.levitated.mana_paper_2=What? This is still paper! Just soaked with mana!
-tooltips.levitated.endglow=Only survives on Stygian Grass
+tooltips.levitated.endglow=Only survives on Stygian Grass.
 
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
-description.levitated.mana_paper=Shift right click on a crafting table/station to fold it in half. But one cannot do so without some expertises in paper-folding. You can fold the paper again in a crafting table.
-description.levitated.feather=Velvet of Swan falls from Wingless Birds.
+description.levitated.mana_paper=Shift right click on a crafting table/station to fold it in half. But one cannot do so without some experience in paper-folding. You can fold the paper again in a crafting table.
+description.levitated.feather=Every bird drops feathers, even paper ones. Also, I'm pretty sure anything that has wings counts as a bird, right?
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=Hot Stick

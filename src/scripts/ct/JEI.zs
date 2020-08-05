@@ -33,6 +33,7 @@ for item in banned_items {
 var paper_planes = [<contenttweaker:paper_plane_0>, <contenttweaker:paper_plane_1>, <contenttweaker:paper_plane_2>, <contenttweaker:paper_plane_3>, <contenttweaker:paper_plane_4>, <contenttweaker:paper_plane_5>, <contenttweaker:paper_plane_6>] as IItemStack[];
 for i, paper_plane in paper_planes {
     paper_plane.addTooltip(format.gray(game.localize("tooltips.levitated.paper_plane_" + i)));
+    paper_plane.addShiftTooltip(format.darkGray(game.localize("tooltips.levitated.paper_plane_hidden" + i)), format.darkGray(game.localize("tooltips.levitated.papep_plane_hint")));
     addDescription(paper_plane, game.localize("description.levitated.paper_plane"));
     hide(paper_plane);
 }
