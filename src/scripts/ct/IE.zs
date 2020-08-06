@@ -10,6 +10,7 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:16
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:166>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
 mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:38>);
+mods.immersiveengineering.Crusher.removeRecipesForInput(<thermalfoundation:ore:5>);
 
 //add
 //The End
@@ -45,3 +46,6 @@ mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:4>, <ore:stoneBasal
 
 //Refined steel
 mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19> * 2, <ore:ingotSteel> * 3, <immersiveengineering:material:7>, 200, 1024, [<techreborn:dust:8> * 2, <immersiveengineering:material:17> * 2], "Alloying");
+
+//Remove platinum from nickel
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:69> * 2, <ore:oreNickel>, 6000);

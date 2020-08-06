@@ -103,3 +103,7 @@ mods.botania.Orechid.addOre(<ore:oreRuby>, 1100);
 mods.botania.Orechid.addOre(<ore:oreBauxite>, 3520);
 mods.botania.Orechid.addOre(<ore:oreSapphire>, 1100);
 mods.botania.Orechid.addOre(<ore:oreTungsten>, 2200);
+
+//Swap between prismarine shards and nether quartz
+mods.botania.ManaInfusion.addAlchemy(<minecraft:prismarine_shard>, <minecraft:quartz>, 1200);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:quartz>, <minecraft:prismarine_shard>, 1200);

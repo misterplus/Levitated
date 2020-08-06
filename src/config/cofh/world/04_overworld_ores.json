@@ -105,6 +105,29 @@
 					99
 				]
 			}
-        }
+		},
+		
+		"overworld-bauxite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "techreborn:ore",
+					"properties": {
+						"type": "bauxite"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 10,
+			"min-height": 10,
+			"max-height": 60,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					99
+				]
+			}
+		}
     }
 }

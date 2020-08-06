@@ -42,3 +42,8 @@ assembler.addRecipe({"assembler_slot_item_0":<techreborn:part:29>, "assembler_sl
 
 //PCB
 assembler.addRecipe({"assembler_slot_item_0":<pneumaticcraft:unassembled_pcb>, "assembler_slot_item_1": <pneumaticcraft:transistor> * 3, "assembler_slot_item_2": <pneumaticcraft:capacitor> * 3, "assembler_slot_liquid": <liquid:solder> * 1000},{"assembler_slot_out": <pneumaticcraft:printed_circuit_board>}, 10000, 200);
+
+//Remove platinum from nickel
+var crusher = extrautilities2.Tweaker.IMachineRegistry.getMachine("extrautils2:crusher");
+crusher.removeRecipe({"input": <ore:oreNickel>});
+crusher.addRecipe({"input": <ore:oreNickel>}, {"output": <thermalfoundation:material:69> * 2}, 4000, 200);
