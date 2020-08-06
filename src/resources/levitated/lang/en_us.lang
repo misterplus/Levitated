@@ -144,64 +144,64 @@ advancements.levitated.nether.root.title=Soulless Dimension
 advancements.levitated.nether.root.description=This world is a quite place, that is, before you got here. As the world forms in front of your eyes, monsters began to appear, be careful... 
 
 advancements.levitated.nether.altar.title=Altar of Life
-advancements.levitated.nether.altar.description=By combining some new materials found in the Nether, you were able to create a altar for resurrecting creatures. Though, it doesn't work everytime...
+advancements.levitated.nether.altar.description=By combining some new materials found in the Nether, you were able to create a altar for resurrecting creatures. Though, it doesn't work everytime... [Craft a Summoning Altar.]
 
 advancements.levitated.nether.rotten_pork.title=Nasty Bacon
-advancements.levitated.nether.rotten_pork.description=Zombie Pigman will no longer drop gold nugggets or ingots, but they do drop a piece of Rotten Pork very rarely, which can be used in a summoning ritual to summon pigs.
+advancements.levitated.nether.rotten_pork.description=Zombie Pigman will no longer drop gold nugggets or ingots, but they do drop a piece of Rotten Pork very rarely, which can be used in a summoning ritual to summon pigs. [Obtain a Rotten Pork.]
 
 advancements.levitated.nether.chicken_ring.title=Rings in the Sky
-advancements.levitated.nether.chicken_ring.description=With the soul of a Chicken, you forged a ring that slows down your falling. With some proper upgrades, you might gain the ability to fly.
+advancements.levitated.nether.chicken_ring.description=With the soul of a Chicken, you forged a ring that slows down your falling. With some proper upgrades, you might gain the ability to fly. [Craft a Chicken Wing Ring.]
 
 advancements.levitated.nether.chassis.title=Industry Standard
-advancements.levitated.nether.chassis.description=Nether Quartz's high conductivity is great for making Machine Chassis, which is a necessity for more complex machines.
+advancements.levitated.nether.chassis.description=Nether Quartz's high conductivity is great for making Machine Chassis, which is a necessity for more complex machines. [Craft an Industrial Machine Chassis.]
 
 advancements.levitated.nether.resonator.title=Resonance
-advancements.levitated.nether.resonator.description=Resonating regular materials converts them into their high quality counterparts, which are excellent for machine building.
+advancements.levitated.nether.resonator.description=Resonating regular materials converts them into their high quality counterparts, which are excellent for machine building. [Craft a Resonator.]
 
 advancements.levitated.nether.blaze_rod.title=Hot Stick
-advancements.levitated.nether.blaze_rod.description=Blazes occasionally spawn on Nether Bricks in the Nether, with enough luck, you might also find a Blaze spawner in a Nether fortress.
+advancements.levitated.nether.blaze_rod.description=Blazes occasionally spawn on Nether Bricks in the Nether, with enough luck, you might also find a Blaze spawner in a Nether fortress. [Obtain a Blaze Rod.]
 
 advancements.levitated.nether.wither_skeleton.title=Burnt Bones
-advancements.levitated.nether.wither_skeleton.description=Wither Skeletons occasionally spawn on Lavastones in the Nether, but Lavastone is not easy to find...
+advancements.levitated.nether.wither_skeleton.description=Wither Skeletons occasionally spawn on Lavastones in the Nether, but Lavastone is not easy to find... [Kill a Wither Skeleton.]
 
 advancements.levitated.nether.star.title=The Stars Aligned
-advancements.levitated.nether.star.description=Wither, the most dangerous creature in the Nether, possesses a star, which contains unimaginable power.
+advancements.levitated.nether.star.description=Wither, the most dangerous creature in the Nether, possesses a star, which contains unimaginable power. [Obtain a Nether Star.]
 
 advancements.levitated.nether.stargen.title=Beyond Nuclear
-advancements.levitated.nether.stargen.description=Rebuilding the Nether terrain costs tons of power, this generator might help you out.
+advancements.levitated.nether.stargen.description=Rebuilding the Nether terrain costs tons of power, this generator might help you out. [Craft a Netherstar Generator.]
 
 advancements.levitated.nether.withermodel.title=Quantum Simulation
-advancements.levitated.nether.withermodel.description=Getting large quantities of Nether Stars is not a easy task, but you can always turn to a deep learning model...
+advancements.levitated.nether.withermodel.description=Getting large quantities of Nether Stars is not a easy task, but you can always turn to a deep learning model... [Craft a Wither Data Model.]
 
 advancements.levitated.nether.alloy.title=Advanced Alloying
-advancements.levitated.nether.alloy.description=Future machines require a lot more alloys, so you better construct a faster Alloy Smelter.
+advancements.levitated.nether.alloy.description=Future machines require a lot more alloys, so you better construct a faster Alloy Smelter. [Craft a Alloy Smelter.]
 
 advancements.levitated.nether.blast_furnace.title=Blast Off
-advancements.levitated.nether.blast_furnace.description=With Blaze Rod's blazing hot temperature, a Blast Furnace was born! A crude one, but functional.
+advancements.levitated.nether.blast_furnace.description=With Blaze Rod's blazing hot temperature, a Blast Furnace was born! A crude one, but functional. [Build a Blast Furnace.]
 
 advancements.levitated.nether.compiron.title=The Pressure is on
-advancements.levitated.nether.compiron.description=Blowing up Steel ingots with TNT will compress them into a denser material, which is just suitable for making PCBs.
+advancements.levitated.nether.compiron.description=Blowing up Steel ingots with TNT will compress them into a denser material, which is just suitable for making PCBs. [Obtain a Compressed Steel Ingot.]
 
 advancements.levitated.nether.chamber.title=Pressurized Assembly
-advancements.levitated.nether.chamber.description=You need machines to print circuit boards after all. Assembling them in a dust-free environment would be ideal.
+advancements.levitated.nether.chamber.description=You need machines to print circuit boards after all. Assembling them in a dust-free environment would be ideal. [Craft a Pressure Chamber Wall.]
 
 advancements.levitated.nether.interface.title=Smart Window
-advancements.levitated.nether.interface.description=Tired of breaking the chamber just to get your items? Then this Chamber Interface is just the right block for you!
+advancements.levitated.nether.interface.description=Tired of breaking the chamber just to get your items? Then this Chamber Interface is just the right block for you! [Craft a Pressure Chamber Interface.]
 
 advancements.levitated.nether.empty_pcb.title=Pretty Clean Board
-advancements.levitated.nether.empty_pcb.description=To make a PCB, you gotta start with an empty one.
+advancements.levitated.nether.empty_pcb.description=To make a PCB, you gotta start with an empty one. [Craft an Empty PCB.]
 
 advancements.levitated.nether.pcb_blueprint.title=Printing with Light
-advancements.levitated.nether.pcb_blueprint.description=To make a functional PCB, you'll need a PCB Blueprint. Luckily, you can buy one online.
+advancements.levitated.nether.pcb_blueprint.description=To make a functional PCB, you'll need a PCB Blueprint. Luckily, you can buy one online. [Purchase a PCB Blueprint.]
 
 advancements.levitated.nether.oil.title=Black Gold
-advancements.levitated.nether.oil.description=In order to produce plastic for PCBs, you have to get some oil first. Building a Pumpjack shoule help you out.
+advancements.levitated.nether.oil.description=In order to produce plastic for PCBs, you have to get some oil first. Building a Pumpjack shoule help you out. [Build a Pumpjack.]
 
 advancements.levitated.nether.refinery.title=Efficiency at its Finest
-advancements.levitated.nether.refinery.description=Simply burning your oil is a huge waste! Besides, you need to seperate other substances away from oil in order to make use of them.
+advancements.levitated.nether.refinery.description=Simply burning your oil is a huge waste! Besides, you need to seperate other substances away from oil in order to make use of them. [Craft a Refinery.]
 
 advancements.levitated.nether.lpg.title=Quality Fuel
-advancements.levitated.nether.lpg.description=LPG is a efficient fuel, and also a necessity for producing liquid plastic.
+advancements.levitated.nether.lpg.description=LPG is a efficient fuel, and also a necessity for producing liquid plastic. [Fill a bucket with LPG.]
 
 advancements.levitated.nether.plastic.title=Environmental Unfriendly
 advancements.levitated.nether.plastic.description=Finally! A piece of plastic! Don't forget to dye it before drying.
