@@ -320,7 +320,7 @@ advancements.levitated.overworld.adv_scanner.description=A basic scanner is grea
 
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
-advancements.levitated.resources.root.description=You can find all information related to End ores on the right. [Aquire the matching ores/blocks to complete the advancement.]
+advancements.levitated.resources.root.description=You can find all information related to End ores on the right. [Acquire the matching ores/blocks to complete the advancement.]
 
 advancements.levitated.resources.end_iron.title=Essence of Mineral
 advancements.levitated.resources.end_iron.description=With the collapse of Overworld, some minerals start to form inside of the End Stone, this include Iron, Gold, Redstone and Lapis.
