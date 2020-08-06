@@ -250,52 +250,52 @@ advancements.levitated.overworld.root.title=Sun, Moon and Stars
 advancements.levitated.overworld.root.description=You've made it back home! But this world isn't really your ideal settlement, since there's still nothing but the void. Maybe we can... go for the stars?
 
 advancements.levitated.overworld.water.title=Now we are waterin'
-advancements.levitated.overworld.water.description=Short on water supply? Pump infinite water from biomes like ocean or river!
+advancements.levitated.overworld.water.description=Short on water supply? Pump infinite water from biomes like ocean or river! [Travel to a Ocean biome.]
 
 advancements.levitated.overworld.refined_iron.title=Double Refinement
-advancements.levitated.overworld.refined_iron.description=Apparently refining iron once isn't enough, you are gonna need better base materials for more advanced machines. Refining steel once more should be good, but how?
+advancements.levitated.overworld.refined_iron.description=Apparently refining iron once isn't enough, you are gonna need better base materials for more advanced machines. Refining steel once more should be good, but how? [Craft a Refined Steel Ingot.]
 
 advancements.levitated.overworld.rubber.title=European Eraser
-advancements.levitated.overworld.rubber.description=Alright, I admit these are not for schooling, but they are great for making cables! Please stay safe when you are working with electricity, sir/madam.
+advancements.levitated.overworld.rubber.description=Alright, I admit these are not for schooling, but they are great for making cables! Please stay safe when you are working with electricity, sir/madam. [Obtain some sap.]
 
 advancements.levitated.overworld.blast_furnace.title=It's getting hot in here!
-advancements.levitated.overworld.blast_furnace.description=Constructing a industrial blast furnace would enable you to create calciumcarbonate cells, which can convert iron ingots directly into refined steel ingots, greatly improving the efficiency.
+advancements.levitated.overworld.blast_furnace.description=Constructing a industrial blast furnace would enable you to create calciumcarbonate cells, which can convert iron ingots directly into refined steel ingots, greatly improving the efficiency. [Craft a Industrial Blast Furnace.]
 
 advancements.levitated.overworld.distiller.title=Hold Still
-advancements.levitated.overworld.distiller.description=Producing refined steel ingots can get quite grindy, looking through the recipe book, you found that calciumcarbonate should be all you need to simplify this process. Distilling regular water is one of the steps you need to take.
+advancements.levitated.overworld.distiller.description=Producing refined steel ingots can get quite grindy, looking through the recipe book, you found that calciumcarbonate should be all you need to simplify this process. Distilling regular water is one of the steps you need to take. [Build a Distiller.]
 
 advancements.levitated.overworld.voidminer.title=Essence of the Void
-advancements.levitated.overworld.voidminer.description=Spending countless hours mining for ores just isn't ideal, why not put all that excess power to use? This machine can materialize void energy and turn it into various ores. With a bit of modification, this machine can also generate plants and other resources.
+advancements.levitated.overworld.voidminer.description=Spending countless hours mining for ores just isn't ideal, why not put all that excess power to use? This machine can materialize void energy and turn it into various ores. With a bit of modification, this machine can also generate plants and other resources. [Craft a Void Ore Miner Controller Tier 1.]
 
 advancements.levitated.overworld.machine_frame.title=Working within Frames
-advancements.levitated.overworld.machine_frame.description=Nothing to see here! Just a simple machine frame.
+advancements.levitated.overworld.machine_frame.description=Nothing to see here! Just a simple machine frame. [Craft a Basic Machine Frame.]
 
 advancements.levitated.overworld.recycler.title=Environmental Friendly
-advancements.levitated.overworld.recycler.description=You must've have produced a lot of waste by now. Instead of throwing them in the bin, why not recycle them and keep your surroundings nice and clean?
+advancements.levitated.overworld.recycler.description=You must've have produced a lot of waste by now. Instead of throwing them in the bin, why not recycle them and keep your surroundings nice and clean? [Craft a Recycler.]
 
 advancements.levitated.overworld.voidminer2.title=Miner Double
-advancements.levitated.overworld.voidminer2.description=With a bit of tinkering, you managed to further refine the void energy extracted into rarer ores, like Iridium, Titanium and Emerald.
+advancements.levitated.overworld.voidminer2.description=With a bit of tinkering, you managed to further refine the void energy extracted into rarer ores, like Iridium, Titanium and Emerald. [Craft a Void Ore Miner Controller Tier 4.]
 
 advancements.levitated.overworld.uumachine.title=Something out of Nothing
-advancements.levitated.overworld.uumachine.description=It turns out you can create a way richer substance with those scraps you've recycled earlier, you named it UU-Matter. With it you can get your hands on large quantities of rare ores a lot quicker now.
+advancements.levitated.overworld.uumachine.description=It turns out you can create a way richer substance with those scraps you've recycled earlier, you named it UU-Matter. With it you can get your hands on large quantities of rare ores a lot quicker now. [Craft a Matter Fabricator]
 
 advancements.levitated.overworld.fusion.title=Nuclear Fusion
-advancements.levitated.overworld.fusion.description=You sure have a lot of machines at your disposal, but you can't exactly build the rocket that'll take you to another habitable planet without the right materials. Sure Iridium and Titanium are pretty strong, but you might need something that doesn't exist on this planet... Platinum for example.
+advancements.levitated.overworld.fusion.description=You sure have a lot of machines at your disposal, but you can't exactly build the rocket that'll take you to another habitable planet without the right materials. Sure Iridium and Titanium are pretty strong, but you might need something that doesn't exist on this planet... Platinum for example. [Craft a Fusion Control Computer.]
 
 advancements.levitated.overworld.quantum_quarry.title=Quantum Tunneling
-advancements.levitated.overworld.quantum_quarry.description=Platinum might be the first man-made substance on this planet, but it certainly won't be the last. In fact, you can even borrow substances from another world. We call this quantum mining.
+advancements.levitated.overworld.quantum_quarry.description=Platinum might be the first man-made substance on this planet, but it certainly won't be the last. In fact, you can even borrow substances from another world. We call this quantum mining. [Build a Quantum Quarry.]
 
 advancements.levitated.overworld.structure.title=Steady Structure
-advancements.levitated.overworld.structure.description=With storms howling through the lands of the Overworld, you surely don't wanna live there, but the end is not exactly a great choice either, that leaves you with the only option - other planets. Better get those rockets building!
+advancements.levitated.overworld.structure.description=With storms howling through the lands of the Overworld, you surely don't wanna live there, but the end is not exactly a great choice either, that leaves you with the only option - other planets. Better get those rockets building! [Craft a Machine Structure.]
 
 advancements.levitated.overworld.rocket.title=Space Travel! ... not yet
-advancements.levitated.overworld.rocket.description=Not all planets are habitable, and not all habitable planets are for humans. To search for such a planet would take centuries without the right tools. And rockets are surely one of them.
+advancements.levitated.overworld.rocket.description=Not all planets are habitable, and not all habitable planets are for humans. To search for such a planet would take centuries without the right tools. And rockets are surely one of them. [Craft a Rocket Assembling Machine.]
 
 advancements.levitated.overworld.space_station.title=Non-Stationary
-advancements.levitated.overworld.space_station.description=Stay on the earth with a naked eye isn't gonna help you find extraterrestrial planets, you better levitate yourself to a...higher altitude. In plain English, that is to say - build a space station.
+advancements.levitated.overworld.space_station.description=Stay on the earth with a naked eye isn't gonna help you find extraterrestrial planets, you better levitate yourself to a...higher altitude. In plain English, that is to say - build a space station. [Craft a Space Station Assembler.]
 
 advancements.levitated.overworld.warp.title=Intergalactic Travel
-advancements.levitated.overworld.warp.description=It doesn't seem like there's any planet in the solar system for you to live on, but you might have a chance at other galaxies, but that's a long shot, and a hard one. You cannot simply launch a rocket to another galaxy, but warping is an option.
+advancements.levitated.overworld.warp.description=It doesn't seem like there's any planet in the solar system for you to live on, but you might have a chance at other galaxies, but that's a long shot, and a hard one. You cannot simply launch a rocket to another galaxy, but warping is an option. [Craft a Warp Controller.]
 
 advancements.levitated.overworld.satellite.title=Loyal Follower
 advancements.levitated.overworld.satellite.description=You'll need to collect some data for searching for new planets in the warp controller, and a couple of satellites will definitely help you out. Just make sure not to immediately crash them because you forgot to put solar panels on them, ok?
