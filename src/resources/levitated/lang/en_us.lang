@@ -298,29 +298,29 @@ advancements.levitated.overworld.warp.title=Intergalactic Travel
 advancements.levitated.overworld.warp.description=It doesn't seem like there's any planet in the solar system for you to live on, but you might have a chance at other galaxies, but that's a long shot, and a hard one. You cannot simply launch a rocket to another galaxy, but warping is an option. [Craft a Warp Controller.]
 
 advancements.levitated.overworld.satellite.title=Loyal Follower
-advancements.levitated.overworld.satellite.description=You'll need to collect some data for searching for new planets in the warp controller, and a couple of satellites will definitely help you out. Just make sure not to immediately crash them because you forgot to put solar panels on them, ok?
+advancements.levitated.overworld.satellite.description=You'll need to collect some data for searching for new planets in the warp controller, and a couple of satellites will definitely help you out. Just make sure not to immediately crash them because you forgot to put solar panels on them, ok? [Craft a Satellite.]
 
 advancements.levitated.overworld.fueling_station.title=All Fueled Up!
-advancements.levitated.overworld.fueling_station.description=Although pouring rocket fuel with a iron bucket would work just fine, you are still better off building a fueling station to save yourself some trouble. (Use Ender IO Rocket Fuel)
+advancements.levitated.overworld.fueling_station.description=Although pouring rocket fuel with a iron bucket would work just fine, you are still better off building a fueling station to save yourself some trouble. (Use Ender IO Rocket Fuel) [Craft a Fueling Station.]
 
 advancements.levitated.overworld.satellite_station.title=5G needed
-advancements.levitated.overworld.satellite_station.description=Data collected by satellites aren't gonna download themselves, you'll need a satellite terminal for downloading that data yourself.
+advancements.levitated.overworld.satellite_station.description=Data collected by satellites aren't gonna download themselves, you'll need a satellite terminal for downloading that data yourself. [Craft a Satellite Terminal.]
 
 advancements.levitated.overworld.insulated_wire.title=Insulated
-advancements.levitated.overworld.insulated_wire.description=Professional technicians always use rubber to protect themselves.
+advancements.levitated.overworld.insulated_wire.description=Professional technicians always use rubber to protect themselves. [Craft a Insulated Copper Cable.]
 
 advancements.levitated.overworld.kepler.title=The Long Journey "Home"
 advancements.levitated.overworld.kepler.description=Warp after warp, you finally found a familiar place...
 
 advancements.levitated.overworld.spacesuit.title=Suit up
-advancements.levitated.overworld.spacesuit.description=You are no superman, and certainly cannot breathe in space, so a set of space suit is a must. And a pair of oxygen tanks, of course.
+advancements.levitated.overworld.spacesuit.description=You are no superman, and certainly cannot breathe in space, so a set of space suit is a must. And a pair of oxygen tanks, of course. [Craft a set of Space suit.]
 
 advancements.levitated.overworld.adv_scanner.title=Advanced Scanning
-advancements.levitated.overworld.adv_scanner.description=A basic scanner is great, but why scan two chunks when you can scan four? Upgrade today!
+advancements.levitated.overworld.adv_scanner.description=A basic scanner is great, but why scan two chunks when you can scan four? Upgrade today! [Craft a Biome Scanner (Advanced).]
 
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
-advancements.levitated.resources.root.description=You can find all information related to End ores on the right.
+advancements.levitated.resources.root.description=You can find all information related to End ores on the right. [Aquire the matching ores/blocks to complete the advancement.]
 
 advancements.levitated.resources.end_iron.title=Essence of Mineral
 advancements.levitated.resources.end_iron.description=With the collapse of Overworld, some minerals start to form inside of the End Stone, this include Iron, Gold, Redstone and Lapis.
