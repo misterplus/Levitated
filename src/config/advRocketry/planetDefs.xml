@@ -1,6 +1,7 @@
 <galaxy>
     <star name="Sol" temp="100" x="0" y="0">
         <planet DIMID="0" dimMapping="" name="Earth">
+            <isKnown>True</isKnown>
             <planet DIMID="3" name="Luna">
                 <fogColor>1.0,1.0,1.0</fogColor>
                 <skyColor>1.0,1.0,1.0</skyColor>
@@ -20,6 +21,7 @@
             </planet>
         </planet>
         <planet DIMID="1" dimMapping="" name="The End" customIcon="iceworld">
+            <isKnown>True</isKnown>
             <orbitalTheta>180</orbitalTheta>
         </planet>
     </star>
