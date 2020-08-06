@@ -27,3 +27,6 @@ mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:69> * 2, 
 mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:71> * 2, <thermalfoundation:ore:7>, 4000);
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:69> * 3, <thermalfoundation:material:866>, <thermalfoundation:ore:5>, 4000);
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:71> * 3, <thermalfoundation:material:866>, <thermalfoundation:ore:7>, 4000);
+
+//Ore excavation integration
+mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag(<enchantment:oeintegration:oreexcavation>.makeEnchantment(1).makeTag()), <minecraft:book>, <oeintegration:excavatemodifier> * 5, 36000, 4000, false);

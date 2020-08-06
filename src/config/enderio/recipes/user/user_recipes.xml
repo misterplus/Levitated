@@ -99,7 +99,6 @@
       <output name="oredict:cobblestone" chance="0.15" />
     </sagmilling>
   </recipe>
-  
   <recipe name="Sagmill: Iridium Ore" required="false">
     <sagmilling energy="3600">
       <input name="oreIridium" />
@@ -107,5 +106,10 @@
       <output name="minecraft:cobblestone" chance="0.15" />
     </sagmilling>
   </recipe>
-  
+  <recipe name="Enchanter: oeintegration:oreexcavation" required="true" disabled="false">
+    <enchanting>
+      <input name="oeintegration:excavatemodifier" amount="5" />
+      <enchantment name="oeintegration:oreexcavation" costMultiplier="1" />
+    </enchanting>
+  </recipe>
 </enderio:recipes>

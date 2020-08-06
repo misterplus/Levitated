@@ -15,5 +15,5 @@ mods.tconstruct.Melting.removeRecipe(<liquid:signalum>, <thermalfoundation:mater
 mods.tconstruct.Melting.removeRecipe(<liquid:enderium>, <thermalfoundation:material:103>);
 
 //add
-recipes.addShaped(<oeintegration:excavatemodifier>, [[<ore:ingotLumium>, <ore:slimeball>, <ore:ingotSignalum>],[<ore:ingotRedstoneAlloy>, <ore:ingotManyullyn>, <ore:ingotRedstoneAlloy>], [<ore:ingotSignalum>, <ore:slimeball>, <ore:ingotLumium>]]);
+recipes.addShaped(<oeintegration:excavatemodifier> * 5, [[<ore:ingotLumium>, <ore:slimeball>, <ore:ingotSignalum>],[<ore:ingotRedstoneAlloy>, <ore:ingotManyullyn>, <ore:ingotRedstoneAlloy>], [<ore:ingotSignalum>, <ore:slimeball>, <ore:ingotLumium>]]);
 mods.tconstruct.Alloy.addRecipe(<liquid:solder> * 125, [<liquid:tin> * 36, <liquid:lead> * 36]);
