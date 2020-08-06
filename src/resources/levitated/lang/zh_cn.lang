@@ -47,7 +47,7 @@ advancements.levitated.end.clay_flower.title=小朋友都喜欢它
 advancements.levitated.end.clay_flower.description=一朵叫粘土花的小花可以帮助你把沙子变为粘土，那么问题来了，沙子怎么获得？[制作一个粘土花]
 
 advancements.levitated.end.coke_oven.title=可口可乐末地分公司
-advancements.levitated.end.coke_oven.description=普通的熔炉无法让你精确地控制火候来烧制木炭，但焦炉可以！[搭建一个焦炉]
+advancements.levitated.end.coke_oven.description=普通的熔炉无法让你精确地控制火候来烧制木炭，但焦炉可以！[搭建一台焦炉]
 
 advancements.levitated.end.enderdagger.title=末地猎人
 advancements.levitated.end.enderdagger.description=植物学家需要用来防身的武器，末影人似乎对这把匕首散发出的特殊能量非常抗拒，那如果直接用匕首砍它们呢？[制作一个灵魂匕首]
@@ -89,10 +89,10 @@ advancements.levitated.end.end_orechid.title=轰轰轰
 advancements.levitated.end.end_orechid.description=厌倦了找矿?如果你有多余的魔力，那就试试影矿兰吧！[制作一个影矿兰]
 
 advancements.levitated.end.stirling_gen.title=斯特林工业
-advancements.levitated.end.stirling_gen.description=全球限量，性能遥遥领先，简洁、实惠又不失内涵！[制作一个简易斯特林发电机]
+advancements.levitated.end.stirling_gen.description=全球限量，性能遥遥领先，简洁、实惠又不失内涵！[制作一台简易斯特林发电机]
 
 advancements.levitated.end.simulation_chamber.title=深度知识
-advancements.levitated.end.simulation_chamber.description=长期的屠杀怪物，让你变得有些洁癖，希望模拟室能帮你缓一下。[制作一个模拟室]
+advancements.levitated.end.simulation_chamber.description=长期的屠杀怪物，让你变得有些洁癖，希望模拟室能帮你缓一下。[制作一台模拟室]
 
 advancements.levitated.end.keystone.title=故障试炼
 advancements.levitated.end.keystone.description=系统故障只会出现在试炼中，试炼需要一把测试秘钥来开启。更多信息请在指南中查阅。不过，在试炼中你可能会遇到一些飞行的生物。它们有几率掉落一个你暂时还无法使用的物品。[制作一个测试密钥]
@@ -110,13 +110,13 @@ advancements.levitated.end.machine_block.title=巫异时刻,零式分割
 advancements.levitated.end.machine_block.description=如果你想制作更多的发电机，你可以看看更多实用设备2（EXU2）。但在获得下界石英之前，制作机器方块是件相当麻烦的事。[制作一个机器方块]
 
 advancements.levitated.end.sag_mill.title=双倍"疯"量
-advancements.levitated.end.sag_mill.description=影矿兰都不能满足你对矿物的需求？那好吧，或许你能用SAG磨粉机在处理过程中增加一些矿石产量。[制作一个简易SAG磨粉机]
+advancements.levitated.end.sag_mill.description=影矿兰都不能满足你对矿物的需求？那好吧，或许你能用SAG磨粉机在处理过程中增加一些矿石产量。[制作一台简易SAG磨粉机]
 
 advancements.levitated.end.alloy_smelter.title=强化,加固
-advancements.levitated.end.alloy_smelter.description=把不同的金属融合在一起，会使它们更坚硬、更强大，冶金专家称之为"合金"。[制作一个简易合金炉]
+advancements.levitated.end.alloy_smelter.description=把不同的金属融合在一起，会使它们更坚硬、更强大，冶金专家称之为"合金"。[制作一台简易合金炉]
 
 advancements.levitated.end.assembler.title=不是没技术,只是懒^^
-advancements.levitated.end.assembler.description=尽管你可以手捏简易的机器，但要制作更复杂更高级的机器，你得需要一台装配机。[制作一个装配机]
+advancements.levitated.end.assembler.description=尽管你可以手捏简易的机器，但要制作更复杂更高级的机器，你得需要一台装配机。[制作一台装配机]
 
 advancements.levitated.end.solder.title=小心烫伤
 advancements.levitated.end.solder.description=焊料非常适合制作机器。用桶装焊料粉右击火焰就能制成一桶焊料。[获得一个焊料桶]
