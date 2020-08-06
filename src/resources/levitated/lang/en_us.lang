@@ -95,37 +95,37 @@ advancements.levitated.end.simulation_chamber.title=Deep Learning
 advancements.levitated.end.simulation_chamber.description=If killing mobs manually is annoying for you, you might wanna make good use of this Simulation Chamber. [Craft a Simulation Chamber.]
 
 advancements.levitated.end.keystone.title=Attunement
-advancements.levitated.end.keystone.description=System glitches only appear in trails. Starting a trail requires a Trail Keystone. For more info, check the Deep Mob Learning guide book. However, you might encounter some flying creatures during the trails. They might drop an item that you cannot make use of right now.
+advancements.levitated.end.keystone.description=System glitches only appear in trails. Starting a trail requires a Trail Keystone. For more info, check the Deep Mob Learning guide book. However, you might encounter some flying creatures during the trails. They might drop an item that you cannot make use of right now. [Craft a Trail Keystone.]
 
 advancements.levitated.end.glitched_oby.title=Glitch in the System
-advancements.levitated.end.glitched_oby.description=Simply by building a obsidian portal won't lead you to the Nether, so you'll need to infuse some glitches into regular obsidians. This can be done through Terrestrial Agglomeration.
+advancements.levitated.end.glitched_oby.description=Simply by building a obsidian portal won't lead you to the Nether, so you'll need to infuse some glitches into regular obsidians. This can be done through Terrestrial Agglomeration. [Craft a Glitched Obsidian.]
 
 advancements.levitated.end.nether_portal.title=Door to Nothingness
-advancements.levitated.end.nether_portal.description=Build a portal out of Glitched Obsidian. However, a regular Flint and Steel ain't going to trigger the glitch, you'll need something more fiery, like a Fire Rune. Once the portal is done, you can hop in if you want, but the only thing greeting you will be the void.
+advancements.levitated.end.nether_portal.description=Build a portal out of Glitched Obsidian. However, a regular Flint and Steel ain't going to trigger the glitch, you'll need something more fiery, like a Fire Rune. Once the portal is done, you can hop in if you want, but the only thing greeting you will be the void. [Enter the Nether.]
 
 advancements.levitated.end.deep_learner.title=Operation: Glitched
-advancements.levitated.end.deep_learner.description=To start working towards building a glitched portal to the Nether, you need to start simulating mob behaviors. There aren't that many mobs in the End, so go ahead and pick your favorite.
+advancements.levitated.end.deep_learner.description=To start working towards building a glitched portal to the Nether, you need to start simulating mob behaviors. There aren't that many mobs in the End, so go ahead and pick your favorite. [Craft a Deep Learner.]
 
 advancements.levitated.end.machine_block.title=Divided by Zero
-advancements.levitated.end.machine_block.description=If you want more generators, you can try some from Extra Utilities 2, but without Nether Quartz, crafting the Machine Block can be quite a hassle.
+advancements.levitated.end.machine_block.description=If you want more generators, you can try some from Extra Utilities 2, but without Nether Quartz, crafting the Machine Block can be quite a hassle. [Craft a Machine Block.]
 
 advancements.levitated.end.sag_mill.title=Double Madness
-advancements.levitated.end.sag_mill.description=Running low on ores even with the Orechid? Get this SAG Mill now and worry no more!
+advancements.levitated.end.sag_mill.description=Running low on ores even with the Orechid? Get this SAG Mill now and worry no more! [Craft a Simple SAG Mill.]
 
 advancements.levitated.end.alloy_smelter.title=Reinforcement
-advancements.levitated.end.alloy_smelter.description=Melting different substances together reinforces them, fascinating. Experts call this "Alloying".
+advancements.levitated.end.alloy_smelter.description=Melting different substances together reinforces them, fascinating. Experts call this "Alloying". [Craft a Simple Alloy Smelter.]
 
 advancements.levitated.end.assembler.title=Avengers!
-advancements.levitated.end.assembler.description=Although simpler machines can be crafted by hand, you'll have to use an Assembler for more complex machines.
+advancements.levitated.end.assembler.description=Although simpler machines can be crafted by hand, you'll have to use an Assembler for more complex machines. [Craft an Assembler.]
 
 advancements.levitated.end.solder.title=Solder Soldier
-advancements.levitated.end.solder.description=Solder is a great alloy for creating machines. To create a Bucket of Solder, simply right click on fire with a Bucket of Solder Powder.
+advancements.levitated.end.solder.description=Solder is a great alloy for creating machines. To create a Bucket of Solder, simply right click on fire with a Bucket of Solder Powder. [Obtain a bucket of Solder.]
 
 advancements.levitated.end.scanner.title=Operation: Regenerate
-advancements.levitated.end.scanner.description=The Nether is empty right now, but you can change that. By combining the power of the Biome Scanner and the Terrain Scanner, one can easily shape the world in seconds. They do require a lot more power than normal machines tho.
+advancements.levitated.end.scanner.description=The Nether is empty right now, but you can change that. By combining the power of the Biome Scanner and the Terrain Scanner, one can easily shape the world in seconds. They do require a lot more power than normal machines tho. [Craft a Terrain Scanner and a Biome Scanner.]
 
 advancements.levitated.end.netherrack.title=Earth of Hell
-advancements.levitated.end.netherrack.description=Bring a capacitor to the Nether and start rebuilding! What was shall be once more...
+advancements.levitated.end.netherrack.description=Bring a capacitor to the Nether and start rebuilding! What was shall be once more... [Obtain a Netherrack.]
 
 advancements.levitated.end.drying_rack.title=Drying Wisdom
 advancements.levitated.end.drying_rack.description=If you want to make Drying Racks, you'll find that Wyrmwood is a bit too hard for creating slabs, try using something softer. Maybe a bucket of Mana can help you out.
