@@ -114,7 +114,7 @@
             <oceanBlock>thermalfoundation:fluid_mana</oceanBlock>
             <spawnable weight="1" groupMin="1" groupMax="2">thermalfoundation:blitz</spawnable>
         </planet>
-        <planet name="Explosive-kok" DIMID="1006" customIcon="marslike">
+        <planet name="Fork-Wrench" DIMID="1006" customIcon="marslike">
             <isKnown>true</isKnown>
             <fogColor>#FF0000</fogColor>
             <skyColor>#FF0000</skyColor>
@@ -128,7 +128,7 @@
                 <ore block="minecraft:diamond_ore" minHeight="0" maxHeight="16" clumpSize="8" chancePerChunk="2" />
             </oreGen>
             <rotationalPeriod>24001</rotationalPeriod>
-            <fillerBlock>minecraft:tnt</fillerBlock>
+            <fillerBlock>minecraft:obsidian</fillerBlock>
             <oceanBlock>tconstruct:blood</oceanBlock>
             <seaLevel>65</seaLevel>
         </planet>
