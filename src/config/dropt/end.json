@@ -157,6 +157,16 @@
       "drops": [
         {
           "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items" : [
+              "netherendingores:ore_end_vanilla:0"
+            ]
+          }
+        },
+        {
+          "selector": {
             "weight": {
               "value": 2
             }
@@ -246,6 +256,16 @@
       "drops": [
         {
           "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items" : [
+              "netherendingores:ore_end_vanilla:1"
+            ]
+          }
+        },
+        {
+          "selector": {
             "weight": {
               "value": 2
             }
@@ -333,6 +353,16 @@
       },
       "replaceStrategy": "REPLACE_ALL",
       "drops": [
+        {
+          "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items" : [
+              "netherendingores:ore_end_vanilla:6"
+            ]
+          }
+        },
         {
           "selector": {
             "weight": {
@@ -431,6 +461,16 @@
       "drops": [
         {
           "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items" : [
+              "netherendingores:ore_end_vanilla:5"
+            ]
+          }
+        },
+        {
+          "selector": {
             "weight": {
               "value": 2
             }
@@ -527,6 +567,16 @@
       "drops": [
         {
           "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items" : [
+              "netherendingores:ore_nether_modded_1:9"
+            ]
+          }
+        },
+        {
+          "selector": {
             "weight": {
               "value": 2
             }
@@ -621,6 +671,16 @@
       },
       "replaceStrategy": "REPLACE_ALL",
       "drops": [
+        {
+          "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items" : [
+              "netherendingores:ore_nether_modded_1:10"
+            ]
+          }
+        },
         {
           "selector": {
             "weight": {
