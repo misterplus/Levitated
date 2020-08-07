@@ -8,6 +8,9 @@ recipes.remove(<advancedrocketry:advrocketmotor>);
 recipes.remove(<advancedrocketry:rocketmotor>);
 recipes.remove(<advancedrocketry:satelliteprimaryfunction:4>);
 recipes.remove(<advancedrocketry:satellite>);
+recipes.removeShaped(<libvulpes:productrod:6> * 4, [[<ore:ingotSteel>, null, null],[null, <ore:ingotSteel>, null], [null, null, <ore:ingotSteel>]]);
+recipes.removeShaped(<libvulpes:productrod:4> * 4, [[<ore:ingotCopper>, null, null],[null, <ore:ingotCopper>, null], [null, null, <ore:ingotCopper>]]);
+recipes.removeShaped(<libvulpes:productrod:1> * 4, [[null, null, <ore:ingotIron>],[null, <ore:ingotIron>, null], [<ore:ingotIron>, null, null]]);
 
 //add
 recipes.addShaped(<libvulpes:structuremachine> * 16, [[<ore:stickIron>, <ore:plateIron>, <ore:stickIron>],[<ore:plateIron>, <techreborn:machine_frame:2>, <ore:plateIron>], [<ore:stickIron>, <ore:plateIron>, <ore:stickIron>]]);

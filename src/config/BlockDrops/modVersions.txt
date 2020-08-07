@@ -122,7 +122,7 @@
   "chesttransporter": "2.8.8",
   "ironchest": "1.12.2-7.0.67.844",
   "minecraft": "1.12.2",
-  "tconstruct": "1.12.2-2.13.0.171",
+  "tconstruct": "1.12.2-2.13.0.183",
   "theoneprobe": "1.4.28",
   "mousetweaks": "2.10",
   "itemstages": "2.0.49",
