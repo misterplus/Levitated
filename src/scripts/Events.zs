@@ -95,11 +95,23 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 //the end
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 	var player = event.player as IPlayer;
-	if (!player.world.remote && event.to == 6666) {
+	if (!player.world.remote && event.to == 2000) {
 		var data = player.data;
 		if !(data has "HasFinished") {
 			player.give(<contenttweaker:trophy>);
 			player.update(data + {"HasFinished": 1});
 		}
+	}
+	if (!player.world.remote && event.to == 2000) {
+        player.executeCommand("gamerule sendCommandFeedback false");
+        player.executeCommand("gamerule commandBlockOutput false");
+        player.executeCommand("gamerule logAdminCommands false");
+        player.executeCommand("advancement grant @s only triumph:levitated/easteregg/valkyrja");
+        player.executeCommand("setblock -1536 64 -1524 air");
+        player.executeCommand("setblock -1536 64 -1524 redstone_block");
+		player.executeCommand("gamemode 2 @s");
+	}
+	if (!player.world.remote && event.to != 2000 && !player.creative ) {
+		player.executeCommand("gamemode 0 @s");
 	}
 });

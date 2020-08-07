@@ -402,6 +402,9 @@ advancements.levitated.easteregg.root.description=If you found a easter egg by c
 advancements.levitated.easteregg.feather.title="Feather" Falling
 advancements.levitated.easteregg.feather.description=Alright, this is kind of a lame pun. But this enchantment negates all fall damage!
 
+advancements.levitated.easteregg.valkyrie.title=Visit Hyperion
+advancements.levitated.easteregg.valkyrie.description=Welcome to .... Wait, where's my ship
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.

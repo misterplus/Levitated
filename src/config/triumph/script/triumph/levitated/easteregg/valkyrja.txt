@@ -1,0 +1,12 @@
+setIcon(<minecraft:stone>)
+
+setTranslatedTitle("advancements.levitated.easteregg.valkyrie.title")
+setTranslatedDescription("advancements.levitated.easteregg.valkyrie.description")
+
+addParent("triumph:levitated/easteregg/root")
+setShowToast(true)
+setPos(344,-84)
+setFrameType("CHALLENGE")
+hideLines()
+
+criteria = addCriteria("impossible", "minecraft:impossible")

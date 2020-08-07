@@ -402,6 +402,9 @@ advancements.levitated.easteregg.root.description=如果你发现了一个复活
 advancements.levitated.easteregg.feather.title=像羽毛一样落下
 advancements.levitated.easteregg.feather.description=这是个双关语，§m请语文课代表赏析一下§r好吧，意思就是你能免疫所有的摔落伤害，听起来不错吧？
 
+advancements.levitated.easteregg.valkyrie.title=到访休伯利安
+advancements.levitated.easteregg.valkyrie.description=欢迎上....我的船呢？
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
 tooltips.levitated.origin_book=右击来设置你的重生点（只能使用一次，少侠请慎重）

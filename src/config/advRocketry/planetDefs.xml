@@ -148,6 +148,9 @@
             <seaLevel>80</seaLevel>
             <spawnable weight="1" groupMin="1" groupMax="1">minecraft:ghast</spawnable>
         </planet>
+        <planet name="Hyperion (休伯利安星)" DIMID="2000" customIcon="earthlike" dimMapping="">
+            <isKnown>true</isKnown>
+        </planet>
         <planet name="Kepler-22p" DIMID="6666" customIcon="earthlike">
             <isKnown>false</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
