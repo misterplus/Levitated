@@ -10,6 +10,13 @@ mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:rail>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:detector_rail>);
 mods.tconstruct.Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
 
+//Dupe bug
+mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:minecart>);
+mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <techreborn:iron_furnace>);
+mods.tconstruct.Melting.removeRecipe(<liquid:copper>, <techreborn:cable>);
+mods.tconstruct.Melting.removeRecipe(<liquid:tin>, <techreborn:cable:1>);
+mods.tconstruct.Melting.removeRecipe(<liquid:gold>, <techreborn:cable:2>);
+
 mods.tconstruct.Melting.removeRecipe(<liquid:lumium>, <thermalfoundation:material:102>);
 mods.tconstruct.Melting.removeRecipe(<liquid:signalum>, <thermalfoundation:material:101>);
 mods.tconstruct.Melting.removeRecipe(<liquid:enderium>, <thermalfoundation:material:103>);
