@@ -95,7 +95,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 //the end
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 	var player = event.player as IPlayer;
-	if (!player.world.remote && event.to == 2000) {
+	if (!player.world.remote && event.to == 6666) {
 		var data = player.data;
 		if !(data has "HasFinished") {
 			player.give(<contenttweaker:trophy>);
