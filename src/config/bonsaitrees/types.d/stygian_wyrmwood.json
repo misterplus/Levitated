@@ -10,27 +10,37 @@
         {
             "name": "minecraft:stick",
             "data": 0,
-            "type": "STICK"
+            "type": "CUSTOM",
+            "count": 15,
+            "chance": 0.2
         },
         {
             "name": "stygian:endlog",
             "data": 0,
-            "type": "WOOD"
+            "type": "CUSTOM",
+            "count": 5,
+            "chance": 0.75
         },
         {
             "name": "stygian:endcanopysapling",
             "data": 0,
-            "type": "SAPLING"
+            "type": "CUSTOM",
+            "count": 5,
+            "chance": 0.05
         },
         {
             "name": "stygian:endleaves",
             "data": 0,
-            "type": "LEAVES"
+            "type": "CUSTOM",
+            "count": 5,
+            "chance": 0.1
         },
         {
             "name": "minecraft:apple",
             "data": 0,
-            "type": "FRUIT"
+            "type": "CUSTOM",
+            "count": 10,
+            "chance": 0.2
         }
     ],
     "compatibleSoilTags": ["end_stone"]

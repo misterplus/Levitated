@@ -48,8 +48,8 @@
 				"material": "end_stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 20,
-			"min-height": 10,
+			"cluster-count": 22,
+			"min-height": 20,
 			"max-height": 55,
 			"dimension": {
 				"restriction": "whitelist",
@@ -183,7 +183,7 @@
 				"material": "end_stone",
 				"cluster-size": 7
 			},
-			"cluster-count": 2,
+			"cluster-count": 4,
 			"center-height": 40,
 			"spread": 15,
 			"dimension": {
@@ -211,8 +211,8 @@
 				],
 				"cluster-size": 9
 			},
-			"cluster-count": 20,
-			"min-height": 10,
+			"cluster-count": 18,
+			"min-height": 20,
 			"max-height": 65,
 			"biome": {
 				"restriction": "whitelist",

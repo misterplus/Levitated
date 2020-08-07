@@ -10,6 +10,7 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:16
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:166>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
 mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:38>);
+mods.immersiveengineering.Crusher.removeRecipesForInput(<thermalfoundation:ore:5>);
 
 //add
 //The End
@@ -23,8 +24,7 @@ addMineral("Copper", 170, 0.10, ["oreEndCopper"], [1], [1]);
 addMineral("Tin", 180, 0.10, ["oreEndTin"], [1], [1]);
 addMineral("Lead", 140, 0.15, ["oreEndLead"], [1], [1]);
 //Nether
-addMineral("Nether Quartz", 163, 0.10, ["oreNetherQuartz"], [1], [-1]);
-addMineral("Certus Quartz", 163, 0.10, ["oreNetherCertusQuartz", "oreNetherChargedCertusQuartz"], [0.92, 0.08], [-1]);
+addMineral("Quartz", 326, 0.10, ["oreNetherQuartz", "oreNetherCertusQuartz", "oreNetherChargedCertusQuartz"], [0.5, 0.46, 0.04], [-1]);
 addMineral("Aluminum", 140, 0.15, ["oreNetherAluminum"], [1], [-1]);
 addMineral("Nickel", 120, 0.15, ["oreNetherNickel"], [1], [-1]);
 addMineral("Silver", 130, 0.15, ["oreNetherSilver"], [1], [-1]);
@@ -45,4 +45,7 @@ mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:32>, <ore:stoneMarb
 mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:4>, <ore:stoneBasalt>, 4096);
 
 //Refined steel
-mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19> * 2, <immersiveengineering:metal:8> * 3, <immersiveengineering:material:7>, 200, 1024, [<techreborn:dust:8> * 2, <immersiveengineering:material:17> * 2], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19> * 2, <ore:ingotSteel> * 3, <immersiveengineering:material:7>, 200, 1024, [<techreborn:dust:8> * 2, <immersiveengineering:material:17> * 2], "Alloying");
+
+//Remove platinum from nickel
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:69> * 2, <ore:oreNickel>, 6000);

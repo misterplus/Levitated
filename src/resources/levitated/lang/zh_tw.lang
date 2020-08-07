@@ -1,421 +1,444 @@
-#Levitated 客製化進度
+# Levitated自訂進度
 
 # The End
-advancements.levitated.end.root.title=終界の始 - Tips.為了您的遊玩體驗，請使用自定義物品重設出生點
-advancements.levitated.end.root.description=終界龍之後？不，比這更糟，折躍門的引力將你吸入，面對安德和虛空，你選擇了試圖逃離這裡
+advancements.levitated.end.root.title=終末亦是開始
+advancements.levitated.end.root.description=主世界轟然崩塌，你不慎跌入終界，不幸中的萬幸，你碰巧又墜入折躍門中，沒有了末影龍的侵擾，你開始思考怎麼逃出去...
 
-advancements.levitated.end.chorus_fruit.title=異常的水果
-advancements.levitated.end.chorus_fruit.description=歌萊果，但好像有點不同
+advancements.levitated.end.chorus_fruit.title=不同尋常的水果
+advancements.levitated.end.chorus_fruit.description=這種水果好像有點副作用，不過至少不會有生命危險。[吃一顆紫頌果]
 
-advancements.levitated.end.ender_lilly.title=異變的植物
-advancements.levitated.end.ender_lilly.description=百合花，不過是終界款式的，會和末地石發生化學反應產出終界珍珠
+advancements.levitated.end.ender_lilly.title=詭異的..植物？
+advancements.levitated.end.ender_lilly.description=破壞一株末影百合以獲取一些末影百合種子。將它種在末地石上，就會源源不斷地吸收末影能量，最終結出一顆末影珍珠。[獲得一個末影百合種子]
 
-advancements.levitated.end.end_matter.title=世界的物質
-advancements.levitated.end.end_matter.description=終界珍珠在落地時碎裂成了一些物質，安德和界伏蚌似乎也是使用終界珍珠傳§kxxxxxxxxxxxxxxxxxx§r裡面似乎記載了什麼。§kxxxxxxxxxxxxxxxxxx
+advancements.levitated.end.end_matter.title=世界的碎片
+advancements.levitated.end.end_matter.description=使用末影珍珠快速趕路時，你發現落腳點會出現一個末地物質。這是由於你自身攜帶著主世界崩塌後流竄的各種元素造成的，所以末地的本土生物傳送時並不會出現。[獲得一個末地物質]
 
-advancements.levitated.end.endstone_shard.title=終界碎片
-advancements.levitated.end.endstone_shard.description=史蒂夫擁有常人無法理解的怪力，是時候空手碎大石了
+advancements.levitated.end.endstone_shard.title=地之碎片
+advancements.levitated.end.endstone_shard.description=空手破壞末地石可以獲得末地石碎片，它的鋒利程度足夠製作工具了。[獲得一個末地石碎片]
 
-advancements.levitated.end.end_log.title=力氣的副作用
-advancements.levitated.end.end_log.description=嘗試空手破壞木頭時你將它化為粉末，鋒利的終界石碎片吸引了你，Ohhhhhhh，簡易工具誕生了！，不過樹皮去哪裡了？
+advancements.levitated.end.end_log.title=脆弱的生命
+advancements.levitated.end.end_log.description=龍樹原木只能通過斧頭採集，但末地石的硬度似乎也足夠，但碎片的不規則鋸齒有時會把原木直接割成木板，祝你好運。[獲得一個龍木木板]
 
-advancements.levitated.end.tool_station.title=進階的工具
-advancements.levitated.end.tool_station.description=記憶突然湧現，這使你的工匠之魂熊熊燃燒，但是哪個材料更好呢？
+advancements.levitated.end.tool_station.title=生存必需品
+advancements.levitated.end.tool_station.description=有了工具裝配台後，你就能夠做一些你需要的工具了。不過看起來現在只有末地石和龍木這兩種材料。[製作一個工具裝配台]
 
-advancements.levitated.end.furnace.title=終界款熱門焦點
-advancements.levitated.end.furnace.description=依靠記憶，你合成出來了一個冶煉爐，雖然有些簡陋，但勉強是夠現在使用了
+advancements.levitated.end.furnace.title=小身材大熱量
+advancements.levitated.end.furnace.description=使用末地石製作一個熔爐。雖然這個熔爐還談不上非常完美，但你仍然可以用它來冶煉礦石。[製作一個熔爐]
 
-advancements.levitated.end.mana_pool.title=原住民的遺物
-advancements.levitated.end.mana_pool.description=熟悉的廢墟，不熟悉的廢墟，空氣中瀰漫著魔力的氣息
+advancements.levitated.end.mana_pool.title=先人的遺產
+advancements.levitated.end.mana_pool.description=除了無法探本窮源的末地船，你還發現了另一種人造的建築，先人們在裡面為後人留下一些殘留了些許魔力的物品，例如魔力池。[獲得一個魔力池]
 
-advancements.levitated.end.liquid_mana.title=神の餽贈
-advancements.levitated.end.liquid_mana.description=空的魔力池可不能幫你做事，你環顧四周，發現到處都是液態魔力，也許可以將它們倒進池子裡
+advancements.levitated.end.liquid_mana.title=上帝的恩賜
+advancements.levitated.end.liquid_mana.description=沒有魔力的魔力池對你來說是食之無味棄之可惜，幸運的是，幽冥之林群系(Stygian Growth)中有天然的魔法池，但這種液態魔力極不穩定，所以只能用最基礎的處理方式，還是儘快找到能穩定它的方法吧。[撈一桶魔力]
 
-advancements.levitated.end.mana_usage.title=馬娜轉換
-advancements.levitated.end.mana_usage.description=記憶再次湧現，但是能轉化的不只是記憶中的物品
+advancements.levitated.end.mana_usage.title=朝氣蓬勃
+advancements.levitated.end.mana_usage.description=魔力有很多特殊的作用，比如把幽冥草地變為鮮草草地，把紫頌花變為骨塊。這意味著你現在可以養花了，耶！[製作一個花肥]
 
-advancements.levitated.end.living_blocks.title=淨化
-advancements.levitated.end.living_blocks.description=白雛菊擁有強大的淨化力，可是我沒有石頭怎麼辦
+advancements.levitated.end.living_blocks.title=充滿活力
+advancements.levitated.end.living_blocks.description=白雛菊能讓末地石煥發生機，這意味著你可以用它製作活石以及其他材料，例如活木。[獲得一個活木和一個活石]
 
-advancements.levitated.end.altar.title=注入
-advancements.levitated.end.altar.description=早知道就備一點種子了，現在只能希望這個奇怪的種子還有用
+advancements.levitated.end.altar.title=池中的小生命
+advancements.levitated.end.altar.description=在研究植物的過程中，花藥台能幫你製作很多神奇的花朵，在此之前，你還需要準備一些種子。不過，這裡似乎並沒有充滿生命力的綠色種子？希望這死氣沉沉的紫色種子能幫上一些忙吧。[製作一個花藥台]
 
-advancements.levitated.end.water.title=生命之源
-advancements.levitated.end.water.description=記憶中白雛菊可以把水變成冰，那麼酸應該是含有水分的吧
+advancements.levitated.end.water.title=源泉!哦不!這是圓寂泉
+advancements.levitated.end.water.description=通過觀察身邊的怪物,你發現在酸性平原群系(Acidic Plains)中的幽冥酸液會對生物造成傷害,但通過適當的處理,它能夠淨化成水,這過程是漫長且枯燥的,可不要睡著了。還有一點,這不是主世界,並沒有所謂的無限水.[撈一桶幽冥酸液]
 
-advancements.levitated.end.clay_flower.title=兒童之友
-advancements.levitated.end.clay_flower.description=終界岩漿塊，魔力液體，沙子，黏土花，黏土，一氣呵成
+advancements.levitated.end.clay_flower.title=小朋友都喜歡它
+advancements.levitated.end.clay_flower.description=一朵叫粘土花的小花可以幫助你把沙子變為粘土，那麼問題來了，沙子怎麼獲得？[製作一個粘土花]
 
-advancements.levitated.end.coke_oven.title=燒成灰燼吧
-advancements.levitated.end.coke_oven.description=木頭在灰燼的路上越走越遠，百事可樂公司宣佈對此負責
+advancements.levitated.end.coke_oven.title=可口可樂末地分公司
+advancements.levitated.end.coke_oven.description=普通的熔爐無法讓你精確地控制火候來燒制木炭，但焦爐可以！[搭建一台焦爐]
 
-advancements.levitated.end.enderdagger.title=安德獵手
-advancements.levitated.end.enderdagger.description=別忘了訂閱製作者們的YouTube頻道！
+advancements.levitated.end.enderdagger.title=末地獵人
+advancements.levitated.end.enderdagger.description=植物學家需要用來防身的武器，末影人似乎對這把匕首散發出的特殊能量非常抗拒，那如果直接用匕首砍它們呢？[製作一個靈魂匕首]
 
-advancements.levitated.end.ender_iron.title=虛空礦物
-advancements.levitated.end.ender_iron.description=聚影鐵，安德們都喜歡，也許生怪塔是個不錯的選擇
+advancements.levitated.end.ender_iron.title=天外末影技術
+advancements.levitated.end.ender_iron.description=稍強一些的末影人擁有將某種末地元素注入鐵礦石的能力，適當的處理這種礦物後，你成功得到了一種叫做聚影鐵的新金屬。[獲得一個聚影鐵礦石]
 
-advancements.levitated.end.grass_seeds.title=無光環境
-advancements.levitated.end.grass_seeds.description=雖然終界種子可以種出花，但它是不可再生的，是時候發揮煉金術士的特長了
+advancements.levitated.end.grass_seeds.title=末地可沒有光合作用
+advancements.levitated.end.grass_seeds.description=雖然終末種子能夠製造花朵，但它們是不可再生的。在你瞭解了一些煉金魔法後，獲得其他的種子已經不成問題。試了幾次，你發現小麥種子很適合作為'母種'來轉化。[獲得一個小麥種子]
 
-advancements.levitated.end.string.title=String 未定義
-advancements.levitated.end.string.description=終界只有安德和龍，植物纖維是個不錯的選擇
+advancements.levitated.end.string.title=亞洲捆綁
+advancements.levitated.end.string.description=由於周邊並沒有動物，工業大麻成為線的主要來源。[獲得一根線]
 
-advancements.levitated.end.alfheim.title=四維空間
-advancements.levitated.end.alfheim.description=逃出終界後沒有主世界也只是徒勞，奧爾夫海姆的精靈們似乎對創建世界有所研究。
+advancements.levitated.end.alfheim.title=第四維度
+advancements.levitated.end.alfheim.description=待在末地並不能幫你重建主世界，但去下界肯定可以！但是要怎麼做呢？通過流覽植物魔法辭典，你發現了艾爾夫海姆(Alfheim)，這個維度容納了數以千計的精靈，它們可能對下界有所瞭解。
 
-advancements.levitated.end.alchemy.title=究極煉金術士
-advancements.levitated.end.alchemy.description=煉金催化器的原料可不好搞，探索天上的廢棄飛船可能會有所發現
+advancements.levitated.end.alchemy.title=終極煉金
+advancements.levitated.end.alchemy.description=末地非常貧瘠，但煉金催化器還是可以憋出來的。探索一些末地船，看看你能發現什麼。[製作一個煉金催化器]
 
-advancements.levitated.end.fire_rune.title=惡龍吐息
-advancements.levitated.end.fire_rune.description=在去地獄之前可沒辦法獲取一些材料，貌似龍息可以代替火之符文的材料，之前飛船裡的鞘翅可能有些幫助
+advancements.levitated.end.fire_rune.title=清新口氣你我更親近
+advancements.levitated.end.fire_rune.description=還記得末影龍嗎？我們也許得去看望她一下。前往下界之前，很難獲得蘊含火能量的物品，所以製作火之符文比以前難得多。還好，龍息的灼熱感說明裡面有一些火元素，但殺死那條龍並不簡單...[製作一個火之符文]
 
-advancements.levitated.end.terra_plate.title=匯聚
-advancements.levitated.end.terra_plate.description=集齊5種符文即可合成泰拉凝聚板，泰拉鋼是搭建精靈傳送門的重要材料，你應該先備好一些魔力
+advancements.levitated.end.terra_plate.title=藍色的菜板
+advancements.levitated.end.terra_plate.description=精靈門需要泰拉鋼，但製作泰拉鋼之前，你還需要先製作並搭建泰拉凝聚板，如果你已經有了五種元素符文，我想這並不會太難。[製作一個泰拉凝聚板]
 
-advancements.levitated.end.terrasteel.title=囤積魔力
-advancements.levitated.end.terrasteel.description=大量的魔力！為了開啟精靈門，值得慶幸的是，精靈門十分穩定，魔力耗盡也不會主動關閉，只需要重新補充就行
+advancements.levitated.end.terrasteel.title=泰拉X亞：試試植物魔法！
+advancements.levitated.end.terrasteel.description=製作泰拉鋼需要大量的魔力，對於像你這樣剛剛入門的植物學家，這會是個很大的挑戰。[製作一個泰拉鋼]
 
-advancements.levitated.end.natura_pylon.title=傳送穩定裝置
-advancements.levitated.end.natura_pylon.description=自然水晶所需的終界之眼有了新的替代品
+advancements.levitated.end.natura_pylon.title=傳送門核心的核心
+advancements.levitated.end.natura_pylon.description=製作這些自然水晶需要末影之眼，但你已經找到了完美的替代物。[製作一個自然水晶]
 
-advancements.levitated.end.nether_knowledge.title=下地獄去吧
-advancements.levitated.end.nether_knowledge.description=傳送門框架會發生故障，精靈們貌似對此有些研究
+advancements.levitated.end.nether_knowledge.title=地底世界
+advancements.levitated.end.nether_knowledge.description=之前，要前往下界，你需要在主世界搭建一個傳送門。但與精靈們交換了一些資訊後，你得知在末地搭建一個"故障"的下界傳送門也許能指引你前往下界。但下界也成為一片虛無了，你需要找到一種方法來重建下界。[獲得一個下界竹帛]
 
-advancements.levitated.end.infinity_dust.title=無限資源
-advancements.levitated.end.infinity_dust.description=書籍讓你知道有種使用終界能源的方法，但是這需要基岩的幫助，如果之前沒有與終界龍戰鬥的話，是時候了
+advancements.levitated.end.infinity_dust.title=以地之根本,取無限之利
+advancements.levitated.end.infinity_dust.description=閱讀了那本書後，你知道你該做什麼了：製作一台能恢復生態的機器！基岩能幫助你在有限的資源中獲得無限的資源，但從哪能找到基岩呢？哦對！主島的黑曜石柱上！如果你還沒有殺死那條龍，現在是時候解決她了！[獲得一個基岩粉]
 
-advancements.levitated.end.end_orechid.title=等價交換
-advancements.levitated.end.end_orechid.description=魔力換礦物，終於也對魔法界出手了麼，終界款凝礦蘭
+advancements.levitated.end.end_orechid.title=轟轟轟
+advancements.levitated.end.end_orechid.description=厭倦了找礦?如果你有多餘的魔力，那就試試影礦蘭吧！[製作一個影礦蘭]
 
-advancements.levitated.end.stirling_gen.title=斯大林發電機
-advancements.levitated.end.stirling_gen.description=俄羅斯的究極發電藝術，德國工業友情支援 §0是的你只能製作這個
+advancements.levitated.end.stirling_gen.title=斯特林工業
+advancements.levitated.end.stirling_gen.description=全球限量，性能遙遙領先，簡潔、實惠又不失內涵！[製作一台簡易斯特林發電機]
 
-advancements.levitated.end.simulation_chamber.title=深度學習
-advancements.levitated.end.simulation_chamber.description=刷怪塔失業了，TPS友好型怪物產物產出設備
+advancements.levitated.end.simulation_chamber.title=深度知識
+advancements.levitated.end.simulation_chamber.description=長期的屠殺怪物，讓你變得有些潔癖，希望模擬室能幫你緩一下。[製作一台模擬室]
 
-advancements.levitated.end.keystone.title=捉蟲
-advancements.levitated.end.keystone.description=試煉會發現隱藏的系統異常，你需要排除這些錯誤，才能拿到對應的材料
+advancements.levitated.end.keystone.title=故障試煉
+advancements.levitated.end.keystone.description=系統故障只會出現在試煉中，試煉需要一把測試秘鑰來開啟。更多資訊請在指南中查閱。不過，在試煉中你可能會遇到一些飛行的生物。它們有幾率掉落一個你暫時還無法使用的物品。[製作一個測試金鑰]
 
-advancements.levitated.end.glitched_oby.title=系§kxxxxxx§r異§kxxxxxx§r
-advancements.levitated.end.glitched_oby.description=傳送門框架十分可靠，可是一般的打火石在終界似乎無法激活它，精靈們對此有些研究
+advancements.levitated.end.glitched_oby.title=系統§k故kokok§r障
+advancements.levitated.end.glitched_oby.description=僅僅用黑曜石搭建一個傳送門框架並不能讓你進入下界，你需要給普通的黑曜石添加一些小"故障"，在你思考該怎麼做時，泰拉凝聚板向你發出了微弱的光芒。[製作一個故障黑曜石]
 
-advancements.levitated.end.nether_portal.title=虛無の門
-advancements.levitated.end.nether_portal.description=尋常火焰並不能激活故障的傳送門，熾熱而又蘊含魔力的符文冥冥中與之有些呼應。最終迎接你的依然是一片虛無
+advancements.levitated.end.nether_portal.title=通向...虛無的門?
+advancements.levitated.end.nether_portal.description=尋常火焰並不能啟動故障的傳送門，熾熱而又蘊含魔力的符文冥冥中與之有些呼應。啟動傳送門後，你就可以前往下界了，但是迎接你的只有一片虛無..[進入下界]
 
-advancements.levitated.end.deep_learner.title=指令：異常
-advancements.levitated.end.deep_learner.description=建造通往地獄的傳送門之前，你先需要一次模擬戰鬥來獲取它的認可
+advancements.levitated.end.deep_learner.title=源計畫: 故障
+advancements.levitated.end.deep_learner.description=要想搭建一個通往下界的傳送門，你首先需要類比怪物的習性。末地的怪物種類屈指可數，所以，不要選擇困難，挑選你喜歡的然後開始吧![製作一個深度學習器]
 
-advancements.levitated.end.machine_block.title=零式分割
-advancements.levitated.end.machine_block.description=機器方塊可是個問題，它們很不穩定
+advancements.levitated.end.machine_block.title=巫異時刻,零式分割
+advancements.levitated.end.machine_block.description=如果你想製作更多的發電機，你可以看看更多實用設備2（EXU2）。但在獲得下界石英之前，製作機器方塊是件相當麻煩的事。[製作一個機器方塊]
 
-advancements.levitated.end.sag_mill.title=雙倍麻煩
-advancements.levitated.end.sag_mill.description=發電本來就是件麻煩事，現在還要多供一台SAG磨粉機，不過有投入就有回報
+advancements.levitated.end.sag_mill.title=雙倍"瘋"量
+advancements.levitated.end.sag_mill.description=影礦蘭都不能滿足你對礦物的需求？那好吧，或許你能用SAG磨粉機在處理過程中增加一些礦石產量。[製作一台簡易SAG磨粉機]
 
-advancements.levitated.end.alloy_smelter.title=你被強化了，快送！
-advancements.levitated.end.alloy_smelter.description=合金爐也可以當一個簡易熔爐使用
+advancements.levitated.end.alloy_smelter.title=強化,加固
+advancements.levitated.end.alloy_smelter.description=把不同的金屬融合在一起，會使它們更堅硬、更強大，冶金專家稱之為"合金"。[製作一台簡易合金爐]
 
-advancements.levitated.end.assembler.title=複惆者
-advancements.levitated.end.assembler.description=更高級的機器框架需要編寫電路板來操控
+advancements.levitated.end.assembler.title=不是沒技術,只是懶^^
+advancements.levitated.end.assembler.description=儘管你可以手捏簡易的機器，但要製作更複雜更高級的機器，你得需要一台裝配機。[製作一台裝配機]
 
-advancements.levitated.end.solder.title=焊接專精
-advancements.levitated.end.solder.description=焊料是製造機械的重要部分，用桶裝焊料粉末右擊火焰可以得到焊料
+advancements.levitated.end.solder.title=小心燙傷
+advancements.levitated.end.solder.description=焊料非常適合製作機器。用桶裝焊料粉右擊火焰就能製成一桶焊料。[獲得一個焊料桶]
 
-advancements.levitated.end.scanner.title=指令：重生
-advancements.levitated.end.scanner.description=地獄空蕩蕩，創造在人間，重建地獄需要大量的能源。
+advancements.levitated.end.scanner.title=源計畫: 復蘇
+advancements.levitated.end.scanner.description=雖然下界現在是一片虛無，但你仍可以借助機器的力量重建它。生物群系掃描器和地形掃描器能夠在很短的時間內塑造世界。但它們需要的能量比其他機器要多得多。[製作一個地形掃描器和一個生物群系掃描器]
 
-advancements.levitated.end.netherrack.title=我們必須更深入一點
-advancements.levitated.end.netherrack.description=但總得先有個落腳的地方
+advancements.levitated.end.netherrack.title=下界重建，爺青回！
+advancements.levitated.end.netherrack.description=將電容器帶到下界，然後開始你的重建大業吧！隨著電量的減少，眼前的虛無與記憶中的深紅漸漸重合...[獲得一塊地獄岩]
 
-advancements.levitated.end.drying_rack.title=史蒂夫的弱點
-advancements.levitated.end.drying_rack.description=儘管你可以空手碎大石，但是龍木木板可不給你面子，它比末地石還要硬！晾乾架只能考慮別的方法了
+advancements.levitated.end.drying_rack.title=一滴都沒有了
+advancements.levitated.end.drying_rack.description=有些東西需要晾乾架，但你的力量並不足以手捏龍木臺階，所以尋找一種更加柔軟的材料來製作晾乾架吧！(液態魔力或許能軟化木頭。[製作一個靈慧樹晾乾架]
 
-advancements.levitated.end.blue_lotus.title=非人工
-advancements.levitated.end.blue_lotus.description=Stygian Growth 的 Enbiotic 可以吸收並存儲魔力，隨之將變成藍蓮花，將它扔入魔力池類似乎可以釋放儲存的魔力
+advancements.levitated.end.blue_lotus.title=這真不是色素染的
+advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth)中，你能發現一種叫"冥燈草"的植物，它看起來十分詭異並閃著微小的光。經過嘗試，你發現它能夠穩定並吸收魔力，並轉變為藍蓮花，把它扔進魔力池中就能夠釋放它儲存的魔力。[製作一朵藍蓮花]
 
-advancements.levitated.end.feather.title=羽落
-advancements.levitated.end.feather.description=魔力似乎可以賦予某些東西活力
+advancements.levitated.end.feather.title=附魔創生
+advancements.levitated.end.feather.description=打個響指就能召喚一隻鳥那是電影裡的劇情，但我聽說魔法能賦予任何事物生命，甚至一張紙！恰巧，你有這些魔力...[獲得一根羽毛]
+
+advancements.levitated.end.bed.title=甜蜜的夢
+advancements.levitated.end.bed.description=小搖床，輕輕晃，末影人，在身旁，紫紫眼睛盯著你，點床不能入夢鄉，復活可以在床旁。[製作一個床]
 
 # The Nether
-advancements.levitated.nether.root.title=♫Dead Soul♫
-advancements.levitated.nether.root.description=方塊不僅僅是給你準備的，還有怪物
+advancements.levitated.nether.root.title=無魂之壤
+advancements.levitated.nether.root.description=在你到來之前，這個世界只有寂靜。但隨著你眼前的虛無重新被填滿，怪物有了落腳之地，你得小心點...
 
-advancements.levitated.nether.altar.title=生命的希望
-advancements.levitated.nether.altar.description=地獄的材料幫助你完成了一個生命祭壇，從中你感受到了動物的氣息
+advancements.levitated.nether.altar.title=祭壇中的小生命
+advancements.levitated.nether.altar.description=通過把在下界發現的新資源組合起來，你成功製作了一個祭壇。你可以用它復活一些動物！§e但創造小生命可不是百分之百能成功的。§r [製作一個鑄造祭壇]
 
-advancements.levitated.nether.rotten_pork.title=地獄的美味
-advancements.levitated.nether.rotten_pork.description=僵尸豬人只會掉落一些腐爛的玩意，祭壇對此似乎有些反應
+advancements.levitated.nether.rotten_pork.title=好吃(?的下界火熏豬肉
+advancements.levitated.nether.rotten_pork.description=僵屍豬人不會再掉落金粒或金錠，但它們會以很小的幾率掉落腐爛的豬肉，你可以用它在召喚儀式中召喚豬豬。[獲得一塊腐爛的豬肉]
 
-advancements.levitated.nether.chicken_ring.title=已馴化
-advancements.levitated.nether.chicken_ring.description=家養雞可不會飛
+advancements.levitated.nether.chicken_ring.title=別想了這是家雞，不會飛的
+advancements.levitated.nether.chicken_ring.description=將雞的靈魂封印在指環後，指環就擁有了減緩你墜落速度的能力。但你渴求的是飛行，經過不斷地嘗試，你終於發現了正確的升級方法。[製作一枚雞翅膀指環]
 
-advancements.levitated.nether.chassis.title=你不能把它放下
-advancements.levitated.nether.chassis.description=石英是個優良的導電材料，說不定可以用來改良機器框架
+advancements.levitated.nether.chassis.title=科技第一步，框架來幫助
+advancements.levitated.nether.chassis.description=機器框架是製作進階機器的必需品，而具有超強導電性的下界石英恰好能用來製作它。[製作一個機器框架]
 
-advancements.levitated.nether.resonator.title=調諧
-advancements.levitated.nether.resonator.description=共振現象能改變材料的性質，使它更加高效！
+advancements.levitated.nether.resonator.title=共振 §m啪啪啪§r
+advancements.levitated.nether.resonator.description=在共振儀中，你可以將普通的材料共振轉變為與之對應的高品質材料，這些材料非常適合用來製作機器。[製作一台共振儀]
 
-advancements.levitated.nether.blaze_rod.title=火の高興
-advancements.levitated.nether.blaze_rod.description=重建地獄時候也會創造出生怪箱，同時地獄磚塊上也會誕生烈焰神
+advancements.levitated.nether.blaze_rod.title=火之高興
+advancements.levitated.nether.blaze_rod.description=烈焰人偶爾會生成在下界的地獄磚上，§m但如果你去下界前擦了粉底§r，說不定就能在地獄堡壘發現烈焰人刷怪籠。[獲得一根烈焰棒]
 
-advancements.levitated.nether.wither_skeleton.title=焦骨
-advancements.levitated.nether.wither_skeleton.description=熔岩石的高溫可以讓骨頭燒黑
+advancements.levitated.nether.wither_skeleton.title=燒焦的骨頭
+advancements.levitated.nether.wither_skeleton.description=凋零骷髏偶爾會聚集在下界的熔岩石上，但熔岩石並不是隨處可見...[擊殺一隻凋靈骷髏]
 
-advancements.levitated.nether.star.title=地獄之星
-advancements.levitated.nether.star.description=是時候挑戰凋零了
+advancements.levitated.nether.star.title=星星點燈，照亮我家門~
+advancements.levitated.nether.star.description=凋靈，下界最具有危險性的生物，它的能力好像來自於體內那顆星星，這顆星星具有難以想像的強大力量，有時候，人需要一些貪婪...[獲得一顆下界之星]
 
-advancements.levitated.nether.stargen.title=高危作業
-advancements.levitated.nether.stargen.description=這台發電機能使你充滿力量，直到過載
+advancements.levitated.nether.stargen.title=核電？爪巴！
+advancements.levitated.nether.stargen.description=重建下界生態會消耗大量的電，這台發電機或許能幫上大忙。[製作一台下界之星發電機]
 
-advancements.levitated.nether.withermodel.title=量子複製
-advancements.levitated.nether.withermodel.description=深度怪物學習對TPS非常友好！再一次！
+advancements.levitated.nether.withermodel.title=量子§m速讀§r模擬
+advancements.levitated.nether.withermodel.description=獲得大量的下界之星可不簡單，但只要思想不滑坡，方法總比困難多，深度知識模型就是方法之一。[製作一個凋零資料模型]
 
 advancements.levitated.nether.alloy.title=高級合金
-advancements.levitated.nether.alloy.description=升級一下你的合金爐，儘管不是很有必要
+advancements.levitated.nether.alloy.description=之後的機器會需要更多的合金，你最好著手製作一台更快的合金爐。[製作一台合金爐]
 
-advancements.levitated.nether.blast_furnace.title=不穩定的高爐
-advancements.levitated.nether.blast_furnace.description=烈焰棒的高溫非常適合建造高爐，但還算不上高效
+advancements.levitated.nether.blast_furnace.title=熱量更高，速度更慢
+advancements.levitated.nether.blast_furnace.description=烈焰棒憑藉自身永恆的燃燒，源源不斷地向外界散發超高熱量。憑藉這種特性，你成功製作出高爐磚！雖然這種高爐磚品質不算太好，但搭出的高爐還是挺實用的。[搭建一座高爐]
 
 advancements.levitated.nether.compiron.title=壓力山大
-advancements.levitated.nether.compiron.description=TNT爆炸產生的衝擊波可以改變鋼錠的性質，剛好，你的電路板需要它
+advancements.levitated.nether.compiron.description=借著TNT的超強爆炸力，鋼錠能夠被壓縮成密度更大的材料。這種材料非常適合用來製作電路板。[獲得一個壓縮鋼錠]
 
-advancements.levitated.nether.chamber.title=高壓無塵
-advancements.levitated.nether.chamber.description=這很科學，確保電路板正常需要無塵環境
+advancements.levitated.nether.chamber.title=加壓，組裝
+advancements.levitated.nether.chamber.description=不管怎樣，你得用機器來印刷電路板。最理想的方法就是無塵環境中組裝它們。[製作一個壓力室牆壁]
 
-advancements.levitated.nether.interface.title=記得實現接口
-advancements.levitated.nether.interface.description=浪費是可恥的，壓力室接口可以幫助你保持氣壓
+advancements.levitated.nether.interface.title=比用手“掏”好
+advancements.levitated.nether.interface.description=厭倦了每次都要先破壞壓力室才能拿到你的東西？試試壓力室介面吧！[製作一個壓力室介面]
 
-advancements.levitated.nether.empty_pcb.title=更乾淨的板子
-advancements.levitated.nether.empty_pcb.description=電路板的基板
+advancements.levitated.nether.empty_pcb.title=Pretty Clean Board（PCB）
+advancements.levitated.nether.empty_pcb.description=要製作電路板，你需要先製作一個空印刷電路板。[製作一個空印刷電路板]
 
-advancements.levitated.nether.pcb_blueprint.title=電路板工程圖
-advancements.levitated.nether.pcb_blueprint.description=這個崩塌的世界竟然還有網購服務
+advancements.levitated.nether.pcb_blueprint.title=光能印刷
+advancements.levitated.nether.pcb_blueprint.description=你需要印刷電路板藍圖才能製作一個能工作的電路板。還好，你會網購，是吧？[購買一張印刷電路板藍圖]
 
-advancements.levitated.nether.oil.title=黑色液體黃金
-advancements.levitated.nether.oil.description=乙烯需要石油，岩芯鑽井可以幫助你進行探索
+advancements.levitated.nether.oil.title=黑色的金子
+advancements.levitated.nether.oil.description=你需要一些塑膠來製作電路板。在此之前，你還要采一些石油，當然，你不能用手撈，先搭一個採油機-吧。[搭建一台採油機]
 
-advancements.levitated.nether.refinery.title=效率至上
-advancements.levitated.nether.refinery.description=分餾石油需要足夠高的溫度
+advancements.levitated.nether.refinery.title=肝帝都是著重效率的
+advancements.levitated.nether.refinery.description=直接燃燒石油非常浪費！你需要先從石油中分餾出其他有用的物質。[製作一台煉油廠]
 
-advancements.levitated.nether.lpg.title=離乙烯就差一步
-advancements.levitated.nether.lpg.description=液化石油氣也能作為一種高效的液體燃料
+advancements.levitated.nether.lpg.title=高品質，放心用
+advancements.levitated.nether.lpg.description=液化石油氣是一種非常高效的燃料。並且也是製作液態塑膠的必需品。[獲得一桶液化石油氣]
 
-advancements.levitated.nether.plastic.title=塑料片
-advancements.levitated.nether.plastic.description=製版染色一氣呵成
+advancements.levitated.nether.plastic.title=環境不太友好
+advancements.levitated.nether.plastic.description=你終於獲得了一片塑膠！不要忘記在它乾燥之前染上色。[製作一台塑膠混合機]
 
-advancements.levitated.nether.tablet.title=不是亞馬遜
-advancements.levitated.nether.tablet.description=網購服務真的十分便利，但總覺得是村民在背後運作
+advancements.levitated.nether.tablet.title=只要998，把愛帶回家！
+advancements.levitated.nether.tablet.description=你的技術被荒蕪的環境所限制，所以不要吝嗇自己的錢，從其他地方網購些東西吧！啊~如果你有的話^^[製作一台Amadron 平板電腦]
 
-advancements.levitated.nether.pcb.title=電路板成型
-advancements.levitated.nether.pcb.description=如果還是不會的話可以參考一下書籍
+advancements.levitated.nether.pcb.title=微型電路
+advancements.levitated.nether.pcb.description=現在，我很確信你能夠自己做一個電路板了。如果還有什麼不懂的，不用擔心，你還有一本書可以參考。[製作一個印刷電路板]
 
-advancements.levitated.nether.excavator.title=虛假的採礦
-advancements.levitated.nether.excavator.description=你永遠不知道斗輪機可以從哪裡挖出礦來
+advancements.levitated.nether.excavator.title=巨量礦藏
+advancements.levitated.nether.excavator.description=現在，世界中的礦物肯定不夠你使用的了。物理方法沒用了，你需要尋找一種“魔法”的方法，或者往更深處挖掘。也許鬥輪式挖掘機能夠幫上大忙。[搭建一台鬥輪式挖掘機]
 
-advancements.levitated.nether.induction.title=熱量堆積
-advancements.levitated.nether.induction.description=感應爐比合金爐更高溫！
+advancements.levitated.nether.induction.title=警告警告，過熱！
+advancements.levitated.nether.induction.description=合金爐能製作合金。但是某些合金需要更高的溫度，比如信素和流明。你需要用感應爐來製作它們。[製作一台感應爐]
 
-advancements.levitated.nether.overworld_star.title=這都是為了這個世界
-advancements.levitated.nether.overworld_star.description=精靈都是財迷，但你沒有他們想要的古物，或許可以偽裝下地獄之星
+advancements.levitated.nether.overworld_star.title=偷天換日
+advancements.levitated.nether.overworld_star.description=還記得那些精靈嗎？它們說，它們願意給你提供一些關於主世界的資訊，但是需要一些它們感興趣的古物。很顯然，你沒有。但這個用下界之星鍛造成的假古物或許能蒙混過關...[製作一個主世界之星]
 
-advancements.levitated.nether.overworld_knowledge.title=不是蛋糕
-advancements.levitated.nether.overworld_knowledge.description=精靈們真的接受了你的禮物，但重返主世界需要彩虹的力量
+advancements.levitated.nether.overworld_knowledge.title=這只是善意的謊言
+advancements.levitated.nether.overworld_knowledge.description=哈哈！它們竟然非常喜歡！你獲得了大量關於主世界的資訊，好消息是，你可以通過搭建傳送門前往主世界，但顯然不是之前的黑曜石傳送門。壞消息是，你需要借助彩虹的力量才能搭建傳送門...但在末地或下界...找到彩虹？[獲得生命法球]
 
-advancements.levitated.nether.rainbowgen.title=彩虹七號：拆遷
-advancements.levitated.nether.rainbowgen.description=彩虹發電機能夠改變附近機器的效果，賦予它們彩虹的力量
+advancements.levitated.nether.rainbowgen.title=彩虹七號：突圍
+advancements.levitated.nether.rainbowgen.description=經過數天的尋找，你終於找到和彩虹有關的東西了。但要獲得它，你得費些功夫了。儘管你能手搓，但設計一套自動化線路會減少很多麻煩。[製作一台彩虹發電機]
 
-advancements.levitated.nether.rainbow_ingot.title=彩虹錠
-advancements.levitated.nether.rainbow_ingot.description=鈾錠和彩虹石形成了新的合金，你很清楚這就是你需要的，彩虹橋法杖也能幫得上忙
+advancements.levitated.nether.rainbow_ingot.title=離家最近又最遠的路
+advancements.levitated.nether.rainbow_ingot.description=將一些彩虹石覆蓋於鈾錠之上，你成功製成了一種新的材料！使用它搭建傳送門並用彩虹橋法杖啟動吧！是時候回家了！[製作一個彩虹錠]
 
-advancements.levitated.nether.veinmine.title=連鎖採礦
-advancements.levitated.nether.veinmine.description=可是你都有挖礦機了，不是麼
+advancements.levitated.nether.veinmine.title=人工採掘
+advancements.levitated.nether.veinmine.description=如果你仍然在手動一個個挖東西的話，那就試試挖掘強化吧！你可以使用它強化你的匠魂工具。在下界，它能幫助你更輕鬆地找到礦物！[製作一個挖掘強化]
 
-advancements.levitated.nether.shulker_ring.title=短暫飛行
-advancements.levitated.nether.shulker_ring.description=潛影貝的力量能使你短暫浮空，但這還不夠
+advancements.levitated.nether.shulker_ring.title=自由§m飛§r翔
+advancements.levitated.nether.shulker_ring.description=將潛影貝的靈魂封印到雞翅膀指環中後，指環會被賦予讓玩家飛行的能力！emmm... 某種程度上算是。[製作一枚潛影貝懸浮指環]
 
-advancements.levitated.nether.angel_ring.title=遠古天翼族
-advancements.levitated.nether.angel_ring.description=蓋亞，天翼族的守護者，它的靈魂或許對飛行有些幫助，提前準備萬箭附魔很有必要
+advancements.levitated.nether.angel_ring.title=揮著翅膀的史蒂夫
+advancements.levitated.nether.angel_ring.description=從技術層面上講，改進潛影貝漂浮指環是有可能的。但想要實現，你需要擊殺一個遠古生物——蓋亞守護者。你似乎還沒這麼大能耐...[製作一枚天使指環]
 
-advancements.levitated.nether.press.title=星外來客
-advancements.levitated.nether.press.description=你的網購系統貌似連上了外星球，數字化存儲物品也許不再是妄想
+advancements.levitated.nether.press.title=外星科技？
+advancements.levitated.nether.press.description=現在有一些特殊的壓印範本在售，你需要購買一些來為之後的數位化存儲做準備。[購買所有的壓印範本]
+
+advancements.levitated.nether.skystone.title=天空即為極限
+advancements.levitated.nether.skystone.description=在下界或末地找到隕石好像不太現實，為什麼不試試神奇的魔法呢？[製作一塊隕石]
 
 # Overworld
-advancements.levitated.overworld.root.title=重返地表
-advancements.levitated.overworld.root.description=但這裡已經不適合居住了，面對末地和地獄，你選擇了探索其他的內地星球
+advancements.levitated.overworld.root.title=日月輪轉，星辰閃耀
+advancements.levitated.overworld.root.description=你成功回來了！但現在看來，這裡已經完全不適合人類居住了。整個世界僅剩一片虛無，太陽依舊刺眼，但恒星的引力與不穩定的熱量將你拒之門外，也許，那些閃耀的星星能夠帶來希望。
 
-advancements.levitated.overworld.refined_iron.title=精煉 “鐵” 錠
-advancements.levitated.overworld.refined_iron.description=比鋼更好！
+advancements.levitated.overworld.refined_iron.title=鐵是鐵，鋼是鋼，精煉一次菜的慌
+advancements.levitated.overworld.refined_iron.description=顯然，將鐵精煉一次是遠遠不夠製作更高級的機器的，再精煉一次鋼說不定可行，但怎麼做呢？[製作一個精煉鋼錠]
 
-advancements.levitated.overworld.rubber.title=絕緣防護
-advancements.levitated.overworld.rubber.description=重建的部分主世界讓你發現了橡膠樹，如果你不想被電的話最好給導線包上一層
+advancements.levitated.overworld.water.title=誰不喜歡水多？
+advancements.levitated.overworld.water.description=水資源短缺？ 河流和海洋群系擁有無窮無盡的水！[到訪海洋生物群系]
 
-advancements.levitated.overworld.blast_furnace.title=工業復興
-advancements.levitated.overworld.blast_furnace.description=碳酸鈣單元可以讓鐵錠一步到位
+advancements.levitated.overworld.rubber.title=你愛吃大香蕉嗎
+advancements.levitated.overworld.rubber.description=好吧，這東西和香蕉沒什麼關係。它們非常適合用來製作線纜！安全用電，寶貝們~ [獲得一些粘性樹脂]
 
-advancements.levitated.overworld.distiller.title=高溫蒸餾
-advancements.levitated.overworld.distiller.description=在漫長的等待中，你發現了配方的不足之處，蒸餾水或許可以提升效率
+advancements.levitated.overworld.blast_furnace.title=這裡越來越熱了！
+advancements.levitated.overworld.blast_furnace.description=搭建工業高爐能夠讓你製作碳酸鈣單元，這能直接將鐵錠轉化為精煉鋼錠，大大提升效率。[製作一個工業高爐]
 
-advancements.levitated.overworld.voidminer.title=真正的虛空挖掘
-advancements.levitated.overworld.voidminer.description=起碼比斗輪機科學了，不是麼
+advancements.levitated.overworld.distiller.title=抓住那一道靈光
+advancements.levitated.overworld.distiller.description=製作精煉鋼錠的過程十分枯燥，你選擇粗讀配方來打發時間，突然，你發現碳酸鈣也許能幫你簡化產線。理清了思路後，你準備先用蒸餾器蒸餾一些水。[搭建一台蒸餾器]
+
+advancements.levitated.overworld.voidminer.title=虛空能量
+advancements.levitated.overworld.voidminer.description=將大好時光花在挖礦上屬實浪費，為什麼不把多餘的電量利用起來呢？這台機器能夠將虛空能量物質化，並以礦物的形式聚合。在某些部分做點改變後，它就能將虛空能量物化為植物或各種資源。[製作一個一級虛空礦物採掘機控制器]
 
 advancements.levitated.overworld.machine_frame.title=機器框架
-advancements.levitated.overworld.machine_frame.description=究竟是誰搞出來這麼多種不同的框架的！
+advancements.levitated.overworld.machine_frame.description=樸實無華的機器框架。[製作一個基礎機械框架]
 
-advancements.levitated.overworld.recycler.title=回收再利用
-advancements.levitated.overworld.recycler.description=但你最好不要回收廢料
+advancements.levitated.overworld.recycler.title=環境友好，綠色健康
+advancements.levitated.overworld.recycler.description=科技的發展總是伴隨著廢料的產生。之前扔掉這些廢料的時候，你就在思考有什麼方法能迴圈利用，畢竟沒有垃圾車來幫你運走垃圾，現在看來似乎找到比較好的方法了。[製作一個回收機]
 
-advancements.levitated.overworld.voidminer2.title=虛空重定向
-advancements.levitated.overworld.voidminer2.description=虛空中的這些寶石似乎可以改進礦機本身，甚至重定向到更多的礦物
+advancements.levitated.overworld.voidminer2.title=大膽嘗試
+advancements.levitated.overworld.voidminer2.description=經常手搓機器的你，練就了一雙啥都想去修修改改的魔爪，這台虛空挖掘機也§m難逃一死§r變得更加強大。它能夠將虛空能量更加純粹地物化為稀有礦石，比如銥、鈦和綠寶石。[製作一個四級虛空礦物採掘機控制器]
 
-advancements.levitated.overworld.uumachine.title=不知道該放哪
-advancements.levitated.overworld.uumachine.description=在元素週期表上還沒有它的名字，於是按照慣例，它被稱作UU
+advancements.levitated.overworld.uumachine.title=無中生有
+advancements.levitated.overworld.uumachine.description=事實證明，那些廢料再加工之後，能夠用來製作一種富有創造性的物質。你將它命名為UU物質。掌握了這項技術之後，你可以隨手捏出大量稀有礦物。[製作一個物質機]
 
-advancements.levitated.overworld.fusion.title=可控核聚變
-advancements.levitated.overworld.fusion.description=總感覺少了些啥，對了，是鉑礦！
+advancements.levitated.overworld.fusion.title=核聚變
+advancements.levitated.overworld.fusion.description=雖然現在你有很多機器可以使用，但造火箭可不是兒戲，何況還得載你前往宜居的星球，所以所用的材料必須經過多次推敲、實驗。銥和鈦雖然看起來還不錯，但總是差那麼一點兒，也許你得把目光往並不存在於這顆星球的物質上放放了... 也許鉑能擔此大任。[製作一個聚變控制電腦]
 
-advancements.levitated.overworld.quantum_quarry.title=平行世界真的存在麼
-advancements.levitated.overworld.quantum_quarry.description=遇事不決，量子力學，量子採礦，都是石頭
+advancements.levitated.overworld.quantum_quarry.title=量子隧道
+advancements.levitated.overworld.quantum_quarry.description=鉑也許是這顆星球上第一種人造物質，但肯定不是最後一種。事實上，你甚至能夠從另一個世界"借"一些物質，它有著一個高大上的名字—量子採掘。[搭建一個量子採石場]
 
 advancements.levitated.overworld.structure.title=流浪
-advancements.levitated.overworld.structure.description=你的科技並不足夠建造行星發動機，只好建造台火箭來逃離這裡
+advancements.levitated.overworld.structure.description=沒有了原本各個生態的相互制衡，主世界的環境變得非常惡劣。你長留此地的念頭頓時被風暴吹散了，但末地同樣令人嘔吐，進退兩難的你，只有一種選擇——移民到其他星球。開始建造火箭吧！[製作一個機器結構方塊]
 
-advancements.levitated.overworld.rocket.title=火箭起航
-advancements.levitated.overworld.rocket.description=你也只能利用火箭旅行
+advancements.levitated.overworld.rocket.title=太空旅行！...航太班延誤了
+advancements.levitated.overworld.rocket.description=物競天擇，適者生存，這同樣適用於其他星球。辛苦的探查後，你發現有些星球充滿了生命，但那的環境並不適合人類居住，如此反復，或許到最後也找不到能夠移居的星球，所以你得借助火箭的力量了。[製作一台火箭組裝機]
 
-advancements.levitated.overworld.space_station.title=“國際”空間站
-advancements.levitated.overworld.space_station.description=形式已經不重要了，有個落腳方塊都行
+advancements.levitated.overworld.space_station.title=史上最low空間站
+advancements.levitated.overworld.space_station.description=在地球上，你的雙手能舉千斤，但你的肉眼並不能看透浩瀚的宇宙，去探查外星球的奧秘，你最好把你的腳抬得高一些。簡單來說，就是搭建一座空間站。[製作一台太空站組裝機]
 
-advancements.levitated.overworld.warp.title=躍遷
-advancements.levitated.overworld.warp.description=超越光的速度！
+advancements.levitated.overworld.warp.title=銀河穿梭
+advancements.levitated.overworld.warp.description=太陽系內的星球已經被先人探索得差不多了，你在此基礎上也沒有發現什麼驚喜。你知道的，這已經不能依靠火箭了，希望你能勇敢邁入躍遷之"門"，帶上行囊，向著太陽系外繼續尋求希望吧。[製作一台躍遷控制器]
 
-advancements.levitated.overworld.satellite.title=太空望遠鏡
-advancements.levitated.overworld.satellite.description=記得安裝太陽能板，總不可能用愛發電
+advancements.levitated.overworld.satellite.title=得力助手
+advancements.levitated.overworld.satellite.description=你需要收集一些資料，並在躍遷控制器裡搜索新的星球，而衛星剛好能勝任。千萬別忘了安裝太陽能板組件，你總不能用愛發電吧？[製作一個衛星]
 
-advancements.levitated.overworld.fueling_station.title=無線加油
-advancements.levitated.overworld.fueling_station.description=自動加油的機器，只不過每次都要手動建立連接
+advancements.levitated.overworld.fueling_station.title=加油！奧利給！
+advancements.levitated.overworld.fueling_station.description=你或許能用右手做任何事，包括給火箭加油，但沒人不喜歡一勞永逸，建議做一台燃油站來代替你的雙手。 (使用EIO的火箭燃料) [製作一台燃油站]
 
-advancements.levitated.overworld.satellite_station.title=拒絕訪問
-advancements.levitated.overworld.satellite_station.description=訪問衛星上的數據可不能依靠腦電波，你需要一個衛星終端
+advancements.levitated.overworld.satellite_station.title=這裡的5G不'傳染'
+advancements.levitated.overworld.satellite_station.description=衛星收集的資料不會自己下載，你需要一台衛星終端來下載這些資料。[製作一台衛星終端]
 
-advancements.levitated.overworld.insulated_wire.title=絕緣線纜
-advancements.levitated.overworld.insulated_wire.description=這樣你就不會成為電線桿上的鳥兒了
+advancements.levitated.overworld.insulated_wire.title=絕緣
+advancements.levitated.overworld.insulated_wire.description=專業的科研人員總會使用橡膠來保護自己。[製作一根絕緣銅質導線]
 
 advancements.levitated.overworld.kepler.title=長路漫漫，唯念作伴
-advancements.levitated.overworld.kepler.description=躍遷也不是一瞬到達，但起碼比火箭直達快多了
+advancements.levitated.overworld.kepler.description=經過了漫長的躍遷，你終於找到了一個類地星球。
 
-advancements.levitated.overworld.spacesuit.title=缺氧
-advancements.levitated.overworld.spacesuit.description=太空服不一定是必須品，給你的裝備加上密封裝置！
+advancements.levitated.overworld.spacesuit.title=穿戴整齊
+advancements.levitated.overworld.spacesuit.description=你不是奧特曼，你在宇宙中需要太空服的保護。別忘了裝上氧氣罐。[製作一套太空服]
 
 advancements.levitated.overworld.adv_scanner.title=高級掃描
-advancements.levitated.overworld.adv_scanner.description=雙倍的效率！
+advancements.levitated.overworld.adv_scanner.description=基礎掃描器雖然能滿足需求，但科技發展後，你有能力將其升級成兩倍的效率，你不會拒絕吧？[製作一個生物群系掃描器(高級).]
 
 # Resources
-
 advancements.levitated.resources.root.title=末地礦物
-advancements.levitated.resources.root.description=右側是關於末地礦物的資訊
+advancements.levitated.resources.root.description=右側是關於末地礦物的資料。[獲得相匹配的礦石/方塊來完成進度]
 
-advancements.levitated.resources.end_iron.title=新發現
-advancements.levitated.resources.end_iron.description=隨你一起進入終界的還有主世界的物質，不僅僅有礦物，還有些廢墟
+advancements.levitated.resources.end_iron.title=礦物精華
+advancements.levitated.resources.end_iron.description=隨著主世界的崩潰坍塌，一些礦物分解為精華墜入虛空，並在末地石中慢慢復原，礦物包括§7鐵§r、§e金§r、§4紅石§r和§1青金石§r。
 
-advancements.levitated.resources.end_coal.title=廢墟探險
-advancements.levitated.resources.end_coal.description=煤炭在終界可是稀有物品，木頭也不在可以燒成木炭，或許應該去 Stygian Growth 看看
+advancements.levitated.resources.end_coal.title=生命的最後光芒
+advancements.levitated.resources.end_coal.description=雖然你不能在傳統末地群系找到§0煤§r,但在幽冥之林群系(Stygian Growth)中，有許多植物在那生長,凋零,腐敗,或許能夠找到一些.
 
 advancements.levitated.resources.end_diamond.title=虛空寶石
-advancements.levitated.resources.end_diamond.description=鑽石比較喜歡特立獨行，選擇了掛在終界大陸下方，高收益往往伴隨著高風險
+advancements.levitated.resources.end_diamond.description=與其他礦物不同，§b鑽石§r似乎都聚集在末地島嶼之下，在酸性平原群系(Acidic Plains)的斑岩尖刺中生成。
 
-advancements.levitated.end.end_copper.title=煉銅術士
-advancements.levitated.end.end_copper.description=不僅僅是銅礦，錫礦也是一種重要的工業礦物，在 Stygian Growth 應該可以找到許多
+advancements.levitated.resources.end_copper.title=煉銅術士
+advancements.levitated.resources.end_copper.description=§6銅礦§r、§f錫礦§r和§9鉛礦§r都是製作電力機器的必要資源，經過探索，你發現它們會生成在幽冥之林群系(Stygian Growth)中。
 
-advancements.levitated.resources.nether_root.title=地獄礦物
-advancements.levitated.resources.nether_root.description=右側是關於地獄礦物的資訊
+advancements.levitated.resources.nether_root.title=下界礦物
+advancements.levitated.resources.nether_root.description=右側是關於下界礦物的資料。
 
-advancements.levitated.resources.nether_quartz.title=閃閃發光
-advancements.levitated.resources.nether_quartz.description=石英在地獄向來很常見
+advancements.levitated.resources.nether_quartz.title=blingbling的水晶
+advancements.levitated.resources.nether_quartz.description=§f下界石英§r和§b賽特斯石英§r都埋藏於地獄岩中，並且遍佈下界，你可以很輕鬆地挖到它們。
 
-advancements.levitated.resources.nether_aluminum.title=平底鍋的耗材
-advancements.levitated.resources.nether_aluminum.description=總感覺它跟鑽石約好了
+advancements.levitated.resources.nether_aluminum.title=一般都拿來做鍋呢
+advancements.levitated.resources.nether_aluminum.description=和鑽石的生成方式一樣，§d鋁礦§r生成在下界頂部懸掛的§8玄武岩§r倒刺中。
 
-advancements.levitated.resources.nether_nickel.title=吸一口鎳鎳
-advancements.levitated.resources.nether_nickel.description=高溫岩漿
+advancements.levitated.resources.nether_nickel.title=鎳鎳內內呐！
+advancements.levitated.resources.nether_nickel.description=運氣好的話，你能在下界找到§4烈焰之熾焱池§r，玄武岩和§e鎳礦§r常常在周圍生成。
 
 advancements.levitated.resources.nether_silver.title=銀星星沒了:(
-advancements.levitated.resources.nether_silver.description=在地獄會生成螢石、岩漿塊和銀礦構成的尖刺
+advancements.levitated.resources.nether_silver.description=在下界，會生成以§e熒石§r和§6岩漿塊§r組成的尖刺，§f銀礦§r有時會在裡面生成。
 
-advancements.levitated.resources.nether_ardite.title=堅如磐石
-advancements.levitated.resources.nether_ardite.description=阿迪特和伴生的黑曜石少量分佈在地獄底部
+advancements.levitated.resources.nether_ardite.title=糊一臉礦
+advancements.levitated.resources.nether_ardite.description=§6阿迪特§r和§5黑曜石§r少量散佈於下界底部。
 
-advancements.levitated.resources.nether_cobalt.title=咕咕咕
-advancements.levitated.resources.nether_cobalt.description=巨型的黑曜石能有效保護其中的鈷礦，通常能在地獄頂部找到它們
+advancements.levitated.resources.nether_cobalt.title=很快，很硬
+advancements.levitated.resources.nether_cobalt.description=在下界頂部的基岩層，會生成§5巨型黑曜石塊§r，裡面偶爾會伴生§1鈷礦§r。
 
-advancements.levitated.resources.nether_uranium.title=你需要蓋革計數器
-advancements.levitated.resources.nether_uranium.description=地獄底部的熔岩會沉積成熔岩石，其中包含的鈾將以礦石形態呈現
+advancements.levitated.resources.nether_uranium.title=小心輻射
+advancements.levitated.resources.nether_uranium.description=在下界較低的位置，岩層轉變為熔岩石層，§2鈾礦§r沉積於此。下界的熔岩湖下面就能看到這些石頭。
 
-advancements.levitated.resources.overworld_calcite.title=距變質只差一步
-advancements.levitated.resources.overworld_calcite.description=大量的碳酸鈣
+advancements.levitated.resources.overworld_calcite.title=鈣片塞進石頭裡(？
+advancements.levitated.resources.overworld_calcite.description=玄武岩和大理石很適合制鈣。現在你只能通過研磨和離心的方式制取，之後你可以將它們加工成碳酸鈣。
 
-advancements.levitated.resources.overworld_ruby.title=曾經的綠寶石
-advancements.levitated.resources.overworld_ruby.description=已經被移除的東西重新出現在了這個世界基岩上方的虛空石簇之中
+advancements.levitated.resources.overworld_ruby.title="紅石"
+advancements.levitated.resources.overworld_ruby.description=耶！主世界！這意味著你終於可以去找那些閃亮的§2綠§r寶石了...嗎？嘛，我知道這很殘忍，但我還是要告訴你這是不可能滴，但好消息是，你可以在基岩上方的虛空石簇中找到一些閃亮的§4紅寶石§r，相信我，你會需要它們的。
 
-advancements.levitated.resources.overworld_sapphire.title=藍波頓寶石
-advancements.levitated.resources.overworld_sapphire.description=藍寶石擁有非常強的導電性，通常會集中在地下水池邊上
+advancements.levitated.resources.overworld_sapphire.title=天蒼蒼，野茫茫
+advancements.levitated.resources.overworld_sapphire.description=§1藍寶石§r要比§4紅寶石§r貴一些，但導電性比§4紅寶石§r高了不止一點，憑藉這一點，它們能作為很好的儲電材料。它們通常在地下湖周圍的岩石表面出現。
 
-advancements.levitated.resources.overworld_bauxite.title=鋁加土
-advancements.levitated.resources.overworld_bauxite.description=bauxite aluminum 傻傻分不清楚
+advancements.levitated.resources.overworld_bauxite.title=沙箱遊戲？其實是鋁盒噠
+advancements.levitated.resources.overworld_bauxite.description=很缺§d鋁§r嗎？別擔心了！主世界中有成噸的§c鋁土礦§r等著你開採！
 
-advancements.levitated.resources.overworld_tungsten.title=虛空，爆裂！
-advancements.levitated.resources.overworld_tungsten.description=鎢礦能夠突破基岩的束縛！有個飛行道具能夠幫助你找到它們
+advancements.levitated.resources.overworld_tungsten.title=虛空金屬
+advancements.levitated.resources.overworld_tungsten.description=重建了的主世界有些根基不穩，在基岩層偶爾會出現一坨一坨的§8鎢礦§r，經過一系列精煉處理，它們的硬度逐漸拔萃，非常適合當作發展高端科技的材料。
 
-advancements.levitated.resources.overworld_root.title=主世界礦物
-advancements.levitated.resources.overworld_root.description=右側是關於主世界礦物的資訊
+advancements.levitated.resources.overworld_root.title=主世界資源
+advancements.levitated.resources.overworld_root.description=右側是關於主世界礦石的資料。
 
-advancements.levitated.resources.quantum_root.title=量子礦物
-advancements.levitated.resources.quantum_root.description=右側是關於量子礦物的資訊
+advancements.levitated.resources.quantum_root.title=量子提煉
+advancements.levitated.resources.quantum_root.description=右側是關於量子礦物的資料。
 
-advancements.levitated.resources.quantum_platinum.title=本應存在的物質
-advancements.levitated.resources.quantum_platinum.description=輕快好省
+advancements.levitated.resources.quantum_platinum.title=白金天使（萬智牌）
+advancements.levitated.resources.quantum_platinum.description=§f鉑礦§r仿佛自帶美顏，它那白的刺眼的外表總是讓人心生寒意，不過它的這些特質使他頗受火箭工程師的喜愛。
 
 advancements.levitated.resources.quantum_dilithium.title=雙鋰晶體
-advancements.levitated.resources.quantum_dilithium.description=躍遷引擎的核心所在
+advancements.levitated.resources.quantum_dilithium.description=雙鋰是火箭燃料的首選，隱居量子世界的它們一出現就吸引了你。有了它們的幫助，到達數光年以外的星球已不再是挑戰。
 
-advancements.levitated.resources.quantum_mithril.title=魔力鋼
-advancements.levitated.resources.quantum_mithril.description=但不僅僅是魔力加鋼這麼簡單，秘銀可是很稀有的物品
+advancements.levitated.resources.quantum_mithril.title=充滿魔力的金屬
+advancements.levitated.resources.quantum_mithril.description=秘銀或許是魔法與科技對撞數個世紀的產物，它比鋼更硬，但又比紙更輕，真是鬼斧神工。
 
 # Kepler Advancements
 advancements.levitated.kepler.root.title=旅途的終點
-advancements.levitated.kepler.root.description=結束了？再一次旅途的開始而已！
+advancements.levitated.kepler.root.description=好了，你已經找到你的新家了。環顧四周，許多記憶從內心深處浮現。一草一花一木，一山一水一人...願你不忘初心，願你踏遍山河，願你鑄造天地...
 
-advancements.levitated.kepler.beacon.title=黎明將至
-advancements.levitated.kepler.beacon.description=（適用於多人遊戲）信標能夠幫助其他倖存者更快的找到這顆星球
+advancements.levitated.kepler.beacon.title=破曉以後，守護摯友
+advancements.levitated.kepler.beacon.description=如果你不是孤身一人，那麼不要忘了你的肝膽之友，在開普勒建造一個信標，這能將你的座標發送到整個星系，他們能輕易找到這片土地。
 
 # Easter Egg Advancements
-advancements.levitated.easteregg.root.title=踩蛋（非錯字
-advancements.levitated.easteregg.root.description=注意腳下！彩蛋們都將在這裡出現！
+advancements.levitated.easteregg.root.title=復活節彩蛋!
+advancements.levitated.easteregg.root.description=如果你發現了一個復活節彩蛋，相關成就就會出現！
 
-advancements.levitated.easteregg.feather.title=羽落千秋
-advancements.levitated.easteregg.feather.description=你免疫了所有的摔落傷害
+advancements.levitated.easteregg.feather.title=像羽毛一樣落下
+advancements.levitated.easteregg.feather.description=這是個雙關語，§m請語文課代表賞析一下§r好吧，意思就是你能免疫所有的摔落傷害，聽起來不錯吧？
+
+advancements.levitated.easteregg.valkyrie.title=到訪休伯利安
+advancements.levitated.easteregg.valkyrie.description=歡迎上....我的船呢？
 
 # Custom Tooltips
-tooltips.levitated.end_seeds=它本來可以種出什麼的
-tooltips.levitated.origin_book=使用這個物品來重設出生點
-tooltips.levitated.nether_book=使用以查看地獄的資訊
+tooltips.levitated.end_seeds=生命已到盡頭的種子
+tooltips.levitated.origin_book=右擊來設置你的重生點（只能使用一次，少俠請慎重）
+tooltips.levitated.nether_book=右鍵以獲取有關下界的資訊
+tooltips.levitated.overworld_book=右鍵以獲取有關主世界的資訊
 tooltips.levitated.paper_plane_0=把紙展開，將四個角向中線折疊。
 tooltips.levitated.paper_plane_1=以寬為中線對折。
 tooltips.levitated.paper_plane_2=將每個角向中線折疊。
 tooltips.levitated.paper_plane_3=再次將紙豎直折疊。
-tooltips.levitated.paper_plane_4=折出翅膀，使左邊緣與右邊緣對齊。
-tooltips.levitated.paper_plane_5=同樣的方法，折出另一邊的翅膀。
-tooltips.levitated.paper_plane_6=按住潛行鍵和滑鼠右鍵將它放飛！
-tooltips.levitated.mana_paper=沾了魔力的紙張
-tooltips.levitated.mana_paper_2=不是紙片，也不是模型
+tooltips.levitated.paper_plane_4=折出機翼，使左邊緣與右邊緣對齊。
+tooltips.levitated.paper_plane_5=同樣的方法，折出另一邊的機翼。
+tooltips.levitated.paper_plane_6=潛行右鍵將它放飛！
+tooltips.levitated.paper_plane_hidden_0=放在第5個合成格。
+tooltips.levitated.paper_plane_hidden_1=放在第8個合成格。
+tooltips.levitated.paper_plane_hidden_2=放在第2個合成格。
+tooltips.levitated.paper_plane_hidden_3=放在第6個合成格。
+tooltips.levitated.paper_plane_hidden_4=放在第7個合成格。
+tooltips.levitated.paper_plane_hidden_5=放在第5個合成格。
+tooltips.levitated.paper_plane_hidden_6=你看了提示嗎？ :D
+tooltips.levitated.papep_plane_hint=按住shift查看提示。
+tooltips.levitated.mana_paper=將紙垂直對折。
+tooltips.levitated.mana_paper_2=啊?! 這還是張紙! 只是被魔力浸濕了而已!
+tooltips.levitated.endglow=在除了幽冥草地以外的方塊上會逐漸枯萎。
 
-#Levitated JEI Tips
-description.levitated.end_iron_chunk=使用聚影鐵塊右擊龍木木板能夠製作出一塊烈焰木
-description.levitated.paper_plane=疊紙飛機是一件很容易的事情，但是在麥塊裡，你可能需要一個工作台！
-description.levitated.mana_paper=對著工作台或工作站潛行右擊將它對折，在此之前你需要學習有關折紙的知識
-description.levitated.feather=綠色的無羽鳥
+description.levitated.end_iron_chunk=使用聚影鐵碎塊右擊龍木木板就能製作出一塊烈焰木.
+description.levitated.paper_plane=不會疊紙飛機？看看tooltips，在工作臺上瞎搞搞或許就能做出來了呢？
+description.levitated.mana_paper=對著工作臺潛行右鍵來將它對折。別看簡單，其實它需要一些經驗的。之後就能在工作臺內進行進一步折疊。
+description.levitated.feather=幾乎每只鳥都會掉羽毛，而任何有翅膀的東西都能算作鳥，包括紙做的。
 
 # Unfamiliar Items
-unfamiliar.levitated.blaze_rod=火の高興
+unfamiliar.levitated.blaze_rod=熾熱的棍子
+unfamiliar.levitated.blaze_powder=熾熱的粉塵
+unfamiliar.levitated.ore_flower_nether=絢火花
+unfamiliar.levitated.ore_flower=磐石花
 
 # Item Rename
 rename.levitated.shulker_ring=潛影貝懸浮指環
@@ -427,4 +450,12 @@ rename.levitated.refined_iron_nugget=精煉鋼粒
 rename.levitated.refined_iron_plate=精煉鋼板
 
 # Tips
-mods.tips.tips.1=在“旅途的終點”中，你需要在一顆類地行星著陸
+tips.levitated.1=在最後的成就"旅途的終點"中，你需要找到並著陸到一顆類地星球。
+tips.levitated.2=與朋友一起遊玩本包時，記得輸入"/togetherforever invite"命令來同步你們的進度。
+tips.levitated.3=用瓶子撈水時，末地空氣老是搶鏡？試試流體儲罐！
+tips.levitated.4=白雛菊只能在本包自訂的末地遺跡中找到，並且需要一點運氣。如果是在伺服器中，與別人交易或許是個不錯的選擇。
+tips.levitated.5=末地群島中偶爾會夾雜一些黏黏的史萊姆島，但史萊姆們也沒有放棄主世界的家。
+tips.levitated.6=將末影珍珠和墓碑鑰匙合成一下，就能夠用鑰匙直接傳送到墓碑處，這甚至能跨維度。
+tips.levitated.7=每個方塊只能重建一次，所以你無法刷礦脈。
+tips.levitated.8=現在你可以在末地使用床了，我沒有釣魚。
+tips.levitated.9=不要畏懼虛空！某種力量會將你傳送回天上。

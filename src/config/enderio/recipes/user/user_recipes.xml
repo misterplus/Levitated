@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
   <recipe name="Tank: Deep Mob Learning, Overworld Matter" required="false">
     <tanking type="EMPTY" logic="XP">
@@ -91,5 +91,25 @@
       <input name="dyeSoulMachine" />
       <output name="SOUL_CHASSIS" />
     </alloying>
+  </recipe>
+  <recipe name="Sagmill: oreNickel Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreNickel" />
+      <output name="dustNickel" amount="2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Sagmill: Iridium Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreIridium" />
+      <output name="dustIridium" amount="2" />
+      <output name="minecraft:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Enchanter: oeintegration:oreexcavation" required="true" disabled="false">
+    <enchanting>
+      <input name="oeintegration:excavatemodifier" amount="5" />
+      <enchantment name="oeintegration:oreexcavation" costMultiplier="1" />
+    </enchanting>
   </recipe>
 </enderio:recipes>

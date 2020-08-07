@@ -11,11 +11,11 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 1
+				"cluster-size": 2
 			},
 			"cluster-count": 1,
 			"min-height": 0,
-			"max-height": 16,
+			"max-height": 32,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -34,11 +34,11 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 2
+				"cluster-size": 4
 			},
 			"cluster-count": 1,
 			"min-height": 0,
-			"max-height": 16,
+			"max-height": 32,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
@@ -57,11 +57,11 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 8
 			},
 			"cluster-count": 1,
 			"min-height": 0,
-			"max-height": 16,
+			"max-height": 32,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [

@@ -1,6 +1,7 @@
 <galaxy>
     <star name="Sol" temp="100" x="0" y="0">
         <planet DIMID="0" dimMapping="" name="Earth">
+            <isKnown>True</isKnown>
             <planet DIMID="3" name="Luna">
                 <fogColor>1.0,1.0,1.0</fogColor>
                 <skyColor>1.0,1.0,1.0</skyColor>
@@ -20,10 +21,136 @@
             </planet>
         </planet>
         <planet DIMID="1" dimMapping="" name="The End" customIcon="iceworld">
+            <isKnown>True</isKnown>
             <orbitalTheta>180</orbitalTheta>
         </planet>
     </star>
-    <star name="Levitator" temp="100" x="100" y="100">
+    <star name="Yin" temp="10" x="100" y="100" blackHole="true">
+        <star name="Yang" temp="100" separation="75.0" blackHole="false"/>
+        <planet name="Frosty (痴癡星)" DIMID="1002" customIcon="iceworld">
+            <hasRings>true</hasRings>
+            <fogColor>#EE0000</fogColor>
+            <skyColor>#66CCFF</skyColor>
+            <atmosphereDensity>233</atmosphereDensity>
+            <gravitationalMultiplier>66</gravitationalMultiplier>
+            <orbitalDistance>150</orbitalDistance>
+            <orbitalTheta>120</orbitalTheta>
+            <orbitalPhi>60</orbitalPhi>
+            <oreGen>
+                <ore block="minecraft:diamond_ore" minHeight="0" maxHeight="16" clumpSize="8" chancePerChunk="2" />
+            </oreGen>
+            <fillerBlock>minecraft:snow</fillerBlock>
+            <oceanBlock>minecraft:ice</oceanBlock>
+            <spawnable weight="1" groupMin="1" groupMax="1">minecraft:snowman</spawnable>
+            <spawnable weight="1" groupMin="1" groupMax="3">minecraft:sheep</spawnable>
+            <biomeIds>minecraft:frozen_ocean,minecraft:frozen_river,minecraft:ice_flats,minecraft:ice_mountains</biomeIds>
+        </planet>
+        <planet name="Zachary" DIMID="1004" customIcon="marslike">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#00E5EE</fogColor>
+            <skyColor>#6A5ACD</skyColor>
+            <atmosphereDensity>105</atmosphereDensity>
+            <gravitationalMultiplier>70</gravitationalMultiplier>
+            <orbitalDistance>130</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <orbitalPhi>90</orbitalPhi>
+            <oreGen>
+                <ore block="thermalfoundation:ore" minHeight="0" maxHeight="48" clumpSize="8" chancePerChunk="7" />
+                <ore block="minecraft:iron_ore" minHeight="0" maxHeight="48" clumpSize="8" chancePerChunk="6" />
+            </oreGen>
+            <rotationalPeriod>200000</rotationalPeriod>
+            <fillerBlock>extrautils2:compressedgravel</fillerBlock>
+            <oceanBlock>immersivepetroleum:fluid_crude_oil</oceanBlock>
+            <seaLevel>70</seaLevel>
+            <spawnable weight="1" groupMin="1" groupMax="2">minecraft:zombie</spawnable>
+        </planet>
+        <planet name="Randomizer (随机星)" DIMID="1005">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+        </planet>
+        <planet name="AHHHHH (哼哼啊啊啊啊啊)" DIMID="1007" customIcon="marslike">
+            <hasRings>true</hasRings>
+            <orbitalTheta>90</orbitalTheta>
+            <rotationalPeriod>114514</rotationalPeriod>
+            <spawnable weight="1" groupMin="1" groupMax="3">minecraft:ghast</spawnable>
+            <biomeIds>minecraft:desert,minecraft:desert_hills</biomeIds>
+        </planet>
+    </star>
+    <star name="Localizor" temp="100" x="100" y="-100">
+        <planet name="Z-Eternal (曦源星)" DIMID="1003" customIcon="gasgiantred">
+            <hasRings>true</hasRings>
+            <fogColor>#FF00FF</fogColor>
+            <skyColor>#87CEEB</skyColor>
+            <atmosphereDensity>120</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>80</orbitalDistance>
+            <orbitalTheta>130</orbitalTheta>
+            <orbitalPhi>90</orbitalPhi>
+            <oreGen>
+                <ore block="minecraft:redstone_ore" minHeight="0" maxHeight="16" clumpSize="8" chancePerChunk="8" />
+                <ore block="minecraft:lapis_ore" minHeight="0" maxHeight="32" clumpSize="7" chancePerChunk="2" />
+                <ore block="chisel:valentines:9" minHeight="0" maxHeight="16" clumpSize="1" chancePerChunk="1" />
+            </oreGen>
+            <fillerBlock>minecraft:packed_ice</fillerBlock>
+            <oceanBlock>minecraft:lava</oceanBlock>
+            <seaLevel>70</seaLevel>
+            <spawnable weight="1" groupMin="1" groupMax="3">minecraft:chicken</spawnable>
+        </planet>
+    </star>
+    <star name="Levitator" temp="100" x="-100" y="-100">
+        <planet name="Aluminator (铝材星)" DIMID="1000" customIcon="moon">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <orbitalTheta>180</orbitalTheta>
+            <seaLevel>250</seaLevel>
+        </planet>
+        <planet name="Dust Star" DIMID="1001" customIcon="gasgiantblue">
+            <fogColor>#ECB5F8</fogColor>
+            <skyColor>#700DF9</skyColor>
+            <atmosphereDensity>1000</atmosphereDensity>
+            <gravitationalMultiplier>11</gravitationalMultiplier>
+            <orbitalDistance>724</orbitalDistance>
+            <oceanBlock>thermalfoundation:fluid_mana</oceanBlock>
+            <spawnable weight="1" groupMin="1" groupMax="2">thermalfoundation:blitz</spawnable>
+        </planet>
+        <planet name="Fork-Wrench" DIMID="1006" customIcon="marslike">
+            <isKnown>true</isKnown>
+            <fogColor>#FF0000</fogColor>
+            <skyColor>#FF0000</skyColor>
+            <atmosphereDensity>101</atmosphereDensity>
+            <gravitationalMultiplier>111</gravitationalMultiplier>
+            <orbitalDistance>25</orbitalDistance>
+            <orbitalTheta>181</orbitalTheta>
+            <orbitalPhi>91</orbitalPhi>
+            <oreGen>
+                <ore block="minecraft:coal_ore" minHeight="0" maxHeight="120" clumpSize="17" chancePerChunk="20" />
+                <ore block="minecraft:diamond_ore" minHeight="0" maxHeight="16" clumpSize="8" chancePerChunk="2" />
+            </oreGen>
+            <rotationalPeriod>24001</rotationalPeriod>
+            <fillerBlock>minecraft:obsidian</fillerBlock>
+            <oceanBlock>tconstruct:blood</oceanBlock>
+            <seaLevel>65</seaLevel>
+        </planet>
+        <planet name="Cannon" DIMID="1008" customIcon="marslike">
+            <isKnown>true</isKnown>
+            <atmosphereDensity>96</atmosphereDensity>
+            <gravitationalMultiplier>50</gravitationalMultiplier>
+            <orbitalDistance>12</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <orbitalPhi>123</orbitalPhi>
+            <oreGen>
+                <ore block="minecraft:lapis_ore" minHeight="0" maxHeight="32" clumpSize="7" chancePerChunk="2" />
+            </oreGen>
+            <rotationalPeriod>12000</rotationalPeriod>
+            <fillerBlock>stygian:endobsidian</fillerBlock>
+            <oceanBlock>enderio:block_fluid_ender_distillation</oceanBlock>
+            <seaLevel>80</seaLevel>
+            <spawnable weight="1" groupMin="1" groupMax="1">minecraft:ghast</spawnable>
+        </planet>
+        <planet name="Hyperion (休伯利安星)" DIMID="2000" customIcon="earthlike" dimMapping="">
+            <isKnown>true</isKnown>
+        </planet>
         <planet name="Kepler-22p" DIMID="6666" customIcon="earthlike">
             <isKnown>false</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>

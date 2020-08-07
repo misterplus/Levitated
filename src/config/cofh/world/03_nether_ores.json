@@ -57,55 +57,34 @@
 			"distribution": "cave",
 			"ceiling": true,
 			"ground-level": 127,
-			"generator": [
-				{
-					"type": "stalactite",
-					"block": [
-						{
-							"name": "chisel:basalt2",
-							"metadata": 7
-						}
-					],
-					"material": [
-						"netherrack"
-					],
-					"gen-body": "air",
-					"smooth": true,
-					"fat": false,
-					"min-height": 6,
-					"height-variance": 1,
-					"height-mod": 3,
-					"size-variance": 1
-				},
-				{
-					"type": "stalactite",
-					"block": [
-						{
-							"name": "netherendingores:ore_nether_modded_1",
-							"properties": {
-								"blocks": "aluminum_ore"
-							},
-							"weight": 35
+			"generator": {
+				"type": "stalactite",
+				"block": [
+					{
+						"name": "netherendingores:ore_nether_modded_1",
+						"properties": {
+							"blocks": "aluminum_ore"
 						},
-						{
-							"name": "chisel:basalt2",
-							"metadata": 7,
-							"weight": 65
-						}
-					],
-					"material": [
-						"netherrack"
-					],
-					"gen-body": "air",
-					"smooth": true,
-					"fat": false,
-					"min-height": 6,
-					"height-variance": 1,
-					"height-mod": 3,
-					"size-variance": 1
-				}
-			],
-			"cluster-count": 1,
+						"weight": 70
+					},
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7,
+						"weight": 30
+					}
+				],
+				"material": [
+					"netherrack"
+				],
+				"gen-body": "air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 6,
+				"height-variance": 1,
+				"height-mod": 3,
+				"size-variance": 1
+			},
+			"cluster-count": 2,
 			"chunk-chance": 2,
 			"dimension": {
 				"restriction": "whitelist",
@@ -336,14 +315,14 @@
 					"block": [
 						{
 							"name": "chisel:lavastone",
-							"weight": 70
+							"weight": 65
 						},
 						{
 							"name": "netherendingores:ore_nether_modded_1",
 							"properties": {
 								"blocks": "uranium_ore"
 							},
-							"weight": 30
+							"weight": 35
 						}
 					],
 					"material": [
@@ -354,7 +333,7 @@
 				}
 			],
 			"cluster-count": 3,
-			"chunk-chance": 4,
+			"chunk-chance": 3,
             "min-height": 18,
             "max-height": 30,
 			"dimension": {
