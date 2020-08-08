@@ -12,6 +12,9 @@ import mods.ctutils.utils.Math;
 import mods.ctutils.commands.Commands;
 import crafttweaker.data.IData;
 import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.server.IServer;
+import crafttweaker.command.ICommandSender;
+import crafttweaker.command.ICommandManager;
 
 //every ender teleport now creates a extraterrestrail matter on the ground
 events.onEnderTeleport(function(event as EnderTeleportEvent) {
@@ -104,16 +107,17 @@ events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 			player.update(data + {"HasFinished": 1});
 		}
 	}
-
 	//HaocenStar
+	var star = server.commandManager as ICommandManager;
 	if (!player.world.remote && event.to == 2000) {
-        player.executeCommand("gamerule sendCommandFeedback false");
-        player.executeCommand("gamerule commandBlockOutput false");
-        player.executeCommand("gamerule logAdminCommands false");
-        player.executeCommand("advancement grant @s only triumph:levitated/easteregg/valkyrie");
-		player.executeCommand("gamemode 2 @s[m=0]");
+
+        star.executeCommand(server,"gamerule sendCommandFeedback false");
+        star.executeCommand(server,"gamerule commandBlockOutput false");
+        star.executeCommand(server,"gamerule logAdminCommands false");
+        star.executeCommand(server,"advancement grant "+player.name+" only triumph:levitated/easteregg/valkyrie");
+		star.executeCommand(server,"gamemode 2 "+player.name);
 	}
-	if (!player.world.remote && event.to != 2000) {
-		player.executeCommand("gamemode 0 @s[m=2]");
+	if (!player.world.remote && event.from == 2000) {
+		star.executeCommand(server,"gamemode 0 "+player.name);
 	}
 });
