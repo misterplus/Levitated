@@ -106,7 +106,7 @@ events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
         player.executeCommand("gamerule sendCommandFeedback false");
         player.executeCommand("gamerule commandBlockOutput false");
         player.executeCommand("gamerule logAdminCommands false");
-        player.executeCommand("advancement grant @s only triumph:levitated/easteregg/valkyrja");
+        player.executeCommand("advancement grant @s only triumph:levitated/easteregg/valkyrie");
         player.executeCommand("setblock -1536 64 -1524 air");
         player.executeCommand("setblock -1536 64 -1524 redstone_block");
 		player.executeCommand("gamemode 2 @s");
