@@ -92,9 +92,11 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 	}
 });
 
-//the end
+//World Change Event
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 	var player = event.player as IPlayer;
+
+	//the END
 	if (!player.world.remote && event.to == 6666) {
 		var data = player.data;
 		if !(data has "HasFinished") {
@@ -102,16 +104,16 @@ events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 			player.update(data + {"HasFinished": 1});
 		}
 	}
+
+	//HaocenStar
 	if (!player.world.remote && event.to == 2000) {
         player.executeCommand("gamerule sendCommandFeedback false");
         player.executeCommand("gamerule commandBlockOutput false");
         player.executeCommand("gamerule logAdminCommands false");
-        player.executeCommand("advancement grant @s only triumph:levitated/easteregg/valkyrja");
-        player.executeCommand("setblock -1536 64 -1524 air");
-        player.executeCommand("setblock -1536 64 -1524 redstone_block");
-		player.executeCommand("gamemode 2 @s");
+        player.executeCommand("advancement grant @s only triumph:levitated/easteregg/valkyrie");
+		player.executeCommand("gamemode 2 @s[m=0]");
 	}
-	if (!player.world.remote && event.to != 2000 && !player.creative ) {
-		player.executeCommand("gamemode 0 @s");
+	if (!player.world.remote && event.to != 2000) {
+		player.executeCommand("gamemode 0 @s[m=2]");
 	}
 });

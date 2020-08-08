@@ -10,3 +10,4 @@ setFrameType("CHALLENGE")
 hideLines()
 
 criteria = addCriteria("impossible", "minecraft:impossible")
+setRewardFunction("triumph:haocenstructure")
