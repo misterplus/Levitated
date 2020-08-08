@@ -95,11 +95,11 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 	}
 });
 
-//World Change Event
+//change dimension event
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 	var player = event.player as IPlayer;
 
-	//the END
+	//Finale
 	if (!player.world.remote && event.to == 6666) {
 		var data = player.data;
 		if !(data has "HasFinished") {

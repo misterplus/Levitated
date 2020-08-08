@@ -27,7 +27,7 @@
     </star>
     <star name="Yin" temp="10" x="100" y="100" blackHole="true">
         <star name="Yang" temp="100" separation="75.0" blackHole="false"/>
-        <planet name="Frosty (痴癡星)" DIMID="1002" customIcon="iceworld">
+        <planet name="Frosty" DIMID="1002" customIcon="iceworld">
             <hasRings>true</hasRings>
             <fogColor>#EE0000</fogColor>
             <skyColor>#66CCFF</skyColor>
@@ -65,11 +65,11 @@
             <seaLevel>70</seaLevel>
             <spawnable weight="1" groupMin="1" groupMax="2">minecraft:zombie</spawnable>
         </planet>
-        <planet name="Randomizer (随机星)" DIMID="1005">
+        <planet name="Randomizer" DIMID="1005">
             <isKnown>true</isKnown>
             <hasRings>true</hasRings>
         </planet>
-        <planet name="AHHHHH (哼哼啊啊啊啊啊)" DIMID="1007" customIcon="marslike">
+        <planet name="AHHHHH" DIMID="1007" customIcon="marslike">
             <hasRings>true</hasRings>
             <orbitalTheta>90</orbitalTheta>
             <rotationalPeriod>114514</rotationalPeriod>
@@ -78,7 +78,7 @@
         </planet>
     </star>
     <star name="Localizor" temp="100" x="100" y="-100">
-        <planet name="Z-Eternal (曦源星)" DIMID="1003" customIcon="gasgiantred">
+        <planet name="Z-Eternal" DIMID="1003" customIcon="gasgiantred">
             <hasRings>true</hasRings>
             <fogColor>#FF00FF</fogColor>
             <skyColor>#87CEEB</skyColor>
@@ -99,7 +99,7 @@
         </planet>
     </star>
     <star name="Levitator" temp="100" x="-100" y="-100">
-        <planet name="Aluminator (铝材星)" DIMID="1000" customIcon="moon">
+        <planet name="Aluminator" DIMID="1000" customIcon="moon">
             <isKnown>true</isKnown>
             <hasRings>true</hasRings>
             <orbitalTheta>180</orbitalTheta>
@@ -148,7 +148,7 @@
             <seaLevel>80</seaLevel>
             <spawnable weight="1" groupMin="1" groupMax="1">minecraft:ghast</spawnable>
         </planet>
-        <planet name="Hyperion (休伯利安星)" DIMID="2000" customIcon="earthlike" dimMapping="">
+        <planet name="Hyperion" DIMID="2000" customIcon="earthlike" dimMapping="">
             <isKnown>true</isKnown>
         </planet>
         <planet name="Kepler-22p" DIMID="6666" customIcon="earthlike">
