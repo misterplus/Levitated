@@ -9,5 +9,3 @@ setAnnounceToChat(false)
 setPos(184,-16)
 
 addCriteria("location", "minecraft:location")
-
-pageHiddenUnless("triumph:levitated/easteregg/feather")

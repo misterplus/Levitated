@@ -98,7 +98,6 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 //change dimension event
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 	var player = event.player as IPlayer;
-
 	//Finale
 	if (!player.world.remote && event.to == 6666) {
 		var data = player.data;
@@ -108,16 +107,16 @@ events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 		}
 	}
 	//HaocenStar
-	var star = server.commandManager as ICommandManager;
 	if (!player.world.remote && event.to == 2000) {
-
-        star.executeCommand(server,"gamerule sendCommandFeedback false");
-        star.executeCommand(server,"gamerule commandBlockOutput false");
-        star.executeCommand(server,"gamerule logAdminCommands false");
-        star.executeCommand(server,"advancement grant "+player.name+" only triumph:levitated/easteregg/valkyrie");
-		star.executeCommand(server,"gamemode 2 "+player.name);
+		var star = server.commandManager as ICommandManager;
+        star.executeCommand(server, "gamerule sendCommandFeedback false");
+        star.executeCommand(server, "gamerule commandBlockOutput false");
+        star.executeCommand(server, "gamerule logAdminCommands false");
+        star.executeCommand(server, "advancement grant " + player.name + " only triumph:levitated/easteregg/valkyrie");
+		star.executeCommand(server, "gamemode 2 " + player.name);
 	}
 	if (!player.world.remote && event.from == 2000) {
-		star.executeCommand(server,"gamemode 0 "+player.name);
+		var star = server.commandManager as ICommandManager;
+		star.executeCommand(server, "gamemode 0 " + player.name);
 	}
 });

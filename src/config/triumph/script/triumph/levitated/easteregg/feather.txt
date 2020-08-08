@@ -8,6 +8,7 @@ setShowToast(true)
 setPos(184,-56)
 setFrameType("CHALLENGE")
 hideLines()
+setHidden()
 
 criteria = addCriteria("hasFeatherSpecial", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:feather, nbt:{EasterEgg:1}>)

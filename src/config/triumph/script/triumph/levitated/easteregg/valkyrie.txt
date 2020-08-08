@@ -8,6 +8,7 @@ setShowToast(true)
 setPos(344,-84)
 setFrameType("CHALLENGE")
 hideLines()
+setHidden()
 
 criteria = addCriteria("impossible", "minecraft:impossible")
 setRewardFunction("triumph:haocenstructure")
