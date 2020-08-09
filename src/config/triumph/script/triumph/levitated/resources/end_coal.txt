@@ -10,6 +10,6 @@ setPos(46,-99)
 hideLines()
 
 criteria = addCriteria("hasEndCoal", "minecraft:inventory_changed")
-criteria.addItem(<netherendingores:ore_end_vanilla:0>)
+criteria.addItem(<minecraft:coal>)
 
 visibleIf("triumph:levitated/resources/root")
