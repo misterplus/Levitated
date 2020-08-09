@@ -12,6 +12,9 @@ import mods.ctutils.utils.Math;
 import mods.ctutils.commands.Commands;
 import crafttweaker.data.IData;
 import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.server.IServer;
+import crafttweaker.command.ICommandSender;
+import crafttweaker.command.ICommandManager;
 
 //every ender teleport now creates a extraterrestrail matter on the ground
 events.onEnderTeleport(function(event as EnderTeleportEvent) {
@@ -92,9 +95,10 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 	}
 });
 
-//the end
+//change dimension event
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 	var player = event.player as IPlayer;
+	//Finale
 	if (!player.world.remote && event.to == 6666) {
 		var data = player.data;
 		if !(data has "HasFinished") {
@@ -102,16 +106,17 @@ events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 			player.update(data + {"HasFinished": 1});
 		}
 	}
+	//HaocenStar
 	if (!player.world.remote && event.to == 2000) {
-        player.executeCommand("gamerule sendCommandFeedback false");
-        player.executeCommand("gamerule commandBlockOutput false");
-        player.executeCommand("gamerule logAdminCommands false");
-        player.executeCommand("advancement grant @s only triumph:levitated/easteregg/valkyrja");
-        player.executeCommand("setblock -1536 64 -1524 air");
-        player.executeCommand("setblock -1536 64 -1524 redstone_block");
-		player.executeCommand("gamemode 2 @s");
+		var star = server.commandManager as ICommandManager;
+        star.executeCommand(server, "gamerule sendCommandFeedback false");
+        star.executeCommand(server, "gamerule commandBlockOutput false");
+        star.executeCommand(server, "gamerule logAdminCommands false");
+        star.executeCommand(server, "advancement grant " + player.name + " only triumph:levitated/easteregg/valkyrie");
+		star.executeCommand(server, "gamemode 2 " + player.name);
 	}
-	if (!player.world.remote && event.to != 2000 && !player.creative ) {
-		player.executeCommand("gamemode 0 @s");
+	if (!player.world.remote && event.from == 2000) {
+		var star = server.commandManager as ICommandManager;
+		star.executeCommand(server, "gamemode 0 " + player.name);
 	}
 });

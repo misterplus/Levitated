@@ -133,64 +133,38 @@
 		"nether-silver": {
 			"distribution": "cave",
 			"ground-level": 127,
-			"generator": [
-				{
-					"type": "stalagmite",
-					"block": [
-						{
-							"name": "glowstone",
-							"weight": 20
+			"generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "glowstone",
+						"weight": 10
+					},
+					{
+						"name": "netherendingores:ore_nether_modded_1",
+						"properties": {
+							"blocks": "silver_ore"
 						},
-						{
-							"name": "magma",
-							"weight": 80
-						}
-					],
-					"material": [
-						"netherrack",
-						"magma"
-					],
-					"gen-body": "air",
-					"smooth": true,
-					"fat": false,
-					"min-height": 6,
-					"height-variance": 1,
-					"height-mod": 3,
-					"size-variance": 1
-				},
-				{
-					"type": "stalagmite",
-					"block": [
-						{
-							"name": "glowstone",
-							"weight": 10
-						},
-						{
-							"name": "netherendingores:ore_nether_modded_1",
-							"properties": {
-								"blocks": "silver_ore"
-							},
-							"weight": 25
-						},
-						{
-							"name": "magma",
-							"weight": 65
-						}
-					],
-					"material": [
-						"netherrack",
-						"magma"
-					],
-					"gen-body": "air",
-					"smooth": true,
-					"fat": false,
-					"min-height": 6,
-					"height-variance": 1,
-					"height-mod": 3,
-					"size-variance": 2
-				}
-			],
-			"cluster-count": 1,
+						"weight": 40
+					},
+					{
+						"name": "magma",
+						"weight": 50
+					}
+				],
+				"material": [
+					"netherrack",
+					"magma"
+				],
+				"gen-body": "air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 6,
+				"height-variance": 1,
+				"height-mod": 3,
+				"size-variance": 2
+			},
+			"cluster-count": 2,
 			"chunk-chance": 2,
 			"dimension": {
 				"restriction": "whitelist",
@@ -202,36 +176,26 @@
 
 		"nether-ardite": {
             "distribution": "uniform",
-            "generator": [
-				{
-					"block": "obsidian",
-					"material": [
-						"netherrack",
-						"bedrock"
-					],
-					"cluster-size": 8
-				},
-				{
-					"block": [
-						{
-							"name": "obsidian",
-							"weight": 60
+            "generator": {
+				"block": [
+					{
+						"name": "obsidian",
+						"weight": 70
+					},
+					{
+						"name": "tconstruct:ore",
+						"properties": {
+							"type": "ardite"
 						},
-						{
-							"name": "tconstruct:ore",
-							"properties": {
-								"type": "ardite"
-							},
-							"weight": 40
-						}
-					],
-					"material": [
-						"netherrack",
-						"bedrock"
-					],
-					"cluster-size": 8
-				}
-			],
+						"weight": 30
+					}
+				],
+				"material": [
+					"netherrack",
+					"bedrock"
+				],
+				"cluster-size": 8
+			},
 			"cluster-count": 8,
 			"chunk-chance": 1,
             "min-height": 5,
@@ -246,40 +210,28 @@
 
 		"nether-cobalt": {
 			"distribution": "gaussian",
-			"generator": [
-				{
-					"type": "boulder",
-					"block": "obsidian",
-					"material": [
-						"netherrack"
-					],
-					"diameter": 1,
-					"size-variance": 0,
-					"count": 1
-				},
-				{
-					"type": "boulder",
-					"block": [
-						{
-							"name": "obsidian",
-							"weight": 80
+			"generator": {
+				"type": "boulder",
+				"block": [
+					{
+						"name": "obsidian",
+						"weight": 70
+					},
+					{
+						"name": "tconstruct:ore",
+						"properties": {
+							"type": "cobalt"
 						},
-						{
-							"name": "tconstruct:ore",
-							"properties": {
-								"type": "cobalt"
-							},
-							"weight": 20
-						}
-					],
-					"material": [
-						"netherrack"
-					],
-					"diameter": 1,
-					"size-variance": 0,
-					"count": 1
-				}
-			],
+						"weight": 30
+					}
+				],
+				"material": [
+					"netherrack"
+				],
+				"diameter": 1,
+				"size-variance": 0,
+				"count": 1
+			},
 			"cluster-count": 4,
 			"chunk-chance": 1,
 			"center-height": 115,
@@ -294,44 +246,28 @@
 
 		"nether-uranium": {
 			"distribution": "uniform",
-            "generator": [
-				{
-					"type": "plate",
-					"radius": 3,
-					"block": [
-						{
-							"name": "chisel:lavastone"
-						}
-					],
-					"material": [
-						"netherrack",
-						"magma",
-						"soul_sand"
-					]
-				},
-				{
-					"type": "plate",
-					"radius": 3,
-					"block": [
-						{
-							"name": "chisel:lavastone",
-							"weight": 65
+            "generator": {
+				"type": "plate",
+				"radius": 3,
+				"block": [
+					{
+						"name": "chisel:lavastone",
+						"weight": 70
+					},
+					{
+						"name": "netherendingores:ore_nether_modded_1",
+						"properties": {
+							"blocks": "uranium_ore"
 						},
-						{
-							"name": "netherendingores:ore_nether_modded_1",
-							"properties": {
-								"blocks": "uranium_ore"
-							},
-							"weight": 35
-						}
-					],
-					"material": [
-						"netherrack",
-						"magma",
-						"soul_sand"
-					]
-				}
-			],
+						"weight": 30
+					}
+				],
+				"material": [
+					"netherrack",
+					"magma",
+					"soul_sand"
+				]
+			},
 			"cluster-count": 3,
 			"chunk-chance": 3,
             "min-height": 18,

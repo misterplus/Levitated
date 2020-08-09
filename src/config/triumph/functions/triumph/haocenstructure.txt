@@ -1,0 +1,6 @@
+setblock ~ 64 ~ reccomplex:spawn_script
+blockdata ~ 64 ~ {redstoneTriggered:0b,spawnTriggerable:0b,script:{scripts:[{id:"strucGen",script:{structureShift_z:-11,structures:[],structureShift_x:-27,structureShift_y:0,front:"NORTH",simpleMode:0b,structureListID:"HaocenStar"}}],environmentMatcher:""},redstoneTriggerable:1b}
+setblock ~ 65 ~ redstone_block
+setblock ~ 95 ~12 command_block
+blockdata ~ 95 ~12 {conditionMet:0b,auto:0b,CustomName:"@",powered:0b,Command:"function triumph:haocenstructure_delay",id:"minecraft:command_block",SuccessCount:0,TrackOutput:0b,UpdateLastExecution:1b}
+summon falling_block ~ 128 ~12 {Block:"minecraft:redstone_block",Time:1}

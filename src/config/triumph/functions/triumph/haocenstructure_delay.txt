@@ -1,0 +1,2 @@
+setblock ~ ~-30 ~ redstone_block
+fill ~ ~ ~ ~ ~1 ~ air

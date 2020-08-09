@@ -107,3 +107,7 @@ mods.botania.Orechid.addOre(<ore:oreTungsten>, 2200);
 //Swap between prismarine shards and nether quartz
 mods.botania.ManaInfusion.addAlchemy(<minecraft:prismarine_shard>, <minecraft:quartz>, 1200);
 mods.botania.ManaInfusion.addAlchemy(<minecraft:quartz>, <minecraft:prismarine_shard>, 1200);
+
+//Swap between brown and red mushrooms
+mods.botania.ManaInfusion.addAlchemy(<minecraft:red_mushroom>, <minecraft:brown_mushroom>, 1200);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:brown_mushroom>, <minecraft:red_mushroom>, 1200);
