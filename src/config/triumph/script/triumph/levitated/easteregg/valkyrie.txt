@@ -1,14 +1,14 @@
-setIcon(<minecraft:stone>)
+setIcon(<techreborn:nuke>)
 
 setTranslatedTitle("advancements.levitated.easteregg.valkyrie.title")
 setTranslatedDescription("advancements.levitated.easteregg.valkyrie.description")
 
 addParent("triumph:levitated/easteregg/root")
 setShowToast(true)
-setPos(344,-84)
+setPos(184,24)
 setFrameType("CHALLENGE")
 hideLines()
-setHidden()
+setHidden(true)
 
 criteria = addCriteria("impossible", "minecraft:impossible")
 setRewardFunction("triumph:haocenstructure")
