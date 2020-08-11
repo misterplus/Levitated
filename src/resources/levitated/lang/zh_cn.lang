@@ -439,6 +439,8 @@ unfamiliar.levitated.blaze_rod=炽热的棍子
 unfamiliar.levitated.blaze_powder=炽热的粉尘
 unfamiliar.levitated.ore_flower_nether=绚火花
 unfamiliar.levitated.ore_flower=磐石花
+unfamiliar.levitated.ore_flower_nether_floating=浮空绚火花
+unfamiliar.levitated.ore_flower_floating=浮空磐石花
 
 # Item Rename
 rename.levitated.shulker_ring=潜影贝悬浮指环
