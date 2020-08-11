@@ -33,3 +33,6 @@
 
 //Drawers
 <ore:drawerTrim>.addItems([<contenttweaker:end_trim>]);
+
+//Wisdom wood
+<ore:plankWood>.addItems([<wizardry:wisdom_wood_planks>]);

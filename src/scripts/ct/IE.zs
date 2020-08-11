@@ -11,6 +11,9 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:16
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
 mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:38>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<thermalfoundation:ore:5>);
+mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);
+mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:stone_decoration:3>);
+mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
 
 //add
 //The End
@@ -49,3 +52,8 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19> * 2, <ore:i
 
 //Remove platinum from nickel
 mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:69> * 2, <ore:oreNickel>, 6000);
+
+//Coke oven buff
+mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6>, 500, <minecraft:coal>, 800);
+mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:stone_decoration:3>, 5000, <ore:blockCoal>, 7200);
+mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 250, <ore:logWood>, 400);

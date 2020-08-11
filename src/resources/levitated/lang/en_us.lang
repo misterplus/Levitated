@@ -439,6 +439,8 @@ unfamiliar.levitated.blaze_rod=Hot Stick
 unfamiliar.levitated.blaze_powder=Fiery Dust
 unfamiliar.levitated.ore_flower_nether=Fancy Flame Flower
 unfamiliar.levitated.ore_flower=Hard Stone Flower
+unfamiliar.levitated.ore_flower_nether_floating=Flying Fancy Flame Flower
+unfamiliar.levitated.ore_flower_floating=Flying Hard Stone Flower
 
 # Item Rename
 rename.levitated.shulker_ring=Ring of the Levitating Shulker
