@@ -23,8 +23,6 @@ events.onEnderTeleport(function(event as EnderTeleportEvent) {
 	}
 });
 
-
-
 //breaking endstone with hands now drops endstone shards
 events.onBlockBreak(function(event as BlockBreakEvent) {
 	if (!event.world.remote && event.blockState == <blockstate:minecraft:end_stone> && event.isPlayer && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(event.player) && event.player.creative == false) {
@@ -59,7 +57,6 @@ events.onEntityLivingFall(function(event as EntityLivingFallEvent) {
 		}
 	}
 });
-
 
 //paper plane related
 events.onPlayerTick(function(event as PlayerTickEvent) {
@@ -98,25 +95,27 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 //change dimension event
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 	var player = event.player as IPlayer;
-	//Finale
-	if (!player.world.remote && event.to == 6666) {
-		var data = player.data;
-		if !(data has "HasFinished") {
-			player.give(<contenttweaker:trophy>);
-			player.update(data + {"HasFinished": 1});
+	if !player.world.remote {
+		//Finale
+		if event.to == 6666 {
+			var data = player.data;
+			if !(data has "HasFinished") {
+				player.give(<contenttweaker:trophy>);
+				player.update(data + {"HasFinished": 1});
+			}
 		}
-	}
-	//HaocenStar
-	if (!player.world.remote && event.to == 2000) {
-		var star = server.commandManager as ICommandManager;
-        star.executeCommand(server, "gamerule sendCommandFeedback false");
-        star.executeCommand(server, "gamerule commandBlockOutput false");
-        star.executeCommand(server, "gamerule logAdminCommands false");
-        star.executeCommand(server, "advancement grant " + player.name + " only triumph:levitated/easteregg/valkyrie");
-		star.executeCommand(server, "gamemode 2 " + player.name);
-	}
-	if (!player.world.remote && event.from == 2000) {
-		var star = server.commandManager as ICommandManager;
-		star.executeCommand(server, "gamemode 0 " + player.name);
+		//HaocenStar
+		if event.to == 2000 {
+			var s = server.commandManager as ICommandManager;
+        	s.executeCommand(server, "gamerule sendCommandFeedback false");
+        	s.executeCommand(server, "gamerule commandBlockOutput false");
+        	s.executeCommand(server, "gamerule logAdminCommands false");
+        	s.executeCommand(server, "advancement grant " + player.name + " only triumph:levitated/easteregg/valkyrie");
+			s.executeCommand(server, "gamemode 2 " + player.name);
+		}
+		if event.from == 2000 {
+			var s = server.commandManager as ICommandManager;
+			s.executeCommand(server, "gamemode 0 " + player.name);
+		}
 	}
 });
