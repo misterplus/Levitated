@@ -22,7 +22,7 @@ static blacklist as IItemStack[] = [<buildinggadgets:buildingtool>, <buildinggad
 events.onBlockBreak(function(event as BlockBreakEvent) {
 	if (!event.world.remote && event.blockState == <blockstate:minecraft:end_stone> && event.isPlayer && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(event.player) && event.player.creative == false) {
 		var item = event.player.currentItem;
-		if (isNull(item) || !item.canHarvestBlock(<blockstate:minecraft:end_stone>)) && !(blacklist has item.definition.makeStack()) {
+		if (isNull(item) || (!item.canHarvestBlock(<blockstate:minecraft:end_stone>) && !(blacklist has item.definition.makeStack()))) {
 			event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
 		}
 	}
