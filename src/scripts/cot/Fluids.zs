@@ -2,7 +2,6 @@
 #priority 12
 
 import mods.contenttweaker.VanillaFactory;
-import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Color;
 
 var solder = VanillaFactory.createFluid("solder", Color.fromHex("7F7F7F"));

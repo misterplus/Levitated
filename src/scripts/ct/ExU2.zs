@@ -1,6 +1,3 @@
-import extrautilities2.Tweaker.IMachine;
-import crafttweaker.data.IData;
-
 //remove
 recipes.removeShaped(<extrautils2:machine> * 4, [[<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>],[<minecraft:redstone>, <minecraft:chest>, <minecraft:redstone>], [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
 recipes.remove(<extrautils2:chickenring:1>);
