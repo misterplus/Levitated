@@ -1,19 +1,13 @@
-import crafttweaker.events.IEventManager;
-import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;
-import crafttweaker.block.IBlock;
-import crafttweaker.entity.IEntity;
+import crafttweaker.item.IItemStack;
 import crafttweaker.event.EnderTeleportEvent;
 import crafttweaker.event.BlockBreakEvent;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.EntityLivingFallEvent;
 import crafttweaker.event.PlayerChangedDimensionEvent;
 import mods.ctutils.utils.Math;
-import mods.ctutils.commands.Commands;
 import crafttweaker.data.IData;
 import crafttweaker.entity.IEntityEquipmentSlot;
-import crafttweaker.server.IServer;
-import crafttweaker.command.ICommandSender;
 import crafttweaker.command.ICommandManager;
 
 //every ender teleport now creates a extraterrestrail matter on the ground
@@ -24,9 +18,11 @@ events.onEnderTeleport(function(event as EnderTeleportEvent) {
 });
 
 //breaking endstone with hands now drops endstone shards
+static blacklist as IItemStack[] = [<buildinggadgets:buildingtool>, <buildinggadgets:exchangertool>, <buildinggadgets:copypastetool>, <buildinggadgets:destructiontool>] as IItemStack[];
 events.onBlockBreak(function(event as BlockBreakEvent) {
 	if (!event.world.remote && event.blockState == <blockstate:minecraft:end_stone> && event.isPlayer && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(event.player) && event.player.creative == false) {
-		if (isNull(event.player.currentItem) || !event.player.currentItem.canHarvestBlock(<blockstate:minecraft:end_stone>)) {
+		var item = event.player.currentItem;
+		if (isNull(item) || !item.canHarvestBlock(<blockstate:minecraft:end_stone>)) && !(blacklist has item.definition.makeStack()) {
 			event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
 		}
 	}
