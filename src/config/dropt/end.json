@@ -146,7 +146,8 @@
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
             "items": ["minecraft:coal"]
@@ -220,7 +221,8 @@
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
             "items": ["minecraft:diamond"]
@@ -294,7 +296,8 @@
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
             "items": ["minecraft:redstone"],
@@ -375,7 +378,8 @@
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
             "items": ["minecraft:dye:4"],
@@ -456,7 +460,8 @@
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
             "items": ["appliedenergistics2:material"],
@@ -537,7 +542,8 @@
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
             "items": ["appliedenergistics2:material:1"],
@@ -615,7 +621,8 @@
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
             "items": ["minecraft:coal"]
@@ -702,7 +709,8 @@
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
             "items": ["minecraft:diamond"]
@@ -789,7 +797,8 @@
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
             "items": ["minecraft:redstone"],
@@ -883,7 +892,8 @@
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
             "items": ["minecraft:dye:4"],
@@ -977,7 +987,8 @@
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
             "items": ["appliedenergistics2:material"],
@@ -1071,7 +1082,8 @@
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
             "items": ["appliedenergistics2:material:1"],

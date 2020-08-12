@@ -112,4 +112,11 @@
       <enchantment name="oeintegration:oreexcavation" costMultiplier="1" />
     </enchanting>
   </recipe>
+  <recipe name="Sagmill: oreLead Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreLead" />
+      <output name="dustLead" amount="2" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
 </enderio:recipes>
