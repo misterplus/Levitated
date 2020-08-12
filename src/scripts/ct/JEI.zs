@@ -67,3 +67,37 @@ for i in 0 to 16 {
         hide(nether_ore_def.makeStack(i));
     }
 }
+
+//IE ores
+var ie_ore_def = <immersiveengineering:ore>.definition;
+for i in 0 to 5 {
+    hide(ie_ore_def.makeStack(i));
+}
+
+//TR ores
+var tr_ore_def = <techreborn:ore>.definition;
+var tr_ore_def_2 = <techreborn:ore2>.definition;
+var tr_ore_keep = [1, 2, 3, 4] as int[];
+for i in 0 to 14 {
+    if !(tr_ore_keep has i) {
+        hide(tr_ore_def.makeStack(i));
+    }
+}
+for i in 0 to 2 {
+    hide(tr_ore_def_2.makeStack(i));
+}
+
+//AR ores
+var ar_ore_def = <libvulpes:ore0>.definition;
+var ar_ore_keep = [0, 8] as int[];
+for i in 0 to 11 {
+    if !(ar_ore_keep has i) {
+        hide(ar_ore_def.makeStack(i));
+    }
+}
+
+//TE ores
+var te_ore_def = <thermalfoundation:ore_fluid>.definition;
+for i in 0 to 6 {
+    hide(te_ore_def.makeStack(i));
+}
