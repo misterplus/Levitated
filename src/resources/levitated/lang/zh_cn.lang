@@ -155,10 +155,10 @@ advancements.levitated.nether.chicken_ring.description=将鸡的灵魂封印在�
 advancements.levitated.nether.chassis.title=科技第一步，框架来帮助
 advancements.levitated.nether.chassis.description=机器框架是制作进阶机器的必需品，而具有超强导电性的下界石英恰好能用来制作它。[制作一个机器框架]
 
-advancements.levitated.nether.resonator.title=共振 §m啪啪啪§r
+advancements.levitated.nether.resonator.title=共振
 advancements.levitated.nether.resonator.description=在共振仪中，你可以将普通的材料共振转变为与之对应的高质量材料，这些材料非常适合用来制作机器。[制作一台共振仪]
 
-advancements.levitated.nether.blaze_rod.title=火之高兴
+advancements.levitated.nether.blaze_rod.title=滚烫的棒棒
 advancements.levitated.nether.blaze_rod.description=烈焰人偶尔会生成在下界的地狱砖上，§m但如果你去下界前擦了粉底§r，说不定就能在地狱堡垒发现烈焰人刷怪笼。[获得一根烈焰棒]
 
 advancements.levitated.nether.wither_skeleton.title=烧焦的骨头
@@ -170,7 +170,7 @@ advancements.levitated.nether.star.description=凋灵，下界最具有危险性
 advancements.levitated.nether.stargen.title=核电？爪巴！
 advancements.levitated.nether.stargen.description=重建下界生态会消耗大量的电，这台发电机或许能帮上大忙。[制作一台下界之星发电机]
 
-advancements.levitated.nether.withermodel.title=量子§m速读§r模拟
+advancements.levitated.nether.withermodel.title=量子要从娃娃抓起
 advancements.levitated.nether.withermodel.description=获得大量的下界之星可不简单，但只要思想不滑坡，方法总比困难多，深度知识模型就是方法之一。[制作一个凋零数据模型]
 
 advancements.levitated.nether.alloy.title=高级合金
@@ -207,7 +207,7 @@ advancements.levitated.nether.plastic.title=环境不太友好
 advancements.levitated.nether.plastic.description=你终于获得了一片塑料！不要忘记在它干燥之前染上色。[制作一台塑料混合机]
 
 advancements.levitated.nether.tablet.title=只要998，把爱带回家！
-advancements.levitated.nether.tablet.description=你的技术被荒芜的环境所限制，所以不要吝啬自己的钱，从其他地方网购些东西吧！啊~如果你有的话^^[制作一台Amadron 平板电脑]
+advancements.levitated.nether.tablet.description=你的技术被荒芜的环境所限制，所以不要吝啬自己的钱，从其他地方网购些东西吧！§m网络一线牵，口袋没有钱§r[制作一台Amadron 平板电脑]
 
 advancements.levitated.nether.pcb.title=微型电路
 advancements.levitated.nether.pcb.description=现在，我很确信你能够自己做一个电路板了。如果还有什么不懂的，不用担心，你还有一本书可以参考。[制作一个印刷电路板]
@@ -364,7 +364,7 @@ advancements.levitated.resources.overworld_calcite.description=玄武岩和大�
 advancements.levitated.resources.overworld_ruby.title="红石"
 advancements.levitated.resources.overworld_ruby.description=耶！主世界！这意味着你终于可以去找那些闪亮的§2绿§r宝石了...吗？嘛，我知道这很残忍，但我还是要告诉你这是不可能滴，但好消息是，你可以在基岩上方的虚空石簇中找到一些闪亮的§4红宝石§r，相信我，你会需要它们的。
 
-advancements.levitated.resources.overworld_sapphire.title=天苍苍，野茫茫
+advancements.levitated.resources.overworld_sapphire.title=天蓝藏于地底
 advancements.levitated.resources.overworld_sapphire.description=§1蓝宝石§r要比§4红宝石§r贵一些，但导电性比§4红宝石§r高了不止一点，凭借这一点，它们能作为很好的储电材料。它们通常在地下湖周围的岩石表面出现。
 
 advancements.levitated.resources.overworld_bauxite.title=沙盒游戏？其实是铝盒哒
@@ -393,7 +393,7 @@ advancements.levitated.kepler.root.title=旅途的终点
 advancements.levitated.kepler.root.description=好了，你已经找到你的新家了。环顾四周，许多记忆从内心深处浮现。一草一花一木，一山一水一人...愿你不忘初心，愿你踏遍山河，愿你铸造天地...
 
 advancements.levitated.kepler.beacon.title=破晓以后，守护挚友
-advancements.levitated.kepler.beacon.description=如果你不是孤身一人，那么不要忘了你的肝胆之友，在开普勒建造一个信标，这能将你的坐标发送到整个星系，他们能轻易找到这片土地。
+advancements.levitated.kepler.beacon.description=如果你不是孤身一人，那么不要忘了你的肝胆之友，在开普勒建造一个高级火箭模组的信标，这能将你的坐标发送到整个星系，他们能轻易找到这片土地。
 
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=彩蛋!
