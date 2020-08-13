@@ -98,7 +98,7 @@
         
         "info":
         {
-            "text" : "Minecraft #mcversion#\nLevitated Beta 1.3.2\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
+            "text" : "Minecraft #mcversion#\nLevitated Beta 1.3.3\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
             "posX" : 2,
             "posY" : -40,
             "color" : -1,
