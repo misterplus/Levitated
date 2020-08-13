@@ -228,7 +228,7 @@ advancements.levitated.nether.rainbowgen.title=彩虹七号：突围
 advancements.levitated.nether.rainbowgen.description=经过数天的寻找，你终于找到和彩虹有关的东西了。但要获得它，你得费些功夫了。尽管你能手搓，但设计一套自动化线路会减少很多麻烦。[制作一台彩虹发电机]
 
 advancements.levitated.nether.rainbow_ingot.title=离家最近又最远的路
-advancements.levitated.nether.rainbow_ingot.description=将一些彩虹石覆盖于铀锭之上，你成功制成了一种新的材料！使用它搭建传送门并用彩虹桥法杖激活吧！是时候回家了！[制作一个彩虹锭]
+advancements.levitated.nether.rainbow_ingot.description=将一些彩虹石覆盖于铀块之上，你成功制成了一种新的材料！用彩虹块搭建传送门并用彩虹桥法杖激活它！是时候回家了！[制作一个彩虹锭]
 
 advancements.levitated.nether.veinmine.title=人工采掘
 advancements.levitated.nether.veinmine.description=如果你仍然在手动一个个挖东西的话，那就试试挖掘强化吧！你可以使用它强化你的匠魂工具。在下界，它能帮助你更轻松地找到矿物！[制作一个挖掘强化]
@@ -433,6 +433,7 @@ description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就�
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
 description.levitated.mana_paper=对着工作台潜行右键来将它对折。别看简单，其实它需要一些经验的。之后就能在工作台内进行进一步折叠。
 description.levitated.feather=几乎每只鸟都会掉羽毛，而任何有翅膀的东西都能算作鸟，包括纸做的。
+description.levitated.rainbow=用彩虹锭右键彩虹桥方块来将它转变为彩虹块。
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=炽热的棍子
@@ -463,3 +464,6 @@ tips.levitated.8=现在你可以在末地使用床了，我没有钓鱼。
 tips.levitated.9=不要畏惧虚空！某种力量会将你传送回天上。
 tips.levitated.10=基岩不是生产基岩粉的唯一方块。
 tips.levitated.11=橡胶树通常生成在森林与沼泽群系，偶尔也会在白桦林生成。
+tips.levitated.12=你需要同时激活16台EXU2的发电机来让彩虹发电机运作，每种发电机不限数量。
+tips.levitated.13=你有多种处理材料的选择，它们拥有各自的利弊。
+tips.levitated.14=小型压板器只能处理基础矿物块。
