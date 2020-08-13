@@ -1,6 +1,3 @@
-import extrautilities2.Tweaker.IMachine;
-import crafttweaker.data.IData;
-
 //remove
 recipes.removeShaped(<extrautils2:machine> * 4, [[<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>],[<minecraft:redstone>, <minecraft:chest>, <minecraft:redstone>], [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
 recipes.remove(<extrautils2:chickenring:1>);
@@ -16,7 +13,8 @@ recipes.replaceAllOccurences(<ore:ingotGold>, <ore:ingotEnergeticAlloy>, <extrau
 recipes.replaceAllOccurences(<minecraft:redstone_block>, <enderio:block_alloy:3>, <extrautils2:machine>);
 recipes.replaceAllOccurences(<minecraft:gold_block>, <enderio:block_alloy:1>, <extrautils2:machine>);
 recipes.addShaped(<extrautils2:machine>, [[<ore:ingotElectricalSteel>, <ore:ingotRedstoneAlloy>, <ore:ingotElectricalSteel>],[<ore:ingotRedstoneAlloy>, <enderio:item_material:1>, <ore:ingotRedstoneAlloy>], [<ore:ingotElectricalSteel>, <ore:ingotRedstoneAlloy>, <ore:ingotElectricalSteel>]]);
-recipes.addShaped(<extrautils2:machine>, [[<extrautils2:unstableingots:*>, <deepmoblearning:soot_covered_redstone>, <extrautils2:unstableingots:*>],[<deepmoblearning:soot_covered_redstone>, <enderio:item_material>, <deepmoblearning:soot_covered_redstone>], [<extrautils2:unstableingots:*>, <deepmoblearning:soot_covered_redstone>, <extrautils2:unstableingots:*>]]);
+var unstable_ingot = <extrautils2:unstableingots:0> | <extrautils2:unstableingots:2>;
+recipes.addShaped(<extrautils2:machine>, [[unstable_ingot, <deepmoblearning:soot_covered_redstone>, unstable_ingot],[<deepmoblearning:soot_covered_redstone>, <enderio:item_material>, <deepmoblearning:soot_covered_redstone>], [unstable_ingot, <deepmoblearning:soot_covered_redstone>, unstable_ingot]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "crafttweaker:assembler"}), [[<enderio:item_alloy_ingot:6>, <contenttweaker:ccb>, <enderio:item_alloy_ingot:6>],[<immersiveengineering:material:20>, <extrautils2:machine>, <immersiveengineering:material:20>], [<enderio:item_alloy_ingot:6>, <enderio:item_basic_capacitor>, <enderio:item_alloy_ingot:6>]]);
 recipes.addShaped(<extrautils2:chickenring:1>, [[<ore:dyePurple>, <ore:gemDiamond>, <ore:dyePurple>],[<extrautils2:goldenlasso:1>.withTag({Animal: {id: "minecraft:shulker"}}).transformReplace(<extrautils2:goldenlasso:1>), <extrautils2:chickenring>, <ore:enderpearl>], [<ore:dyePurple>, <ore:gemDiamond>, <ore:dyePurple>]]);
 recipes.replaceAllOccurences(<extrautils2:goldenlasso>.withTag({Animal: {id: "minecraft:bat"}, No_Place: 1 as byte}), <botania:flighttiara:*>);
@@ -43,7 +41,9 @@ assembler.addRecipe({"assembler_slot_item_0":<techreborn:part:29>, "assembler_sl
 //PCB
 assembler.addRecipe({"assembler_slot_item_0":<pneumaticcraft:unassembled_pcb>, "assembler_slot_item_1": <pneumaticcraft:transistor> * 3, "assembler_slot_item_2": <pneumaticcraft:capacitor> * 3, "assembler_slot_liquid": <liquid:solder> * 1000},{"assembler_slot_out": <pneumaticcraft:printed_circuit_board>}, 10000, 200);
 
-//Remove platinum from nickel
+//Remove byproducts
 var crusher = extrautilities2.Tweaker.IMachineRegistry.getMachine("extrautils2:crusher");
 crusher.removeRecipe({"input": <ore:oreNickel>});
 crusher.addRecipe({"input": <ore:oreNickel>}, {"output": <thermalfoundation:material:69> * 2}, 4000, 200);
+crusher.removeRecipe({"input": <ore:oreLead>});
+crusher.addRecipe({"input": <ore:oreLead>}, {"output": <techreborn:dust:29> * 2}, 4000, 200);

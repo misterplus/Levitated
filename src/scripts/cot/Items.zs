@@ -133,4 +133,12 @@ overworld_book.register();
 
 var rainbow_ingot = VanillaFactory.createItem("rainbow_ingot");
 rainbow_ingot.glowing = true;
+rainbow_ingot.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    if (!world.remote && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player) && world.getBlockState(pos) == <block:botania:bifrostperm>) {
+        world.setBlockState(<block:contenttweaker:rainbow_block>, pos);
+        player.getHeldItem(hand).shrink(1);
+        return ActionResult.success();
+    }
+    return ActionResult.pass();
+};
 rainbow_ingot.register();

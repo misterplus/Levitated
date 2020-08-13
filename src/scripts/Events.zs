@@ -1,19 +1,13 @@
-import crafttweaker.events.IEventManager;
-import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;
-import crafttweaker.block.IBlock;
-import crafttweaker.entity.IEntity;
+import crafttweaker.item.IItemStack;
 import crafttweaker.event.EnderTeleportEvent;
 import crafttweaker.event.BlockBreakEvent;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.EntityLivingFallEvent;
 import crafttweaker.event.PlayerChangedDimensionEvent;
 import mods.ctutils.utils.Math;
-import mods.ctutils.commands.Commands;
 import crafttweaker.data.IData;
 import crafttweaker.entity.IEntityEquipmentSlot;
-import crafttweaker.server.IServer;
-import crafttweaker.command.ICommandSender;
 import crafttweaker.command.ICommandManager;
 
 //every ender teleport now creates a extraterrestrail matter on the ground
@@ -23,12 +17,12 @@ events.onEnderTeleport(function(event as EnderTeleportEvent) {
 	}
 });
 
-
-
 //breaking endstone with hands now drops endstone shards
+static blacklist as IItemStack[] = [<buildinggadgets:buildingtool>, <buildinggadgets:exchangertool>, <buildinggadgets:copypastetool>, <buildinggadgets:destructiontool>] as IItemStack[];
 events.onBlockBreak(function(event as BlockBreakEvent) {
 	if (!event.world.remote && event.blockState == <blockstate:minecraft:end_stone> && event.isPlayer && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(event.player) && event.player.creative == false) {
-		if (isNull(event.player.currentItem) || !event.player.currentItem.canHarvestBlock(<blockstate:minecraft:end_stone>)) {
+		var item = event.player.currentItem;
+		if (isNull(item) || (!item.canHarvestBlock(<blockstate:minecraft:end_stone>) && !(blacklist has item.definition.makeStack()))) {
 			event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
 		}
 	}
@@ -59,7 +53,6 @@ events.onEntityLivingFall(function(event as EntityLivingFallEvent) {
 		}
 	}
 });
-
 
 //paper plane related
 events.onPlayerTick(function(event as PlayerTickEvent) {
@@ -98,25 +91,27 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 //change dimension event
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 	var player = event.player as IPlayer;
-	//Finale
-	if (!player.world.remote && event.to == 6666) {
-		var data = player.data;
-		if !(data has "HasFinished") {
-			player.give(<contenttweaker:trophy>);
-			player.update(data + {"HasFinished": 1});
+	if !player.world.remote {
+		//Finale
+		if event.to == 6666 {
+			var data = player.data;
+			if !(data has "HasFinished") {
+				player.give(<contenttweaker:trophy>);
+				player.update(data + {"HasFinished": 1});
+			}
 		}
-	}
-	//HaocenStar
-	if (!player.world.remote && event.to == 2000) {
-		var star = server.commandManager as ICommandManager;
-        star.executeCommand(server, "gamerule sendCommandFeedback false");
-        star.executeCommand(server, "gamerule commandBlockOutput false");
-        star.executeCommand(server, "gamerule logAdminCommands false");
-        star.executeCommand(server, "advancement grant " + player.name + " only triumph:levitated/easteregg/valkyrie");
-		star.executeCommand(server, "gamemode 2 " + player.name);
-	}
-	if (!player.world.remote && event.from == 2000) {
-		var star = server.commandManager as ICommandManager;
-		star.executeCommand(server, "gamemode 0 " + player.name);
+		//HaocenStar
+		if event.to == 2000 {
+			var s = server.commandManager as ICommandManager;
+        	s.executeCommand(server, "gamerule sendCommandFeedback false");
+        	s.executeCommand(server, "gamerule commandBlockOutput false");
+        	s.executeCommand(server, "gamerule logAdminCommands false");
+        	s.executeCommand(server, "advancement grant " + player.name + " only triumph:levitated/easteregg/valkyrie");
+			s.executeCommand(server, "gamemode 2 " + player.name);
+		}
+		if event.from == 2000 {
+			var s = server.commandManager as ICommandManager;
+			s.executeCommand(server, "gamemode 0 " + player.name);
+		}
 	}
 });

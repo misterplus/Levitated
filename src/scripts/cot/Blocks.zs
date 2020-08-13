@@ -1,13 +1,9 @@
 #loader contenttweaker
 #priority 11
 
-import extrautilities2.Tweaker.IMachine;
 import extrautilities2.Tweaker.IMachineSlot;
 import extrautilities2.Tweaker.IMachineRegistry;
-import mods.contenttweaker.AxisAlignedBB;
-
 import mods.contenttweaker.VanillaFactory;
-import mods.contenttweaker.Block;
 
 var end_iron = VanillaFactory.createBlock("end_iron", <blockmaterial:rock>);
 end_iron.blockSoundType = <soundtype:stone>;

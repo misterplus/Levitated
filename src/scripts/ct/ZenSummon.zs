@@ -1,7 +1,4 @@
-import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
 import mods.zensummoning.SummoningDirector;
-import mods.zensummoning.SummoningAttempt;
 import mods.zensummoning.SummoningInfo;
 import mods.zensummoning.MobInfo;
 

@@ -16,10 +16,6 @@ mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <techreborn:iron_furnace>);
 mods.tconstruct.Melting.removeRecipe(<liquid:copper>, <techreborn:cable>);
 mods.tconstruct.Melting.removeRecipe(<liquid:tin>, <techreborn:cable:1>);
 mods.tconstruct.Melting.removeRecipe(<liquid:gold>, <techreborn:cable:2>);
-mods.tconstruct.Melting.removeRecipe(<liquid:steel>, <libvulpes:productrod:6>);
-mods.tconstruct.Melting.removeRecipe(<liquid:copper>, <libvulpes:productrod:4>);
-mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <libvulpes:productrod:1>);
-
 mods.tconstruct.Melting.removeRecipe(<liquid:lumium>, <thermalfoundation:material:102>);
 mods.tconstruct.Melting.removeRecipe(<liquid:signalum>, <thermalfoundation:material:101>);
 mods.tconstruct.Melting.removeRecipe(<liquid:enderium>, <thermalfoundation:material:103>);

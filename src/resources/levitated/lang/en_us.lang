@@ -228,7 +228,7 @@ advancements.levitated.nether.rainbowgen.title=Rainbow Seven Siege
 advancements.levitated.nether.rainbowgen.description=Well, after days of searching, you finally found it. But getting this thing working is not easy at all... Sure you can do it manually, but setting up automations will save you a lot of trouble. [Craft a Rainbow Generator.]
 
 advancements.levitated.nether.rainbow_ingot.title=Rainbow in a Box
-advancements.levitated.nether.rainbow_ingot.description=By covering Uranium ingots with Rainbow Stones, a new material was born! Build a portal out of it and light it up with a Rod of the Bifrost! And it's time to go home! [Craft a Rainbow Ingot.]
+advancements.levitated.nether.rainbow_ingot.description=By covering Uranium blocks with Rainbow Stones, a new material was born! Build a portal out of Rainbow Blocks and light it up with a Rod of the Bifrost! And it's time to go home! [Craft a Rainbow Ingot.]
 
 advancements.levitated.nether.veinmine.title=Manual Excavation
 advancements.levitated.nether.veinmine.description=If you are still mining blocks one by one, then consider crafting this upgrade for your tinkers' pickaxe! It's gonna make finding ores in the Nether much easier! [Craft an Excavate Modifier.]
@@ -433,12 +433,15 @@ description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chun
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
 description.levitated.mana_paper=Shift right click on a crafting table/station to fold it in half. But one cannot do so without some experience in paper-folding. You can fold the paper again in a crafting table.
 description.levitated.feather=Every bird drops feathers, even paper ones. Also, I'm pretty sure anything that has wings counts as a bird, right?
+description.levitated.rainbow=Right click a Bifrost Block with a Rainbow Ingot to turn it into a Rainbow Block.
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=Hot Stick
 unfamiliar.levitated.blaze_powder=Fiery Dust
 unfamiliar.levitated.ore_flower_nether=Fancy Flame Flower
 unfamiliar.levitated.ore_flower=Hard Stone Flower
+unfamiliar.levitated.ore_flower_nether_floating=Flying Fancy Flame Flower
+unfamiliar.levitated.ore_flower_floating=Flying Hard Stone Flower
 
 # Item Rename
 rename.levitated.shulker_ring=Ring of the Levitating Shulker
@@ -454,8 +457,13 @@ tips.levitated.1=In the final advancement "The Long Journey Home", you'll have t
 tips.levitated.2=If you are playing with friends, you can use the command "/togetherforever invite" to sync your advancement progress.
 tips.levitated.3=Having trouble bottling up water? Try again with a fluid tank!
 tips.levitated.4=Pure Daisy can only be found in non-vanilla end cities, which can be pretty rare if you're unlucky. Considering trading with other players if you are on a server.
-tips.levitated.5=Slime Islands occasionally spawn in the end, but you can also find them when you are rebuilding the overworld.
+tips.levitated.5=Slime Islands don't spawn in the end, but you can find them when you are rebuilding the overworld.
 tips.levitated.6=Crafting your grave key with an enderpearl enables you to teleport to your grave, even cross dimensions.
 tips.levitated.7=Scanner can only rebuild every block once, so you cannot mine a vein infinitely.
 tips.levitated.8=You can actually sleep in the end now, I'm not trolling.
 tips.levitated.9=Don't be afraid of the void! You'll get teleported right back up.
+tips.levitated.10=Bedrock is not the only block that can generate grains of infinity.
+tips.levitated.11=Rubber Trees generally grow in Forest and Swamp biomes, occasionally in Birch Forest too.
+tips.levitated.12=You do need all 16 generators running to start the rainbow generator, but you can always make more of the same one.
+tips.levitated.13=There are multiple options when processing materials, they all have their advantages and disadvantages.
+tips.levitated.14=A Small Plate Presser only presses basic metal blocks.

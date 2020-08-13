@@ -1,19 +1,15 @@
 {
   "rules": [
-	{
+    {
       "match": {
         "blocks": {
-          "blocks": [
-            "stygian:endlog"
-          ]
+          "blocks": ["stygian:endlog"]
         },
         "harvester": {
           "type": "PLAYER",
           "heldItemMainHand": {
             "type": "WHITELIST",
-            "items": [
-				"tconstruct:shard:0#{Material:\"endstone\"}"
-			]
+            "items": ["tconstruct:shard:0#{Material:\"endstone\"}"]
           }
         }
       },
@@ -25,10 +21,8 @@
             }
           },
           "item": {
-            "items": [
-              "stygian:endplanks"
-            ],
-			"quantity": {
+            "items": ["stygian:endplanks"],
+            "quantity": {
               "min": 1,
               "max": 3
             }
@@ -41,20 +35,16 @@
             }
           },
           "item": {
-            "items": [
-              "stygian:endlog"
-            ]
+            "items": ["stygian:endlog"]
           }
         }
       ]
     },
-	
+
     {
       "match": {
         "blocks": {
-          "blocks": [
-            "stygian:endlog"
-          ]
+          "blocks": ["stygian:endlog"]
         },
         "harvester": {
           "type": "PLAYER",
@@ -67,20 +57,16 @@
       "drops": [
         {
           "item": {
-            "items": [
-              "stygian:endlog"
-            ]
+            "items": ["stygian:endlog"]
           }
         }
       ]
     },
 
-	{
+    {
       "match": {
         "blocks": {
-          "blocks": [
-            "stygian:endlog"
-          ]
+          "blocks": ["stygian:endlog"]
         },
         "harvester": {
           "type": "PLAYER",
@@ -96,9 +82,7 @@
     {
       "match": {
         "blocks": {
-          "blocks": [
-            "stygian:endtallgrass"
-          ]
+          "blocks": ["stygian:endtallgrass"]
         }
       },
       "replaceStrategy": "ADD",
@@ -117,9 +101,7 @@
             }
           },
           "item": {
-            "items" : [
-              "contenttweaker:end_seeds"
-            ]
+            "items": ["contenttweaker:end_seeds"]
           }
         }
       ]
@@ -128,18 +110,14 @@
     {
       "match": {
         "blocks": {
-          "blocks": [
-            "stygian:endleaves"
-          ]
+          "blocks": ["stygian:endleaves"]
         }
       },
       "replaceStrategy": "ADD",
       "drops": [
         {
           "item": {
-            "items" : [
-              "minecraft:apple"
-            ]
+            "items": ["minecraft:apple"]
           }
         }
       ]
@@ -148,9 +126,10 @@
     {
       "match": {
         "blocks": {
-          "blocks": [
-            "netherendingores:ore_end_vanilla:0"
-          ]
+          "blocks": ["netherendingores:ore_end_vanilla:0"]
+        },
+        "harvester": {
+          "type": "FAKE_PLAYER"
         }
       },
       "replaceStrategy": "REPLACE_ALL",
@@ -160,21 +139,493 @@
             "silktouch": "REQUIRED"
           },
           "item": {
-            "items" : [
-              "netherendingores:ore_end_vanilla:0"
-            ]
+            "items": ["netherendingores:ore_end_vanilla:0"]
           }
         },
         {
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
-            "items": [
-              "minecraft:coal"
-            ]
+            "items": ["minecraft:coal"]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": ["minecraft:coal"],
+            "quantity": {
+              "fixed": 2
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": ["minecraft:coal"],
+            "quantity": {
+              "fixed": 3
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": ["minecraft:coal"],
+            "quantity": {
+              "fixed": 4
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": ["netherendingores:ore_end_vanilla:1"]
+        },
+        "harvester": {
+          "type": "FAKE_PLAYER"
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items": ["netherendingores:ore_end_vanilla:1"]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            },
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": ["minecraft:diamond"]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": ["minecraft:diamond"],
+            "quantity": {
+              "fixed": 2
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": ["minecraft:diamond"],
+            "quantity": {
+              "fixed": 3
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": ["minecraft:diamond"],
+            "quantity": {
+              "fixed": 4
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": ["netherendingores:ore_end_vanilla:6"]
+        },
+        "harvester": {
+          "type": "FAKE_PLAYER"
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items": ["netherendingores:ore_end_vanilla:6"]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            },
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": ["minecraft:redstone"],
+            "quantity": {
+              "min": 4,
+              "max": 6
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": ["minecraft:redstone"],
+            "quantity": {
+              "min": 4,
+              "max": 7
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": ["minecraft:redstone"],
+            "quantity": {
+              "min": 4,
+              "max": 8
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": ["minecraft:redstone"],
+            "quantity": {
+              "min": 4,
+              "max": 9
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": ["netherendingores:ore_end_vanilla:5"]
+        },
+        "harvester": {
+          "type": "FAKE_PLAYER"
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items": ["netherendingores:ore_end_vanilla:5"]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            },
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": ["minecraft:dye:4"],
+            "quantity": {
+              "min": 4,
+              "max": 9
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": ["minecraft:dye:4"],
+            "quantity": {
+              "min": 4,
+              "max": 18
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": ["minecraft:dye:4"],
+            "quantity": {
+              "min": 4,
+              "max": 27
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": ["minecraft:dye:4"],
+            "quantity": {
+              "min": 4,
+              "max": 36
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": ["netherendingores:ore_nether_modded_1:9"]
+        },
+        "harvester": {
+          "type": "FAKE_PLAYER"
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items": ["netherendingores:ore_nether_modded_1:9"]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            },
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": ["appliedenergistics2:material"],
+            "quantity": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": ["appliedenergistics2:material"],
+            "quantity": {
+              "min": 1,
+              "max": 4
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": ["appliedenergistics2:material"],
+            "quantity": {
+              "min": 1,
+              "max": 6
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": ["appliedenergistics2:material"],
+            "quantity": {
+              "min": 1,
+              "max": 8
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": ["netherendingores:ore_nether_modded_1:10"]
+        },
+        "harvester": {
+          "type": "FAKE_PLAYER"
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items": ["netherendingores:ore_nether_modded_1:10"]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            },
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": ["appliedenergistics2:material:1"],
+            "quantity": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": ["appliedenergistics2:material:1"],
+            "quantity": {
+              "min": 1,
+              "max": 4
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": ["appliedenergistics2:material:1"],
+            "quantity": {
+              "min": 1,
+              "max": 6
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": ["appliedenergistics2:material:1"],
+            "quantity": {
+              "min": 1,
+              "max": 8
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": ["netherendingores:ore_end_vanilla:0"]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items": ["netherendingores:ore_end_vanilla:0"]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            },
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": ["minecraft:coal"]
           },
           "xp": {
             "min": 0,
@@ -189,9 +640,7 @@
             "fortuneLevelRequired": 1
           },
           "item": {
-            "items": [
-              "minecraft:coal"
-            ],
+            "items": ["minecraft:coal"],
             "quantity": {
               "fixed": 2
             }
@@ -209,9 +658,7 @@
             "fortuneLevelRequired": 2
           },
           "item": {
-            "items": [
-              "minecraft:coal"
-            ],
+            "items": ["minecraft:coal"],
             "quantity": {
               "fixed": 3
             }
@@ -229,9 +676,7 @@
             "fortuneLevelRequired": 3
           },
           "item": {
-            "items": [
-              "minecraft:coal"
-            ],
+            "items": ["minecraft:coal"],
             "quantity": {
               "fixed": 4
             }
@@ -247,9 +692,7 @@
     {
       "match": {
         "blocks": {
-          "blocks": [
-            "netherendingores:ore_end_vanilla:1"
-          ]
+          "blocks": ["netherendingores:ore_end_vanilla:1"]
         }
       },
       "replaceStrategy": "REPLACE_ALL",
@@ -259,21 +702,18 @@
             "silktouch": "REQUIRED"
           },
           "item": {
-            "items" : [
-              "netherendingores:ore_end_vanilla:1"
-            ]
+            "items": ["netherendingores:ore_end_vanilla:1"]
           }
         },
         {
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
-            "items": [
-              "minecraft:diamond"
-            ]
+            "items": ["minecraft:diamond"]
           },
           "xp": {
             "min": 3,
@@ -288,9 +728,7 @@
             "fortuneLevelRequired": 1
           },
           "item": {
-            "items": [
-              "minecraft:diamond"
-            ],
+            "items": ["minecraft:diamond"],
             "quantity": {
               "fixed": 2
             }
@@ -308,9 +746,7 @@
             "fortuneLevelRequired": 2
           },
           "item": {
-            "items": [
-              "minecraft:diamond"
-            ],
+            "items": ["minecraft:diamond"],
             "quantity": {
               "fixed": 3
             }
@@ -328,9 +764,7 @@
             "fortuneLevelRequired": 3
           },
           "item": {
-            "items": [
-              "minecraft:diamond"
-            ],
+            "items": ["minecraft:diamond"],
             "quantity": {
               "fixed": 4
             }
@@ -346,9 +780,7 @@
     {
       "match": {
         "blocks": {
-          "blocks": [
-            "netherendingores:ore_end_vanilla:6"
-          ]
+          "blocks": ["netherendingores:ore_end_vanilla:6"]
         }
       },
       "replaceStrategy": "REPLACE_ALL",
@@ -358,21 +790,18 @@
             "silktouch": "REQUIRED"
           },
           "item": {
-            "items" : [
-              "netherendingores:ore_end_vanilla:6"
-            ]
+            "items": ["netherendingores:ore_end_vanilla:6"]
           }
         },
         {
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
-            "items": [
-              "minecraft:redstone"
-            ],
+            "items": ["minecraft:redstone"],
             "quantity": {
               "min": 4,
               "max": 6
@@ -391,9 +820,7 @@
             "fortuneLevelRequired": 1
           },
           "item": {
-            "items": [
-              "minecraft:redstone"
-            ],
+            "items": ["minecraft:redstone"],
             "quantity": {
               "min": 4,
               "max": 7
@@ -412,9 +839,7 @@
             "fortuneLevelRequired": 2
           },
           "item": {
-            "items": [
-              "minecraft:redstone"
-            ],
+            "items": ["minecraft:redstone"],
             "quantity": {
               "min": 4,
               "max": 8
@@ -433,9 +858,7 @@
             "fortuneLevelRequired": 3
           },
           "item": {
-            "items": [
-              "minecraft:redstone"
-            ],
+            "items": ["minecraft:redstone"],
             "quantity": {
               "min": 4,
               "max": 9
@@ -452,9 +875,7 @@
     {
       "match": {
         "blocks": {
-          "blocks": [
-            "netherendingores:ore_end_vanilla:5"
-          ]
+          "blocks": ["netherendingores:ore_end_vanilla:5"]
         }
       },
       "replaceStrategy": "REPLACE_ALL",
@@ -464,21 +885,18 @@
             "silktouch": "REQUIRED"
           },
           "item": {
-            "items" : [
-              "netherendingores:ore_end_vanilla:5"
-            ]
+            "items": ["netherendingores:ore_end_vanilla:5"]
           }
         },
         {
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
-            "items": [
-              "minecraft:dye:4"
-            ],
+            "items": ["minecraft:dye:4"],
             "quantity": {
               "min": 4,
               "max": 9
@@ -497,9 +915,7 @@
             "fortuneLevelRequired": 1
           },
           "item": {
-            "items": [
-              "minecraft:dye:4"
-            ],
+            "items": ["minecraft:dye:4"],
             "quantity": {
               "min": 4,
               "max": 18
@@ -518,9 +934,7 @@
             "fortuneLevelRequired": 2
           },
           "item": {
-            "items": [
-              "minecraft:dye:4"
-            ],
+            "items": ["minecraft:dye:4"],
             "quantity": {
               "min": 4,
               "max": 27
@@ -539,9 +953,7 @@
             "fortuneLevelRequired": 3
           },
           "item": {
-            "items": [
-              "minecraft:dye:4"
-            ],
+            "items": ["minecraft:dye:4"],
             "quantity": {
               "min": 4,
               "max": 36
@@ -558,9 +970,7 @@
     {
       "match": {
         "blocks": {
-          "blocks": [
-            "netherendingores:ore_nether_modded_1:9"
-          ]
+          "blocks": ["netherendingores:ore_nether_modded_1:9"]
         }
       },
       "replaceStrategy": "REPLACE_ALL",
@@ -570,21 +980,18 @@
             "silktouch": "REQUIRED"
           },
           "item": {
-            "items" : [
-              "netherendingores:ore_nether_modded_1:9"
-            ]
+            "items": ["netherendingores:ore_nether_modded_1:9"]
           }
         },
         {
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
-            "items": [
-              "appliedenergistics2:material"
-            ],
+            "items": ["appliedenergistics2:material"],
             "quantity": {
               "min": 1,
               "max": 2
@@ -603,9 +1010,7 @@
             "fortuneLevelRequired": 1
           },
           "item": {
-            "items": [
-              "appliedenergistics2:material"
-            ],
+            "items": ["appliedenergistics2:material"],
             "quantity": {
               "min": 1,
               "max": 4
@@ -624,9 +1029,7 @@
             "fortuneLevelRequired": 2
           },
           "item": {
-            "items": [
-              "appliedenergistics2:material"
-            ],
+            "items": ["appliedenergistics2:material"],
             "quantity": {
               "min": 1,
               "max": 6
@@ -645,9 +1048,7 @@
             "fortuneLevelRequired": 3
           },
           "item": {
-            "items": [
-              "appliedenergistics2:material"
-            ],
+            "items": ["appliedenergistics2:material"],
             "quantity": {
               "min": 1,
               "max": 8
@@ -664,9 +1065,7 @@
     {
       "match": {
         "blocks": {
-          "blocks": [
-            "netherendingores:ore_nether_modded_1:10"
-          ]
+          "blocks": ["netherendingores:ore_nether_modded_1:10"]
         }
       },
       "replaceStrategy": "REPLACE_ALL",
@@ -676,21 +1075,18 @@
             "silktouch": "REQUIRED"
           },
           "item": {
-            "items" : [
-              "netherendingores:ore_nether_modded_1:10"
-            ]
+            "items": ["netherendingores:ore_nether_modded_1:10"]
           }
         },
         {
           "selector": {
             "weight": {
               "value": 2
-            }
+            },
+            "silktouch": "EXCLUDED"
           },
           "item": {
-            "items": [
-              "appliedenergistics2:material:1"
-            ],
+            "items": ["appliedenergistics2:material:1"],
             "quantity": {
               "min": 1,
               "max": 2
@@ -709,9 +1105,7 @@
             "fortuneLevelRequired": 1
           },
           "item": {
-            "items": [
-              "appliedenergistics2:material:1"
-            ],
+            "items": ["appliedenergistics2:material:1"],
             "quantity": {
               "min": 1,
               "max": 4
@@ -730,9 +1124,7 @@
             "fortuneLevelRequired": 2
           },
           "item": {
-            "items": [
-              "appliedenergistics2:material:1"
-            ],
+            "items": ["appliedenergistics2:material:1"],
             "quantity": {
               "min": 1,
               "max": 6
@@ -751,9 +1143,7 @@
             "fortuneLevelRequired": 3
           },
           "item": {
-            "items": [
-              "appliedenergistics2:material:1"
-            ],
+            "items": ["appliedenergistics2:material:1"],
             "quantity": {
               "min": 1,
               "max": 8
