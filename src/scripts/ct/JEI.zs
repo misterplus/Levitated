@@ -3,6 +3,27 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI.addDescription;
 import mods.jei.JEI.hide;
 
+function hideOnly (item as IItemStack, r as int[]) {
+    var def = item.definition;
+    for i in r {
+        hide(def.makeStack(i));
+    }
+}
+function hideExcept (item as IItemStack, e as int[], f as int, t as int) {
+    var def = item.definition;
+    for i in f to t {
+        if !(e has i) {
+            hide(def.makeStack(i));
+        }
+    }
+}
+function hideAll (item as IItemStack, f as int, t as int) {
+    var def = item.definition;
+    for i in f to t {
+        hide(def.makeStack(i));
+    }
+}
+
 <contenttweaker:end_seeds>.addTooltip(format.gray(game.localize("tooltips.levitated.end_seeds")));
 <contenttweaker:origin_book>.addTooltip(format.gray(game.localize("tooltips.levitated.origin_book")));
 <contenttweaker:nether_book>.addTooltip(format.gray(game.localize("tooltips.levitated.nether_book")));
@@ -14,6 +35,9 @@ addDescription(<contenttweaker:mana_paper>, game.localize("description.levitated
 addDescription(<contenttweaker:end_iron_chunk>, game.localize("description.levitated.end_iron_chunk"));
 addDescription(<tconstruct:firewood:1>, game.localize("description.levitated.end_iron_chunk"));
 addDescription(<minecraft:feather>, game.localize("description.levitated.feather"));
+addDescription(<contenttweaker:rainbow_ingot>, game.localize("description.levitated.rainbow"));
+addDescription(<contenttweaker:rainbow_block>, game.localize("description.levitated.rainbow"));
+addDescription(<botania:bifrostperm>, game.localize("description.levitated.rainbow"));
 
 <extrautils2:chickenring:1>.displayName = game.localize("rename.levitated.shulker_ring");
 <pneumaticcraft:ingot_iron_compressed>.displayName = game.localize("rename.levitated.compiron");
@@ -44,60 +68,23 @@ hide(<netherendingores:ore_end_modded_2>);
 hide(<netherendingores:ore_other_1:0>);
 hide(<netherendingores:ore_other_1:2>);
 hide(<netherendingores:ore_other_1:4>);
-var end_ore_def = <netherendingores:ore_end_modded_1>.definition;
-var end_ore_keep = [1, 3, 8] as int[];
-for i in 0 to 16 {
-    if !(end_ore_keep has i) {
-        hide(end_ore_def.makeStack(i));
-    }
-}
-var end_ore_other_def = <netherendingores:ore_other_1>.definition;
-var end_ore_other_hide = [1, 3, 5] as int[];
-for i in end_ore_other_hide {
-    hide(end_ore_other_def.makeStack(i));
-}
+hideExcept(<netherendingores:ore_end_modded_1>, [1, 3, 8] as int[], 0, 16);
+hideOnly(<netherendingores:ore_other_1>, [1, 3, 5] as int[]);
 
 //Nether ores
 hide(<netherendingores:ore_nether_vanilla:*>);
 hide(<netherendingores:ore_nether_modded_2>);
-var nether_ore_def = <netherendingores:ore_nether_modded_1>.definition;
-var nether_ore_keep = [0, 5, 7, 9, 10, 12] as int[];
-for i in 0 to 16 {
-    if !(nether_ore_keep has i) {
-        hide(nether_ore_def.makeStack(i));
-    }
-}
+hideExcept(<netherendingores:ore_nether_modded_1>, [0, 5, 7, 9, 10, 12] as int[], 0, 16);
 
 //IE ores
-var ie_ore_def = <immersiveengineering:ore>.definition;
-for i in 0 to 5 {
-    hide(ie_ore_def.makeStack(i));
-}
+hideAll(<immersiveengineering:ore>, 0, 5);
 
 //TR ores
-var tr_ore_def = <techreborn:ore>.definition;
-var tr_ore_def_2 = <techreborn:ore2>.definition;
-var tr_ore_keep = [1, 2, 3, 4] as int[];
-for i in 0 to 14 {
-    if !(tr_ore_keep has i) {
-        hide(tr_ore_def.makeStack(i));
-    }
-}
-for i in 0 to 2 {
-    hide(tr_ore_def_2.makeStack(i));
-}
+hideExcept(<techreborn:ore>, [1, 2, 3, 4] as int[], 0, 14);
+hideAll(<techreborn:ore2>, 0, 2);
 
 //AR ores
-var ar_ore_def = <libvulpes:ore0>.definition;
-var ar_ore_keep = [0, 8] as int[];
-for i in 0 to 11 {
-    if !(ar_ore_keep has i) {
-        hide(ar_ore_def.makeStack(i));
-    }
-}
+hideExcept(<libvulpes:ore0>, [0, 8] as int[], 0, 11);
 
 //TE ores
-var te_ore_def = <thermalfoundation:ore_fluid>.definition;
-for i in 0 to 6 {
-    hide(te_ore_def.makeStack(i));
-}
+hideAll(<thermalfoundation:ore_fluid>, 0, 6);
