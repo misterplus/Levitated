@@ -1,4 +1,8 @@
 # Levitated
+![GitHub license](https://img.shields.io/github/license/misterplus/Levitated)
+![GitHub issues](https://img.shields.io/github/issues/misterplus/Levitated)
+![GitHub tag](https://img.shields.io/github/tag/misterplus/Levitated)
+[![CurseForge downloads](http://cf.way2muchnoise.eu/full_399451_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/levitated)
 
 English | [简体中文](./README_cn.md)
 
