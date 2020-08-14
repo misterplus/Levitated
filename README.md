@@ -1,4 +1,8 @@
 # Levitated
+[![GitHub license](https://img.shields.io/github/license/misterplus/Levitated)](https://github.com/misterplus/Levitated/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/misterplus/Levitated)](https://github.com/misterplus/Levitated/issues)
+[![GitHub tag](https://img.shields.io/github/tag/misterplus/Levitated?color=0e9bd8)](https://github.com/misterplus/Levitated/releases/tag/Beta-1.3.3)
+[![CurseForge downloads](http://cf.way2muchnoise.eu/full_399451_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/levitated)
 
 English | [简体中文](./README_cn.md)
 

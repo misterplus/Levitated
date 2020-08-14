@@ -82,6 +82,7 @@ removeOnly(<libvulpes:productrod:4>, [1, 4, 6, 7, 10] as int[]);
 
 //add
 recipes.addShaped(<thermalfoundation:material:22>, [[null, <ore:stickWood>, null],[<ore:stickWood>, null, <ore:stickWood>], [null, <ore:stickWood>, null]]);
+recipes.addShaped(<thermalfoundation:material:23>, [[null, <ore:stone>, null],[<ore:stone>, <ore:gearWood>, <ore:stone>], [null, <ore:stone>, null]]);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:23>, <thermalfoundation:material:22>, <liquid:stone>, 288, true, 100);
 sheeting(<ore:plateIron>, <libvulpes:productsheet:1>);
 sheeting(<ore:plateCopper>, <libvulpes:productsheet:4>);
