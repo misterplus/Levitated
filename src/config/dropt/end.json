@@ -132,16 +132,8 @@
           "type": "FAKE_PLAYER"
         }
       },
-      "replaceStrategy": "REPLACE_ALL",
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
       "drops": [
-        {
-          "selector": {
-            "silktouch": "REQUIRED"
-          },
-          "item": {
-            "items": ["netherendingores:ore_end_vanilla:0"]
-          }
-        },
         {
           "selector": {
             "weight": {
@@ -207,16 +199,8 @@
           "type": "FAKE_PLAYER"
         }
       },
-      "replaceStrategy": "REPLACE_ALL",
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
       "drops": [
-        {
-          "selector": {
-            "silktouch": "REQUIRED"
-          },
-          "item": {
-            "items": ["netherendingores:ore_end_vanilla:1"]
-          }
-        },
         {
           "selector": {
             "weight": {
@@ -282,16 +266,8 @@
           "type": "FAKE_PLAYER"
         }
       },
-      "replaceStrategy": "REPLACE_ALL",
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
       "drops": [
-        {
-          "selector": {
-            "silktouch": "REQUIRED"
-          },
-          "item": {
-            "items": ["netherendingores:ore_end_vanilla:6"]
-          }
-        },
         {
           "selector": {
             "weight": {
@@ -364,16 +340,8 @@
           "type": "FAKE_PLAYER"
         }
       },
-      "replaceStrategy": "REPLACE_ALL",
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
       "drops": [
-        {
-          "selector": {
-            "silktouch": "REQUIRED"
-          },
-          "item": {
-            "items": ["netherendingores:ore_end_vanilla:5"]
-          }
-        },
         {
           "selector": {
             "weight": {
@@ -446,16 +414,8 @@
           "type": "FAKE_PLAYER"
         }
       },
-      "replaceStrategy": "REPLACE_ALL",
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
       "drops": [
-        {
-          "selector": {
-            "silktouch": "REQUIRED"
-          },
-          "item": {
-            "items": ["netherendingores:ore_nether_modded_1:9"]
-          }
-        },
         {
           "selector": {
             "weight": {
@@ -528,16 +488,8 @@
           "type": "FAKE_PLAYER"
         }
       },
-      "replaceStrategy": "REPLACE_ALL",
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
       "drops": [
-        {
-          "selector": {
-            "silktouch": "REQUIRED"
-          },
-          "item": {
-            "items": ["netherendingores:ore_nether_modded_1:10"]
-          }
-        },
         {
           "selector": {
             "weight": {
@@ -607,16 +559,8 @@
           "blocks": ["netherendingores:ore_end_vanilla:0"]
         }
       },
-      "replaceStrategy": "REPLACE_ALL",
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
       "drops": [
-        {
-          "selector": {
-            "silktouch": "REQUIRED"
-          },
-          "item": {
-            "items": ["netherendingores:ore_end_vanilla:0"]
-          }
-        },
         {
           "selector": {
             "weight": {
@@ -695,16 +639,8 @@
           "blocks": ["netherendingores:ore_end_vanilla:1"]
         }
       },
-      "replaceStrategy": "REPLACE_ALL",
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
       "drops": [
-        {
-          "selector": {
-            "silktouch": "REQUIRED"
-          },
-          "item": {
-            "items": ["netherendingores:ore_end_vanilla:1"]
-          }
-        },
         {
           "selector": {
             "weight": {
@@ -783,16 +719,8 @@
           "blocks": ["netherendingores:ore_end_vanilla:6"]
         }
       },
-      "replaceStrategy": "REPLACE_ALL",
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
       "drops": [
-        {
-          "selector": {
-            "silktouch": "REQUIRED"
-          },
-          "item": {
-            "items": ["netherendingores:ore_end_vanilla:6"]
-          }
-        },
         {
           "selector": {
             "weight": {
@@ -878,16 +806,8 @@
           "blocks": ["netherendingores:ore_end_vanilla:5"]
         }
       },
-      "replaceStrategy": "REPLACE_ALL",
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
       "drops": [
-        {
-          "selector": {
-            "silktouch": "REQUIRED"
-          },
-          "item": {
-            "items": ["netherendingores:ore_end_vanilla:5"]
-          }
-        },
         {
           "selector": {
             "weight": {
@@ -973,16 +893,8 @@
           "blocks": ["netherendingores:ore_nether_modded_1:9"]
         }
       },
-      "replaceStrategy": "REPLACE_ALL",
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
       "drops": [
-        {
-          "selector": {
-            "silktouch": "REQUIRED"
-          },
-          "item": {
-            "items": ["netherendingores:ore_nether_modded_1:9"]
-          }
-        },
         {
           "selector": {
             "weight": {
@@ -1068,16 +980,8 @@
           "blocks": ["netherendingores:ore_nether_modded_1:10"]
         }
       },
-      "replaceStrategy": "REPLACE_ALL",
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
       "drops": [
-        {
-          "selector": {
-            "silktouch": "REQUIRED"
-          },
-          "item": {
-            "items": ["netherendingores:ore_nether_modded_1:10"]
-          }
-        },
         {
           "selector": {
             "weight": {
