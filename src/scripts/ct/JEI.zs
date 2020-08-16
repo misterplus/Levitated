@@ -38,6 +38,8 @@ addDescription(<minecraft:feather>, game.localize("description.levitated.feather
 addDescription(<contenttweaker:rainbow_ingot>, game.localize("description.levitated.rainbow"));
 addDescription(<contenttweaker:rainbow_block>, game.localize("description.levitated.rainbow"));
 addDescription(<botania:bifrostperm>, game.localize("description.levitated.rainbow"));
+addDescription(<botania:pool>, game.localize("description.levitated.mana_pool"));
+addDescription(<minecraft:brewing_stand>, game.localize("description.levitated.stand"));
 
 <extrautils2:chickenring:1>.displayName = game.localize("rename.levitated.shulker_ring");
 <pneumaticcraft:ingot_iron_compressed>.displayName = game.localize("rename.levitated.compiron");

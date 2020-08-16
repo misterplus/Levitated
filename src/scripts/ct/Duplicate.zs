@@ -23,10 +23,15 @@ function sheeting (input as IOreDictEntry, output as IItemStack) {
 function plateBlock (input as IOreDictEntry, output as IItemStack) {
     mods.advancedrocketry.PlatePresser.addRecipe(output * 4, input * 1);
 }
+function rodding (input as IOreDictEntry, output as IItemStack) {
+    mods.advancedrocketry.Lathe.addRecipe(output * 2, 40, 20, input * 1);
+    recipes.addShaped(output * 2, [[null, null, input],[null, input, null], [input, null, null]]);
+}
 
 //remove
 mods.advancedrocketry.RollingMachine.clear();
 mods.advancedrocketry.PlatePresser.clear();
+mods.advancedrocketry.Lathe.clear();
 var r = [<enderio:item_material:9>, <enderio:item_material:10>, <appliedenergistics2:material:40>, <libvulpes:productgear:7>, <advancedrocketry:productgear>, <advancedrocketry:productgear:1>, <thermalfoundation:material:288>] as IItemStack[];
 for item in r {
     recipes.remove(item);
@@ -147,3 +152,11 @@ Squeezer.addRecipe(<netherendingores:ore_end_vanilla:0>, <minecraft:coal:0> * 4,
 Squeezer.addRecipe(<netherendingores:ore_end_vanilla:6>, <minecraft:redstone> * 8, 1.0, <minecraft:redstone> * 2, 0.5, <minecraft:redstone> * 2, 0.5);
 Squeezer.addRecipe(<netherendingores:ore_end_vanilla:5>, <minecraft:dye:4> * 8, 1.0, <minecraft:dye:4> * 2, 0.5, <minecraft:dye:4> * 2, 0.5);
 Squeezer.addRecipe(<netherendingores:ore_end_vanilla:1>, <minecraft:diamond>, 1.0, <minecraft:diamond>, 0.75);
+rodding(<ore:ingotAluminum>, <immersiveengineering:material:3>);
+rodding(<ore:ingotIron>, <immersiveengineering:material:1>);
+rodding(<ore:ingotSteel>, <immersiveengineering:material:2>);
+rodding(<ore:ingotTitanium>, <libvulpes:productrod:7>);
+rodding(<ore:ingotIridium>, <libvulpes:productrod:10>);
+rodding(<ore:ingotCopper>, <libvulpes:productrod:4>);
+rodding(<ore:ingotTitaniumAluminide>, <advancedrocketry:productrod>);
+rodding(<ore:ingotTitaniumIridium>, <advancedrocketry:productrod:1>);

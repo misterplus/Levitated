@@ -1,7 +1,7 @@
 # Levitated 失重
 [![GitHub license](https://img.shields.io/github/license/misterplus/Levitated)](https://github.com/misterplus/Levitated/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/misterplus/Levitated)](https://github.com/misterplus/Levitated/issues)
-[![GitHub tag](https://img.shields.io/github/tag/misterplus/Levitated?color=0e9bd8)](https://github.com/misterplus/Levitated/releases/tag/Beta-1.3.3)
+[![GitHub tag](https://img.shields.io/github/tag/misterplus/Levitated?color=0e9bd8)](https://github.com/misterplus/Levitated/releases/tag/Beta-1.3.4)
 [![CurseForge downloads](http://cf.way2muchnoise.eu/full_399451_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/levitated)
 
 [English](./README.md) | 简体中文
@@ -46,7 +46,7 @@ Levitated(失重)是一个以探险为主题，以重建世界为主要内容的
 5. 将en_us.lang的内容复制入新创建的文件中
 6. 翻译所有语言键等号右边的内容
 7. 将改动提交到你的fork仓库
-8. 提交一个pull request(你的fork仓库 -> master分支)
+8. 提交一个pull request(你的fork仓库 -> dev分支)
 9. 等待开发团队的验证
 10. 你的心血将会在模组包的下个发布版本中被收录
 11. 你的用户名会被永久加入上方的"特别感谢"部分

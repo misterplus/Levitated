@@ -5,6 +5,7 @@ import crafttweaker.event.BlockBreakEvent;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.EntityLivingFallEvent;
 import crafttweaker.event.PlayerChangedDimensionEvent;
+import crafttweaker.event.PlayerBreakSpeedEvent;
 import mods.ctutils.utils.Math;
 import crafttweaker.data.IData;
 import crafttweaker.entity.IEntityEquipmentSlot;
@@ -23,7 +24,10 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
 	if (!event.world.remote && event.blockState == <blockstate:minecraft:end_stone> && event.isPlayer && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(event.player) && event.player.creative == false) {
 		var item = event.player.currentItem;
 		if (isNull(item) || (!item.canHarvestBlock(<blockstate:minecraft:end_stone>) && !(blacklist has item.definition.makeStack()))) {
-			event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
+			var r = Math.random() * 2 + 2;
+			for i in 0 to r {
+				event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
+			}
 		}
 	}
 });
