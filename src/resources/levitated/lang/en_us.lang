@@ -434,6 +434,8 @@ description.levitated.paper_plane=Having trouble folding a piece of paper into a
 description.levitated.mana_paper=Shift right click on a crafting table/station to fold it in half. But one cannot do so without some experience in paper-folding. You can fold the paper again in a crafting table.
 description.levitated.feather=Every bird drops feathers, even paper ones. Also, I'm pretty sure anything that has wings counts as a bird, right?
 description.levitated.rainbow=Right click a Bifrost Block with a Rainbow Ingot to turn it into a Rainbow Block.
+description.levitated.mana_pool=You can find mana pools in custom End Cities.
+description.levitated.stand=You can find brewing stands in both vanilla and custom End Cities.
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=Hot Stick
