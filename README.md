@@ -1,7 +1,7 @@
 # Levitated
 [![GitHub license](https://img.shields.io/github/license/misterplus/Levitated)](https://github.com/misterplus/Levitated/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/misterplus/Levitated)](https://github.com/misterplus/Levitated/issues)
-[![GitHub tag](https://img.shields.io/github/tag/misterplus/Levitated?color=0e9bd8)](https://github.com/misterplus/Levitated/releases/tag/Beta-1.3.3)
+[![GitHub tag](https://img.shields.io/github/tag/misterplus/Levitated?color=0e9bd8)](https://github.com/misterplus/Levitated/releases/tag/Beta-1.3.4)
 [![CurseForge downloads](http://cf.way2muchnoise.eu/full_399451_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/levitated)
 
 English | [简体中文](./README_cn.md)
@@ -44,7 +44,7 @@ Released files:
 5. Copy the contents of en_us.lang into your newly created file
 6. Translate all the language keys (Only translate what's on the right side of the equals sign)
 7. Commit the changes on your forked repository
-8. Submit a pull request (Your forked repository -> master branch)
+8. Submit a pull request (Your forked repository -> dev branch)
 9. Wait for further reviews to validate the localization
 10. Your contribution will be included in the next release of the modpack
 11. Have your username listed on the "Special Thanks" section above
