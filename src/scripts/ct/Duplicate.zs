@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.integrateddynamics.Squeezer;
 
@@ -27,12 +28,18 @@ function rodding (input as IOreDictEntry, output as IItemStack) {
     mods.advancedrocketry.Lathe.addRecipe(output * 2, 40, 20, input * 1);
     recipes.addShaped(output * 2, [[null, null, input],[null, input, null], [input, null, null]]);
 }
+function meltRod (input as IItemStack, output as ILiquidStack) {
+    mods.tconstruct.Melting.removeRecipe(output, input);
+    mods.tconstruct.Melting.addRecipe(output * 72, input);
+}
 
-//remove
+//clears
 mods.advancedrocketry.RollingMachine.clear();
 mods.advancedrocketry.PlatePresser.clear();
 mods.advancedrocketry.Lathe.clear();
-var r = [<enderio:item_material:9>, <enderio:item_material:10>, <appliedenergistics2:material:40>, <libvulpes:productgear:7>, <advancedrocketry:productgear>, <advancedrocketry:productgear:1>, <thermalfoundation:material:288>] as IItemStack[];
+
+//remove duplicated gears, ingots, nuggets, rods, plates recipes
+var r = [<enderio:item_material:9>, <enderio:item_material:10>, <appliedenergistics2:material:40>, <libvulpes:productgear:7>, <advancedrocketry:productgear>, <advancedrocketry:productgear:1>] as IItemStack[];
 for item in r {
     recipes.remove(item);
 }
@@ -77,7 +84,6 @@ recipes.removeShapeless(<thermalfoundation:material:227> * 9, [ <techreborn:ingo
 recipes.removeShapeless(<thermalfoundation:material:196> * 9, [ <techreborn:ingot>]);
 recipes.removeShapeless(<libvulpes:productnugget:9> * 9, [ <techreborn:ingot>]);
 recipes.removeShapeless(<thermalfoundation:material:228> * 9, [ <immersiveengineering:metal:6>]);
-mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:23>);
 remove(<thermalfoundation:material>, 22, 26);
 remove(<thermalfoundation:material>, 256, 265);
 remove(<thermalfoundation:material>, 288, 296);
@@ -85,10 +91,13 @@ remove(<advancedrocketry:productrod>, 0, 2);
 remove(<immersiveengineering:material>, 1, 4);
 removeOnly(<libvulpes:productrod:4>, [1, 4, 6, 7, 10] as int[]);
 
-//add
+//wooden & stone gears
+mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:23>);
 recipes.addShaped(<thermalfoundation:material:22>, [[null, <ore:stickWood>, null],[<ore:stickWood>, null, <ore:stickWood>], [null, <ore:stickWood>, null]]);
 recipes.addShaped(<thermalfoundation:material:23>, [[null, <ore:stone>, null],[<ore:stone>, <ore:gearWood>, <ore:stone>], [null, <ore:stone>, null]]);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:23>, <thermalfoundation:material:22>, <liquid:stone>, 288, true, 100);
+
+//metal processing: sheets, plates, dusts, rods
 sheeting(<ore:plateIron>, <libvulpes:productsheet:1>);
 sheeting(<ore:plateCopper>, <libvulpes:productsheet:4>);
 sheeting(<ore:plateSteel>, <libvulpes:productsheet:6>);
@@ -160,3 +169,8 @@ rodding(<ore:ingotIridium>, <libvulpes:productrod:10>);
 rodding(<ore:ingotCopper>, <libvulpes:productrod:4>);
 rodding(<ore:ingotTitaniumAluminide>, <advancedrocketry:productrod>);
 rodding(<ore:ingotTitaniumIridium>, <advancedrocketry:productrod:1>);
+meltRod(<immersiveengineering:material:1>, <liquid:iron>);
+meltRod(<immersiveengineering:material:2>, <liquid:steel>);
+meltRod(<immersiveengineering:material:3>, <liquid:aluminum>);
+meltRod(<libvulpes:productrod:4>, <liquid:copper>);
+meltRod(<libvulpes:productrod:10>, <liquid:iridium>);
