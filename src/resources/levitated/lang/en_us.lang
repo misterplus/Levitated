@@ -29,7 +29,7 @@ advancements.levitated.end.mana_pool.title=Legacy of the Aboriginals
 advancements.levitated.end.mana_pool.description=Buildings other than End Ships spawn in the end, which contains several magic items such as a Mana Pool. [Obtain a Mana Pool.]
 
 advancements.levitated.end.liquid_mana.title=Gifts of God
-advancements.levitated.end.liquid_mana.description=A manaless pool ain't gonna help you much, but fortunately there's natural pools of mana in the Stygian Growth biome. But the liquid form of mana is highly unstable, which means only basic crafting can be done. You need to find a way to stabilize them. [Fill a bucket with Mana.]
+advancements.levitated.end.liquid_mana.description=A manaless pool ain't gonna help you much, but fortunately there's natural pools of mana in the Stygian Growth biome. But the liquid form of mana is highly unstable, you might take damage from it and only basic crafting can be done. You need to find a way to stabilize them. [Fill a bucket with Mana.]
 
 advancements.levitated.end.mana_usage.title=Regrowth
 advancements.levitated.end.mana_usage.description=Mana has many special properties, like turning Stygian Grass into Vivid Grass or calcify Chorus Flowers into Bone Blocks. That means you can create flowers now, hurray! [Craft a Floral Fertilizer.]
