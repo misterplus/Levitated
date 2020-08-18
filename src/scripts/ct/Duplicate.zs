@@ -37,6 +37,7 @@ function meltRod (input as IItemStack, output as ILiquidStack) {
 mods.advancedrocketry.RollingMachine.clear();
 mods.advancedrocketry.PlatePresser.clear();
 mods.advancedrocketry.Lathe.clear();
+mods.advancedrocketry.ArcFurnace.clear();
 
 //remove duplicated gears, ingots, nuggets, rods, plates recipes
 var r = [<enderio:item_material:9>, <enderio:item_material:10>, <appliedenergistics2:material:40>, <libvulpes:productgear:7>, <advancedrocketry:productgear>, <advancedrocketry:productgear:1>] as IItemStack[];
@@ -174,3 +175,39 @@ meltRod(<immersiveengineering:material:2>, <liquid:steel>);
 meltRod(<immersiveengineering:material:3>, <liquid:aluminum>);
 meltRod(<libvulpes:productrod:4>, <liquid:copper>);
 meltRod(<libvulpes:productrod:10>, <liquid:iridium>);
+
+//Alloying balance
+mods.immersiveengineering.ArcFurnace.addRecipe(<advancedrocketry:productingot:1> * 2, <ore:ingotTitanium>, null, 200, 512, [<ore:ingotIridium>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<advancedrocketry:productingot:1> * 2, <ore:ingotTitanium>, null, 200, 512, [<ore:dustIridium>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<advancedrocketry:productingot:0> * 3, <ore:ingotTitanium> * 3, null, 200, 512, [<ore:ingotAluminum> * 7], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<advancedrocketry:productingot:0> * 3, <ore:ingotTitanium> * 3, null, 200, 512, [<ore:dustAluminum> * 7], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:8>, <ore:ingotDarkSteel>, null, 600, 512, [<ore:endstone>, <ore:obsidian>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:3>, <ore:dustRedstone>, null, 100, 512, [<ore:itemSilicon>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:5>, <ore:ingotIron>, null, 100, 512, [<ore:enderpearl>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:5>, <ore:dustIron>, null, 100, 512, [<ore:enderpearl>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:2>, <enderio:item_alloy_ingot:1>, null, 200, 512, [<ore:enderpearl>], "Alloying");
+mods.techreborn.alloySmelter.addRecipe(<immersiveengineering:metal:6> * 2, <ore:ingotCopper>, <ore:ingotNickel>, 100, 16);
+mods.techreborn.alloySmelter.addRecipe(<immersiveengineering:metal:6> * 2, <ore:dustCopper>, <ore:ingotNickel>, 100, 16);
+mods.techreborn.alloySmelter.addRecipe(<immersiveengineering:metal:6> * 2, <ore:ingotCopper>, <ore:dustNickel>, 100, 16);
+mods.techreborn.alloySmelter.addRecipe(<immersiveengineering:metal:6> * 2, <ore:dustCopper>, <ore:dustNickel>, 100, 16);
+
+mods.advancedrocketry.ArcFurnace.addRecipe(<tconstruct:ingots:2> * 1, 200, 256, [<tconstruct:ingots:0> * 1, <tconstruct:ingots:1> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:0> * 1, 200, 256, [<minecraft:iron_ingot> * 1, <techreborn:dust:13> * 1, <appliedenergistics2:material:5> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:0> * 1, 200, 256, [<minecraft:iron_ingot> * 1, <techreborn:dust:13> * 1, <libvulpes:productingot:3> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:1> * 1, 200, 256, [<minecraft:gold_ingot> * 1, <minecraft:redstone> * 1, <minecraft:glowstone_dust> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:2> * 1, 200, 256, [<enderio:item_alloy_ingot:1> * 1, <minecraft:ender_pearl> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:3> * 1, 200, 256, [<minecraft:redstone> * 1, <appliedenergistics2:material:5> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:3> * 1, 200, 256, [<minecraft:redstone> * 1, <libvulpes:productingot:3> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:4> * 1, 200, 256, [<minecraft:iron_ingot> * 1, <minecraft:redstone> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:5> * 1, 200, 256, [<minecraft:iron_ingot> * 1, <minecraft:ender_pearl> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6> * 1, 200, 256, [<minecraft:iron_ingot> * 1, <techreborn:dust:13> * 1, <minecraft:obsidian> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:8> * 1, 200, 256, [<enderio:item_alloy_ingot:6> * 1, <minecraft:end_stone> * 1, <minecraft:obsidian> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<enderio:item_alloy_ingot:7> * 1, 200, 256, [<minecraft:gold_ingot> * 1, <minecraft:soul_sand> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<techreborn:ingot:5> * 2, 200, 256, [<minecraft:gold_ingot> * 1, <techreborn:ingot:11> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<techreborn:ingot:6> * 3, 200, 256, [<minecraft:iron_ingot> * 2, <techreborn:ingot:9> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<immersiveengineering:metal:6> * 2, 200, 256, [<techreborn:ingot:4> * 1, <techreborn:ingot:9> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<advancedrocketry:productingot:1> * 2, 200, 256, [<techreborn:ingot:14> * 1, <techreborn:ingot:7> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<advancedrocketry:productingot:0> * 3, 200, 256, [<techreborn:ingot:14> * 3, <techreborn:ingot:0> * 7]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<techreborn:ingot:12> * 1, 200, 256, [<minecraft:iron_ingot> * 1, <minecraft:coal:0> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<techreborn:ingot:12> * 1, 200, 256, [<minecraft:iron_ingot> * 1, <minecraft:coal:1> * 1]);
+mods.advancedrocketry.ArcFurnace.addRecipe(<libvulpes:productingot:3> * 2, 20, 128, [<minecraft:sand> * 1]);
