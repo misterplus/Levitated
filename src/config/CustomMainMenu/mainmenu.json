@@ -92,25 +92,33 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "�nCopyright Mojang AB. Do not distribute!",
-            "posX" : -197,
+            "hoverText" : "\u00A7nCopyright Mojang AB. Do not distribute!",
+            "posX" : 2,
             "posY" : -10,
             "color" : -1,
-            "alignment" : "bottom_right",
+			"hoverColor": 15113955,
+            "alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "credits"
-            }
+            },
+			"fontSize": 0.84
         },
         
         "info":
         {
-            "text" : "Minecraft #mcversion#\nLevitated Beta 1.3.4\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
+            "text" : "Minecraft #mcversion#\nLevitated Prerelease 1.3.5\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
             "posX" : 2,
             "posY" : -40,
             "color" : -1,
-            "alignment" : "bottom_left"
+			"hoverColor": 15113955,
+            "alignment" : "bottom_left",
+			"action":{
+                "type":"openLink",
+                "link":"https://www.curseforge.com/minecraft/modpacks/levitated"
+            },
+			"fontSize": 0.84
         }
     },
 	
