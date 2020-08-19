@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "block": "botania:livingrock",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "block": "botania:livingwood",
+      "metadata": 0,
+      "tileEntity": "null"
+    }
+  ],
+  "metadata": {
+    "title": "RandomLivingBlocks",
+    "description": [
+      "Generate random living blocks"
+    ]
+  }
+}

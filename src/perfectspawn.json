@@ -25,12 +25,7 @@
         1
       ],
       "canRespawnHere": true,
-      "respawnDimension": 1,
-      "spawnPoint": {
-        "posX": 10,
-        "posY": 63,
-        "posZ": 10
-      }
+      "respawnDimension": 1
     }
   ]
 }
