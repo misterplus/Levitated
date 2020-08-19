@@ -22,7 +22,7 @@
   "weather2": "1.12.1-2.6.12",
   "bookshelf": "2.3.581",
   "forgelin": "1.8.4",
-  "plustweaks": "1.4.4",
+  "plustweaks": "1.4.5",
   "wizardry": "0.11.0",
   "randompatches": "1.12.2-1.21.0.0",
   "buildinggadgets": "2.8.4",
