@@ -84,6 +84,25 @@
             {
                 "type" : "quit"
             }
+        },
+		
+		"patreon":
+        {
+            "text": "",
+			"texture" : "levitated:textures/gui/button_4.png",
+			"pressSound": "block.grass.break",
+			"hoverSound": "block.grass.hit",
+			"alignment": "b4",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 48,
+            "height" : 48,
+			"imageWidth": 256,
+			"imageHeight": 256,
+            "action":{
+                "type":"openLink",
+                "link":"https://www.patreon.com/misterplus"
+            }
         }
     },
     
@@ -144,7 +163,13 @@
         {
             "factorWidth" : 0.350,
             "factorHeight" : 0.884
-        }
+        },
+		
+		"b4":
+		{
+			"factorWidth" : 0.820,
+			"factorHeight" : 0.864
+		}
     },
 	
 	"other": {
