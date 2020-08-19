@@ -9,4 +9,3 @@ setAnnounceToChat(false)
 setPos(-23,6)
 
 addCriteria("location", "minecraft:location")
-setRewardFunction("triumph:end")

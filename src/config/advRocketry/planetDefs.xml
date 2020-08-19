@@ -76,6 +76,33 @@
             <spawnable weight="1" groupMin="1" groupMax="3">minecraft:ghast</spawnable>
             <biomeIds>minecraft:desert,minecraft:desert_hills</biomeIds>
         </planet>
+        <planet name="AMRulk" DIMID="1009" customIcon="earthlike">
+            <isKnown>true</isKnown>
+            <skyColor>#D5F2AF</skyColor>
+            <atmosphereDensity>60</atmosphereDensity>
+            <gravitationalMultiplier>120</gravitationalMultiplier>
+            <orbitalDistance>90</orbitalDistance>
+            <orbitalTheta>189</orbitalTheta>
+            <orbitalPhi>60</orbitalPhi>
+            <oreGen>
+                <ore block="immersiveengineering:ore:5" minHeight="0" maxHeight="30" clumpSize="4" chancePerChunk="4" />
+            </oreGen>
+            <oceanBlock>minecraft:lava</oceanBlock>
+        </planet>
+        <planet name="pigpigeon" DIMID="1010" customIcon="earthlike">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#398015</fogColor>
+            <atmosphereDensity>101</atmosphereDensity>
+            <gravitationalMultiplier>101</gravitationalMultiplier>
+            <orbitalDistance>58</orbitalDistance>
+            <orbitalTheta>68</orbitalTheta>
+            <orbitalPhi>35</orbitalPhi>
+            <rotationalPeriod>12000</rotationalPeriod>
+            <fillerBlock>minecraft:stone</fillerBlock>
+            <seaLevel>52</seaLevel>
+            <spawnable weight="1" groupMin="1" groupMax="1">minecraft:pig</spawnable>
+        </planet>
     </star>
     <star name="Localizor" temp="100" x="100" y="-100">
         <planet name="Z-Eternal" DIMID="1003" customIcon="gasgiantred">
