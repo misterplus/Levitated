@@ -85,7 +85,7 @@
             <orbitalTheta>189</orbitalTheta>
             <orbitalPhi>60</orbitalPhi>
             <oreGen>
-                <ore block="immersiveengineering:ore:5" minHeight="0" maxHeight="30" clumpSize="4" chancePerChunk="4" />
+                <ore block="immersiveengineering:ore" meta="5" minHeight="0" maxHeight="30" clumpSize="4" chancePerChunk="4" />
             </oreGen>
             <oceanBlock>minecraft:lava</oceanBlock>
         </planet>
@@ -117,7 +117,7 @@
             <oreGen>
                 <ore block="minecraft:redstone_ore" minHeight="0" maxHeight="16" clumpSize="8" chancePerChunk="8" />
                 <ore block="minecraft:lapis_ore" minHeight="0" maxHeight="32" clumpSize="7" chancePerChunk="2" />
-                <ore block="chisel:valentines:9" minHeight="0" maxHeight="16" clumpSize="1" chancePerChunk="1" />
+                <ore block="chisel:valentines" meta="9" minHeight="0" maxHeight="16" clumpSize="1" chancePerChunk="1" />
             </oreGen>
             <fillerBlock>minecraft:packed_ice</fillerBlock>
             <oceanBlock>minecraft:lava</oceanBlock>
@@ -177,6 +177,7 @@
         </planet>
         <planet name="Hyperion" DIMID="2000" customIcon="earthlike" dimMapping="">
             <isKnown>true</isKnown>
+            <orbitalTheta>125</orbitalTheta>
         </planet>
         <planet name="Kepler-22p" DIMID="6666" customIcon="earthlike">
             <isKnown>false</isKnown>
