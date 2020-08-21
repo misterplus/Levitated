@@ -127,7 +127,7 @@
         
         "info":
         {
-            "text" : "Minecraft #mcversion#\nLevitated 1.4.0\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
+            "text" : "Minecraft #mcversion#\nLevitated 1.4.0-HOTFIX\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
             "posX" : 2,
             "posY" : -40,
             "color" : -1,
