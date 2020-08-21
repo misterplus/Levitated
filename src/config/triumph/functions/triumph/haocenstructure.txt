@@ -1,4 +1,3 @@
-scoreboard objectives add enter_h dunny
+scoreboard objectives add enter_h dummy
 scoreboard players add @a enter_h 1
 execute @s[score_enter_h=1,score_enter_h_min=1] ~ ~ ~ function triumph:haocenstructure_succ
-execute @s[score_enter_h=2,score_enter_h_min=2] ~ ~ ~ function triumph:haocenstructure_fail

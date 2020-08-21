@@ -1,2 +1,3 @@
 setblock ~ ~-30 ~ redstone_block
+scoreboard objectives remove enter_h
 fill ~ ~ ~ ~ ~1 ~ air
