@@ -1,6 +1,4 @@
-setblock ~ 250 ~ reccomplex:spawn_script 0 keep
-blockdata ~ 250 ~ {redstoneTriggered:0b,spawnTriggerable:0b,script:{scripts:[{id:"strucGen",script:{structureShift_z:-11,structures:[],structureShift_x:-27,structureShift_y:-186,front:"NORTH",simpleMode:0b,structureListID:"HaocenStar"}},{id:"command",script:{commands:[{weight:1.0d,command:"setblock ~ 95 ~12 command_block"}]}},{id:"command",script:{commands:[{weight:1.0d,command:"blockdata ~ 95 ~12 {conditionMet:0b,auto:0b,CustomName:\"@\",powered:0b,Command:\"function triumph:haocenstructure_delay\",id:\"minecraft:command_block\",SuccessCount:0,TrackOutput:0b,UpdateLastExecution:1b}"}]}},{id:"command",script:{commands:[{weight:1.0d,command:"summon falling_block ~ 128 ~12 {Block:\"minecraft:redstone_block\",Time:1}"}]}}],environmentMatcher:"dimension.id=2000"},redstoneTriggerable:1b}
-setblock ~ 251 ~ redstone_block 0 keep
-setblock ~ 253 ~ command_block 0 keep
-blockdata ~ 253 ~ {conditionMet:0b,auto:0b,CustomName:"@",powered:0b,Command:"fill ~ ~1 ~ ~ ~-3 ~ air",SuccessCount:0,TrackOutput:0b,UpdateLastExecution:1b}
-summon falling_block ~ 255 ~ {Block:"minecraft:redstone_block",Time:1}
+scoreboard objectives add enter_h dunny
+scoreboard players add @a enter_h 1
+execute @s[score_enter_h=1,score_enter_h_min=1] ~ ~ ~ function triumph:haocenstructure_succ
+execute @s[score_enter_h=2,score_enter_h_min=2] ~ ~ ~ function triumph:haocenstructure_fail
