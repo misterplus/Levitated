@@ -5,6 +5,7 @@ import crafttweaker.event.BlockBreakEvent;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.EntityLivingFallEvent;
 import crafttweaker.event.PlayerChangedDimensionEvent;
+import crafttweaker.event.PlayerRightClickItemEvent;
 import crafttweaker.event.PlayerBreakSpeedEvent;
 import mods.ctutils.utils.Math;
 import crafttweaker.data.IData;
@@ -117,5 +118,12 @@ events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 			var s = server.commandManager as ICommandManager;
 			s.executeCommand(server, "gamemode 0 " + player.name);
 		}
+	}
+});
+
+//Stygian Acid water bottle patch
+events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
+	if (event.player.currentItem.definition.id == "minecraft:glass_bottle" && event.world.getBlock(event.player.getRayTrace(10.0, 1, true).blockPos).definition.id == "stygian:endacid") {
+		event.cancel();
 	}
 });

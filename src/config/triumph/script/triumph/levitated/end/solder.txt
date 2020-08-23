@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.end.solder.description")
 addParent("triumph:levitated/end/assembler")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(900,-40)
+setPos(900,-34)
 
 criteria = addCriteria("hasSolderBucket", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, nbt:{FluidName:"solder",Amount:1000}>)

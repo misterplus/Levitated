@@ -56,7 +56,7 @@ advancements.levitated.end.ender_iron.title=Extraterrestrial
 advancements.levitated.end.ender_iron.description=Enderman is capable of infusing Iron Ore with certain end elements, which means some Endermen might hold a special block in their hands, they also have a lot more health than regular Endermen. With proper techniques, you managed to extract a brand new metal called End Infused Iron. [Obtain an End Infused Iron Ore.]
 
 advancements.levitated.end.grass_seeds.title=Not Photosynthesis
-advancements.levitated.end.grass_seeds.description=While End Seeds are okay for creating flowers, they are not renewable. With some knowledge on alchemy, creating some other seeds shouldn't be a problem. Let's start with a wheat one. [Obtain a Wheat Seed.]
+advancements.levitated.end.grass_seeds.description=While End Seeds are okay for creating flowers, they are not renewable. To create regular seeds, you need some grass to start with. I'm sure such a task is easy enough for a senior alchemist, right? [Obtain a Pasture Seed.]
 
 advancements.levitated.end.string.title=I have no String on me
 advancements.levitated.end.string.description=Industrial Hemp is a great source for strings since there's no animal in sight. [Obtain a String.]
@@ -126,9 +126,6 @@ advancements.levitated.end.scanner.description=The Nether is empty right now, bu
 
 advancements.levitated.end.netherrack.title=Earth of Hell
 advancements.levitated.end.netherrack.description=Bring a capacitor to the Nether and start rebuilding! What was shall be once more... [Obtain a Netherrack.]
-
-advancements.levitated.end.drying_rack.title=Drying Wisdom
-advancements.levitated.end.drying_rack.description=If you want to make Drying Racks, you'll find that Wyrmwood is a bit too hard for creating slabs, try using something softer. Maybe a bucket of Mana can help you out. [Craft a Drying Rack out of Wisdom Wood.]
 
 advancements.levitated.end.blue_lotus.title=Stabilization
 advancements.levitated.end.blue_lotus.description=The weird plants named "Enbiotic" can be found in the Stygian Growth biome. They are capable of stabilizing liquid mana and absorb them, turning into a Blue Lotus in the process. Tossing a Blue Lotus into a Mana Pool releases stored Mana. [Craft a Blue Lotus.]
@@ -428,6 +425,7 @@ tooltips.levitated.papep_plane_hint=Hold shift for hints.
 tooltips.levitated.mana_paper=Fold the paper in half vertically.
 tooltips.levitated.mana_paper_2=What? This is still paper! Just soaked with mana!
 tooltips.levitated.endglow=Only survives on Stygian Grass.
+tooltips.levitated.earth_rune=Only requires 1 Coal Block to craft.
 
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!

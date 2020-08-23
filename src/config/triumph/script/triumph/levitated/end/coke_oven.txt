@@ -4,10 +4,10 @@ setIcon(<immersiveengineering:stone_device, meta:0>)
 setTranslatedTitle("advancements.levitated.end.coke_oven.title")
 setTranslatedDescription("advancements.levitated.end.coke_oven.description")
 
-addParent("triumph:levitated/end/string")
+addParent("triumph:levitated/end/clay_flower")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(560,-63)
+setPos(600,-34)
 
 criteria = addCriteria("formed_coke_oven", "immersiveengineering:multiblock_formed")
 criteria.setMultiblock("IE:CokeOven")
