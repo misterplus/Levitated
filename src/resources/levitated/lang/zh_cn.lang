@@ -56,7 +56,7 @@ advancements.levitated.end.ender_iron.title=天外末影技术
 advancements.levitated.end.ender_iron.description=稍强一些的末影人拥有将某种末地元素注入铁矿石的能力，你可以杀死它们然后从它们手中夺取此矿物，通过适当的处理后，你成功得到了一种叫做聚影铁的新金属。[获得一个聚影铁矿石]
 
 advancements.levitated.end.grass_seeds.title=末地可没有光合作用
-advancements.levitated.end.grass_seeds.description=虽然终末种子能够制造花朵，但它们是不可再生的。在你了解了一些炼金魔法后，获得其他的种子已经不成问题。试了几次，你发现小麦种子很适合作为'母种'来转化。[获得一个小麦种子]
+advancements.levitated.end.grass_seeds.description=虽然终末种子能够制造花朵，但它们是不可再生的。你需要从§2草§r里获得一些有生命力的种子，我想这不会难倒一名优秀的高级炼金师。[获得一个草地之种]
 
 advancements.levitated.end.string.title=亚洲捆绑
 advancements.levitated.end.string.description=由于周边并没有动物，工业大麻成为线的主要来源。[获得一根线]
@@ -126,9 +126,6 @@ advancements.levitated.end.scanner.description=虽然下界现在是一片虚无
 
 advancements.levitated.end.netherrack.title=下界重建，爷青回！
 advancements.levitated.end.netherrack.description=将电容器带到下界，然后开始你的重建大业吧！随着电量的减少，眼前的虚无与记忆中的深红渐渐重合...[获得一块地狱岩]
-
-advancements.levitated.end.drying_rack.title=一滴都没有了
-advancements.levitated.end.drying_rack.description=有些东西需要晾干架，但你的力量并不足以手捏龙木台阶，所以寻找一种更加柔软的材料来制作晾干架吧！(液态魔力或许能软化木头。[制作一个灵慧树晾干架]
 
 advancements.levitated.end.blue_lotus.title=这真不是色素染的
 advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth)中，你能发现一种叫"冥灯草"的植物，它看起来十分诡异并闪着微小的光。经过尝试，你发现它能够稳定并吸收魔力，并转变为蓝莲花，把它扔进魔力池中就能够释放它储存的魔力。[制作一朵蓝莲花]
@@ -428,6 +425,7 @@ tooltips.levitated.papep_plane_hint=按住shift查看提示。
 tooltips.levitated.mana_paper=将纸垂直对折。
 tooltips.levitated.mana_paper_2=啊?! 这还是张纸! 只是被魔力浸湿了而已!
 tooltips.levitated.endglow=在除了幽冥草地以外的方块上会逐渐枯萎。
+tooltips.levitated.earth_rune=配方中只需要1个煤炭块。
 
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
