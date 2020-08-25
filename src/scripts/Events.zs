@@ -123,7 +123,10 @@ events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 
 //Stygian Acid water bottle patch
 events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
-	if (event.player.currentItem.definition.id == "minecraft:glass_bottle" && event.world.getBlock(event.player.getRayTrace(10.0, 1, true).blockPos).definition.id == "stygian:endacid") {
+	if (!isNull(event.player.currentItem) && event.player.currentItem.definition.id == "minecraft:glass_bottle" && event.world.getBlock(event.player.getRayTrace(10.0, 1, true).blockPos).definition.id == "stygian:endacid") {
+		event.cancel();
+	}
+	if (isNull(event.player.currentItem) && event.player.getInventoryStack(40).definition.id == "minecraft:glass_bottle" && event.world.getBlock(event.player.getRayTrace(10.0, 1, true).blockPos).definition.id == "stygian:endacid") {
 		event.cancel();
 	}
 });
