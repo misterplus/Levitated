@@ -195,7 +195,7 @@ advancements.levitated.nether.oil.title=黑色的金子
 advancements.levitated.nether.oil.description=你需要一些塑料来制作电路板。在此之前，你还要采一些石油，当然，你不能用手捞，先搭一个采油机-吧。[搭建一台采油机]
 
 advancements.levitated.nether.refinery.title=肝帝都是着重效率的
-advancements.levitated.nether.refinery.description=直接燃烧石油非常浪费！你需要先从石油中分馏出其他有用的物质。[制作一台炼油厂]
+advancements.levitated.nether.refinery.description=直接燃烧石油非常浪费！你需要先从石油中分馏出其他有用的物质。[制作一台精炼厂]
 
 advancements.levitated.nether.lpg.title=高品质，放心用
 advancements.levitated.nether.lpg.description=液化石油气是一种非常高效的燃料。并且也是制作液态塑料的必需品。[获得一桶液化石油气]
