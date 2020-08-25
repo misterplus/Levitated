@@ -426,6 +426,7 @@ tooltips.levitated.mana_paper=Fold the paper in half vertically.
 tooltips.levitated.mana_paper_2=What? This is still paper! Just soaked with mana!
 tooltips.levitated.endglow=Only survives on Stygian Grass.
 tooltips.levitated.earth_rune=Only requires 1 Coal Block to craft.
+tooltips.levitated.hard_glass=Fused Quartz cannot be used to craft this item.
 
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
