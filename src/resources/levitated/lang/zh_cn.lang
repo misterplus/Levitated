@@ -423,6 +423,7 @@ tooltips.levitated.mana_paper=将纸垂直对折。
 tooltips.levitated.mana_paper_2=啊?! 这还是张纸! 只是被魔力浸湿了而已!
 tooltips.levitated.endglow=在除了幽冥草地以外的方块上会逐渐枯萎。
 tooltips.levitated.hard_glass=EIO的石英玻璃不能制作此物品。
+tooltips.levitated.bottle=你无法使用玻璃瓶右键装水，请换用其他流体容器。
 
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
