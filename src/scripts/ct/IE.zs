@@ -14,6 +14,7 @@ mods.immersiveengineering.Crusher.removeRecipesForInput(<thermalfoundation:ore:5
 mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);
 mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:stone_decoration:3>);
 mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
+recipes.remove(<immersiveengineering:metal_device0:5>);
 
 //add
 //The End
@@ -57,3 +58,6 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:69> * 2,
 mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6>, 500, <minecraft:coal>, 800);
 mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:stone_decoration:3>, 5000, <ore:blockCoal>, 7200);
 mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 250, <ore:logWood>, 400);
+
+//Pump
+recipes.addShaped(<immersiveengineering:metal_device0:5>, [[null, <ore:plateSteel>, null],[<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>], [<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>]]);
