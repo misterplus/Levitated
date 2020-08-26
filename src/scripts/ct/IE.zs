@@ -61,11 +61,3 @@ mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 250, <ore:logWo
 
 //Pump
 recipes.addShaped(<immersiveengineering:metal_device0:5>, [[null, <ore:plateSteel>, null],[<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>], [<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>]]);
-
-//No Steel
-mods.thermalexpansion.InductionSmelter.removeRecipe(<techreborn:dust:13> * 4, <minecraft:iron_ingot>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<techreborn:dust:13> * 4, <techreborn:dust:27>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<techreborn:dust:9> * 4, <minecraft:iron_ingot>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<techreborn:dust:9> * 4, <techreborn:dust:27>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<immersiveengineering:material:6>, <minecraft:iron_ingot>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<immersiveengineering:material:6>, <techreborn:dust:27>);
