@@ -33,7 +33,7 @@ advancements.levitated.end.liquid_mana.description=没有魔力的魔力池对�
 
 advancements.levitated.end.mana_usage.title=朝气蓬勃
 advancements.levitated.end.mana_usage.description=魔力有很多特殊的作用，比如把幽冥草地变为鲜草草地，把紫颂花变为骨块。这意味着你现在可以养花了，耶！[制作一个花肥]
-
+制作一个
 advancements.levitated.end.living_blocks.title=充满活力
 advancements.levitated.end.living_blocks.description=白雏菊能让末地石焕发生机，这意味着你可以用它制作活石以及其他材料，例如活木。[获得一个活木和一个活石]
 
@@ -135,6 +135,12 @@ advancements.levitated.end.feather.description=打个响指就能召唤一只鸟
 
 advancements.levitated.end.bed.title=甜蜜的梦
 advancements.levitated.end.bed.description=小摇床，轻轻晃，末影人，在身旁，紫紫眼睛盯着你，点床不能入梦乡，复活可以在床旁。[制作一个床]
+
+advancements.levitated.end.waystone.title=漫步于世界
+advancements.levitated.end.waystone.description=徒步几千格不会让史蒂夫累趴，但会浪费你宝贵的时间，这个神秘的末影古物肯定能帮到你。[制作一个指路石]
+
+advancements.levitated.end.compass.title=人与自然
+advancements.levitated.end.compass.description=还在因为找不到群系而停下你肝帝的脚步？让大自然指引你前进的方向吧！[制作一个生物群系指南针]
 
 # The Nether
 advancements.levitated.nether.root.title=无魂之壤
