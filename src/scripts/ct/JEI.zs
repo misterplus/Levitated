@@ -32,6 +32,8 @@ function hideAll (item as IItemStack, f as int, t as int) {
 <contenttweaker:mana_paper>.addTooltip(format.darkGray(game.localize("tooltips.levitated.mana_paper_2")));
 <stygian:endglow>.addTooltip(format.gray(game.localize("tooltips.levitated.endglow")));
 <thermalfoundation:glass_alloy:*>.addTooltip(format.yellow(game.localize("tooltips.levitated.hard_glass")));
+<minecraft:glass_bottle>.addTooltip(format.yellow(game.localize("tooltips.levitated.bottle")));
+<minecraft:potion>.withTag({Potion: "minecraft:water"}).addTooltip(format.yellow(game.localize("tooltips.levitated.bottle")));
 addDescription(<contenttweaker:mana_paper>, game.localize("description.levitated.mana_paper"));
 addDescription(<contenttweaker:end_iron_chunk>, game.localize("description.levitated.end_iron_chunk"));
 addDescription(<tconstruct:firewood:1>, game.localize("description.levitated.end_iron_chunk"));

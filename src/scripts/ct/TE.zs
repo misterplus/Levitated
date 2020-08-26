@@ -32,3 +32,4 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:71>
 mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag(<enchantment:oeintegration:oreexcavation>.makeEnchantment(1).makeTag()), <minecraft:book>, <oeintegration:excavatemodifier> * 5, 36000, 4000, false);
 
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:glass_bottle>, <liquid:water> * 250);
+mods.thermalexpansion.Transposer.removeExtractRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}));
