@@ -7,7 +7,7 @@ addParent("triumph:levitated/end/machine_block")
 addParent("triumph:levitated/end/alloy_smelter")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(861,-40)
+setPos(861,-34)
 
 criteria = addCriteria("hasAssembler", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:machine, nbt:{Type:"crafttweaker:assembler"}>)

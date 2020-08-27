@@ -7,7 +7,7 @@ addParent("triumph:levitated/end/scanner")
 addParent("triumph:levitated/end/nether_portal")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(982,-7)
+setPos(982,-4)
 
 criteria = addCriteria("hasNetherrack", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:netherrack>)

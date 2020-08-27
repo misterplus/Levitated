@@ -9,7 +9,7 @@ setShowToast(true)
 setAnnounceToChat(false)
 setPos(87,-42)
 
-criteria = addCriteria("formed_pumpjack", "immersiveengineering:multiblock_formed")
-criteria.setMultiblock("IP:Pumpjack")
+criteria = addCriteria("hasOilBucket", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, nbt:{FluidName:"oil",Amount:1000}>)
 
 visibleIf("triumph:levitated/nether/root")

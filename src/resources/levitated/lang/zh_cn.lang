@@ -41,7 +41,7 @@ advancements.levitated.end.altar.title=池中的小生命
 advancements.levitated.end.altar.description=在研究植物的过程中，花药台能帮你制作很多神奇的花朵，在此之前，你还需要准备一些种子。不过，这里似乎并没有充满生命力的绿色种子？希望这死气沉沉的紫色种子能帮上一些忙吧。[制作一个花药台]
 
 advancements.levitated.end.water.title=源泉!哦不!这是圆寂泉
-advancements.levitated.end.water.description=通过观察身边的怪物,你发现在酸性平原群系(Acidic Plains)中的幽冥酸液会对生物造成伤害,但通过适当的处理,它能够净化成水,这过程是漫长且枯燥的,可不要睡着了。还有一点,这不是主世界,并没有所谓的无限水.[捞一桶幽冥酸液]
+advancements.levitated.end.water.description=通过观察身边的怪物,你发现在酸性平原群系(Acidic Plains)中的幽冥酸液会对生物造成伤害,但通过适当的处理,它能够净化成水,这过程是漫长且枯燥的,可不要睡着了。还有一点,这不是主世界,无限水并不容易获得。[捞一桶幽冥酸液]
 
 advancements.levitated.end.clay_flower.title=小朋友都喜欢它
 advancements.levitated.end.clay_flower.description=一朵叫粘土花的小花可以帮助你把沙子变为粘土，那么问题来了，沙子怎么获得？[制作一个粘土花]
@@ -56,7 +56,7 @@ advancements.levitated.end.ender_iron.title=天外末影技术
 advancements.levitated.end.ender_iron.description=稍强一些的末影人拥有将某种末地元素注入铁矿石的能力，你可以杀死它们然后从它们手中夺取此矿物，通过适当的处理后，你成功得到了一种叫做聚影铁的新金属。[获得一个聚影铁矿石]
 
 advancements.levitated.end.grass_seeds.title=末地可没有光合作用
-advancements.levitated.end.grass_seeds.description=虽然终末种子能够制造花朵，但它们是不可再生的。在你了解了一些炼金魔法后，获得其他的种子已经不成问题。试了几次，你发现小麦种子很适合作为'母种'来转化。[获得一个小麦种子]
+advancements.levitated.end.grass_seeds.description=虽然终末种子能够制造花朵，但它们是不可再生的。你需要从§2草§r里获得一些有生命力的种子，我想这不会难倒一名优秀的高级炼金师。[获得一个草地之种]
 
 advancements.levitated.end.string.title=亚洲捆绑
 advancements.levitated.end.string.description=由于周边并没有动物，工业大麻成为线的主要来源。[获得一根线]
@@ -101,7 +101,7 @@ advancements.levitated.end.glitched_oby.title=系统§k故kokok§r障
 advancements.levitated.end.glitched_oby.description=仅仅用黑曜石搭建一个传送门框架并不能让你进入下界，你需要给普通的黑曜石添加一些小"故障"，在你思考该怎么做时，泰拉凝聚板向你发出了微弱的光芒。[制作一个故障黑曜石]
 
 advancements.levitated.end.nether_portal.title=通向...虚无的门?
-advancements.levitated.end.nether_portal.description=寻常火焰并不能激活故障的传送门，炽热而又蕴含魔力的符文冥冥中与之有些呼应。激活传送门后，你就可以前往下界了，但是迎接你的只有一片虚无..[进入下界]
+advancements.levitated.end.nether_portal.description=寻常的火焰并不能激活故障的传送门，你需要一样更加炽热的东西，比如火之符文。激活传送门后，你就可以前往下界了，但是迎接你的只有一片虚无..[进入下界]
 
 advancements.levitated.end.deep_learner.title=源计划: 故障
 advancements.levitated.end.deep_learner.description=要想搭建一个通往下界的传送门，你首先需要模拟怪物的习性。末地的怪物种类屈指可数，所以，不要选择困难，挑选你喜欢的然后开始吧![制作一个深度学习器]
@@ -127,9 +127,6 @@ advancements.levitated.end.scanner.description=虽然下界现在是一片虚无
 advancements.levitated.end.netherrack.title=下界重建，爷青回！
 advancements.levitated.end.netherrack.description=将电容器带到下界，然后开始你的重建大业吧！随着电量的减少，眼前的虚无与记忆中的深红渐渐重合...[获得一块地狱岩]
 
-advancements.levitated.end.drying_rack.title=一滴都没有了
-advancements.levitated.end.drying_rack.description=有些东西需要晾干架，但你的力量并不足以手捏龙木台阶，所以寻找一种更加柔软的材料来制作晾干架吧！(液态魔力或许能软化木头。[制作一个灵慧树晾干架]
-
 advancements.levitated.end.blue_lotus.title=这真不是色素染的
 advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth)中，你能发现一种叫"冥灯草"的植物，它看起来十分诡异并闪着微小的光。经过尝试，你发现它能够稳定并吸收魔力，并转变为蓝莲花，把它扔进魔力池中就能够释放它储存的魔力。[制作一朵蓝莲花]
 
@@ -138,6 +135,12 @@ advancements.levitated.end.feather.description=打个响指就能召唤一只鸟
 
 advancements.levitated.end.bed.title=甜蜜的梦
 advancements.levitated.end.bed.description=小摇床，轻轻晃，末影人，在身旁，紫紫眼睛盯着你，点床不能入梦乡，复活可以在床旁。[制作一个床]
+
+advancements.levitated.end.waystone.title=漫步于世界
+advancements.levitated.end.waystone.description=徒步几千格不会让史蒂夫累趴，但会浪费你宝贵的时间，这个神秘的末影古物肯定能帮到你。[制作一个指路石]
+
+advancements.levitated.end.compass.title=人与自然
+advancements.levitated.end.compass.description=还在因为找不到群系而停下你肝帝的脚步？让大自然指引你前进的方向吧！[制作一个生物群系指南针]
 
 # The Nether
 advancements.levitated.nether.root.title=无魂之壤
@@ -198,7 +201,7 @@ advancements.levitated.nether.oil.title=黑色的金子
 advancements.levitated.nether.oil.description=你需要一些塑料来制作电路板。在此之前，你还要采一些石油，当然，你不能用手捞，先搭一个采油机-吧。[搭建一台采油机]
 
 advancements.levitated.nether.refinery.title=肝帝都是着重效率的
-advancements.levitated.nether.refinery.description=直接燃烧石油非常浪费！你需要先从石油中分馏出其他有用的物质。[制作一台炼油厂]
+advancements.levitated.nether.refinery.description=直接燃烧石油非常浪费！你需要先从石油中分馏出其他有用的物质。[制作一台精炼厂]
 
 advancements.levitated.nether.lpg.title=高品质，放心用
 advancements.levitated.nether.lpg.description=液化石油气是一种非常高效的燃料。并且也是制作液态塑料的必需品。[获得一桶液化石油气]
@@ -251,9 +254,6 @@ advancements.levitated.overworld.root.description=你成功回来了！但现在
 
 advancements.levitated.overworld.refined_iron.title=铁是铁，钢是钢，精炼一次菜的慌
 advancements.levitated.overworld.refined_iron.description=显然，将铁精炼一次是远远不够制作更高级的机器的，再精炼一次钢说不定可行，但怎么做呢？[制作一个精炼钢锭]
-
-advancements.levitated.overworld.water.title=谁不喜欢水多？
-advancements.levitated.overworld.water.description=水资源短缺？ 河流和海洋群系拥有无穷无尽的水！[到访海洋生物群系]
 
 advancements.levitated.overworld.rubber.title=你爱吃大香蕉吗
 advancements.levitated.overworld.rubber.description=好吧，这东西和香蕉没什么关系。它们非常适合用来制作线缆！安全用电，宝贝们~ [获得一些粘性树脂]
@@ -428,6 +428,8 @@ tooltips.levitated.papep_plane_hint=按住shift查看提示。
 tooltips.levitated.mana_paper=将纸垂直对折。
 tooltips.levitated.mana_paper_2=啊?! 这还是张纸! 只是被魔力浸湿了而已!
 tooltips.levitated.endglow=在除了幽冥草地以外的方块上会逐渐枯萎。
+tooltips.levitated.hard_glass=EIO的石英玻璃不能制作此物品。
+tooltips.levitated.bottle=你无法使用玻璃瓶右键装水，请使用流体容器装填水瓶。
 
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？

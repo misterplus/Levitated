@@ -1,15 +1,14 @@
-setIcon(<minecraft:wheat_seeds>)
+setIcon(<botania:grassseeds:0>)
 
 setTranslatedTitle("advancements.levitated.end.grass_seeds.title")
 setTranslatedDescription("advancements.levitated.end.grass_seeds.description")
 
 addParent("triumph:levitated/end/alchemy")
-addParent("triumph:levitated/end/drying_rack")
 setShowToast(true)
 setAnnounceToChat(false)
 setPos(484,-34)
 
-criteria = addCriteria("hasGrassSeeds", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:wheat_seeds>)
+criteria = addCriteria("hasPastureSeeds", "minecraft:inventory_changed")
+criteria.addItem(<botania:grassseeds:0>)
 
 visibleIf("triumph:levitated/end/root")

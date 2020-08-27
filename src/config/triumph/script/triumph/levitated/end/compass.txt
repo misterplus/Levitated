@@ -1,0 +1,14 @@
+setIcon(<naturescompass:naturescompass>)
+
+setTranslatedTitle("advancements.levitated.end.compass.title")
+setTranslatedDescription("advancements.levitated.end.compass.description")
+
+addParent("triumph:levitated/end/liquid_mana")
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(271,-75)
+
+criteria = addCriteria("hasCompass", "minecraft:inventory_changed")
+criteria.addItem(<naturescompass:naturescompass>)
+
+visibleIf("triumph:levitated/end/root")

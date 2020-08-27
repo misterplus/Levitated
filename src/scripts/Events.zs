@@ -5,6 +5,7 @@ import crafttweaker.event.BlockBreakEvent;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.EntityLivingFallEvent;
 import crafttweaker.event.PlayerChangedDimensionEvent;
+import crafttweaker.event.PlayerRightClickItemEvent;
 import crafttweaker.event.PlayerBreakSpeedEvent;
 import mods.ctutils.utils.Math;
 import crafttweaker.data.IData;

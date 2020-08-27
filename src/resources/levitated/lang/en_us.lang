@@ -41,7 +41,7 @@ advancements.levitated.end.altar.title=Birthing Pond
 advancements.levitated.end.altar.description=This Petal Apothecary is gonna help you to create more magic flowers to aid you on your journey, but you might need some seeds to start with. Eventually the green ones, but for now some purple ones should do it. [Craft a Petal Apothecary.]
 
 advancements.levitated.end.water.title=Water you waiting for?
-advancements.levitated.end.water.description=The Stygian Acid found in the Acidic Plains biome sure is harmful, but with proper tinkering, it can be purified into water. This is not the Overworld, so no infinite water for you, I'm afraid. [Fill a bucket with Stygian Acid.]
+advancements.levitated.end.water.description=The Stygian Acid found in the Acidic Plains biome sure is harmful, but with proper tinkering, it can be purified into water. This is not the Overworld, so infinite water doesn't come easy, I'm afraid. [Fill a bucket with Stygian Acid.]
 
 advancements.levitated.end.clay_flower.title=Clayrify
 advancements.levitated.end.clay_flower.description=A flower named Clayconia can help you turn sand into clay, but you're probably wondering: Where do I get sand?! [Craft a Clayconia.]
@@ -56,7 +56,7 @@ advancements.levitated.end.ender_iron.title=Extraterrestrial
 advancements.levitated.end.ender_iron.description=Enderman is capable of infusing Iron Ore with certain end elements, which means some Endermen might hold a special block in their hands, they also have a lot more health than regular Endermen. With proper techniques, you managed to extract a brand new metal called End Infused Iron. [Obtain an End Infused Iron Ore.]
 
 advancements.levitated.end.grass_seeds.title=Not Photosynthesis
-advancements.levitated.end.grass_seeds.description=While End Seeds are okay for creating flowers, they are not renewable. With some knowledge on alchemy, creating some other seeds shouldn't be a problem. Let's start with a wheat one. [Obtain a Wheat Seed.]
+advancements.levitated.end.grass_seeds.description=While End Seeds are okay for creating flowers, they are not renewable. To create regular seeds, you need some grass to start with. I'm sure such a task is easy enough for a senior alchemist, right? [Obtain a Pasture Seed.]
 
 advancements.levitated.end.string.title=I have no String on me
 advancements.levitated.end.string.description=Industrial Hemp is a great source for strings since there's no animal in sight. [Obtain a String.]
@@ -127,9 +127,6 @@ advancements.levitated.end.scanner.description=The Nether is empty right now, bu
 advancements.levitated.end.netherrack.title=Earth of Hell
 advancements.levitated.end.netherrack.description=Bring a capacitor to the Nether and start rebuilding! What was shall be once more... [Obtain a Netherrack.]
 
-advancements.levitated.end.drying_rack.title=Drying Wisdom
-advancements.levitated.end.drying_rack.description=If you want to make Drying Racks, you'll find that Wyrmwood is a bit too hard for creating slabs, try using something softer. Maybe a bucket of Mana can help you out. [Craft a Drying Rack out of Wisdom Wood.]
-
 advancements.levitated.end.blue_lotus.title=Stabilization
 advancements.levitated.end.blue_lotus.description=The weird plants named "Enbiotic" can be found in the Stygian Growth biome. They are capable of stabilizing liquid mana and absorb them, turning into a Blue Lotus in the process. Tossing a Blue Lotus into a Mana Pool releases stored Mana. [Craft a Blue Lotus.]
 
@@ -138,6 +135,12 @@ advancements.levitated.end.feather.description=You can't just snap your fingers 
 
 advancements.levitated.end.bed.title=Sweet Dreams
 advancements.levitated.end.bed.description=If you don't mess with Endermans, the end is quite a peaceful place. I feel sleepy now, see you tomorrow, if there is one. [Craft a Bed.]
+
+advancements.levitated.end.waystone.title=Do you know da wae?
+advancements.levitated.end.waystone.description=Travelling thousands of blocks can be really time-consuming, this piece of ancient artifact can surely help you out. [Craft a Waystone.]
+
+advancements.levitated.end.compass.title=Nature's Way
+advancements.levitated.end.compass.description=Still wandering around cluelessly, trying to find the biome that you so desire? Let nature guides you with this compass! [Craft a Nature's Compass.]
 
 # The Nether
 advancements.levitated.nether.root.title=Soulless Dimension
@@ -195,7 +198,7 @@ advancements.levitated.nether.pcb_blueprint.title=Printing with Light
 advancements.levitated.nether.pcb_blueprint.description=To make a functional PCB, you'll need a PCB Blueprint. Luckily, you can buy one online. [Purchase a PCB Blueprint.]
 
 advancements.levitated.nether.oil.title=Black Gold
-advancements.levitated.nether.oil.description=In order to produce plastic for PCBs, you have to get some oil first. Building a Pumpjack shoule help you out. [Build a Pumpjack.]
+advancements.levitated.nether.oil.description=In order to produce plastic for PCBs, you have to get some oil first. Building a Pumpjack should help you out. [Build a Pumpjack.]
 
 advancements.levitated.nether.refinery.title=Efficiency at its Finest
 advancements.levitated.nether.refinery.description=Simply burning your oil is a huge waste! Besides, you need to seperate other substances away from oil in order to make use of them. [Craft a Refinery.]
@@ -248,9 +251,6 @@ advancements.levitated.nether.skystone.description=Finding any meteor in the net
 # Overworld
 advancements.levitated.overworld.root.title=Sun, Moon and Stars
 advancements.levitated.overworld.root.description=You've made it back home! But this world isn't really your ideal settlement, since there's still nothing but the void. Maybe we can... go for the stars?
-
-advancements.levitated.overworld.water.title=Now we are waterin'
-advancements.levitated.overworld.water.description=Short on water supply? Pump infinite water from biomes like ocean or river! [Travel to a Ocean biome.]
 
 advancements.levitated.overworld.refined_iron.title=Double Refinement
 advancements.levitated.overworld.refined_iron.description=Apparently refining iron once isn't enough, you are gonna need better base materials for more advanced machines. Refining steel once more should be good, but how? [Craft a Refined Steel Ingot.]
@@ -428,6 +428,8 @@ tooltips.levitated.papep_plane_hint=Hold shift for hints.
 tooltips.levitated.mana_paper=Fold the paper in half vertically.
 tooltips.levitated.mana_paper_2=What? This is still paper! Just soaked with mana!
 tooltips.levitated.endglow=Only survives on Stygian Grass.
+tooltips.levitated.hard_glass=Fused Quartz cannot be used to craft this item.
+tooltips.levitated.bottle=Water bottling via right clicking is disabled, use a Fluid Tank instead.
 
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!

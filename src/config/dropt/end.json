@@ -126,6 +126,73 @@
     {
       "match": {
         "blocks": {
+          "blocks": [
+            "netherendingores:ore_end_vanilla:0",
+            "netherendingores:ore_end_vanilla:1",
+            "netherendingores:ore_end_vanilla:5",
+            "netherendingores:ore_end_vanilla:6",
+            "netherendingores:ore_nether_modded_1:9",
+            "netherendingores:ore_nether_modded_1:10"
+          ]
+        },
+        "harvester": {
+          "heldItemMainHand": {
+            "items": [
+              "buildinggadgets:buildingtool:*",
+              "buildinggadgets:exchangertool:*",
+              "buildinggadgets:copypastetool:*"
+            ]
+          }
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "item": {
+            "items": []
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "netherendingores:ore_end_vanilla:0",
+            "netherendingores:ore_end_vanilla:1",
+            "netherendingores:ore_end_vanilla:5",
+            "netherendingores:ore_end_vanilla:6",
+            "netherendingores:ore_nether_modded_1:9",
+            "netherendingores:ore_nether_modded_1:10"
+          ]
+        },
+        "harvester": {
+          "heldItemMainHand": {
+            "items": ["EMPTY"]
+          },
+          "heldItemOffHand": {
+            "items": [
+              "buildinggadgets:buildingtool:*",
+              "buildinggadgets:exchangertool:*",
+              "buildinggadgets:copypastetool:*"
+            ]
+          }
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "item": {
+            "items": []
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
           "blocks": ["netherendingores:ore_end_vanilla:0"]
         },
         "harvester": {

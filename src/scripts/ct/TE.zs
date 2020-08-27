@@ -30,3 +30,15 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:71>
 
 //Ore excavation integration
 mods.thermalexpansion.Enchanter.addRecipe(<minecraft:enchanted_book>.withTag(<enchantment:oeintegration:oreexcavation>.makeEnchantment(1).makeTag()), <minecraft:book>, <oeintegration:excavatemodifier> * 5, 36000, 4000, false);
+
+//Fix water bottle
+mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:glass_bottle>, <liquid:water> * 250);
+mods.thermalexpansion.Transposer.removeExtractRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}));
+
+//No Steel
+mods.thermalexpansion.InductionSmelter.removeRecipe(<techreborn:dust:13> * 4, <minecraft:iron_ingot>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<techreborn:dust:13> * 4, <techreborn:dust:27>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<techreborn:dust:9> * 4, <minecraft:iron_ingot>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<techreborn:dust:9> * 4, <techreborn:dust:27>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<immersiveengineering:material:6>, <minecraft:iron_ingot>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<immersiveengineering:material:6>, <techreborn:dust:27>);

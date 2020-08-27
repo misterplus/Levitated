@@ -6,7 +6,7 @@ setTranslatedDescription("advancements.levitated.end.machine_block.description")
 addParent("triumph:levitated/end/infinity_dust")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(745,-40)
+setPos(745,-34)
 
 criteria = addCriteria("hasMachineBlock", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:machine>)
