@@ -2,27 +2,7 @@
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI.addDescription;
 import mods.jei.JEI.hide;
-
-function hideOnly (item as IItemStack, r as int[]) {
-    var def = item.definition;
-    for i in r {
-        hide(def.makeStack(i));
-    }
-}
-function hideExcept (item as IItemStack, e as int[], f as int, t as int) {
-    var def = item.definition;
-    for i in f to t {
-        if !(e has i) {
-            hide(def.makeStack(i));
-        }
-    }
-}
-function hideAll (item as IItemStack, f as int, t as int) {
-    var def = item.definition;
-    for i in f to t {
-        hide(def.makeStack(i));
-    }
-}
+import scripts.ct.Function;
 
 <contenttweaker:end_seeds>.addTooltip(format.gray(game.localize("tooltips.levitated.end_seeds")));
 <contenttweaker:origin_book>.addTooltip(format.gray(game.localize("tooltips.levitated.origin_book")));
@@ -73,23 +53,23 @@ hide(<netherendingores:ore_end_modded_2>);
 hide(<netherendingores:ore_other_1:0>);
 hide(<netherendingores:ore_other_1:2>);
 hide(<netherendingores:ore_other_1:4>);
-hideExcept(<netherendingores:ore_end_modded_1>, [1, 3, 8] as int[], 0, 16);
-hideOnly(<netherendingores:ore_other_1>, [1, 3, 5] as int[]);
+Function.hideExcept(<netherendingores:ore_end_modded_1>, [1, 3, 8] as int[], 0, 16);
+Function.hideOnly(<netherendingores:ore_other_1>, [1, 3, 5] as int[]);
 
 //Nether ores
 hide(<netherendingores:ore_nether_vanilla:*>);
 hide(<netherendingores:ore_nether_modded_2>);
-hideExcept(<netherendingores:ore_nether_modded_1>, [0, 5, 7, 9, 10, 12] as int[], 0, 16);
+Function.hideExcept(<netherendingores:ore_nether_modded_1>, [0, 5, 7, 9, 10, 12] as int[], 0, 16);
 
 //IE ores
-hideAll(<immersiveengineering:ore>, 0, 5);
+Function.hideAll(<immersiveengineering:ore>, 0, 5);
 
 //TR ores
-hideExcept(<techreborn:ore>, [1, 2, 3, 4] as int[], 0, 14);
-hideAll(<techreborn:ore2>, 0, 2);
+Function.hideExcept(<techreborn:ore>, [1, 2, 3, 4] as int[], 0, 14);
+Function.hideAll(<techreborn:ore2>, 0, 2);
 
 //AR ores
-hideExcept(<libvulpes:ore0>, [0, 8] as int[], 0, 11);
+Function.hideExcept(<libvulpes:ore0>, [0, 8] as int[], 0, 11);
 
 //TE ores
-hideAll(<thermalfoundation:ore_fluid>, 0, 6);
+Function.hideAll(<thermalfoundation:ore_fluid>, 0, 6);
