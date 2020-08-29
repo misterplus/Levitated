@@ -99,11 +99,8 @@ events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 	if !player.world.remote {
 		//Finale
 		if event.to == 6666 {
-			var data = player.data;
-			if !(data has "HasFinished") {
-				player.give(<contenttweaker:trophy>);
-				player.update(data + {"HasFinished": 1});
-			}
+			var s = server.commandManager as ICommandManager;
+			s.executeCommand(server, "gamestage silentadd " + player.name + " bad_ending");
 		}
 		//HaocenStar
 		if event.to == 2000 {

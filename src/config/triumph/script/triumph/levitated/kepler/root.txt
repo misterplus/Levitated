@@ -8,5 +8,5 @@ setShowToast(true)
 setAnnounceToChat(false)
 setPos(0,0)
 
-criteria = addCriteria("hasTrophy", "minecraft:inventory_changed")
-criteria.addItem(<contenttweaker:trophy>)
+criteria = addCriteria("badEnding", "triumph:gamestage")
+criteria.setStage("bad_ending")
