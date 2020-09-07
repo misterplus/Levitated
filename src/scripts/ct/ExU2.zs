@@ -7,6 +7,8 @@ recipes.remove(<extrautils2:quarry>);
 recipes.remove(<extrautils2:quarryproxy>);
 
 //add
+recipes.replaceAllOccurences(<minecraft:log:0>, <ore:logWood>, <extrautils2:spike_wood>);
+recipes.replaceAllOccurences(<minecraft:planks:0>, <ore:plankWood>, <extrautils2:spike_wood>);
 recipes.replaceAllOccurences(<ore:dustRedstone>, <ore:ingotRedstoneAlloy>, <extrautils2:machine>);
 recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotElectricalSteel>, <extrautils2:machine>);
 recipes.replaceAllOccurences(<ore:ingotGold>, <ore:ingotEnergeticAlloy>, <extrautils2:machine>);

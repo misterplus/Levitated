@@ -438,6 +438,7 @@ description.levitated.feather=Every bird drops feathers, even paper ones. Also, 
 description.levitated.rainbow=Right click a Bifrost Block with a Rainbow Ingot to turn it into a Rainbow Block.
 description.levitated.mana_pool=You can find mana pools in custom End Cities.
 description.levitated.stand=You can find brewing stands in both vanilla and custom End Cities.
+description.levitated.solder=To create a Bucket of Solder, simply right click on fire with a Bucket of Solder Powder.
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=Hot Stick

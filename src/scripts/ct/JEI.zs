@@ -23,6 +23,7 @@ addDescription(<contenttweaker:rainbow_block>, game.localize("description.levita
 addDescription(<botania:bifrostperm>, game.localize("description.levitated.rainbow"));
 addDescription(<botania:pool>, game.localize("description.levitated.mana_pool"));
 addDescription(<minecraft:brewing_stand>, game.localize("description.levitated.stand"));
+addDescription(<forge:bucketfilled>.withTag({FluidName: "solder", Amount: 1000}), game.localize("description.levitated.solder"));
 
 <extrautils2:chickenring:1>.displayName = game.localize("rename.levitated.shulker_ring");
 <pneumaticcraft:ingot_iron_compressed>.displayName = game.localize("rename.levitated.compiron");
