@@ -1,0 +1,15 @@
+setIcon(<minecraft:knowledge_book>)
+
+setTranslatedTitle("advancements.levitated.end.scanner_info.title")
+setTranslatedDescription("advancements.levitated.end.scanner_info.description")
+
+addParent("triumph:levitated/end/scanner")
+setShowToast(true)
+setAnnounceToChat(false)
+
+drawDirectLines()
+
+setRequiresParents()
+
+visibleIf("triumph:levitated/end/root")
+setPos(640,108)

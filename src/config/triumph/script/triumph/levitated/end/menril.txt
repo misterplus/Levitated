@@ -1,0 +1,16 @@
+setIcon(<integrateddynamics:menril_sapling>)
+
+setTranslatedTitle("advancements.levitated.end.menril.title")
+setTranslatedDescription("advancements.levitated.end.menril.description")
+
+addParent("triumph:levitated/end/alchemy")
+setShowToast(true)
+setAnnounceToChat(false)
+
+drawDirectLines()
+
+criteria = addCriteria("hasMenril", "minecraft:inventory_changed")
+criteria.addItem(<integrateddynamics:menril_sapling>)
+
+visibleIf("triumph:levitated/end/root")
+setPos(320,60)

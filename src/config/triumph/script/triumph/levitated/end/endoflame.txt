@@ -1,0 +1,22 @@
+setIcon(<botania:specialflower, nbt:{type:"endoflame"}>)
+
+setTranslatedTitle("advancements.levitated.end.endoflame.title")
+setTranslatedDescription("advancements.levitated.end.endoflame.description")
+
+addParent("triumph:levitated/end/mana_usage")
+addParent("triumph:levitated/end/altar")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
+
+drawDirectLines()
+
+criteria = addCriteria("hasEndoflame", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{type:"endoflame"}>)
+
+visibleIf("triumph:levitated/end/root")
+setPos(256,60)

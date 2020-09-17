@@ -1,0 +1,14 @@
+setIcon(<scanner:scanner_queue>)
+
+setTranslatedTitle("advancements.levitated.end.queue.title")
+setTranslatedDescription("advancements.levitated.end.queue.description")
+
+addParent("triumph:levitated/end/scanner")
+setShowToast(true)
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasScannerQueue", "minecraft:inventory_changed")
+criteria.addItem(<scanner:scanner_queue>)
+
+visibleIf("triumph:levitated/end/root")
+setPos(672,95)

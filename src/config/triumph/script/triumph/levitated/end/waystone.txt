@@ -3,12 +3,12 @@ setIcon(<waystones:waystone>)
 setTranslatedTitle("advancements.levitated.end.waystone.title")
 setTranslatedDescription("advancements.levitated.end.waystone.description")
 
-addParent("triumph:levitated/end/liquid_mana")
+addParent("triumph:levitated/end/mana_resource")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(271,87)
 
 criteria = addCriteria("hasWaystone", "minecraft:inventory_changed")
 criteria.addItem(<waystones:waystone>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(224,168)

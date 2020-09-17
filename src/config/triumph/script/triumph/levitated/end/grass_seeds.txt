@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.end.grass_seeds.description")
 addParent("triumph:levitated/end/alchemy")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(484,-34)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasPastureSeeds", "minecraft:inventory_changed")
 criteria.addItem(<botania:grassseeds:0>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(352,108)

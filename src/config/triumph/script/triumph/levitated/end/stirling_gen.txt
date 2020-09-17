@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.end.stirling_gen.description")
 addParent("triumph:levitated/end/infinity_dust")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(745,6)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasStirlingGen", "minecraft:inventory_changed")
 criteria.addItem(<enderio:block_simple_stirling_generator>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(544,27)

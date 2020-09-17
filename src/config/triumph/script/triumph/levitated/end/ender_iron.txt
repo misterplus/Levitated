@@ -1,4 +1,3 @@
-Parser.addRequiredMod("contenttweaker")
 setIcon(<contenttweaker:end_iron>)
 
 setTranslatedTitle("advancements.levitated.end.ender_iron.title")
@@ -7,9 +6,14 @@ setTranslatedDescription("advancements.levitated.end.ender_iron.description")
 addParent("triumph:levitated/end/enderdagger")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(444,44)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasEnderIron", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:end_iron>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(256,114)

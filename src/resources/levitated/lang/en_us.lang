@@ -32,7 +32,7 @@ advancements.levitated.end.liquid_mana.title=Gifts of God
 advancements.levitated.end.liquid_mana.description=A manaless pool ain't gonna help you much, but fortunately there's natural pools of mana in the Stygian Growth biome. But the liquid form of mana is highly unstable, you might take damage from it and only basic crafting can be done. You need to find a way to stabilize them. [Fill a bucket with Mana.]
 
 advancements.levitated.end.mana_usage.title=Regrowth
-advancements.levitated.end.mana_usage.description=Mana has many special properties, like turning Stygian Grass into Vivid Grass or calcify Chorus Flowers into Bone Blocks. That means you can create flowers now, hurray! [Craft a Floral Fertilizer.]
+advancements.levitated.end.mana_usage.description=Mana also has many other special properties, like turning Stygian Grass into Vivid Grass or turning a Stygian Creeper into a piece of Sugarcane. But for now, let's focus on the flower part. [Craft a Floral Fertilizer.]
 
 advancements.levitated.end.living_blocks.title=Living Foundation
 advancements.levitated.end.living_blocks.description=The Pure Daisy is able to bring the End Stone back to life, thus enabling the possibility to craft Livingrocks as well as other materials such as the Livingwood. [Obtain a Livingwood and a Livingrock.]
@@ -122,7 +122,7 @@ advancements.levitated.end.solder.title=Solder Soldier
 advancements.levitated.end.solder.description=Solder is a great alloy for creating machines. To create a Bucket of Solder, simply right click on fire with a Bucket of Solder Powder. [Obtain a bucket of Solder.]
 
 advancements.levitated.end.scanner.title=Operation: Regenerate
-advancements.levitated.end.scanner.description=The Nether is empty right now, but you can change that. By combining the power of the Biome Scanner and the Terrain Scanner, one can easily shape the world in seconds. They do require a lot more power than normal machines tho. [Craft a Terrain Scanner and a Biome Scanner.]
+advancements.levitated.end.scanner.description=The Nether is empty right now, but you can change that. By utilizing the power of the Terrain Scanner, one can easily shape the world in seconds. It does require a lot more power than normal machines tho. [Craft a Terrain Scanner.]
 
 advancements.levitated.end.netherrack.title=Earth of Hell
 advancements.levitated.end.netherrack.description=Bring a capacitor to the Nether and start rebuilding! What was shall be once more... [Obtain a Netherrack.]
@@ -141,6 +141,42 @@ advancements.levitated.end.waystone.description=Travelling thousands of blocks c
 
 advancements.levitated.end.compass.title=Nature's Way
 advancements.levitated.end.compass.description=Still wandering around cluelessly, trying to find the biome that you so desire? Let nature guides you with this compass! [Craft a Nature's Compass.]
+
+advancements.levitated.end.chorus_flower.title=Blocky Flower
+advancements.levitated.end.chorus_flower.description=If you ever wanted more of these weird fruits, you can always grow more with a Chorus Flower. They don't seem to like grass tho. [Obtain a Chorus Flower.]
+
+advancements.levitated.end.mana_resource.title=Mana Bath
+advancements.levitated.end.mana_resource.description=If you haven't given your beloved materials a bath in mana, now is the time! Mana materials are much stronger for creating tools, armor, and even artifacts! [Craft a Mana Steel Ingot, a Mana Pearl and a Mana Diamond.] 
+
+advancements.levitated.end.bone_block.title=Tiny Bone
+advancements.levitated.end.bone_block.description=Dropping a Chorus Flower into a pool of mana surprisingly calcifies it into a Bone Block, now you can have flowers at home! [Obtain a Bone Block.]
+
+advancements.levitated.end.endoflame.title=Flame of End
+advancements.levitated.end.endoflame.description=Stabilizing liquid mana is only gonna get you this far, to get a larger quantity of mana, you'll need to start generating mana yourself. [Craft a Endoflame.]
+
+advancements.levitated.end.gourmaryllis.title=Endless Hunger
+advancements.levitated.end.gourmaryllis.description=This flower is even crazier than the endoflame when it comes to mass mana production, but you'll need to feed its big mouth. [Craft a Gourmaryllis.]
+
+advancements.levitated.end.biome_scanner.title=Remote Rebuilding
+advancements.levitated.end.biome_scanner.description=While the Terrain Scanner is good enough for rebuilding the nether, you'll have to move it around if you wanna rebuild more than one chunk. Fortunately, by combining a Biome Scanner that normally only scans the biome of a chunk with a Terrain Scanner, you can rebuild the nether remotely. [Craft a Biome Scanner.]
+
+advancements.levitated.end.queue.title=Wait in Line
+advancements.levitated.end.queue.description=Tired of clicking again and again just for rebuilding chunks? This gadget can help you queue up chunks for rebuilding! [Craft a Scanner Queue.]
+
+advancements.levitated.end.scanner_info.title=Scanner Guide
+advancements.levitated.end.scanner_info.description=Check out JEI descriptions on how to use the scanners!
+
+advancements.levitated.end.chaos_pearl.title=Pearls of Chaos
+advancements.levitated.end.chaos_pearl.description=If the land near you seems too lifeless, try warping to another place using a Chaos Pearl! [Craft a Chaos Pearl.]
+
+advancements.levitated.end.drawer.title=F in the chat
+advancements.levitated.end.drawer.description=You won't have access to regular overworld wood for a while, that also means you'll have to use a Framed Drawer. [Craft a Framing Table.]
+
+advancements.levitated.end.bonsai.title=Miniture Plant
+advancements.levitated.end.bonsai.description=Tired of cutting down huge trees over and over again? How about some tiny ones? [Craft a Bonsai Pot.]
+
+advancements.levitated.end.menril.title=Integrated Logic
+advancements.levitated.end.menril.description=If you're going to create advanced automations in the future, setting up integrated logics is a must. [Craft a Menril Sapling.]
 
 # The Nether
 advancements.levitated.nether.root.title=Soulless Dimension

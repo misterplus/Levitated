@@ -6,9 +6,16 @@ setTranslatedDescription("advancements.levitated.end.nether_portal.description")
 addParent("triumph:levitated/end/glitched_oby")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(938,27)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
+
+drawDirectLines()
 
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
 criteria.setDimensionDestination("the_nether")
 
 visibleIf("triumph:levitated/end/root")
+setPos(640,27)

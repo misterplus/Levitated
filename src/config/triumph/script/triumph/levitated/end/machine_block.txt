@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.end.machine_block.description")
 addParent("triumph:levitated/end/infinity_dust")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(745,-34)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasMachineBlock", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:machine>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(544,81)

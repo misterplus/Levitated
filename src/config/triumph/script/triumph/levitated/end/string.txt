@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.end.string.description")
 addParent("triumph:levitated/end/grass_seeds")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(523,-34)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasString", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:string>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(384,108)

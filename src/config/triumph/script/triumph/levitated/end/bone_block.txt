@@ -1,0 +1,19 @@
+setIcon(<minecraft:bone_block>)
+
+setTranslatedTitle("advancements.levitated.end.bone_block.title")
+setTranslatedDescription("advancements.levitated.end.bone_block.description")
+
+addParent("triumph:levitated/end/liquid_mana")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
+
+criteria = addCriteria("hasBoneBlock", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:bone_block>)
+
+visibleIf("triumph:levitated/end/root")
+setPos(192,60)

@@ -74,3 +74,8 @@ Function.hideExcept(<libvulpes:ore0>, [0, 8] as int[], 0, 11);
 
 //TE ores
 Function.hideAll(<thermalfoundation:ore_fluid>, 0, 6);
+
+//Scanners
+hide(<scanner:biome_scanner_basic>);
+hide(<scanner:biome_scanner_adv>);
+hide(<scanner:biome_scanner_elite>);
