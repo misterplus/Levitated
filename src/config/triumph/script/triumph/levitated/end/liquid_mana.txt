@@ -16,4 +16,4 @@ criteria = addCriteria("hasManaBucket", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, nbt:{FluidName: "mana_fluid", Amount: 1000}>)
 
 visibleIf("triumph:levitated/end/root")
-setPos(160,54)
+setPos(160,47)
