@@ -4,7 +4,7 @@
 advancements.levitated.end.root.title=终末亦是开始
 advancements.levitated.end.root.description=主世界轰然崩塌，你不慎跌入终界，不幸中的万幸，你碰巧又坠入折跃门中，没有了末影龙的侵扰，你开始思考怎么逃出去...
 
-advancements.levitated.end.chorus_fruit.title=不同寻常的水果
+advancements.levitated.end.chorus_fruit.title=怪异的水果
 advancements.levitated.end.chorus_fruit.description=这种水果好像有点副作用，不过至少不会有生命危险。[吃一颗紫颂果]
 
 advancements.levitated.end.ender_lilly.title=诡异的..植物？
@@ -32,7 +32,7 @@ advancements.levitated.end.liquid_mana.title=上帝的恩赐
 advancements.levitated.end.liquid_mana.description=没有魔力的魔力池对你来说是食之无味弃之可惜，幸运的是，幽冥之林群系(Stygian Growth)中有天然的魔法池，但这种液态魔力极不稳定，甚至会对你造成伤害，你只能简单的处理它。还是尽快找到能稳定它的方法吧。[捞一桶魔力]
 
 advancements.levitated.end.mana_usage.title=朝气蓬勃
-advancements.levitated.end.mana_usage.description=魔力有很多特殊的作用，比如把幽冥草地变为鲜草草地，把紫颂花变为骨块。这意味着你现在可以养花了，耶！[制作一个花肥]
+advancements.levitated.end.mana_usage.description=魔力也有很多其他特殊的作用，比如把幽冥草地变为鲜草草地，把幽冥藤蔓变为甘蔗。但现在，让我们把目光移到§c花§r身上。[制作一个花肥]
 
 advancements.levitated.end.living_blocks.title=充满活力
 advancements.levitated.end.living_blocks.description=白雏菊能让末地石焕发生机，这意味着你可以用它制作活石以及其他材料，例如活木。[获得一个活木和一个活石]
@@ -122,7 +122,7 @@ advancements.levitated.end.solder.title=小心烫伤
 advancements.levitated.end.solder.description=焊料非常适合制作机器。用桶装焊料粉右击火焰就能制成一桶焊料。[获得一个焊料桶]
 
 advancements.levitated.end.scanner.title=源计划: 复苏
-advancements.levitated.end.scanner.description=虽然下界现在是一片虚无，但你仍可以借助机器的力量重建它。生物群系扫描仪和地形扫描仪能够在很短的时间内塑造世界。但它们需要的能量比其他机器要多得多。[制作一个地形扫描仪和一个生物群系扫描仪]
+advancements.levitated.end.scanner.description=虽然下界现在是一片虚无，但这更方便你改造世界。借助地形扫描仪的力量，你能很轻松地在短时间内重塑世界。但他需要的能量比一般机器多得多。[制作一个地形扫描仪]
 
 advancements.levitated.end.netherrack.title=下界重建，爷青回！
 advancements.levitated.end.netherrack.description=将电容器带到下界，然后开始你的重建大业吧！随着电量的减少，眼前的虚无与记忆中的深红渐渐重合...[获得一块地狱岩]
@@ -142,6 +142,42 @@ advancements.levitated.end.waystone.description=徒步几千格不会让史蒂�
 advancements.levitated.end.compass.title=人与自然
 advancements.levitated.end.compass.description=还在因为找不到群系而停下你肝帝的脚步？让大自然指引你前进的方向吧！[制作一个生物群系指南针]
 
+advancements.levitated.end.chorus_flower.title=方块花花
+advancements.levitated.end.chorus_flower.description=你可以种植紫颂花来获得更多的紫颂果，不过它们好像不喜欢草地。[获得一颗紫颂花]
+
+advancements.levitated.end.mana_resource.title=神奇魔力浴
+advancements.levitated.end.mana_resource.description=想不想给你喜欢的材料来一次魔力浴？现在机会来了！魔力浸过的材料能制作更强大的工具，装备甚至神奇的饰品！[制作一个魔力钢锭，一个魔力珍珠和一个魔力钻石] 
+
+advancements.levitated.end.bone_block.title=花花想不败，泡泡补补钙
+advancements.levitated.end.bone_block.description=将紫颂花扔进魔力池中，它竟神奇地钙化成了骨块，这意味着你可以在家里养花了！[获得一个骨块]
+
+advancements.levitated.end.endoflame.title=末影之火
+advancements.levitated.end.endoflame.description=处理不稳定液态魔力来获取魔力的方法不是长久之计，想要获得大量的魔力，你得想办法生产魔力了。[制作一朵火红莲]
+
+advancements.levitated.end.gourmaryllis.title=吃完排出来的东西...
+advancements.levitated.end.gourmaryllis.description=这朵花能生产比火红莲多得多的魔力，但你需要至少两种食物塞满它的嘴。[制作一朵彼方兰]
+
+advancements.levitated.end.biome_scanner.title=远程建造
+advancements.levitated.end.biome_scanner.description=虽然地形扫描仪能重建地狱，但不停的移动机器实在是有些倦了。还好，将一台能扫描区块群系的生物群系扫描仪和地形扫描仪搭配使用，你就能远程重建地狱了。[制作一台生物群系扫描仪]
+
+advancements.levitated.end.queue.title=别插队
+advancements.levitated.end.queue.description=点一次只能重建一个区块有些令人生烦，这个小机器能帮助你排列重建多个区块！[制作一台扫描队列]
+
+advancements.levitated.end.scanner_info.title=扫描指南
+advancements.levitated.end.scanner_info.description=查看JEI以获取使用扫描仪的教程！
+
+advancements.levitated.end.chaos_pearl.title=§m馄饨§r珍珠
+advancements.levitated.end.chaos_pearl.description=如果出生的地方实在过于贫瘠，使用这颗珍珠来将你传送到其他地方。[制作一颗混沌珍珠]
+
+advancements.levitated.end.drawer.title=大量存储
+advancements.levitated.end.drawer.description=短时间内你无法获得主世界的木头，不过你可以试试镶框抽屉。[制作一个成型台]
+
+advancements.levitated.end.bonsai.title=微型种植厂
+advancements.levitated.end.bonsai.description=不想手动砍树？试试这个小东西吧！也许我还能给它升个级。[制作一个盆栽盆]
+
+advancements.levitated.end.menril.title=集成动力
+advancements.levitated.end.menril.description=如果你想要做一些高级自动化，部署集成管道十分重要。[制作一棵门瑞欧树苗]
+
 # The Nether
 advancements.levitated.nether.root.title=无魂之壤
 advancements.levitated.nether.root.description=在你到来之前，这个世界只有寂静。但随着你眼前的虚无重新被填满，怪物有了落脚之地，你得小心点...
@@ -152,7 +188,7 @@ advancements.levitated.nether.altar.description=通过把在下界发现的新�
 advancements.levitated.nether.rotten_pork.title=好吃(?的下界火熏猪肉
 advancements.levitated.nether.rotten_pork.description=僵尸猪人不会再掉落金粒或金锭，但它们会以很小的几率掉落腐烂的猪肉，你可以用它在召唤仪式中召唤猪猪。[获得一块腐烂的猪肉]
 
-advancements.levitated.nether.chicken_ring.title=别想了这是家鸡，不会飞的
+advancements.levitated.nether.chicken_ring.title=家鸡不会飞
 advancements.levitated.nether.chicken_ring.description=将鸡的灵魂封印在指环后，指环就拥有了减缓你坠落速度的能力。但你渴求的是飞行，经过不断地尝试，你终于发现了正确的升级方法。[制作一枚鸡翅膀指环]
 
 advancements.levitated.nether.chassis.title=科技第一步，框架来帮助
@@ -162,10 +198,10 @@ advancements.levitated.nether.resonator.title=共振
 advancements.levitated.nether.resonator.description=在共振仪中，你可以将普通的材料共振转变为与之对应的高质量材料，这些材料非常适合用来制作机器。[制作一台共振仪]
 
 advancements.levitated.nether.blaze_rod.title=滚烫的棒棒
-advancements.levitated.nether.blaze_rod.description=烈焰人偶尔会生成在下界的地狱砖上，§m但如果你去下界前擦了粉底§r，说不定就能在地狱堡垒发现烈焰人刷怪笼。[获得一根烈焰棒]
+advancements.levitated.nether.blaze_rod.description=烈焰人偶尔会生成在下界的地狱砖上，§l地狱砖可不是只有找到地狱堡垒才能获得§r，但在地狱堡垒说不定能发现烈焰人刷怪笼。[获得一根烈焰棒]
 
 advancements.levitated.nether.wither_skeleton.title=烧焦的骨头
-advancements.levitated.nether.wither_skeleton.description=凋零骷髅偶尔会聚集在下界的熔岩石上，但熔岩石并不是随处可见...[击杀一只凋灵骷髅]
+advancements.levitated.nether.wither_skeleton.description=凋零骷髅偶尔会聚集在下界的熔岩石上，但熔岩石并不是随处可见...§l也许它也像地狱砖一样能够合成出来。§r[击杀一只凋灵骷髅]
 
 advancements.levitated.nether.star.title=星星点灯，照亮我家门~
 advancements.levitated.nether.star.description=凋灵，下界最具有危险性的生物，它的能力好像来自于体内那颗星星，这颗星星具有难以想象的强大力量，有时候，人需要一些贪婪...[获得一颗下界之星]
@@ -191,7 +227,7 @@ advancements.levitated.nether.chamber.description=不管怎样，你得用机器
 advancements.levitated.nether.interface.title=比用手“掏”好
 advancements.levitated.nether.interface.description=厌倦了每次都要先破坏压力室才能拿到你的东西？试试压力室接口吧！[制作一个压力室接口]
 
-advancements.levitated.nether.empty_pcb.title=Pretty Clean Board（PCB）
+advancements.levitated.nether.empty_pcb.title=啥都能手搓
 advancements.levitated.nether.empty_pcb.description=要制作电路板，你需要先制作一个空印刷电路板。[制作一个空印刷电路板]
 
 advancements.levitated.nether.pcb_blueprint.title=光能印刷
