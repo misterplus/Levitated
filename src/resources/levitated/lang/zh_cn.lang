@@ -216,7 +216,7 @@ advancements.levitated.nether.alloy.title=高级合金
 advancements.levitated.nether.alloy.description=之后的机器会需要更多的合金，你最好着手制作一台更快的合金炉。[制作一台合金炉]
 
 advancements.levitated.nether.blast_furnace.title=热量更高，速度更慢
-advancements.levitated.nether.blast_furnace.description=烈焰棒凭借自身永恒的燃烧，源源不断地向外界散发超高热量。凭借这种特性，你成功制作出高炉砖！虽然这种高炉砖质量不算太好，但搭出的高炉还是挺实用的。[搭建一座高炉]
+advancements.levitated.nether.blast_furnace.description=烈焰棒凭借自身永恒的燃烧，源源不断地向外界散发超高热量。凭借这种特性，你成功制作出高炉砖！虽然这种高炉砖质量不算太好，但搭出的高炉还是挺实用的。[搭建一座粗制高炉]
 
 advancements.levitated.nether.compiron.title=压力山大
 advancements.levitated.nether.compiron.description=借着TNT的超强爆炸力，钢锭能够被压缩成密度更大的材料。这种材料非常适合用来制作电路板。[获得一个压缩钢锭]
@@ -283,6 +283,36 @@ advancements.levitated.nether.press.description=现在有一些特殊的压印�
 
 advancements.levitated.nether.skystone.title=天空即为极限
 advancements.levitated.nether.skystone.description=在下界或末地找到陨石好像不太现实，为什么不试试神奇的魔法呢？[制作一块陨石]
+
+advancements.levitated.nether.manual_mill.title=转呀转
+advancements.levitated.nether.manual_mill.description=一些特殊的机器例如共振仪，它们需要§lGP§r来工作。这是一种奇怪的能量，但仍可以被动能转化得来。[制作一台手动发电机]
+
+advancements.levitated.nether.solar.title=消费太阳
+advancements.levitated.nether.solar.description=手动产生的GP是短暂且少量的，为什么不试试免费的太阳能量呢？[制作一台太阳能电池板]
+
+advancements.levitated.nether.soul_chassis.title=灵魂对灵魂的吸引
+advancements.levitated.nether.soul_chassis.description=有些机器可以搭配实体来工作，不过需要一些灵魂作辅助。[制作一个灵魂机器框架]
+
+advancements.levitated.nether.aversion.title=和平包容友善
+advancements.levitated.nether.aversion.description=想要在下界建造基地但苦于过多的怪物？这台方尖碑能够阻止怪物生成，你仅需要给它相应的怪物灵魂。[制作一台生物排除方尖碑]
+
+advancements.levitated.nether.blue_slime.title=黏黏的数据
+advancements.levitated.nether.blue_slime.description=有一些东西需要史莱姆，要是有大量生产它们的方法就好了... [制作一个蓝色史莱姆数据模型]
+
+advancements.levitated.nether.xp.title=有经验的人会有经验地存经验
+advancements.levitated.nether.xp.description=很多人都想把容易丢失的经验存起来，除了转成流体，我更推荐你使用这台方尖碑。[制作一台经验交换方尖碑]
+
+advancements.levitated.nether.vortex.title=冰火两仪管
+advancements.levitated.nether.vortex.description=还在用熔岩来给精炼厂升温？试试这台很好用的机器，它只需要一些压缩空气。[制作一台涡流管]
+
+advancements.levitated.nether.vacuum.title=小学数学
+advancements.levitated.nether.vacuum.description=你问怎么获得低气压？很简单，只需要小小地做个减法！[制作一台真空泵]
+
+advancements.levitated.nether.assembly.title=高级§m手搓§r
+advancements.levitated.nether.assembly.description=手搓电路板非常麻烦，还好，你可以用一条装配线简化这个过程。[制作一台装配控制器]
+
+advancements.levitated.nether.blast_furnace_adv.title=钢到底
+advancements.levitated.nether.blast_furnace_adv.description=你不觉得粗制高炉不能自动化有些徐坤敲门——菜到家了吗？[搭建一台强化(也叫精制)高炉]
 
 # Overworld
 advancements.levitated.overworld.root.title=日月轮转，星辰闪耀
