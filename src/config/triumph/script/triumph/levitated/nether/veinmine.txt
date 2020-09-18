@@ -6,9 +6,12 @@ setTranslatedDescription("advancements.levitated.nether.veinmine.description")
 addParent("triumph:levitated/nether/induction")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(372,-15)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
 
 criteria = addCriteria("hasModifier", "minecraft:inventory_changed")
 criteria.addItem(<oeintegration:excavatemodifier>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(320,108)

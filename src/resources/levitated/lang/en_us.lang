@@ -198,7 +198,7 @@ advancements.levitated.nether.resonator.title=Resonance
 advancements.levitated.nether.resonator.description=Resonating regular materials converts them into their high quality counterparts, which are excellent for machine building. [Craft a Resonator.]
 
 advancements.levitated.nether.blaze_rod.title=Hot Stick
-advancements.levitated.nether.blaze_rod.description=Blazes occasionally spawn on Nether Bricks in the Nether, with enough luck, you might also find a Blaze spawner in a Nether fortress. [Obtain a Blaze Rod.]
+advancements.levitated.nether.blaze_rod.description=Blazes occasionally spawn on Nether Bricks in the Nether, with enough luck, you might also find a Blaze spawner in a Nether Fortress. [Obtain a Blaze Rod.]
 
 advancements.levitated.nether.wither_skeleton.title=Burnt Bones
 advancements.levitated.nether.wither_skeleton.description=Wither Skeletons occasionally spawn on Lavastones in the Nether, but Lavastone is not easy to find... [Kill a Wither Skeleton.]
@@ -216,7 +216,7 @@ advancements.levitated.nether.alloy.title=Advanced Alloying
 advancements.levitated.nether.alloy.description=Future machines require a lot more alloys, so you better construct a faster Alloy Smelter. [Craft a Alloy Smelter.]
 
 advancements.levitated.nether.blast_furnace.title=Blast Off
-advancements.levitated.nether.blast_furnace.description=With Blaze Rod's blazing hot temperature, a Blast Furnace was born! A crude one, but functional. [Build a Blast Furnace.]
+advancements.levitated.nether.blast_furnace.description=With Blaze Rod's blazing hot temperature, a Blast Furnace was born! A crude one, but functional. [Build a Crude Blast Furnace.]
 
 advancements.levitated.nether.compiron.title=The Pressure is on
 advancements.levitated.nether.compiron.description=Blowing up Steel ingots with TNT will compress them into a denser material, which is just suitable for making PCBs. [Obtain a Compressed Steel Ingot.]
@@ -283,6 +283,36 @@ advancements.levitated.nether.press.description=There are some special presses o
 
 advancements.levitated.nether.skystone.title=Sky's the Limit
 advancements.levitated.nether.skystone.description=Finding any meteor in the nether/end seems pretty unlikely, why not try some magic? [Craft a Sky Stone.]
+
+advancements.levitated.nether.manual_mill.title=Endless Grind
+advancements.levitated.nether.manual_mill.description=Machines like the Resonator uses Grid Power. One of the options to generate GP is by, well, grinding. [Craft a Manual Mill.]
+
+advancements.levitated.nether.solar.title=Solar Eclipse
+advancements.levitated.nether.solar.description=Spending the rest of your life milling probably isn't a good idea, why not put all the free solar power to use then? [Craft a Solar Panel.]
+
+advancements.levitated.nether.soul_chassis.title=A Soul for a Soul
+advancements.levitated.nether.soul_chassis.description=Some machines interact with entities, thus requiring souls to operate. [Craft a Soul Machine Chassis.]
+
+advancements.levitated.nether.aversion.title=Peace of Mind
+advancements.levitated.nether.aversion.description=The nether is too dangerous to setup a base in? This obelisk can prevent mobs from spawning, all you need to do is give it a soul. [Craft an Aversion Obelisk.]
+
+advancements.levitated.nether.blue_slime.title=Slimy Data
+advancements.levitated.nether.blue_slime.description=Slime is useful for a handful of things, if only there's a way to mass produce them... [Craft a Blue Slime Data Model.]
+
+advancements.levitated.nether.xp.title=Experience of a Lifetime
+advancements.levitated.nether.xp.description=Storing experience as liquid is fine, but storing it in this obelisk is way more efficient. [Craft an Experience Obelisk.]
+
+advancements.levitated.nether.vortex.title=Polar Vortex
+advancements.levitated.nether.vortex.description=Still using lava for heating up your refinery? Check out this handy machine, all it uses is pressurized air. [Craft a Vortex Tube.]
+
+advancements.levitated.nether.vacuum.title=Simple Math
+advancements.levitated.nether.vacuum.description=How to get a negative air pressure you say? It's simple, just do a subtraction! [Craft a Vacuum Pump.]
+
+advancements.levitated.nether.assembly.title=Advanced Assembly
+advancements.levitated.nether.assembly.description=Crafting PCBs can be quite a hassle, fortunately you can use an assembly line to simplify this process. [Craft an Assembly Controller.]
+
+advancements.levitated.nether.blast_furnace_adv.title=Age of Steel
+advancements.levitated.nether.blast_furnace_adv.description=Smelting Steel manually is just too boring, don't you think? Hey, now we're talking. [Build an Improved Blast Furnace.]
 
 # Overworld
 advancements.levitated.overworld.root.title=Sun, Moon and Stars

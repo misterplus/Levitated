@@ -1,0 +1,17 @@
+setIcon(<pneumaticcraft:vortex_tube>)
+
+setTranslatedTitle("advancements.levitated.nether.vortex.title")
+setTranslatedDescription("advancements.levitated.nether.vortex.description")
+
+addParent("triumph:levitated/nether/refinery")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
+
+criteria = addCriteria("hasVortexTube", "minecraft:inventory_changed")
+criteria.addItem(<pneumaticcraft:vortex_tube>)
+
+visibleIf("triumph:levitated/nether/root")
+setPos(160,67)

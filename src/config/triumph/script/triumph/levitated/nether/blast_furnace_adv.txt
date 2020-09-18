@@ -1,0 +1,17 @@
+setIcon(<immersiveengineering:stone_device, meta:2>)
+
+setTranslatedTitle("advancements.levitated.nether.blast_furnace_adv.title")
+setTranslatedDescription("advancements.levitated.nether.blast_furnace_adv.description")
+
+addParent("triumph:levitated/nether/blast_furnace")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
+
+criteria = addCriteria("formed_blast_furnace_adv", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:BlastFurnaceAdvanced")
+
+visibleIf("triumph:levitated/nether/root")
+setPos(96,108)

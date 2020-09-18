@@ -1,0 +1,17 @@
+setIcon(<pneumaticcraft:vacuum_pump>)
+
+setTranslatedTitle("advancements.levitated.nether.vacuum.title")
+setTranslatedDescription("advancements.levitated.nether.vacuum.description")
+
+addParent("triumph:levitated/nether/pcb")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
+
+criteria = addCriteria("hasVacuum", "minecraft:inventory_changed")
+criteria.addItem(<pneumaticcraft:vacuum_pump>)
+
+visibleIf("triumph:levitated/nether/root")
+setPos(256,189)

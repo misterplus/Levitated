@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.wither_skeleton.descript
 addParent("triumph:levitated/nether/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(87,39)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("killWitherSkl", "minecraft:player_killed_entity")
 criteria.setEntityType("minecraft:wither_skeleton")
 
 visibleIf("triumph:levitated/nether/wither_skeleton")
+setPos(32,176)

@@ -1,0 +1,17 @@
+setIcon(<extrautils2:passivegenerator>)
+
+setTranslatedTitle("advancements.levitated.nether.solar.title")
+setTranslatedDescription("advancements.levitated.nether.solar.description")
+
+addParent("triumph:levitated/nether/resonator")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
+
+criteria = addCriteria("hasSolar", "minecraft:inventory_changed")
+criteria.setItem(<extrautils2:passivegenerator>)
+
+visibleIf("triumph:levitated/nether/root")
+setPos(64,203)

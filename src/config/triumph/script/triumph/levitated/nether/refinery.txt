@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.refinery.description")
 addParent("triumph:levitated/nether/oil")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(124,-42)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasRefinery", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:refinery>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(128,54)

@@ -6,11 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.rainbowgen.description")
 addParent("triumph:levitated/nether/overworld_knowledge")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(414,-15)
 
-drawDirectLines()
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasRainbowgen", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:rainbowgenerator>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(384,135)

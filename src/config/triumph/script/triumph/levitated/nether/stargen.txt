@@ -6,9 +6,12 @@ setTranslatedDescription("advancements.levitated.nether.stargen.description")
 addParent("triumph:levitated/nether/star")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(372,39)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
 
 criteria = addCriteria("hasStargen", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:machine, nbt:{Type:"extrautils2:generator_netherstar"}>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(96,189)
