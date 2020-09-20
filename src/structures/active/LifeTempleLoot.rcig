@@ -1,0 +1,198 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "LifeTempleLoot",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 2,
+      "max": 5,
+      "item": {
+        "id": "tombstone:crafting_ingredient",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "botania:manacookie",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 8.315798913827166E-5,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "botania_tweaks:compressed_tiny_potato_8",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 3,
+      "max": 8,
+      "item": {
+        "id": "integrateddynamics:menril_leaves",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.25986868143081665,
+      "min": 2,
+      "max": 4,
+      "item": {
+        "id": "contenttweaker:solder_powder",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.16315889358520508,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tconstruct:slimesling",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.16315889358520508,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:clock",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.16315889358520508,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "waystones:warp_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.16315889358520508,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "waystones:return_scroll",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 2,
+      "max": 5,
+      "item": {
+        "id": "enderio:item_alloy_nugget",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 2,
+      "max": 5,
+      "item": {
+        "id": "enderio:item_alloy_nugget",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 2,
+      "max": 5,
+      "item": {
+        "id": "enderio:item_alloy_nugget",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 2,
+      "max": 4,
+      "item": {
+        "id": "botania:manaresource",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 2,
+      "max": 4,
+      "item": {
+        "id": "botania:manaresource",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.25986868143081665,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "extrautils2:unstableingots",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.12706157565116882,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "wizardry:nacre_pearl",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "rand": {
+              "nbtType": "float",
+              "nbt": 66.92139
+            },
+            "purity": {
+              "nbtType": "int",
+              "nbt": 600
+            },
+            "complete": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "purity_override": {
+              "nbtType": "float",
+              "nbt": 1.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.11158588528633118,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "botania:blacklotus",
+        "damage": 1,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
