@@ -52,3 +52,22 @@ rainbow_block.lightValue = 15;
 rainbow_block.toolClass = "pickaxe";
 rainbow_block.toolLevel = 4;
 rainbow_block.register();
+
+var crystals = ["wither_crystal", "life_crystal", "fire_crystal", "water_crystal"] as string[];
+for crystal in crystals {
+    var cs = VanillaFactory.createBlock(crystal, <blockmaterial:rock>);
+    cs.blockSoundType = <soundtype:stone>;
+    cs.blockLayer = "TRANSLUCENT";
+    cs.lightValue = 15;
+    cs.toolLevel = -1;
+    cs.blockHardness = -1;
+    cs.blockResistance = 6000000;
+    cs.fullBlock = false;
+    cs.translucent = true;
+    cs.witherProof = true;
+    cs.setDropHandler(function(drops, world, position, state, fortune) {
+	    drops.clear();
+        return;
+    });
+    cs.register();
+}

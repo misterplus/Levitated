@@ -7,6 +7,8 @@ import mods.contenttweaker.Commands;
 import mods.contenttweaker.ActionResult;
 import mods.contenttweaker.Hand;
 import crafttweaker.block.IBlockState;
+import mods.ctutils.utils.Math;
+import crafttweaker.data.IData;
 
 var easy_items = ["end_seeds", "ccb", "ccb_base", "clay_board", "pottery_clay", "solder_powder", "biome_scanner_basic", "terrain_scanner", "blue_lotus", "dynamo_frame", "overworld_star", "trophy"] as string[];
 for item in easy_items {
@@ -78,17 +80,10 @@ paper_planes[6].itemRightClick = function(stack, world, player, hand) {
                 Commands.call("tellraw @p {\"translate\":\"item.contenttweaker.paper_plane_6.message\"}", player, world, false, true);
                 return "PASS";
             }
-            else {
-                player.update(data + {"PlaneCountdown": 100});
-                stack.shrink(1);
-                return "SUCCESS";
-            }   
         }
-        else {
-            player.update(data + {"PlaneCountdown": 100});
-            stack.shrink(1);
-            return "SUCCESS"; 
-        }
+        player.update(data + {"PlaneCountdown": 100});
+        stack.shrink(1);
+        return "SUCCESS"; 
     }
     return "Pass";
 };
@@ -142,3 +137,46 @@ rainbow_ingot.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     return ActionResult.pass();
 };
 rainbow_ingot.register();
+
+var chaos_pearl = VanillaFactory.createItem("chaos_pearl");
+chaos_pearl.maxStackSize = 16;
+chaos_pearl.itemRightClick = function(stack, world, player, hand) {
+    if (!world.remote && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player) && world.dimension == 1) {
+        var data = player.data;
+        if data has "ChaosCooldown" {
+            var cd = data.memberGet("ChaosCooldown") as int;
+            if cd > 0 {
+                Commands.call("tellraw @p {\"translate\":\"item.contenttweaker.chaos_pearl.message\"}", player, world, false, true);
+                return "PASS";
+            }
+        }
+        var x = player.x;
+        var y = player.y;
+        var z = player.z;
+        var lore = "\"" + x as int + "," + y as int + "," + z as int + "\"";
+        var destx = Math.random() * 10000 + x - 5000;
+        var destz = Math.random() * 10000 + z - 5000;
+        Commands.call("tp @p " + destx + " -40 " + destz, player, world, false, true);
+        Commands.call("playsound minecraft:entity.enderpearl.throw neutral @p ~ ~ ~ 0.5 0.4", player, world, false, true);
+        Commands.call("give @p contenttweaker:recall_pearl 1 0 {x:" + x + ",y:" + y + ",z:" + z + ",display:{Lore:[" + lore + "]}}", player, world, false, true);
+        stack.shrink(1);
+        player.update(data + {"ChaosCooldown": 600});
+        return "SUCCESS"; 
+    }
+    return "PASS";
+};
+chaos_pearl.register();
+
+var recall_pearl = VanillaFactory.createItem("recall_pearl");
+recall_pearl.maxStackSize = 1;
+recall_pearl.itemRightClick = function(stack, world, player, hand) {
+    if (!world.remote && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player) && world.dimension == 1) {
+        var c = stack.tag;
+        Commands.call("tp @p " + c.x + " " + c.y + " " + c.z, player, world, false, true);
+        Commands.call("playsound minecraft:entity.enderpearl.throw neutral @p ~ ~ ~ 0.5 0.4", player, world, false, true);
+        stack.shrink(1);
+        return "SUCCESS";
+    }
+    return "PASS";
+};
+recall_pearl.register();

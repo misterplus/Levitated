@@ -67,8 +67,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 		if data has "PlaneCountdown" {
 			var time = data.memberGet("PlaneCountdown") as int;
 			if time > 0 {
-				time = time - 1;
-				player.update(data + {"PlaneCountdown": time});
+				player.update(data + {"PlaneCountdown": time - 1});
 			}
 			else if time == 0 {
 				player.give(<minecraft:feather>);
@@ -97,14 +96,13 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 	var player = event.player as IPlayer;
 	if !player.world.remote {
+		var s = server.commandManager as ICommandManager;
 		//Finale
 		if event.to == 6666 {
-			var s = server.commandManager as ICommandManager;
 			s.executeCommand(server, "gamestage silentadd " + player.name + " bad_ending");
 		}
 		//HaocenStar
-		if event.to == 2000 {
-			var s = server.commandManager as ICommandManager;
+		else if event.to == 2000 {
         	s.executeCommand(server, "gamerule sendCommandFeedback false");
         	s.executeCommand(server, "gamerule commandBlockOutput false");
         	s.executeCommand(server, "gamerule logAdminCommands false");
@@ -112,8 +110,21 @@ events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 			s.executeCommand(server, "gamemode 2 " + player.name);
 		}
 		if event.from == 2000 {
-			var s = server.commandManager as ICommandManager;
 			s.executeCommand(server, "gamemode 0 " + player.name);
+		}
+	}
+});
+
+//chaos pearl cooldown
+events.onPlayerTick(function(event as PlayerTickEvent) {
+	var player = event.player as IPlayer;
+	if !player.world.remote {
+		var data = player.data;
+		if data has "ChaosCooldown" {
+			var cd = data.memberGet("ChaosCooldown") as int;
+			if cd > 0 {
+				player.update(data + {"ChaosCooldown": cd - 1});
+			}
 		}
 	}
 });
