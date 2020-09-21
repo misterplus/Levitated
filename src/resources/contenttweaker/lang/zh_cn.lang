@@ -2,6 +2,10 @@ tile.contenttweaker.end_iron.name=聚影铁矿
 tile.contenttweaker.glitched_obsidian.name=故障黑曜石
 tile.contenttweaker.end_trim.name=龙木桥接方块
 tile.contenttweaker.rainbow_block.name=彩虹块
+tile.contenttweaker.wither_crystal.name=寂灭黯晶
+tile.contenttweaker.water_crystal.name=瀚海寒晶
+tile.contenttweaker.fire_crystal.name=焱离燧晶
+tile.contenttweaker.life_crystal.name=蕴息碧晶
 
 item.contenttweaker.end_seeds.name=终末种子
 item.contenttweaker.end_iron_chunk.name=聚影铁碎块
@@ -30,11 +34,14 @@ item.contenttweaker.dynamo_frame.name=能源炉框架
 item.contenttweaker.overworld_star.name=主世界之星
 item.contenttweaker.rainbow_ingot.name=彩虹锭
 item.contenttweaker.trophy.name=奖杯
+item.contenttweaker.chaos_pearl.name=混沌珍珠
+item.contenttweaker.recall_pearl.name=回忆珍珠
 
 item.contenttweaker.origin_book.message=重生点已设置!
 item.contenttweaker.nether_book.message=你现在可以前往地狱了!
 item.contenttweaker.overworld_book.message=你现在可以前往主世界了!
 item.contenttweaker.paper_plane_6.message=嘿! 等另外一架"飞机"回来!
+item.contenttweaker.chaos_pearl.message=先等混沌领主冷静下来！
 
 fluid.solder=焊料
 
