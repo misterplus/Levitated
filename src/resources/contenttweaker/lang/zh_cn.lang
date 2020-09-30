@@ -36,6 +36,15 @@ item.contenttweaker.rainbow_ingot.name=彩虹锭
 item.contenttweaker.trophy.name=奖杯
 item.contenttweaker.chaos_pearl.name=混沌珍珠
 item.contenttweaker.recall_pearl.name=回忆珍珠
+item.contenttweaker.shard.name=拉普达魔影碎片
+item.contenttweaker.core.name=潜影浮核
+item.contenttweaker.dragon_spirit.name=巨龙魂骸
+item.contenttweaker.crystal.name=葬魂灵晶
+item.contenttweaker.scroll.name=空白卷轴
+item.contenttweaker.scroll_ignis.name=阴焰卷轴
+item.contenttweaker.dna.name=始源DNA
+item.contenttweaker.contract.name=契约文件夹
+item.contenttweaker.apple.name=伊甸苹果
 
 item.contenttweaker.origin_book.message=重生点已设置!
 item.contenttweaker.nether_book.message=你现在可以前往地狱了!
