@@ -496,6 +496,9 @@ advancements.levitated.story.plan.description=If they can cast a spell, why can'
 advancements.levitated.story.shard.title=Castle in the Sky
 advancements.levitated.story.shard.description=This idea shone in your mind for a brief moment, but you just cannot forget it. Lexica Botania recorded an ancient artifact named "Shard of Laputa", which is still craftable today. It can move thousands of blocks easily. But there's always room for improvement... [Craft an Empowered Shard of Laputa.]
 
+advancements.levitated.story.core.title=
+advancements.levitated.story.core.description=
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.
@@ -544,6 +547,7 @@ unfamiliar.levitated.ore_flower=Hard Stone Flower
 unfamiliar.levitated.ore_flower_nether_floating=Flying Fancy Flame Flower
 unfamiliar.levitated.ore_flower_floating=Flying Hard Stone Flower
 unfamiliar.levitated.shard=Glowing Shard of Laputa
+unfamiliar.levitated.core=Yellow Shell with Purple Circles
 
 # Item Rename
 rename.levitated.shulker_ring=Ring of the Levitating Shulker
