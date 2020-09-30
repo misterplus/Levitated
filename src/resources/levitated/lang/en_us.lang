@@ -381,8 +381,8 @@ advancements.levitated.overworld.kepler.description=Warp after warp, you finally
 advancements.levitated.overworld.spacesuit.title=Suit up
 advancements.levitated.overworld.spacesuit.description=You are no superman, and certainly cannot breathe in space, so a set of space suit is a must. And a pair of oxygen tanks, of course. [Craft a set of Space suit.]
 
-advancements.levitated.overworld.adv_scanner.title=Advanced Scanning
-advancements.levitated.overworld.adv_scanner.description=A basic scanner is great, but why scan two chunks when you can scan four? Upgrade today! [Craft a Biome Scanner (Advanced).]
+advancements.levitated.overworld.rubber_tree.title=Sticky Sticks
+advancements.levitated.overworld.rubber_tree.description=Rubber Trees generally grow in forest and swamp biomes, you'll need to rebuild the overworld to find them. [Obtain a Rubber Sapling.]
 
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
@@ -471,6 +471,31 @@ advancements.levitated.easteregg.feather.description=Alright, this is kind of a 
 advancements.levitated.easteregg.valkyrie.title=Visit Hyperion
 advancements.levitated.easteregg.valkyrie.description=Welcome to... Wait, where's my ship?
 
+# Story Advancements
+advancements.levitated.story.root.title=Stories of the Past
+advancements.levitated.story.root.description=The crystal rumbled quietly as you touched it, a vision appeared right before your very eyes...
+# The Collapse
+advancements.levitated.story.wither_crystal.title=Vision of Destruction
+advancements.levitated.story.wither_crystal.description=(In the vision, a wizard, talking to the crystal) Listen, whoever found this, I'm sorry. We...we are meant to save it! We wanted to collapse the end, not the overworld! It's all our fault... It was never meant to be like this... The temple is under attack by Endermen, we don't have much time left. Others are setting up a portal to the underworld, that's our only chance to survive. If someone is watching this, I don't know how you survived, but I don't care. Find the other crystals, finish our work! (Sound of Explosion)
+# The Beginning
+advancements.levitated.story.life_crystal.title=Vision of Nature
+advancements.levitated.story.life_crystal.description=(In the vision, two wizards, chatting with each other) -Have you noticed something about the ground lately? -What do you mean? -I don't know, it feels much more unstable to me, and blocks started to fall off randomly, even blocks that aren't affected by gravity, like stone. -(Silence)... That's...not good at all. Follow me, now! -Wait, where are we going? What's happening? -To the Stronghold. (Vision fades)
+# The Plan
+advancements.levitated.story.fire_crystal.title=Vision of Ember
+advancements.levitated.story.fire_crystal.description=(In the vision, several wizards are having a meeting) -So you said that Endermen are trying to take the earth's core apart, block by block? -If that's the case, how can we possibly stop that? We don't even know where they came from, let alone stopping every single one of them? -Listen to me, gentlemen. I have a plan. There is a spell in this book that I'm holding, "The Great Collapse". We can cast it and end it all for good. -But...isn't that spell forbidden? -Yeah, there's probably another way... -NO! There IS no other way! There's too many of them, the time we have is no more than a week. The fate of the overworld is in our hands now. (Vision fades)
+# The Mistake
+advancements.levitated.story.water_crystal.title=Vision of Ocean
+advancements.levitated.story.water_crystal.description=(In the vision, a wizard, talking to himself) The last ingredient for the spell is a fruit of the target dimension... (Yawns) I shouldn't stay up late last night. What is it again, a fruit? Oh, right, I still have an apple on me, this will do then. (Vision fades)
+# The Aftermath
+advancements.levitated.story.aftermath.title=Tale's End
+advancements.levitated.story.aftermath.description=No... it can't be. How? Weren't they talking about casting a spell to collapse the end? How did the overworld fall? What exactly did they do wrong?
+# The Hope
+advancements.levitated.story.plan.title=Into the Story
+advancements.levitated.story.plan.description=If they can cast a spell, why can't I? There must be a way for me to somehow restore the overworld! This might take me months, and I'm not even sure if I can do it or not, but I shall take any hope that's left. Let's see what this barren land offers.
+
+advancements.levitated.story.shard.title=Castle in the Sky
+advancements.levitated.story.shard.description=This idea shone in your mind for a brief moment, but you just cannot forget it. Lexica Botania recorded an ancient artifact named "Shard of Laputa", which is still craftable today. It can move thousands of blocks easily. But there's always room for improvement... [Craft an Empowered Shard of Laputa.]
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.
@@ -496,6 +521,9 @@ tooltips.levitated.mana_paper_2=What? This is still paper! Just soaked with mana
 tooltips.levitated.endglow=Only survives on Stygian Grass.
 tooltips.levitated.hard_glass=Fused Quartz cannot be used to craft this item.
 tooltips.levitated.bottle=Water bottling via right clicking is disabled, use a Fluid Tank instead.
+tooltips.levitated.chaos_pearl=Cooldown: 30s
+tooltips.levitated.recall_pearl=No Cooldown
+tooltips.levitated.shard=Shard Power Ω
 
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
@@ -505,6 +533,8 @@ description.levitated.rainbow=Right click a Bifrost Block with a Rainbow Ingot t
 description.levitated.mana_pool=You can find mana pools in custom End Cities.
 description.levitated.stand=You can find brewing stands in both vanilla and custom End Cities.
 description.levitated.solder=To create a Bucket of Solder, simply right click on fire with a Bucket of Solder Powder.
+description.levitated.chaos_pearl=Right click to teleport to a random location within a 10,000 block radius. Can only be crafted 10 times.
+description.levitated.recall_pearl=Right click to teleport to your previous location.
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=Hot Stick
@@ -513,6 +543,7 @@ unfamiliar.levitated.ore_flower_nether=Fancy Flame Flower
 unfamiliar.levitated.ore_flower=Hard Stone Flower
 unfamiliar.levitated.ore_flower_nether_floating=Flying Fancy Flame Flower
 unfamiliar.levitated.ore_flower_floating=Flying Hard Stone Flower
+unfamiliar.levitated.shard=Glowing Shard of Laputa
 
 # Item Rename
 rename.levitated.shulker_ring=Ring of the Levitating Shulker

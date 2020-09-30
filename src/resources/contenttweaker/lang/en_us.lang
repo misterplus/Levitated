@@ -36,6 +36,15 @@ item.contenttweaker.rainbow_ingot.name=Rainbow Ingot
 item.contenttweaker.trophy.name=Trophy
 item.contenttweaker.chaos_pearl.name=Chaos Pearl
 item.contenttweaker.recall_pearl.name=Recall Pearl
+item.contenttweaker.shard.name=Empowered Shard of Laputa
+item.contenttweaker.core.name=Core of Levity
+item.contenttweaker.dragon_spirit.name=Dragon Spirit
+item.contenttweaker.crystal.name=Crystal of Souls
+item.contenttweaker.scroll.name=Spell Scroll
+item.contenttweaker.scroll_ignis.name=Scroll of Ignis
+item.contenttweaker.dna.name=Genesis DNA
+item.contenttweaker.contract.name=Folder of Contracts
+item.contenttweaker.apple.name=Apple of Eden
 
 item.contenttweaker.origin_book.message=Spawn Point Set!
 item.contenttweaker.nether_book.message=You can now travel to the Nether!
