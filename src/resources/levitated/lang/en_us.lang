@@ -496,8 +496,17 @@ advancements.levitated.story.plan.description=If they can cast a spell, why can'
 advancements.levitated.story.shard.title=Castle in the Sky
 advancements.levitated.story.shard.description=This idea shone in your mind for a brief moment, but you just cannot forget it. Lexica Botania recorded an ancient artifact named "Shard of Laputa", which is still craftable today. It can move thousands of blocks easily. But there's always room for improvement... [Craft an Empowered Shard of Laputa.]
 
-advancements.levitated.story.core.title=
-advancements.levitated.story.core.description=
+advancements.levitated.story.core.title=Levitated
+advancements.levitated.story.core.description=Apart from building the base for the sky city, you'll also have to keep it floating. I'm sure an End creature dedicates its life to keep things levitated. [Craft a Core of Levity.]
+
+advancements.levitated.story.spirit.title=Spirit Dragon
+advancements.levitated.story.spirit.description=Kikoku, the Legendary blade, is said to cleanse the spirit of its enemies. The spirit of the Ender Dragon might possess the power beyond nature, which could be of great help to the spell. [Obtain a Dragon Spirit.]
+
+advancements.levitated.story.potion.title=Alchemical Fuel
+advancements.levitated.story.potion.description=In addition to the Core of Levity, a large quantity of "fuel" is needed to keep the city floated. Sadly lava probably won't make the cut, so you had another idea. [Fill an Iron Drum with Potion of Levitation (non-extended version, 3min).]
+
+advancements.levitated.story.scroll.title=Wild Pyromancer
+advancements.levitated.story.scroll.description=Eventually you'll need something to apply your spell to, a Spell Scroll infused with some nether magic would be nice. [Craft a Scroll of Ignis.]
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
@@ -538,6 +547,7 @@ description.levitated.stand=You can find brewing stands in both vanilla and cust
 description.levitated.solder=To create a Bucket of Solder, simply right click on fire with a Bucket of Solder Powder.
 description.levitated.chaos_pearl=Right click to teleport to a random location within a 10,000 block radius. Can only be crafted 10 times.
 description.levitated.recall_pearl=Right click to teleport to your previous location.
+description.levitated.dragon_spirit=Dropped by the Ender Dragon when killed by the Kikoku.
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=Hot Stick
@@ -548,6 +558,9 @@ unfamiliar.levitated.ore_flower_nether_floating=Flying Fancy Flame Flower
 unfamiliar.levitated.ore_flower_floating=Flying Hard Stone Flower
 unfamiliar.levitated.shard=Glowing Shard of Laputa
 unfamiliar.levitated.core=Yellow Shell with Purple Circles
+unfamiliar.levitated.dragon_spirit=Drop of Purple
+unfamiliar.levitated.scroll=Parchment Paper
+unfamiliar.levitated.scroll_ignis=Hot Parchment Paper with Red Drawings
 
 # Item Rename
 rename.levitated.shulker_ring=Ring of the Levitating Shulker
