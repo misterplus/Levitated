@@ -45,6 +45,16 @@ item.contenttweaker.scroll_ignis.name=Scroll of Ignis
 item.contenttweaker.dna.name=Genesis DNA
 item.contenttweaker.contract.name=Folder of Contracts
 item.contenttweaker.apple.name=Apple of Eden
+item.contenttweaker.essence_wither.name=Wither Essence
+item.contenttweaker.essence_blaze.name=Blaze Essence
+item.contenttweaker.essence_pigman.name=Pigman Essence
+item.contenttweaker.essence_magma.name=Magma Essence
+item.contenttweaker.essence_ghast.name=Ghast Essence
+item.contenttweaker.crystal_wither.name=Wither Crystal
+item.contenttweaker.crystal_blaze.name=Blaze Crystal
+item.contenttweaker.crystal_pigman.name=Pigman Crystal
+item.contenttweaker.crystal_magma.name=Magma Crystal
+item.contenttweaker.crystal_ghast.name=Ghast Crystal
 
 item.contenttweaker.origin_book.message=Spawn Point Set!
 item.contenttweaker.nether_book.message=You can now travel to the Nether!
