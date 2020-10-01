@@ -508,6 +508,18 @@ advancements.levitated.story.potion.description=In addition to the Core of Levit
 advancements.levitated.story.scroll.title=Wild Pyromancer
 advancements.levitated.story.scroll.description=Eventually you'll need something to apply your spell to, a Spell Scroll infused with some nether magic would be nice. [Craft a Scroll of Ignis.]
 
+advancements.levitated.story.crystal.title=Living Essence
+advancements.levitated.story.crystal.description=Mobs in the nether sometimes drop a weird goo, which after researching in an ancient spell tome, turned out to be their essences. It is said that these essences actually grow into crystals when "planted" on a piece of Livingrock. With some infusion magic, the Crystal of Souls was born. [Craft a Crystal of Souls.]
+
+advancements.levitated.story.dna.title=
+advancements.levitated.story.dna.description=
+
+advancements.levitated.story.contract.title=Call to Arms
+advancements.levitated.story.contract.description=If you're the only one living in the city, that'd be way too boring. Let's kindly ask some villagers to stay, shall we? [Craft a Folder of Contracts.]
+
+advancements.levitated.story.apple.title=Piece of Eden
+# advancements.levitated.story.apple.description=Legend says that the Garden of Eden houses a holy artifact, the Apple of Eden. You may never get to see the real one, but nothing is stopping you from making a counterfeit. Surprisingly, it does hold a decent amount of power.
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.
@@ -536,6 +548,8 @@ tooltips.levitated.bottle=Water bottling via right clicking is disabled, use a F
 tooltips.levitated.chaos_pearl=Cooldown: 30s
 tooltips.levitated.recall_pearl=No Cooldown
 tooltips.levitated.shard=Shard Power Ω
+tooltips.levitated.essence=Dropped rarely by corresponding mobs when killed by a player
+tooltips.levitated.contract=Only craftable with contracted villagers
 
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
@@ -548,6 +562,7 @@ description.levitated.solder=To create a Bucket of Solder, simply right click on
 description.levitated.chaos_pearl=Right click to teleport to a random location within a 10,000 block radius. Can only be crafted 10 times.
 description.levitated.recall_pearl=Right click to teleport to your previous location.
 description.levitated.dragon_spirit=Dropped by the Ender Dragon when killed by the Kikoku.
+description.levitated.contract=This item is only craftable with contracted villagers. In order to get a contracted villager, craft a Contract first, then ask a villager to sign it.
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=Hot Stick
@@ -561,6 +576,12 @@ unfamiliar.levitated.core=Yellow Shell with Purple Circles
 unfamiliar.levitated.dragon_spirit=Drop of Purple
 unfamiliar.levitated.scroll=Parchment Paper
 unfamiliar.levitated.scroll_ignis=Hot Parchment Paper with Red Drawings
+unfamiliar.levitated.crystal=Sharp Colored Rocks
+unfamiliar.levitated.essence=Fancy Goo
+unfamiliar.levitated.soul_crystal=Alternating Sharp Rocks
+unfamiliar.levitated.apple=Glowing Apple
+unfamiliar.levitated.dna=Lines in Orb
+unfamiliar.levitated.contract=Stack of Paper
 
 # Item Rename
 rename.levitated.shulker_ring=Ring of the Levitating Shulker
