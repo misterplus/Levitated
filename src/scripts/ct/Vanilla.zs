@@ -1,6 +1,7 @@
 //remove
 recipes.remove(<minecraft:crafting_table>);
 recipes.remove(<naturescompass:naturescompass>);
+recipes.remove(<minecraft:nether_star>);
 
 //add
 recipes.replaceAllOccurences(<ore:cobblestone>, <ore:endstone>, <minecraft:dispenser>);
@@ -23,3 +24,10 @@ recipes.replaceAllOccurences(<minecraft:obsidian>, <minecraft:end_bricks>, <ways
 recipes.replaceAllOccurences(<minecraft:ender_pearl>, <botania:manaresource:1>, <waystones:return_scroll>);
 recipes.replaceAllOccurences(<minecraft:ender_pearl>, <botania:manaresource:1>, <waystones:bound_scroll>);
 recipes.replaceAllOccurences(<minecraft:ender_pearl>, <botania:manaresource:1>, <waystones:warp_scroll>);
+
+//Deprecated Scanners
+var scanner_deprecated = <scanner:biome_scanner_basic> | <scanner:biome_scanner_adv> | <scanner:biome_scanner_elite>;
+recipes.addShapeless(<scanner:biome_scanner_ultimate>, [scanner_deprecated]);
+
+//Flint and Steel
+recipes.replaceAllOccurences(<minecraft:iron_ingot>, <botania:manaresource:7>, <minecraft:flint_and_steel>);
