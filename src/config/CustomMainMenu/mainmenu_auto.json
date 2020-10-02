@@ -5,7 +5,7 @@
     {
 		"singleplayer":
         {
-			"text": "",
+			"text": " ",
             "hoverText" : "menu.singleplayer",
 			"texture" : "levitated:textures/gui/button_0.png",
 			"pressSound": "entity.shulker.hurt_closed",
@@ -26,7 +26,7 @@
 		
 		"multiplayer":
         {
-            "text" : "",
+            "text" : " ",
 			"hoverText": "menu.multiplayer",
 			"texture" : "levitated:textures/gui/button_1.png",
 			"pressSound": "entity.shulker.hurt_closed",
@@ -47,7 +47,7 @@
 		
 		"options":
         {
-			"text": "",
+			"text": " ",
 			"hoverText": "menu.options",
 			"texture" : "levitated:textures/gui/button_2.png",
 			"pressSound": "entity.shulker.hurt_closed",
@@ -68,7 +68,7 @@
 		
 		"quit":
         {
-            "text": "",
+            "text": " ",
 			"hoverText": "menu.quit",
 			"texture" : "levitated:textures/gui/button_3.png",
 			"pressSound": "entity.shulker.hurt_closed",
@@ -88,7 +88,7 @@
 		
 		"patreon":
         {
-            "text": "",
+            "text": " ",
 			"texture" : "levitated:textures/gui/button_4.png",
 			"pressSound": "block.grass.break",
 			"hoverSound": "block.grass.hit",
