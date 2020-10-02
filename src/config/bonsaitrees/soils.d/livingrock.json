@@ -1,0 +1,17 @@
+{
+    "name": "botania:livingrock",
+    "mod": "botania",
+    "soil": {
+      "name": "botania:livingrock",
+      "data": 0,
+      "ignoreMeta": false
+    },
+  
+    "modifiers": {
+      "growTime": 1.0,
+      "dropChance": 1.0
+    },
+  
+    "providedTags": ["livingrock"]
+  }
+  

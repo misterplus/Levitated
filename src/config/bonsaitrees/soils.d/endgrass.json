@@ -9,7 +9,7 @@
 
   "modifiers": {
     "growTime": 1.1,
-    "dropChance": 0.9
+    "dropChance": 1.2
   },
 
   "providedTags": ["end_stone"]
