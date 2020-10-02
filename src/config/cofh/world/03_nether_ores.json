@@ -119,7 +119,7 @@
                 "solid-outline": true
 			},
 			"cluster-count": 1,
-			"chunk-chance": 4,
+			"chunk-chance": 3,
 			"min-height": 10,
 			"max-height": 120,
 			"dimension": {
