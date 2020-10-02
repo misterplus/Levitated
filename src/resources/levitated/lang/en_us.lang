@@ -518,7 +518,7 @@ advancements.levitated.story.contract.title=Call to Arms
 advancements.levitated.story.contract.description=If you're the only one living in the city, that'd be way too boring. Let's kindly ask some villagers to stay, shall we? [Craft a Folder of Contracts.]
 
 advancements.levitated.story.apple.title=Piece of Eden
-# advancements.levitated.story.apple.description=Legend says that the Garden of Eden houses a holy artifact, the Apple of Eden. You may never get to see the real one, but nothing is stopping you from making a counterfeit. Surprisingly, it does hold a decent amount of power.
+advancements.levitated.story.apple.description=Legend says that the Garden of Eden houses a holy artifact, the Apple of Eden. You may never get to see the real one, but nothing is stopping you from making a counterfeit. Surprisingly, it does hold a decent amount of power.
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
@@ -550,6 +550,8 @@ tooltips.levitated.recall_pearl=No Cooldown
 tooltips.levitated.shard=Shard Power Ω
 tooltips.levitated.essence=Dropped rarely by corresponding mobs when killed by a player
 tooltips.levitated.contract=Only craftable with contracted villagers
+tooltips.levitated.deprecated=This item is deprecated due to a pack update, craft it in a crafting table to get a newer version.
+tooltips.levitated.transporter=Can pickup spawners
 
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
@@ -563,6 +565,9 @@ description.levitated.chaos_pearl=Right click to teleport to a random location w
 description.levitated.recall_pearl=Right click to teleport to your previous location.
 description.levitated.dragon_spirit=Dropped by the Ender Dragon when killed by the Kikoku.
 description.levitated.contract=This item is only craftable with contracted villagers. In order to get a contracted villager, craft a Contract first, then ask a villager to sign it.
+description.levitated.biome_scanner=Biome Scanner is used to scan the biome of a chunk remotely (needs power) or locally (doesn't need power). It can also be used in combination with a Terrain Scanner to rebuild chunks remotely.
+description.levitated.terrain_scanner=Terrain Scanner is used to rebuild a 16*16*256 area in the southeast direction relative to its block position. When placed next to a Biome Scanner, clicking on the "Show map" button inside the Terrain Scanner will allow one to select a remote location as the starting position, thus rebuilding chunks remotely.
+description.levitated.scanner_queue=Scanner Queue is used to queue up chunks for a Terrain Scanner to rebuild. When placed next to a Terrain Scanner, one can type in absolute coordinates in a format like "350,250" (range limited to a 256 block radius around the queue), then click "Add" to add the coordinate to the queue. Then, click on "Build", the Terrain Scanner next to it will lock the starting location to the coordinate you just set. The Terrain Scanner will then start to rebuild at said location. Once it finishes building, it will then switch to the next location in the queue and start rebuilding again. One can set up to 5 coordinates in a Scanner queue, and have mulitple queues attached to a single Terrain Scanner.
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=Hot Stick
@@ -591,9 +596,11 @@ rename.levitated.refined_iron_ingot=Refined Steel Ingot
 rename.levitated.refined_iron_block=Block of Refined Steel
 rename.levitated.refined_iron_nugget=Refined Steel Nugget
 rename.levitated.refined_iron_plate=Refined Steel Plate
+rename.levitated.biome_scanner_deprecated=Biome Scanner (Deprecated)
+rename.levitated.biome_scanner=Biome Scanner
 
 # Tips
-tips.levitated.1=In the final advancement "The Long Journey Home", you'll have to find and land on a planet similar to the former Earth.
+tips.levitated.1=In the advancement "The Long Journey Home", you'll have to find and land on a planet similar to the former Earth.
 tips.levitated.2=If you are playing with friends, you can use the command "/togetherforever invite" to sync your advancement progress.
 tips.levitated.3=Having trouble bottling up water? Try again with a fluid tank!
 tips.levitated.4=Pure Daisy can only be found in non-vanilla end cities, which can be pretty rare if you're unlucky. Considering trading with other players if you are on a server.
@@ -603,7 +610,7 @@ tips.levitated.7=Scanner can only rebuild every block once, so you cannot mine a
 tips.levitated.8=You can actually sleep in the end now, I'm not trolling.
 tips.levitated.9=Don't be afraid of the void! You'll get teleported right back up.
 tips.levitated.10=Bedrock is not the only block that can generate grains of infinity.
-tips.levitated.11=Rubber Trees generally grow in Forest and Swamp biomes, occasionally in Birch Forest too.
+tips.levitated.11=Can't find End Cities with loot? Try random teleporting with a Chaos Pearl!
 tips.levitated.12=You do need all 16 generators running to start the rainbow generator, but you can always make more of the same one.
 tips.levitated.13=There are multiple options when processing materials, they all have their advantages and disadvantages.
 tips.levitated.14=A Small Plate Presser only presses basic metal blocks.
