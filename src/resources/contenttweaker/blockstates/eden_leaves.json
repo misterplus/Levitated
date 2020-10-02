@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/life_crystal",
-      "particle": "contenttweaker:blocks/life_crystal"
+      "top": "contenttweaker:blocks/eden_apple",
+      "bot": "blocks/leaves_oak"
     },
-    "model": "contenttweaker:crystal",
+    "model": "chisel:lavastone/cube_lava",
     "uvlock": true,
     "transform": "forge:default-block"
   },

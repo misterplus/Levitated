@@ -1,96 +1,96 @@
 {
-    "forge_marker": 1,
-    "defaults": {
-        "model": "cube_all"
-    },
-    "variants": {
-        "inventory": [{}],
-        "normal": [{}],
-        "blocks": {
-            "aluminum_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_aluminum_ore"
-                }
-            },
-            "copper_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_copper_ore"
-                }
-            },
-            "iridium_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_iridium_ore"
-                }
-            },
-            "lead_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_lead_ore"
-                }
-            },
-            "mithril_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_mithril_ore"
-                }
-            },
-            "nickel_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_nickel_ore"
-                }
-            },
-            "platinum_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_platinum_ore"
-                }
-            },
-            "silver_ore": {
-                "model"   : "chisel:lavastone/cube_lava",
-                "textures": {
-                    "top": "netherendingores:blocks/nether_silver_ore",
-                    "bot": "blocks/magma"
-                }
-            },
-            "tin_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_tin_ore"
-                }
-            },
-            "certus_quartz_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_certus_quartz_ore"
-                }
-            },
-            "charged_certus_quartz_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_charged_certus_quartz_ore"
-                }
-            },
-            "osmium_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_osmium_ore"
-                }
-            },
-            "uranium_ore": {
-            "model"   : "chisel:lavastone/cube_lava",
-            "textures": {
-                "top": "netherendingores:blocks/nether_uranium_ore",
-				"bot": "blocks/lava_still"
-            }
-        },
-            "yellorite_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_yellorite_ore"
-                }
-            },
-            "dilithium_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_dilithium_ore"
-                }
-            },
-            "tritanium_ore": {
-                "textures": {
-                    "all": "netherendingores:blocks/nether_tritanium_ore"
-                }
-            }
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube_all"
+  },
+  "variants": {
+    "inventory": [{}],
+    "normal": [{}],
+    "blocks": {
+      "aluminum_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_aluminum_ore"
         }
+      },
+      "copper_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_copper_ore"
+        }
+      },
+      "iridium_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_iridium_ore"
+        }
+      },
+      "lead_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_lead_ore"
+        }
+      },
+      "mithril_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_mithril_ore"
+        }
+      },
+      "nickel_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_nickel_ore"
+        }
+      },
+      "platinum_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_platinum_ore"
+        }
+      },
+      "silver_ore": {
+        "model": "chisel:lavastone/cube_lava",
+        "textures": {
+          "top": "netherendingores:blocks/nether_silver_ore",
+          "bot": "blocks/magma"
+        }
+      },
+      "tin_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_tin_ore"
+        }
+      },
+      "certus_quartz_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_certus_quartz_ore"
+        }
+      },
+      "charged_certus_quartz_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_charged_certus_quartz_ore"
+        }
+      },
+      "osmium_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_osmium_ore"
+        }
+      },
+      "uranium_ore": {
+        "model": "chisel:lavastone/cube_lava",
+        "textures": {
+          "top": "netherendingores:blocks/nether_uranium_ore",
+          "bot": "blocks/lava_still"
+        }
+      },
+      "yellorite_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_yellorite_ore"
+        }
+      },
+      "dilithium_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_dilithium_ore"
+        }
+      },
+      "tritanium_ore": {
+        "textures": {
+          "all": "netherendingores:blocks/nether_tritanium_ore"
+        }
+      }
     }
+  }
 }

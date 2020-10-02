@@ -2,9 +2,9 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-	  "texture": "contenttweaker:blocks/fire_crystal",
-	  "particle": "contenttweaker:blocks/fire_crystal"
-	},
+      "texture": "contenttweaker:blocks/fire_crystal",
+      "particle": "contenttweaker:blocks/fire_crystal"
+    },
     "model": "contenttweaker:crystal",
     "uvlock": true,
     "transform": "forge:default-block"

@@ -6,6 +6,7 @@ tile.contenttweaker.wither_crystal.name=Crystal of Silent Death
 tile.contenttweaker.water_crystal.name=Crystal of Vast Sea
 tile.contenttweaker.fire_crystal.name=Crystal of Blazing Flame
 tile.contenttweaker.life_crystal.name=Crystal of Thriving Life
+tile.contenttweaker.eden_leaves.name=Eden Leaves
 
 item.contenttweaker.end_seeds.name=End Seeds
 item.contenttweaker.end_iron_chunk.name=End Infused Iron Chunk
@@ -55,6 +56,7 @@ item.contenttweaker.crystal_blaze.name=Blaze Crystal
 item.contenttweaker.crystal_pigman.name=Pigman Crystal
 item.contenttweaker.crystal_magma.name=Magma Crystal
 item.contenttweaker.crystal_ghast.name=Ghast Crystal
+item.contenttweaker.rainbowgen.name=Rainbow Generator (Hand-Crafted)
 
 item.contenttweaker.origin_book.message=Spawn Point Set!
 item.contenttweaker.nether_book.message=You can now travel to the Nether!
