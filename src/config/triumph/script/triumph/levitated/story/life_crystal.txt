@@ -1,0 +1,20 @@
+setIcon(<contenttweaker:life_crystal>)
+
+setTranslatedTitle("advancements.levitated.story.life_crystal.title")
+setTranslatedDescription("advancements.levitated.story.life_crystal.description")
+
+addParent("triumph:levitated/story/root")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setFrameType("Goal")
+
+setHidden(true)
+
+criteria = addCriteria("clickLifeCrystal", "triumph:right_click_block")
+criteria.setBlock("contenttweaker:life_crystal")
+
+setRewardFunction("triumph:chorus_good")
+setPos(32,54)

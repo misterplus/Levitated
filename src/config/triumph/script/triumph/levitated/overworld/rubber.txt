@@ -3,12 +3,17 @@ setIcon(<techreborn:part:32>)
 setTranslatedTitle("advancements.levitated.overworld.rubber.title")
 setTranslatedDescription("advancements.levitated.overworld.rubber.description")
 
-addParent("triumph:levitated/overworld/root")
+addParent("triumph:levitated/overworld/rubber_tree")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(84,-102)
+
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasSap", "minecraft:inventory_changed")
 criteria.addItem(<techreborn:part:32>)
 
 visibleIf("triumph:levitated/overworld/root")
+setPos(64,0)

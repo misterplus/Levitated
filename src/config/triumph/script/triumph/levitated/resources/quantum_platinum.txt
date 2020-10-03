@@ -4,13 +4,16 @@ setTranslatedTitle("advancements.levitated.resources.quantum_platinum.title")
 setTranslatedDescription("advancements.levitated.resources.quantum_platinum.description")
 
 addParent("triumph:levitated/resources/root")
-
-setShowToast(false)
+setShowToast(true)
 setAnnounceToChat(false)
-setPos(9,-210)
+
+setCompletedIconColor(#30CBA2)
+setCompletedTitleColor(#30CBA2)
+
 hideLines()
 
 criteria = addCriteria("hasPlatinumOre", "minecraft:inventory_changed")
 criteria.addItem(<thermalfoundation:ore:6>)
 
 hiddenUnless("triumph:levitated/overworld/quantum_quarry")
+setPos(9,-210)

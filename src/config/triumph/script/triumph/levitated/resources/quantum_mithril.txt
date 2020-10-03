@@ -4,13 +4,16 @@ setTranslatedTitle("advancements.levitated.resources.quantum_mithril.title")
 setTranslatedDescription("advancements.levitated.resources.quantum_mithril.description")
 
 addParent("triumph:levitated/resources/root")
-
-setShowToast(false)
+setShowToast(true)
 setAnnounceToChat(false)
-setPos(46,-210)
+
+setCompletedIconColor(#30CBA2)
+setCompletedTitleColor(#30CBA2)
+
 hideLines()
 
 criteria = addCriteria("hasMithrilOre", "minecraft:inventory_changed")
 criteria.addItem(<thermalfoundation:ore:8>)
 
 hiddenUnless("triumph:levitated/overworld/quantum_quarry")
+setPos(46,-210)

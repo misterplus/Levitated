@@ -1,0 +1,17 @@
+setIcon(<contenttweaker:trophy>)
+
+setTranslatedTitle("advancements.levitated.skycity.root.title")
+setTranslatedDescription("advancements.levitated.skycity.root.description")
+
+setBackground("wizardry:textures/blocks/cloud.png")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#00FF00)
+setCompletedTitleColor(#00FF00)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Challenge")
+
+criteria = addCriteria("goodEnding", "triumph:gamestage")
+criteria.setStage("good_ending")
+setPos(0,0)

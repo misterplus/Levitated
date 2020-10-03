@@ -6,10 +6,14 @@ setTranslatedDescription("advancements.levitated.resources.overworld_ruby.descri
 addParent("triumph:levitated/resources/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(83,-173)
+
+setCompletedIconColor(#0085A2)
+setCompletedTitleColor(#0085A2)
+
 hideLines()
 
 criteria = addCriteria("hasRuby", "minecraft:inventory_changed")
 criteria.addItem(<techreborn:gem>)
 
 hiddenUnless("triumph:levitated/overworld/root")
+setPos(83,-173)

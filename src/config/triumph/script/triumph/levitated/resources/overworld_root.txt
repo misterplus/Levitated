@@ -4,13 +4,17 @@ setTranslatedTitle("advancements.levitated.resources.overworld_root.title")
 setTranslatedDescription("advancements.levitated.resources.overworld_root.description")
 
 addParent("triumph:levitated/resources/root")
-
 setShowToast(false)
 setAnnounceToChat(false)
-setPos(-28,-173)
+
+setCompletedIconColor(#0085A2)
+setCompletedTitleColor(#0085A2)
+setFrameType("Goal")
+
 hideLines()
 
 criteria = addCriteria("entered_overworld", "minecraft:changed_dimension")
 criteria.setDimensionDestination("overworld")
 
 hiddenUnless("triumph:levitated/overworld/root")
+setPos(-28,-173)

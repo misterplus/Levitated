@@ -1,0 +1,18 @@
+setIcon(<contenttweaker:shard>)
+
+setTranslatedTitle("advancements.levitated.story.shard.title")
+setTranslatedDescription("advancements.levitated.story.shard.description")
+
+addParent("triumph:levitated/story/plan")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setFrameType("Goal")
+
+hideLines()
+
+criteria = addCriteria("hasShard", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:shard>)
+setPos(128,27)

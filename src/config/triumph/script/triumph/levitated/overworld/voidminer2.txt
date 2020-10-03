@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.overworld.voidminer2.descriptio
 addParent("triumph:levitated/overworld/voidminer")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(154,-133)
+
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasVoidminer2", "minecraft:inventory_changed")
 criteria.addItem(<environmentaltech:void_ore_miner_cont_4>)
 
 visibleIf("triumph:levitated/overworld/root")
+setPos(64,27)

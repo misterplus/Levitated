@@ -1,0 +1,20 @@
+setIcon(<contenttweaker:fire_crystal>)
+
+setTranslatedTitle("advancements.levitated.story.fire_crystal.title")
+setTranslatedDescription("advancements.levitated.story.fire_crystal.description")
+
+addParent("triumph:levitated/story/root")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setFrameType("Goal")
+
+setHidden(true)
+
+criteria = addCriteria("clickFireCrystal", "triumph:right_click_block")
+criteria.setBlock("contenttweaker:fire_crystal")
+
+setRewardFunction("triumph:chorus_good")
+setPos(32,27)

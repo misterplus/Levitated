@@ -6,7 +6,10 @@ setTranslatedDescription("advancements.levitated.resources.overworld_calcite.des
 addParent("triumph:levitated/resources/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(9,-173)
+
+setCompletedIconColor(#0085A2)
+setCompletedTitleColor(#0085A2)
+
 hideLines()
 
 criteria = addCriteria("hasCalciumStone", "minecraft:inventory_changed")
@@ -18,3 +21,4 @@ criteria.addItem(<chisel:basalt2:7>)
 setRequirements("any")
 
 hiddenUnless("triumph:levitated/overworld/root")
+setPos(9,-173)

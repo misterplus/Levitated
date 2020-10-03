@@ -1,4 +1,4 @@
-setIcon(<minecraft:ender_pearl>)
+setIcon(<contenttweaker:chaos_pearl>)
 
 setTranslatedTitle("advancements.levitated.end.chaos_pearl.title")
 setTranslatedDescription("advancements.levitated.end.chaos_pearl.description")
@@ -8,7 +8,7 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 criteria = addCriteria("hasChaosPearl", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:ender_pearl>)
+criteria.addItem(<contenttweaker:chaos_pearl>)
 
 visibleIf("triumph:levitated/end/root")
 setPos(64,121)

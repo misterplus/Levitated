@@ -6,7 +6,10 @@ setTranslatedDescription("advancements.levitated.resources.nether_quartz.descrip
 addParent("triumph:levitated/resources/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(9,-136)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
+
 hideLines()
 
 criteria = addCriteria("hasQuartz", "minecraft:inventory_changed")
@@ -14,3 +17,4 @@ criteria.addItem(<minecraft:quartz>)
 criteria.addItem(<appliedenergistics2:material>)
 
 hiddenUnless("triumph:levitated/end/netherrack")
+setPos(9,-136)

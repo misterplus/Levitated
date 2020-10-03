@@ -4,12 +4,17 @@ setTranslatedTitle("advancements.levitated.overworld.rocket.title")
 setTranslatedDescription("advancements.levitated.overworld.rocket.description")
 
 addParent("triumph:levitated/overworld/structure")
-addParent("triumph:levitated/overworld/quantum_quarry")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(291,-66)
+
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasRocket", "minecraft:inventory_changed")
 criteria.addItem(<advancedrocketry:rocketbuilder>)
 
+hiddenIf("triumph:levitated/story/globe")
 visibleIf("triumph:levitated/overworld/root")
+setPos(128,27)

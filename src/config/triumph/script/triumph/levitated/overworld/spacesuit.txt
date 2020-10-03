@@ -4,11 +4,11 @@ setTranslatedTitle("advancements.levitated.overworld.spacesuit.title")
 setTranslatedDescription("advancements.levitated.overworld.spacesuit.description")
 
 addParent("triumph:levitated/overworld/rocket")
-
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(291,-23)
-drawDirectLines()
+
+setCompletedIconColor(#0085A2)
+setCompletedTitleColor(#0085A2)
 
 criteria = addCriteria("hasSpacesuit", "minecraft:inventory_changed")
 criteria.addItem(<advancedrocketry:spacehelmet>)
@@ -16,4 +16,6 @@ criteria.addItem(<advancedrocketry:spacechestplate>)
 criteria.addItem(<advancedrocketry:spaceleggings>)
 criteria.addItem(<advancedrocketry:spaceboots>)
 
+hiddenIf("triumph:levitated/story/globe")
 visibleIf("triumph:levitated/overworld/root")
+setPos(160,0)

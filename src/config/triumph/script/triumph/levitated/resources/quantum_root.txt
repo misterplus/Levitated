@@ -4,13 +4,17 @@ setTranslatedTitle("advancements.levitated.resources.quantum_root.title")
 setTranslatedDescription("advancements.levitated.resources.quantum_root.description")
 
 addParent("triumph:levitated/resources/root")
-
 setShowToast(false)
 setAnnounceToChat(false)
-setPos(-28,-210)
+
+setCompletedIconColor(#30CBA2)
+setCompletedTitleColor(#30CBA2)
+setFrameType("Goal")
+
 hideLines()
 
 criteria = addCriteria("hasQuarry", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:quarry>)
 
 hiddenUnless("triumph:levitated/overworld/quantum_quarry")
+setPos(-28,-210)

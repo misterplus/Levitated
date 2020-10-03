@@ -4,13 +4,16 @@ setTranslatedTitle("advancements.levitated.overworld.blast_furnace.title")
 setTranslatedDescription("advancements.levitated.overworld.blast_furnace.description")
 
 addParent("triumph:levitated/overworld/machine_frame")
-addParent("triumph:levitated/overworld/distiller")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(154,-39)
 
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasBlastFurnace", "minecraft:inventory_changed")
 criteria.addItem(<techreborn:industrial_blast_furnace>)
 
 visibleIf("triumph:levitated/overworld/root")
+setPos(96,81)

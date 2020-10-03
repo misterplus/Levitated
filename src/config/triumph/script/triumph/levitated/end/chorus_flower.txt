@@ -8,7 +8,7 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 criteria = addCriteria("hasChorusFlower", "minecraft:inventory_changed")
-criteria.setItem(<minecraft:chorus_flower>)
+criteria.addItem(<minecraft:chorus_flower>)
 
 visibleIf("triumph:levitated/end/root")
 setPos(64,40)

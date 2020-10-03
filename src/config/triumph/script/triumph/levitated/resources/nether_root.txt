@@ -4,13 +4,17 @@ setTranslatedTitle("advancements.levitated.resources.nether_root.title")
 setTranslatedDescription("advancements.levitated.resources.nether_root.description")
 
 addParent("triumph:levitated/resources/root")
-
 setShowToast(false)
 setAnnounceToChat(false)
-setPos(-28,-136)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
+setFrameType("Goal")
+
 hideLines()
 
 criteria = addCriteria("hasNetherracks", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:netherrack>)
 
 hiddenUnless("triumph:levitated/end/netherrack")
+setPos(-28,-136)

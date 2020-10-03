@@ -6,10 +6,11 @@ setTranslatedDescription("advancements.levitated.resources.end_copper.descriptio
 addParent("triumph:levitated/resources/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(120,-99)
+
 hideLines()
 
 criteria = addCriteria("hasEndCopper", "minecraft:inventory_changed")
 criteria.addItem(<netherendingores:ore_end_modded_1:1>)
 
 visibleIf("triumph:levitated/resources/root")
+setPos(120,-99)

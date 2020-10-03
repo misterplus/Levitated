@@ -1,0 +1,31 @@
+setIcon(<minecraft:writable_book>)
+
+setTranslatedTitle("advancements.levitated.story.root.title")
+setTranslatedDescription("advancements.levitated.story.root.description")
+
+setBackground("chisel:textures/blocks/paper/plain.png")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setFrameType("Goal")
+
+criteria = addCriteria("clickCrystal", "triumph:right_click_block")
+criteria.setBlock("contenttweaker:wither_crystal")
+
+criteria2 = addCriteria("clickCrystal2", "triumph:right_click_block")
+criteria2.setBlock("contenttweaker:fire_crystal")
+
+criteria3 = addCriteria("clickCrystal3", "triumph:right_click_block")
+criteria3.setBlock("contenttweaker:water_crystal")
+
+criteria4 = addCriteria("clickCrystal4", "triumph:right_click_block")
+criteria4.setBlock("contenttweaker:life_crystal")
+
+setRequirements("any")
+
+setRewardFunction("triumph:chorus_good")
+
+pageHiddenUnless("triumph:levitated/story/root")
+setPos(0,27)

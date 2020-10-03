@@ -6,10 +6,14 @@ setTranslatedDescription("advancements.levitated.resources.overworld_bauxite.des
 addParent("triumph:levitated/resources/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(46,-173)
+
+setCompletedIconColor(#0085A2)
+setCompletedTitleColor(#0085A2)
+
 hideLines()
 
 criteria = addCriteria("hasBauxiteOre", "minecraft:inventory_changed")
 criteria.addItem(<techreborn:ore:4>)
 
 hiddenUnless("triumph:levitated/overworld/root")
+setPos(46,-173)

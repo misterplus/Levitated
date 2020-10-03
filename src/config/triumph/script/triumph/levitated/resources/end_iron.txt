@@ -6,10 +6,11 @@ setTranslatedDescription("advancements.levitated.resources.end_iron.description"
 addParent("triumph:levitated/resources/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(9,-99)
+
 hideLines()
 
 criteria = addCriteria("hasEndIron", "minecraft:inventory_changed")
 criteria.addItem(<netherendingores:ore_end_vanilla:4>)
 
 visibleIf("triumph:levitated/resources/root")
+setPos(9,-99)

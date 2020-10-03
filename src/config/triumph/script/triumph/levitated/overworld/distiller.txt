@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.overworld.distiller.description
 addParent("triumph:levitated/overworld/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(120,-39)
+
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("formed_distiller", "immersiveengineering:multiblock_formed")
 criteria.setMultiblock("IT:Distiller")
 
 visibleIf("triumph:levitated/overworld/root")
+setPos(32,81)

@@ -1,0 +1,27 @@
+setIcon(<contenttweaker:scroll_ignis>)
+
+setTranslatedTitle("advancements.levitated.story.scroll.title")
+setTranslatedDescription("advancements.levitated.story.scroll.description")
+
+addParent("triumph:levitated/story/apple")
+addParent("triumph:levitated/story/contract")
+addParent("triumph:levitated/story/core")
+addParent("triumph:levitated/story/crystal")
+addParent("triumph:levitated/story/dna")
+addParent("triumph:levitated/story/potion")
+addParent("triumph:levitated/story/shard")
+addParent("triumph:levitated/story/spirit")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setFrameType("Goal")
+
+drawDirectLines()
+
+criteria = addCriteria("hasScroll", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:scroll_ignis>)
+
+hiddenUnless("triumph:levitated/story/plan")
+setPos(178,27)

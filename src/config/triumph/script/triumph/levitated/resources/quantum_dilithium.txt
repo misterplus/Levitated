@@ -4,13 +4,16 @@ setTranslatedTitle("advancements.levitated.resources.quantum_dilithium.title")
 setTranslatedDescription("advancements.levitated.resources.quantum_dilithium.description")
 
 addParent("triumph:levitated/resources/root")
-
-setShowToast(false)
+setShowToast(true)
 setAnnounceToChat(false)
-setPos(83,-210)
+
+setCompletedIconColor(#30CBA2)
+setCompletedTitleColor(#30CBA2)
+
 hideLines()
 
 criteria = addCriteria("hasDilithiumOre", "minecraft:inventory_changed")
 criteria.addItem(<libvulpes:ore0>)
 
 hiddenUnless("triumph:levitated/overworld/quantum_quarry")
+setPos(83,-210)

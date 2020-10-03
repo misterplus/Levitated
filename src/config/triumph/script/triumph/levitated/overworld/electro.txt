@@ -1,0 +1,19 @@
+setIcon(<techreborn:industrial_electrolyzer>)
+
+setTranslatedTitle("advancements.levitated.overworld.electro.title")
+setTranslatedDescription("advancements.levitated.overworld.electro.description")
+
+addParent("triumph:levitated/overworld/machine_frame")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
+
+criteria = addCriteria("hasElectro", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:industrial_electrolyzer>)
+
+visibleIf("triumph:levitated/overworld/root")
+setPos(96,135)

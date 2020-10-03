@@ -6,10 +6,11 @@ setTranslatedDescription("advancements.levitated.resources.end_coal.description"
 addParent("triumph:levitated/resources/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(46,-99)
+
 hideLines()
 
 criteria = addCriteria("hasEndCoal", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:coal>)
 
 visibleIf("triumph:levitated/resources/root")
+setPos(46,-99)

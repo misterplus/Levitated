@@ -6,10 +6,14 @@ setTranslatedDescription("advancements.levitated.resources.nether_ardite.descrip
 addParent("triumph:levitated/resources/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(194,-136)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
+
 hideLines()
 
 criteria = addCriteria("hasArdite", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:ore:1>)
 
 hiddenUnless("triumph:levitated/end/netherrack")
+setPos(194,-136)

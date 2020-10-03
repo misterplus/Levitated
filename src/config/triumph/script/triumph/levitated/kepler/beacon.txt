@@ -6,7 +6,12 @@ setTranslatedDescription("advancements.levitated.kepler.beacon.description")
 addParent("triumph:levitated/kepler/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(42,0)
+
+setCompletedIconColor(#FF0000)
+setCompletedTitleColor(#FF0000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasBeacon", "minecraft:inventory_changed")
 criteria.addItem(<advancedrocketry:beacon>)
+setPos(32,0)

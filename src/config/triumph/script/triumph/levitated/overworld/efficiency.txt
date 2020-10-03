@@ -1,0 +1,16 @@
+setIcon(<minecraft:enchanted_book>)
+
+setTranslatedTitle("advancements.levitated.overworld.efficiency.title")
+setTranslatedDescription("advancements.levitated.overworld.efficiency.description")
+
+addParent("triumph:levitated/overworld/quantum_quarry")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#0085A2)
+setCompletedTitleColor(#0085A2)
+
+setRequiresParents()
+
+visibleIf("triumph:levitated/overworld/root")
+setPos(192,108)

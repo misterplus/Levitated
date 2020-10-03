@@ -6,10 +6,14 @@ setTranslatedDescription("advancements.levitated.resources.overworld_tungsten.de
 addParent("triumph:levitated/resources/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(157,-173)
+
+setCompletedIconColor(#0085A2)
+setCompletedTitleColor(#0085A2)
+
 hideLines()
 
 criteria = addCriteria("hasTungstenOre", "minecraft:inventory_changed")
 criteria.addItem(<techreborn:ore:8>)
 
 hiddenUnless("triumph:levitated/overworld/root")
+setPos(157,-173)

@@ -11,7 +11,7 @@ setCompletedIconColor(#FF9D00)
 setCompletedTitleColor(#FF9D00)
 
 criteria = addCriteria("hasMill", "minecraft:inventory_changed")
-criteria.setItem(<extrautils2:passivegenerator:7>)
+criteria.addItem(<extrautils2:passivegenerator:7>)
 
 visibleIf("triumph:levitated/nether/root")
 setPos(64,230)

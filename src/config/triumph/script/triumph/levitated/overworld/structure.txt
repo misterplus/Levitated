@@ -3,13 +3,17 @@ setIcon(<libvulpes:structuremachine>)
 setTranslatedTitle("advancements.levitated.overworld.structure.title")
 setTranslatedDescription("advancements.levitated.overworld.structure.description")
 
-addParent("triumph:levitated/overworld/uumachine")
+addParent("triumph:levitated/overworld/voidminer2")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(244,-109)
 
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasStructureMachine", "minecraft:inventory_changed")
 criteria.addItem(<libvulpes:structuremachine>)
 
 visibleIf("triumph:levitated/overworld/root")
+setPos(96,27)
