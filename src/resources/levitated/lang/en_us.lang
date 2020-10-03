@@ -172,7 +172,7 @@ advancements.levitated.end.chaos_pearl.description=If the land near you seems to
 advancements.levitated.end.drawer.title=F in the chat
 advancements.levitated.end.drawer.description=You won't have access to regular overworld wood for a while, that also means you'll have to use a Framed Drawer. [Craft a Framing Table.]
 
-advancements.levitated.end.bonsai.title=Miniture Plant
+advancements.levitated.end.bonsai.title=Miniature Plant
 advancements.levitated.end.bonsai.description=Tired of cutting down huge trees over and over again? How about some tiny ones? [Craft a Bonsai Pot.]
 
 advancements.levitated.end.menril.title=Integrated Logic
@@ -316,7 +316,7 @@ advancements.levitated.nether.blast_furnace_adv.description=Smelting Steel manua
 
 # Overworld
 advancements.levitated.overworld.root.title=Sun, Moon and Stars
-advancements.levitated.overworld.root.description=You've made it back home! But this world isn't really your ideal settlement, since there's still nothing but the void. Maybe we can... go for the stars?
+advancements.levitated.overworld.root.description=You've made it back home! But this world isn't really your ideal settlement, since there's still nothing but the void. What does the future hold then?
 
 advancements.levitated.overworld.refined_iron.title=Double Refinement
 advancements.levitated.overworld.refined_iron.description=Apparently refining iron once isn't enough, you are gonna need better base materials for more advanced machines. Refining steel once more should be good, but how? [Craft a Refined Steel Ingot.]
@@ -352,10 +352,10 @@ advancements.levitated.overworld.quantum_quarry.title=Quantum Tunneling
 advancements.levitated.overworld.quantum_quarry.description=Platinum might be the first man-made substance on this planet, but it certainly won't be the last. In fact, you can even borrow substances from another world. We call this quantum mining. [Build a Quantum Quarry.]
 
 advancements.levitated.overworld.structure.title=Steady Structure
-advancements.levitated.overworld.structure.description=With storms howling through the lands of the Overworld, you surely don't wanna live there, but the end is not exactly a great choice either, that leaves you with the only option - other planets. Better get those rockets building! [Craft a Machine Structure.]
+advancements.levitated.overworld.structure.description=With storms howling through the lands of the Overworld, you surely don't wanna live there, but the end is not exactly a great choice either. So... what now? [Craft a Machine Structure.]
 
 advancements.levitated.overworld.rocket.title=Space Travel! ... not yet
-advancements.levitated.overworld.rocket.description=Not all planets are habitable, and not all habitable planets are for humans. To search for such a planet would take centuries without the right tools. And rockets are surely one of them. [Craft a Rocket Assembling Machine.]
+advancements.levitated.overworld.rocket.description=You had other thoughts, but sadly leaving the planet for another one is probably your best shot. Not all planets are habitable, and not all habitable planets are for humans. To search for such a planet would take centuries without the right tools. And rockets are surely one of them. [Craft a Rocket Assembling Machine.]
 
 advancements.levitated.overworld.space_station.title=Non-Stationary
 advancements.levitated.overworld.space_station.description=Stay on the earth with a naked eye isn't gonna help you find extraterrestrial planets, you better levitate yourself to a...higher altitude. In plain English, that is to say - build a space station. [Craft a Space Station Assembler.]
@@ -383,6 +383,21 @@ advancements.levitated.overworld.spacesuit.description=You are no superman, and 
 
 advancements.levitated.overworld.rubber_tree.title=Sticky Sticks
 advancements.levitated.overworld.rubber_tree.description=Rubber Trees generally grow in forest and swamp biomes, you'll need to rebuild the overworld to find them. [Obtain a Rubber Sapling.]
+
+advancements.levitated.overworld.implosion.title=Big Bang
+advancements.levitated.overworld.implosion.description=Some materials like Iridium is hard to compress, this Implosion Compressor can give you a hand. [Craft an Implosion Compressor.] 
+
+advancements.levitated.overworld.efficiency.title=Nice and Clean
+advancements.levitated.overworld.efficiency.description=Don't just wait while your quarry mines away, you can use Enchanted Books to buff your Quantum Quarry.
+
+advancements.levitated.overworld.electro.title=Electro Wizard
+advancements.levitated.overworld.electro.description=A machine that does electro magic, sounds cool! [Craft an Industrial Electrolyzer.]
+
+advancements.levitated.overworld.deflector.title=Hazard Deflection
+advancements.levitated.overworld.deflector.description=You thought just building a city should be enough, but it'll never stand a chance against the tornados. Fortunately, you had another idea in mind. This one requires some digging. [Craft a Weather Deflector.]
+
+advancements.levitated.overworld.skycity.title=Your Universe
+advancements.levitated.overworld.skycity.description=You put the Globe on top of the Deflector, then every block started to enlarge... [Shift right click the Weather Deflector with the Miniature Sky City Globe in the Overworld.]
 
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
@@ -456,7 +471,7 @@ advancements.levitated.resources.quantum_mithril.description=Mithril is a metal 
 
 # Kepler Advancements
 advancements.levitated.kepler.root.title=Journey's End
-advancements.levitated.kepler.root.description=Here it is, the new home you've been searching for. Not exactly like the home you remembered, but a lively place to settle down and start a new life.
+advancements.levitated.kepler.root.description=Here it is, the new home you've been searching for. Not exactly like the home you remembered, but a lively place to settle down and start a new life. But thinking back, have you really made the right choice?
 
 advancements.levitated.kepler.beacon.title=Dawn of Hope
 advancements.levitated.kepler.beacon.description=If you still have friends living in the end, consider building a beacon on kepler! This will broadcast your coordinates to the entire galaxy, so they can easily find this place!
@@ -503,7 +518,7 @@ advancements.levitated.story.spirit.title=Spirit Dragon
 advancements.levitated.story.spirit.description=Kikoku, the Legendary blade, is said to cleanse the spirit of its enemies. The spirit of the Ender Dragon might possess the power beyond nature, which could be of great help to the spell. [Obtain a Dragon Spirit.]
 
 advancements.levitated.story.potion.title=Alchemical Fuel
-advancements.levitated.story.potion.description=In addition to the Core of Levity, a large quantity of "fuel" is needed to keep the city floated. Sadly lava probably won't make the cut, so you had another idea. [Fill an Iron Drum with Potion of Levitation (non-extended version, 3min).]
+advancements.levitated.story.potion.description=In addition to the Core of Levity, a large quantity of "fuel" is needed to keep the city floated. Sadly lava probably won't make the cut, so you had another idea. [Fill an Iron Drum with Potion of Levitation (non-extended version, 3min), then craft it into a Vial of Levitation.]
 
 advancements.levitated.story.scroll.title=Wild Pyromancer
 advancements.levitated.story.scroll.description=Eventually you'll need something to apply your spell to, a Spell Scroll infused with some nether magic would be nice. [Craft a Scroll of Ignis.]
@@ -511,14 +526,21 @@ advancements.levitated.story.scroll.description=Eventually you'll need something
 advancements.levitated.story.crystal.title=Living Essence
 advancements.levitated.story.crystal.description=Mobs in the nether sometimes drop a weird goo, which after researching in an ancient spell tome, turned out to be their essences. It is said that these essences actually grow into crystals when "planted" on a piece of Livingrock. With some infusion magic, the Crystal of Souls was born. [Craft a Crystal of Souls.]
 
-advancements.levitated.story.dna.title=
-advancements.levitated.story.dna.description=
+advancements.levitated.story.dna.title=Living City
+advancements.levitated.story.dna.description=A city won't ever adapt to its environment since it's never alive. So let's build one with some genetics this time. [Obtain a Genesis DNA.]
 
 advancements.levitated.story.contract.title=Call to Arms
 advancements.levitated.story.contract.description=If you're the only one living in the city, that'd be way too boring. Let's kindly ask some villagers to stay, shall we? [Craft a Folder of Contracts.]
 
 advancements.levitated.story.apple.title=Piece of Eden
-advancements.levitated.story.apple.description=Legend says that the Garden of Eden houses a holy artifact, the Apple of Eden. You may never get to see the real one, but nothing is stopping you from making a counterfeit. Surprisingly, it does hold a decent amount of power.
+advancements.levitated.story.apple.description=Legend says that the Garden of Eden houses a holy artifact, the Apple of Eden. Maybe you can trick a tree into thinking it's growing in a holy garden. [Obtain an Apple of Eden.]
+
+advancements.levitated.story.globe.title=Miniature World
+advancements.levitated.story.globe.description=Here it is, every piece of the puzzle, completed. You've shrunk the entire city down to the size of a snow globe. Time to start a new age. [Craft a Miniature Sky City Globe.]
+
+# Skycity Advancements
+advancements.levitated.skycity.root.title=Begin Again
+advancements.levitated.skycity.root.description=It's been a long way, isn't it? I'm glad humanity got its second chance today. -Year 0, Sky Age.
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
@@ -552,6 +574,9 @@ tooltips.levitated.essence=Dropped rarely by corresponding mobs when killed by a
 tooltips.levitated.contract=Only craftable with contracted villagers
 tooltips.levitated.deprecated=This item is deprecated due to a pack update, craft it in a crafting table to get a newer version.
 tooltips.levitated.transporter=Can pickup spawners
+tooltips.levitated.apple=Rare drop from Eden Apple Leaves
+tooltips.levitated.apple_2=So... tempting...
+tooltips.levitated.cloud=Generated in Underworld
 
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
@@ -568,6 +593,8 @@ description.levitated.contract=This item is only craftable with contracted villa
 description.levitated.biome_scanner=Biome Scanner is used to scan the biome of a chunk remotely (needs power) or locally (doesn't need power). It can also be used in combination with a Terrain Scanner to rebuild chunks remotely.
 description.levitated.terrain_scanner=Terrain Scanner is used to rebuild a 16*16*256 area in the southeast direction relative to its block position. When placed next to a Biome Scanner, clicking on the "Show map" button inside the Terrain Scanner will allow one to select a remote location as the starting position, thus rebuilding chunks remotely.
 description.levitated.scanner_queue=Scanner Queue is used to queue up chunks for a Terrain Scanner to rebuild. When placed next to a Terrain Scanner, one can type in absolute coordinates in a format like "350,250" (range limited to a 256 block radius around the queue), then click "Add" to add the coordinate to the queue. Then, click on "Build", the Terrain Scanner next to it will lock the starting location to the coordinate you just set. The Terrain Scanner will then start to rebuild at said location. Once it finishes building, it will then switch to the next location in the queue and start rebuilding again. One can set up to 5 coordinates in a Scanner queue, and have mulitple queues attached to a single Terrain Scanner.
+description.levitated.eden_leaves=A Dirt/Grass block surrounded by 8 Gold Blocks is considered a holy Dirt/Grass block. Oak Saplings grown on said blocks will occasionally grow into an Eden Tree. You may need a larger area of Dirt/Grass in order to grow an Eden Tree.
+description.levitated.dna=Dropped rarely by Creepers when killed by a player with the Bloodthirst effect.
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=Hot Stick
@@ -587,6 +614,11 @@ unfamiliar.levitated.soul_crystal=Alternating Sharp Rocks
 unfamiliar.levitated.apple=Glowing Apple
 unfamiliar.levitated.dna=Lines in Orb
 unfamiliar.levitated.contract=Stack of Paper
+unfamiliar.levitated.eden_leaves=Apple Leaves
+unfamiliar.levitated.eden_leaves_fruitless=Golden Leaves
+unfamiliar.levitated.globe=Snow Globe
+unfamiliar.levitated.potion=Upside Down Vial
+unfamiliar.levitated.deflector=Tornado Go Away
 
 # Item Rename
 rename.levitated.shulker_ring=Ring of the Levitating Shulker

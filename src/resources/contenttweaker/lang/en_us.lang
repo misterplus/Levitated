@@ -6,7 +6,8 @@ tile.contenttweaker.wither_crystal.name=Crystal of Silent Death
 tile.contenttweaker.water_crystal.name=Crystal of Vast Sea
 tile.contenttweaker.fire_crystal.name=Crystal of Blazing Flame
 tile.contenttweaker.life_crystal.name=Crystal of Thriving Life
-tile.contenttweaker.eden_leaves.name=Eden Leaves
+tile.contenttweaker.eden_leaves.name=Eden Apple Leaves
+tile.contenttweaker.eden_leaves_fruitless.name=Eden Leaves
 
 item.contenttweaker.end_seeds.name=End Seeds
 item.contenttweaker.end_iron_chunk.name=End Infused Iron Chunk
@@ -57,12 +58,15 @@ item.contenttweaker.crystal_pigman.name=Pigman Crystal
 item.contenttweaker.crystal_magma.name=Magma Crystal
 item.contenttweaker.crystal_ghast.name=Ghast Crystal
 item.contenttweaker.rainbowgen.name=Rainbow Generator (Hand-Crafted)
+item.contenttweaker.globe.name=Miniature Sky City Globe
+item.contenttweaker.potion.name=Vial of Levitation
 
 item.contenttweaker.origin_book.message=Spawn Point Set!
 item.contenttweaker.nether_book.message=You can now travel to the Nether!
 item.contenttweaker.overworld_book.message=You can now travel to the Overworld!
 item.contenttweaker.paper_plane_6.message=Hey! Wait for the other plane to comeback!
 item.contenttweaker.chaos_pearl.message=Let the Lord of Chaos calm down first!
+item.contenttweaker.apple.message=Another one bites the dust.
 
 fluid.solder=Solder
 
