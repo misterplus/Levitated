@@ -65,7 +65,7 @@ addDescription(<contenttweaker:dna>, game.localize("description.levitated.dna"))
 <scanner:biome_scanner_ultimate>.displayName = game.localize("rename.levitated.biome_scanner");
 
 //General Items
-var banned_items = [<integrateddynamics:coal_generator>, <botania:rfgenerator>, <immersiveengineering:stone_decoration:10>, <immersiveengineering:stone_decoration_slab:10>, <contenttweaker:wither_crystal>, <contenttweaker:water_crystal>, <contenttweaker:fire_crystal>, <contenttweaker:life_crystal>] as IItemStack[];
+var banned_items = [<integrateddynamics:coal_generator>, <botania:rfgenerator>, <immersiveengineering:stone_decoration:10>, <immersiveengineering:stone_decoration_slab:10>, <contenttweaker:wither_crystal>, <contenttweaker:water_crystal>, <contenttweaker:fire_crystal>, <contenttweaker:life_crystal>, <libvulpes:coalgenerator>] as IItemStack[];
 for item in banned_items {
     mods.jei.JEI.removeAndHide(item);
 }
