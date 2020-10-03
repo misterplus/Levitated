@@ -3,6 +3,7 @@ import mods.zensummoning.SummoningInfo;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.entity.IEntity;
 import mods.jei.JEI.hide;
 
 //Zen Summoning
@@ -127,4 +128,13 @@ function meltRod (input as IItemStack, output as ILiquidStack) {
 function stageItem (stage as string, name as string, item as IItemStack) {
     mods.ItemStages.addItemStage(stage, item);
     mods.ItemStages.setUnfamiliarName(name, item);
+}
+
+//Item definitions
+function getItemID (item as IItemStack) as string {
+    return item.definition.id;
+}
+
+function getEntityID (entity as IEntity) as string {
+    return entity.definition.id;
 }

@@ -5,6 +5,7 @@ recipes.remove(<extrautils2:resonator>);
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.remove(<extrautils2:quarry>);
 recipes.remove(<extrautils2:quarryproxy>);
+recipes.remove(<extrautils2:rainbowgenerator:*>);
 
 //add
 recipes.replaceAllOccurences(<minecraft:log:0>, <ore:logWood>, <extrautils2:spike_wood>);
@@ -46,3 +47,6 @@ crusher.removeRecipe({"input": <ore:oreNickel>});
 crusher.addRecipe({"input": <ore:oreNickel>}, {"output": <thermalfoundation:material:69> * 2}, 4000, 200);
 crusher.removeRecipe({"input": <ore:oreLead>});
 crusher.addRecipe({"input": <ore:oreLead>}, {"output": <techreborn:dust:29> * 2}, 4000, 200);
+
+//Rainbow gen
+recipes.addShapeless(<contenttweaker:rainbowgen>, [<extrautils2:rainbowgenerator:1>, <extrautils2:rainbowgenerator:2>]);
