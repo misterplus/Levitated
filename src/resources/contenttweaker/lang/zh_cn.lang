@@ -6,6 +6,8 @@ tile.contenttweaker.wither_crystal.name=寂灭黯晶
 tile.contenttweaker.water_crystal.name=瀚海寒晶
 tile.contenttweaker.fire_crystal.name=焱离燧晶
 tile.contenttweaker.life_crystal.name=蕴息碧晶
+tile.contenttweaker.eden_leaves.name=伊甸苹果树叶
+tile.contenttweaker.eden_leaves_fruitless.name=伊甸树叶
 
 item.contenttweaker.end_seeds.name=终末种子
 item.contenttweaker.end_iron_chunk.name=聚影铁碎块
@@ -45,12 +47,26 @@ item.contenttweaker.scroll_ignis.name=阴焰卷轴
 item.contenttweaker.dna.name=始源DNA
 item.contenttweaker.contract.name=契约文件夹
 item.contenttweaker.apple.name=伊甸苹果
+item.contenttweaker.essence_wither.name=凋零精髓
+item.contenttweaker.essence_blaze.name=烈焰人精髓
+item.contenttweaker.essence_pigman.name=僵尸猪人精髓
+item.contenttweaker.essence_magma.name=岩浆怪精髓
+item.contenttweaker.essence_ghast.name=恶魂精髓
+item.contenttweaker.crystal_wither.name=凋零晶体
+item.contenttweaker.crystal_blaze.name=烈焰人晶体
+item.contenttweaker.crystal_pigman.name=僵尸猪人晶体
+item.contenttweaker.crystal_magma.name=岩浆怪晶体
+item.contenttweaker.crystal_ghast.name=恶魂晶体
+item.contenttweaker.rainbowgen.name=彩虹发电机(手搓)
+item.contenttweaker.globe.name=天空城缩影水晶球
+item.contenttweaker.potion.name=浓缩悬浮精华瓶
 
 item.contenttweaker.origin_book.message=重生点已设置!
 item.contenttweaker.nether_book.message=你现在可以前往地狱了!
 item.contenttweaker.overworld_book.message=你现在可以前往主世界了!
 item.contenttweaker.paper_plane_6.message=嘿! 等另外一架"飞机"回来!
 item.contenttweaker.chaos_pearl.message=先等混沌领主冷静下来！
+item.contenttweaker.apple.message=又干掉一个。
 
 fluid.solder=焊料
 
