@@ -126,7 +126,7 @@
         
         "info":
         {
-            "text" : "Minecraft #mcversion#\nLevitated 1.4.1\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
+            "text" : "Minecraft #mcversion#\nLevitated 1.5.0\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
             "posX" : 2,
             "posY" : -46,
             "color" : -1,
