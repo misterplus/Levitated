@@ -112,3 +112,21 @@ hide(<scanner:biome_scanner_basic>);
 hide(<scanner:biome_scanner_adv>);
 hide(<scanner:biome_scanner_elite>);
 hide(<scanner:blockairey>);
+
+//Direct trait
+static directs as IItemStack[] = [
+    <tconstruct:tool_rod>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:tough_tool_rod>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:binding>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:tough_binding>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:wide_guard>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:hand_guard>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:cross_guard>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:large_plate>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:knife_blade>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:bow_limb>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:arrow_head>.withTag({Material: "vibrant_alloy"})
+] as IItemStack[];
+for item in directs {
+    hide(item);
+}

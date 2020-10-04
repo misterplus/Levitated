@@ -1,5 +1,6 @@
 import mods.tconstruct.Alloy;
 import mods.tconstruct.Melting;
+import mods.tconstruct.Casting;
 
 //remove
 recipes.remove(<oeintegration:excavatemodifier>);
@@ -22,6 +23,11 @@ Melting.removeRecipe(<liquid:gold>, <techreborn:cable:2>);
 Melting.removeRecipe(<liquid:lumium>, <thermalfoundation:material:102>);
 Melting.removeRecipe(<liquid:signalum>, <thermalfoundation:material:101>);
 Melting.removeRecipe(<liquid:enderium>, <thermalfoundation:material:103>);
+
+//Remove direct trait components as they do not respect actual block drops
+for item in scripts.ct.JEI.directs {
+    Casting.removeTableRecipe(item);
+}
 
 //add
 recipes.addShaped(<oeintegration:excavatemodifier> * 5, [[<ore:ingotLumium>, <ore:slimeball>, <ore:ingotSignalum>],[<ore:ingotRedstoneAlloy>, <ore:ingotManyullyn>, <ore:ingotRedstoneAlloy>], [<ore:ingotSignalum>, <ore:slimeball>, <ore:ingotLumium>]]);
