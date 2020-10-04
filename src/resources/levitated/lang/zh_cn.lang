@@ -399,6 +399,9 @@ advancements.levitated.overworld.deflector.description=面对着这片虚空，�
 advancements.levitated.overworld.skycity.title=这就是"你的世界"
 advancements.levitated.overworld.skycity.description=你将水晶球放在天气导流板上边后，球中的天空城慢慢放大...[使用天空城缩影水晶球潜行右键天气导流板]
 
+advancements.levitated.overworld.speed.title=氮气加速！
+advancements.levitated.overworld.speed.description=有些机器的工作效率实在让人不敢恭维，没人想浪费时间吧？[制作一个超频升级]
+
 # Resources
 advancements.levitated.resources.root.title=末地矿物
 advancements.levitated.resources.root.description=右侧是关于末地矿物的资料。[获得相匹配的矿石/方块来完成进度]
@@ -536,7 +539,7 @@ advancements.levitated.story.apple.title=真假伊甸果
 advancements.levitated.story.apple.description=传说中，伊甸园藏有一件圣洁的神器，名为伊甸苹果。你或许从来都没见过，但假货专业户的你岂能善罢甘休？也许你可以发挥你的三寸不烂之舌，种一棵树，然后让它以为它是生长在神圣园中的神树。[获得一颗伊甸苹果]
 
 advancements.levitated.story.globe.title=微观世界
-advancements.levitated.story.globe.description=还有这儿...终于拼好这个天空城拼图了。你成功把整个天空城缩小到一颗水晶球中，是时候开启一个新纪元了。[制作一个天空城缩影水晶球]
+advancements.levitated.story.globe.description=还有这儿...啊！终于拼好这个天空城拼图了。你成功把整个天空城缩小到一颗水晶球中，是时候开启一个新纪元了。[制作一个天空城缩影水晶球]
 
 # Skycity Advancements
 advancements.levitated.skycity.root.title=新的起点
@@ -650,3 +653,5 @@ tips.levitated.15=你可以在太空站用跃迁控制器发现新的星球。
 tips.levitated.16=有的星球需要搜索才能看见，尤其是宜居星球。
 tips.levitated.17=优质的纸飞机能够像鸟儿一样飞行。
 tips.levitated.18=不推荐搭建刷怪塔，战利品制造机它不香吗？
+tips.levitated.19=探索时留心各种遗迹，说不定会发现一些古老的故事。
+tips.levitated.20=主世界还有一些东西残留，其实，只有一些骨架(
