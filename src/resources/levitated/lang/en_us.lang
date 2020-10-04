@@ -399,6 +399,9 @@ advancements.levitated.overworld.deflector.description=You thought just building
 advancements.levitated.overworld.skycity.title=Your Universe
 advancements.levitated.overworld.skycity.description=You put the Globe on top of the Deflector, then every block started to enlarge... [Shift right click the Weather Deflector with the Miniature Sky City Globe in the Overworld.]
 
+advancements.levitated.overworld.speed.title=Nitrogen Overclocking
+advancements.levitated.overworld.speed.description=Some machines run at quite a low speed, but you don't have time for that. [Craft an Overclocker Upgrade.]
+
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
 advancements.levitated.resources.root.description=You can find all information related to End ores on the right. [Acquire the matching ores/blocks to complete the advancement.]
