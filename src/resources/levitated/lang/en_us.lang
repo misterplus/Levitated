@@ -598,6 +598,7 @@ description.levitated.terrain_scanner=Terrain Scanner is used to rebuild a 16*16
 description.levitated.scanner_queue=Scanner Queue is used to queue up chunks for a Terrain Scanner to rebuild. When placed next to a Terrain Scanner, one can type in absolute coordinates in a format like "350,250" (range limited to a 256 block radius around the queue), then click "Add" to add the coordinate to the queue. Then, click on "Build", the Terrain Scanner next to it will lock the starting location to the coordinate you just set. The Terrain Scanner will then start to rebuild at said location. Once it finishes building, it will then switch to the next location in the queue and start rebuilding again. One can set up to 5 coordinates in a Scanner queue, and have mulitple queues attached to a single Terrain Scanner.
 description.levitated.eden_leaves=A Dirt/Grass block surrounded by 8 Gold Blocks is considered a holy Dirt/Grass block. Oak Saplings grown on said blocks will occasionally grow into an Eden Tree. You may need a larger area of Dirt/Grass in order to grow an Eden Tree.
 description.levitated.dna=Dropped rarely by Creepers when killed by a player with the Bloodthirst effect.
+description.levitated.cloud=To get to the underworld, drop from y=255+ to a bedrock at y=0 in the overworld.
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=Hot Stick
