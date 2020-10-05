@@ -22,6 +22,7 @@ function getSkyCityID (world as IWorld) as int {
     var id = world.getGameRules().getInt("skyCityID"); //get current id
     var s = server.commandManager as ICommandManager;
     s.executeCommand(server, "gamerule skyCityID " + (id + 1)); //increment
+    s.executeCommand(server, "#gen SkyCity --d 2001 -x " + id * 10000 + " -z 0"); //spawn city
     return id;
 }
 
