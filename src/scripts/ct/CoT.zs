@@ -89,3 +89,7 @@ Agglomeration.addRecipe(globe);
 
 //Potion
 recipes.addShaped(<contenttweaker:potion>, [[<extrautils2:drum:1>.withTag({Fluid: {FluidName: "potion", Amount: 256000, Tag: {Potion: "cofhcore:levitation"}}})], [<botania:vial>]]);
+
+//Dilithium
+recipes.addShapeless(<contenttweaker:dilithium_block>, [<ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>]);
+recipes.addShapeless(<libvulpes:productgem:0> * 9, [<contenttweaker:dilithium_block>]);

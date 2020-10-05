@@ -96,3 +96,15 @@ for leaf in leaves {
     });
     b.register();
 }
+
+var dilithium_block = VanillaFactory.createBlock("dilithium_block", <blockmaterial:rock>);
+dilithium_block.blockSoundType = <soundtype:glass>;
+dilithium_block.blockHardness = 3.0;
+dilithium_block.blockResistance = 4.0;
+dilithium_block.toolClass = "pickaxe";
+dilithium_block.toolLevel = 2;
+dilithium_block.blockLayer = "TRANSLUCENT";
+dilithium_block.fullBlock = false;
+dilithium_block.lightOpacity = 1;
+dilithium_block.translucent = true;
+dilithium_block.register();

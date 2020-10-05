@@ -36,3 +36,6 @@
 
 //Wisdom wood
 <ore:plankWood>.addItems([<wizardry:wisdom_wood_planks>]);
+
+//Dilithium
+<ore:blockDilithium>.addItems([<contenttweaker:dilithium_block>]);

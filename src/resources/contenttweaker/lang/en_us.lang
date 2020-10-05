@@ -8,6 +8,7 @@ tile.contenttweaker.fire_crystal.name=Crystal of Blazing Flame
 tile.contenttweaker.life_crystal.name=Crystal of Thriving Life
 tile.contenttweaker.eden_leaves.name=Eden Apple Leaves
 tile.contenttweaker.eden_leaves_fruitless.name=Eden Leaves
+tile.contenttweaker.dilithium_block.name=Block of Dilithium Crystal
 
 item.contenttweaker.end_seeds.name=End Seeds
 item.contenttweaker.end_iron_chunk.name=End Infused Iron Chunk
