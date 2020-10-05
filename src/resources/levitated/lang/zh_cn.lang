@@ -548,6 +548,9 @@ advancements.levitated.story.globe.description=还有这儿...啊！终于拼好
 advancements.levitated.skycity.root.title=新的起点
 advancements.levitated.skycity.root.description=又踏上了一段漫长的道路，我很开心能看到人类获得新生。-天空历，0 年。
 
+advancements.levitated.skycity.creative.title=创世
+advancements.levitated.skycity.creative.description=你终于来到了本包的结局！完结本包后，你会得到一个创造粘贴容器作为奖励，你可以使用它扩建你的天空之城。每个水晶球都会有唯一的ID，所以你可以在得到别人的允许后拜访他的天空之城，返回自己的天空之城也很简单，只需再次使用水晶球或在城市中放上指路石。
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=生命已到尽头的种子
 tooltips.levitated.origin_book=右击来设置你的重生点（只能使用一次，少侠请慎重）
