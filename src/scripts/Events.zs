@@ -1,17 +1,18 @@
+import crafttweaker.data.IData;
 import crafttweaker.player.IPlayer;
 import crafttweaker.item.IItemStack;
+import crafttweaker.command.ICommandManager;
+import crafttweaker.entity.IEntityEquipmentSlot;
 import crafttweaker.event.EnderTeleportEvent;
 import crafttweaker.event.BlockBreakEvent;
-import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.EntityLivingFallEvent;
 import crafttweaker.event.EntityLivingDeathDropsEvent;
+import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.PlayerChangedDimensionEvent;
 import crafttweaker.event.PlayerRightClickItemEvent;
 import crafttweaker.event.PlayerBreakSpeedEvent;
+import crafttweaker.event.PlayerLoggedInEvent;
 import mods.ctutils.utils.Math;
-import crafttweaker.data.IData;
-import crafttweaker.entity.IEntityEquipmentSlot;
-import crafttweaker.command.ICommandManager;
 import scripts.ct.Function;
 
 //every ender teleport now creates a extraterrestrail matter on the ground
@@ -172,5 +173,12 @@ events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent) {
 				}
 			}
 		}
+	}
+});
+
+//SkyCity ID
+events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
+	if !event.player.world.remote {
+		event.player.world.getGameRules().addGameRule("skyCityID", "0", "Numeric");
 	}
 });

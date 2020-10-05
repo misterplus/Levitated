@@ -1,9 +1,9 @@
 import crafttweaker.item.IItemStack;
 import mods.integrateddynamics.Squeezer;
 import mods.advancedrocketry.RollingMachine;
+import mods.advancedrocketry.ArcFurnace;
 import mods.techreborn.plateBendingMachine;
 import mods.techreborn.alloySmelter;
-import mods.advancedrocketry.ArcFurnace;
 import scripts.ct.Function;
 
 //clears

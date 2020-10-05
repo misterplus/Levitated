@@ -6,15 +6,23 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.ActionResult;
 import mods.contenttweaker.Hand;
-import crafttweaker.block.IBlockState;
 import mods.ctutils.utils.Math;
+import crafttweaker.block.IBlockState;
 import crafttweaker.data.IData;
 import crafttweaker.player.IPlayer;
 import crafttweaker.world.IWorld;
+import crafttweaker.command.ICommandManager;
 import extrautilities2.Tweaker.XUTweaker;
 
 function sendLocalizedMsg (key as string, player as IPlayer, world as IWorld) {
     Commands.call("tellraw @p {\"translate\":\"" + key + "\"}", player, world, false, true);
+}
+
+function getSkyCityID (world as IWorld) as int {
+    var id = world.getGameRules().getInt("skyCityID"); //get current id
+    var s = server.commandManager as ICommandManager;
+    s.executeCommand(server, "gamerule skyCityID " + (id + 1)); //increment
+    return id;
 }
 
 var easy_items = ["end_seeds", "ccb", "ccb_base", "clay_board", "pottery_clay", "solder_powder", "biome_scanner_basic", "terrain_scanner", "blue_lotus", "dynamo_frame", "rainbowgen"] as string[];
@@ -176,7 +184,7 @@ rainbow_ingot.register();
 
 var chaos_pearl = VanillaFactory.createItem("chaos_pearl");
 chaos_pearl.rarity = "Rare";
-chaos_pearl.maxStackSize = 16;
+chaos_pearl.maxStackSize = 1;
 chaos_pearl.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote && !XUTweaker.isPlayerFake(player) && world.dimension == 1) {
         var data = player.data;
@@ -239,11 +247,24 @@ apple.register();
 var globe = VanillaFactory.createItem("globe");
 globe.rarity = "Epic";
 globe.glowing = true;
+globe.maxStackSize = 1;
 globe.onItemUse = function(player, world, pos, hand, facing, blockHit) {
-    if (!world.remote && !XUTweaker.isPlayerFake(player) && world.getBlockState(pos) == <block:weather2:weather_deflector> && player.isSneaking) {
-        world.setBlockState(<block:minecraft:air>, pos);
-        player.getHeldItem(hand).shrink(1);
-        Commands.call("forge setdimension @p 2001 0 64 0", player, world, false, true);
+    if (!world.remote && !XUTweaker.isPlayerFake(player) && world.getBlockState(pos) == <block:weather2:weather_deflector> && player.isSneaking && world.dimension == 0) {
+        var data = player.getHeldItem(hand).tag as IData;
+        var id = -1 as int;
+        if data has "ID" { //existing city
+            id = data.memberGet("ID") as int;
+        }
+        else { //new city
+            id = getSkyCityID(world) as int;
+            if hand == Hand.main() {
+                Commands.call("replaceitem entity @p slot.weapon.mainhand contenttweaker:globe 1 0 {ID:" + id + ",display:{Lore:[ID." + id + "]}}", player, world, false, true);
+            }
+            else {
+                Commands.call("replaceitem entity @p slot.weapon.offhand contenttweaker:globe 1 0 {ID:" + id + ",display:{Lore:[ID." + id + "]}}", player, world, false, true);
+            }
+        }
+        Commands.call("forge setdimension @p 2001 " + id * 10000 + " 0 0", player, world, false, true);
         return ActionResult.success();
     }
     return ActionResult.pass();

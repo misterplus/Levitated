@@ -4,6 +4,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.entity.IEntity;
+import crafttweaker.world.IWorld;
 import mods.jei.JEI.hide;
 
 //Zen Summoning

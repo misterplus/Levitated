@@ -548,6 +548,9 @@ advancements.levitated.story.globe.description=Here it is, every piece of the pu
 advancements.levitated.skycity.root.title=Begin Again
 advancements.levitated.skycity.root.description=It's been a long way, isn't it? I'm glad humanity got its second chance today. -Year 0, Sky Age.
 
+advancements.levitated.skycity.creative.title=Get Creative
+advancements.levitated.skycity.creative.description=And that's the end of the pack! Glad to see you here. You'll receive a Creative Paste Container upon completing the pack, feel free to use it to expand your own sky city. Each globe will have it's own unique ID, so you can visit other players' city if they allow it. If you ever wanna come back here, use the globe again or place a Waystone in your city.
+
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
 tooltips.levitated.origin_book=Right click to set your spawnpoint.
