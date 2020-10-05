@@ -178,6 +178,9 @@ advancements.levitated.end.bonsai.description=不想手动砍树？试试这个�
 advancements.levitated.end.menril.title=集成动力
 advancements.levitated.end.menril.description=如果你想要做一些高级自动化，部署集成管道十分重要。[制作一棵门瑞欧树苗]
 
+advancements.levitated.end.info.title=多人游戏须知
+advancements.levitated.end.info.description=玩家可以使用括号内的命令将自己的进度同步为队伍成员的进度。[/tofe invite 用户名]
+
 # The Nether
 advancements.levitated.nether.root.title=无魂之壤
 advancements.levitated.nether.root.description=在你到来之前，这个世界只有寂静。但随着你眼前的虚无重新被填满，怪物有了落脚之地，你得小心点...
@@ -598,6 +601,7 @@ description.levitated.terrain_scanner=地形扫描仪能够重建机器东南方
 description.levitated.scanner_queue=扫描队列用来为地形扫描仪排列重建序列。放置在地形扫描仪旁边，然后玩家输入一个相对坐标，例如”350,250”（范围限制在队列周围256个方块为半径的圆内），然后点击”添加”来将坐标加入队列中。接着，点击”建造”，它旁边的地形扫描仪就会锁定你选择的坐标。地形扫描仪将会开始在上述地点处重建。当完成重建任务后，它就会自动切换到队列中下一个地点继续重建。玩家可以在扫描队列中设置最多5个坐标，并且一个地形扫描仪能够同时进行多个队列任务。
 description.levitated.eden_leaves=被8个金块包围的泥土/草方块可以当做神圣土块。橡木树苗在其上生长就有概率长为伊甸神树。你需要准备一大片铺满泥土/草方块的地方来种植伊甸神树。
 description.levitated.dna=拥有嗜血BUFF的玩家杀死苦力怕后有概率掉落始源DNA。
+description.levitated.cloud=在主世界，从255格高度以上落到基岩上以前往下世界。(最好摘下天使指环)
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=炽热的棍子
@@ -636,7 +640,7 @@ rename.levitated.biome_scanner=生物群系扫描仪
 
 # Tips
 tips.levitated.1=在成就"旅途的终点"中，你需要找到并着陆到一颗类地星球。
-tips.levitated.2=与朋友一起游玩本包时，记得输入"/togetherforever invite"命令来同步你们的进度。
+tips.levitated.2=作物在末地仍可生长，但你需要注意光照等级！
 tips.levitated.3=用瓶子捞水时，末地空气老是抢镜？试试流体储罐！
 tips.levitated.4=白雏菊只能在本包自定义的末地遗迹中找到，并且需要一点运气。如果是在服务器中，与别人交易或许是个不错的选择。
 tips.levitated.5=主世界崩塌时史莱姆岛幸免于难，重建主世界之后就能再次看到它们。
