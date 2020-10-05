@@ -178,6 +178,9 @@ advancements.levitated.end.bonsai.description=Tired of cutting down huge trees o
 advancements.levitated.end.menril.title=Integrated Logic
 advancements.levitated.end.menril.description=If you're going to create advanced automations in the future, setting up integrated logics is a must. [Craft a Menril Sapling.]
 
+advancements.levitated.end.info.title=Multiplayer Info
+advancements.levitated.end.info.description=Players can use the following command to sync their advancements with their team members. [/tofe invite username]
+
 # The Nether
 advancements.levitated.nether.root.title=Soulless Dimension
 advancements.levitated.nether.root.description=This world is a quite place, that is, before you got here. As the world forms in front of your eyes, monsters began to appear, be careful... 
