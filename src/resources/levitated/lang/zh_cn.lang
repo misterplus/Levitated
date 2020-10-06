@@ -480,7 +480,7 @@ advancements.levitated.kepler.root.title=旅途的终点
 advancements.levitated.kepler.root.description=好了，你已经找到你的新家了。环顾四周，许多记忆从内心深处浮现。一草一花一木，一山一水一人...愿你不忘初心，愿你踏遍山河，愿你铸造天地...但这真的...是初心吗？
 
 advancements.levitated.kepler.beacon.title=破晓以后，守护挚友
-advancements.levitated.kepler.beacon.description=如果你不是孤身一人，那么不要忘了你的肝胆之友，在开普勒建造一个高级火箭模组的信标，这能将你的坐标发送到整个星系，他们能轻易找到这片土地。
+advancements.levitated.kepler.beacon.description=如果你不是孤身一人，那么不要忘了你的朋友，在开普勒建造一个高级火箭模组的信标，这能将你的坐标发送到整个星系，他们能轻易找到这片土地。
 
 # Easter Egg Advancements
 advancements.levitated.easteregg.root.title=彩蛋!
@@ -503,7 +503,7 @@ advancements.levitated.story.life_crystal.title=碧晶幻象
 advancements.levitated.story.life_crystal.description=(幻象中，两名巫师相互交谈) -最近你有注意到大地有些异样吗？ -什么意思？ -怎么说呢，我感觉这儿越来越不稳定了，有些方块时不时还会掉下来，甚至包括石头这些原本不受重力影响的方块。 -（沉默）... 这..似乎有些不妙。跟我走，快！ -等等，你要去哪儿？发生什么了？ -去大本营！（幻象渐渐隐去）
 # The Plan
 advancements.levitated.story.fire_crystal.title=燧晶幻象
-advancements.levitated.story.fire_crystal.description=(幻象中，几名巫师在开会) -你说末影人在搬离方块以拆解地核？ -如果真是这样的话，我们该怎么阻止他们？我们甚至不知道他们从哪来，难道去给他们一对一心理辅导？ -我有一言，请诸位静听。我手中这本书中有一道法术，名为”始祖搬天术”。我们能用它永久地阻止这一切。 -但...这道法术不是被列为禁术了吗？ -唔，肯定还有别的办法... -不！只能靠它了！末影人们已经初具规模，我们仅有不到一周的时间。主世界的存亡现在掌握在我们手中！（幻象渐渐隐去）
+advancements.levitated.story.fire_crystal.description=(幻象中，几名巫师在开会) -你说末影人在搬离方块以拆解地核？ -如果真是这样的话，我们该怎么阻止他们？我们甚至不知道他们从哪来，难道去给他们一对一心理辅导？ -我有一言，请诸位静听。我手上这本书中有一道法术，名为”始祖搬天术”。我们能用它彻底阻止这一切。 -但...这道法术不是被列为禁术了吗？ -唔，肯定还有别的办法... -不！只能靠它了！末影人们已经初具规模，我们仅有不到一周的时间。主世界的存亡现在掌握在我们手中！（幻象渐渐隐去）
 # The Mistake
 advancements.levitated.story.water_crystal.title=寒晶幻象
 advancements.levitated.story.water_crystal.description=(幻象中，一名巫师自言自语) 还剩一种能指定目标维度的水果就能完成这道法术了...（哈欠）不能再熬了，秃了秃了。我要干嘛来着，一种水果？（闹钟:你是我的小呀小苹果~）啊对了，我还有颗苹果，拯救世界吧小苹果！(幻象渐渐隐去)
@@ -546,7 +546,7 @@ advancements.levitated.story.globe.description=还有这儿...啊！终于拼好
 
 # Skycity Advancements
 advancements.levitated.skycity.root.title=新的起点
-advancements.levitated.skycity.root.description=又踏上了一段漫长的道路，我很开心能看到人类获得新生。-天空历，0 年。
+advancements.levitated.skycity.root.description=你又踏上了一段漫长的道路，我很开心能看到人类获得新生。-天空历，0 年。
 
 advancements.levitated.skycity.creative.title=拥抱黎明，享受黄昏，沐日浴月，双手创世。
 advancements.levitated.skycity.creative.description=你终于来到了本包的结局！完结本包后，你会得到一个创造粘贴容器作为奖励，你可以使用它扩建你的天空之城。每个水晶球都会有唯一的ID，所以你可以在得到别人的允许后拜访他的天空之城，返回自己的天空之城也很简单，只需再次使用水晶球或在城市中放上指路石。
