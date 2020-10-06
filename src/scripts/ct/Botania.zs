@@ -115,9 +115,6 @@ RuneAltar.addRecipe(<contenttweaker:scroll_ignis>, [<contenttweaker:scroll>, <th
 //Soul Crystal
 RuneAltar.addRecipe(<contenttweaker:crystal>, [<contenttweaker:crystal_wither>, <contenttweaker:crystal_blaze>, <contenttweaker:crystal_magma>, <contenttweaker:crystal_ghast>, <contenttweaker:crystal_pigman>, <enderio:item_material:74>, <enderio:item_material:74>, <enderio:item_material:74>, <enderio:item_material:74>, <enderio:item_material:74>], 500000);
 
-//Apple of Eden
-ElvenTrade.addRecipe([<contenttweaker:apple>], [<minecraft:apple>, <minecraft:beetroot>, <minecraft:golden_carrot>, <minecraft:chorus_fruit>, <minecraft:speckled_melon>, <integrateddynamics:menril_berries>]);
-
 //Orechids
 mods.botania.Apothecary.addRecipe("orechid", [<ore:petalGray>, <ore:petalGray>, <extrautils2:suncrystal:0>, <ore:petalGreen>, <ore:petalRed>, <botania:rune:15>, <botania:rune:11>, <botania:manaresource:6>, <botania:manaresource:8>]);
 mods.botania.Apothecary.addRecipe("orechidIgnem", [<minecraft:netherrack>, <ore:petalRed>, <ore:petalWhite>, <ore:petalWhite>, <ore:petalPink>, <botania:rune:15>, <botania:rune:11>, <botania:manaresource:6>, <botania:manaresource:8>]);
