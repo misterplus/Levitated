@@ -16,5 +16,10 @@ setHidden(true)
 criteria = addCriteria("clickFireCrystal", "triumph:right_click_block")
 criteria.setBlock("contenttweaker:fire_crystal")
 
+criteria2 = addCriteria("leftClickFireCrystal", "triumph:left_click_block")
+criteria2.setBlock("contenttweaker:fire_crystal")
+
+setRequirements("any")
+
 setRewardFunction("triumph:chorus_good")
 setPos(32,27)

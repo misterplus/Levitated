@@ -23,6 +23,18 @@ criteria3.setBlock("contenttweaker:water_crystal")
 criteria4 = addCriteria("clickCrystal4", "triumph:right_click_block")
 criteria4.setBlock("contenttweaker:life_crystal")
 
+criteria5 = addCriteria("clickCrystal5", "triumph:left_click_block")
+criteria5.setBlock("contenttweaker:wither_crystal")
+
+criteria6 = addCriteria("clickCrystal6", "triumph:left_click_block")
+criteria6.setBlock("contenttweaker:fire_crystal")
+
+criteria7 = addCriteria("clickCrystal7", "triumph:left_click_block")
+criteria7.setBlock("contenttweaker:water_crystal")
+
+criteria8 = addCriteria("clickCrystal8", "triumph:left_click_block")
+criteria8.setBlock("contenttweaker:life_crystal")
+
 setRequirements("any")
 
 setRewardFunction("triumph:chorus_good")

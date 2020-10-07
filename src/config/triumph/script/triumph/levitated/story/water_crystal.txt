@@ -16,5 +16,10 @@ setHidden(true)
 criteria = addCriteria("clickWaterCrystal", "triumph:right_click_block")
 criteria.setBlock("contenttweaker:water_crystal")
 
+criteria2 = addCriteria("leftClickWaterCrystal", "triumph:left_click_block")
+criteria2.setBlock("contenttweaker:water_crystal")
+
+setRequirements("any")
+
 setRewardFunction("triumph:chorus_good")
 setPos(32,0)
