@@ -52,6 +52,7 @@ addDescription(<contenttweaker:eden_leaves>, game.localize("description.levitate
 addDescription(<contenttweaker:eden_leaves_fruitless>, game.localize("description.levitated.eden_leaves"));
 addDescription(<contenttweaker:dna>, game.localize("description.levitated.dna"));
 addDescription(<wizardry:cloud>, game.localize("description.levitated.cloud"));
+addDescription(<contenttweaker:globe>, "description.levitated.globe");
 
 <extrautils2:chickenring:1>.displayName = game.localize("rename.levitated.shulker_ring");
 <pneumaticcraft:ingot_iron_compressed>.displayName = game.localize("rename.levitated.compiron");
