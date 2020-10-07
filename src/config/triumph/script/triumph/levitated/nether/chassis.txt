@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.chassis.description")
 addParent("triumph:levitated/nether/pcb")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(287,-15)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasChassis", "minecraft:inventory_changed")
 criteria.addItem(<enderio:item_material:1>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(256,108)

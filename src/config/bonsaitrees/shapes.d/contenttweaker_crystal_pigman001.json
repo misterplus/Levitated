@@ -1,0 +1,52 @@
+{
+  "type": "contenttweaker:crystal_pigman",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "minecraft:stained_glass",
+      "meta": 6
+    },
+    "b": {
+      "name": "minecraft:wool",
+      "meta": 6
+    },
+    "c": {
+      "name": "minecraft:concrete",
+      "meta": 6
+    }
+  },
+  "shape": [
+    [
+      "    ",
+      "    ",
+      "    ",
+      "a   ",
+      "b   ",
+      "caa "
+    ],
+    [
+      " a  ",
+      " b  ",
+      " c  ",
+      " ca ",
+      " cba",
+      "accb"
+    ],
+    [
+      "    ",
+      "    ",
+      " a  ",
+      " b  ",
+      " c  ",
+      " ca "
+    ],
+    [
+      "    ",
+      "    ",
+      "    ",
+      "    ",
+      " a  ",
+      " b  "
+    ]
+  ]
+}

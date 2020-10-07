@@ -1,0 +1,18 @@
+setIcon(<contenttweaker:contract>)
+
+setTranslatedTitle("advancements.levitated.story.contract.title")
+setTranslatedDescription("advancements.levitated.story.contract.description")
+
+addParent("triumph:levitated/story/plan")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setFrameType("Goal")
+
+hideLines()
+
+criteria = addCriteria("hasContract", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:contract>)
+setPos(203,52)

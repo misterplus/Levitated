@@ -6,9 +6,16 @@ setTranslatedDescription("advancements.levitated.end.deep_learner.description")
 addParent("triumph:levitated/end/stirling_gen")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(783,27)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
+
+drawDirectLines()
 
 criteria = addCriteria("hasLearner", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:deep_learner>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(544,0)

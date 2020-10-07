@@ -6,6 +6,11 @@ setTranslatedDescription("advancements.levitated.easteregg.root.description")
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
 setShowToast(false)
 setAnnounceToChat(false)
-setPos(184,-16)
+
+setCompletedIconColor(#9000FF)
+setCompletedTitleColor(#9000FF)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 addCriteria("location", "minecraft:location")
+setPos(0,0)

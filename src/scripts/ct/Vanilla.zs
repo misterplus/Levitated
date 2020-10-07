@@ -1,6 +1,7 @@
 //remove
 recipes.remove(<minecraft:crafting_table>);
 recipes.remove(<naturescompass:naturescompass>);
+recipes.remove(<minecraft:nether_star>);
 
 //add
 recipes.replaceAllOccurences(<ore:cobblestone>, <ore:endstone>, <minecraft:dispenser>);
@@ -8,7 +9,7 @@ recipes.replaceAllOccurences(<ore:cobblestone>, <ore:endstone>, <minecraft:dropp
 recipes.replaceAllOccurences(<ore:cobblestone>, <ore:endstone>, <minecraft:furnace>);
 recipes.addShaped(<minecraft:end_crystal>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],[<ore:blockGlassColorless>, <botania:manaresource:1>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <deepmoblearning:living_matter_extraterrestrial>, <ore:blockGlassColorless>]]);
 recipes.addShaped(<minecraft:furnace>, [[<minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>],[<minecraft:end_stone>, null, <minecraft:end_stone>], [<minecraft:end_stone>, <minecraft:end_stone>, <minecraft:end_stone>]]);
-recipes.addShapeless(<minecraft:crafting_table>, [<ore:plankWood>,<ore:plankWood>,<minecraft:end_bricks>,<minecraft:end_bricks>]);
+recipes.addShaped(<minecraft:crafting_table>, [[<ore:plankWood>,<ore:plankWood>], [<minecraft:end_bricks>, <minecraft:end_bricks>]]);
 recipes.addShapeless(<minecraft:end_stone>, [<tconstruct:shard>.withTag({Material: "endstone"}),<tconstruct:shard>.withTag({Material: "endstone"}),<tconstruct:shard>.withTag({Material: "endstone"}),<tconstruct:shard>.withTag({Material: "endstone"})]);
 recipes.addShaped(<minecraft:comparator>, [[null, <minecraft:redstone_torch>, null],[<minecraft:redstone_torch>, <ore:itemSilicon>, <minecraft:redstone_torch>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 
@@ -23,3 +24,10 @@ recipes.replaceAllOccurences(<minecraft:obsidian>, <minecraft:end_bricks>, <ways
 recipes.replaceAllOccurences(<minecraft:ender_pearl>, <botania:manaresource:1>, <waystones:return_scroll>);
 recipes.replaceAllOccurences(<minecraft:ender_pearl>, <botania:manaresource:1>, <waystones:bound_scroll>);
 recipes.replaceAllOccurences(<minecraft:ender_pearl>, <botania:manaresource:1>, <waystones:warp_scroll>);
+
+//Deprecated Scanners
+var scanner_deprecated = <scanner:biome_scanner_basic> | <scanner:biome_scanner_adv> | <scanner:biome_scanner_elite>;
+recipes.addShapeless(<scanner:biome_scanner_ultimate>, [scanner_deprecated]);
+
+//Flint and Steel
+recipes.replaceAllOccurences(<minecraft:iron_ingot>, <botania:manaresource:7>, <minecraft:flint_and_steel>);

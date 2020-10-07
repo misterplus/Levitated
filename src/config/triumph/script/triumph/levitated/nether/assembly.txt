@@ -1,0 +1,19 @@
+setIcon(<pneumaticcraft:assembly_controller>)
+
+setTranslatedTitle("advancements.levitated.nether.assembly.title")
+setTranslatedDescription("advancements.levitated.nether.assembly.description")
+
+addParent("triumph:levitated/nether/pcb")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
+
+criteria = addCriteria("hasAssembly", "minecraft:inventory_changed")
+criteria.addItem(<pneumaticcraft:assembly_controller>)
+
+visibleIf("triumph:levitated/nether/root")
+setPos(256,81)

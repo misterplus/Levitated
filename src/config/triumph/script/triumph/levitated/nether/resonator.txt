@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.resonator.description")
 addParent("triumph:levitated/nether/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(87,12)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasResonator", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:resonator>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(32,217)

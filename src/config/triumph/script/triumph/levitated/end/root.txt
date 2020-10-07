@@ -6,6 +6,11 @@ setTranslatedDescription("advancements.levitated.end.root.description")
 setBackground("minecraft:textures/gui/advancements/backgrounds/end.png")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(-23,6)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 addCriteria("location", "minecraft:location")
+setPos(0,67)

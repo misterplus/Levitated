@@ -6,9 +6,16 @@ setTranslatedDescription("advancements.levitated.end.keystone.description")
 addParent("triumph:levitated/end/simulation_chamber")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(861,27)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
+
+drawDirectLines()
 
 criteria = addCriteria("hasKeystone", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:trial_keystone>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(608,0)

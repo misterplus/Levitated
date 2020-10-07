@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.lpg.description")
 addParent("triumph:levitated/nether/refinery")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(161,-42)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasLPG", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, nbt:{FluidName:"lpg",Amount:1000}>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(160,40)

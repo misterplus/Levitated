@@ -1,0 +1,19 @@
+setIcon(<weather2:weather_deflector>)
+
+setTranslatedTitle("advancements.levitated.overworld.deflector.title")
+setTranslatedDescription("advancements.levitated.overworld.deflector.description")
+
+addParent("triumph:levitated/overworld/structure")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
+
+criteria = addCriteria("hasDefector", "minecraft:inventory_changed")
+criteria.addItem(<weather2:weather_deflector>)
+
+hiddenUnless("triumph:levitated/story/globe")
+setPos(128,27)

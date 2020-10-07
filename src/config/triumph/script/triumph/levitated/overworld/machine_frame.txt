@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.overworld.machine_frame.descrip
 addParent("triumph:levitated/overworld/refined_iron")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(120,-69)
+
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasMachineFrame", "minecraft:inventory_changed")
 criteria.addItem(<techreborn:machine_frame>)
 
 visibleIf("triumph:levitated/overworld/root")
+setPos(64,108)

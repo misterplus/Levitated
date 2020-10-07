@@ -1,0 +1,14 @@
+setIcon(<storagedrawers:framingtable>)
+
+setTranslatedTitle("advancements.levitated.end.drawer.title")
+setTranslatedDescription("advancements.levitated.end.drawer.description")
+
+addParent("triumph:levitated/end/tool_station")
+setShowToast(true)
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasFramingTable", "minecraft:inventory_changed")
+criteria.addItem(<storagedrawers:framingtable>)
+
+visibleIf("triumph:levitated/end/root")
+setPos(128,54)

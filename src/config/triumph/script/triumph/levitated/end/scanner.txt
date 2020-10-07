@@ -1,4 +1,4 @@
-setIcon(<scanner:biome_scanner_basic>)
+setIcon(<scanner:terrain_scanner>)
 
 setTranslatedTitle("advancements.levitated.end.scanner.title")
 setTranslatedDescription("advancements.levitated.end.scanner.description")
@@ -6,10 +6,14 @@ setTranslatedDescription("advancements.levitated.end.scanner.description")
 addParent("triumph:levitated/end/solder")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(938,-34)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasScanners", "minecraft:inventory_changed")
-criteria.addItem(<scanner:biome_scanner_basic>)
 criteria.addItem(<scanner:terrain_scanner>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(640,81)

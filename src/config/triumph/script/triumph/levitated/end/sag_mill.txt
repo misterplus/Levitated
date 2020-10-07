@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.end.sag_mill.description")
 addParent("triumph:levitated/end/stirling_gen")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(783,-18)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasSagMill", "minecraft:inventory_changed")
 criteria.addItem(<enderio:block_simple_sag_mill>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(576,27)

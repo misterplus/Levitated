@@ -6,11 +6,12 @@ setTranslatedDescription("advancements.levitated.nether.alloy.description")
 addParent("triumph:levitated/nether/chassis")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(287,-42)
 
-drawDirectLines()
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
 
 criteria = addCriteria("hasSmelter", "minecraft:inventory_changed")
 criteria.addItem(<enderio:block_alloy_smelter>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(288,94)

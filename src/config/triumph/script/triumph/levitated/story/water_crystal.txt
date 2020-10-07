@@ -1,0 +1,20 @@
+setIcon(<contenttweaker:water_crystal>)
+
+setTranslatedTitle("advancements.levitated.story.water_crystal.title")
+setTranslatedDescription("advancements.levitated.story.water_crystal.description")
+
+addParent("triumph:levitated/story/root")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setFrameType("Goal")
+
+setHidden(true)
+
+criteria = addCriteria("clickWaterCrystal", "triumph:right_click_block")
+criteria.setBlock("contenttweaker:water_crystal")
+
+setRewardFunction("triumph:chorus_good")
+setPos(32,0)

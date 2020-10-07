@@ -1,0 +1,17 @@
+setIcon(<contenttweaker:wither_crystal>)
+
+setTranslatedTitle("advancements.levitated.story.wither_crystal.title")
+setTranslatedDescription("advancements.levitated.story.wither_crystal.description")
+
+addParent("triumph:levitated/story/root")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setHidden(true)
+drawDirectLines()
+
+criteria = addCriteria("clickWitherCrystal", "triumph:right_click_block")
+criteria.setBlock("contenttweaker:wither_crystal")
+
+setRewardFunction("triumph:sudden_dark_pafoof")
+setPos(-32,27)

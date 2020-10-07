@@ -3,12 +3,17 @@ setIcon(<botania:fertilizer>)
 setTranslatedTitle("advancements.levitated.end.mana_usage.title")
 setTranslatedDescription("advancements.levitated.end.mana_usage.description")
 
-addParent("triumph:levitated/end/liquid_mana")
+addParent("triumph:levitated/end/bone_block")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(271,-34)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasFertilizer", "minecraft:inventory_changed")
 criteria.addItem(<botania:fertilizer>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(224,60)

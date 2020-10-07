@@ -2,27 +2,7 @@
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI.addDescription;
 import mods.jei.JEI.hide;
-
-function hideOnly (item as IItemStack, r as int[]) {
-    var def = item.definition;
-    for i in r {
-        hide(def.makeStack(i));
-    }
-}
-function hideExcept (item as IItemStack, e as int[], f as int, t as int) {
-    var def = item.definition;
-    for i in f to t {
-        if !(e has i) {
-            hide(def.makeStack(i));
-        }
-    }
-}
-function hideAll (item as IItemStack, f as int, t as int) {
-    var def = item.definition;
-    for i in f to t {
-        hide(def.makeStack(i));
-    }
-}
+import scripts.ct.Function;
 
 <contenttweaker:end_seeds>.addTooltip(format.gray(game.localize("tooltips.levitated.end_seeds")));
 <contenttweaker:origin_book>.addTooltip(format.gray(game.localize("tooltips.levitated.origin_book")));
@@ -34,6 +14,23 @@ function hideAll (item as IItemStack, f as int, t as int) {
 <thermalfoundation:glass_alloy:*>.addTooltip(format.yellow(game.localize("tooltips.levitated.hard_glass")));
 <minecraft:glass_bottle>.addTooltip(format.yellow(game.localize("tooltips.levitated.bottle")));
 <minecraft:potion>.withTag({Potion: "minecraft:water"}).addTooltip(format.yellow(game.localize("tooltips.levitated.bottle")));
+<contenttweaker:chaos_pearl>.addTooltip(format.yellow(game.localize("tooltips.levitated.chaos_pearl")));
+<contenttweaker:recall_pearl>.addTooltip(format.yellow(game.localize("tooltips.levitated.recall_pearl")));
+<contenttweaker:shard>.addTooltip(format.gray(game.localize("tooltips.levitated.shard")));
+<contenttweaker:essence_wither>.addTooltip(format.yellow(game.localize("tooltips.levitated.essence")));
+<contenttweaker:essence_blaze>.addTooltip(format.yellow(game.localize("tooltips.levitated.essence")));
+<contenttweaker:essence_ghast>.addTooltip(format.yellow(game.localize("tooltips.levitated.essence")));
+<contenttweaker:essence_magma>.addTooltip(format.yellow(game.localize("tooltips.levitated.essence")));
+<contenttweaker:essence_pigman>.addTooltip(format.yellow(game.localize("tooltips.levitated.essence")));
+<contenttweaker:contract>.addTooltip(format.yellow(game.localize("tooltips.levitated.contract")));
+<scanner:biome_scanner_basic>.addTooltip(format.darkRed(format.bold(game.localize("tooltips.levitated.deprecated"))));
+<scanner:biome_scanner_adv>.addTooltip(format.darkRed(format.bold(game.localize("tooltips.levitated.deprecated"))));
+<scanner:biome_scanner_elite>.addTooltip(format.darkRed(format.bold(game.localize("tooltips.levitated.deprecated"))));
+<chesttransporter:chesttransporter_diamond>.addTooltip(format.yellow(game.localize("tooltips.levitated.transporter")));
+<contenttweaker:apple>.addTooltip(format.yellow(game.localize("tooltips.levitated.apple")));
+<contenttweaker:apple>.addTooltip(format.darkRed(format.bold(game.localize("tooltips.levitated.apple_2"))));
+<wizardry:cloud>.addTooltip(format.yellow(game.localize("tooltips.levitated.cloud")));
+
 addDescription(<contenttweaker:mana_paper>, game.localize("description.levitated.mana_paper"));
 addDescription(<contenttweaker:end_iron_chunk>, game.localize("description.levitated.end_iron_chunk"));
 addDescription(<tconstruct:firewood:1>, game.localize("description.levitated.end_iron_chunk"));
@@ -43,6 +40,18 @@ addDescription(<contenttweaker:rainbow_block>, game.localize("description.levita
 addDescription(<botania:bifrostperm>, game.localize("description.levitated.rainbow"));
 addDescription(<botania:pool>, game.localize("description.levitated.mana_pool"));
 addDescription(<minecraft:brewing_stand>, game.localize("description.levitated.stand"));
+addDescription(<forge:bucketfilled>.withTag({FluidName: "solder", Amount: 1000}), game.localize("description.levitated.solder"));
+addDescription(<contenttweaker:chaos_pearl>, game.localize("description.levitated.chaos_pearl"));
+addDescription(<contenttweaker:recall_pearl>, game.localize("description.levitated.recall_pearl"));
+addDescription(<contenttweaker:dragon_spirit>, game.localize("description.levitated.dragon_spirit"));
+addDescription(<contenttweaker:contract>, game.localize("description.levitated.contract"));
+addDescription(<scanner:biome_scanner_ultimate>, game.localize("description.levitated.biome_scanner"));
+addDescription(<scanner:terrain_scanner>, game.localize("description.levitated.terrain_scanner"));
+addDescription(<scanner:scanner_queue>, game.localize("description.levitated.scanner_queue"));
+addDescription(<contenttweaker:eden_leaves>, game.localize("description.levitated.eden_leaves"));
+addDescription(<contenttweaker:eden_leaves_fruitless>, game.localize("description.levitated.eden_leaves"));
+addDescription(<contenttweaker:dna>, game.localize("description.levitated.dna"));
+addDescription(<wizardry:cloud>, game.localize("description.levitated.cloud"));
 
 <extrautils2:chickenring:1>.displayName = game.localize("rename.levitated.shulker_ring");
 <pneumaticcraft:ingot_iron_compressed>.displayName = game.localize("rename.levitated.compiron");
@@ -51,9 +60,13 @@ addDescription(<minecraft:brewing_stand>, game.localize("description.levitated.s
 <techreborn:storage2:10>.displayName = game.localize("rename.levitated.refined_iron_block");
 <techreborn:nuggets:19>.displayName = game.localize("rename.levitated.refined_iron_nugget");
 <techreborn:plates:35>.displayName = game.localize("rename.levitated.refined_iron_plate");
+<scanner:biome_scanner_basic>.displayName = game.localize("rename.levitated.biome_scanner_deprecated");
+<scanner:biome_scanner_adv>.displayName = game.localize("rename.levitated.biome_scanner_deprecated");
+<scanner:biome_scanner_elite>.displayName = game.localize("rename.levitated.biome_scanner_deprecated");
+<scanner:biome_scanner_ultimate>.displayName = game.localize("rename.levitated.biome_scanner");
 
 //General Items
-var banned_items = [<integrateddynamics:coal_generator>, <botania:rfgenerator>, <immersiveengineering:stone_decoration:10>, <immersiveengineering:stone_decoration_slab:10>] as IItemStack[];
+var banned_items = [<integrateddynamics:coal_generator>, <botania:rfgenerator>, <immersiveengineering:stone_decoration:10>, <immersiveengineering:stone_decoration_slab:10>, <contenttweaker:wither_crystal>, <contenttweaker:water_crystal>, <contenttweaker:fire_crystal>, <contenttweaker:life_crystal>, <libvulpes:coalgenerator>] as IItemStack[];
 for item in banned_items {
     mods.jei.JEI.removeAndHide(item);
 }
@@ -73,23 +86,47 @@ hide(<netherendingores:ore_end_modded_2>);
 hide(<netherendingores:ore_other_1:0>);
 hide(<netherendingores:ore_other_1:2>);
 hide(<netherendingores:ore_other_1:4>);
-hideExcept(<netherendingores:ore_end_modded_1>, [1, 3, 8] as int[], 0, 16);
-hideOnly(<netherendingores:ore_other_1>, [1, 3, 5] as int[]);
+Function.hideExcept(<netherendingores:ore_end_modded_1>, [1, 3, 8] as int[], 0, 16);
+Function.hideOnly(<netherendingores:ore_other_1>, [1, 3, 5] as int[]);
 
 //Nether ores
 hide(<netherendingores:ore_nether_vanilla:*>);
 hide(<netherendingores:ore_nether_modded_2>);
-hideExcept(<netherendingores:ore_nether_modded_1>, [0, 5, 7, 9, 10, 12] as int[], 0, 16);
+Function.hideExcept(<netherendingores:ore_nether_modded_1>, [0, 5, 7, 9, 10, 12] as int[], 0, 16);
 
 //IE ores
-hideAll(<immersiveengineering:ore>, 0, 5);
+Function.hideAll(<immersiveengineering:ore>, 0, 5);
 
 //TR ores
-hideExcept(<techreborn:ore>, [1, 2, 3, 4] as int[], 0, 14);
-hideAll(<techreborn:ore2>, 0, 2);
+Function.hideExcept(<techreborn:ore>, [1, 2, 3, 4] as int[], 0, 14);
+Function.hideAll(<techreborn:ore2>, 0, 2);
 
 //AR ores
-hideExcept(<libvulpes:ore0>, [0, 8] as int[], 0, 11);
+Function.hideExcept(<libvulpes:ore0>, [0, 8] as int[], 0, 11);
 
 //TE ores
-hideAll(<thermalfoundation:ore_fluid>, 0, 6);
+Function.hideAll(<thermalfoundation:ore_fluid>, 0, 6);
+
+//Scanners
+hide(<scanner:biome_scanner_basic>);
+hide(<scanner:biome_scanner_adv>);
+hide(<scanner:biome_scanner_elite>);
+hide(<scanner:blockairey>);
+
+//Direct trait
+static directs as IItemStack[] = [
+    <tconstruct:tool_rod>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:tough_tool_rod>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:binding>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:tough_binding>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:wide_guard>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:hand_guard>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:cross_guard>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:large_plate>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:knife_blade>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:bow_limb>.withTag({Material: "vibrant_alloy"}),
+    <tconstruct:arrow_head>.withTag({Material: "vibrant_alloy"})
+] as IItemStack[];
+for item in directs {
+    hide(item);
+}

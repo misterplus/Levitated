@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.end.solder.description")
 addParent("triumph:levitated/end/assembler")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(900,-34)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasSolderBucket", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, nbt:{FluidName:"solder",Amount:1000}>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(608,81)

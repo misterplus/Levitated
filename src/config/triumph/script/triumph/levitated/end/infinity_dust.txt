@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.end.infinity_dust.description")
 addParent("triumph:levitated/end/nether_knowledge")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(712,6)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasBedrockDust", "minecraft:inventory_changed")
 criteria.addItem(<enderio:item_material:20>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(512,54)

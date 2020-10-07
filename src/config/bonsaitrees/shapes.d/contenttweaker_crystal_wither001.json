@@ -1,0 +1,52 @@
+{
+  "type": "contenttweaker:crystal_wither",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "minecraft:stained_glass",
+      "meta": 8
+    },
+    "b": {
+      "name": "minecraft:stained_glass",
+      "meta": 7
+    },
+    "c": {
+      "name": "minecraft:stained_glass",
+      "meta": 15
+    }
+  },
+  "shape": [
+    [
+      "    ",
+      "    ",
+      "    ",
+      "a   ",
+      "b   ",
+      "caa "
+    ],
+    [
+      " a  ",
+      " b  ",
+      " c  ",
+      " ca ",
+      " cba",
+      "accb"
+    ],
+    [
+      "    ",
+      "    ",
+      " a  ",
+      " b  ",
+      " c  ",
+      " ca "
+    ],
+    [
+      "    ",
+      "    ",
+      "    ",
+      "    ",
+      " a  ",
+      " b  "
+    ]
+  ]
+}

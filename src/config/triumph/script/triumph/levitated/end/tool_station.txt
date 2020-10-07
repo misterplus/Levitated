@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.end.tool_station.description")
 addParent("triumph:levitated/end/end_log")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(101,6)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasToolStation", "minecraft:inventory_changed")
 criteria.addItem(<tconstruct:tooltables:3>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(96,67)

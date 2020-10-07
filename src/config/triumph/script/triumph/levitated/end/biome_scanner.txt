@@ -1,0 +1,14 @@
+setIcon(<scanner:biome_scanner_ultimate>)
+
+setTranslatedTitle("advancements.levitated.end.biome_scanner.title")
+setTranslatedDescription("advancements.levitated.end.biome_scanner.description")
+
+addParent("triumph:levitated/end/scanner")
+setShowToast(true)
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasBiomeScanner", "minecraft:inventory_changed")
+criteria.addItem(<scanner:biome_scanner_ultimate>)
+
+visibleIf("triumph:levitated/end/root")
+setPos(672,68)

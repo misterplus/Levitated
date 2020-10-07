@@ -1,0 +1,18 @@
+setIcon(<contenttweaker:core>)
+
+setTranslatedTitle("advancements.levitated.story.core.title")
+setTranslatedDescription("advancements.levitated.story.core.description")
+
+addParent("triumph:levitated/story/plan")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setFrameType("Goal")
+
+hideLines()
+
+criteria = addCriteria("hasCore", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:core>)
+setPos(153,2)

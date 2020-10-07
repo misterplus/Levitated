@@ -1,0 +1,2 @@
+//Deflector
+mods.recipestages.Recipes.addShaped("spell", <weather2:weather_deflector>, [[<techreborn:part:17>, <ore:blockMithril>, <techreborn:part:17>],[<ore:blockPlatinum>, <contenttweaker:dilithium_block>, <ore:blockTitaniumIridium>], [<techreborn:part:0>, <libvulpes:structuremachine>, <techreborn:part:0>]]);

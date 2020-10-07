@@ -1,0 +1,17 @@
+setIcon(<enderio:block_experience_obelisk>)
+
+setTranslatedTitle("advancements.levitated.nether.xp.title")
+setTranslatedDescription("advancements.levitated.nether.xp.description")
+
+addParent("triumph:levitated/nether/soul_chassis")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
+
+criteria = addCriteria("hasObelisk", "minecraft:inventory_changed")
+criteria.addItem(<enderio:block_experience_obelisk>)
+
+visibleIf("triumph:levitated/nether/root")
+setPos(288,175)

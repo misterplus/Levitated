@@ -6,11 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.tablet.description")
 addParent("triumph:levitated/nether/plastic")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(202,-69)
 
-drawDirectLines()
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasTablet", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:amadron_tablet>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(224,40)

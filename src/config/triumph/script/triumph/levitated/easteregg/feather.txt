@@ -5,10 +5,16 @@ setTranslatedDescription("advancements.levitated.easteregg.feather.description")
 
 addParent("triumph:levitated/easteregg/root")
 setShowToast(true)
-setPos(184,-56)
-setFrameType("CHALLENGE")
+
+setCompletedIconColor(#9000FF)
+setCompletedTitleColor(#9000FF)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Challenge")
+
 hideLines()
 setHidden(true)
 
 criteria = addCriteria("hasFeatherSpecial", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:feather, nbt:{EasterEgg:1}>)
+
+setPos(0,-27)

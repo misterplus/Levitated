@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.empty_pcb.description")
 addParent("triumph:levitated/nether/interface")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(202,-15)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasEmptyPCB", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:empty_pcb>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(192,135)

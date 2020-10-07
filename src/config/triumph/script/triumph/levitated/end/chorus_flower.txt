@@ -1,0 +1,14 @@
+setIcon(<minecraft:chorus_flower>)
+
+setTranslatedTitle("advancements.levitated.end.chorus_flower.title")
+setTranslatedDescription("advancements.levitated.end.chorus_flower.description")
+
+addParent("triumph:levitated/end/chorus_fruit")
+setShowToast(true)
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasChorusFlower", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:chorus_flower>)
+
+visibleIf("triumph:levitated/end/root")
+setPos(64,40)

@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.compiron.description")
 addParent("triumph:levitated/nether/blast_furnace")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(87,-15)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasCompiron", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:ingot_iron_compressed>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(96,135)

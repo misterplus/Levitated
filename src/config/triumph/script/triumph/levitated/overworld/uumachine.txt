@@ -3,14 +3,15 @@ setIcon(<techreborn:matter_fabricator>)
 setTranslatedTitle("advancements.levitated.overworld.uumachine.title")
 setTranslatedDescription("advancements.levitated.overworld.uumachine.description")
 
-addParent("triumph:levitated/overworld/voidminer2")
 addParent("triumph:levitated/overworld/recycler")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(201,-109)
 
+setCompletedIconColor(#0085A2)
+setCompletedTitleColor(#0085A2)
 
 criteria = addCriteria("hasUUMachine", "minecraft:inventory_changed")
 criteria.addItem(<techreborn:matter_fabricator>)
 
 visibleIf("triumph:levitated/overworld/root")
+setPos(128,54)

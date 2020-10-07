@@ -6,10 +6,16 @@ setTranslatedDescription("advancements.levitated.end.mana_pool.description")
 addParent("triumph:levitated/end/furnace")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(190,6)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasManaPool", "minecraft:inventory_changed")
 criteria.addItem(<botania:pool>)
+
 addRewardItem(<botania:lexicon, ore:lexicaBotania, meta:0>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(160,114)

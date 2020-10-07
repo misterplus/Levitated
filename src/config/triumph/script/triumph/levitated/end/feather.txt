@@ -4,12 +4,16 @@ setTranslatedTitle("advancements.levitated.end.feather.title")
 setTranslatedDescription("advancements.levitated.end.feather.description")
 
 addParent("triumph:levitated/end/alchemy")
-addParent("triumph:levitated/end/ender_iron")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(523,6)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasFeather", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:feather>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(352,67)

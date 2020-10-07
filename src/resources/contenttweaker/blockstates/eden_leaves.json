@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "top": "contenttweaker:blocks/eden_apple",
+      "bot": "contenttweaker:blocks/leaves_golden"
+    },
+    "model": "contenttweaker:fruit_leaves",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

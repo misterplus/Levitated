@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.interface.description")
 addParent("triumph:levitated/nether/chamber")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(161,-15)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasChamberInterface", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:pressure_chamber_interface>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(160,135)

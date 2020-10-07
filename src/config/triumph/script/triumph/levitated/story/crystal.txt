@@ -1,0 +1,18 @@
+setIcon(<contenttweaker:crystal>)
+
+setTranslatedTitle("advancements.levitated.story.crystal.title")
+setTranslatedDescription("advancements.levitated.story.crystal.description")
+
+addParent("triumph:levitated/story/plan")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setFrameType("Goal")
+
+hideLines()
+
+criteria = addCriteria("hasCrystal", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:crystal>)
+setPos(178,-23)

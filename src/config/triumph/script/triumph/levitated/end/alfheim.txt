@@ -6,8 +6,13 @@ setTranslatedDescription("advancements.levitated.end.alfheim.description")
 addParent("triumph:levitated/end/altar")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(403,6)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 setRequiresParents()
 
 visibleIf("triumph:levitated/end/root")
+setPos(288,87)

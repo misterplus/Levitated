@@ -32,7 +32,7 @@ advancements.levitated.end.liquid_mana.title=Gifts of God
 advancements.levitated.end.liquid_mana.description=A manaless pool ain't gonna help you much, but fortunately there's natural pools of mana in the Stygian Growth biome. But the liquid form of mana is highly unstable, you might take damage from it and only basic crafting can be done. You need to find a way to stabilize them. [Fill a bucket with Mana.]
 
 advancements.levitated.end.mana_usage.title=Regrowth
-advancements.levitated.end.mana_usage.description=Mana has many special properties, like turning Stygian Grass into Vivid Grass or calcify Chorus Flowers into Bone Blocks. That means you can create flowers now, hurray! [Craft a Floral Fertilizer.]
+advancements.levitated.end.mana_usage.description=Mana also has many other special properties, like turning Stygian Grass into Vivid Grass or turning a Stygian Creeper into a piece of Sugarcane. But for now, let's focus on the flower part. [Craft a Floral Fertilizer.]
 
 advancements.levitated.end.living_blocks.title=Living Foundation
 advancements.levitated.end.living_blocks.description=The Pure Daisy is able to bring the End Stone back to life, thus enabling the possibility to craft Livingrocks as well as other materials such as the Livingwood. [Obtain a Livingwood and a Livingrock.]
@@ -95,7 +95,7 @@ advancements.levitated.end.simulation_chamber.title=Deep Learning
 advancements.levitated.end.simulation_chamber.description=If killing mobs manually is annoying for you, you might wanna make good use of this Simulation Chamber. [Craft a Simulation Chamber.]
 
 advancements.levitated.end.keystone.title=Attunement
-advancements.levitated.end.keystone.description=System glitches only appear in trails. Starting a trail requires a Trail Keystone. For more info, check the Deep Mob Learning guide book. However, you might encounter some flying creatures during the trails. They might drop an item that you cannot make use of right now. [Craft a Trail Keystone.]
+advancements.levitated.end.keystone.description=System glitches only appear in trials. Starting a trial requires a Trial Keystone. For more info, check the Deep Mob Learning guide book. However, you might encounter some flying creatures during the trials. They might drop an item that you cannot make use of right now. [Craft a Trial Keystone.]
 
 advancements.levitated.end.glitched_oby.title=Glitch in the System
 advancements.levitated.end.glitched_oby.description=Simply by building a obsidian portal won't lead you to the Nether, so you'll need to infuse some glitches into regular obsidians. This can be done through Terrestrial Agglomeration. [Craft a Glitched Obsidian.]
@@ -122,7 +122,7 @@ advancements.levitated.end.solder.title=Solder Soldier
 advancements.levitated.end.solder.description=Solder is a great alloy for creating machines. To create a Bucket of Solder, simply right click on fire with a Bucket of Solder Powder. [Obtain a bucket of Solder.]
 
 advancements.levitated.end.scanner.title=Operation: Regenerate
-advancements.levitated.end.scanner.description=The Nether is empty right now, but you can change that. By combining the power of the Biome Scanner and the Terrain Scanner, one can easily shape the world in seconds. They do require a lot more power than normal machines tho. [Craft a Terrain Scanner and a Biome Scanner.]
+advancements.levitated.end.scanner.description=The Nether is empty right now, but you can change that. By utilizing the power of the Terrain Scanner, one can easily shape the world in seconds. It does require a lot more power than normal machines tho. [Craft a Terrain Scanner.]
 
 advancements.levitated.end.netherrack.title=Earth of Hell
 advancements.levitated.end.netherrack.description=Bring a capacitor to the Nether and start rebuilding! What was shall be once more... [Obtain a Netherrack.]
@@ -141,6 +141,45 @@ advancements.levitated.end.waystone.description=Travelling thousands of blocks c
 
 advancements.levitated.end.compass.title=Nature's Way
 advancements.levitated.end.compass.description=Still wandering around cluelessly, trying to find the biome that you so desire? Let nature guides you with this compass! [Craft a Nature's Compass.]
+
+advancements.levitated.end.chorus_flower.title=Blocky Flower
+advancements.levitated.end.chorus_flower.description=If you ever wanted more of these weird fruits, you can always grow more with a Chorus Flower. They don't seem to like grass tho. [Obtain a Chorus Flower.]
+
+advancements.levitated.end.mana_resource.title=Mana Bath
+advancements.levitated.end.mana_resource.description=If you haven't given your beloved materials a bath in mana, now is the time! Mana materials are much stronger for creating tools, armor, and even artifacts! [Craft a Mana Steel Ingot, a Mana Pearl and a Mana Diamond.] 
+
+advancements.levitated.end.bone_block.title=Tiny Bone
+advancements.levitated.end.bone_block.description=Dropping a Chorus Flower into a pool of mana surprisingly calcifies it into a Bone Block, now you can have flowers at home! [Obtain a Bone Block.]
+
+advancements.levitated.end.endoflame.title=Flame of End
+advancements.levitated.end.endoflame.description=Stabilizing liquid mana is only gonna get you this far, to get a larger quantity of mana, you'll need to start generating mana yourself. [Craft a Endoflame.]
+
+advancements.levitated.end.gourmaryllis.title=Endless Hunger
+advancements.levitated.end.gourmaryllis.description=This flower is even crazier than the endoflame when it comes to mass mana production, but you'll need to feed its big mouth. [Craft a Gourmaryllis.]
+
+advancements.levitated.end.biome_scanner.title=Remote Rebuilding
+advancements.levitated.end.biome_scanner.description=While the Terrain Scanner is good enough for rebuilding the nether, you'll have to move it around if you wanna rebuild more than one chunk. Fortunately, by combining a Biome Scanner that normally only scans the biome of a chunk with a Terrain Scanner, you can rebuild the nether remotely. [Craft a Biome Scanner.]
+
+advancements.levitated.end.queue.title=Wait in Line
+advancements.levitated.end.queue.description=Tired of clicking again and again just for rebuilding chunks? This gadget can help you queue up chunks for rebuilding! [Craft a Scanner Queue.]
+
+advancements.levitated.end.scanner_info.title=Scanner Guide
+advancements.levitated.end.scanner_info.description=Check out JEI descriptions on how to use the scanners!
+
+advancements.levitated.end.chaos_pearl.title=Pearls of Chaos
+advancements.levitated.end.chaos_pearl.description=If the land near you seems too lifeless, try warping to another place using a Chaos Pearl! [Craft a Chaos Pearl.]
+
+advancements.levitated.end.drawer.title=F in the chat
+advancements.levitated.end.drawer.description=You won't have access to regular overworld wood for a while, that also means you'll have to use a Framed Drawer. [Craft a Framing Table.]
+
+advancements.levitated.end.bonsai.title=Miniature Plant
+advancements.levitated.end.bonsai.description=Tired of cutting down huge trees over and over again? How about some tiny ones? [Craft a Bonsai Pot.]
+
+advancements.levitated.end.menril.title=Integrated Logic
+advancements.levitated.end.menril.description=If you're going to create advanced automations in the future, setting up integrated logics is a must. [Craft a Menril Sapling.]
+
+advancements.levitated.end.info.title=Multiplayer Info
+advancements.levitated.end.info.description=Players can use the following command to sync their advancements with their team members. [/tofe invite username]
 
 # The Nether
 advancements.levitated.nether.root.title=Soulless Dimension
@@ -162,7 +201,7 @@ advancements.levitated.nether.resonator.title=Resonance
 advancements.levitated.nether.resonator.description=Resonating regular materials converts them into their high quality counterparts, which are excellent for machine building. [Craft a Resonator.]
 
 advancements.levitated.nether.blaze_rod.title=Hot Stick
-advancements.levitated.nether.blaze_rod.description=Blazes occasionally spawn on Nether Bricks in the Nether, with enough luck, you might also find a Blaze spawner in a Nether fortress. [Obtain a Blaze Rod.]
+advancements.levitated.nether.blaze_rod.description=Blazes occasionally spawn on Nether Bricks in the Nether, with enough luck, you might also find a Blaze spawner in a Nether Fortress. [Obtain a Blaze Rod.]
 
 advancements.levitated.nether.wither_skeleton.title=Burnt Bones
 advancements.levitated.nether.wither_skeleton.description=Wither Skeletons occasionally spawn on Lavastones in the Nether, but Lavastone is not easy to find... [Kill a Wither Skeleton.]
@@ -180,7 +219,7 @@ advancements.levitated.nether.alloy.title=Advanced Alloying
 advancements.levitated.nether.alloy.description=Future machines require a lot more alloys, so you better construct a faster Alloy Smelter. [Craft a Alloy Smelter.]
 
 advancements.levitated.nether.blast_furnace.title=Blast Off
-advancements.levitated.nether.blast_furnace.description=With Blaze Rod's blazing hot temperature, a Blast Furnace was born! A crude one, but functional. [Build a Blast Furnace.]
+advancements.levitated.nether.blast_furnace.description=With Blaze Rod's blazing hot temperature, a Blast Furnace was born! A crude one, but functional. [Build a Crude Blast Furnace.]
 
 advancements.levitated.nether.compiron.title=The Pressure is on
 advancements.levitated.nether.compiron.description=Blowing up Steel ingots with TNT will compress them into a denser material, which is just suitable for making PCBs. [Obtain a Compressed Steel Ingot.]
@@ -198,7 +237,7 @@ advancements.levitated.nether.pcb_blueprint.title=Printing with Light
 advancements.levitated.nether.pcb_blueprint.description=To make a functional PCB, you'll need a PCB Blueprint. Luckily, you can buy one online. [Purchase a PCB Blueprint.]
 
 advancements.levitated.nether.oil.title=Black Gold
-advancements.levitated.nether.oil.description=In order to produce plastic for PCBs, you have to get some oil first. Building a Pumpjack should help you out. [Build a Pumpjack.]
+advancements.levitated.nether.oil.description=In order to produce plastic for PCBs, you have to get some oil first. Building a Pumpjack should help you out. [Obtain a bucket of Oil.]
 
 advancements.levitated.nether.refinery.title=Efficiency at its Finest
 advancements.levitated.nether.refinery.description=Simply burning your oil is a huge waste! Besides, you need to seperate other substances away from oil in order to make use of them. [Craft a Refinery.]
@@ -248,9 +287,39 @@ advancements.levitated.nether.press.description=There are some special presses o
 advancements.levitated.nether.skystone.title=Sky's the Limit
 advancements.levitated.nether.skystone.description=Finding any meteor in the nether/end seems pretty unlikely, why not try some magic? [Craft a Sky Stone.]
 
+advancements.levitated.nether.manual_mill.title=Endless Grind
+advancements.levitated.nether.manual_mill.description=Machines like the Resonator uses Grid Power. One of the options to generate GP is by, well, grinding. [Craft a Manual Mill.]
+
+advancements.levitated.nether.solar.title=Solar Eclipse
+advancements.levitated.nether.solar.description=Spending the rest of your life milling probably isn't a good idea, why not put all the free solar power to use then? [Craft a Solar Panel.]
+
+advancements.levitated.nether.soul_chassis.title=A Soul for a Soul
+advancements.levitated.nether.soul_chassis.description=Some machines interact with entities, thus requiring souls to operate. [Craft a Soul Machine Chassis.]
+
+advancements.levitated.nether.aversion.title=Peace of Mind
+advancements.levitated.nether.aversion.description=The nether is too dangerous to setup a base in? This obelisk can prevent mobs from spawning, all you need to do is give it a soul. [Craft an Aversion Obelisk.]
+
+advancements.levitated.nether.blue_slime.title=Slimy Data
+advancements.levitated.nether.blue_slime.description=Slime is useful for a handful of things, if only there's a way to mass produce them... [Craft a Blue Slime Data Model.]
+
+advancements.levitated.nether.xp.title=Experience of a Lifetime
+advancements.levitated.nether.xp.description=Storing experience as liquid is fine, but storing it in this obelisk is way more efficient. [Craft an Experience Obelisk.]
+
+advancements.levitated.nether.vortex.title=Polar Vortex
+advancements.levitated.nether.vortex.description=Still using lava for heating up your refinery? Check out this handy machine, all it uses is pressurized air. [Craft a Vortex Tube.]
+
+advancements.levitated.nether.vacuum.title=Simple Math
+advancements.levitated.nether.vacuum.description=How to get a negative air pressure you say? It's simple, just do a subtraction! [Craft a Vacuum Pump.]
+
+advancements.levitated.nether.assembly.title=Advanced Assembly
+advancements.levitated.nether.assembly.description=Crafting PCBs can be quite a hassle, fortunately you can use an assembly line to simplify this process. [Craft an Assembly Controller.]
+
+advancements.levitated.nether.blast_furnace_adv.title=Age of Steel
+advancements.levitated.nether.blast_furnace_adv.description=Smelting Steel manually is just too boring, don't you think? Hey, now we're talking. [Build an Improved Blast Furnace.]
+
 # Overworld
 advancements.levitated.overworld.root.title=Sun, Moon and Stars
-advancements.levitated.overworld.root.description=You've made it back home! But this world isn't really your ideal settlement, since there's still nothing but the void. Maybe we can... go for the stars?
+advancements.levitated.overworld.root.description=You've made it back home! But this world isn't really your ideal settlement, since there's still nothing but the void. What does the future hold then?
 
 advancements.levitated.overworld.refined_iron.title=Double Refinement
 advancements.levitated.overworld.refined_iron.description=Apparently refining iron once isn't enough, you are gonna need better base materials for more advanced machines. Refining steel once more should be good, but how? [Craft a Refined Steel Ingot.]
@@ -286,10 +355,10 @@ advancements.levitated.overworld.quantum_quarry.title=Quantum Tunneling
 advancements.levitated.overworld.quantum_quarry.description=Platinum might be the first man-made substance on this planet, but it certainly won't be the last. In fact, you can even borrow substances from another world. We call this quantum mining. [Build a Quantum Quarry.]
 
 advancements.levitated.overworld.structure.title=Steady Structure
-advancements.levitated.overworld.structure.description=With storms howling through the lands of the Overworld, you surely don't wanna live there, but the end is not exactly a great choice either, that leaves you with the only option - other planets. Better get those rockets building! [Craft a Machine Structure.]
+advancements.levitated.overworld.structure.description=With storms howling through the lands of the Overworld, you surely don't wanna live there, but the end is not exactly a great choice either. So... what now? [Craft a Machine Structure.]
 
 advancements.levitated.overworld.rocket.title=Space Travel! ... not yet
-advancements.levitated.overworld.rocket.description=Not all planets are habitable, and not all habitable planets are for humans. To search for such a planet would take centuries without the right tools. And rockets are surely one of them. [Craft a Rocket Assembling Machine.]
+advancements.levitated.overworld.rocket.description=You had other thoughts, but sadly leaving the planet for another one is probably your best shot. Not all planets are habitable, and not all habitable planets are for humans. To search for such a planet would take centuries without the right tools. And rockets are surely one of them. [Craft a Rocket Assembling Machine.]
 
 advancements.levitated.overworld.space_station.title=Non-Stationary
 advancements.levitated.overworld.space_station.description=Stay on the earth with a naked eye isn't gonna help you find extraterrestrial planets, you better levitate yourself to a...higher altitude. In plain English, that is to say - build a space station. [Craft a Space Station Assembler.]
@@ -315,8 +384,26 @@ advancements.levitated.overworld.kepler.description=Warp after warp, you finally
 advancements.levitated.overworld.spacesuit.title=Suit up
 advancements.levitated.overworld.spacesuit.description=You are no superman, and certainly cannot breathe in space, so a set of space suit is a must. And a pair of oxygen tanks, of course. [Craft a set of Space suit.]
 
-advancements.levitated.overworld.adv_scanner.title=Advanced Scanning
-advancements.levitated.overworld.adv_scanner.description=A basic scanner is great, but why scan two chunks when you can scan four? Upgrade today! [Craft a Biome Scanner (Advanced).]
+advancements.levitated.overworld.rubber_tree.title=Sticky Sticks
+advancements.levitated.overworld.rubber_tree.description=Rubber Trees generally grow in forest and swamp biomes, you'll need to rebuild the overworld to find them. [Obtain a Rubber Sapling.]
+
+advancements.levitated.overworld.implosion.title=Big Bang
+advancements.levitated.overworld.implosion.description=Some materials like Iridium is hard to compress, this Implosion Compressor can give you a hand. [Craft an Implosion Compressor.] 
+
+advancements.levitated.overworld.efficiency.title=Nice and Clean
+advancements.levitated.overworld.efficiency.description=Don't just wait while your quarry mines away, you can use Enchanted Books to buff your Quantum Quarry.
+
+advancements.levitated.overworld.electro.title=Electro Wizard
+advancements.levitated.overworld.electro.description=A machine that does electro magic, sounds cool! [Craft an Industrial Electrolyzer.]
+
+advancements.levitated.overworld.deflector.title=Hazard Deflection
+advancements.levitated.overworld.deflector.description=You thought just building a city should be enough, but it'll never stand a chance against the tornados. Fortunately, you had another idea in mind. This one requires some digging. [Craft a Weather Deflector.]
+
+advancements.levitated.overworld.skycity.title=Your Universe
+advancements.levitated.overworld.skycity.description=You put the Globe on top of the Deflector, then every block started to enlarge... [Shift right click the Weather Deflector with the Miniature Sky City Globe in the Overworld.]
+
+advancements.levitated.overworld.speed.title=Nitrogen Overclocking
+advancements.levitated.overworld.speed.description=Some machines run at quite a low speed, but you don't have time for that. [Craft an Overclocker Upgrade.]
 
 # Resources
 advancements.levitated.resources.root.title=Ore Resources
@@ -390,7 +477,7 @@ advancements.levitated.resources.quantum_mithril.description=Mithril is a metal 
 
 # Kepler Advancements
 advancements.levitated.kepler.root.title=Journey's End
-advancements.levitated.kepler.root.description=Here it is, the new home you've been searching for. Not exactly like the home you remembered, but a lively place to settle down and start a new life.
+advancements.levitated.kepler.root.description=Here it is, the new home you've been searching for. Not exactly like the home you remembered, but a lively place to settle down and start a new life. But thinking back, have you really made the right choice?
 
 advancements.levitated.kepler.beacon.title=Dawn of Hope
 advancements.levitated.kepler.beacon.description=If you still have friends living in the end, consider building a beacon on kepler! This will broadcast your coordinates to the entire galaxy, so they can easily find this place!
@@ -404,6 +491,65 @@ advancements.levitated.easteregg.feather.description=Alright, this is kind of a 
 
 advancements.levitated.easteregg.valkyrie.title=Visit Hyperion
 advancements.levitated.easteregg.valkyrie.description=Welcome to... Wait, where's my ship?
+
+# Story Advancements
+advancements.levitated.story.root.title=Stories of the Past
+advancements.levitated.story.root.description=The crystal rumbled quietly as you touched it, a vision appeared right before your very eyes...
+# The Collapse
+advancements.levitated.story.wither_crystal.title=Vision of Destruction
+advancements.levitated.story.wither_crystal.description=(In the vision, a wizard, talking to the crystal) Listen, whoever found this, I'm sorry. We...we are meant to save it! We wanted to collapse the end, not the overworld! It's all our fault... It was never meant to be like this... The temple is under attack by Endermen, we don't have much time left. Others are setting up a portal to the underworld, that's our only chance to survive. If someone is watching this, I don't know how you survived, but I don't care. Find the other crystals, finish our work! (Sound of Explosion)
+# The Beginning
+advancements.levitated.story.life_crystal.title=Vision of Nature
+advancements.levitated.story.life_crystal.description=(In the vision, two wizards, chatting with each other) -Have you noticed something about the ground lately? -What do you mean? -I don't know, it feels much more unstable to me, and blocks started to fall off randomly, even blocks that aren't affected by gravity, like stone. -(Silence)... That's...not good at all. Follow me, now! -Wait, where are we going? What's happening? -To the Stronghold. (Vision fades)
+# The Plan
+advancements.levitated.story.fire_crystal.title=Vision of Ember
+advancements.levitated.story.fire_crystal.description=(In the vision, several wizards are having a meeting) -So you said that Endermen are trying to take the earth's core apart, block by block? -If that's the case, how can we possibly stop that? We don't even know where they came from, let alone stopping every single one of them? -Listen to me, gentlemen. I have a plan. There is a spell in this book that I'm holding, "The Great Collapse". We can cast it and end it all for good. -But...isn't that spell forbidden? -Yeah, there's probably another way... -NO! There IS no other way! There's too many of them, the time we have is no more than a week. The fate of the overworld is in our hands now. (Vision fades)
+# The Mistake
+advancements.levitated.story.water_crystal.title=Vision of Ocean
+advancements.levitated.story.water_crystal.description=(In the vision, a wizard, talking to himself) The last ingredient for the spell is a fruit of the target dimension... (Yawns) I shouldn't stay up late last night. What is it again, a fruit? Oh, right, I still have an apple on me, this will do then. (Vision fades)
+# The Aftermath
+advancements.levitated.story.aftermath.title=Tale's End
+advancements.levitated.story.aftermath.description=No... it can't be. How? Weren't they talking about casting a spell to collapse the end? How did the overworld fall? What exactly did they do wrong?
+# The Hope
+advancements.levitated.story.plan.title=Into the Story
+advancements.levitated.story.plan.description=If they can cast a spell, why can't I? There must be a way for me to somehow restore the overworld! This might take me months, and I'm not even sure if I can do it or not, but I shall take any hope that's left. Let's see what this barren land offers.
+
+advancements.levitated.story.shard.title=Castle in the Sky
+advancements.levitated.story.shard.description=This idea shone in your mind for a brief moment, but you just cannot forget it. Lexica Botania recorded an ancient artifact named "Shard of Laputa", which is still craftable today. It can move thousands of blocks easily. But there's always room for improvement... [Craft an Empowered Shard of Laputa.]
+
+advancements.levitated.story.core.title=Levitated
+advancements.levitated.story.core.description=Apart from building the base for the sky city, you'll also have to keep it floating. I'm sure an End creature dedicates its life to keep things levitated. [Craft a Core of Levity.]
+
+advancements.levitated.story.spirit.title=Spirit Dragon
+advancements.levitated.story.spirit.description=Kikoku, the Legendary blade, is said to cleanse the spirit of its enemies. The spirit of the Ender Dragon might possess the power beyond nature, which could be of great help to the spell. [Obtain a Dragon Spirit.]
+
+advancements.levitated.story.potion.title=Alchemical Fuel
+advancements.levitated.story.potion.description=In addition to the Core of Levity, a large quantity of "fuel" is needed to keep the city floated. Sadly lava probably won't make the cut, so you had another idea. [Fill an Iron Drum with Potion of Levitation (non-extended version, 3min), then craft it into a Vial of Levitation.]
+
+advancements.levitated.story.scroll.title=Wild Pyromancer
+advancements.levitated.story.scroll.description=Eventually you'll need something to apply your spell to, a Spell Scroll infused with some nether magic would be nice. [Craft a Scroll of Ignis.]
+
+advancements.levitated.story.crystal.title=Living Essence
+advancements.levitated.story.crystal.description=Mobs in the nether sometimes drop a weird goo, which after researching in an ancient spell tome, turned out to be their essences. It is said that these essences actually grow into crystals when "planted" on a piece of Livingrock. With some infusion magic, the Crystal of Souls was born. [Craft a Crystal of Souls.]
+
+advancements.levitated.story.dna.title=Living City
+advancements.levitated.story.dna.description=A city won't ever adapt to its environment since it's never alive. So let's build one with some genetics this time. [Obtain a Genesis DNA.]
+
+advancements.levitated.story.contract.title=Call to Arms
+advancements.levitated.story.contract.description=If you're the only one living in the city, that'd be way too boring. Let's kindly ask some villagers to stay, shall we? [Craft a Folder of Contracts.]
+
+advancements.levitated.story.apple.title=Piece of Eden
+advancements.levitated.story.apple.description=Legend says that the Garden of Eden houses a holy artifact, the Apple of Eden. Maybe you can trick a tree into thinking it's growing in a holy garden. [Obtain an Apple of Eden.]
+
+advancements.levitated.story.globe.title=Miniature World
+advancements.levitated.story.globe.description=Here it is, every piece of the puzzle, completed. You've shrunk the entire city down to the size of a snow globe. Time to start a new age. [Craft a Miniature Sky City Globe.]
+
+# Skycity Advancements
+advancements.levitated.skycity.root.title=Begin Again
+advancements.levitated.skycity.root.description=It's been a long way, isn't it? I'm glad humanity got its second chance today. -Year 0, Sky Age.
+
+advancements.levitated.skycity.creative.title=Get Creative
+advancements.levitated.skycity.creative.description=And that's the end of the pack! Glad to see you here. You'll receive a Creative Paste Container upon completing the pack, feel free to use it to expand your own sky city. Each globe will have it's own unique ID, so you can visit other players' city if they allow it. If you ever wanna come back here, use the globe again or place a Waystone in your city.
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
@@ -430,6 +576,16 @@ tooltips.levitated.mana_paper_2=What? This is still paper! Just soaked with mana
 tooltips.levitated.endglow=Only survives on Stygian Grass.
 tooltips.levitated.hard_glass=Fused Quartz cannot be used to craft this item.
 tooltips.levitated.bottle=Water bottling via right clicking is disabled, use a Fluid Tank instead.
+tooltips.levitated.chaos_pearl=Cooldown: 30s
+tooltips.levitated.recall_pearl=No Cooldown
+tooltips.levitated.shard=Shard Power Ω
+tooltips.levitated.essence=Dropped rarely by corresponding mobs when killed by a player
+tooltips.levitated.contract=Only craftable with contracted villagers
+tooltips.levitated.deprecated=This item is deprecated due to a pack update, craft it in a crafting table to get a newer version.
+tooltips.levitated.transporter=Can pickup spawners
+tooltips.levitated.apple=Rare drop from Eden Apple Leaves
+tooltips.levitated.apple_2=So... tempting...
+tooltips.levitated.cloud=Generated in Underworld
 
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
@@ -438,6 +594,17 @@ description.levitated.feather=Every bird drops feathers, even paper ones. Also, 
 description.levitated.rainbow=Right click a Bifrost Block with a Rainbow Ingot to turn it into a Rainbow Block.
 description.levitated.mana_pool=You can find mana pools in custom End Cities.
 description.levitated.stand=You can find brewing stands in both vanilla and custom End Cities.
+description.levitated.solder=To create a Bucket of Solder, simply right click on fire with a Bucket of Solder Powder.
+description.levitated.chaos_pearl=Right click to teleport to a random location within a 10,000 block radius. Can only be crafted 10 times.
+description.levitated.recall_pearl=Right click to teleport to your previous location.
+description.levitated.dragon_spirit=Dropped by the Ender Dragon when killed by the Kikoku.
+description.levitated.contract=This item is only craftable with contracted villagers. In order to get a contracted villager, craft a Contract first, then ask a villager to sign it.
+description.levitated.biome_scanner=Biome Scanner is used to scan the biome of a chunk remotely (needs power) or locally (doesn't need power). It can also be used in combination with a Terrain Scanner to rebuild chunks remotely.
+description.levitated.terrain_scanner=Terrain Scanner is used to rebuild a 16*16*256 area in the southeast direction relative to its block position. When placed next to a Biome Scanner, clicking on the "Show map" button inside the Terrain Scanner will allow one to select a remote location as the starting position, thus rebuilding chunks remotely.
+description.levitated.scanner_queue=Scanner Queue is used to queue up chunks for a Terrain Scanner to rebuild. When placed next to a Terrain Scanner, one can type in absolute coordinates in a format like "350,250" (range limited to a 256 block radius around the queue), then click "Add" to add the coordinate to the queue. Then, click on "Build", the Terrain Scanner next to it will lock the starting location to the coordinate you just set. The Terrain Scanner will then start to rebuild at said location. Once it finishes building, it will then switch to the next location in the queue and start rebuilding again. One can set up to 5 coordinates in a Scanner queue, and have mulitple queues attached to a single Terrain Scanner.
+description.levitated.eden_leaves=A Dirt/Grass block surrounded by 8 Gold Blocks is considered a holy Dirt/Grass block. Oak Saplings grown on said blocks will occasionally grow into an Eden Tree. You may need a larger area of Dirt/Grass in order to grow an Eden Tree.
+description.levitated.dna=Dropped rarely by Creepers when killed by a player with the Bloodthirst effect.
+description.levitated.cloud=To get to the underworld, drop from y=255+ to a bedrock at y=0 in the overworld.
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=Hot Stick
@@ -446,6 +613,22 @@ unfamiliar.levitated.ore_flower_nether=Fancy Flame Flower
 unfamiliar.levitated.ore_flower=Hard Stone Flower
 unfamiliar.levitated.ore_flower_nether_floating=Flying Fancy Flame Flower
 unfamiliar.levitated.ore_flower_floating=Flying Hard Stone Flower
+unfamiliar.levitated.shard=Glowing Shard of Laputa
+unfamiliar.levitated.core=Yellow Shell with Purple Circles
+unfamiliar.levitated.dragon_spirit=Drop of Purple
+unfamiliar.levitated.scroll=Parchment Paper
+unfamiliar.levitated.scroll_ignis=Hot Parchment Paper with Red Drawings
+unfamiliar.levitated.crystal=Sharp Colored Rocks
+unfamiliar.levitated.essence=Fancy Goo
+unfamiliar.levitated.soul_crystal=Alternating Sharp Rocks
+unfamiliar.levitated.apple=Glowing Apple
+unfamiliar.levitated.dna=Lines in Orb
+unfamiliar.levitated.contract=Stack of Paper
+unfamiliar.levitated.eden_leaves=Apple Leaves
+unfamiliar.levitated.eden_leaves_fruitless=Golden Leaves
+unfamiliar.levitated.globe=Snow Globe
+unfamiliar.levitated.potion=Upside Down Vial
+unfamiliar.levitated.deflector=Tornado Go Away
 
 # Item Rename
 rename.levitated.shulker_ring=Ring of the Levitating Shulker
@@ -455,10 +638,12 @@ rename.levitated.refined_iron_ingot=Refined Steel Ingot
 rename.levitated.refined_iron_block=Block of Refined Steel
 rename.levitated.refined_iron_nugget=Refined Steel Nugget
 rename.levitated.refined_iron_plate=Refined Steel Plate
+rename.levitated.biome_scanner_deprecated=Biome Scanner (Deprecated)
+rename.levitated.biome_scanner=Biome Scanner
 
 # Tips
-tips.levitated.1=In the final advancement "The Long Journey Home", you'll have to find and land on a planet similar to the former Earth.
-tips.levitated.2=If you are playing with friends, you can use the command "/togetherforever invite" to sync your advancement progress.
+tips.levitated.1=In the advancement "The Long Journey Home", you'll have to find and land on a planet similar to the former Earth.
+tips.levitated.2=Crops do grow in the end, you just need to give them some light.
 tips.levitated.3=Having trouble bottling up water? Try again with a fluid tank!
 tips.levitated.4=Pure Daisy can only be found in non-vanilla end cities, which can be pretty rare if you're unlucky. Considering trading with other players if you are on a server.
 tips.levitated.5=Slime Islands don't spawn in the end, but you can find them when you are rebuilding the overworld.
@@ -467,7 +652,23 @@ tips.levitated.7=Scanner can only rebuild every block once, so you cannot mine a
 tips.levitated.8=You can actually sleep in the end now, I'm not trolling.
 tips.levitated.9=Don't be afraid of the void! You'll get teleported right back up.
 tips.levitated.10=Bedrock is not the only block that can generate grains of infinity.
-tips.levitated.11=Rubber Trees generally grow in Forest and Swamp biomes, occasionally in Birch Forest too.
+tips.levitated.11=Can't find End Cities with loot? Try random teleporting with a Chaos Pearl!
 tips.levitated.12=You do need all 16 generators running to start the rainbow generator, but you can always make more of the same one.
 tips.levitated.13=There are multiple options when processing materials, they all have their advantages and disadvantages.
 tips.levitated.14=A Small Plate Presser only presses basic metal blocks.
+tips.levitated.15=You can discover new planets by using a Warp Controller placed in a Space Station.
+tips.levitated.16=Not all planets are visible from the start, especially the habitable ones.
+tips.levitated.17=A good Paper Plane flies like a Bird.
+tips.levitated.18=Don't make mob farms, make a deep learning server room!
+tips.levitated.19=Keep an eye out when you're exploring, there're stories to be discovered.
+tips.levitated.20=There're some remains in the overworld, sadly, only bones were left.
+
+# Menu
+menu.levitated.sponsor.akliz.shown=Check out Akliz Hosting!
+menu.levitated.sponsor.akliz.hidden=Need a Server?
+menu.levitated.sponsor.discord.shown=Join our discord server!
+menu.levitated.sponsor.discord.hidden=Looking for other players?
+menu.levitated.sponsor.patreon.shown=Become a patron!
+menu.levitated.sponsor.patreon.hidden=Wanna support the team?
+menu.levitated.sponsor.button=Sponsors
+menu.levitated.sponsor.back=Back

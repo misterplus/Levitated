@@ -6,9 +6,16 @@ setTranslatedDescription("advancements.levitated.end.glitched_oby.description")
 addParent("triumph:levitated/end/keystone")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(900,27)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
+
+drawDirectLines()
 
 criteria = addCriteria("hasGlitchedOby", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:glitched_obsidian>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(640,0)

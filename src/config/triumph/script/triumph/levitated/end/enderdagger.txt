@@ -3,12 +3,17 @@ setIcon(<botania:enderdagger>)
 setTranslatedTitle("advancements.levitated.end.enderdagger.title")
 setTranslatedDescription("advancements.levitated.end.enderdagger.description")
 
-addParent("triumph:levitated/end/liquid_mana")
+addParent("triumph:levitated/end/mana_resource")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(271,44)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasEnderDagger", "minecraft:inventory_changed")
 criteria.addItem(<botania:enderdagger>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(224,114)

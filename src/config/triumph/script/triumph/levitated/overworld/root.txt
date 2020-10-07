@@ -6,7 +6,11 @@ setTranslatedDescription("advancements.levitated.overworld.root.description")
 setBackground("minecraft:textures/gui/advancements/backgrounds/stone.png")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(44,-87)
+
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("entered_overworld", "minecraft:changed_dimension")
 criteria.setDimensionDestination("overworld")
@@ -14,3 +18,4 @@ criteria.setDimensionDestination("overworld")
 setRewardFunction("triumph:overworld_items")
 
 pageHiddenUnless("triumph:levitated/overworld/root")
+setPos(0,54)

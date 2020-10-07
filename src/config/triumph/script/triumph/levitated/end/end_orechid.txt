@@ -6,9 +6,9 @@ setTranslatedDescription("advancements.levitated.end.end_orechid.description")
 addParent("triumph:levitated/end/natura_pylon")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(678,-34)
 
 criteria = addCriteria("hasEndOrechid", "minecraft:inventory_changed")
 criteria.addItem(<botania:specialflower, nbt:{type:"orechidEndium"}>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(480,81)

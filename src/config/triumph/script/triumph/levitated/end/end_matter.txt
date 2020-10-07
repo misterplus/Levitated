@@ -6,9 +6,9 @@ setTranslatedDescription("advancements.levitated.end.end_matter.description")
 addParent("triumph:levitated/end/ender_lilly")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(62,44)
 
 criteria = addCriteria("hasEndMatter", "minecraft:inventory_changed")
 criteria.addItem(<deepmoblearning:living_matter_extraterrestrial>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(64,94)

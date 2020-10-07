@@ -1,0 +1,19 @@
+setIcon(<techreborn:rubber_sapling>)
+
+setTranslatedTitle("advancements.levitated.overworld.rubber_tree.title")
+setTranslatedDescription("advancements.levitated.overworld.rubber_tree.description")
+
+addParent("triumph:levitated/overworld/root")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
+
+criteria = addCriteria("hasSapling", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:rubber_sapling>)
+
+visibleIf("triumph:levitated/overworld/root")
+setPos(32,0)

@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.plastic.description")
 addParent("triumph:levitated/nether/lpg")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(202,-42)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasPlasticMixer", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:plastic_mixer>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(192,40)

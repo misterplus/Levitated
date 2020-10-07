@@ -6,9 +6,12 @@ setTranslatedDescription("advancements.levitated.nether.altar.description")
 addParent("triumph:levitated/nether/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(12,-69)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
 
 criteria = addCriteria("hasSummonAltar", "minecraft:inventory_changed")
 criteria.addItem(<zensummoning:altar>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(32,27)

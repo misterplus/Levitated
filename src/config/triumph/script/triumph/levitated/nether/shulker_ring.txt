@@ -6,9 +6,12 @@ setTranslatedDescription("advancements.levitated.nether.shulker_ring.description
 addParent("triumph:levitated/nether/chicken_ring")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(87,-96)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
 
 criteria = addCriteria("hasShulkerring", "minecraft:inventory_changed")
 criteria.addItem(<extrautils2:chickenring:1>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(96,27)

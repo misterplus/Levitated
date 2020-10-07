@@ -1,4 +1,3 @@
-Parser.addRequiredMod("immersiveengineering")
 setIcon(<forge:bucketfilled, nbt:{FluidName:"oil",Amount:1000}>)
 
 setTranslatedTitle("advancements.levitated.nether.oil.title")
@@ -7,9 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.oil.description")
 addParent("triumph:levitated/nether/blast_furnace")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(87,-42)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasOilBucket", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, nbt:{FluidName:"oil",Amount:1000}>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(96,54)

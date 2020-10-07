@@ -1,20 +1,23 @@
+import crafttweaker.data.IData;
 import crafttweaker.player.IPlayer;
 import crafttweaker.item.IItemStack;
+import crafttweaker.command.ICommandManager;
+import crafttweaker.entity.IEntityEquipmentSlot;
 import crafttweaker.event.EnderTeleportEvent;
 import crafttweaker.event.BlockBreakEvent;
-import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.EntityLivingFallEvent;
+import crafttweaker.event.EntityLivingDeathDropsEvent;
+import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.event.PlayerChangedDimensionEvent;
 import crafttweaker.event.PlayerRightClickItemEvent;
 import crafttweaker.event.PlayerBreakSpeedEvent;
+import crafttweaker.event.PlayerLoggedInEvent;
 import mods.ctutils.utils.Math;
-import crafttweaker.data.IData;
-import crafttweaker.entity.IEntityEquipmentSlot;
-import crafttweaker.command.ICommandManager;
+import scripts.ct.Function;
 
 //every ender teleport now creates a extraterrestrail matter on the ground
 events.onEnderTeleport(function(event as EnderTeleportEvent) {
-	if (!event.entityLivingBase.world.remote && isNull(event.entityLivingBase.definition)) {
+	if (!event.entityLivingBase.world.remote && event.entityLivingBase instanceof IPlayer) {
 		event.entityLivingBase.world.spawnEntity(<deepmoblearning:living_matter_extraterrestrial>.createEntityItem(event.entityLivingBase.world, event.targetX, event.targetY, event.targetZ));
 	}
 });
@@ -34,12 +37,11 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
 });
 
 //feather falling enchant
+static enchant as IData = <enchantment:contenttweaker:feather_falling>.makeEnchantment(1).makeTag() as IData;
 events.onEntityLivingFall(function(event as EntityLivingFallEvent) {
 	if (!event.entityLivingBase.world.remote && event.entityLivingBase instanceof IPlayer) {
-		var player as IPlayer;
-		player = event.entityLivingBase;
+		var player as IPlayer = event.entityLivingBase;
 		if !isNull(player.getItemInSlot(IEntityEquipmentSlot.feet())) {
-			var enchant = <enchantment:contenttweaker:feather_falling>.makeEnchantment(1).makeTag() as IData;
 			var boots = player.getItemInSlot(IEntityEquipmentSlot.feet());
 			var tag = boots.tag as IData;
 			var distance = Math.ceil(event.distance);
@@ -67,8 +69,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 		if data has "PlaneCountdown" {
 			var time = data.memberGet("PlaneCountdown") as int;
 			if time > 0 {
-				time = time - 1;
-				player.update(data + {"PlaneCountdown": time});
+				player.update(data + {"PlaneCountdown": time - 1});
 			}
 			else if time == 0 {
 				player.give(<minecraft:feather>);
@@ -97,26 +98,87 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 events.onPlayerChangedDimension(function(event as PlayerChangedDimensionEvent) {
 	var player = event.player as IPlayer;
 	if !player.world.remote {
-		//Finale
+		var s = server.commandManager as ICommandManager;
+		//Bad Ending
 		if event.to == 6666 {
-			var data = player.data;
-			if !(data has "HasFinished") {
-				player.give(<contenttweaker:trophy>);
-				player.update(data + {"HasFinished": 1});
-			}
+			s.executeCommand(server, "gamestage silentadd " + player.name + " bad_ending");
 		}
 		//HaocenStar
-		if event.to == 2000 {
-			var s = server.commandManager as ICommandManager;
+		else if event.to == 2000 {
         	s.executeCommand(server, "gamerule sendCommandFeedback false");
         	s.executeCommand(server, "gamerule commandBlockOutput false");
         	s.executeCommand(server, "gamerule logAdminCommands false");
         	s.executeCommand(server, "advancement grant " + player.name + " only triumph:levitated/easteregg/valkyrie");
 			s.executeCommand(server, "gamemode 2 " + player.name);
 		}
-		if event.from == 2000 {
-			var s = server.commandManager as ICommandManager;
-			s.executeCommand(server, "gamemode 0 " + player.name);
+		//Good Ending
+		else if event.to == 2001 {
+			s.executeCommand(server, "gamestage silentadd " + player.name + " good_ending");
 		}
+		if event.from == 2000 {
+			s.executeCommand(server, "gamemode 0 " + player.name);
+			s.executeCommand(server, "gamerule sendCommandFeedback true");
+        	s.executeCommand(server, "gamerule commandBlockOutput true");
+        	s.executeCommand(server, "gamerule logAdminCommands true");
+		}
+	}
+});
+
+//chaos pearl cooldown
+events.onPlayerTick(function(event as PlayerTickEvent) {
+	var player = event.player as IPlayer;
+	if !player.world.remote {
+		var data = player.data;
+		if data has "ChaosCooldown" {
+			var cd = data.memberGet("ChaosCooldown") as int;
+			if cd > 0 {
+				player.update(data + {"ChaosCooldown": cd - 1});
+			}
+		}
+	}
+});
+
+//Additional Drops
+static ess as IItemStack[string] = {
+	"minecraft:wither_skeleton": <contenttweaker:essence_wither>,
+	"minecraft:magma_cube": <contenttweaker:essence_magma>,
+	"minecraft:zombie_pigman": <contenttweaker:essence_pigman>,
+	"minecraft:ghast": <contenttweaker:essence_ghast>,
+	"minecraft:blaze": <contenttweaker:essence_blaze>
+} as IItemStack[string];
+static animals as string[] = ["minecraft:pig", "minecraft:sheep", "minecraft:chicken", "minecraft:cow"] as string[];
+events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent) {
+	var entity = event.entityLivingBase;
+	if !entity.world.remote {
+		if event.damageSource.trueSource instanceof IPlayer {
+			var player as IPlayer = event.damageSource.trueSource;
+			if player.hasGameStage("spell") {
+				var id = Function.getEntityID(entity);
+				if (id == "minecraft:ender_dragon" && !isNull(player.currentItem) && Function.getItemID(player.currentItem) == "extrautils2:lawsword") {
+					event.addItem(<contenttweaker:dragon_spirit>);
+				}
+				else if Math.random() > 0.9 as double {
+					if ess.keySet has id {
+						event.addItem(ess[id]);
+					}
+					else if id == "minecraft:creeper" {
+						var potions = player.activePotionEffects;
+						for potion in potions {
+							if potion.potion.name == "botania.potion.bloodthirst" {
+								event.addItem(<contenttweaker:dna>);
+								break;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+});
+
+//SkyCity ID
+events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
+	if !event.player.world.remote {
+		event.player.world.getGameRules().addGameRule("skyCityID", "0", "Numeric");
 	}
 });

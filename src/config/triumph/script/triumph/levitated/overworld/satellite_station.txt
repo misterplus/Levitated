@@ -3,12 +3,18 @@ setIcon(<advancedrocketry:satellitecontrolcenter>)
 setTranslatedTitle("advancements.levitated.overworld.satellite_station.title")
 setTranslatedDescription("advancements.levitated.overworld.satellite_station.description")
 
-addParent("triumph:levitated/overworld/satellite")
+addParent("triumph:levitated/overworld/space_station")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(411,-39)
+
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasSatelliteStation", "minecraft:inventory_changed")
 criteria.addItem(<advancedrocketry:satellitecontrolcenter>)
 
+hiddenIf("triumph:levitated/story/globe")
 visibleIf("triumph:levitated/overworld/root")
+setPos(192,54)

@@ -6,7 +6,11 @@ setTranslatedDescription("advancements.levitated.end.nether_knowledge.descriptio
 addParent("triumph:levitated/end/natura_pylon")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(678,6)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("useNetherBook", "triumph:right_click_item")
 criteria.setItem(<contenttweaker:nether_book>)
@@ -14,3 +18,4 @@ criteria.setItem(<contenttweaker:nether_book>)
 setRewardFunction("triumph:nether")
 
 visibleIf("triumph:levitated/end/root")
+setPos(480,54)

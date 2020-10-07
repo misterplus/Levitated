@@ -1,0 +1,19 @@
+{
+    "name": "contenttweaker:crystal_blaze",
+    "mod": "contenttweaker",
+    "sapling": {
+        "name": "contenttweaker:essence_blaze",
+        "data": 0
+    },
+    "growTimeMultiplier": 60.0,
+    "drops": [
+        {
+            "name": "contenttweaker:crystal_blaze",
+            "data": 0,
+            "type": "CUSTOM",
+            "count": 1,
+            "chance": 1
+        }
+    ],
+    "compatibleSoilTags": ["livingrock"]
+}

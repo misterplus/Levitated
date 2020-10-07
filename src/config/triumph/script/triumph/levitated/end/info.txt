@@ -1,0 +1,13 @@
+setIcon(<botania:cosmetic:31>)
+
+setTranslatedTitle("advancements.levitated.end.info.title")
+setTranslatedDescription("advancements.levitated.end.info.description")
+
+addParent("triumph:levitated/end/root")
+setShowToast(false)
+setAnnounceToChat(false)
+
+hideLines()
+
+addCriteria("location", "minecraft:location")
+setPos(32,168)

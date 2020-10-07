@@ -1,0 +1,19 @@
+setIcon(<techreborn:upgrades:0>)
+
+setTranslatedTitle("advancements.levitated.overworld.speed.title")
+setTranslatedDescription("advancements.levitated.overworld.speed.description")
+
+addParent("triumph:levitated/overworld/machine_frame")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#0085A2)
+setCompletedTitleColor(#0085A2)
+
+drawDirectLines()
+
+criteria = addCriteria("hasSpeedUpgrade", "minecraft:inventory_changed")
+criteria.addItem(<techreborn:upgrades:0>)
+
+visibleIf("triumph:levitated/overworld/root")
+setPos(64,81)

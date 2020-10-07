@@ -7,7 +7,13 @@ addParent("triumph:levitated/end/scanner")
 addParent("triumph:levitated/end/nether_portal")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(982,-4)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Challenge")
+
+drawDirectLines()
 
 criteria = addCriteria("hasNetherrack", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:netherrack>)
@@ -15,3 +21,4 @@ criteria.addItem(<minecraft:netherrack>)
 setRewardFunction("triumph:nether_items")
 
 visibleIf("triumph:levitated/end/root")
+setPos(640,54)

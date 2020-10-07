@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.induction.description")
 addParent("triumph:levitated/nether/chassis")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(330,-15)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasInductionSmelter", "minecraft:inventory_changed")
 criteria.addItem(<thermalexpansion:machine:3>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(288,121)

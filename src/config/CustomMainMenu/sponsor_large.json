@@ -1,0 +1,100 @@
+{
+  "buttons": {
+    "akliz": {
+      "text": "menu.levitated.sponsor.akliz.hidden",
+      "hoverText": "menu.levitated.sponsor.akliz.shown",
+      "texture": "levitated:textures/gui/akliz.png",
+      "alignment": "b0",
+      "posX": 0,
+      "posY": 0,
+      "width": 85,
+      "height": 85,
+      "imageWidth": 256,
+      "imageHeight": 256,
+      "textOffsetX": 195,
+      "normalTextColor": 15113955,
+      "hoverTextColor": 15113955,
+      "action": {
+        "type": "openLink",
+        "link": "https://www.akliz.net/levitated"
+      }
+    },
+
+    "patreon": {
+      "text": "menu.levitated.sponsor.patreon.hidden",
+      "hoverText": "menu.levitated.sponsor.patreon.shown",
+      "texture": "levitated:textures/gui/patreon.png",
+      "alignment": "b1",
+      "posX": 0,
+      "posY": 0,
+      "width": 65,
+      "height": 65,
+      "imageWidth": 128,
+      "imageHeight": 128,
+      "textOffsetX": 195,
+      "normalTextColor": 15113955,
+      "hoverTextColor": 15113955,
+      "action": {
+        "type": "openLink",
+        "link": "https://www.patreon.com/misterplus"
+      }
+    },
+
+    "discord": {
+      "text": "menu.levitated.sponsor.discord.hidden",
+      "hoverText": "menu.levitated.sponsor.discord.shown",
+      "texture": "levitated:textures/gui/discord.png",
+      "alignment": "b2",
+      "posX": 0,
+      "posY": 0,
+      "width": 85,
+      "height": 85,
+      "imageWidth": 256,
+      "imageHeight": 256,
+      "textOffsetX": 195,
+      "normalTextColor": 15113955,
+      "hoverTextColor": 15113955,
+      "action": {
+        "type": "openLink",
+        "link": "https://discord.gg/9YFZz9b"
+      }
+    },
+
+    "back": {
+      "text": "menu.levitated.sponsor.back",
+      "alignment": "bottom_right",
+      "posX": -50,
+      "posY": -20,
+      "width": 50,
+      "height": 20,
+      "action": {
+        "type": "openGui",
+        "gui": "mainmenu"
+      }
+    }
+  },
+
+  "alignments": {
+    "b0": {
+      "factorWidth": 0.15,
+      "factorHeight": 0.112
+    },
+
+    "b1": {
+      "factorWidth": 0.168,
+      "factorHeight": 0.432
+    },
+
+    "b2": {
+      "factorWidth": 0.15,
+      "factorHeight": 0.694
+    }
+  },
+
+  "other": {
+    "background": {
+      "image": "levitated:textures/gui/sponsor.png",
+      "mode": "stretch"
+    }
+  }
+}

@@ -6,11 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.pcb_blueprint.descriptio
 addParent("triumph:levitated/nether/tablet")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(245,-69)
 
-drawDirectLines()
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasPCBBluprint", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:pcb_blueprint>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(256,27)

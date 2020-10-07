@@ -6,9 +6,9 @@ setTranslatedDescription("advancements.levitated.end.bed.description")
 addParent("triumph:levitated/end/string")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(560,-75)
 
 criteria = addCriteria("hasBed", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:bed>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(416,94)

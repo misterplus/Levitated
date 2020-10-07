@@ -1,0 +1,18 @@
+setIcon(<contenttweaker:dna>)
+
+setTranslatedTitle("advancements.levitated.story.dna.title")
+setTranslatedDescription("advancements.levitated.story.dna.description")
+
+addParent("triumph:levitated/story/plan")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setFrameType("Goal")
+
+hideLines()
+
+criteria = addCriteria("hasDNA", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:dna>)
+setPos(203,2)

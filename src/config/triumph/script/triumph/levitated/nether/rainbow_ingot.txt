@@ -6,9 +6,14 @@ setTranslatedDescription("advancements.levitated.nether.rainbow_ingot.descriptio
 addParent("triumph:levitated/nether/rainbowgen")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(454,-15)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Challenge")
 
 criteria = addCriteria("hasRainbowIngot", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:rainbow_ingot>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(416,135)

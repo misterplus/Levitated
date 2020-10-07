@@ -4,12 +4,16 @@ setTranslatedTitle("advancements.levitated.nether.overworld_star.title")
 setTranslatedDescription("advancements.levitated.nether.overworld_star.description")
 
 addParent("triumph:levitated/nether/induction")
-addParent("triumph:levitated/nether/star")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(372,12)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasOverworldStar", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:overworld_star>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(320,135)

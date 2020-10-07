@@ -6,10 +6,14 @@ setTranslatedDescription("advancements.levitated.resources.nether_aluminum.descr
 addParent("triumph:levitated/resources/root")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(46,-136)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
+
 hideLines()
 
 criteria = addCriteria("hasAluminum", "minecraft:inventory_changed")
 criteria.addItem(<netherendingores:ore_nether_modded_1:0>)
 
 hiddenUnless("triumph:levitated/end/netherrack")
+setPos(46,-136)

@@ -1,0 +1,21 @@
+setIcon(<botania:manaresource:0>)
+
+setTranslatedTitle("advancements.levitated.end.mana_resource.title")
+setTranslatedDescription("advancements.levitated.end.mana_resource.description")
+
+addParent("triumph:levitated/end/mana_pool")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
+
+criteria = addCriteria("hasManaResources", "minecraft:inventory_changed")
+criteria.addItem(<botania:manaresource:0>)
+criteria.addItem(<botania:manaresource:1>)
+criteria.addItem(<botania:manaresource:2>)
+
+visibleIf("triumph:levitated/end/root")
+setPos(192,141)

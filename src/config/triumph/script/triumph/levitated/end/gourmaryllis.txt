@@ -1,0 +1,14 @@
+setIcon(<botania:specialflower, nbt:{type:"gourmaryllis"}>)
+
+setTranslatedTitle("advancements.levitated.end.gourmaryllis.title")
+setTranslatedDescription("advancements.levitated.end.gourmaryllis.description")
+
+addParent("triumph:levitated/end/endoflame")
+setShowToast(true)
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasGourmaryllis", "minecraft:inventory_changed")
+criteria.addItem(<botania:specialflower, nbt:{type:"gourmaryllis"}>)
+
+visibleIf("triumph:levitated/end/root")
+setPos(288,60)

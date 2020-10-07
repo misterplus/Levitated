@@ -1,0 +1,14 @@
+setIcon(<bonsaitrees:bonsaipot>)
+
+setTranslatedTitle("advancements.levitated.end.bonsai.title")
+setTranslatedDescription("advancements.levitated.end.bonsai.description")
+
+addParent("triumph:levitated/end/clay_flower")
+setShowToast(true)
+setAnnounceToChat(false)
+
+criteria = addCriteria("hasBonsai", "minecraft:inventory_changed")
+criteria.addItem(<bonsaitrees:bonsaipot>)
+
+visibleIf("triumph:levitated/end/root")
+setPos(448,134)

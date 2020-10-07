@@ -1,19 +1,23 @@
 #priority 6
+
 import mods.immersiveengineering.Excavator.addMineral;
+import mods.immersiveengineering.ArcFurnace;
+import mods.immersiveengineering.CokeOven;
+import mods.immersiveengineering.Crusher;
 
 //remove
 var minerals = ["Silt", "Lapis", "Galena", "Silver", "Bauxite", "Copper", "Uranium", "Platinum", "Cassiterite", "Magnetite", "Iron", "Cinnabar", "Nickel", "Lead", "Gold", "Pyrite", "Quartzite", "Coal"] as string[];
 for mineral in minerals {
     mods.immersiveengineering.Excavator.removeMineral(mineral);
 }
-mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:165>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:166>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
+ArcFurnace.removeRecipe(<thermalfoundation:material:165>);
+ArcFurnace.removeRecipe(<thermalfoundation:material:166>);
+ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
 mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:38>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<thermalfoundation:ore:5>);
-mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);
-mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:stone_decoration:3>);
-mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
+Crusher.removeRecipesForInput(<thermalfoundation:ore:5>);
+CokeOven.removeRecipe(<immersiveengineering:material:6>);
+CokeOven.removeRecipe(<immersiveengineering:stone_decoration:3>);
+CokeOven.removeRecipe(<minecraft:coal:1>);
 recipes.remove(<immersiveengineering:metal_device0:5>);
 
 //add
@@ -42,22 +46,22 @@ addMineral("Sapphire", 70, 0.25, ["oreSapphire"], [1], [0]);
 addMineral("Tungsten", 25, 0.30, ["oreTungsten"], [1], [0]);
 
 //Rainbow Ingot
-mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:rainbow_ingot>, <ore:blockUranium>, <immersiveengineering:material:7>, 600, 4096, [<extrautils2:decorativesolid:8>, <ore:itemEnderCrystal>, <ore:itemPrecientCrystal>], "Alloying");
+ArcFurnace.addRecipe(<contenttweaker:rainbow_ingot>, <ore:blockUranium>, <immersiveengineering:material:7>, 600, 4096, [<extrautils2:decorativesolid:8>, <ore:itemEnderCrystal>, <ore:itemPrecientCrystal>], "Alloying");
 
 //Early calcium sources
-mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:32>, <ore:stoneMarble>, 4096);
-mods.immersiveengineering.Crusher.addRecipe(<techreborn:dust:4>, <ore:stoneBasalt>, 4096);
+Crusher.addRecipe(<techreborn:dust:32>, <ore:stoneMarble>, 4096);
+Crusher.addRecipe(<techreborn:dust:4>, <ore:stoneBasalt>, 4096);
 
 //Refined steel
-mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:ingot:19> * 2, <ore:ingotSteel> * 3, <immersiveengineering:material:7>, 200, 1024, [<techreborn:dust:8> * 2, <immersiveengineering:material:17> * 2], "Alloying");
+ArcFurnace.addRecipe(<techreborn:ingot:19> * 2, <ore:ingotSteel> * 3, <immersiveengineering:material:7>, 200, 1024, [<techreborn:dust:8> * 2, <immersiveengineering:material:17> * 2], "Alloying");
 
 //Remove platinum from nickel
-mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:69> * 2, <ore:oreNickel>, 6000);
+Crusher.addRecipe(<thermalfoundation:material:69> * 2, <ore:oreNickel>, 6000);
 
 //Coke oven buff
-mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6>, 500, <minecraft:coal>, 800);
-mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:stone_decoration:3>, 5000, <ore:blockCoal>, 7200);
-mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 250, <ore:logWood>, 400);
+CokeOven.addRecipe(<immersiveengineering:material:6>, 500, <minecraft:coal>, 800);
+CokeOven.addRecipe(<immersiveengineering:stone_decoration:3>, 5000, <ore:blockCoal>, 7200);
+CokeOven.addRecipe(<minecraft:coal:1>, 250, <ore:logWood>, 400);
 
 //Pump
 recipes.addShaped(<immersiveengineering:metal_device0:5>, [[null, <ore:plateSteel>, null],[<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>], [<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>]]);

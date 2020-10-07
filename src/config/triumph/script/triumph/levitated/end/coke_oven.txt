@@ -1,4 +1,3 @@
-Parser.addRequiredMod("immersiveengineering")
 setIcon(<immersiveengineering:stone_device, meta:0>)
 
 setTranslatedTitle("advancements.levitated.end.coke_oven.title")
@@ -7,9 +6,9 @@ setTranslatedDescription("advancements.levitated.end.coke_oven.description")
 addParent("triumph:levitated/end/clay_flower")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(600,-34)
 
 criteria = addCriteria("formed_coke_oven", "immersiveengineering:multiblock_formed")
 criteria.setMultiblock("IE:CokeOven")
 
 visibleIf("triumph:levitated/end/root")
+setPos(448,107)

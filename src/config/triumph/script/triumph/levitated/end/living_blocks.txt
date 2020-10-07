@@ -3,13 +3,18 @@ setIcon(<botania:livingrock>)
 setTranslatedTitle("advancements.levitated.end.living_blocks.title")
 setTranslatedDescription("advancements.levitated.end.living_blocks.description")
 
-addParent("triumph:levitated/end/liquid_mana")
+addParent("triumph:levitated/end/mana_pool")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(271,6)
+
+setCompletedIconColor(#B483B4)
+setCompletedTitleColor(#B483B4)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasBlockLiving", "minecraft:inventory_changed")
 criteria.addItem(<botania:livingwood>)
 criteria.addItem(<botania:livingrock>)
 
 visibleIf("triumph:levitated/end/root")
+setPos(192,87)

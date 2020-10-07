@@ -1,0 +1,20 @@
+setIcon(<contenttweaker:globe>)
+
+setTranslatedTitle("advancements.levitated.story.globe.title")
+setTranslatedDescription("advancements.levitated.story.globe.description")
+
+addParent("triumph:levitated/story/plan")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#2C8A00)
+setCompletedTitleColor(#2C8A00)
+setFrameType("Challenge")
+
+hideLines()
+
+criteria = addCriteria("hasGlobe", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:globe>)
+
+hiddenUnless("triumph:levitated/story/plan")
+setPos(278,27)

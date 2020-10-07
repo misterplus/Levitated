@@ -4,12 +4,16 @@ setTranslatedTitle("advancements.levitated.nether.chamber.title")
 setTranslatedDescription("advancements.levitated.nether.chamber.description")
 
 addParent("triumph:levitated/nether/compiron")
-addParent("triumph:levitated/nether/resonator")
 setShowToast(true)
 setAnnounceToChat(false)
-setPos(124,-15)
+
+setCompletedIconColor(#B00000)
+setCompletedTitleColor(#B00000)
+setUncompletedIconColor(#B0B0B0)
+setFrameType("Goal")
 
 criteria = addCriteria("hasChamber", "minecraft:inventory_changed")
 criteria.addItem(<pneumaticcraft:pressure_chamber_wall>)
 
 visibleIf("triumph:levitated/nether/root")
+setPos(128,135)

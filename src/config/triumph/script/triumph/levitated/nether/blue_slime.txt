@@ -1,0 +1,17 @@
+setIcon(<deepmoblearning:data_model_tinker_slime>)
+
+setTranslatedTitle("advancements.levitated.nether.blue_slime.title")
+setTranslatedDescription("advancements.levitated.nether.blue_slime.description")
+
+addParent("triumph:levitated/nether/altar")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
+
+criteria = addCriteria("hasBlueSlimeModel", "minecraft:inventory_changed")
+criteria.addItem(<deepmoblearning:data_model_tinker_slime>)
+
+visibleIf("triumph:levitated/nether/root")
+setPos(64,0)
