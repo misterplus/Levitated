@@ -662,3 +662,13 @@ tips.levitated.17=优质的纸飞机能够像鸟儿一样飞行。
 tips.levitated.18=不推荐搭建刷怪塔，战利品制造机它不香吗？
 tips.levitated.19=探索时留心各种遗迹，说不定会发现一些古老的故事。
 tips.levitated.20=主世界还有一些东西残留，其实，只有一些骨架(
+
+# Menu
+menu.levitated.sponsor.akliz.shown=来Akliz租用服务器吧!
+menu.levitated.sponsor.akliz.hidden=在找服务商?
+menu.levitated.sponsor.discord.shown=加入我们的Discord服务器!
+menu.levitated.sponsor.discord.hidden=在找其他玩家吗?
+menu.levitated.sponsor.patreon.shown=成为Patreon赞助者吧!
+menu.levitated.sponsor.patreon.hidden=想要支持团队吗?
+menu.levitated.sponsor.button=赞助&链接
+menu.levitated.sponsor.back=返回
