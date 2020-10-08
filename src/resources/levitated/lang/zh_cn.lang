@@ -526,13 +526,13 @@ advancements.levitated.story.spirit.description=鬼哭是一把能够净化邪�
 advancements.levitated.story.potion.title=潜影为形，药水为神
 advancements.levitated.story.potion.description=有了悬浮的技术，你还需要一些“燃料”驱动它。当然，熔岩肯定不行，再想想别的主意吧。[用漂浮药水装满一个铁桶 (非原版铁桶，药水时效为3分钟)，然后将它制作成浓缩悬浮精华瓶]
 
-advancements.levitated.story.scroll.title=和事佬
+advancements.levitated.story.scroll.title=卷轴熔聚，圣物归元
 advancements.levitated.story.scroll.description=卷轴一般都会当做法术的载体，将一些下界能量注入进卷轴可以将法术所需的各种材料完美融合。[制作一个阴焰卷轴]
 
 advancements.levitated.story.crystal.title=精髓凝晶
 advancements.levitated.story.crystal.description=杀死下界生物有时会掉落奇特的粘稠物质，查阅古书后，你发现这是它们的精髓。书中还写：埋藏于活石中，魂葬而结晶，却不失其灵；集齐于祭坛之上，辅以魂粉、魔力，自凝聚一体，相生相成。[制作一个葬魂灵晶]
 
-advancements.levitated.story.dna.title=创世，创生
+advancements.levitated.story.dna.title=创生
 advancements.levitated.story.dna.description=如果不想你的天空之城是一座死城的话，这是必不可少的。[获得一个始源DNA]
 
 advancements.levitated.story.contract.title=登高一呼，山鸣谷应
@@ -548,7 +548,7 @@ advancements.levitated.story.globe.description=还有这儿...啊！终于拼好
 advancements.levitated.skycity.root.title=新的起点
 advancements.levitated.skycity.root.description=你又踏上了一段漫长的道路，我很开心能看到人类获得新生。-天空历，0 年。
 
-advancements.levitated.skycity.creative.title=拥抱黎明，享受黄昏，沐日浴月，双手创世。
+advancements.levitated.skycity.creative.title=拥抱黎明，享受黄昏，沐日浴月，创世!
 advancements.levitated.skycity.creative.description=你终于来到了本包的结局！完结本包后，你会得到一个创造粘贴容器作为奖励，你可以使用它扩建你的天空之城。每个水晶球都会有唯一的ID，所以你可以在得到别人的允许后拜访他的天空之城，返回自己的天空之城也很简单，只需再次使用水晶球或在城市中放上指路石。
 
 # Custom Tooltips
@@ -599,12 +599,13 @@ description.levitated.chaos_pearl=右击即可在10000格半径内随机传送�
 description.levitated.recall_pearl=右击即可回到传送起点。
 description.levitated.dragon_spirit=掉落于被鬼哭击杀的末影龙。
 description.levitated.contract=只能用已签契约的村民合成。首先制作一个契约，然后让村民签字。
-description.levitated.biome_scanner=生物群系扫描仪能用来远程扫描一个区块的群系（需要能量），或用来定位（不需要能量）。它也能与地形扫描仪搭配使用，以远程重建区块。
-description.levitated.terrain_scanner=地形扫描仪能够重建机器东南方向16*16*256大小的区域。放置在生物群系扫描仪旁边，点击地形扫描仪中的”显示地图”按钮能让你远程选择一个地点作为起始点，从而远程重建区块。
-description.levitated.scanner_queue=扫描队列用来为地形扫描仪排列重建序列。放置在地形扫描仪旁边，然后玩家输入一个相对坐标，例如”350,250”（范围限制在队列周围256个方块为半径的圆内），然后点击”添加”来将坐标加入队列中。接着，点击”建造”，它旁边的地形扫描仪就会锁定你选择的坐标。地形扫描仪将会开始在上述地点处重建。当完成重建任务后，它就会自动切换到队列中下一个地点继续重建。玩家可以在扫描队列中设置最多5个坐标，并且一个地形扫描仪能够同时进行多个队列任务。
-description.levitated.eden_leaves=被8个金块包围的泥土/草方块可以当做神圣土块。橡木树苗在其上生长就有概率长为伊甸神树。你需要准备一大片铺满泥土/草方块的地方来种植伊甸神树。
+description.levitated.biome_scanner=生物群系扫描仪能用来远程扫描一个区块的群系(需要能量)，或用来定位(不需要能量)。它也能与地形扫描仪搭配使用，以远程重建区块。
+description.levitated.terrain_scanner=地形扫描仪能够重建机器东南方向16*16*256大小的区域。放置在生物群系扫描仪旁边，点击地形扫描仪中的"显示地图"按钮能让你远程选择一个地点作为起始点，从而远程重建区块。
+description.levitated.scanner_queue=扫描队列用来为地形扫描仪排列重建序列。放置在地形扫描仪旁边，然后玩家输入一个相对坐标，例如"350,250"(范围限制在队列周围256个方块为半径的圆内)，然后点击"添加"来将坐标加入队列中。接着，点击"建造"，它旁边的地形扫描仪就会锁定你选择的坐标。地形扫描仪将会开始在上述地点处重建。当完成重建任务后，它就会自动切换到队列中下一个地点继续重建。玩家可以在扫描队列中设置最多5个坐标，并且一个地形扫描仪能够同时进行多个队列任务。
+description.levitated.eden_leaves=被8个金块包围的泥土/草方块可以当做神圣土块。橡木树苗在其上生长就有概率长为伊甸神树。不过你还需要在金块旁准备一大片铺满泥土/草方块的地方来种植伊甸神树。
 description.levitated.dna=拥有嗜血BUFF的玩家杀死苦力怕后有概率掉落始源DNA。
 description.levitated.cloud=在主世界，从255格高度以上落到基岩上以前往下世界。(最好摘下天使指环)
+description.levitated.globe=由于掉落物刷新机制，最好制作时多准备一些魔力池同时为凝聚板供能。
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=炽热的棍子

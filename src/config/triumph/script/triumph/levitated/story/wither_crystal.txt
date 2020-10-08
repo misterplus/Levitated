@@ -13,5 +13,10 @@ drawDirectLines()
 criteria = addCriteria("clickWitherCrystal", "triumph:right_click_block")
 criteria.setBlock("contenttweaker:wither_crystal")
 
+criteria2 = addCriteria("leftClickWitherCrystal", "triumph:left_click_block")
+criteria2.setBlock("contenttweaker:wither_crystal")
+
+setRequirements("any")
+
 setRewardFunction("triumph:sudden_dark_pafoof")
 setPos(-32,27)

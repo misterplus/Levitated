@@ -605,6 +605,7 @@ description.levitated.scanner_queue=Scanner Queue is used to queue up chunks for
 description.levitated.eden_leaves=A Dirt/Grass block surrounded by 8 Gold Blocks is considered a holy Dirt/Grass block. Oak Saplings grown on said blocks will occasionally grow into an Eden Tree. You may need a larger area of Dirt/Grass in order to grow an Eden Tree.
 description.levitated.dna=Dropped rarely by Creepers when killed by a player with the Bloodthirst effect.
 description.levitated.cloud=To get to the underworld, drop from y=255+ to a bedrock at y=0 in the overworld.
+description.levitated.globe=May need more than one mana pool for crafting due to item despawn timer.
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=Hot Stick
@@ -670,5 +671,5 @@ menu.levitated.sponsor.discord.shown=Join our discord server!
 menu.levitated.sponsor.discord.hidden=Looking for other players?
 menu.levitated.sponsor.patreon.shown=Become a patron!
 menu.levitated.sponsor.patreon.hidden=Wanna support the team?
-menu.levitated.sponsor.button=Sponsors
+menu.levitated.sponsor.button=Links
 menu.levitated.sponsor.back=Back
