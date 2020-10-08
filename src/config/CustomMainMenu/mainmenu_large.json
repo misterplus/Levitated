@@ -113,7 +113,7 @@
     },
 
     "info": {
-      "text": "Levitated Beta 1.5.0\nMinecraft #mcversion#\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
+      "text": "Levitated Beta 1.5.0-HOTFIX\nMinecraft #mcversion#\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
       "posX": 0,
       "posY": -40,
       "color": -1,
