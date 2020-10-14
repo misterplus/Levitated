@@ -25,26 +25,4 @@ pressurechamber.addRecipe([<enderio:item_material>, <extrautils2:decorativesolid
 pressurechamber.addRecipe([<enderio:item_material:66>, <extrautils2:decorativesolid:3>, <enderio:item_material:67>, <pneumaticcraft:printed_circuit_board>], -0.25, [<enderio:item_material:54>]);
 
 //Rainbow gen
-pressurechamber.addRecipe([
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_culinary"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_death"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_dragonsbreath"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_ender"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_lava"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_ice"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}),
-    <extrautils2:ingredients:0>
-    ], 4.5 as double, [<extrautils2:rainbowgenerator:2>]);
-pressurechamber.addRecipe([
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_redstone"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_tnt"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}),
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_potion"}),
-    <extrautils2:ingredients:0>
-    ], 4.5 as double, [<extrautils2:rainbowgenerator:1>]);
 mods.pneumaticcraft.assembly.addLaserRecipe(<contenttweaker:rainbowgen>, <extrautils2:rainbowgenerator:0>);
