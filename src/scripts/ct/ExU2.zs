@@ -5,7 +5,7 @@ recipes.remove(<extrautils2:resonator>);
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.remove(<extrautils2:quarry>);
 recipes.remove(<extrautils2:quarryproxy>);
-recipes.remove(<extrautils2:rainbowgenerator:*>);
+recipes.remove(<extrautils2:rainbowgenerator:0>);
 
 //add
 recipes.replaceAllOccurences(<minecraft:log:0>, <ore:logWood>, <extrautils2:spike_wood>);
