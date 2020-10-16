@@ -665,11 +665,12 @@ tips.levitated.19=Keep an eye out when you're exploring, there're stories to be 
 tips.levitated.20=There're some remains in the overworld, sadly, only bones were left.
 
 # Menu
-menu.levitated.sponsor.akliz.shown=Check out Akliz Hosting!
-menu.levitated.sponsor.akliz.hidden=Need a Server?
+menu.levitated.sponsor.afdian.shown=Support us on Afdian!
+menu.levitated.sponsor.afdian.hidden=Wanna support the team but you're in China?
 menu.levitated.sponsor.discord.shown=Join our discord server!
 menu.levitated.sponsor.discord.hidden=Looking for other players?
 menu.levitated.sponsor.patreon.shown=Become a patron!
 menu.levitated.sponsor.patreon.hidden=Wanna support the team?
 menu.levitated.sponsor.button=Links
 menu.levitated.sponsor.back=Back
+menu.levitated.server=Make a Server
