@@ -51,9 +51,9 @@
       }
     },
 
-    "quit": {
+    "server": {
       "text": " ",
-      "hoverText": "menu.quit",
+      "hoverText": "menu.levitated.server",
       "texture": "levitated:textures/gui/button_3.png",
       "pressSound": "entity.shulker.hurt_closed",
       "hoverSound": "entity.shulker.open",
@@ -63,7 +63,8 @@
       "width": 768,
       "height": 128,
       "action": {
-        "type": "quit"
+        "type": "openLink",
+        "link": "https://www.akliz.net/levitated"
       }
     },
 
@@ -83,6 +84,24 @@
       "action": {
         "type": "openGui",
         "gui": "custom.sponsor"
+      }
+    },
+
+    "exit": {
+      "text": " ",
+      "tooltip": "menu.quit",
+      "texture": "levitated:textures/gui/exit.png",
+      "pressSound": "ui.button.click",
+      "hoverSound": "entity.enderpearl.throw",
+      "alignment": "bottom_left",
+      "posX": 0,
+      "posY": -256,
+      "width": 62,
+      "height": 256,
+      "imageWidth": 52,
+      "imageHeight": 213,
+      "action": {
+        "type": "quit"
       }
     }
   },
@@ -105,7 +124,7 @@
     },
 
     "info": {
-      "text": "Levitated Beta 1.5.0-HOTFIX2\nMinecraft #mcversion#\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
+      "text": "Levitated 1.5.1\nMinecraft #mcversion#\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
       "posX": 0,
       "posY": -114,
       "color": -1,
