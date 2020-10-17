@@ -315,7 +315,7 @@ advancements.levitated.nether.assembly.title=高级§m手搓§r
 advancements.levitated.nether.assembly.description=手搓电路板非常麻烦，还好，你可以用一条装配线简化这个过程。[制作一台装配控制器]
 
 advancements.levitated.nether.blast_furnace_adv.title=钢到底
-advancements.levitated.nether.blast_furnace_adv.description=你不觉得粗制高炉不能自动化有些徐坤敲门——菜到家了吗？[搭建一台强化(也叫精制)高炉]
+advancements.levitated.nether.blast_furnace_adv.description=你不觉得粗制高炉不能自动化有些徐坤敲门——菜到家了吗？[搭建一台强化高炉]
 
 # Overworld
 advancements.levitated.overworld.root.title=日月轮转，星辰闪耀
