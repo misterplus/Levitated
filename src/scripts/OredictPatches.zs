@@ -39,3 +39,6 @@
 
 //Dilithium
 <ore:blockDilithium>.addItems([<contenttweaker:dilithium_block>]);
+
+//Warp
+<ore:blockWarpCoreRim>.addItems([<techreborn:storage:2>]);
