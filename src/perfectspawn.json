@@ -4,7 +4,7 @@
   },
   "rules": [
     {
-      "appliesTo": ["0"],
+      "appliesTo": [0],
       "canRespawnHere": false,
       "canSleepHere": true,
       "respawnDimension": 1
