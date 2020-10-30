@@ -10,12 +10,6 @@
       "respawnDimension": 1
     },
     {
-      "appliesTo": [0],
-      "canRespawnHere": false,
-      "canSleepHere": true,
-      "respawnDimension": 1
-    },
-    {
       "appliesTo": [1],
       "canRespawnHere": true,
       "respawnDimension": 1,
