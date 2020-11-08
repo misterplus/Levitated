@@ -133,7 +133,7 @@ paper_planes[6].itemRightClick = function(stack, world, player, hand) {
 };
 
 for paper_plane in paper_planes {
-    paper_plane.maxStackSize = 1;
+    paper_plane.maxStackSize = 8;
     paper_plane.register();
 }
 
