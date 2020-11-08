@@ -71,6 +71,14 @@ function special_blaze_2(w as int) as SummoningInfo {
         .setReagents([<thermalfoundation:material:2053> * 2, <forge:bucketfilled>.withTag({FluidName: "blood", Amount: 1000}), <botania:manaresource:23> * 2, <techreborn:dust:35> * 2])
         .setWeight(w);
 }
+}
+function guardian(w as int) as SummoningInfo {
+    return SummoningInfo.create()
+        .setCatalyst(<minecraft:prismarine_shard>)
+        .setConsumeCatalyst(true)
+        .setReagents([<minecraft:fish> * 2, <forge:bucketfilled>.withTag({FluidName: "blood", Amount: 1000}), <minecraft:fish:1> * 2, <minecraft:fish:3> * 2])
+        .setWeight(w);
+}
 
 //JEI
 function hideOnly (item as IItemStack, r as int[]) {
