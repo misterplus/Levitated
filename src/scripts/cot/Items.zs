@@ -83,6 +83,7 @@ var nether_book = VanillaFactory.createItem("nether_book");
 nether_book.rarity = "Rare";
 nether_book.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote && !XUTweaker.isPlayerFake(player)) {
+        Commands.call("gamestage silentadd @p nether", player, world, false, true);
         sendLocalizedMsg("item.contenttweaker.nether_book.message", player, world);
         stack.shrink(1);
         return "SUCCESS";
