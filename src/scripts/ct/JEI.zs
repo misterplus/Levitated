@@ -33,6 +33,7 @@ import scripts.ct.Function;
 <botania:specialflower>.withTag({type: "orechid"}).addTooltip(format.yellow(game.localize("tooltips.levitated.orechid.overworld")));
 <botania:specialflower>.withTag({type: "orechidIgnem"}).addTooltip(format.yellow(game.localize("tooltips.levitated.orechid.nether")));
 <botania:specialflower>.withTag({type: "orechidEndium"}).addTooltip(format.yellow(game.localize("tooltips.levitated.orechid.end")));
+<deepmoblearning:trial_key>.addTooltip(format.yellow(game.localize("tooltips.levitated.key")));
 
 addDescription(<contenttweaker:mana_paper>, game.localize("description.levitated.mana_paper"));
 addDescription(<contenttweaker:end_iron_chunk>, game.localize("description.levitated.end_iron_chunk"));
