@@ -95,7 +95,7 @@ advancements.levitated.end.simulation_chamber.title=深度知识
 advancements.levitated.end.simulation_chamber.description=长期的屠杀怪物，让你变得有些洁癖，希望模拟室能帮你缓一下。[制作一台模拟室]
 
 advancements.levitated.end.keystone.title=故障试炼
-advancements.levitated.end.keystone.description=系统故障只会出现在试炼中，试炼需要一把测试秘钥来开启。更多信息请在指南中查阅。不过，在试炼中你可能会遇到一些飞行的生物。它们有几率掉落一个你暂时还无法使用的物品。[制作一个测试楔石]
+advancements.levitated.end.keystone.description=系统故障只会出现在试炼中，试炼需要一把测试秘钥来开启。更多信息请在本模组的指南中查阅。[制作一个测试楔石]
 
 advancements.levitated.end.glitched_oby.title=系统§k故kokok§r障
 advancements.levitated.end.glitched_oby.description=仅仅用黑曜石搭建一个传送门框架并不能让你进入下界，你需要给普通的黑曜石添加一些小"故障"，在你思考该怎么做时，泰拉凝聚板向你发出了微弱的光芒。[制作一个故障黑曜石]
@@ -124,7 +124,7 @@ advancements.levitated.end.solder.description=焊料非常适合制作机器。�
 advancements.levitated.end.scanner.title=源计划: 复苏
 advancements.levitated.end.scanner.description=虽然下界现在是一片虚无，但这更方便你改造世界。借助地形扫描仪的力量，你能很轻松地在短时间内重塑世界。但它需要的能量比一般机器多得多。[制作一个地形扫描仪]
 
-advancements.levitated.end.netherrack.title=下界重建，爷青回！
+advancements.levitated.end.netherrack.title=探索快餐包完结！
 advancements.levitated.end.netherrack.description=将电容器带到下界，然后开始你的重建大业吧！随着电量的减少，眼前的虚无与记忆中的深红渐渐重合...[获得一块地狱岩]
 
 advancements.levitated.end.blue_lotus.title=这真不是色素染的
@@ -601,7 +601,7 @@ description.levitated.dragon_spirit=掉落于被鬼哭击杀的末影龙。
 description.levitated.contract=只能用已签契约的村民合成。首先制作一个契约，然后让村民签字。
 description.levitated.biome_scanner=生物群系扫描仪能用来远程扫描一个区块的群系(需要能量)，或用来定位(不需要能量)。它也能与地形扫描仪搭配使用，以远程重建区块。
 description.levitated.terrain_scanner=地形扫描仪能够重建机器东南方向16*16*256大小的区域。放置在生物群系扫描仪旁边，点击地形扫描仪中的"显示地图"按钮能让你远程选择一个地点作为起始点，从而远程重建区块。
-description.levitated.scanner_queue=扫描队列用来为地形扫描仪排列重建序列。放置在地形扫描仪旁边，然后玩家输入一个相对坐标，例如"350,250"(范围限制在队列周围256个方块为半径的圆内)，然后点击"添加"来将坐标加入队列中。接着，点击"建造"，它旁边的地形扫描仪就会锁定你选择的坐标。地形扫描仪将会开始在上述地点处重建。当完成重建任务后，它就会自动切换到队列中下一个地点继续重建。玩家可以在扫描队列中设置最多5个坐标，并且一个地形扫描仪能够同时进行多个队列任务。
+description.levitated.scanner_queue=扫描队列用来为地形扫描仪排列重建序列。放置在地形扫描仪旁边，然后玩家输入一个绝对坐标，例如"350,250"(范围限制在队列周围256个方块为半径的圆内)，然后点击"添加"来将坐标加入队列中。接着，点击"建造"，它旁边的地形扫描仪就会锁定你选择的坐标。地形扫描仪将会开始在上述地点处重建。当完成重建任务后，它就会自动切换到队列中下一个地点继续重建。玩家可以在扫描队列中设置最多5个坐标，并且一个地形扫描仪能够同时进行多个队列任务。
 description.levitated.eden_leaves=被8个金块包围的泥土/草方块可以当做神圣土块。橡木树苗在其上生长就有概率长为伊甸神树。不过你还需要在金块旁准备一大片铺满泥土/草方块的地方来种植伊甸神树。
 description.levitated.dna=拥有嗜血BUFF的玩家杀死苦力怕后有概率掉落始源DNA。
 description.levitated.cloud=在主世界，从255格高度以上落到基岩上以前往下世界。(最好摘下天使指环)
