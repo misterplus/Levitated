@@ -586,6 +586,10 @@ tooltips.levitated.transporter=能够搬起刷怪笼
 tooltips.levitated.apple=极低概率掉落于伊甸苹果树叶
 tooltips.levitated.apple_2=好诱人啊...
 tooltips.levitated.cloud=在下世界生成
+tooltips.levitated.orechid.overworld=在任何地方工作
+tooltips.levitated.orechid.nether=仅在下界工作
+tooltips.levitated.orechid.end=仅在末地工作
+tooltips.levitated.key=Blaze Invader(烈焰入侵)词缀已关闭
 
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
@@ -606,6 +610,7 @@ description.levitated.eden_leaves=被8个金块包围的泥土/草方块可以�
 description.levitated.dna=拥有嗜血BUFF的玩家杀死苦力怕后有概率掉落始源DNA。
 description.levitated.cloud=在主世界，从255格高度以上落到基岩上以前往下世界。(最好摘下天使指环)
 description.levitated.globe=由于掉落物刷新机制，最好制作时多准备一些魔力池同时为凝聚板供能。
+description.levitated.bedrockdust=基岩粉获取方法：在基岩上点火，当火熄灭后(手动或自然熄灭)，基岩粉就会有概率掉落。注意：火焰需要燃烧一段时间，末地基岩上的火不会自然熄灭。
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=炽热的棍子
