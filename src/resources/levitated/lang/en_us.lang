@@ -586,6 +586,9 @@ tooltips.levitated.transporter=Can pickup spawners
 tooltips.levitated.apple=Rare drop from Eden Apple Leaves
 tooltips.levitated.apple_2=So... tempting...
 tooltips.levitated.cloud=Generated in Underworld
+tooltips.levitated.orechid.overworld=Works anywhere
+tooltips.levitated.orechid.nether=Only works in the Nether
+tooltips.levitated.orechid.end=Only works in the End
 
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
