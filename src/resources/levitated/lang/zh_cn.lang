@@ -589,7 +589,7 @@ tooltips.levitated.cloud=在下世界生成
 
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
-description.levitated.mana_paper=对着工作台潜行右键来将它对折。别看简单，其实它需要一些经验的。之后就能在工作台内进行进一步折叠。
+description.levitated.mana_paper=对着工作台潜行右键来将它对折。别看简单，没有经验的人是折不出来的。之后，就能在工作台内进行进一步折叠。
 description.levitated.feather=几乎每只鸟都会掉羽毛，而任何有翅膀的东西都能算作鸟，包括纸做的。
 description.levitated.rainbow=用彩虹锭右键彩虹桥方块来将它转变为彩虹块。
 description.levitated.mana_pool=魔力池可以在自定义末地城中找到。
