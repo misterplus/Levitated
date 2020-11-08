@@ -2,6 +2,7 @@
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI.addDescription;
 import mods.jei.JEI.hide;
+import mods.jei.JEI.hideCategory;
 import scripts.ct.Function;
 
 <contenttweaker:end_seeds>.addTooltip(format.gray(game.localize("tooltips.levitated.end_seeds")));
@@ -136,3 +137,6 @@ static directs as IItemStack[] = [
 for item in directs {
     hide(item);
 }
+
+//Categories
+hideCategory("ie.alloysmelter");
