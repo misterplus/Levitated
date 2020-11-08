@@ -119,3 +119,7 @@ RuneAltar.addRecipe(<contenttweaker:crystal>, [<contenttweaker:crystal_wither>, 
 //Orechids
 Apothecary.addRecipe("orechid", [<ore:petalGray>, <ore:petalGray>, <extrautils2:suncrystal:0>, <ore:petalGreen>, <ore:petalRed>, <botania:rune:15>, <botania:rune:11>, <botania:manaresource:6>, <botania:manaresource:8>]);
 Apothecary.addRecipe("orechidIgnem", [<minecraft:netherrack>, <ore:petalRed>, <ore:petalWhite>, <ore:petalWhite>, <ore:petalPink>, <botania:rune:15>, <botania:rune:11>, <botania:manaresource:6>, <botania:manaresource:8>]);
+
+//Dupe blocks
+ManaInfusion.addConjuration(<minecraft:coal_block> * 2, <minecraft:coal_block>, 2100 * 9);
+ManaInfusion.addConjuration(<minecraft:redstone_block> * 2, <minecraft:redstone_block>, 5000 * 9);
