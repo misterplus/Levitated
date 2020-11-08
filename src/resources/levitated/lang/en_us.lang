@@ -606,6 +606,7 @@ description.levitated.eden_leaves=A Dirt/Grass block surrounded by 8 Gold Blocks
 description.levitated.dna=Dropped rarely by Creepers when killed by a player with the Bloodthirst effect.
 description.levitated.cloud=To get to the underworld, drop from y=255+ to a bedrock at y=0 in the overworld.
 description.levitated.globe=May need more than one mana pool for crafting due to item despawn timer.
+description.levitated.bedrockdust=Grains of Infinity are made by lighting bedrock on fire, once the fire is extinguished (naturally or manually), this item will have a chance to drop. Note that it only drops if the fire has been burning for a while. Bedrock in the end burns forever, so you'll have to put it out manually.
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=Hot Stick
