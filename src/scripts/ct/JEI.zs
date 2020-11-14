@@ -140,3 +140,6 @@ for item in directs {
 
 //Categories
 hideCategory("ie.alloysmelter");
+
+//Nuclear
+hide(<liquid:nuclear>);

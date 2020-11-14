@@ -273,11 +273,11 @@
             <isKnown>true</isKnown>
             <fogColor>#FF0000</fogColor>
             <skyColor>#FF0000</skyColor>
+            <atmosphereDensity>110</atmosphereDensity>
             <gravitationalMultiplier>60</gravitationalMultiplier>
             <orbitalDistance>100</orbitalDistance>
             <orbitalTheta>200</orbitalTheta>
             <orbitalPhi>80</orbitalPhi>
-            <atmosphereDensity>110</atmosphereDensity>
         </planet>
         <planet name="JumpFish" DIMID="1016" customIcon="earthlike">
             <isKnown>true</isKnown>
@@ -304,7 +304,7 @@
             </oreGen>
             <rotationalPeriod>56000</rotationalPeriod>
             <fillerBlock>appliedenergistics2:sky_stone_block</fillerBlock>
-            <oceanBlock>techreborn:fluidcarbonfiber</oceanBlock>
+            <oceanBlock>techreborn:techreborn_techreborn.carbonfiber</oceanBlock>
             <seaLevel>109</seaLevel>
             <spawnable weight="1" groupMin="1" groupMax="1">minecraft:wither_skeleton</spawnable>
             <spawnable weight="1" groupMin="1" groupMax="1">thermalfoundation:blitz</spawnable>
@@ -324,7 +324,7 @@
             <fillerBlock>minecraft:wool</fillerBlock>
             <seaLevel>40</seaLevel>
             <spawnable weight="1" groupMin="1" groupMax="3">minecraft:ocelot</spawnable>
-            <biomeIds>minecraft:mushroom_fields</biomeIds>
+            <biomeIds>minecraft:mushroom_island</biomeIds>
         </planet>
         <planet name="Star of Obsolete" DIMID="1019" customIcon="gasgiantred">
             <isKnown>true</isKnown>

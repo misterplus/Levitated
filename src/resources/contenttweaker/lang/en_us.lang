@@ -70,6 +70,7 @@ item.contenttweaker.chaos_pearl.message=Let the Lord of Chaos calm down first!
 item.contenttweaker.apple.message=Another one bites the dust.
 
 fluid.solder=Solder
+fluid.nuclear=Nuclear
 
 machine.crafttweaker:assembler=Assembler
 
