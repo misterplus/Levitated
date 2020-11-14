@@ -12,8 +12,8 @@ setCompletedTitleColor(#30CBA2)
 
 hideLines()
 
-criteria = addCriteria("hasDilithiumOre", "minecraft:inventory_changed")
-criteria.addItem(<libvulpes:ore0>)
+criteria = addCriteria("hasDilithiumCrystal", "minecraft:inventory_changed")
+criteria.addItem(<libvulpes:productgem:0>)
 
 hiddenUnless("triumph:levitated/overworld/quantum_quarry")
 setPos(83,-210)

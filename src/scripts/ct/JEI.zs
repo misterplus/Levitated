@@ -2,6 +2,7 @@
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI.addDescription;
 import mods.jei.JEI.hide;
+import mods.jei.JEI.hideCategory;
 import scripts.ct.Function;
 
 <contenttweaker:end_seeds>.addTooltip(format.gray(game.localize("tooltips.levitated.end_seeds")));
@@ -30,6 +31,10 @@ import scripts.ct.Function;
 <contenttweaker:apple>.addTooltip(format.yellow(game.localize("tooltips.levitated.apple")));
 <contenttweaker:apple>.addTooltip(format.darkRed(format.bold(game.localize("tooltips.levitated.apple_2"))));
 <wizardry:cloud>.addTooltip(format.yellow(game.localize("tooltips.levitated.cloud")));
+<botania:specialflower>.withTag({type: "orechid"}).addTooltip(format.yellow(game.localize("tooltips.levitated.orechid.overworld")));
+<botania:specialflower>.withTag({type: "orechidIgnem"}).addTooltip(format.yellow(game.localize("tooltips.levitated.orechid.nether")));
+<botania:specialflower>.withTag({type: "orechidEndium"}).addTooltip(format.yellow(game.localize("tooltips.levitated.orechid.end")));
+<deepmoblearning:trial_key>.addTooltip(format.yellow(game.localize("tooltips.levitated.key")));
 
 addDescription(<contenttweaker:mana_paper>, game.localize("description.levitated.mana_paper"));
 addDescription(<contenttweaker:end_iron_chunk>, game.localize("description.levitated.end_iron_chunk"));
@@ -53,6 +58,7 @@ addDescription(<contenttweaker:eden_leaves_fruitless>, game.localize("descriptio
 addDescription(<contenttweaker:dna>, game.localize("description.levitated.dna"));
 addDescription(<wizardry:cloud>, game.localize("description.levitated.cloud"));
 addDescription(<contenttweaker:globe>, "description.levitated.globe");
+addDescription(<enderio:item_material:20>, "description.levitated.bedrockdust");
 
 <extrautils2:chickenring:1>.displayName = game.localize("rename.levitated.shulker_ring");
 <pneumaticcraft:ingot_iron_compressed>.displayName = game.localize("rename.levitated.compiron");
@@ -67,7 +73,7 @@ addDescription(<contenttweaker:globe>, "description.levitated.globe");
 <scanner:biome_scanner_ultimate>.displayName = game.localize("rename.levitated.biome_scanner");
 
 //General Items
-var banned_items = [<integrateddynamics:coal_generator>, <botania:rfgenerator>, <immersiveengineering:stone_decoration:10>, <immersiveengineering:stone_decoration_slab:10>, <contenttweaker:wither_crystal>, <contenttweaker:water_crystal>, <contenttweaker:fire_crystal>, <contenttweaker:life_crystal>, <libvulpes:coalgenerator>] as IItemStack[];
+var banned_items = [<integrateddynamics:coal_generator>, <botania:rfgenerator>, <immersiveengineering:stone_decoration:10>, <immersiveengineering:stone_decoration_slab:10>, <contenttweaker:wither_crystal>, <contenttweaker:water_crystal>, <contenttweaker:fire_crystal>, <contenttweaker:life_crystal>, <libvulpes:coalgenerator>, <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct"}), <botania:felpumpkin>] as IItemStack[];
 for item in banned_items {
     mods.jei.JEI.removeAndHide(item);
 }
@@ -131,3 +137,9 @@ static directs as IItemStack[] = [
 for item in directs {
     hide(item);
 }
+
+//Categories
+hideCategory("ie.alloysmelter");
+
+//Nuclear
+hide(<liquid:nuclear>);

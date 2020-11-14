@@ -14,3 +14,13 @@ solder.stillLocation = "contenttweaker:fluids/solder_still";
 solder.flowingLocation = "contenttweaker:fluids/solder_flow";
 solder.material = <blockmaterial:lava>;
 solder.register();
+
+var nuclear = VanillaFactory.createFluid("nuclear", Color.fromHex("3D8A19"));
+nuclear.density = 1000;
+nuclear.temperature = 10000;
+nuclear.luminosity = 10;
+nuclear.viscosity = 5000;
+nuclear.stillLocation = "contenttweaker:fluids/nuclear_still";
+nuclear.flowingLocation = "contenttweaker:fluids/nuclear_flow";
+nuclear.material = <blockmaterial:lava>;
+nuclear.register();

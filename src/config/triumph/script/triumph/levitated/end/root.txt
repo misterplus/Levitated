@@ -14,3 +14,5 @@ setFrameType("Goal")
 
 addCriteria("location", "minecraft:location")
 setPos(0,67)
+
+setRewardFunction("triumph:starts")

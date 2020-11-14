@@ -4,12 +4,6 @@
   },
   "rules": [
     {
-      "appliesTo": ["0"],
-      "canRespawnHere": false,
-      "canSleepHere": true,
-      "respawnDimension": 1
-    },
-    {
       "appliesTo": ["*"],
       "canRespawnHere": false,
       "canSleepHere": false,

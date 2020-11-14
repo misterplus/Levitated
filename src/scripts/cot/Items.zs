@@ -83,8 +83,8 @@ var nether_book = VanillaFactory.createItem("nether_book");
 nether_book.rarity = "Rare";
 nether_book.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote && !XUTweaker.isPlayerFake(player)) {
+        Commands.call("gamestage silentadd @p nether", player, world, false, true);
         sendLocalizedMsg("item.contenttweaker.nether_book.message", player, world);
-        stack.shrink(1);
         return "SUCCESS";
     }
     return "PASS";
@@ -132,7 +132,7 @@ paper_planes[6].itemRightClick = function(stack, world, player, hand) {
 };
 
 for paper_plane in paper_planes {
-    paper_plane.maxStackSize = 1;
+    paper_plane.maxStackSize = 8;
     paper_plane.register();
 }
 

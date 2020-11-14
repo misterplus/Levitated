@@ -95,7 +95,7 @@ advancements.levitated.end.simulation_chamber.title=深度知识
 advancements.levitated.end.simulation_chamber.description=长期的屠杀怪物，让你变得有些洁癖，希望模拟室能帮你缓一下。[制作一台模拟室]
 
 advancements.levitated.end.keystone.title=故障试炼
-advancements.levitated.end.keystone.description=系统故障只会出现在试炼中，试炼需要一把测试秘钥来开启。更多信息请在指南中查阅。不过，在试炼中你可能会遇到一些飞行的生物。它们有几率掉落一个你暂时还无法使用的物品。[制作一个测试楔石]
+advancements.levitated.end.keystone.description=系统故障只会出现在试炼中，试炼需要一把测试秘钥来开启。更多信息请在本模组的指南中查阅。[制作一个测试楔石]
 
 advancements.levitated.end.glitched_oby.title=系统§k故kokok§r障
 advancements.levitated.end.glitched_oby.description=仅仅用黑曜石搭建一个传送门框架并不能让你进入下界，你需要给普通的黑曜石添加一些小"故障"，在你思考该怎么做时，泰拉凝聚板向你发出了微弱的光芒。[制作一个故障黑曜石]
@@ -124,8 +124,8 @@ advancements.levitated.end.solder.description=焊料非常适合制作机器。�
 advancements.levitated.end.scanner.title=源计划: 复苏
 advancements.levitated.end.scanner.description=虽然下界现在是一片虚无，但这更方便你改造世界。借助地形扫描仪的力量，你能很轻松地在短时间内重塑世界。但它需要的能量比一般机器多得多。[制作一个地形扫描仪]
 
-advancements.levitated.end.netherrack.title=下界重建，爷青回！
-advancements.levitated.end.netherrack.description=将电容器带到下界，然后开始你的重建大业吧！随着电量的减少，眼前的虚无与记忆中的深红渐渐重合...[获得一块地狱岩]
+advancements.levitated.end.netherrack.title=探索快餐包完结！
+advancements.levitated.end.netherrack.description=将存电容器带到下界，然后开始你的重建大业吧！随着电量的减少，眼前的虚无与记忆中的深红渐渐重合...[获得一块地狱岩]
 
 advancements.levitated.end.blue_lotus.title=这真不是色素染的
 advancements.levitated.end.blue_lotus.description=在幽冥之林(Stygian Growth)中，你能发现一种叫"冥灯草"的植物，它看起来十分诡异并闪着微小的光。经过尝试，你发现它能够稳定并吸收魔力，并转变为蓝莲花，把它扔进魔力池中就能够释放它储存的魔力。[制作一朵蓝莲花]
@@ -400,7 +400,7 @@ advancements.levitated.overworld.deflector.title=险风导致风险
 advancements.levitated.overworld.deflector.description=面对着这片虚空，你的建筑之魂熊熊燃烧，但一道龙卷风又将它吹灭。你敲了敲聪明的脑袋瓜，一个新的想法出现。不过需要先挖挖矿。[制作一台天气导流板]
 
 advancements.levitated.overworld.skycity.title=这就是"你的世界"
-advancements.levitated.overworld.skycity.description=你将水晶球放在天气导流板上边后，球中的天空城慢慢放大...[使用天空城缩影水晶球潜行右键天气导流板]
+advancements.levitated.overworld.skycity.description=你将水晶球放在天气导流板上边后，球中的天空城慢慢放大...[在主世界使用天空城缩影水晶球潜行右键天气导流板]
 
 advancements.levitated.overworld.speed.title=氮气加速！
 advancements.levitated.overworld.speed.description=有些机器的工作效率实在让人不敢恭维，没人想浪费时间吧？[制作一个超频升级]
@@ -530,7 +530,7 @@ advancements.levitated.story.scroll.title=卷轴熔聚，圣物归元
 advancements.levitated.story.scroll.description=卷轴一般都会当做法术的载体，将一些下界能量注入进卷轴可以将法术所需的各种材料完美融合。[制作一个阴焰卷轴]
 
 advancements.levitated.story.crystal.title=精髓凝晶
-advancements.levitated.story.crystal.description=杀死下界生物有时会掉落奇特的粘稠物质，查阅古书后，你发现这是它们的精髓。书中还写：埋藏于活石中，魂葬而结晶，却不失其灵；集齐于祭坛之上，辅以魂粉、魔力，自凝聚一体，相生相成。[制作一个葬魂灵晶]
+advancements.levitated.story.crystal.description=杀死下界怪物有时会掉落奇特的粘稠物质，查阅古书后，你发现这是它们的精髓。书中还写：埋藏于活石中，魂葬而结晶，却不失其灵；集齐于祭坛之上，辅以魂粉、魔力，自凝聚一体，相生相成。[制作一个葬魂灵晶]
 
 advancements.levitated.story.dna.title=创生
 advancements.levitated.story.dna.description=如果不想你的天空之城是一座死城的话，这是必不可少的。[获得一个始源DNA]
@@ -586,10 +586,14 @@ tooltips.levitated.transporter=能够搬起刷怪笼
 tooltips.levitated.apple=极低概率掉落于伊甸苹果树叶
 tooltips.levitated.apple_2=好诱人啊...
 tooltips.levitated.cloud=在下世界生成
+tooltips.levitated.orechid.overworld=在任何地方工作
+tooltips.levitated.orechid.nether=仅在下界工作
+tooltips.levitated.orechid.end=仅在末地工作
+tooltips.levitated.key=Blaze Invader(烈焰入侵)词缀已关闭
 
 description.levitated.end_iron_chunk=使用聚影铁碎块右击龙木木板就能制作出一块烈焰木.
 description.levitated.paper_plane=不会叠纸飞机？看看tooltips，在工作台上瞎搞搞或许就能做出来了呢？
-description.levitated.mana_paper=对着工作台潜行右键来将它对折。别看简单，其实它需要一些经验的。之后就能在工作台内进行进一步折叠。
+description.levitated.mana_paper=对着工作台潜行右键来将它对折。别看简单，没有经验的人是折不出来的。之后，就能在工作台内进行进一步折叠。
 description.levitated.feather=几乎每只鸟都会掉羽毛，而任何有翅膀的东西都能算作鸟，包括纸做的。
 description.levitated.rainbow=用彩虹锭右键彩虹桥方块来将它转变为彩虹块。
 description.levitated.mana_pool=魔力池可以在自定义末地城中找到。
@@ -601,11 +605,12 @@ description.levitated.dragon_spirit=掉落于被鬼哭击杀的末影龙。
 description.levitated.contract=只能用已签契约的村民合成。首先制作一个契约，然后让村民签字。
 description.levitated.biome_scanner=生物群系扫描仪能用来远程扫描一个区块的群系(需要能量)，或用来定位(不需要能量)。它也能与地形扫描仪搭配使用，以远程重建区块。
 description.levitated.terrain_scanner=地形扫描仪能够重建机器东南方向16*16*256大小的区域。放置在生物群系扫描仪旁边，点击地形扫描仪中的"显示地图"按钮能让你远程选择一个地点作为起始点，从而远程重建区块。
-description.levitated.scanner_queue=扫描队列用来为地形扫描仪排列重建序列。放置在地形扫描仪旁边，然后玩家输入一个相对坐标，例如"350,250"(范围限制在队列周围256个方块为半径的圆内)，然后点击"添加"来将坐标加入队列中。接着，点击"建造"，它旁边的地形扫描仪就会锁定你选择的坐标。地形扫描仪将会开始在上述地点处重建。当完成重建任务后，它就会自动切换到队列中下一个地点继续重建。玩家可以在扫描队列中设置最多5个坐标，并且一个地形扫描仪能够同时进行多个队列任务。
+description.levitated.scanner_queue=扫描队列用来为地形扫描仪排列重建序列。放置在地形扫描仪旁边，然后玩家输入一个绝对坐标，例如"350,250"(范围限制在队列周围256个方块为半径的圆内)，然后点击"添加"来将坐标加入队列中。接着，点击"建造"，它旁边的地形扫描仪就会锁定你选择的坐标。地形扫描仪将会开始在上述地点处重建。当完成重建任务后，它就会自动切换到队列中下一个地点继续重建。玩家可以在扫描队列中设置最多5个坐标，并且一个地形扫描仪能够同时进行多个队列任务。
 description.levitated.eden_leaves=被8个金块包围的泥土/草方块可以当做神圣土块。橡木树苗在其上生长就有概率长为伊甸神树。不过你还需要在金块旁准备一大片铺满泥土/草方块的地方来种植伊甸神树。
 description.levitated.dna=拥有嗜血BUFF的玩家杀死苦力怕后有概率掉落始源DNA。
 description.levitated.cloud=在主世界，从255格高度以上落到基岩上以前往下世界。(最好摘下天使指环)
 description.levitated.globe=由于掉落物刷新机制，最好制作时多准备一些魔力池同时为凝聚板供能。
+description.levitated.bedrockdust=基岩粉获取方法：在基岩上点火，当火熄灭后(手动或自然熄灭)，基岩粉就会有概率掉落。注意：火焰需要燃烧一段时间，末地基岩上的火不会自然熄灭。
 
 # Unfamiliar Items
 unfamiliar.levitated.blaze_rod=炽热的棍子

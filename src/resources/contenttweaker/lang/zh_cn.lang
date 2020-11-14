@@ -70,6 +70,7 @@ item.contenttweaker.chaos_pearl.message=先等混沌领主冷静下来！
 item.contenttweaker.apple.message=又干掉一个。
 
 fluid.solder=焊料
+fluid.nuclear=放射
 
 machine.crafttweaker:assembler=装配机
 

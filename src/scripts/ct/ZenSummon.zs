@@ -33,6 +33,7 @@ infos += Function.blue_slime(1).addMob(MobInfo.create().setMob("tconstruct:blues
 infos += Function.special_blaze_0(1).addMob(MobInfo.create().setMob("thermalfoundation:blizz"));
 infos += Function.special_blaze_1(1).addMob(MobInfo.create().setMob("thermalfoundation:blitz"));
 infos += Function.special_blaze_2(1).addMob(MobInfo.create().setMob("thermalfoundation:basalz"));
+infos += Function.guardian(1).addMob(MobInfo.create().setMob("minecraft:guardian"));
 
 for info in infos {
         SummoningDirector.addSummonInfo(info);
