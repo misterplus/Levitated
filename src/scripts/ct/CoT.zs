@@ -34,12 +34,12 @@ FluidToItem.transform(<contenttweaker:core>, <fluid:vapor_of_levity>, [<deepmobl
 
 //Glitched obsidian
 var end_plate = AgglomerationMultiblock.create().checker(<minecraft:obsidian>, <minecraft:purpur_block>);
-var glitched_oby = AgglomerationRecipe.create().output(<contenttweaker:glitched_obsidian>).inputs([<deepmoblearning:glitch_infused_ingot>, <minecraft:obsidian>]).manaCost(100000).multiblock(end_plate);
+var glitched_oby = AgglomerationRecipe.create().output(<contenttweaker:glitched_obsidian>).inputs([<deepmoblearning:glitch_infused_ingot>, <minecraft:obsidian>]).manaCost(100000).color1(0x871F78).color2(0x93DB70).multiblock(end_plate);
 Agglomeration.addRecipe(glitched_oby);
 
 //Laputa Shard
 var shard_plate = AgglomerationMultiblock.create().checker(<enderio:block_alloy:8>, <botania:storage:1>);
-var shard = AgglomerationRecipe.create().output(<contenttweaker:shard>).inputs([<botania:laputashard:19>, <tconstruct:shard>.withTag({Material: "endstone"})]).manaCost(1000000).multiblock(shard_plate);
+var shard = AgglomerationRecipe.create().output(<contenttweaker:shard>).inputs([<botania:laputashard:19>, <tconstruct:shard>.withTag({Material: "endstone"})]).manaCost(1000000).color1(0xDBDB70).color2(0x007FFF).multiblock(shard_plate);
 Agglomeration.addRecipe(shard);
 
 //Blue lotus
@@ -84,7 +84,7 @@ function(out, cInfo, player){
 
 //Snow Globe
 var globe_plate = AgglomerationMultiblock.create().checker(<wizardry:cloud>, <wizardry:wisdom_wood_pigmented_planks>);
-var globe = AgglomerationRecipe.create().output(<contenttweaker:globe>).inputs([<contenttweaker:shard>, <contenttweaker:core>, <contenttweaker:dragon_spirit>, <contenttweaker:crystal>, <contenttweaker:potion>, <contenttweaker:scroll_ignis>, <contenttweaker:apple>, <contenttweaker:contract>, <contenttweaker:dna>]).manaCost(5000000).multiblock(globe_plate);
+var globe = AgglomerationRecipe.create().output(<contenttweaker:globe>).inputs([<contenttweaker:shard>, <contenttweaker:core>, <contenttweaker:dragon_spirit>, <contenttweaker:crystal>, <contenttweaker:potion>, <contenttweaker:scroll_ignis>, <contenttweaker:apple>, <contenttweaker:contract>, <contenttweaker:dna>]).manaCost(5000000).color1(0xFFFF00).color2(0xFF0000).multiblock(globe_plate);
 Agglomeration.addRecipe(globe);
 
 //Potion
