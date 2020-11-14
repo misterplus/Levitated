@@ -269,5 +269,81 @@
             <seaLevel>74</seaLevel>
             <spawnable weight="1" groupMin="1" groupMax="1">minecraft:enderman</spawnable>
         </planet>
+        <planet name="Eastury" DIMID="1015" customIcon="earthlike">
+            <isKnown>true</isKnown>
+            <fogColor>#FF0000</fogColor>
+            <skyColor>#FF0000</skyColor>
+            <gravitationalMultiplier>60</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>80</orbitalPhi>
+            <atmosphereDensity>110</atmosphereDensity>
+        </planet>
+        <planet name="JumpFish" DIMID="1016" customIcon="earthlike">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <skyColor>#FFC0CB</skyColor>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>30</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <orbitalPhi>90</orbitalPhi>
+        </planet>
+        <planet name="MLXG" DIMID="1017" customIcon="carbonworld">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#DCDCDC</fogColor>
+            <skyColor>#696969</skyColor>
+            <atmosphereDensity>275</atmosphereDensity>
+            <gravitationalMultiplier>30</gravitationalMultiplier>
+            <orbitalDistance>960</orbitalDistance>
+            <orbitalTheta>360</orbitalTheta>
+            <orbitalPhi>120</orbitalPhi>
+            <oreGen>
+                <ore block="minecraft:diamond_ore" minHeight="0" maxHeight="16" clumpSize="2" chancePerChunk="4" />
+            </oreGen>
+            <rotationalPeriod>56000</rotationalPeriod>
+            <fillerBlock>appliedenergistics2:sky_stone_block</fillerBlock>
+            <oceanBlock>techreborn:fluidcarbonfiber</oceanBlock>
+            <seaLevel>109</seaLevel>
+            <spawnable weight="1" groupMin="1" groupMax="1">minecraft:wither_skeleton</spawnable>
+            <spawnable weight="1" groupMin="1" groupMax="1">thermalfoundation:blitz</spawnable>
+        </planet>
+        <planet name="Meow" DIMID="1018" customIcon="moon">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#F0E68C</fogColor>
+            <skyColor>#000000</skyColor>
+            <atmosphereDensity>130</atmosphereDensity>
+            <gravitationalMultiplier>60</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <oreGen>
+                <ore block="minecraft:diamond_ore" minHeight="0" maxHeight="16" clumpSize="2" chancePerChunk="4" />
+                <ore block="minecraft:gold_ore" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="5" />
+            </oreGen>
+            <fillerBlock>minecraft:wool</fillerBlock>
+            <seaLevel>40</seaLevel>
+            <spawnable weight="1" groupMin="1" groupMax="3">minecraft:ocelot</spawnable>
+            <biomeIds>minecraft:mushroom_fields</biomeIds>
+        </planet>
+        <planet name="Star of Obsolete" DIMID="1019" customIcon="gasgiantred">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#7D8606</fogColor>
+            <skyColor>#00FF00</skyColor>
+            <atmosphereDensity>500</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>50</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <orbitalPhi>90</orbitalPhi>
+            <oreGen>
+                <ore block="minecraft:gold_ore" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="5" />
+            </oreGen>
+            <rotationalPeriod>48000</rotationalPeriod>
+            <fillerBlock>minecraft:magma</fillerBlock>
+            <oceanBlock>contenttweaker:nuclear</oceanBlock>
+            <spawnable weight="1" groupMin="1" groupMax="1">minecraft:wither_skeleton</spawnable>
+            <spawnable weight="1" groupMin="1" groupMax="1">minecraft:blaze</spawnable>
+        </planet>
     </star>
 </galaxy>
