@@ -143,3 +143,4 @@ hideCategory("ie.alloysmelter");
 
 //Nuclear
 hide(<liquid:nuclear>);
+hide(<forge:bucketfilled>.withTag({FluidName: "nuclear", Amount: 1000}));
