@@ -69,7 +69,7 @@ end_iron_chunk.register();
 var origin_book = VanillaFactory.createItem("origin_book");
 origin_book.rarity = "Rare";
 origin_book.itemRightClick = function(stack, world, player, hand) {
-    if (!world.remote && !XUTweaker.isPlayerFake(player)) {
+    if (!world.remote && !XUTweaker.isPlayerFake(player) && player.isSneaking) {
         Commands.call("spawnpoint @p", player, world, false, true);
         sendLocalizedMsg("item.contenttweaker.origin_book.message", player, world);
         stack.shrink(1);

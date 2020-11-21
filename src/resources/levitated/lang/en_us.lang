@@ -553,7 +553,7 @@ advancements.levitated.skycity.creative.description=And that's the end of the pa
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
-tooltips.levitated.origin_book=Right click to set your spawnpoint.
+tooltips.levitated.origin_book=Shift right click to set your spawnpoint.
 tooltips.levitated.nether_book=Right click to gain some information about the Nether.
 tooltips.levitated.overworld_book=Right click to gain some information about the Overworld.
 tooltips.levitated.paper_plane_0=Unfold the paper and fold each of the top corners into the center line.
