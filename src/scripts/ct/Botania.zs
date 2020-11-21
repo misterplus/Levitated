@@ -12,6 +12,7 @@ import mods.botania.Apothecary;
 //remove
 recipes.remove(<botania:enderdagger>);
 recipes.remove(<botania:altar>);
+recipes.remove(<botanicbonsai:bonsai_pot_manager>);
 Apothecary.removeRecipe("orechid");
 Apothecary.removeRecipe("orechidIgnem");
 
@@ -123,3 +124,9 @@ Apothecary.addRecipe("orechidIgnem", [<minecraft:netherrack>, <ore:petalRed>, <o
 //Dupe blocks
 ManaInfusion.addConjuration(<minecraft:coal_block> * 2, <minecraft:coal_block>, 2100 * 9);
 ManaInfusion.addConjuration(<minecraft:redstone_block> * 2, <minecraft:redstone_block>, 5000 * 9);
+
+//Fel Pumpkin
+recipes.replaceAllOccurences(<minecraft:gunpowder>, <minecraft:magma_cream>, <botania:felpumpkin>);
+
+//Bonsai Manager
+recipes.addShaped(<botanicbonsai:bonsai_pot_manager>, [[null, <botania:spreader:3>, null],[<appliedenergistics2:smooth_sky_stone_block>, <botania:endereyeblock>, <appliedenergistics2:smooth_sky_stone_block>], [null, <botania:floatingspecialflower>.withTag({type: "hopperhock"}), null]]);

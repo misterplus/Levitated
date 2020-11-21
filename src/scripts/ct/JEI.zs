@@ -37,12 +37,9 @@ import scripts.ct.Function;
 <deepmoblearning:trial_key>.addTooltip(format.yellow(game.localize("tooltips.levitated.key")));
 
 addDescription(<contenttweaker:mana_paper>, game.localize("description.levitated.mana_paper"));
-addDescription(<contenttweaker:end_iron_chunk>, game.localize("description.levitated.end_iron_chunk"));
-addDescription(<tconstruct:firewood:1>, game.localize("description.levitated.end_iron_chunk"));
+addDescription([<contenttweaker:end_iron_chunk>, <tconstruct:firewood:1>], game.localize("description.levitated.end_iron_chunk"));
 addDescription(<minecraft:feather>, game.localize("description.levitated.feather"));
-addDescription(<contenttweaker:rainbow_ingot>, game.localize("description.levitated.rainbow"));
-addDescription(<contenttweaker:rainbow_block>, game.localize("description.levitated.rainbow"));
-addDescription(<botania:bifrostperm>, game.localize("description.levitated.rainbow"));
+addDescription([<contenttweaker:rainbow_ingot>, <contenttweaker:rainbow_block>, <botania:bifrostperm>], game.localize("description.levitated.rainbow"));
 addDescription(<botania:pool>, game.localize("description.levitated.mana_pool"));
 addDescription(<minecraft:brewing_stand>, game.localize("description.levitated.stand"));
 addDescription(<forge:bucketfilled>.withTag({FluidName: "solder", Amount: 1000}), game.localize("description.levitated.solder"));
@@ -53,8 +50,7 @@ addDescription(<contenttweaker:contract>, game.localize("description.levitated.c
 addDescription(<scanner:biome_scanner_ultimate>, game.localize("description.levitated.biome_scanner"));
 addDescription(<scanner:terrain_scanner>, game.localize("description.levitated.terrain_scanner"));
 addDescription(<scanner:scanner_queue>, game.localize("description.levitated.scanner_queue"));
-addDescription(<contenttweaker:eden_leaves>, game.localize("description.levitated.eden_leaves"));
-addDescription(<contenttweaker:eden_leaves_fruitless>, game.localize("description.levitated.eden_leaves"));
+addDescription([<contenttweaker:eden_leaves>, <contenttweaker:eden_leaves_fruitless>], game.localize("description.levitated.eden_leaves"));
 addDescription(<contenttweaker:dna>, game.localize("description.levitated.dna"));
 addDescription(<wizardry:cloud>, game.localize("description.levitated.cloud"));
 addDescription(<contenttweaker:globe>, "description.levitated.globe");
@@ -72,8 +68,10 @@ addDescription(<enderio:item_material:20>, "description.levitated.bedrockdust");
 <scanner:biome_scanner_elite>.displayName = game.localize("rename.levitated.biome_scanner_deprecated");
 <scanner:biome_scanner_ultimate>.displayName = game.localize("rename.levitated.biome_scanner");
 
+mods.jei.JEI.addItem(<minecraft:paper>.withTag({display:{Name: "az",Lore:["#iCwJLKH"]}}));
+
 //General Items
-var banned_items = [<integrateddynamics:coal_generator>, <botania:rfgenerator>, <immersiveengineering:stone_decoration:10>, <immersiveengineering:stone_decoration_slab:10>, <contenttweaker:wither_crystal>, <contenttweaker:water_crystal>, <contenttweaker:fire_crystal>, <contenttweaker:life_crystal>, <libvulpes:coalgenerator>, <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct"}), <botania:felpumpkin>] as IItemStack[];
+var banned_items = [<integrateddynamics:coal_generator>, <botania:rfgenerator>, <immersiveengineering:stone_decoration:10>, <immersiveengineering:stone_decoration_slab:10>, <contenttweaker:wither_crystal>, <contenttweaker:water_crystal>, <contenttweaker:fire_crystal>, <contenttweaker:life_crystal>, <libvulpes:coalgenerator>, <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct"})] as IItemStack[];
 for item in banned_items {
     mods.jei.JEI.removeAndHide(item);
 }

@@ -30,6 +30,3 @@ recipes.addShapeless(<scanner:biome_scanner_ultimate>, [scanner_deprecated]);
 
 //Flint and Steel
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <botania:manaresource:7>, <minecraft:flint_and_steel>);
-
-//Fel Pumpkin
-recipes.replaceAllOccurences(<minecraft:gunpowder>, <minecraft:magma_cream>, <botania:felpumpkin>);
