@@ -621,12 +621,6 @@ description.levitated.globe=由于掉落物刷新机制，最好制作时多准�
 description.levitated.bedrockdust=基岩粉获取方法：在基岩上点火，当火熄灭后(手动或自然熄灭)，基岩粉就会有概率掉落。注意：火焰需要燃烧一段时间，末地基岩上的火不会自然熄灭。
 
 # Unfamiliar Items
-unfamiliar.levitated.blaze_rod=炽热的棍子
-unfamiliar.levitated.blaze_powder=炽热的粉尘
-unfamiliar.levitated.ore_flower_nether=花形地热
-unfamiliar.levitated.ore_flower=硌手的花
-unfamiliar.levitated.ore_flower_nether_floating=离地的‘地’热
-unfamiliar.levitated.ore_flower_floating=羽花石
 unfamiliar.levitated.shard=发光的拉普达碎片
 unfamiliar.levitated.core=带个紫环的黄壳
 unfamiliar.levitated.dragon_spirit=紫色液滴
