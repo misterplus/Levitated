@@ -317,6 +317,9 @@ advancements.levitated.nether.assembly.description=PCBs herzustellen kann ziemli
 advancements.levitated.nether.blast_furnace_adv.title=Eisenzeit
 advancements.levitated.nether.blast_furnace_adv.description=Eisen manuell zu schmelzen, ist wahnsinnig eintönig, meinst du nicht? Hey, jetzt verstehen wir uns. [Stelle einen Improved Blast Furnace her.]
 
+advancements.levitated.nether.bonsai.title=Hyper Boost
+advancements.levitated.nether.bonsai.description=Bist du müde vom Stacken von Bonsais? Dieser Bonsai Pot Manager wird dir helfen! Er sammelt alle Items ein, die von nahegelegenen Bonsais produziert werden. Zudem gewährt er allen Livingstone Bonsais einen Geschwindigkeitsschub, wenn du ihn mit Mana antreibst! [Stelle einen Bonsai Pot Manager her.]
+
 # Overworld
 advancements.levitated.overworld.root.title=Sonne, Mond und Sterne
 advancements.levitated.overworld.root.description=Du hast es zurück nach Hause geschafft! Aber diese Welt ist nicht der ideale Ort, um sich niederzulassen. Immerhin ist hier nichts als der Void. Was würde die Zukunft da schon bringen?
@@ -553,7 +556,7 @@ advancements.levitated.skycity.creative.description=Du bist am Ende des Packs an
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Samen, die ihr Ende erreicht haben.
-tooltips.levitated.origin_book=Rechtsklicke, um deinen Spawnpunkt zu setzen.
+tooltips.levitated.origin_book=Shift + Rechtsklicke, um deinen Spawnpunkt zu setzen.
 tooltips.levitated.nether_book=Rechtsklicke, um Informationen über den Nether zu erhalten.
 tooltips.levitated.overworld_book=Rechtsklicke, um Informationen über die Oberwelt zu erhalten.
 tooltips.levitated.paper_plane_0=Entfalte das Papier und falte jede der oberen Ecken auf die Mittellinie.
@@ -590,6 +593,8 @@ tooltips.levitated.orechid.overworld=Funktioniert überall
 tooltips.levitated.orechid.nether=Funktioniert nur im Nether
 tooltips.levitated.orechid.end=Funktioniert nur im End
 tooltips.levitated.key=Blaze Invader affix deaktiviert
+tooltips.levitated.blaze=Spawnt Lohen(wenn im Nether platziert)
+tooltips.levitated.wither_skeleton=Spawnt Wither Skelette(wenn im Nether platziert)
 
 description.levitated.end_iron_chunk=Ein Wyrmwood Plank mit einem Chunk of End Infused Iron zu rechtsklicken, erzeugt einen Firewood Block.
 description.levitated.paper_plane=Hast du Probleme beim Falten eines Papierfliegers? Schaue in die Tooltips und experimentiere in der Werkbank herum!
@@ -613,12 +618,6 @@ description.levitated.globe=Es könnte mehr als ein Manavorkommen nötig sein, a
 description.levitated.bedrockdust=Grains of Infinity entstehen durch brennendes Grundgestein. Sobald das Feuer erlischt ist oder gelöscht wurde, hat das Item eine Chance, fallengelassen zu werden. Beachte, dass das Item nur fallengelassen werden kann, wenn das Feuer längere Zeit gebrannt hat. Im End brennt Grundgestein ewig. Du wirst es daher irgendwann löschen müssen.
 
 # Unfamiliar Items
-unfamiliar.levitated.blaze_rod=Heißer Stab
-unfamiliar.levitated.blaze_powder=Feuriger Staub
-unfamiliar.levitated.ore_flower_nether=Hübsche Feuerblume
-unfamiliar.levitated.ore_flower=Harte Steinblume
-unfamiliar.levitated.ore_flower_nether_floating=Fliegende hübsche Feuerblume
-unfamiliar.levitated.ore_flower_floating=Fliegende harte Steinblume
 unfamiliar.levitated.shard=Glowing Shard of Laputa
 unfamiliar.levitated.core=Gelbe Schale mit lilanen Kreisen
 unfamiliar.levitated.dragon_spirit=Ein Tropfen Lila
