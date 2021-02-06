@@ -129,4 +129,4 @@ ManaInfusion.addConjuration(<minecraft:redstone_block> * 2, <minecraft:redstone_
 recipes.replaceAllOccurences(<minecraft:gunpowder>, <minecraft:magma_cream>, <botania:felpumpkin>);
 
 //Bonsai Manager
-recipes.addShaped(<botanicbonsai:bonsai_pot_manager>, [[null, <botania:spreader:3>, null],[<appliedenergistics2:smooth_sky_stone_block>, <botania:endereyeblock>, <appliedenergistics2:smooth_sky_stone_block>], [null, <botania:floatingspecialflower>.withTag({type: "hopperhock"}), null]]);
+recipes.addShaped(<botanicbonsai:bonsai_pot_manager>, [[null, <botania:spreader:2>, null],[<appliedenergistics2:smooth_sky_stone_block>, <botania:endereyeblock>, <appliedenergistics2:smooth_sky_stone_block>], [null, <enderio:block_vacuum_chest>, null]]);

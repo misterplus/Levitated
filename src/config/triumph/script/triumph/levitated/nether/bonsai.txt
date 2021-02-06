@@ -1,0 +1,17 @@
+setIcon(<botanicbonsai:bonsai_pot_manager>)
+
+setTranslatedTitle("advancements.levitated.nether.bonsai.title")
+setTranslatedDescription("advancements.levitated.nether.bonsai.description")
+
+addParent("triumph:levitated/nether/skystone")
+setShowToast(true)
+setAnnounceToChat(false)
+
+setCompletedIconColor(#FF9D00)
+setCompletedTitleColor(#FF9D00)
+
+criteria = addCriteria("hasBonsaiManager", "minecraft:inventory_changed")
+criteria.addItem(<botanicbonsai:bonsai_pot_manager>)
+
+visibleIf("triumph:levitated/nether/root")
+setPos(320,54)
