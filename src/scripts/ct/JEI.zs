@@ -70,8 +70,6 @@ addDescription(<enderio:item_material:20>, "description.levitated.bedrockdust");
 <scanner:biome_scanner_elite>.displayName = game.localize("rename.levitated.biome_scanner_deprecated");
 <scanner:biome_scanner_ultimate>.displayName = game.localize("rename.levitated.biome_scanner");
 
-mods.jei.JEI.addItem(<minecraft:paper>.withTag({display:{Name: "az",Lore:["#iCwJLKH"]}}));
-
 //General Items
 var banned_items = [<integrateddynamics:coal_generator>, <botania:rfgenerator>, <immersiveengineering:stone_decoration:10>, <immersiveengineering:stone_decoration_slab:10>, <contenttweaker:wither_crystal>, <contenttweaker:water_crystal>, <contenttweaker:fire_crystal>, <contenttweaker:life_crystal>, <libvulpes:coalgenerator>, <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct"})] as IItemStack[];
 for item in banned_items {
