@@ -1,10 +1,10 @@
 # Levitated
 [![GitHub license](https://img.shields.io/github/license/misterplus/Levitated)](https://github.com/misterplus/Levitated/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/misterplus/Levitated)](https://github.com/misterplus/Levitated/issues)
-[![GitHub tag](https://img.shields.io/github/tag/misterplus/Levitated?color=14b866)](https://github.com/misterplus/Levitated/releases/tag/1.5.2)
+[![GitHub tag](https://img.shields.io/github/tag/misterplus/Levitated?color=14b866)](https://github.com/misterplus/Levitated/releases/tag/1.5.3)
 [![CurseForge downloads](http://cf.way2muchnoise.eu/full_399451_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/levitated)
 
-Deutsch | [English](./README.md) | [简体中文](./README_cn.md)
+[English](./README.md) | [简体中文](./README_cn.md) | Deutsch
 
 ## Einführung
 Levitated ist ein erkundungsbasiertes Minecraft Modpack, in dem du die Welt wiederaufbaust. Anstelle der Oberwelt, starten die Spieler im End. Der Nether und die Oberwelt bestehen nur aus dem Void. Die Spieler sind dazu angehalten, Ressourcen zu sammeln und eine gut ausgerüstete Basis im End zu errichten, um anschließend in den Nether zu reisen und mithilfe der [Scanner Mod] (https://www.curseforge.com/minecraft/mc-mods/scanner) und Energie die Welt wiederaufzubauen. Das Endziel besteht darin, der Void Erde zu entkommen und sich auf einem anderen, bewohnbaren Planeten ausserhalb des Sonnensystems niederzulassen. Das Modpack bietet viele Änderungen von Crafting Rezepten, kreative und spaßige Weltengenerierung und ein entspanntes Spielerlebnis.

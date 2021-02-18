@@ -4,7 +4,7 @@
 [![GitHub tag](https://img.shields.io/github/tag/misterplus/Levitated?color=14b866)](https://github.com/misterplus/Levitated/releases/tag/1.5.3)
 [![CurseForge downloads](http://cf.way2muchnoise.eu/full_399451_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/levitated)
 
-English | [简体中文](./README_cn.md)
+English | [简体中文](./README_cn.md) | [Deutsch](./README_de.md)
 
 ## Introduction
 Levitated is an exploration themed minecraft modpack which lets you rebuild the world. Instead of the overworld, players start in the end dimension. Meanwhile, the nether and the overworld are both void worlds. Players are incentivized to gather resources and establish a well-equiped base in the end, then travel to the nether and using the [scanner mod](https://www.curseforge.com/minecraft/mc-mods/scanner) to rebuild the world with energy. With the final goal of escaping this void earth and settle on another lively planets outside of the solar system. This modpack features a moderate amount of recipe changes, creative & fun world generation and a casual play experience.
