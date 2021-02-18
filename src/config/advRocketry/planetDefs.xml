@@ -110,7 +110,6 @@
             <fogColor>#FF00FF</fogColor>
             <skyColor>#87CEEB</skyColor>
             <atmosphereDensity>120</atmosphereDensity>
-            <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>80</orbitalDistance>
             <orbitalTheta>130</orbitalTheta>
             <orbitalPhi>90</orbitalPhi>
@@ -224,15 +223,12 @@
             <gravitationalMultiplier>80</gravitationalMultiplier>
             <orbitalDistance>200</orbitalDistance>
             <orbitalTheta>180</orbitalTheta>
-            <orbitalPhi>0</orbitalPhi>
             <oreGen>
                 <ore block="minecraft:lapis_ore" minHeight="0" maxHeight="32" clumpSize="7" chancePerChunk="2" />
             </oreGen>
-            <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>90</atmosphereDensity>
             <fillerBlock>minecraft:snow</fillerBlock>
             <oceanBlock>minecraft:packed_ice</oceanBlock>
-            <seaLevel>64</seaLevel>
             <spawnable weight="1" groupMin="1" groupMax="1">minecraft:skeleton</spawnable>
             <biomeIds>minecraft:taiga</biomeIds>
         </planet>
@@ -245,10 +241,7 @@
             <orbitalDistance>75</orbitalDistance>
             <orbitalTheta>25</orbitalTheta>
             <orbitalPhi>5</orbitalPhi>
-            <atmosphereDensity>100</atmosphereDensity>
             <fillerBlock>chisel:cobblestone2:8</fillerBlock>
-            <oceanBlock>minecraft:water</oceanBlock>
-            <seaLevel>64</seaLevel>
         </planet>
         <planet name="SabotagedPlus" DIMID="1014" customIcon="iceworld">
             <isKnown>true</isKnown>
@@ -275,7 +268,6 @@
             <skyColor>#FF0000</skyColor>
             <atmosphereDensity>110</atmosphereDensity>
             <gravitationalMultiplier>60</gravitationalMultiplier>
-            <orbitalDistance>100</orbitalDistance>
             <orbitalTheta>200</orbitalTheta>
             <orbitalPhi>80</orbitalPhi>
         </planet>
@@ -283,9 +275,7 @@
             <isKnown>true</isKnown>
             <hasRings>true</hasRings>
             <skyColor>#FFC0CB</skyColor>
-            <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>30</gravitationalMultiplier>
-            <orbitalDistance>100</orbitalDistance>
             <orbitalTheta>180</orbitalTheta>
             <orbitalPhi>90</orbitalPhi>
         </planet>
@@ -316,7 +306,6 @@
             <skyColor>#000000</skyColor>
             <atmosphereDensity>130</atmosphereDensity>
             <gravitationalMultiplier>60</gravitationalMultiplier>
-            <orbitalDistance>100</orbitalDistance>
             <oreGen>
                 <ore block="minecraft:diamond_ore" minHeight="0" maxHeight="16" clumpSize="2" chancePerChunk="4" />
                 <ore block="minecraft:gold_ore" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="5" />
@@ -332,7 +321,6 @@
             <fogColor>#7D8606</fogColor>
             <skyColor>#00FF00</skyColor>
             <atmosphereDensity>500</atmosphereDensity>
-            <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>50</orbitalDistance>
             <orbitalTheta>180</orbitalTheta>
             <orbitalPhi>90</orbitalPhi>
@@ -378,7 +366,6 @@
             <fogColor>#B0E0E6</fogColor>
             <atmosphereDensity>120</atmosphereDensity>
             <gravitationalMultiplier>109</gravitationalMultiplier>
-            <orbitalDistance>100</orbitalDistance>
             <oreGen>
                 <ore block="minecraft:emerald_ore" minHeight="0" maxHeight="48" clumpSize="1" chancePerChunk="5" />
                 <ore block="minecraft:redstone_ore" minHeight="0" maxHeight="16" clumpSize="8" chancePerChunk="8" />
@@ -386,7 +373,6 @@
             <rotationalPeriod>60000</rotationalPeriod>
             <fillerBlock>minecraft:stonebrick</fillerBlock>
             <oceanBlock>minecraft:lava</oceanBlock>
-            <seaLevel>64</seaLevel>
         </planet>
         <planet name="Urbane" DIMID="1022" customIcon="earthlike">
             <isKnown>true</isKnown>
@@ -395,14 +381,12 @@
             <atmosphereDensity>160</atmosphereDensity>
             <gravitationalMultiplier>50</gravitationalMultiplier>
             <fillerBlock>minecraft:prismarine</fillerBlock>
-            <oceanBlock>minecraft:water</oceanBlock>
         </planet>
         <planet name="EITDS" DIMID="1023" customIcon="moon">
             <isKnown>true</isKnown>
             <hasRings>true</hasRings>
             <fogColor>#483D8B</fogColor>
             <skyColor>#A5A5A5</skyColor>
-            <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>90</gravitationalMultiplier>
             <orbitalDistance>110</orbitalDistance>
             <orbitalTheta>180</orbitalTheta>
@@ -416,14 +400,12 @@
         </planet>
         <planet name="icy_Lover" DIMID="1024" customIcon="iceworld">
             <isKnown>true</isKnown>
-            <hasRings>false</hasRings>
             <fogColor>#D0F6FF</fogColor>
             <skyColor>#69F3F3</skyColor>
             <atmosphereDensity>400</atmosphereDensity>
             <gravitationalMultiplier>111</gravitationalMultiplier>
             <orbitalDistance>700</orbitalDistance>
             <orbitalTheta>30</orbitalTheta>
-            <orbitalPhi>0</orbitalPhi>
             <oreGen>
                 <ore block="minecraft:diamond_block" minHeight="0" maxHeight="8" clumpSize="1" chancePerChunk="2" />
                 <ore block="environmentaltech:ionite" minHeight="0" maxHeight="8" clumpSize="1" chancePerChunk="2" />
@@ -431,12 +413,284 @@
             <rotationalPeriod>480000</rotationalPeriod>
             <fillerBlock>minecraft:packed_ice</fillerBlock>
             <oceanBlock>thermalfoundation:fluid_cryotheum</oceanBlock>
-            <seaLevel>64</seaLevel>
             <spawnable weight="1" groupMin="1" groupMax="1">thermalfoundation:blitz</spawnable>
             <spawnable weight="1" groupMin="1" groupMax="1">tconstruct:blueslime</spawnable>
             <spawnable weight="1" groupMin="1" groupMax="1">minecraft:stray</spawnable>
             <spawnable weight="1" groupMin="1" groupMax="1">minecraft:snowman</spawnable>
             <biomeIds>minecraft:ice_flats</biomeIds>
+        </planet>
+        <planet name="Lsy" DIMID="1025" customIcon="gasgiantblue">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#412227</fogColor>
+            <skyColor>#84C3BE</skyColor>
+            <atmosphereDensity>200</atmosphereDensity>
+            <gravitationalMultiplier>80</gravitationalMultiplier>
+            <orbitalDistance>5</orbitalDistance>
+            <orbitalTheta>118</orbitalTheta>
+            <orbitalPhi>270</orbitalPhi>
+            <rotationalPeriod>18000</rotationalPeriod>
+            <seaLevel>77</seaLevel>
+        </planet>
+        <planet name="xhm114514" DIMID="1026" customIcon="carbonworld">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#0B2D0E</fogColor>
+            <skyColor>#0B2D0E</skyColor>
+            <atmosphereDensity>233</atmosphereDensity>
+            <gravitationalMultiplier>233</gravitationalMultiplier>
+            <orbitalDistance>114</orbitalDistance>
+            <orbitalTheta>233</orbitalTheta>
+            <orbitalPhi>233</orbitalPhi>
+            <oreGen>
+                <ore block="thermalfoundation:ore" minHeight="0" maxHeight="48" clumpSize="8" chancePerChunk="7" />
+            </oreGen>
+            <rotationalPeriod>114514</rotationalPeriod>
+            <fillerBlock>minecraft:dirt</fillerBlock>
+            <oceanBlock>enderio:block_fluid_electrical_steel</oceanBlock>
+            <seaLevel>88</seaLevel>
+            <spawnable weight="1" groupMin="1" groupMax="1">minecraft:zombie_pigman</spawnable>
+        </planet>
+        <planet name="Xzzzz" DIMID="1027" customIcon="earthlike">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#C2FFDB</fogColor>
+            <skyColor>#DEFFFB</skyColor>
+            <gravitationalMultiplier>80</gravitationalMultiplier>
+            <orbitalTheta>250</orbitalTheta>
+            <orbitalPhi>90</orbitalPhi>
+            <oreGen>
+                <ore block="minecraft:iron_ore" minHeight="0" maxHeight="48" clumpSize="8" chancePerChunk="6" />
+                <ore block="minecraft:diamond_ore" minHeight="0" maxHeight="16" clumpSize="2" chancePerChunk="4" />
+                <ore block="minecraft:gold_ore" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="5" />
+                <ore block="minecraft:coal_ore" minHeight="0" maxHeight="120" clumpSize="17" chancePerChunk="20" />
+                <ore block="minecraft:redstone_ore" minHeight="0" maxHeight="16" clumpSize="8" chancePerChunk="8" />
+                <ore block="minecraft:emerald_ore" minHeight="0" maxHeight="48" clumpSize="1" chancePerChunk="5" />
+                <ore block="minecraft:diamond_block" minHeight="0" maxHeight="8" clumpSize="1" chancePerChunk="2" />
+            </oreGen>
+            <fillerBlock>minecraft:grass</fillerBlock>
+        </planet>
+        <planet name="Frozen Planet" DIMID="1028" customIcon="waterworld">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#2A6478</fogColor>
+            <skyColor>#E098DC</skyColor>
+            <atmosphereDensity>200</atmosphereDensity>
+            <gravitationalMultiplier>50</gravitationalMultiplier>
+            <orbitalDistance>300</orbitalDistance>
+            <orbitalTheta>70</orbitalTheta>
+            <orbitalPhi>170</orbitalPhi>
+            <oreGen>
+                <ore block="techreborn:ore" meta="1" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+            </oreGen>
+            <rotationalPeriod>36000</rotationalPeriod>
+            <fillerBlock>tconstruct:slime_dirt</fillerBlock>
+            <oceanBlock>tconstruct:blueslime</oceanBlock>
+            <spawnable weight="1" groupMin="1" groupMax="1">tconstruct:blueslime</spawnable>
+        </planet>
+        <planet name="NyogSothep" DIMID="1029" customIcon="waterworld">
+            <isKnown>true</isKnown>
+            <fogColor>#D3D3D3</fogColor>
+            <skyColor>#808080</skyColor>
+            <atmosphereDensity>101</atmosphereDensity>
+            <gravitationalMultiplier>12</gravitationalMultiplier>
+            <orbitalDistance>150</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <orbitalPhi>90</orbitalPhi>
+            <oreGen>
+                <ore block="libvulpes:ore0" meta="8" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+            </oreGen>
+            <rotationalPeriod>10000</rotationalPeriod>
+            <fillerBlock>minecraft:end_stone</fillerBlock>
+            <biomeIds>minecraft:deep_frozen_ocean</biomeIds>
+        </planet>
+        <planet name="duanyuVX01c" DIMID="1030" customIcon="iceworld">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#1F3A3D</fogColor>
+            <skyColor>#CDA434</skyColor>
+            <gravitationalMultiplier>50</gravitationalMultiplier>
+            <orbitalTheta>160</orbitalTheta>
+            <orbitalPhi>30</orbitalPhi>
+            <rotationalPeriod>240000</rotationalPeriod>
+            <spawnable weight="1" groupMin="1" groupMax="1">thermalfoundation:blizz</spawnable>
+        </planet>
+        <planet name="TearsBPoem" DIMID="1031" customIcon="gasgiantblue">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#33EFE7</fogColor>
+            <skyColor>#C374CA</skyColor>
+            <atmosphereDensity>233</atmosphereDensity>
+            <gravitationalMultiplier>200</gravitationalMultiplier>
+            <orbitalDistance>150</orbitalDistance>
+            <orbitalTheta>270</orbitalTheta>
+            <orbitalPhi>135</orbitalPhi>
+            <oreGen>
+                <ore block="minecraft:quartz_ore" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+                <ore block="minecraft:iron_ore" minHeight="0" maxHeight="48" clumpSize="8" chancePerChunk="6" />
+                <ore block="tconstruct:ore" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+                <ore block="techreborn:ore" meta="1" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+                <ore block="thermalfoundation:ore" meta="2" minHeight="0" maxHeight="48" clumpSize="8" chancePerChunk="7" />
+                <ore block="minecraft:diamond_ore" minHeight="0" maxHeight="16" clumpSize="8" chancePerChunk="2" />
+            </oreGen>
+            <rotationalPeriod>31019</rotationalPeriod>
+            <fillerBlock>minecraft:sandstone</fillerBlock>
+            <oceanBlock>immersiveengineering:fluidethanol</oceanBlock>
+            <seaLevel>52</seaLevel>
+            <spawnable weight="1" groupMin="1" groupMax="1">minecraft:sheep</spawnable>
+        </planet>
+        <planet name="kkk" DIMID="1032" customIcon="lava">
+            <isKnown>true</isKnown>
+            <fogColor>#84C3BE</fogColor>
+            <skyColor>#20214F</skyColor>
+            <atmosphereDensity>76</atmosphereDensity>
+            <gravitationalMultiplier>80</gravitationalMultiplier>
+            <orbitalDistance>30</orbitalDistance>
+            <orbitalTheta>60</orbitalTheta>
+            <orbitalPhi>180</orbitalPhi>
+            <oreGen>
+                <ore block="minecraft:gold_ore" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="5" />
+                <ore block="thermalfoundation:ore" meta="2" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+            </oreGen>
+            <rotationalPeriod>12000</rotationalPeriod>
+            <fillerBlock>minecraft:obsidian</fillerBlock>
+        </planet>
+        <planet name="alfie" DIMID="1033" customIcon="gasgiantblue">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <skyColor>#1E90FF</skyColor>
+            <atmosphereDensity>30</atmosphereDensity>
+            <gravitationalMultiplier>70</gravitationalMultiplier>
+            <orbitalDistance>130</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <orbitalPhi>100</orbitalPhi>
+            <rotationalPeriod>30000</rotationalPeriod>
+        </planet>
+        <planet name="Baige-66" DIMID="1034" customIcon="moon">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#3BE955</fogColor>
+            <skyColor>#6C6960</skyColor>
+            <gravitationalMultiplier>80</gravitationalMultiplier>
+            <orbitalDistance>98</orbitalDistance>
+            <orbitalTheta>270</orbitalTheta>
+            <orbitalPhi>180</orbitalPhi>
+            <oreGen>
+                <ore block="thermalfoundation:ore" meta="7" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+            </oreGen>
+            <fillerBlock>minecraft:magma</fillerBlock>
+            <seaLevel>50</seaLevel>
+        </planet>
+        <planet name="KaguyaGX" DIMID="1035" customIcon="iceworld">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <orbitalTheta>180</orbitalTheta>
+            <orbitalPhi>90</orbitalPhi>
+            <fillerBlock>minecraft:snow</fillerBlock>
+            <oceanBlock>minecraft:packed_ice</oceanBlock>
+        </planet>
+        <planet name="Small_Potato" DIMID="1036" customIcon="earthlike">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <atmosphereDensity>85</atmosphereDensity>
+            <gravitationalMultiplier>75</gravitationalMultiplier>
+            <orbitalDistance>90</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <orbitalPhi>180</orbitalPhi>
+            <oreGen>
+                <ore block="appliedenergistics2:quartz_ore" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+            </oreGen>
+            <rotationalPeriod>12000</rotationalPeriod>
+            <fillerBlock>contenttweaker:rainbow_block</fillerBlock>
+            <oceanBlock>wizardry:mana_fluid</oceanBlock>
+            <seaLevel>70</seaLevel>
+        </planet>
+        <planet name="Alanarual" DIMID="1037" customIcon="earthlike">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#3BE955</fogColor>
+            <skyColor>#ADD8E6</skyColor>
+            <atmosphereDensity>113</atmosphereDensity>
+            <orbitalTheta>70</orbitalTheta>
+            <orbitalPhi>270</orbitalPhi>
+            <oreGen>
+                <ore block="techreborn:ore" meta="2" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+                <ore block="techreborn:ore" meta="3" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+                <ore block="immersiveengineering:ore" meta="5" minHeight="0" maxHeight="30" clumpSize="4" chancePerChunk="4" />
+            </oreGen>
+            <rotationalPeriod>15000</rotationalPeriod>
+            <fillerBlock>botania:quartztypelavender</fillerBlock>
+            <oceanBlock>enderio:block_fluid_ender_distillation</oceanBlock>
+        </planet>
+        <planet name="hongchenxiao" DIMID="1038" customIcon="desertworld">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#FFFF00</fogColor>
+            <skyColor>#49678D</skyColor>
+            <atmosphereDensity>125</atmosphereDensity>
+            <gravitationalMultiplier>30</gravitationalMultiplier>
+            <orbitalDistance>50</orbitalDistance>
+            <orbitalTheta>190</orbitalTheta>
+            <orbitalPhi>180</orbitalPhi>
+            <rotationalPeriod>48000</rotationalPeriod>
+            <fillerBlock>minecraft:sand</fillerBlock>
+        </planet>
+        <planet name="Ivanworld" DIMID="1039" customIcon="marslike">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#F6F6F6</fogColor>
+            <skyColor>#497E76</skyColor>
+            <atmosphereDensity>85</atmosphereDensity>
+            <gravitationalMultiplier>40</gravitationalMultiplier>
+            <orbitalDistance>60</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <orbitalPhi>90</orbitalPhi>
+            <oreGen>
+                <ore block="minecraft:diamond_ore" minHeight="0" maxHeight="16" clumpSize="8" chancePerChunk="2" />
+            </oreGen>
+            <rotationalPeriod>28000</rotationalPeriod>
+            <seaLevel>68</seaLevel>
+        </planet>
+        <planet name="lingting" DIMID="1040" customIcon="iceworld">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <skyColor>#66CCFF</skyColor>
+            <gravitationalMultiplier>400</gravitationalMultiplier>
+            <orbitalDistance>0</orbitalDistance>
+            <oreGen>
+                <ore block="minecraft:lapis_ore" minHeight="0" maxHeight="32" clumpSize="7" chancePerChunk="2" />
+            </oreGen>
+            <fillerBlock>minecraft:lapis_block</fillerBlock>
+            <seaLevel>60</seaLevel>
+        </planet>
+        <planet name="qiuqiustar" DIMID="1041" customIcon="marslike">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <fogColor>#AEA04B</fogColor>
+            <skyColor>#FC373A</skyColor>
+            <atmosphereDensity>105</atmosphereDensity>
+            <gravitationalMultiplier>95</gravitationalMultiplier>
+            <orbitalDistance>80</orbitalDistance>
+            <orbitalTheta>100</orbitalTheta>
+            <orbitalPhi>90</orbitalPhi>
+            <oreGen>
+                <ore block="minecraft:coal_ore" minHeight="0" maxHeight="120" clumpSize="17" chancePerChunk="20" />
+                <ore block="thermalfoundation:ore" meta="3" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+                <ore block="minecraft:iron_ore" minHeight="0" maxHeight="48" clumpSize="8" chancePerChunk="6" />
+                <ore block="thermalfoundation:ore" minHeight="0" maxHeight="48" clumpSize="8" chancePerChunk="7" />
+                <ore block="thermalfoundation:ore" meta="2" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+                <ore block="tconstruct:ore" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+                <ore block="tconstruct:ore" meta="1" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+                <ore block="minecraft:gold_ore" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="5" />
+                <ore block="appliedenergistics2:quartz_ore" minHeight="0" maxHeight="32" clumpSize="3" chancePerChunk="3" />
+                <ore block="minecraft:diamond_ore" minHeight="0" maxHeight="16" clumpSize="8" chancePerChunk="2" />
+            </oreGen>
+            <fillerBlock>chisel:basalt</fillerBlock>
+            <oceanBlock>minecraft:soul_sand</oceanBlock>
+            <seaLevel>90</seaLevel>
+            <spawnable weight="1" groupMin="1" groupMax="1">minecraft:skeleton_horse</spawnable>
+            <spawnable weight="1" groupMin="1" groupMax="1">minecraft:zombie_horse</spawnable>
+            <biomeIds>minecraft:hell</biomeIds>
         </planet>
     </star>
 </galaxy>
