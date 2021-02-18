@@ -502,7 +502,7 @@
             </oreGen>
             <rotationalPeriod>10000</rotationalPeriod>
             <fillerBlock>minecraft:end_stone</fillerBlock>
-            <biomeIds>minecraft:deep_frozen_ocean</biomeIds>
+            <biomeIds>minecraft:frozen_ocean</biomeIds>
         </planet>
         <planet name="duanyuVX01c" DIMID="1030" customIcon="iceworld">
             <isKnown>true</isKnown>
