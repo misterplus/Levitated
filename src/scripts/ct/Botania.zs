@@ -12,6 +12,7 @@ import mods.botania.Apothecary;
 //remove
 recipes.remove(<botania:enderdagger>);
 recipes.remove(<botania:altar>);
+recipes.remove(<botanicbonsai:bonsai_pot_manager>);
 Apothecary.removeRecipe("orechid");
 Apothecary.removeRecipe("orechidIgnem");
 
@@ -117,9 +118,15 @@ RuneAltar.addRecipe(<contenttweaker:scroll_ignis>, [<contenttweaker:scroll>, <th
 RuneAltar.addRecipe(<contenttweaker:crystal>, [<contenttweaker:crystal_wither>, <contenttweaker:crystal_blaze>, <contenttweaker:crystal_magma>, <contenttweaker:crystal_ghast>, <contenttweaker:crystal_pigman>, <enderio:item_material:74>, <enderio:item_material:74>, <enderio:item_material:74>, <enderio:item_material:74>, <enderio:item_material:74>], 500000);
 
 //Orechids
-Apothecary.addRecipe("orechid", [<ore:petalGray>, <ore:petalGray>, <extrautils2:suncrystal:0>, <ore:petalGreen>, <ore:petalRed>, <botania:rune:15>, <botania:rune:11>, <botania:manaresource:6>, <botania:manaresource:8>]);
-Apothecary.addRecipe("orechidIgnem", [<minecraft:netherrack>, <ore:petalRed>, <ore:petalWhite>, <ore:petalWhite>, <ore:petalPink>, <botania:rune:15>, <botania:rune:11>, <botania:manaresource:6>, <botania:manaresource:8>]);
+Apothecary.addRecipe("orechid", [<ore:petalGray>, <ore:petalGray>, <extrautils2:suncrystal:0>, <ore:petalGreen>, <ore:petalRed>, <botania:rune:15>, <botania:rune:11>, <botania:manaresource:6>, <botania:manaresource:8>, <techreborn:gem:0>, <techreborn:gem:1>]);
+Apothecary.addRecipe("orechidIgnem", [<minecraft:netherrack>, <ore:petalRed>, <ore:petalWhite>, <ore:petalWhite>, <ore:petalPink>, <botania:rune:15>, <botania:rune:11>, <botania:manaresource:6>, <botania:manaresource:8>, <tconstruct:materials:11>]);
 
 //Dupe blocks
 ManaInfusion.addConjuration(<minecraft:coal_block> * 2, <minecraft:coal_block>, 2100 * 9);
 ManaInfusion.addConjuration(<minecraft:redstone_block> * 2, <minecraft:redstone_block>, 5000 * 9);
+
+//Fel Pumpkin
+recipes.replaceAllOccurences(<minecraft:gunpowder>, <minecraft:magma_cream>, <botania:felpumpkin>);
+
+//Bonsai Manager
+recipes.addShaped(<botanicbonsai:bonsai_pot_manager>, [[null, <botania:spreader:2>, null],[<appliedenergistics2:smooth_sky_stone_block>, <botania:endereyeblock>, <appliedenergistics2:smooth_sky_stone_block>], [null, <enderio:block_vacuum_chest>, null]]);

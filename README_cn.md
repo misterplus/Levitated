@@ -1,10 +1,10 @@
 # Levitated 失重
 [![GitHub license](https://img.shields.io/github/license/misterplus/Levitated)](https://github.com/misterplus/Levitated/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/misterplus/Levitated)](https://github.com/misterplus/Levitated/issues)
-[![GitHub tag](https://img.shields.io/github/tag/misterplus/Levitated?color=14b866)](https://github.com/misterplus/Levitated/releases/tag/1.5.2)
+[![GitHub tag](https://img.shields.io/github/tag/misterplus/Levitated?color=14b866)](https://github.com/misterplus/Levitated/releases/tag/1.5.3)
 [![CurseForge downloads](http://cf.way2muchnoise.eu/full_399451_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/levitated)
 
-[English](./README.md) | 简体中文
+[English](./README.md) | 简体中文 | [Deutsch](./README_de.md)
 
 ## 介绍
 Levitated(失重)是一个以探险为主题，以重建世界为主要内容的模组包。玩家将会在末地出生，而不是主世界。同时，下界和主世界都为虚空世界。玩家需要在末地获取资源并建立一个相对完善的基地，然后前往下界并使用[scanner 模组](https://www.curseforge.com/minecraft/mc-mods/scanner)，消耗能量来重建世界。玩家的最终目标是逃离这个几乎完全虚空的地球并在太阳系外的宜居行星上重建家园。本模组包含有适量的魔改配方，有着独特的世界生成机制，以为玩家带来一个休闲轻松的游戏体验。

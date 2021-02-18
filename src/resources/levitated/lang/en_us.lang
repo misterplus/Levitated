@@ -317,6 +317,9 @@ advancements.levitated.nether.assembly.description=Crafting PCBs can be quite a 
 advancements.levitated.nether.blast_furnace_adv.title=Age of Steel
 advancements.levitated.nether.blast_furnace_adv.description=Smelting Steel manually is just too boring, don't you think? Hey, now we're talking. [Build an Improved Blast Furnace.]
 
+advancements.levitated.nether.bonsai.title=Hyper Boost
+advancements.levitated.nether.bonsai.description=Tired of stacking bonsais? This Bonsai Pot Manager can surely aid you! It will collect all items produced by bonsais nearby, it'll also give all livingstone bonsais nearby a speed boost when provided with mana![Craft a Bonsai Pot Manager.]
+
 # Overworld
 advancements.levitated.overworld.root.title=Sun, Moon and Stars
 advancements.levitated.overworld.root.description=You've made it back home! But this world isn't really your ideal settlement, since there's still nothing but the void. What does the future hold then?
@@ -553,7 +556,7 @@ advancements.levitated.skycity.creative.description=And that's the end of the pa
 
 # Custom Tooltips
 tooltips.levitated.end_seeds=Seeds that had met its end.
-tooltips.levitated.origin_book=Right click to set your spawnpoint.
+tooltips.levitated.origin_book=Shift right click to set your spawnpoint.
 tooltips.levitated.nether_book=Right click to gain some information about the Nether.
 tooltips.levitated.overworld_book=Right click to gain some information about the Overworld.
 tooltips.levitated.paper_plane_0=Unfold the paper and fold each of the top corners into the center line.
@@ -590,6 +593,8 @@ tooltips.levitated.orechid.overworld=Works anywhere
 tooltips.levitated.orechid.nether=Only works in the Nether
 tooltips.levitated.orechid.end=Only works in the End
 tooltips.levitated.key=Blaze Invader affix disabled
+tooltips.levitated.blaze=Spawns Blazes(while placed in the nether)
+tooltips.levitated.wither_skeleton=Spawns Wither Skeletons(while placed in the nether)
 
 description.levitated.end_iron_chunk=Right clicking a Wyrmwood Plank with a chunk of End Infused Iron will create a Firewood block.
 description.levitated.paper_plane=Having trouble folding a piece of paper into a plane? Look into the tooltips and try messing around in the Crafting Table!
@@ -613,12 +618,6 @@ description.levitated.globe=May need more than one mana pool for crafting due to
 description.levitated.bedrockdust=Grains of Infinity are made by lighting bedrock on fire, once the fire is extinguished (naturally or manually), this item will have a chance to drop. Note that it only drops if the fire has been burning for a while. Bedrock in the end burns forever, so you'll have to put it out manually.
 
 # Unfamiliar Items
-unfamiliar.levitated.blaze_rod=Hot Stick
-unfamiliar.levitated.blaze_powder=Fiery Dust
-unfamiliar.levitated.ore_flower_nether=Fancy Flame Flower
-unfamiliar.levitated.ore_flower=Hard Stone Flower
-unfamiliar.levitated.ore_flower_nether_floating=Flying Fancy Flame Flower
-unfamiliar.levitated.ore_flower_floating=Flying Hard Stone Flower
 unfamiliar.levitated.shard=Glowing Shard of Laputa
 unfamiliar.levitated.core=Yellow Shell with Purple Circles
 unfamiliar.levitated.dragon_spirit=Drop of Purple

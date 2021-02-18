@@ -1,0 +1,680 @@
+# Custom Advancements for Levitated
+
+# The End
+advancements.levitated.end.root.title=Der Anfang vom Ende
+advancements.levitated.end.root.description=Als du ins End fielst, betratst du versehentlich den Durchgang zum End. Glücklicherweise kannst du dem Drachen so lange du willst aus dem Weg gehen.
+
+advancements.levitated.end.chorus_fruit.title=Ungewöhnliche Frucht
+advancements.levitated.end.chorus_fruit.description=Diese Früchte haben eine merkwürdige Nebenwirkung, aber zumindest sind sie ungefährlich zu essen. [Iss eine Chorusfrucht]
+
+advancements.levitated.end.ender_lilly.title=Unheimliche Pflanze
+advancements.levitated.end.ender_lilly.description=Baue eine Enderlilie ab, um Enderlilien (Samen) zu erhalten. Enderlilien wachsen auf Endstein und produzieren Enderperlen. [Erhalte einen Ender Lilly Seed.]
+
+advancements.levitated.end.end_matter.title=Fragmente der Welt
+advancements.levitated.end.end_matter.description=Jede Ender Teleportation eines Spielers erzeugt nun ein Stück außerirdische Materie am Ankunftsort, Ender Teleportationen anderer Wesen und Objekte hingegen nicht. [Erhalte Extraterrestrial Matter.]
+
+advancements.levitated.end.endstone_shard.title=Scherben von Terra
+advancements.levitated.end.endstone_shard.description=Endstein mit der bloßen Hand abzubauen, erzeugt Endsteinscherben, die scharf genug sind, um daraus Werkzeuge herzustellen. [Erhalte eine Endstone Shard.]
+
+advancements.levitated.end.end_log.title=Zerbrechliches Leben
+advancements.levitated.end.end_log.description=Wyrmholz ist eine Art Baumstamm, den man nur mit einer Axt erhalten kann. Endsteinscherben funktionieren auch, aber bringen dir meistens bloß die Holzbretter. Gib zudem acht vor Endermites! [Erhalte ein Wyrmwood Plank.]
+
+advancements.levitated.end.tool_station.title=Grundlegende Arbeitsutensilien
+advancements.levitated.end.tool_station.description=Mit einer Werkzeugstation bist du imstande, einige, selbstverständlich aus Endstein bestehende Werkzeuge herzustellen, die du brauchst. [Stelle eine Tool Station her.]
+
+advancements.levitated.end.furnace.title=Mikroschmelzerei
+advancements.levitated.end.furnace.description=Stelle einen Ofen aus Endstein her. Obwohl der Ofen weit von einer echten Schmelzerei entfernt ist, kannst du damit dennoch Erze schmelzen. [Stelle einen Ofen her.]
+
+advancements.levitated.end.mana_pool.title=Vermächtnis der Ureinwohner
+advancements.levitated.end.mana_pool.description=Von Endschiffen abgesehen, spawnen noch andere Gebäude im End, die mehrere magische Gegenstände beherbergen wie beispielsweise einen Manavorrat. [Erhalte einen Mana Pool.]
+
+advancements.levitated.end.liquid_mana.title=Geschenke Gottes
+advancements.levitated.end.liquid_mana.description=Ein leerer Manavorrat hilft dir nicht viel, aber glücklicherweise gibt es natürliche Manavorkommen im stygianischen Gewächsbiom. Diese Form von Mana jedoch ist sehr instabil und könnte dir Schaden zufügen. Du kannst damit lediglich sehr grundlegende Dinge herstellen. Du musst einen Weg finden, es zu stabilisieren. [Befülle einen Eimer mit Mana.]
+
+advancements.levitated.end.mana_usage.title=Nachwachsen
+advancements.levitated.end.mana_usage.description=Mana hat auch viele andere besondere Eigenschaften wie stygianisches Gras in blühendes Gras oder einen stygianischen Creeper in Zuckerrohr umzuwandeln, aber halten wir uns vorerst an den Plan mit den Pflanzen. [Stelle einen Floral Fertilizer her.]
+
+advancements.levitated.end.living_blocks.title=Lebendiges Fundament
+advancements.levitated.end.living_blocks.description=Das reine Gänseblümchen ist imstande, Endstein wieder zum Leben zu erwecken und ermöglicht so, Livingstone herzustellen oder andere Materialien wie Livingwood. [Erhalte Livingstone und Livingwood.]
+
+advancements.levitated.end.altar.title=Geburtsbecken
+advancements.levitated.end.altar.description=Dieser Blütenblatt Apotheker wird dir dabei helfen, mehr magische Blumen herzustellen, um dich auf deiner Reise zu unterstützen. Aber für den Anfang könntest du erstmal Samen gebrauchen. Schlussendlich grüne Samen, aber erstmal werden es auch die lilanen tun. [Stelle einen Petal Apothecary her.]
+
+advancements.levitated.end.water.title=Worauf wartest du? 
+advancements.levitated.end.water.description=Die stygianische Säure aus dem säurehaltigen Flachlandbiom ist sicher schädlich, aber kann mit ein wenig Bastelei gereinigt und in Wasser verwandelt werden. Da dies hier nicht die Oberwelt ist, fürchte ich, dass ich nicht so leicht an Wasser kommen werde. [Befülle einen Eimer mit Stygian Acid.]
+
+advancements.levitated.end.clay_flower.title=Lehmende Angst
+advancements.levitated.end.clay_flower.description=Eine Blume namens Clayconia kann dir dabei helfen, Sand in Lehm zu verwandeln, wobei du dich vermutlichst fragst: Wo bekomme ich Sand her?! [Stelle eine Clayconia her.]
+
+advancements.levitated.end.coke_oven.title=Nicht für Koks
+advancements.levitated.end.coke_oven.description=Ein normaler Ofen kann keine Baumstämme in Holzkohle einschmelzen, dieser Koksofen hingegen schon. [Stelle einen Coke Oven her.]
+
+advancements.levitated.end.enderdagger.title=Subs...Soulscribe!
+advancements.levitated.end.enderdagger.description=Bist du müde vom Töten von Endermännern? Dann ist dieser Dolch wie für dich gemacht! [Stelle ein Soulscribe her.]
+
+advancements.levitated.end.ender_iron.title=Außerirdisch
+advancements.levitated.end.ender_iron.description=Ein Enderman ist imstande, Eisenerz mit bestimmten Elementen zu infundieren, was bedeutet, dass einige Endermänner besondere Blöcke mit sich tragen könnten. Sie besitzen jedoch mehr Gesundheit als reguläre Endermänner. Mithilfe der richtigen Technik hast du es geschafft, ein brandneues Metall namens End infundiertes Eisen zu extrahieren. [Erhalte ein End Infused Iron Ore.]
+
+advancements.levitated.end.grass_seeds.title=Keine Photosynthese
+advancements.levitated.end.grass_seeds.description=Während sich End Samen zum Herstellen von Blumen eignen, sind sie nicht erneuerbar. Um normale Samen herzustellen, benötigst du ein wenig Gras für den Anfang. Ich bin mir sicher, so eine Aufgabe ist eine Leichtigkeit für einen Meister der Alchemie wie dich, nicht wahr? [Erhalte einen Pasture Seed.]
+
+advancements.levitated.end.string.title=Mich halten keine Fäden fest
+advancements.levitated.end.string.description=Industriehanf ist eine großartige Quelle für Fäden in Anbetracht dessen, dass hier weit und breit keine Tiere sind. [Erhalte einen Faden.]
+
+advancements.levitated.end.alfheim.title=Die vierte Dimension
+advancements.levitated.end.alfheim.description=Im End zu bleiben, wird dir nicht helfen, die Oberwelt wiederaufzubauen, aber in den Nether zu reisen, wird es ganz sicher! Bloß wie? Nach einer kurzen Suche in der Lexica Botania entdeckst du Alfheim. Eine Dimension, die Tausende von Elfen beherbergt. Möglicherweise wissen sie etwas über den Nether. Du beschließt, mit der Arbeit am Portal anzufangen.
+
+advancements.levitated.end.alchemy.title=Der ultimative Alchemist
+advancements.levitated.end.alchemy.description=Obwohl es dem End an jeder Menge notwendiger Ressourcen fehlt, ist das Herstellen eines Alchemie Katalysators dennoch möglich. Erkunde einige Endschiffe und schau, was du finden kannst. [Stelle einen Alchemy Catalyst her.]
+
+advancements.levitated.end.fire_rune.title=Mundgeruch
+advancements.levitated.end.fire_rune.description=Erinnerst du dich an den Enderdrachen? Wir sollten ihm vielleicht einen Besuch abstatten. Durch den Mangel an Nether Materialien ist das Herstellen einer Feuerrune wesentlich schwieriger als zuvor. Glücklicherweise könnte eine Flasche Drachenatem helfen. Den Enderdrachen zu besiegen wird nicht einfach... [Stelle eine Fire Rune her.]
+
+advancements.levitated.end.terra_plate.title=Agglomeration
+advancements.levitated.end.terra_plate.description=Die irdische Agglomerationsplatte ist ein entscheidender Schritt zum Terrastahl, der die Hauptzutat für ein Alfheim Portal ist. Mal angenommen du hättest irgendwie alle fünf Runen gefunden, wäre das durchaus machbar. [Stelle eine Terrestrial Agglomeration Plate her.]
+
+advancements.levitated.end.terrasteel.title=Jenseits von allem
+advancements.levitated.end.terrasteel.description=Die Herstellung von Terrastahl benötigt Unmengen an Mana, was eine Herausforderung für einen frischen Botaniker wie dich darstellt. [Stelle einen Terrasteel Ingot her.]
+
+advancements.levitated.end.natura_pylon.title=Portalstabilisierer
+advancements.levitated.end.natura_pylon.description=Das Herstellen dieser Natura Pylone erfordert eigentlich Enderaugen, aber du hast den perfekten Ersatz gefunden. [Stelle einen Natura Pylon her.]
+
+advancements.levitated.end.nether_knowledge.title=Die Unterwelt
+advancements.levitated.end.nether_knowledge.description=Normalerweise erfordert das Reisen in den Nether das Bauen eines Portals in der Oberwelt, aber nachdem du dich mit den Elfen ausgetauscht hast, hast du herausgefunden, dass dich das Bauen eines geglitchten Portals im End direkt in den Nether führen könnte. Aber der Nether ist noch immer eine Dimension des Nichts. Du musst einen Weg finden, ihn zu regenerieren. [Erhalte ein Tome of the Under Realm.]
+
+advancements.levitated.end.infinity_dust.title=Quelle der Unendlichkeit
+advancements.levitated.end.infinity_dust.description=Nachdem du das Buch gelesen hast, wusstest du ganz genau, was zu tun ist: Eine Maschine bauen, die das Gelände wiederaufbauen kann! Ein wenig Grundgestein kann dir sicher helfen, Unendlichkeit aus der Endlichkeit zu erschaffen, aber wo bekommst du bloß welches her? Ah! Auf der End Insel im Zentrum! Falls du den Drachen noch nicht besiegt hast, ist jetzt die Zeit gekommen! [Erhalte Grains of Infinity.]
+
+advancements.levitated.end.end_orechid.title=Stonks
+advancements.levitated.end.end_orechid.description=Müde vom Abbauen? Probier diese Endium Orchidee aus, vorausgesetzt du hast Mana zum Ausgeben! [Stelle eine Orechid Endium her.]
+
+advancements.levitated.end.stirling_gen.title=Stirling Industrie
+advancements.levitated.end.stirling_gen.description=Dies ist der ultimative Generator: einfach, günstig und elegant. [Stelle einen Simple Stirling Generator her.]
+
+advancements.levitated.end.simulation_chamber.title=Deep Learning
+advancements.levitated.end.simulation_chamber.description=Falls das manuelle Töten von Monstern zu anstrengend für dich ist, könntest du vielleicht diese Simulationskammer gut gebrauchen. [Stelle eine Simulation Chamber her.]
+
+advancements.levitated.end.keystone.title=Aufeinander abstimmen
+advancements.levitated.end.keystone.description=System Glitches treten nur in Trials auf. Um ein Trial zu starten, benötigst du einen Trial Keystone. Mehr Informationen erhältst du im Deep Mob Learning Guide. [Stelle einen Trial Keystone her.]
+
+advancements.levitated.end.glitched_oby.title=Glitch im System
+advancements.levitated.end.glitched_oby.description=Ein einfaches Obsidianportal wird dich nicht in den Nether befördern. Du musst einige Glitches in normales Obsidian infundieren, was du mithilfe von terrestrischer Agglomeration bewerkstelligen kannst. [Stelle ein Glitched Obsidian her.]
+
+advancements.levitated.end.nether_portal.title=Die Tür zum Nichts
+advancements.levitated.end.nether_portal.description=Baue ein Portal aus Glitched Obsidian. Jedoch wird ein gewöhnliches Feuerzeug den Glitch nicht triggern. Du wirst etwas Feurigeres wie eine Feuerrune benötigen. Sobald das Portal fertig ist, kannst du hineinspringen, wenn du magst. Aber rechne damit, dass die Leere das Einzige sein wird, das dich dahinter erwartet. [Betritt den Nether.]
+
+advancements.levitated.end.deep_learner.title=Operation: Glitched
+advancements.levitated.end.deep_learner.description=Um beim Bau eines geglitchten Portals zum Nether voranzukommen, musst du die Verhaltensweisen von Monstern simulieren. Es gibt nicht viele Monster im End, such dir also deine Favoriten aus. [Stelle einen Deep Learner her.]
+
+advancements.levitated.end.machine_block.title=Durch Null geteilt
+advancements.levitated.end.machine_block.description=Falls du mehr Generatoren haben möchtest, probier welche aus der Extra Utilities 2 Mod aus. Ohne Netherquarz wird das Herstellen eines Machine Blocks jedoch mühsam. [Stelle einen Machine Block her.]
+
+advancements.levitated.end.sag_mill.title=Doppelter Wahnsinn
+advancements.levitated.end.sag_mill.description=Trotz Orchidee fehlen dir Erze? Mit einer SAG Mill ist die Zeit der Sorgen vorbei! [Stelle eine Simple SAG Mill her.]
+
+advancements.levitated.end.alloy_smelter.title=Verstärkung
+advancements.levitated.end.alloy_smelter.description=Das Verschmelzen verschiedener Substanzen scheint sie zu verstärken, faszinierend. Experten nennen das "Legieren". [Stelle einen Simple Alloy Smelter her.]
+
+advancements.levitated.end.assembler.title=Avengers!
+advancements.levitated.end.assembler.description=Obwohl Simple Machines per Hand hergestellt werden können, wirst du für komplexere Maschinen einen Assembler benötigen. [Stelle einen Assembler her.]
+
+advancements.levitated.end.solder.title=Zinnsoldat
+advancements.levitated.end.solder.description=Zinn ist hervorragend zur Herstellung von Maschinen geeignet. Um einen Eimer Zinn herzustellen, nimm einen Eimer mit Zinnpulver in die Hand, gehe zu einem Feuer und klicke es mit der rechten Maustaste an. [Erhalte einen Eimer Zinn.]
+
+advancements.levitated.end.scanner.title=Operation: Regenerieren
+advancements.levitated.end.scanner.description=Der Nether ist derzeit leer, aber du kannst das ändern. Indem man die Macht eines Terrain Scanners nutzt, kann man die Welt innerhalb von Sekunden nach seinen eigenen Vorstellungen formen. Jedoch benötigt er sehr viel mehr Energie, als normale Maschinen. [Stelle einen Terrain Scanner her.]
+
+advancements.levitated.end.netherrack.title=Die Hölle auf Erden
+advancements.levitated.end.netherrack.description=Bringe einen Kondensator in den Nether und beginne mit dem Wiederaufbau! Was einst war, soll wieder sein... [Erhalte Netherrack.]
+
+advancements.levitated.end.blue_lotus.title=Stabilisierung
+advancements.levitated.end.blue_lotus.description=Die merkwürdigen Pflanzen namens "Enbiotic" sind im stygianischen Gewächsbiom anzufinden. Sie sind imstande, flüssiges Mana zu stabilisieren und zu absorbieren, wodurch sie sich in einen Blue Lotus verwandeln. Einen Blue Lotus in ein Manavorkommen zu werfen, setzt das gespeicherte Mana frei. [Stelle einen Blue Lotus her.]
+
+advancements.levitated.end.feather.title=Vogellos
+advancements.levitated.end.feather.description=Du kannst nicht einfach mit den Fingern schnippen und einen Vogel herbeizaubern, aber ich habe gehört, dass Magie alles lebendig werden lassen kann, sogar ein Stück Papier. Zufälligerweise hast du gerade etwas Mana herumliegen... [Erhalte eine Feder.]
+
+advancements.levitated.end.bed.title=Süße Träume
+advancements.levitated.end.bed.description=Solange du dich nicht mit Endermännern anlegst, ist das End ein ziemlich friedlicher Ort. Ich lege mich jetzt jedenfalls schlafen. Wir sehen uns morgen, falls es ein morgen gibt. [Stelle ein Bett her.]
+
+advancements.levitated.end.waystone.title=Do you know da wae?
+advancements.levitated.end.waystone.description=Tausende Blöcke weit zu reisen, kann sehr zeitintensiv sein. Dieses uralte Artefakt kann dir sicher dabei helfen. [Stelle einen Waystone her.]
+
+advancements.levitated.end.compass.title=Der Ruf der Natur
+advancements.levitated.end.compass.description=Streifst du noch immer ahnungslos umher in dem Versuch, das Biom zu finden, das du so begehrst? Lass dich mithilfe dieses Kompasses von der Natur leiten! [Stelle einen Nature's Compass her.]
+
+advancements.levitated.end.chorus_flower.title=Blockige Blumen
+advancements.levitated.end.chorus_flower.description=Falls du jemals mehr von diesen merkwürdigen Früchten haben möchtest, kannst du sie mit einer Chorusblüte anpflanzen. Sie scheinen jedoch kein Gras zu mögen. [Erhalte eine Chorusblüte.]
+
+advancements.levitated.end.mana_resource.title=In Mana baden
+advancements.levitated.end.mana_resource.description=Falls du es nicht bereits getan hast, solltest du deinen geliebten Materialien ein Manabad gönnen. In Mana getauchte Materialien sind viel stärker in Form von Werkzeugen, Rüstung und sogar Artefakten! [Stelle einen Mana Steel Ingot, eine Mana Pearl und einen Mana Diamond her.] 
+
+advancements.levitated.end.bone_block.title=Winziger Knochen
+advancements.levitated.end.bone_block.description=Überraschenderweise verkalkt eine Chorusblüte zu einem Knochenblock, wenn man sie in ein Manavorkommen taucht. Nun kannst du Zuhause deinen eigenen Blumen züchten! [Erhalte einen Knochenblock.]
+
+advancements.levitated.end.endoflame.title=Die Flamme des End
+advancements.levitated.end.endoflame.description=Flüssiges Mana zu stabilisieren, wird dich nicht weiter bringen als bis hier. Um größere Mengen an Mana zu erhalten, musst du anfangen, selber welches zu erzeugen. [Stelle eine Endoflame her.]
+
+advancements.levitated.end.gourmaryllis.title=Endloser Hunger
+advancements.levitated.end.gourmaryllis.description=Diese Blume ist sogar noch abgefahrener, wenn es darum geht, massenhaft Mana zu produzieren, aber du wirst ihren gewaltigen Hunger stillen müssen. [Stelle eine Gourmaryllis her.]
+
+advancements.levitated.end.biome_scanner.title=Ferngesteuerter Wiederaufbau
+advancements.levitated.end.biome_scanner.description=Auch wenn der Terrainscanner gut genug ist, um den Nether wiederaufzubauen, musst du ihn immer mal wieder umsetzen, um mehr als einen Chunk zu bearbeiten. Glücklicherweise kannst du einen Biomscanner, der normalerweise nur das Biom des derzeitigen Chunks scannt, mit einem Terrain Scanner kombinieren und so den gesamten Nether aus der Ferne wiederaufbauen. [Stelle einen Biome Scanner her.]
+
+advancements.levitated.end.queue.title=In der Schlange warten
+advancements.levitated.end.queue.description=Bist du müde davon, immer wieder klicken und klicken und klicken zu müssen, um jeden Chunk einzeln aufzubauen? Dieses Gadget erlaubt es dir, Chunks zum Wiederaufbau in eine Warteschlange einzureihen! [Stelle eine Scanner Queue her.]
+
+advancements.levitated.end.scanner_info.title=Scanner Guide
+advancements.levitated.end.scanner_info.description=Sieh in der Just enough Items Beschreibung nach, um herauszufinden, wie Scanner funktionieren!
+
+advancements.levitated.end.chaos_pearl.title=Chaosperlen
+advancements.levitated.end.chaos_pearl.description=Sollte dir deine Umgebung zu leblos erscheinen, lass dich von einer Chaosperle zu einem anderen Ort teleportieren! [Stelle eine Chaos Pearl her.]
+
+advancements.levitated.end.drawer.title=F in chat for respect
+advancements.levitated.end.drawer.description=Du wirst eine zeitlang keinen Zugang zu Holz aus der Oberwelt erhalten. Du wirst einen Framed Drawer verwenden müssen. [Stelle einen Framing Table her.]
+
+advancements.levitated.end.bonsai.title=Miniaturpflanze
+advancements.levitated.end.bonsai.description=Bist du müde vom Fällen riesiger Bäume immer und immer wieder? Wie wäre es mal mit winzig kleinen? [Stelle einen Bonsai Pot her.]
+
+advancements.levitated.end.menril.title=Integrated Logic
+advancements.levitated.end.menril.description=Falls du irgendwann mal fortgeschrittene Automatisierungen einrichten möchtest, wirst du an integrated logics nicht vorbeikommen. [Stelle einen Menril Sapling her.]
+
+advancements.levitated.end.info.title=Multiplayer Info
+advancements.levitated.end.info.description=Spieler können den folgenden Befehl nutzen, um ihre Errungenschaften mit denen ihrer Teammitglieder zu synchronisieren. [/tofe invite username]
+
+# The Nether
+advancements.levitated.nether.root.title=Seelenlose Dimension
+advancements.levitated.nether.root.description=Diese Welt ist ein ruhiger Ort. Zumindest war er das, bevor du ankamst. Während sich die Welt vor deinen Augen formt, erscheinen die ersten Monster. Sei vorsichtig... 
+
+advancements.levitated.nether.altar.title=Altar des Lebens
+advancements.levitated.nether.altar.description=Durch das Kombinieren einiger neuer Materialien aus dem Nether, warst du in der Lage, einen Altar zur Wiederauferstehung von Kreaturen zu bauen. Das funktioniert jedoch nicht immer... [Stelle einen Summoning Altar her.]
+
+advancements.levitated.nether.rotten_pork.title=Fieser Speck
+advancements.levitated.nether.rotten_pork.description=Schweinezombies lassen nicht länger Goldnuggets oder -barren fallen, dafür aber hin und wieder ein Stück verrottetes Schweinefleisch, das du für Beschwörungsrituale verwenden kannst, um Schweine zu beschwören. [Erhalte ein Stück Rotten Pork.]
+
+advancements.levitated.nether.chicken_ring.title=Ringe hoch oben im Himmel
+advancements.levitated.nether.chicken_ring.description=Mit der Seele eines Huhns gelang es dir, einen Ring zu schmieden, der deinen Fall verlangsamt. Mit einigen gezielten Verbesserungen könnte er dir das Fliegen ermöglichen. [Stelle einen Chicken Wing Ring her.]
+
+advancements.levitated.nether.chassis.title=Industriestandard
+advancements.levitated.nether.chassis.description=Netherquarz hat eine hohe elektrische Leitfähigkeit, die es zu einem besonders geeigneten Material für das Herstellen von Machine Chassis macht, die wiederum notwendig sind für den Bau von komplexeren Maschinen. [Stelle ein Industrial Machine Chassis her.]
+
+advancements.levitated.nether.resonator.title=Resonanz
+advancements.levitated.nether.resonator.description=Das Bearbeiten normaler Materialien im Resonator wandelt sie in ihre hochwertigen Gegenstücke um, die sich ausgezeichnet für den Bau von Maschinen eignen. [Stelle einen Resonator her.]
+
+advancements.levitated.nether.blaze_rod.title=Heiße Rute
+advancements.levitated.nether.blaze_rod.description=Lohen spawnen hin und wieder auf Netherziegeln im Nether. Und mit ausreichend Glück findest du vielleicht sogar einen Lohenspawner in einer Netherfestung. [Erhalte eine Lohenrute.]
+
+advancements.levitated.nether.wither_skeleton.title=Verbrannte Knochen
+advancements.levitated.nether.wither_skeleton.description=Witherskelette spawnen hin und wieder auf Lavastones im Nether, aber diesen Stein erstmal zu finden, ist nicht einfach... [Töte ein Witherskelett.]
+
+advancements.levitated.nether.star.title=Die Sterne in einer Linie
+advancements.levitated.nether.star.description=Der Wither, die gefährlichste Kreatur im Nether, besitzt einen Netherstern, der unvorstellbare Macht enthält. [Erhalte einen Netherstern.]
+
+advancements.levitated.nether.stargen.title=Über Nuklearstrom hinaus
+advancements.levitated.nether.stargen.description=Der Wiederaufbau des Nethers kostet Unmengen an Energie. Dieser Generator könnte dir helfen. [Stelle einen Netherstar Generator her.]
+
+advancements.levitated.nether.withermodel.title=Quantum Simulation
+advancements.levitated.nether.withermodel.description=Große Mengen an Nethersternen zu beschaffen, ist keine einfache Aufgabe. Aber du kannst dich jederzeit einem Deep Learning Modell zuwenden... [Stelle ein Wither Data Model her.]
+
+advancements.levitated.nether.alloy.title=Fortgeschrittenes Legieren
+advancements.levitated.nether.alloy.description=Die kommenden Maschinen werden sehr viel mehr Legierungen benötigen, daher solltest du einen schnelleren Alloy Smelter herstellen. [Stelle einen Alloy Smelter her.]
+
+advancements.levitated.nether.blast_furnace.title=Wir heben ab
+advancements.levitated.nether.blast_furnace.description=Durch die glühend heiße Hitze der Lohenruten war ein Blast Furnace geboren! Ein zwar primitiver, aber dennoch funktionaler. [Stelle einen Crude Blast Furnace her.]
+
+advancements.levitated.nether.compiron.title=Der Druck wächst
+advancements.levitated.nether.compiron.description=Stahlbarren mit TNT in die Luft zu jagen, komprimiert sie zu dichteren Materialien, die sich für die Herstellung von PCBs eignen. [Erhalte einen Compressed Steel Ingot.]
+
+advancements.levitated.nether.chamber.title=Hochdruckmontage
+advancements.levitated.nether.chamber.description=Schließlich benötigst du Maschinen, um Leiterplatten zu drucken. Dafür wäre eine staubfreie Umgebung ideal. [Stelle eine Pressure Chamber Wall her.]
+
+advancements.levitated.nether.interface.title=Smartes Fenster
+advancements.levitated.nether.interface.description=Müde vom Zerstören der Kammer, um an deine Items heranzukommen? Dann ist dieses Chamber Interface genau richtig! [Stelle ein Pressure Chamber Interface her.]
+
+advancements.levitated.nether.empty_pcb.title=Pretty Clean Board
+advancements.levitated.nether.empty_pcb.description=Um eine funktionsfähige PCB herzustellen, musst du mit einer leeren PCB anfangen. [Stelle eine Empty PCB her.]
+
+advancements.levitated.nether.pcb_blueprint.title=Drucken mit Licht
+advancements.levitated.nether.pcb_blueprint.description=Um eine funktionsfähige PCB herzustellen, benötigst du einen PCB Bauplan. Glücklicherweise kannst du einen online kaufen. [Kaufe einen PCB Blueprint.]
+
+advancements.levitated.nether.oil.title=Schwarzes Gold
+advancements.levitated.nether.oil.description=PCBs benötigen Plastik, für dessen Herstellung du zunächst Öl benötigst. Ein Pumpjack sollte dir dabei helfen. [Erhalte einen Eimer mit Öl.]
+
+advancements.levitated.nether.refinery.title=Die Spitze der Effizienz
+advancements.levitated.nether.refinery.description=Dein Öl einfach zu verbrennen, ist eine gewaltige Verschwendung! Zudem solltest du andere Substanzen vom Öl separieren, um sie nutzen zu können. [Stelle eine Refinery her.]
+
+advancements.levitated.nether.lpg.title=Qualitativer Treibstoff
+advancements.levitated.nether.lpg.description=LPG ist ein effizienter Treibstoff und zudem notwendig zum Herstellen von flüssigem Plastik. [Fülle einen Eimer mit LPG.]
+
+advancements.levitated.nether.plastic.title=Umweltschädlich
+advancements.levitated.nether.plastic.description=Endlich! Ein Stück Plastik! Denk daran, es einzufärben, bevor es trocknet. [Stelle einen Plastic Mixer her.]
+
+advancements.levitated.nether.tablet.title=Aminezon
+advancements.levitated.nether.tablet.description=Einige Technologien sind in diesem Ödland einfach nicht umzusetzen. Hab daher keine Angst, dein Geld aus dem Fenster zu werfen! Zumindest falls du welches hast. [Stelle ein Amadron Tablet her.]
+
+advancements.levitated.nether.pcb.title=Mikro Schaltkreis
+advancements.levitated.nether.pcb.description=An diesem Punkt denke ich, dass du PCBs nun ganz alleine herstellen kannst. Und falls nicht, hast du immer noch eine Anleitung, in der du nachschlagen kannst. [Stelle eine PCB her.]
+
+advancements.levitated.nether.excavator.title=Gewaltige Ausgrabung
+advancements.levitated.nether.excavator.description=Die Mineralvorkommen dieser Welt sind sicher nicht ausreichend. Du musst entweder auf Magie zurückgreifen oder anfangen, tiefer zu graben. Einen Excavator zu bauen, wäre sicher hilfreich. [Baue einen Excavator.]
+
+advancements.levitated.nether.induction.title=Überhitzung
+advancements.levitated.nether.induction.description=Ein Alloy Smelter ist imstande... nun... Alloys bzw. Legierungen herzustellen. Aber bestimmte Legierungen wie Signalum und Lumium benötigen höhere Temperaturen zum Schmelzen. Dafür wirst du einen Induction Smelter benötigen. [Stelle einen Induction Smelter her.]
+
+advancements.levitated.nether.overworld_star.title=Die Realität umkehren
+advancements.levitated.nether.overworld_star.description=Erinnerst du dich an die Elfen? Sie sagten, sie wären gewillt, dir mehr Informationen über die Oberwelt zu geben... sofern du ein Artefakt besitzst, das sie gerne hätten. Offensichtlich hast du keins, aber mit diesem Fake Artefakt, das du mit einem Netherstern geschmiedet hast, könntest du sie übers Ohr hauen ... [Stelle einen Overworld Star her.]
+
+advancements.levitated.nether.overworld_knowledge.title=So naiv
+advancements.levitated.nether.overworld_knowledge.description=Ha! Sie sind darauf hereingefallen! Du hast tatsächlich mehr Informationen über die Oberwelt erhalten. Die guten Nachrichten: Ein Portal zur Oberwelt zu bauen ist möglich, auch wenn das alte Obsidianportal nicht länger funktioniert. Die schlechten Nachrichten: Dafür musst du die Kraft eines Regenbogens kanalisieren... Aber ein Regenbogen... im End? [Erhalte einen Orb of Life.]
+
+advancements.levitated.nether.rainbowgen.title=Rainbow Seven Siege
+advancements.levitated.nether.rainbowgen.description=Letztendlich nach mehrtägiger Suche hast du einen gefunden. Aber dieses ganze Ding zum Laufen zu kriegen, ist alles andere als einfach... Sicherlich kannst du es per Hand machen, aber es zu automatisieren wird dir eine ganze Menge Arbeit ersparen. [Stelle einen Rainbow Generator her.]
+
+advancements.levitated.nether.rainbow_ingot.title=Regenbogen in einer Kiste
+advancements.levitated.nether.rainbow_ingot.description=Indem du Uranblöcke mit Regenbogensteinen umhüllt hast, entstand ein neues Material! Baue ein Portal aus Regenbogenblöcken und zünde es mit einem Rod of the Bifrost an! Es wird Zeit, nach Hause zu gehen! [Stelle einen Rainbow Ingot her.]
+
+advancements.levitated.nether.veinmine.title=Manuelle Ausgrabung
+advancements.levitated.nether.veinmine.description=Falls du noch immer Blöcke einzeln abbaust, solltest du in Betracht ziehen, dieses Upgrade für deine Tinkers' Pickaxe herzustellen! Das macht es sehr viel einfacher, Erze im Nether zu finden! [Stelle einen Excavate Modifier her.]
+
+advancements.levitated.nether.shulker_ring.title=Frei schwebend
+advancements.levitated.nether.shulker_ring.description=Einen Chicken Wing Ring mit einer Soul of Shulker zu infundieren, gewährt dir die Fähigkeit zu fliegen! Nunja... so halb. [Stelle einen Ring of the Levitating Shulker her.]
+
+advancements.levitated.nether.angel_ring.title=Engelsflügel
+advancements.levitated.nether.angel_ring.description=Technisch gesehen ist es möglich, den Shulker Ring noch ein wenig zu verbessern, aber dafür musst du ein uraltes Wesen, den Gaia Guardian, besiegen. Und das willst du nicht wirklich... [Stelle einen Angel Ring her.]
+
+advancements.levitated.nether.press.title=Press dein Glück
+advancements.levitated.nether.press.description=Gerade sind einige besondere Pressen im Angebot, die du für das Einrichten eines digitalen Lagers gebrauchen könntest. [Kaufe alle vier Pressen.]
+
+advancements.levitated.nether.skystone.title=Der Himmel ist die Grenze
+advancements.levitated.nether.skystone.description=Einen Meteor im Nether oder End zu finden, scheint sehr unwahrscheinlich. Vielleicht probierst du es mit etwas Magie? [Stelle einen Sky Stone her.]
+
+advancements.levitated.nether.manual_mill.title=Endloses Mahlen
+advancements.levitated.nether.manual_mill.description=Maschinen wie der Resonator nutzen Grid Power als Energie. Eine Möglichkeit zum Generieren von Grid Power ist das Mahlen. [Stelle eine Manual Mill her.]
+
+advancements.levitated.nether.solar.title=Sonnenfinsternis
+advancements.levitated.nether.solar.description=Für den Rest deines Lebens zu mahlen, um Energie zu erzeugen, ist keine gute Idee. Wieso probierst du es nicht mal mit all der frei verfügbaren Sonnenenergie? [Stelle ein Solar Panel her.]
+
+advancements.levitated.nether.soul_chassis.title=Eine Seele für eine Seele
+advancements.levitated.nether.soul_chassis.description=Manche Maschinen interagieren mit Tieren und Monstern, benötigen gleichzeitig aber Seelen zum Funktionieren. [Stelle ein Soul Machine Chassis her.]
+
+advancements.levitated.nether.aversion.title=Seelenfrieden
+advancements.levitated.nether.aversion.description=Der Nether ist zu gefährlich, um eine Basis zu errichten? Dieser Obelisk hindert Monster am Spawnen. Alles, was du dafür tun musst, ist ihm eine Seele zu geben. [Stelle einen Aversion Obelisk her.]
+
+advancements.levitated.nether.blue_slime.title=Schleimige Daten
+advancements.levitated.nether.blue_slime.description=Schleime sind für eine handvoll Dinge nützlich. Wenn es doch nur einen Weg gäbe, um sie in Massen zu produzieren... [Stelle ein Blue Slime Data Model her.]
+
+advancements.levitated.nether.xp.title=Erfahrung fürs Leben
+advancements.levitated.nether.xp.description=Erfahrung in flüssiger Form aufzubewahren ist in Ordnung, aber viel effizienter ist sie in diesem Obelisken. [Stelle einen Experience Obelisk her.]
+
+advancements.levitated.nether.vortex.title=Polarwirbel
+advancements.levitated.nether.vortex.description=Verwendest du noch immer Lava, um deine Refinery zu befeuern? Sieh dir mal diese handliche Maschine an! Sie verwendet lediglich Druckluft. [Stelle ein Vortex Tube her.]
+
+advancements.levitated.nether.vacuum.title=Simple Mathematik
+advancements.levitated.nether.vacuum.description=Wie man einen negativen Luftdruck erhält, fragst du? Es ist ganz leicht. Subtrahiere einfach! [Stelle eine Vacuum Pump her.]
+
+advancements.levitated.nether.assembly.title=Fortgeschrittene Montage
+advancements.levitated.nether.assembly.description=PCBs herzustellen kann ziemlich mühsam sein. Glücklicherweise kannst du mithilfe von Fließbändern diesen Prozess vereinfachen. [Stelle einen Assembly Controller her.]
+
+advancements.levitated.nether.blast_furnace_adv.title=Eisenzeit
+advancements.levitated.nether.blast_furnace_adv.description=Eisen manuell zu schmelzen, ist wahnsinnig eintönig, meinst du nicht? Hey, jetzt verstehen wir uns. [Stelle einen Improved Blast Furnace her.]
+
+advancements.levitated.nether.bonsai.title=Hyper Boost
+advancements.levitated.nether.bonsai.description=Bist du müde vom Stacken von Bonsais? Dieser Bonsai Pot Manager wird dir helfen! Er sammelt alle Items ein, die von nahegelegenen Bonsais produziert werden. Zudem gewährt er allen Livingstone Bonsais einen Geschwindigkeitsschub, wenn du ihn mit Mana antreibst! [Stelle einen Bonsai Pot Manager her.]
+
+# Overworld
+advancements.levitated.overworld.root.title=Sonne, Mond und Sterne
+advancements.levitated.overworld.root.description=Du hast es zurück nach Hause geschafft! Aber diese Welt ist nicht der ideale Ort, um sich niederzulassen. Immerhin ist hier nichts als der Void. Was würde die Zukunft da schon bringen?
+
+advancements.levitated.overworld.refined_iron.title=Doppeltes Raffinieren
+advancements.levitated.overworld.refined_iron.description=Anscheinend ist das einmalige Raffinieren von Eisen nicht genug. Du wirst bessere Ausgangsmaterialien brauchen, um fortgeschrittenere Maschinen herzustellen. Stahl ein weiteres Mal zu raffinieren, sollte funktionieren, aber wie? [Stelle einen raffinierten Stahlbarren her.]
+
+advancements.levitated.overworld.rubber.title=Europäisches Radiergummi
+advancements.levitated.overworld.rubber.description=Nagut, ich gebe zu, die hier sind nicht für die Schule, sondern um Kabel herzustellen. Bitte achten Sie auf ihre Sicherheit, wenn sie mit Strom hantieren, Sir/Madame. [Erhalte sap.]
+
+advancements.levitated.overworld.blast_furnace.title=It's getting hot in here!
+advancements.levitated.overworld.blast_furnace.description=Hättest du einen industrial blast furnace, könntest du calciumcarbonate cells herstellen, die es dir erlauben würden, Eisenbarren direkt in raffinierte Stahlbarren umzuwandeln, was sehr viel effizienter wäre. [Stelle einen Industrial Blast Furnace her.]
+
+advancements.levitated.overworld.distiller.title=Halt still
+advancements.levitated.overworld.distiller.description=Raffinierte Stahlbarren zu produzieren, kann ziemlich zeitintensiv werden. Beim Durchstöbern des Rezeptbuches fandest du heraus, dass Calciumcarbonat es dir erlauben dürfte, diesen Vorgang zu vereinfachen. Normales Wasser zu destillieren, ist einer der Schritte, die du befolgen musst. [Baue einen Distiller.]
+
+advancements.levitated.overworld.voidminer.title=Essenz des Voids
+advancements.levitated.overworld.voidminer.description=Mehrere Stunden in das Abbauen von Erzen zu investieren, ist einfach nicht ideal. Wieso die überschüssige Energie nicht sinnvoll nutzen? Diese Maschine kann Void Energie materialisieren und in unterschiedliche Erze verwandeln. Mit kleinen Anpassungen kann diese Maschine auch Pflanzen und andere Rohstoffe generieren. [Stelle einen Void Ore Miner Controller Tier 1 her.]
+
+advancements.levitated.overworld.machine_frame.title=Arbeitsrahmen
+advancements.levitated.overworld.machine_frame.description=Hier gibt es nichts zu sehen! Nur ein einfacher machine frame. [Stelle einen Basic Machine Frame her.]
+
+advancements.levitated.overworld.recycler.title=Umweltfreundlich
+advancements.levitated.overworld.recycler.description=Mittlerweile dürftest du jede Menge Abfallstoffe produziert haben. Anstatt sie wegzuwerfen, könntest du sie recyceln und damit deine Umwelt sauber halten. [Stelle einen Recycler her.]
+
+advancements.levitated.overworld.voidminer2.title=Unaufhaltsamer Fortschritt
+advancements.levitated.overworld.voidminer2.description=Mit ein wenig Bastelei ist es dir gelungen, die Void Energie in seltenere Erze umzuwandeln wie Iridium, Titan und Smaragde. [Stelle einen Void Ore Miner Controller Tier 4 her.]
+
+advancements.levitated.overworld.uumachine.title=Etwas aus dem Nichts heraus
+advancements.levitated.overworld.uumachine.description=Wie sich herausgestellt hat, kannst du eine sehr wertvolle Substanz mit dem Scrap herstellen, das du durchs Recyceln erhalten hast. Du nennst es UU-Matter. Damit kommst du sehr viel leichter an große Mengen an seltenen Erzen. [Stelle einen Matter Fabricator her]
+
+advancements.levitated.overworld.fusion.title=Kernfusion
+advancements.levitated.overworld.fusion.description=Bestimmt stehen dir viele Maschinen zur Verfügung, aber mit keiner davon kannst du eine Rakete bauen, die dich auf einen anderen, bewohnbaren Planeten bringt, solange du nicht die richtigen Rohstoffe hast. Sicherlich sind Iridium und Titan sehr robust, aber vielleicht hältst du lieber Ausschau nach einem Material, das nicht auf diesem Planeten existiert... Platin zum Beispiel. [Stelle einen Fusion Control Computer her.]
+
+advancements.levitated.overworld.quantum_quarry.title=Quantentunneleffekt
+advancements.levitated.overworld.quantum_quarry.description=Platin mag das erste von Menschen erschaffe Material auf diesem Planeten sein, aber ist sicher nicht das letzte. Tatsache ist, du kannst dir sogar Materialien von anderen Welten ausleihen. Wir nennen das Quantum Mining. [Baue eine Quantum Quarry.]
+
+advancements.levitated.overworld.structure.title=Stabiles Gerüst
+advancements.levitated.overworld.structure.description=Bei den ganzen Stürmen, die über die Oberwelt hinwegpeitschen, willst du dort sicher nicht dein Zelt aufschlagen, wobei das End nicht unbedingt besser ist. Also... was nun? [Stelle eine Machine Structure her.]
+
+advancements.levitated.overworld.rocket.title=Raumfahrt! ... noch nicht ganz
+advancements.levitated.overworld.rocket.description=Du hattest andere Pläne, aber den Planeten zu verlassen und auf einen anderen zu reisen, ist wahrscheinlich die richtige Entscheidung. Nicht alle Planeten sind lebensfähig und nicht alle lebensfähigen Planeten sind für Menschen geeignet. Ohne geeignete Werkzeuge würde die Suche nach dem perfekten Planeten Jahrhunderte dauern. Raketen gehören auf jeden Fall dazu. [Stelle eine Rocket Assembling Machine her.]
+
+advancements.levitated.overworld.space_station.title=Nichtstationär
+advancements.levitated.overworld.space_station.description=Mit dem bloßen Auge wirst du keine außerirdischen Planeten ausfindig machen. Du solltest dich lieber auf eine größere Höhe begeben. Um es in klar verständlichen Worten auszudrücken - Es wird Zeit für eine Raumstation. [Stelle einen Space Station Assembler her.]
+
+advancements.levitated.overworld.warp.title=Intergalaktisches Reisen
+advancements.levitated.overworld.warp.description=Es scheint so, als gäbe es für dich keinen bewohnbaren Planeten im Sonnensystem. Möglicherweise findest du einen in einer anderen Galaxie, aber das ist ein Schuss ins Blaue. Du kannst nicht einfach eine Rakete in eine andere Galaxie schießen, aber Teleportation wäre vielleicht eine Möglichkeit. [Stelle einen Warp Controller her.]
+
+advancements.levitated.overworld.satellite.title=Loyaler Anhänger
+advancements.levitated.overworld.satellite.description=Um neue Planeten zu finden, wirst du einige Daten im Warp Controller sammeln müssen. Und Satelliten wären dabei definitiv hilfreich. Stell nur sicher, dass du sie nicht sofort zerstörst, weil du vergessen hast, Solar Panels anzubringen, okay? [Stelle einen Satelliten her.]
+
+advancements.levitated.overworld.fueling_station.title=Alles vollgetankt!
+advancements.levitated.overworld.fueling_station.description=Auch wenn das Einfüllen von Raketentreibstoff mit einem Eimer hervorragend funktioniert, solltest du lieber eine fueling station bauen, nur um sicherzugehen. (Verwende Ender IO Rocket Fuel Treibstoff) [Stelle eine Fueling Station her.]
+
+advancements.levitated.overworld.satellite_station.title=Wir brauchen 5G
+advancements.levitated.overworld.satellite_station.description=Die Daten, die deine Satelliten gesammelt haben, laden sich nicht von selbst herunter. Du brauchst ein Satellite Terminal, um an die Daten zu kommen. [Stelle ein Satellite Terminal her.]
+
+advancements.levitated.overworld.insulated_wire.title=Isoliert
+advancements.levitated.overworld.insulated_wire.description=Professionelle Techniker greifen immer auf Gummi zurück, um sich zu schützen. [Stelle ein Insulated Copper Cable her.]
+
+advancements.levitated.overworld.kepler.title=Der weite Weg "heim"
+advancements.levitated.overworld.kepler.description=Nach einer Teleportation nach der anderen hast du endlich einen vertauten Ort entdeckt...
+
+advancements.levitated.overworld.spacesuit.title=Zieh dich an
+advancements.levitated.overworld.spacesuit.description=Du bist weder Superman noch kannst du in Vakuum atmen, ein Raumanzug ist daher ein Muss. Und Sauerstofftanks natürlich auch. [Stelle einen Space Suit her.]
+
+advancements.levitated.overworld.rubber_tree.title=Klebrige Stöcke
+advancements.levitated.overworld.rubber_tree.description=Gummibäume(Rubber Trees) wachsen normalerweise in Wald- und Sumpfbiomen. Du wirst die Oberwelt wiederaufbauen müssen, um welche zu finden. [Erhalte einen Rubber Sapling.]
+
+advancements.levitated.overworld.implosion.title=Big Bang
+advancements.levitated.overworld.implosion.description=Einige Materialien wie Iridium sind schwer zu pressen. Dieser Implosion Compressor wird dir zur Hand gehen. [Stelle einen Implosion Compressor her.] 
+
+advancements.levitated.overworld.efficiency.title=Schön und Sauber
+advancements.levitated.overworld.efficiency.description=Steh nicht einfach nur da, während deine Quarry leise vor sich hin arbeitet. Du kannst verzauberte Bücher verwenden, um deine Quantum Quarry zu verstärken.
+
+advancements.levitated.overworld.electro.title=Strom Magier
+advancements.levitated.overworld.electro.description=Eine Maschine, die Strom Magie anwendet. Klingt cool! [Stelle einen Industrial Electrolyzer her.]
+
+advancements.levitated.overworld.deflector.title=Gefahrenabwendung
+advancements.levitated.overworld.deflector.description=Du dachtest, eine Stadt würde genügen, aber sie wird den Tornados nicht standhalten können. Glücklicherweise kam dir noch eine andere Idee. Die erfordert jedoch ein wenig Wühlerei. [Stelle einen Weather Deflector her.]
+
+advancements.levitated.overworld.skycity.title=Dein Universum
+advancements.levitated.overworld.skycity.description=Du hast die Kugel auf dem Deflektor platziert und plötzlich begannen alle Blöcke zu wachsen... [Während du Shift gedrückt hältst, rechtsklicke den Weather Deflector mit der Miniature Sky City Globe in der Oberwelt.]
+
+advancements.levitated.overworld.speed.title=Mit Nitro übertakten
+advancements.levitated.overworld.speed.description=Einige Maschinen arbeiten ziemlich langsam, aber dafür fehlt dir die Zeit. [Stelle ein Overclocker Upgrade her.]
+
+# Resources
+advancements.levitated.resources.root.title=Erze und Rohstoffe
+advancements.levitated.resources.root.description=Alle Informationen über End Erze findest du auf der rechten Seite. [Besorge dir die passenden Erze/Blöcke, um die Errungenschaft abzuschließen.]
+
+advancements.levitated.resources.end_iron.title=Spuren von Mineralien
+advancements.levitated.resources.end_iron.description=Mit dem Zusammenbruch der Oberwelt fingen einige Mineralien an, sich im Inneren von Endsteinen zu bilden. Eisen, Gold, Redstone und sogar Lapislazuli.
+
+advancements.levitated.resources.end_coal.title=Überreste des Lebens
+advancements.levitated.resources.end_coal.description=Obwohl du keine Kohle in normalen End Biomen finden wirst, könnte welches im stygianischen Gewächsbiom vorhanden sein. Immerhin gibt es dort noch eine einigermaßen intakte Pflanzenwelt.
+
+advancements.levitated.resources.end_diamond.title=Edelsteine des Void
+advancements.levitated.resources.end_diamond.description=Anders als andere Mineralien, scheinen sich Diamanten unterhalb der End Inseln anzuhäufen und formen eine Porphyry Spitze im säurehaltigen Flachlandbiom.
+
+advancements.levitated.resources.end_copper.title=Mr. Cooper
+advancements.levitated.resources.end_copper.description=Kupfer, Zinn und Blei sind wichtige Rohstoffe für energiebetriebene Maschinen. Diese Erze findest du im stygianischen Gewächsbiom.
+
+advancements.levitated.resources.nether_root.title=Nether Ressourcen
+advancements.levitated.resources.nether_root.description=Alle Informationen über Nether Erze findest du auf der rechten Seite.
+
+advancements.levitated.resources.nether_quartz.title=Funkelnde Kristalle
+advancements.levitated.resources.nether_quartz.description=Sowohl Netherquarz als auch Certus Quartz bilden sich innerhalb von Netherreck über den gesamten Nether hinweg. Es sollte dir nicht allzu schwer fallen, sie zu finden.
+
+advancements.levitated.resources.nether_aluminum.title=Dosenfutter
+advancements.levitated.resources.nether_aluminum.description=Aluminiumerz bildet sich in Basaltstacheln, die von der Decke des Nethers herab hängen. So wie auch Diamanten im End entstehen.
+
+advancements.levitated.resources.nether_nickel.title=Nickelmünzen
+advancements.levitated.resources.nether_nickel.description=Im Nether könntest du über Pyrotheumvorkommen stolpern. Die sind häufig von Basalt und Nickelerz umgeben.
+
+advancements.levitated.resources.nether_silver.title=Silbriger Stern
+advancements.levitated.resources.nether_silver.description=Stacheln aus Glowstone und Magmablöcken bilden sich im Nether. Manchmal findest du bei ihnen Silbererz.
+
+advancements.levitated.resources.nether_ardite.title=Hart im Nehmen
+advancements.levitated.resources.nether_ardite.description=Am Boden des Nethers befinden sich hin und wieder Obsidian- und Erditerzvorkommen.
+
+advancements.levitated.resources.nether_cobalt.title=Speedy Boi
+advancements.levitated.resources.nether_cobalt.description=Obsidian Felsbrocken bilden sich in der Nähe des Grundgesteins an der Decke des Nethers und enthalten manchmal Cobalterze.
+
+advancements.levitated.resources.nether_uranium.title=Radioaktiv
+advancements.levitated.resources.nether_uranium.description=In den niedrigeren Höhen im Nether bilden sich Schichten von Lavastone, die Uranerze enthalten können. Diese Schichten findest du für gewöhnlich unter den Lavaseen.
+
+advancements.levitated.resources.overworld_calcite.title=Kalziumsteine
+advancements.levitated.resources.overworld_calcite.description=Basalt und Marmor sind sehr gute Kalziumquellen! Später wirst du sie zu Kalziumkarbonat verarbeiten können, aber jetzt solltest du sie erstmal zermahlen und zentrifugieren.
+
+advancements.levitated.resources.overworld_ruby.title="Redstone"
+advancements.levitated.resources.overworld_ruby.description=Hey! Endlich kannst du dir in der Oberwelt Smaragde besorgen... oder doch nicht? Traurigerweise nicht, aber du kannst dennoch diese glitzernden, roten Edelsteine in einigen der Voidstone Haufen knapp über dem Grundgestein finden. Du wirst sie brauchen, vertrau mir.
+
+advancements.levitated.resources.overworld_sapphire.title=The Fist of Blue Sapphire
+advancements.levitated.resources.overworld_sapphire.description=Saphire sind ein wenig seltener als Rubine, aber durch ihre höhere elektrische Leitfähigkeit eignen sie sich besser zum Speichern von Energie. Du findest sie auf der Oberfläche einiger unterirdischer Seen.
+
+advancements.levitated.resources.overworld_bauxite.title=Aluminiumkisten
+advancements.levitated.resources.overworld_bauxite.description=Geht dir der Aluminiumnachschub aus? Die Zeit deiner Sorgen ist vorbei! Es gibe Unmengen an Bauxit, die du in der Oberwelt abbauen kannst!
+
+advancements.levitated.resources.overworld_tungsten.title=Void Metall
+advancements.levitated.resources.overworld_tungsten.description=Kleine Ansammlungen von Wolfram befinden sich in der Grundgesteinschicht der Oberwelt. Wenn sie raffiniert wurden, werden sie zu einem außergewöhnlich harten Metall, das sich gut für den Bau von hochentwickelten Technologien eignet.
+
+advancements.levitated.resources.overworld_root.title=Oberwelt Ressourcen
+advancements.levitated.resources.overworld_root.description=Alle Informationen über Erze und Steine der Oberwelt findest du auf der rechten Seite.
+
+advancements.levitated.resources.quantum_root.title=Quantenbohrer
+advancements.levitated.resources.quantum_root.description=Alle Informationen über Quantenerze findest du auf der rechten Seite.
+
+advancements.levitated.resources.quantum_platinum.title=Engel aus Platin
+advancements.levitated.resources.quantum_platinum.description=Platin ist merkwürdig hell und weiß. Diese Eigenschaften machen es zu einem idealen Material für den Bau von Raketen.
+
+advancements.levitated.resources.quantum_dilithium.title=Dilithiumkristalle
+advancements.levitated.resources.quantum_dilithium.description=Dilithium ist der beste Raketentreibstoff. Du bist froh darüber, dass du welches in der Quantenwelt gefunden hast. Somit hast du eine deutlich bessere Chance, die Planeten zu erreichen, die Lichtjahre von dir entfernt liegen.
+
+advancements.levitated.resources.quantum_mithril.title=Magisches Metall
+advancements.levitated.resources.quantum_mithril.description=Mithril ist ein Metall wie kein anderes. Es ist viel härter als Stahl und gleichzeitig leichter als Papier. Herrlich!
+
+# Kepler Advancements
+advancements.levitated.kepler.root.title=Das Ende der Reise
+advancements.levitated.kepler.root.description=Hier ist es also... das neue Zuhause, nach dem du gesucht hast. Nicht exakt so wie die Heimat, an die du dich erinnerst, aber dennoch ein sehr schöner Ort, um sich niederzulassen und ein neues Leben zu beginnen. Während du die Gedanken baumeln lässt, stellt sich dir die Frage: Habe ich wirklich die richtige Entscheidung getroffen?
+
+advancements.levitated.kepler.beacon.title=Ein Funken Hoffnung
+advancements.levitated.kepler.beacon.description=Falls du noch Freunde im End hast, denk über den Bau eines Leuchtfeuers auf dem Kepler Weltraumteleskop nach! Es wird deine Koordinaten hinaus ins All schicken, sodass deine Freunde dich finden können!
+
+# Easter Egg Advancements
+advancements.levitated.easteregg.root.title=Easter Eggs!
+advancements.levitated.easteregg.root.description=Falls du über Easter Eggs gestolpert sein solltest, stehen sie hier!
+
+advancements.levitated.easteregg.feather.title="Feder"-fall
+advancements.levitated.easteregg.feather.description=Zugegeben, das war ein echt lahmer Wortwitz. Nichtsdestotrotz verhindert diese Verzauberung jeglichen Fallschaden!
+
+advancements.levitated.easteregg.valkyrie.title=Besuche Hyperion
+advancements.levitated.easteregg.valkyrie.description=Willkommen in meinem... Moment, wo ist mein Schiff?!
+
+# Story Advancements
+advancements.levitated.story.root.title=Geschichten aus der Vergangenheit
+advancements.levitated.story.root.description=Der Kristall rumpelte leise, als du ihn berührtest und plötzlich erhältst du eine Vision...
+# The Collapse
+advancements.levitated.story.wither_crystal.title=Vision der Zerstörung
+advancements.levitated.story.wither_crystal.description=(In der Vision, ein Zauberer, spricht zum Kristall) Hör zu, wer auch immer das hier gefunden hat! Es tut mir leid. Eigentlich war es uns... es war uns bestimmt, sie zu retten! Wir wollten das End kollabieren lassen, nicht die Oberwelt! Es ist alles unsere Schuld... Das hätte alles nicht passieren sollen... Der Tempel wird von Endermännern angegriffen, wir haben nicht mehr viel Zeit. Die anderen aktivieren ein Portal zur Unterwelt. Das ist unsere einzige Chance zu überleben. Falls das hier jemand sieht... ich weiß nicht, wie du überlebt hast, aber es ist mir egal. Finde die anderen Kristalle und beende, was wir begonnen haben! (*explosion*)
+# The Beginning
+advancements.levitated.story.life_crystal.title=Vision der Natur
+advancements.levitated.story.life_crystal.description=(In der Vision, zwei Zauberer, plaudern miteinander) -Ist dir in letzter Zeit etwas am Boden aufgefallen? -Was meinst du? -Ich weiß es nicht so genau. Er fühlt sich für mich sehr viel instabiler an und Blöcke fingen vorhin an, einfach herunterzufallen. Sogar Blöcke, die gar nicht von der Schwerkraft beeinflusst werden wie beispielsweise Stein. -(Stille)... Das ist...überhaupt nicht gut. Komm mir nach, jetzt! -Warte, wo gehen wir hin? Was passiert hier? -Zur Festung. (Vision verblasst)
+# The Plan
+advancements.levitated.story.fire_crystal.title=Vision der Glut
+advancements.levitated.story.fire_crystal.description=(In der Vision, mehrere Zauberer halten ein Treffen ab) -Du sagst also, dass Endermänner versuchen, den Erdkern Block für Block auseinander zu reißen? -Wenn das der Fall ist, wie können wir das aufhalten? Wir wissen ja noch nicht mal, wo sie herkamen geschweige denn wie wir jeden einzelnen von ihnen aufhalten sollen? -Hören Sie mich an, Gentlemen. Ich habe einen Plan. Es gibt einen Zauberspruch in dem Buch, das ich in meinen Händen halte, "Der große Zusammenbruch". Wir können den Zauberspruch anwenden und das alles beenden. -Aber...ist dieser Zauberspruch nicht verboten? -Ja, es muss einen anderen Weg geben... -NEIN! Es gibt KEINEN anderen Weg! Es sind einfach zu viele. Wir haben nicht mehr als eine Woche. Das Schicksal der Oberwelt liegt nun in unseren Händen. (Vision verblasst)
+# The Mistake
+advancements.levitated.story.water_crystal.title=Vision des Ozeans
+advancements.levitated.story.water_crystal.description=(In der Vision, ein Zauberer, führt Selbstgespräche) Die letzte Zutat für den Zauberspruch ist eine Frucht aus der Dimension... (gähnt) Ich hätte letzte Nacht nicht so lange auf bleiben sollen. Wo war ich noch gleich? Eine Frucht? Ach ja, richtig. Ich habe immer noch einen Apfel bei mir. Der wird reichen. (Vision verblasst)
+# The Aftermath
+advancements.levitated.story.aftermath.title=Das Ende der Geschichte
+advancements.levitated.story.aftermath.description=Nein... das kann nicht sein. Wie? Sprachen sie nicht über einen Zauberspruch, um das End kollabieren zu lassen? Wie ist die Oberwelt zusammengestürzt? Was ist da nur schiefgelaufen?
+# The Hope
+advancements.levitated.story.plan.title=Weiter in der Geschichte
+advancements.levitated.story.plan.description=Wenn die einen Zauberspruch anwenden können, wieso sollte ich das nicht auch können? Es muss einen Weg geben, wie ich die Oberwelt wiederherstellen kann! Das könnte mich Monate kosten... und ich bin mir nicht mal sicher, ob ich es überhaupt schaffen kann, aber ich gebe die Hoffnung nicht auf. Mal sehen, was dieses Ödland zu bieten hat.
+
+advancements.levitated.story.shard.title=Das Schloss im Himmel
+advancements.levitated.story.shard.description=Für den Bruchteil einer Sekunde schwebte dir eine Idee vor, die dich nicht mehr loslässt. Die Lexica Botania erzählt von einem uralten Artefakt namens "Shard of Laputa", das heute noch immer hergestellt werden kann. Es könnte mit Leichtigkeit Tausende Blöcke gleichzeitig verschieben. Aber es gibt immer Raum für Verbesserungen... [Stelle einen Empowered Shard of Laputa her.]
+
+advancements.levitated.story.core.title=Levitated
+advancements.levitated.story.core.description=Abgesehen davon, dass du die Basis für die Himmelsstadt bauen musst, musst du sie auch noch in der Luft halten. Ich bin mir sicher, dass Endkreaturen ihr Leben dem Schwebenlassen von Dingen widmen. [Stelle einen Core of Levity her.]
+
+advancements.levitated.story.spirit.title=Geisterdrache
+advancements.levitated.story.spirit.description=Kikoku, der legendären Klinge, wird nachgesagt, sie reinige den Geist ihrer Feinde. Der Geist des Enderdrachen könnte eine übernatürliche Macht besitzen, die du für den Zauberspruch verwenden könntest. [Erhalte einen Dragon Spirit.]
+
+advancements.levitated.story.potion.title=Alchemistischer Treibstoff
+advancements.levitated.story.potion.description=Zusätzlich zum Core of Levity ist eine große Menge an "Treibstoff" notwendig, um die Stadt in der Luft zu halten. Bedauerlicherweise würde Lava dafür nicht ausreichen, daher kam dir eine andere Idee. [Fülle einen Iron Drum mit einer Potion of Levitation (unverlängerte Version, 3min), stelle anschließend daraus eine Vial of Levitation her.]
+
+advancements.levitated.story.scroll.title=Wilder Pyromane
+advancements.levitated.story.scroll.description=Schließlich wirst du den Zauberspruch an einen Gegenstand binden müssen. Eine mit Nethermagie infundierte Schriftrolle wäre gut. [Stelle eine Scroll of Ignis her.]
+
+advancements.levitated.story.crystal.title=Lebende Essenz
+advancements.levitated.story.crystal.description=Mobs im Nether lassen manchmal eine merkwürdige, schleimige Substanz zurück, die sich nach einer Untersuchung im Ancient Spell Tome als deren Essenz herausgestellt hat. Man sagt, diese Essenzen bilden sich zu Kristallen, wenn man sie auf einem Stück Livingrock anpflanzt. Mit ein wenig Infusionsmagie war der Crystal of Souls geboren. [Stelle einen Crystal of Souls her.]
+
+advancements.levitated.story.dna.title=Lebende Stadt
+advancements.levitated.story.dna.description=Eine Stadt wird sich nie an ihre Umgebung anpassen, da sie nicht lebendig ist. Also lass uns diesmal eine mithilfe der Genetik bauen. [Erhalte eine Genesis DNA.]
+
+advancements.levitated.story.contract.title=Zu den Waffen
+advancements.levitated.story.contract.description=Wärst du das einzige Lebewesen in der Stadt, wäre das viel zu langweilig. Lass uns einige Dorfbewohner dazu einladen, hier zu wohnen. [Stelle einen Folder of Contracts her.]
+
+advancements.levitated.story.apple.title=Ein Stück von Eden
+advancements.levitated.story.apple.description=Die Legende besagt, dass der Garten Eden ein heiliges Artefakt beherbergt, den Apfel von Eden. Vielleicht kannst du einen Baum glauben lassen, er wachse in einem heiligen Garten. [Erhalte einen Apple of Eden.]
+
+advancements.levitated.story.globe.title=Miniaturwelt
+advancements.levitated.story.globe.description=Hier ist es also. Jedes Stück des Puzzles perfekt zusammengesteckt. Du hast die gesamte Stadt auf die Größe einer Schneekugel zusammengeschrumpft. Es ist an der Zeit, ein neues Zeitalter einzuläuten. [Stelle eine Miniature Sky City Globe her.]
+
+# Skycity Advancements
+advancements.levitated.skycity.root.title=Neuanfang
+advancements.levitated.skycity.root.description=Es war ein langer Weg, nicht wahr? Ich bin froh, dass die Menschheit heute eine zweite Chance erhält. -Jahr 0, Zeitalter des Himmels.
+
+advancements.levitated.skycity.creative.title=Lass deiner Kreativität freien Lauf
+advancements.levitated.skycity.creative.description=Du bist am Ende des Packs angelangt! Ich freue mich, dich hier zu sehen. Zum Abschluss des Packs erhältst du einen Behälter mit Kreativitätspaste. Es steht dir frei, sie dafür zu nutzen, deine eigene Himmelsstadt zu erweitern. Jede Kugel hat ihre eigene, einzigartige ID, sodass du die Städte anderer Spieler besuchen kannst, wenn sie es erlauben. Solltest du jemals wieder hierher zurückkehren wollen, verwende noch einmal die Kugel oder platziere einen Waystone in deiner Stadt.
+
+# Custom Tooltips
+tooltips.levitated.end_seeds=Samen, die ihr Ende erreicht haben.
+tooltips.levitated.origin_book=Shift + Rechtsklicke, um deinen Spawnpunkt zu setzen.
+tooltips.levitated.nether_book=Rechtsklicke, um Informationen über den Nether zu erhalten.
+tooltips.levitated.overworld_book=Rechtsklicke, um Informationen über die Oberwelt zu erhalten.
+tooltips.levitated.paper_plane_0=Entfalte das Papier und falte jede der oberen Ecken auf die Mittellinie.
+tooltips.levitated.paper_plane_1=Falte das obere Ende nach unten.
+tooltips.levitated.paper_plane_2=Falte jede der oberen Ecken auf die Mittellinie.
+tooltips.levitated.paper_plane_3=Falte die obere Hälfte des Papiers nach unten.
+tooltips.levitated.paper_plane_4=Falte die Flügel nach unten, sodass sich ihre linke Kante an die rechte Kante des Körpers anschmiegt.
+tooltips.levitated.paper_plane_5=Dasselbe machst du auf der anderen Seite...
+tooltips.levitated.paper_plane_6=Halte Shift gedrückt und rechtsklicke, um den Papierflieger zu werfen!
+tooltips.levitated.paper_plane_hidden_0=In Slot 5 packen.
+tooltips.levitated.paper_plane_hidden_1=In Slot 8 packen.
+tooltips.levitated.paper_plane_hidden_2=In Slot 2 packen.
+tooltips.levitated.paper_plane_hidden_3=In Slot 6 packen.
+tooltips.levitated.paper_plane_hidden_4=In Slot 7 packen.
+tooltips.levitated.paper_plane_hidden_5=In Slot 5 packen.
+tooltips.levitated.paper_plane_hidden_6=Hast du die Hinweise gelesen? :D
+tooltips.levitated.papep_plane_hint=Halte Shift für Hinweise.
+tooltips.levitated.mana_paper=Falte die obere Hälfte des Papiers nach unten.
+tooltips.levitated.mana_paper_2=Was? Das ist immer noch Papier! Bloß mit Mana vollgesaugt!
+tooltips.levitated.endglow=Überlebt nur auf stygianischem Gras.
+tooltips.levitated.hard_glass=Fused Quartz kann nicht verwendet werden, um diesen Gegenstand herzustellen.
+tooltips.levitated.bottle=Flaschen können nicht mit Rechtsklick aufgefüllt werden. Verwende stattdessen einen Fluid Tank.
+tooltips.levitated.chaos_pearl=Abklingzeit: 30s
+tooltips.levitated.recall_pearl=Keine Abklingzeit
+tooltips.levitated.shard=Scherbenpower Ω
+tooltips.levitated.essence=Wird selten von entsprechenden Mobs fallengelassen, wenn sie von einem Spieler getötet werden.
+tooltips.levitated.contract=Kann nur mit unter Vertrag genommenen Dorfbewohnern hergestellt werden.
+tooltips.levitated.deprecated=Dieser Gegenstand ist veraltet. Verwende stattdessen eine Werkbank, um die neue Version zu erhalten.
+tooltips.levitated.transporter=Kann Spawner aufheben
+tooltips.levitated.apple=Wird selten von Eden Apple Leaves fallengelassen
+tooltips.levitated.apple_2=So... verlockend...
+tooltips.levitated.cloud=In der Unterwelt generiert
+tooltips.levitated.orechid.overworld=Funktioniert überall
+tooltips.levitated.orechid.nether=Funktioniert nur im Nether
+tooltips.levitated.orechid.end=Funktioniert nur im End
+tooltips.levitated.key=Blaze Invader affix deaktiviert
+tooltips.levitated.blaze=Spawnt Lohen(wenn im Nether platziert)
+tooltips.levitated.wither_skeleton=Spawnt Wither Skelette(wenn im Nether platziert)
+
+description.levitated.end_iron_chunk=Ein Wyrmwood Plank mit einem Chunk of End Infused Iron zu rechtsklicken, erzeugt einen Firewood Block.
+description.levitated.paper_plane=Hast du Probleme beim Falten eines Papierfliegers? Schaue in die Tooltips und experimentiere in der Werkbank herum!
+description.levitated.mana_paper=Halte Shift gedrückt und rechtsklicke auf eine Werkbank, um es in der Mitte zu falten. Aber das kann man nur, wenn man etwas Erfahrung im Falten von Papier hat. Du kannst das Papier wieder in der Werkbank falten.
+description.levitated.feather=Jeder Vogel lässt Federn fallen, sogar die aus Papier. Außerdem glaube ich, dass alles, was Flügel hat, als Vogel gilt, oder nicht? 
+description.levitated.rainbow=Rechtsklicke einen Bifrost Block mit einem Rainbow Ingot, um ihn in einen Rainbow Block zu verwandeln.
+description.levitated.mana_pool=Du findest Mana Vorkommen in benutzerdefinierten Endsiedlungen.
+description.levitated.stand=Braustände findest du sowohl in Vanilla Endsiedlungen als auch in den benutzerdefinierten.
+description.levitated.solder=Um einen Eimer mit Zinn herzustellen, rechtsklicke einfach mit einem Eimer voll Zinnpulver auf ein Feuer.
+description.levitated.chaos_pearl=Rechtsklicke, um dich zu einem zufälligen Ort in einem Umkreis von 10.000 Blöcken zu teleportieren. Kann nur bis zu 10 Mal hergestellt werden.
+description.levitated.recall_pearl=Rechtsklicke, um dich zu deinem vorherigen Standort zu teleportieren.
+description.levitated.dragon_spirit=Wird vom Enderdrachen fallengelassen, wenn er mit dem Kikoku erlegt wird.
+description.levitated.contract=Dieser Gegenstand kann nur mit unter Vertrag stehenden Dorfbewohnern hergestellt werden. Um einen Dorfbewohner unter Vertrag zu stellen, stelle zunächst einen Contract her und bitte anschließend einen Dorfbewohner, ihn zu unterschreiben.
+description.levitated.biome_scanner=Der Biomscanner scannt das Biom eines Chunks aus der Ferne (benötigt Energie) oder den Chunk, in dem er sich gerade befindet (benötigt keine Energie). Er kann auch in Kombination mit einem Terrainscanner verwendet werden, um Chunks aus der Ferne wiederaufzubauen.
+description.levitated.terrain_scanner=Der Terrainscanner wird verwendet, um ein 16*16*256 großes Gebiet in südöstlicher Richtung von seiner derzeitigen Position aus wiederaufzubauen. Wenn er neben einem Biomscanner platziert wird, kannst du innerhalb des Terrainscanners auf "Show map" klicken, um einen Chunk auszuwählen, von dem aus der Terrainscanner aus der Ferne Chunks wiederaufbauen soll.
+description.levitated.scanner_queue=Die Scanner Warteschlange ist dazu da, mehrere Chunks für den Wiederaufbau einzureihen. Wenn sie neben einem Terrainscanner platziert wird, können genaue Koordinaten eingegeben werden wie "350,250" (Die Reichweite ist auf einen 256 Block Radius um die Warteschlange herum begrenzt), um sie anschließend mit "Add" zur Warteschlange hinzuzufügen. Klickst du danach auf "Build", setzt der Terrainscanner seine Startposition auf die Koordinaten, die du eingegeben hast, um von dort aus die Umgebung wiederaufzubauen. Sobald er damit fertig ist, wechselt er zum nächsten Punkt in der Warteschlange und wiederholt das Ganze. Du kannst bis zu 5 Koordinaten pro Warteschlange einreihen und mehrere Warteschlangen an einen Terrainscanner setzen.
+description.levitated.eden_leaves=Ein Block Erde/Gras umgeben von 8 Goldblöcken, wird als heiliger Erd- bzw. Grasblock angesehen. Eichensetzlinge, die auf solchen Blöcken wachsen, wachsen zu einem Edenbaum. Du könntest eine größere Erd- bzw. Grasfläche benötigen, um einen Edenbaum wachsen zu lassen.
+description.levitated.dna=Wird selten von Creepern fallengelassen, die von Spielern mit dem Bloodthirst Effekt getötet werden.
+description.levitated.cloud=Um zur Unterwelt zu gelangen, musst du dich in der Oberwelt aus einer Höhe von mehr als 255 Blöcken auf Grundgestein auf der Höhe 0 fallen lassen.
+description.levitated.globe=Es könnte mehr als ein Manavorkommen nötig sein, aufgrund des Item Despawn Timers.
+description.levitated.bedrockdust=Grains of Infinity entstehen durch brennendes Grundgestein. Sobald das Feuer erlischt ist oder gelöscht wurde, hat das Item eine Chance, fallengelassen zu werden. Beachte, dass das Item nur fallengelassen werden kann, wenn das Feuer längere Zeit gebrannt hat. Im End brennt Grundgestein ewig. Du wirst es daher irgendwann löschen müssen.
+
+# Unfamiliar Items
+unfamiliar.levitated.shard=Glowing Shard of Laputa
+unfamiliar.levitated.core=Gelbe Schale mit lilanen Kreisen
+unfamiliar.levitated.dragon_spirit=Ein Tropfen Lila
+unfamiliar.levitated.scroll=Pergamentpapier
+unfamiliar.levitated.scroll_ignis=Heißes Pergamentpapier mit roten Zeichnungen
+unfamiliar.levitated.crystal=Scharfe farbige Felsen
+unfamiliar.levitated.essence=Hübsches Goo
+unfamiliar.levitated.soul_crystal=Unregelmäßig scharfe Felsen
+unfamiliar.levitated.apple=Glühender Apfel
+unfamiliar.levitated.dna=Linien im Orb
+unfamiliar.levitated.contract=Papierstapel
+unfamiliar.levitated.eden_leaves=Apfellaub
+unfamiliar.levitated.eden_leaves_fruitless=Goldenes Laub
+unfamiliar.levitated.globe=Schneekugel
+unfamiliar.levitated.potion=Kopfüber Phiole
+unfamiliar.levitated.deflector=Tornado hinfort mit dir!
+
+# Item Rename
+rename.levitated.shulker_ring=Ring des schwebenden Shulkers
+rename.levitated.compiron=Gepresster Stahlbarren
+rename.levitated.compiron_block=Gepresster Stahlbarrenblock
+rename.levitated.refined_iron_ingot=Raffinierter Stahlbarren
+rename.levitated.refined_iron_block=Raffinierter Stahlbarrenblock
+rename.levitated.refined_iron_nugget=Raffinierter Stahlnugget
+rename.levitated.refined_iron_plate=Raffinierte Stahlplatte
+rename.levitated.biome_scanner_deprecated=Biomscanner (Veraltet)
+rename.levitated.biome_scanner=Biomscanner
+
+# Tips
+tips.levitated.1=Für die Errungenschaft "The Long Journey Home" wirst du einen Planeten finden und auf ihm landen müssen, der der ehemaligen Erde ähnlich sieht.
+tips.levitated.2=Pflanzen wachsen durchaus im End. Sie benötigen lediglich etwas Licht.
+tips.levitated.3=Probleme mit dem Aufbewahren von Wasser? Versuchs mit einem Fluid Tank!
+tips.levitated.4=Pure Daisys gibt es nur in nicht-vanilla Endsiedlungen, die ziemlich selten sein können, wenn du Pech hast. Zieh in Betracht, mit anderen Spielern zu handeln, falls du auf einem Server spielst.
+tips.levitated.5=Slime Inseln spawnen nicht im End, aber du kannst sie finden, wenn du die Oberwelt wiederaufbaust.
+tips.levitated.6=Du kannst deinen Grave Key mit einer Enderperle kombinieren und dich so zu deinem Grab teleportieren. Das funktioniert sogar über Dimensionen hinweg.
+tips.levitated.7=Der Scanner kann jeden Block nur einmal wiederherstellen. Du kannst daher Erzadern nicht mehrfach abbauen.
+tips.levitated.8=Du kannst jetzt tatsächlich im End schlafen, kein Scherz!
+tips.levitated.9=Hab keine Angst vor dem Void! Du wirst direkt wieder nach oben teleportiert.
+tips.levitated.10=Grundgestein ist nicht der einzige Block, der Grains of Infinity generieren kann.
+tips.levitated.11=Du findest keine Endsiedlungen mit Loot? Versuchs mit einem zufälligen Teleport mit einer Chaosperle!
+tips.levitated.12=Du musst zuerst alle 16 Generatoren einschalten, bevor du den Rainbow Generator starten kannst, aber du kannst jederzeit mehrere von einer Sorte bauen.
+tips.levitated.13=Es gibt mehrere Wege, Rohstoffe zu verarbeiten. Sie haben alle ihre Vor- und Nachteile.
+tips.levitated.14=Ein Small Plate Presser presst nur grundlegende Metallblöcke.
+tips.levitated.15=Du kannst neue Planeten entdecken, indem du einen Warp Controller innerhalb einer Raumstation verwendest.
+tips.levitated.16=Nicht alle Planeten sind von Beginn an sichtbar, ganz besonders die bewohnbaren.
+tips.levitated.17=Ein guter Paperflieger fliegt wie ein Vogel.
+tips.levitated.18=Bau keine Mob Farmen. Versuchs stattdessen mit einem Deep Learning Serverraum!
+tips.levitated.19=Halt die Augen offen, wenn du die Gegend erkundest. Es gibt Geschichten zu entdecken.
+tips.levitated.20=Es gibt einige Überreste in der Oberwelt. Traurigerweise sind nur Knochen übrig geblieben.
+
+# Menu
+menu.levitated.sponsor.afdian.shown=Unterstütze uns auf Afdian!
+menu.levitated.sponsor.afdian.hidden=Du möchtest uns unterstützen, aber bist in China?
+menu.levitated.sponsor.discord.shown=Tritt unserem Discord Server bei!
+menu.levitated.sponsor.discord.hidden=Suchst du nach Mitspielern?
+menu.levitated.sponsor.patreon.shown=Unterstütze uns auf Patreon!
+menu.levitated.sponsor.patreon.hidden=Du möchtest das Team unterstützen?
+menu.levitated.sponsor.button=Links
+menu.levitated.sponsor.back=Zurück
+menu.levitated.server=Erstelle einen Server

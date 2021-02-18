@@ -71,6 +71,28 @@
         "harvester": {
           "type": "PLAYER",
           "heldItemMainHand": {
+            "type": "WHITELIST",
+            "harvestLevel": "mattock;0;-1"
+          }
+        }
+      },
+      "drops": [
+        {
+          "item": {
+            "items": ["stygian:endlog"]
+          }
+        }
+      ]
+    },
+
+    {
+      "match": {
+        "blocks": {
+          "blocks": ["stygian:endlog"]
+        },
+        "harvester": {
+          "type": "PLAYER",
+          "heldItemMainHand": {
             "type": "BLACKLIST",
             "harvestLevel": "axe;0;-1"
           }

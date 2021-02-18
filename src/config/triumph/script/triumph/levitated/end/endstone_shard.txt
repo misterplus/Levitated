@@ -17,3 +17,5 @@ criteria.addItem(<tconstruct:shard, nbt:{Material: "endstone"}>)
 
 visibleIf("triumph:levitated/end/root")
 setPos(32,67)
+
+setRewardFunction("triumph:starts")

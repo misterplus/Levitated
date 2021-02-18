@@ -317,6 +317,9 @@ advancements.levitated.nether.assembly.description=手搓电路板非常麻烦�
 advancements.levitated.nether.blast_furnace_adv.title=钢到底
 advancements.levitated.nether.blast_furnace_adv.description=你不觉得粗制高炉不能自动化有些徐坤敲门——菜到家了吗？[搭建一台强化高炉]
 
+advancements.levitated.nether.bonsai.title=众盆管理产物多
+advancements.levitated.nether.bonsai.description=靠数量取胜的方法太过无聊，何不试试盆栽盆管理器呢？它能够收集附近盆栽的产物，向它提供魔力，它还会消耗魔力加速附近的活石盆栽盆。[制作一个盆栽盆管理器]
+
 # Overworld
 advancements.levitated.overworld.root.title=日月轮转，星辰闪耀
 advancements.levitated.overworld.root.description=你成功回来了！但现在看来，这里已经完全不适合人类居住了。整个世界仅剩一片虚无，太阳依旧刺眼，但恒星的引力与不稳定的热量将你拒之门外，未来仿佛一片黑暗...
@@ -587,6 +590,8 @@ tooltips.levitated.apple=极低概率掉落于伊甸苹果树叶
 tooltips.levitated.apple_2=好诱人啊...
 tooltips.levitated.cloud=在下世界生成
 tooltips.levitated.orechid.overworld=在任何地方工作
+tooltips.levitated.blaze=其上会生成烈焰人(在下界放置时)
+tooltips.levitated.wither_skeleton=其上会生成凋零骷髅(在下界放置时)
 tooltips.levitated.orechid.nether=仅在下界工作
 tooltips.levitated.orechid.end=仅在末地工作
 tooltips.levitated.key=Blaze Invader(烈焰入侵)词缀已关闭
@@ -613,12 +618,6 @@ description.levitated.globe=由于掉落物刷新机制，最好制作时多准�
 description.levitated.bedrockdust=基岩粉获取方法：在基岩上点火，当火熄灭后(手动或自然熄灭)，基岩粉就会有概率掉落。注意：火焰需要燃烧一段时间，末地基岩上的火不会自然熄灭。
 
 # Unfamiliar Items
-unfamiliar.levitated.blaze_rod=炽热的棍子
-unfamiliar.levitated.blaze_powder=炽热的粉尘
-unfamiliar.levitated.ore_flower_nether=花形地热
-unfamiliar.levitated.ore_flower=硌手的花
-unfamiliar.levitated.ore_flower_nether_floating=离地的‘地’热
-unfamiliar.levitated.ore_flower_floating=羽花石
 unfamiliar.levitated.shard=发光的拉普达碎片
 unfamiliar.levitated.core=带个紫环的黄壳
 unfamiliar.levitated.dragon_spirit=紫色液滴

@@ -124,7 +124,7 @@
     },
 
     "info": {
-      "text": "Levitated 1.5.2\nMinecraft #mcversion#\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
+      "text": "Levitated 1.5.3\nMinecraft #mcversion#\n#modsloaded#/#modsactive# mods loaded/active\nPowered by Forge #forgeversion#",
       "posX": 0,
       "posY": -114,
       "color": -1,
