@@ -93,3 +93,11 @@ recipes.addShaped(<contenttweaker:potion>, [[<extrautils2:drum:1>.withTag({Fluid
 //Dilithium
 recipes.addShapeless(<contenttweaker:dilithium_block>, [<ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>, <ore:gemDilithium>]);
 recipes.addShapeless(<libvulpes:productgem:0> * 9, [<contenttweaker:dilithium_block>]);
+
+//New wooden slabs and stairs
+recipes.addShaped(<contentcreator:end_slab>*6, [[<stygian:endplanks>, <stygian:endplanks>, <stygian:endplanks>]]);
+recipes.addShapedMirrored(<contentcreator:end_stairs>*4, [[<stygian:endplanks>, null, null], [<stygian:endplanks>, <stygian:endplanks>, null], [<stygian:endplanks>, <stygian:endplanks>, <stygian:endplanks>]]);
+recipes.addShapeless(<stygian:endplanks>, [<contentcreator:end_slab>, <contentcreator:end_slab>]);
+
+recipes.addShaped(<contentcreator:menril_planks_slab>*6, [[<integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>]]);
+recipes.addShapeless(<integrateddynamics:menril_planks>, [<contentcreator:menril_planks_slab>, <contentcreator:menril_planks_slab>]);

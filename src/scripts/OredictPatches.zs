@@ -42,3 +42,7 @@
 
 //Warp
 <ore:blockWarpCoreRim>.addItems([<techreborn:storage:2>]);
+
+//New wooden slabs and stairs
+<ore:slabWood>.addItems([<contentcreator:end_slab>, <contentcreator:menril_planks_slab>]);
+<ore:stairWood>.addItems([<contentcreator:end_stairs>]);
