@@ -1,5 +1,5 @@
-tile.contentcreator.end_slab.name=Wyrmwood Slab
-tile.contentcreator.end_stairs.name=Wyrmwood Stairs
+tile.contentcreator.wyrmwood_slab.name=Wyrmwood Slab
+tile.contentcreator.wyrmwood_stairs.name=Wyrmwood Stairs
 tile.contentcreator.menril_planks_slab.name=Menril Wood Slab
 
 tile.contentcreator.end_stone_brick_slab.name=End Stone Brick Slab

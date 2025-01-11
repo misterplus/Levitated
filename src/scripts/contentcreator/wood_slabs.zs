@@ -4,13 +4,13 @@ import contentcreator.block.GenericBlock;
 import crafttweaker.block.IMaterial;
 
 //Wyrmwood
-var wyrmwood_slab = GenericBlock.createSlab(IMaterial.wood(), "end_slab");
+var wyrmwood_slab = GenericBlock.createSlab(IMaterial.wood(), "wyrmwood_slab");
 wyrmwood_slab.setStrength(2.0, 3.0);
 wyrmwood_slab.setSoundType(<soundtype:wood>);
 wyrmwood_slab.setHarvestLevel("axe", 0);
 wyrmwood_slab.register();
 
-var wyrmwood_stairs = GenericBlock.createStairs("end_stairs", <blockstate:minecraft:oak_stairs>);
+var wyrmwood_stairs = GenericBlock.createStairs("wyrmwood_stairs", <blockstate:minecraft:oak_stairs>);
 wyrmwood_stairs.register();
 
 //Menril wood

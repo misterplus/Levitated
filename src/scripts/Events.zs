@@ -35,9 +35,9 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
 					event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
 				}
 			}
-		} else if (event.blockState == <blockstate:contentcreator:end_slab_double>) {
+		} else if (event.blockState == <blockstate:contentcreator:wyrmwood_slab_double>) {
 			for i in 0 .. 2 {
-				event.world.spawnEntity(<contentcreator:end_slab>.createEntityItem(event.world, event.x, event.y, event.z));
+				event.world.spawnEntity(<contentcreator:wyrmwood_slab>.createEntityItem(event.world, event.x, event.y, event.z));
 			}
 		} else if (event.blockState == <blockstate:contentcreator:menril_planks_slab_double>) {
 			for i in 0 .. 2 {
