@@ -23,3 +23,8 @@ var menril_planks_slab_double = <blockstate:contentcreator:menril_planks_slab_do
 menril_planks_slab_double.hardness = 2;
 menril_planks_slab_double.resistance = 3;
 menril_planks_slab_double.setHarvestLevel("axe", 0);
+
+var end_stone_brick_slab_double = <blockstate:contentcreator:end_stone_brick_slab_double>.block.definition;
+end_stone_brick_slab_double.hardness = 1.5;
+end_stone_brick_slab_double.resistance = 9;
+end_stone_brick_slab_double.setHarvestLevel("pickaxe", 0);

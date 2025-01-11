@@ -101,3 +101,8 @@ recipes.addShapeless(<stygian:endplanks>, [<contentcreator:end_slab>, <contentcr
 
 recipes.addShaped(<contentcreator:menril_planks_slab>*6, [[<integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>]]);
 recipes.addShapeless(<integrateddynamics:menril_planks>, [<contentcreator:menril_planks_slab>, <contentcreator:menril_planks_slab>]);
+
+//End Stone Brick Slabs and Stairs
+recipes.addShaped(<contentcreator:end_stone_brick_slab>*6, [[<minecraft:end_bricks>, <minecraft:end_bricks>, <minecraft:end_bricks>]]);
+recipes.addShapedMirrored(<contentcreator:end_stone_brick_stairs>*4, [[<minecraft:end_bricks>, null, null], [<minecraft:end_bricks>, <minecraft:end_bricks>, null], [<minecraft:end_bricks>, <minecraft:end_bricks>, <minecraft:end_bricks>]]);
+recipes.addShapeless(<minecraft:end_bricks>, [<contentcreator:end_stone_brick_slab>, <contentcreator:end_stone_brick_slab>]);

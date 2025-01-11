@@ -43,6 +43,15 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
 			for i in 0 .. 2 {
 				event.world.spawnEntity(<contentcreator:menril_planks_slab>.createEntityItem(event.world, event.x, event.y, event.z));
 			}
+		} else if (event.blockState == <blockstate:contentcreator:end_stone_brick_slab_double>) {
+			for type in event.player.currentItem.toolClasses {
+                if(event.block.definition.isToolEffective(type, event.blockState)) {
+					for i in 0 .. 2 {
+						event.world.spawnEntity(<contentcreator:end_stone_brick_slab>.createEntityItem(event.world, event.x, event.y, event.z));
+					}
+                    return;
+                }
+            }
 		}
 	}
 });
