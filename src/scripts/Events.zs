@@ -39,9 +39,9 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
 			for i in 0 .. 2 {
 				event.world.spawnEntity(<contentcreator:wyrmwood_slab>.createEntityItem(event.world, event.x, event.y, event.z));
 			}
-		} else if (event.blockState == <blockstate:contentcreator:menril_planks_slab_double>) {
+		} else if (event.blockState == <blockstate:contentcreator:menril_slab_double>) {
 			for i in 0 .. 2 {
-				event.world.spawnEntity(<contentcreator:menril_planks_slab>.createEntityItem(event.world, event.x, event.y, event.z));
+				event.world.spawnEntity(<contentcreator:menril_slab>.createEntityItem(event.world, event.x, event.y, event.z));
 			}
 		} else if (event.blockState == <blockstate:contentcreator:end_stone_brick_slab_double>) {
 			for type in event.player.currentItem.toolClasses {

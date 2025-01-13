@@ -44,5 +44,7 @@
 <ore:blockWarpCoreRim>.addItems([<techreborn:storage:2>]);
 
 //New wooden slabs and stairs
-<ore:slabWood>.addItems([<contentcreator:wyrmwood_slab>, <contentcreator:menril_planks_slab>]);
+<ore:slabWood>.addItems([<contentcreator:wyrmwood_slab>, <contentcreator:menril_slab>]);
 <ore:stairWood>.addItems([<contentcreator:wyrmwood_stairs>]);
+<ore:fenceWood>.addItems([<contentcreator:wyrmwood_fence>, <contentcreator:menril_fence>]);
+<ore:fenceGateWood>.addItems([<contentcreator:wyrmwood_fence_gate>, <contentcreator:menril_fence_gate>]);

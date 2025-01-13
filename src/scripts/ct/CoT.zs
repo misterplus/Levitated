@@ -98,9 +98,13 @@ recipes.addShapeless(<libvulpes:productgem:0> * 9, [<contenttweaker:dilithium_bl
 recipes.addShaped(<contentcreator:wyrmwood_slab>*6, [[<stygian:endplanks>, <stygian:endplanks>, <stygian:endplanks>]]);
 recipes.addShapedMirrored(<contentcreator:wyrmwood_stairs>*4, [[<stygian:endplanks>, null, null], [<stygian:endplanks>, <stygian:endplanks>, null], [<stygian:endplanks>, <stygian:endplanks>, <stygian:endplanks>]]);
 recipes.addShapeless(<stygian:endplanks>, [<contentcreator:wyrmwood_slab>, <contentcreator:wyrmwood_slab>]);
+recipes.addShaped(<contentcreator:wyrmwood_fence>*3, [[<stygian:endplanks>, <minecraft:stick>, <stygian:endplanks>], [<stygian:endplanks>, <minecraft:stick>, <stygian:endplanks>]]);
+recipes.addShaped(<contentcreator:wyrmwood_fence_gate>, [[<minecraft:stick>, <stygian:endplanks>, <minecraft:stick>], [<minecraft:stick>, <stygian:endplanks>, <minecraft:stick>]]);
 
-recipes.addShaped(<contentcreator:menril_planks_slab>*6, [[<integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>]]);
-recipes.addShapeless(<integrateddynamics:menril_planks>, [<contentcreator:menril_planks_slab>, <contentcreator:menril_planks_slab>]);
+recipes.addShaped(<contentcreator:menril_slab>*6, [[<integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>, <integrateddynamics:menril_planks>]]);
+recipes.addShapeless(<integrateddynamics:menril_planks>, [<contentcreator:menril_slab>, <contentcreator:menril_slab>]);
+recipes.addShaped(<contentcreator:menril_fence>*3, [[<integrateddynamics:menril_planks>, <minecraft:stick>, <integrateddynamics:menril_planks>], [<integrateddynamics:menril_planks>, <minecraft:stick>, <integrateddynamics:menril_planks>]]);
+recipes.addShaped(<contentcreator:menril_fence_gate>, [[<minecraft:stick>, <integrateddynamics:menril_planks>, <minecraft:stick>], [<minecraft:stick>, <integrateddynamics:menril_planks>, <minecraft:stick>]]);
 
 //End Stone Brick Slabs and Stairs
 recipes.addShaped(<contentcreator:end_stone_brick_slab>*6, [[<minecraft:end_bricks>, <minecraft:end_bricks>, <minecraft:end_bricks>]]);
