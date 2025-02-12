@@ -26,31 +26,12 @@ events.onEnderTeleport(function(event as EnderTeleportEvent) {
 //Also fixes Wyrmwood and menril double slabs not dropping themselves
 static blacklist as IItemStack[] = [<buildinggadgets:buildingtool>, <buildinggadgets:exchangertool>, <buildinggadgets:copypastetool>, <buildinggadgets:destructiontool>] as IItemStack[];
 events.onBlockBreak(function(event as BlockBreakEvent) {
-	if (!event.world.remote && !(event.isPlayer && event.player.creative)) {
-		if (event.blockState == <blockstate:minecraft:end_stone> && event.isPlayer && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(event.player)) {
-			var item = event.player.currentItem;
-			if (isNull(item) || (!item.canHarvestBlock(<blockstate:minecraft:end_stone>) && !(blacklist has item.definition.makeStack()))) {
-				var r = Math.random() * 2 + 2;
-				for i in 0 to r {
-					event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
-				}
-			}
-		} else if (event.blockState == <blockstate:contentcreator:wyrmwood_slab_double>) {
-			for i in 0 .. 2 {
-				event.world.spawnEntity(<contentcreator:wyrmwood_slab>.createEntityItem(event.world, event.x, event.y, event.z));
-			}
-		} else if (event.blockState == <blockstate:contentcreator:menril_slab_double>) {
-			for i in 0 .. 2 {
-				event.world.spawnEntity(<contentcreator:menril_slab>.createEntityItem(event.world, event.x, event.y, event.z));
-			}
-		} else if (event.blockState == <blockstate:contentcreator:end_stone_brick_slab_double>) {
-			for type in event.player.currentItem.toolClasses {
-                if(event.block.definition.isToolEffective(type, event.blockState)) {
-					for i in 0 .. 2 {
-						event.world.spawnEntity(<contentcreator:end_stone_brick_slab>.createEntityItem(event.world, event.x, event.y, event.z));
-					}
-                    return;
-                }
+	if (!event.world.remote && event.blockState == <blockstate:minecraft:end_stone> && event.isPlayer && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(event.player) && event.player.creative == false) {
+		var item = event.player.currentItem;
+		if (isNull(item) || (!item.canHarvestBlock(<blockstate:minecraft:end_stone>) && !(blacklist has item.definition.makeStack()))) {
+			var r = Math.random() * 2 + 2;
+			for i in 0 to r {
+				event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
             }
 		}
 	}
