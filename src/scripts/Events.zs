@@ -18,11 +18,12 @@ import scripts.ct.Function;
 //every ender teleport now creates a extraterrestrail matter on the ground
 events.onEnderTeleport(function(event as EnderTeleportEvent) {
 	if (!event.entityLivingBase.world.remote && event.entityLivingBase instanceof IPlayer) {
-		event.entityLivingBase.world.spawnEntity(<deepmoblearning:living_matter_extraterrestrial>.createEntityItem(event.entityLivingBase.world, event.targetX, event.targetY, event.targetZ));
+		event.entityLivingBase.world.spawnEntity(<deepmoblearning:living_matter_extraterrestrial>.createEntityItem(event.entityLivingBase.world, event.targetX as float, event.targetY as float, event.targetZ as float));
 	}
 });
 
 //breaking endstone with hands now drops endstone shards
+//Also fixes Wyrmwood and menril double slabs not dropping themselves
 static blacklist as IItemStack[] = [<buildinggadgets:buildingtool>, <buildinggadgets:exchangertool>, <buildinggadgets:copypastetool>, <buildinggadgets:destructiontool>] as IItemStack[];
 events.onBlockBreak(function(event as BlockBreakEvent) {
 	if (!event.world.remote && event.blockState == <blockstate:minecraft:end_stone> && event.isPlayer && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(event.player) && event.player.creative == false) {
@@ -87,7 +88,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
 		if data has "FallingDistance" {
 			var distance = data.memberGet("FallingDistance") as int;
 			if distance >= 100 {
-				event.player.world.spawnEntity(<minecraft:feather>.withTag({EasterEgg: 1}).createEntityItem(event.player.world, player.x, 255, player.z));
+				event.player.world.spawnEntity(<minecraft:feather>.withTag({EasterEgg: 1}).createEntityItem(event.player.world, player.x as float, 255 as float, player.z as float));
 				player.update(data + {"FallingDistance": distance - 100});
 			}
 		}

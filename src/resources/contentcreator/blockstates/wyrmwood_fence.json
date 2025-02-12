@@ -1,0 +1,44 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "transform":"forge:default-block",
+		"model":"fence_post",
+        "textures": {
+            "texture": "stygian:block/endplanks"
+        }
+    },
+    "variants": {
+        "north": {
+            "true": {
+                "submodel": {
+                    "side_north": {"model": "fence_side", "uvlock": true}
+                }
+            },
+            "false": {}
+        },
+        "east": {
+            "true": {
+                "submodel": {
+                    "side_east": {"model": "fence_side", "y": 90, "uvlock": true}
+                }
+            },
+            "false": {}
+        },
+        "south": {
+            "true": {
+                "submodel": {
+                    "side_south": {"model": "fence_side", "y": 180, "uvlock": true}
+                }
+            },
+            "false": {}
+        },
+        "west": {
+            "true": {
+                "submodel": {
+                    "side_west": {"model": "fence_side", "y": 270, "uvlock": true}
+                }
+            },
+            "false": {}
+        }
+    }
+}

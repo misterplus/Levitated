@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "stygian:block/endplanks",
+        "top": "stygian:block/endplanks",
+        "side": "stygian:block/endplanks"
+    }
+}

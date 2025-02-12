@@ -1,0 +1,22 @@
+{
+	"forge_marker":1,
+	"defaults":{
+		"transform":"forge:default-block",
+		"model":"half_slab",
+		"textures":{
+			"top":"stygian:block/endplanks",
+			"bottom":"stygian:block/endplanks",
+			"side":"stygian:block/endplanks"
+		}
+	},
+	"variants":{
+		"half":{
+			"bottom":{},
+			"top":{"model":"upper_slab"}
+		},
+		"variant":{
+			"normal":{}
+		},
+		"inventory":[{}]
+	}
+}
