@@ -32,7 +32,7 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
 			var r = Math.random() * 2 + 2;
 			for i in 0 to r {
 				event.world.spawnEntity(<tconstruct:shard>.withTag({Material: "endstone"}).createEntityItem(event.world, event.x, event.y, event.z));
-            }
+			}
 		}
 	}
 });
