@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import mods.integrateddynamics.Squeezer;
+import mods.integrateddynamics.MechanicalSqueezer;
 import mods.advancedrocketry.RollingMachine;
 import mods.advancedrocketry.ArcFurnace;
 import mods.techreborn.plateBendingMachine;
@@ -135,6 +136,10 @@ Squeezer.addRecipe(<netherendingores:ore_end_vanilla:0>, <minecraft:coal:0> * 4,
 Squeezer.addRecipe(<netherendingores:ore_end_vanilla:6>, <minecraft:redstone> * 8, 1.0, <minecraft:redstone> * 2, 0.5, <minecraft:redstone> * 2, 0.5);
 Squeezer.addRecipe(<netherendingores:ore_end_vanilla:5>, <minecraft:dye:4> * 8, 1.0, <minecraft:dye:4> * 2, 0.5, <minecraft:dye:4> * 2, 0.5);
 Squeezer.addRecipe(<netherendingores:ore_end_vanilla:1>, <minecraft:diamond>, 1.0, <minecraft:diamond>, 0.75);
+MechanicalSqueezer.addRecipe(<netherendingores:ore_end_vanilla:0>, <minecraft:coal:0> * 6, 1.0, <minecraft:coal:0>, 0.5);
+MechanicalSqueezer.addRecipe(<netherendingores:ore_end_vanilla:6>, <minecraft:redstone> * 12, 1.0, <minecraft:redstone> * 2, 0.5);
+MechanicalSqueezer.addRecipe(<netherendingores:ore_end_vanilla:5>, <minecraft:dye:4> * 12, 1.0, <minecraft:dye:4> * 2, 0.5);
+MechanicalSqueezer.addRecipe(<netherendingores:ore_end_vanilla:1>, <minecraft:diamond> * 2, 1.0, <minecraft:diamond>, 0.50);
 Function.rodding(<ore:ingotAluminum>, <immersiveengineering:material:3>);
 Function.rodding(<ore:ingotIron>, <immersiveengineering:material:1>);
 Function.rodding(<ore:ingotSteel>, <immersiveengineering:material:2>);
