@@ -17,6 +17,20 @@ InductionSmelter.removeRecipe(<thermalfoundation:material:866>, <thermalfoundati
 Pulverizer.removeRecipe(<thermalfoundation:ore:5>);
 Pulverizer.removeRecipe(<thermalfoundation:ore:7>);
 
+//Dupe Bug
+InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:hopper>); //can be crafted using iron alloy
+InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:bucket>); //the rest of these are rolling machine dupes
+InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:minecart>);
+InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:chest_minecart>);
+InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:furnace_minecart>);
+InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:hopper_minecart>);
+InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:rail>);
+InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:golden_rail>);
+InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:light_weighted_pressure_plate>);
+InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:heavy_weighted_pressure_plate>);
+InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:iron_door>);
+InductionSmelter.removeRecipe(<minecraft:sand>, <minecraft:iron_bars>);
+Pulverizer.removeRecipe(<techreborn:dynamiccell>);
 
 //add
 var coils = [<thermalfoundation:material:513>, <thermalfoundation:material:514>, <thermalfoundation:material:515>] as IItemStack[];
